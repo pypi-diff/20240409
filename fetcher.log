@@ -1625,3 +1625,12 @@
 [2024-04-09 01:09:31] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.5.4-py3-none-any.whl.zip]
 [2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [surge-api]: success
 [2024-04-09 01:09:31] INFO root fetch - main [MainThread]: Store serial: [22674283]
+[2024-04-09 01:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674283]
+[2024-04-09 01:11:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intropy
+[2024-04-09 01:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaspad-client
+[2024-04-09 01:11:40] WARNING root fetch - processPackages [kaspad-client]: Skipping, unable to determine old version
+[2024-04-09 01:11:40] INFO root fetch - main [MainThread]: End processing [kaspad-client] error
+[2024-04-09 01:11:40] WARNING root fetch - processPackages [intropy]: Skipping, unable to determine old version
+[2024-04-09 01:11:40] INFO root fetch - main [MainThread]: End processing [intropy] error
+[2024-04-09 01:11:40] INFO root fetch - main [MainThread]: Store serial: [22674293]
