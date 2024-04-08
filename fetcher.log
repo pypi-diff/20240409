@@ -1456,3 +1456,42 @@
 [2024-04-09 01:02:59] INFO root fetch - processPackages [kolibri-light]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_light-0.3.0-py3-none-any.whl.zip]
 [2024-04-09 01:02:59] INFO root fetch - main [MainThread]: End processing [kolibri-light]: success
 [2024-04-09 01:02:59] INFO root fetch - main [MainThread]: Store serial: [22674240]
+[2024-04-09 01:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674240]
+[2024-04-09 01:05:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaspad
+[2024-04-09 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: identity-trace-python-agent
+[2024-04-09 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shdo
+[2024-04-09 01:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-quality-rules-tools
+[2024-04-09 01:05:08] INFO root fetch - processPackages [shdo]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 01:05:08] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/5d/eb/7e88c738448370c79f1f3cbfa10b934ce47686ed30d78472b21204ec5b9e/shdo-0.0.7.tar.gz
+[2024-04-09 01:05:08] INFO root fetch - processPackages [identity-trace-python-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-09 01:05:08] WARNING root fetch - processPackages [kaspad]: Skipping, unable to determine old version
+[2024-04-09 01:05:08] INFO root fetch - main [MainThread]: End processing [kaspad] error
+[2024-04-09 01:05:08] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 01:05:08] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:05:08] INFO root fetch - processPackages [identity-trace-python-agent]: Downloading https://files.pythonhosted.org/packages/df/41/73dc6055b6639934580b6f3ae4e17cb924637eebfac8e979be9b2ec707f1/identity-trace-python-agent-1.0.5.tar.gz
+[2024-04-09 01:05:08] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/71/56/ecec9b4ede326cd50adfa0a49c707dfcd76e908e217b036530a3e8647779/shdo-0.0.8.tar.gz
+[2024-04-09 01:05:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/dd/8f/d84b177ebcdc0ffb3ee9f4aaf22feec2fb8f4fe820fc7b2e34c8b56d73d3/spark_quality_rules_tools-0.9.8.tar.gz
+[2024-04-09 01:05:09] WARNING root fetch - processPackages [identity-trace-python-agent]: Timeout reached during download
+[2024-04-09 01:05:09] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:05:09] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-09 01:05:09] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.7.tar.gz tmp/shdo-0.0.8.tar.gz --markdown 20240409/s/shdo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 01:05:09] WARNING root fetch - processPackages [spark-quality-rules-tools]: Timeout reached during download
+[2024-04-09 01:05:09] INFO root fetch - processPackages [identity-trace-python-agent]: Downloading https://files.pythonhosted.org/packages/df/db/dba9487f1346fd3623826de8af5565c798dd58cb4486f5d14a07a7c9c69d/identity-trace-python-agent-1.0.6.tar.gz
+[2024-04-09 01:05:09] WARNING root fetch - processPackages [identity-trace-python-agent]: Timeout reached during download
+[2024-04-09 01:05:09] INFO root fetch - processPackages [identity-trace-python-agent]: executing diffoscope
+[2024-04-09 01:05:09] INFO root fetch - processPackages [identity-trace-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/identity-trace-python-agent-1.0.5.tar.gz tmp/identity-trace-python-agent-1.0.6.tar.gz --markdown 20240409/i/identity-trace-python-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-09 01:05:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/45/86/8809fb99413b096088b404d66129a416e8dedbe3fea1ba8880c02a551150/spark_quality_rules_tools-0.9.9.tar.gz
+[2024-04-09 01:05:09] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.7.tar.gz]
+[2024-04-09 01:05:09] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.8.tar.gz]
+[2024-04-09 01:05:09] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-09 01:05:09] WARNING root fetch - processPackages [spark-quality-rules-tools]: Timeout reached during download
+[2024-04-09 01:05:09] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2024-04-09 01:05:09] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.9.8.tar.gz tmp/spark_quality_rules_tools-0.9.9.tar.gz --markdown 20240409/s/spark-quality-rules-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 01:05:09] INFO root fetch - processPackages [identity-trace-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/identity-trace-python-agent-1.0.5.tar.gz]
+[2024-04-09 01:05:09] INFO root fetch - processPackages [identity-trace-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/identity-trace-python-agent-1.0.6.tar.gz]
+[2024-04-09 01:05:09] INFO root fetch - main [MainThread]: End processing [identity-trace-python-agent]: success
+[2024-04-09 01:05:10] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.8.tar.gz]
+[2024-04-09 01:05:10] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.9.tar.gz]
+[2024-04-09 01:05:10] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2024-04-09 01:05:10] INFO root fetch - main [MainThread]: Store serial: [22674250]
