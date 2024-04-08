@@ -2272,3 +2272,42 @@
 [2024-04-09 01:34:05] WARNING root fetch - processPackages [kaspad-client]: Skipping, unable to determine old version
 [2024-04-09 01:34:05] INFO root fetch - main [MainThread]: End processing [kaspad-client] error
 [2024-04-09 01:34:05] INFO root fetch - main [MainThread]: Store serial: [22674567]
+[2024-04-09 01:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674567]
+[2024-04-09 01:36:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 01:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms-client
+[2024-04-09 01:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-dlp
+[2024-04-09 01:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testrepository
+[2024-04-09 01:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: schwab-python-api
+[2024-04-09 01:36:14] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.7.232657.dev0] Old Version: [2024.4.6.232655.dev0]
+[2024-04-09 01:36:14] INFO root fetch - processPackages [testrepository]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:36:14] INFO root fetch - processPackages [lollms-client]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-04-09 01:36:14] WARNING root fetch - processPackages [schwab-python-api]: Skipping, unable to determine old version
+[2024-04-09 01:36:14] INFO root fetch - main [MainThread]: End processing [schwab-python-api] error
+[2024-04-09 01:36:14] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/a0/be/b7cb4fc747d070a6dc2c649dd9e3de365fa90dc950f116c35003ba22e1e1/yt_dlp-2024.4.6.232655.dev0.tar.gz
+[2024-04-09 01:36:14] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/16/17/401a392d78242e51d034b4137553bc2cf42dd5145af006ae77deedb8c733/lollms_client-0.0.7.tar.gz
+[2024-04-09 01:36:14] WARNING root fetch - processPackages [lollms-client]: Timeout reached during download
+[2024-04-09 01:36:14] INFO root fetch - processPackages [testrepository]: Downloading https://files.pythonhosted.org/packages/90/6b/8904462ef8439f973eb87dc85d24c9cc7c6e9ee9a68f8cfb8c58ce8888e2/testrepository-0.0.8.tar.gz
+[2024-04-09 01:36:15] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/e2/4f/cff86f000139feb23002f9898691e89ce210e43ecd2a7366599ad2e7a625/lollms_client-0.1.0.tar.gz
+[2024-04-09 01:36:15] WARNING root fetch - processPackages [testrepository]: Timeout reached during download
+[2024-04-09 01:36:15] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-09 01:36:15] WARNING root fetch - processPackages [lollms-client]: Timeout reached during download
+[2024-04-09 01:36:15] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-04-09 01:36:15] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.0.7.tar.gz tmp/lollms_client-0.1.0.tar.gz --markdown 20240409/l/lollms-client/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 01:36:15] INFO root fetch - processPackages [testrepository]: Downloading https://files.pythonhosted.org/packages/af/9a/5056525d1fa87a40e64011e361e6d9cb7646da057e8f51d00870a93f07c0/testrepository-0.0.9.tar.gz
+[2024-04-09 01:36:15] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/99/fd/0ec9d18c7f69fd9b1f0feb4d21aa02874b65234e9768faeb0692d75cda8e/yt_dlp-2024.4.7.232657.dev0.tar.gz
+[2024-04-09 01:36:15] WARNING root fetch - processPackages [testrepository]: Timeout reached during download
+[2024-04-09 01:36:15] INFO root fetch - processPackages [testrepository]: executing diffoscope
+[2024-04-09 01:36:15] INFO root fetch - processPackages [testrepository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testrepository-0.0.8.tar.gz tmp/testrepository-0.0.9.tar.gz --markdown 20240409/t/testrepository/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:36:15] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.0.7.tar.gz]
+[2024-04-09 01:36:15] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.1.0.tar.gz]
+[2024-04-09 01:36:15] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-04-09 01:36:15] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-09 01:36:15] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-09 01:36:15] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.6.232655.dev0.tar.gz tmp/yt_dlp-2024.4.7.232657.dev0.tar.gz --markdown 20240409/y/yt-dlp/2024.4.6.232655.dev0-2024.4.7.232657.dev0/diff.md --exclude *.pyd
+[2024-04-09 01:36:16] INFO root fetch - processPackages [testrepository]: Remove: archive file [/home/abi/fetcher/tmp/testrepository-0.0.8.tar.gz]
+[2024-04-09 01:36:16] INFO root fetch - processPackages [testrepository]: Remove: archive file [/home/abi/fetcher/tmp/testrepository-0.0.9.tar.gz]
+[2024-04-09 01:36:16] INFO root fetch - main [MainThread]: End processing [testrepository]: success
+[2024-04-09 01:36:21] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.6.232655.dev0.tar.gz]
+[2024-04-09 01:36:21] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.7.232657.dev0.tar.gz]
+[2024-04-09 01:36:21] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-09 01:36:21] INFO root fetch - main [MainThread]: Store serial: [22674581]
