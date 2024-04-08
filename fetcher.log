@@ -991,3 +991,61 @@
 [2024-04-09 00:47:38] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.9.tar.gz]
 [2024-04-09 00:47:38] INFO root fetch - main [MainThread]: End processing [optimum-neuron]: success
 [2024-04-09 00:47:38] INFO root fetch - main [MainThread]: Store serial: [22674117]
+[2024-04-09 00:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674117]
+[2024-04-09 00:49:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-09 00:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674117]
+[2024-04-09 00:51:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 00:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextconsole
+[2024-04-09 00:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextconsole
+[2024-04-09 00:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamdl
+[2024-04-09 00:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rancher2
+[2024-04-09 00:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pixeltable
+[2024-04-09 00:51:53] INFO root fetch - processPackages [gamdl]: New version: [2.1] Old Version: [2.0]
+[2024-04-09 00:51:53] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 00:51:53] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 00:51:53] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1712401909] Old Version: [6.2.0a1711741665]
+[2024-04-09 00:51:53] INFO root fetch - processPackages [pixeltable]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 00:51:53] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/93/7f/c04a9404575a2334b2c3c66d3c3851d24936c663a54d79012eb8cdf7b852/pulumi_rancher2-6.2.0a1711741665.tar.gz
+[2024-04-09 00:51:53] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/fb/f9/40ea2575b7d4b334518bb5badc39680618e903f72839343bf5e4ca30e3dd/gamdl-2.0.tar.gz
+[2024-04-09 00:51:53] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 00:51:53] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 00:51:53] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 00:51:53] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:51:53] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:51:53] WARNING root fetch - processPackages [pulumi-rancher2]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/3b/74/a6ca999877b1ef557add7375a0ec64224125792829bb3639d435bb9eee36/pixeltable-0.2.2.tar.gz
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/cd/be/dc90ae5b40eff036bbc5a2a263bb73bbe07093698afae69ea38a50ee9648/pulumi_rancher2-6.2.0a1712401909.tar.gz
+[2024-04-09 00:51:54] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/29/75/4a4bf3c2e8ae47b744e7eca2547ae7076a1b2ed6d2777aafd9de98ce0a87/gamdl-2.1.tar.gz
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-09 00:51:54] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.0.tar.gz tmp/gamdl-2.1.tar.gz --markdown 20240409/g/gamdl/2.0-2.1/diff.md --exclude *.pyd
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [pulumi-rancher2]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1711741665.tar.gz tmp/pulumi_rancher2-6.2.0a1712401909.tar.gz --markdown 20240409/p/pulumi-rancher2/6.2.0a1711741665-6.2.0a1712401909/diff.md --exclude *.pyd
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/b7/4f/3fc369f66993aa7b49f1dbde1655a11b0899b0a45d2e33d4bd95096b4bb7/pixeltable-0.2.3.tar.gz
+[2024-04-09 00:51:54] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pixeltable]: executing diffoscope
+[2024-04-09 00:51:54] INFO root fetch - processPackages [pixeltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeltable-0.2.2.tar.gz tmp/pixeltable-0.2.3.tar.gz --markdown 20240409/p/pixeltable/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 00:51:54] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 00:51:54] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 00:51:54] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 00:51:54] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.0.tar.gz]
+[2024-04-09 00:51:54] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.tar.gz]
+[2024-04-09 00:51:54] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-09 00:51:55] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.2.tar.gz]
+[2024-04-09 00:51:55] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.3.tar.gz]
+[2024-04-09 00:51:55] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
+[2024-04-09 00:51:56] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1711741665.tar.gz]
+[2024-04-09 00:51:56] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1712401909.tar.gz]
+[2024-04-09 00:51:56] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-04-09 00:51:56] INFO root fetch - main [MainThread]: Store serial: [22674130]
