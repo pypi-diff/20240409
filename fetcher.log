@@ -2472,3 +2472,31 @@
 [2024-04-09 01:45:03] INFO root fetch - processPackages [tinyrl]: Remove: archive file [/home/abi/fetcher/tmp/tinyrl-0.2.0.tar.gz]
 [2024-04-09 01:45:03] INFO root fetch - main [MainThread]: End processing [tinyrl]: success
 [2024-04-09 01:45:03] INFO root fetch - main [MainThread]: Store serial: [22674622]
+[2024-04-09 01:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674622]
+[2024-04-09 01:47:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cheroot
+[2024-04-09 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaud
+[2024-04-09 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moesif-aiohttp
+[2024-04-09 01:47:13] WARNING root fetch - processPackages [moesif-aiohttp]: Skipping, unable to determine old version
+[2024-04-09 01:47:13] INFO root fetch - main [MainThread]: End processing [moesif-aiohttp] error
+[2024-04-09 01:47:13] INFO root fetch - processPackages [cheroot]: New version: [9.0.0] Old Version: [8.6.0]
+[2024-04-09 01:47:13] INFO root fetch - processPackages [pyaud]: New version: [7.5.1] Old Version: [7.5.0]
+[2024-04-09 01:47:13] INFO root fetch - processPackages [cheroot]: Downloading https://files.pythonhosted.org/packages/99/c4/9b5ca09208047f2689c24ee63e195aa01ceffb7857d715cabc046559ddd6/cheroot-8.6.0.tar.gz
+[2024-04-09 01:47:13] INFO root fetch - processPackages [pyaud]: Downloading https://files.pythonhosted.org/packages/0a/87/4b0bb52062fa731a039d738850bcf4f97e28a46e2ca7f7e0a94935e9da9f/pyaud-7.5.0.tar.gz
+[2024-04-09 01:47:13] WARNING root fetch - processPackages [cheroot]: Timeout reached during download
+[2024-04-09 01:47:13] WARNING root fetch - processPackages [pyaud]: Timeout reached during download
+[2024-04-09 01:47:13] INFO root fetch - processPackages [cheroot]: Downloading https://files.pythonhosted.org/packages/8c/e7/8e6387d59a352c5799e917a23e7b76771a8bb97322c1ce7e42934d0066c3/cheroot-9.0.0.tar.gz
+[2024-04-09 01:47:13] INFO root fetch - processPackages [pyaud]: Downloading https://files.pythonhosted.org/packages/05/8f/e7fba729d51f19a0517fb8e86533f423c691bf3201e9367fc3dd5b7c9c7c/pyaud-7.5.1.tar.gz
+[2024-04-09 01:47:13] WARNING root fetch - processPackages [cheroot]: Timeout reached during download
+[2024-04-09 01:47:13] INFO root fetch - processPackages [cheroot]: executing diffoscope
+[2024-04-09 01:47:13] INFO root fetch - processPackages [cheroot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheroot-8.6.0.tar.gz tmp/cheroot-9.0.0.tar.gz --markdown 20240409/c/cheroot/8.6.0-9.0.0/diff.md --exclude *.pyd
+[2024-04-09 01:47:13] WARNING root fetch - processPackages [pyaud]: Timeout reached during download
+[2024-04-09 01:47:13] INFO root fetch - processPackages [pyaud]: executing diffoscope
+[2024-04-09 01:47:13] INFO root fetch - processPackages [pyaud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaud-7.5.0.tar.gz tmp/pyaud-7.5.1.tar.gz --markdown 20240409/p/pyaud/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2024-04-09 01:47:14] INFO root fetch - processPackages [pyaud]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-7.5.0.tar.gz]
+[2024-04-09 01:47:14] INFO root fetch - processPackages [pyaud]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-7.5.1.tar.gz]
+[2024-04-09 01:47:14] INFO root fetch - main [MainThread]: End processing [pyaud]: success
+[2024-04-09 01:47:14] INFO root fetch - processPackages [cheroot]: Remove: archive file [/home/abi/fetcher/tmp/cheroot-8.6.0.tar.gz]
+[2024-04-09 01:47:14] INFO root fetch - processPackages [cheroot]: Remove: archive file [/home/abi/fetcher/tmp/cheroot-9.0.0.tar.gz]
+[2024-04-09 01:47:14] INFO root fetch - main [MainThread]: End processing [cheroot]: success
+[2024-04-09 01:47:14] INFO root fetch - main [MainThread]: Store serial: [22674631]
