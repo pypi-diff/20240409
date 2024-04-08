@@ -2500,3 +2500,67 @@
 [2024-04-09 01:47:14] INFO root fetch - processPackages [cheroot]: Remove: archive file [/home/abi/fetcher/tmp/cheroot-9.0.0.tar.gz]
 [2024-04-09 01:47:14] INFO root fetch - main [MainThread]: End processing [cheroot]: success
 [2024-04-09 01:47:14] INFO root fetch - main [MainThread]: Store serial: [22674631]
+[2024-04-09 01:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674631]
+[2024-04-09 01:49:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sr-invoice-parser
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperdrivepy
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timer-for-python
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apifaker
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaspad-client
+[2024-04-09 01:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libsrg
+[2024-04-09 01:49:23] INFO root fetch - processPackages [libsrg]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 01:49:23] INFO root fetch - processPackages [kaspad-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-09 01:49:23] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc1] Old Version: [2.8.0rc0]
+[2024-04-09 01:49:23] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/bf/c3/0b2debd1ecfd2a21580c808d6985aee7801e713cdd1b33e75c1ce83f3bb9/libsrg-4.0.0-py3-none-any.whl
+[2024-04-09 01:49:23] WARNING root fetch - processPackages [sr-invoice-parser]: Skipping, unable to determine old version
+[2024-04-09 01:49:23] INFO root fetch - main [MainThread]: End processing [sr-invoice-parser] error
+[2024-04-09 01:49:23] INFO root fetch - processPackages [timer-for-python]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-09 01:49:23] WARNING root fetch - processPackages [apifaker]: Skipping, unable to determine old version
+[2024-04-09 01:49:23] INFO root fetch - main [MainThread]: End processing [apifaker] error
+[2024-04-09 01:49:23] INFO root fetch - processPackages [hyperdrivepy]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-04-09 01:49:23] INFO root fetch - processPackages [kaspad-client]: Downloading https://files.pythonhosted.org/packages/2b/ba/cf8832b1198630697ccdbdffb3eee6068f4b512eca1a22bdb6eb8dea64de/kaspad_client-1.0.1.tar.gz
+[2024-04-09 01:49:23] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/9b/0f/6e676870b3338c7abb2534348e0cca0e07f09eda0ff7f8234e0875df0af0/rime_sdk-2.8.0rc0.tar.gz
+[2024-04-09 01:49:23] WARNING root fetch - processPackages [libsrg]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [timer-for-python]: Downloading https://files.pythonhosted.org/packages/02/29/61b5368ced8af7ef71354aaaf5b725461e6036993945bace11de9e789db3/timer-for-python-0.7.2.tar.gz
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [kaspad-client]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/ce/0e/dc9a749bc823239ea23addec54ac5fb1fe67442012d144776b7aaf04e4a4/hyperdrivepy-0.9.0.tar.gz
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/01/d2/ffd207de505b14835d31f1d9318ecdc87c200ead63d831a847bc92f124cd/libsrg-4.0.1-py3-none-any.whl
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [hyperdrivepy]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/65/e4/969e8269f0ae6bb56b89acde015864a897fa96b1936c6e41014bc52051ba/rime_sdk-2.8.0rc1.tar.gz
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [timer-for-python]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [kaspad-client]: Downloading https://files.pythonhosted.org/packages/5a/01/2eca2c46fff996eea74d7d6b5fd84006ce44f2a56294f671166b27061960/kaspad_client-1.0.2.tar.gz
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [libsrg]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-04-09 01:49:24] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.0.0-py3-none-any.whl.zip tmp/libsrg-4.0.1-py3-none-any.whl.zip --markdown 20240409/l/libsrg/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [kaspad-client]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [kaspad-client]: executing diffoscope
+[2024-04-09 01:49:24] INFO root fetch - processPackages [kaspad-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaspad_client-1.0.1.tar.gz tmp/kaspad_client-1.0.2.tar.gz --markdown 20240409/k/kaspad-client/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-09 01:49:24] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/6b/7c/c15799fc76eb63dbfd0bf2e6b43dcc670a47241c5bed9368175be841be11/hyperdrivepy-0.9.2.tar.gz
+[2024-04-09 01:49:24] INFO root fetch - processPackages [timer-for-python]: Downloading https://files.pythonhosted.org/packages/c2/e2/c980e82d9252bc7d78ff572606d8d9a245aaf50c6381bc00a71221cb0f71/timer-for-python-0.7.3.tar.gz
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-09 01:49:24] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc0.tar.gz tmp/rime_sdk-2.8.0rc1.tar.gz --markdown 20240409/r/rime-sdk/2.8.0rc0-2.8.0rc1/diff.md --exclude *.pyd
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [hyperdrivepy]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [hyperdrivepy]: executing diffoscope
+[2024-04-09 01:49:24] INFO root fetch - processPackages [hyperdrivepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrivepy-0.9.0.tar.gz tmp/hyperdrivepy-0.9.2.tar.gz --markdown 20240409/h/hyperdrivepy/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2024-04-09 01:49:24] WARNING root fetch - processPackages [timer-for-python]: Timeout reached during download
+[2024-04-09 01:49:24] INFO root fetch - processPackages [timer-for-python]: executing diffoscope
+[2024-04-09 01:49:24] INFO root fetch - processPackages [timer-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-for-python-0.7.2.tar.gz tmp/timer-for-python-0.7.3.tar.gz --markdown 20240409/t/timer-for-python/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2024-04-09 01:49:25] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.0.0-py3-none-any.whl.zip]
+[2024-04-09 01:49:25] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.0.1-py3-none-any.whl.zip]
+[2024-04-09 01:49:25] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-04-09 01:49:25] INFO root fetch - processPackages [kaspad-client]: Remove: archive file [/home/abi/fetcher/tmp/kaspad_client-1.0.1.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - processPackages [kaspad-client]: Remove: archive file [/home/abi/fetcher/tmp/kaspad_client-1.0.2.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - main [MainThread]: End processing [kaspad-client]: success
+[2024-04-09 01:49:25] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-0.9.0.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-0.9.2.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
+[2024-04-09 01:49:25] INFO root fetch - processPackages [timer-for-python]: Remove: archive file [/home/abi/fetcher/tmp/timer-for-python-0.7.2.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - processPackages [timer-for-python]: Remove: archive file [/home/abi/fetcher/tmp/timer-for-python-0.7.3.tar.gz]
+[2024-04-09 01:49:25] INFO root fetch - main [MainThread]: End processing [timer-for-python]: success
+[2024-04-09 01:49:26] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
+[2024-04-09 01:49:26] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc1.tar.gz]
+[2024-04-09 01:49:26] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-09 01:49:26] INFO root fetch - main [MainThread]: Store serial: [22674656]
