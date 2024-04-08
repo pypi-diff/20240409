@@ -2078,3 +2078,17 @@
 [2024-04-09 01:20:37] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a9.tar.gz]
 [2024-04-09 01:20:37] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-04-09 01:20:37] INFO root fetch - main [MainThread]: Store serial: [22674480]
+[2024-04-09 01:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674480]
+[2024-04-09 01:23:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 01:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-metadata-service
+[2024-04-09 01:23:11] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-09 01:23:11] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/34/35/c02f8b44914d6a85f1023defeda0fe5ddd5fe80fc706a609e07dfc6a3845/aind_metadata_service-0.9.2.tar.gz
+[2024-04-09 01:23:11] WARNING root fetch - processPackages [aind-metadata-service]: Timeout reached during download
+[2024-04-09 01:23:11] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/8d/21/4002c1a012a7d5ba809815a5f290da4eb533b72db75fac51db8980b8a36f/aind_metadata_service-0.9.3.tar.gz
+[2024-04-09 01:23:11] WARNING root fetch - processPackages [aind-metadata-service]: Timeout reached during download
+[2024-04-09 01:23:11] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2024-04-09 01:23:11] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.9.2.tar.gz tmp/aind_metadata_service-0.9.3.tar.gz --markdown 20240409/a/aind-metadata-service/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-09 01:23:12] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.2.tar.gz]
+[2024-04-09 01:23:12] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.3.tar.gz]
+[2024-04-09 01:23:12] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2024-04-09 01:23:12] INFO root fetch - main [MainThread]: Store serial: [22674520]
