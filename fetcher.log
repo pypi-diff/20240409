@@ -919,3 +919,50 @@
 [2024-04-09 00:43:18] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
 [2024-04-09 00:43:18] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-04-09 00:43:18] INFO root fetch - main [MainThread]: Store serial: [22674099]
+[2024-04-09 00:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674099]
+[2024-04-09 00:45:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 00:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartesify-backend
+[2024-04-09 00:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hidebound
+[2024-04-09 00:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopsdriver
+[2024-04-09 00:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkatlas
+[2024-04-09 00:45:26] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:45:26] INFO root fetch - processPackages [checkatlas]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-09 00:45:26] INFO root fetch - processPackages [hidebound]: New version: [0.9.7] Old Version: [0.9.2]
+[2024-04-09 00:45:26] INFO root fetch - processPackages [devopsdriver]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-04-09 00:45:26] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-09 00:45:26] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/7d/d1/01028ef317cc6109bc38673fc03c5d8e4d4eaac1b1679adea41015511375/checkatlas-0.4.5.tar.gz
+[2024-04-09 00:45:26] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/e3/82/d240824016e19ffc99cd02a004c156d01d6d29f8cdb8de9bd8c3e1bfba9e/hidebound-0.9.2.tar.gz
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [hidebound]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/d1/fb/fd56df30c30a6a49fc049a13afcc820a188bbf930538343f60472009878d/devopsdriver-0.1.40.tar.gz
+[2024-04-09 00:45:27] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/b5/1c/690f949fb65091e7d7aa80db117303ea172f1a7d194c9f8d4fbb5d0ff73d/hidebound-0.9.7.tar.gz
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [devopsdriver]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/23/7e/1b2caa6a7ce05bbf4916017404ec3490b867d221faa08de7d5720e1f9f2e/checkatlas-0.4.6.tar.gz
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [hidebound]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [hidebound]: executing diffoscope
+[2024-04-09 00:45:27] INFO root fetch - processPackages [hidebound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidebound-0.9.2.tar.gz tmp/hidebound-0.9.7.tar.gz --markdown 20240409/h/hidebound/0.9.2-0.9.7/diff.md --exclude *.pyd
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 00:45:27] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.5.tar.gz tmp/checkatlas-0.4.6.tar.gz --markdown 20240409/c/checkatlas/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2024-04-09 00:45:27] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-09 00:45:27] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/cc/a3/644208b4e7ceb485560fc46d98c4d425ef803a2552fd18ac6c2d2bba08e1/devopsdriver-0.1.41.tar.gz
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-09 00:45:27] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240409/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:45:27] WARNING root fetch - processPackages [devopsdriver]: Timeout reached during download
+[2024-04-09 00:45:27] INFO root fetch - processPackages [devopsdriver]: executing diffoscope
+[2024-04-09 00:45:27] INFO root fetch - processPackages [devopsdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsdriver-0.1.40.tar.gz tmp/devopsdriver-0.1.41.tar.gz --markdown 20240409/d/devopsdriver/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2024-04-09 00:45:27] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.5.tar.gz]
+[2024-04-09 00:45:27] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.6.tar.gz]
+[2024-04-09 00:45:27] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 00:45:28] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-09 00:45:28] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.2.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.7.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - main [MainThread]: End processing [hidebound]: success
+[2024-04-09 00:45:28] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.40.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.41.tar.gz]
+[2024-04-09 00:45:28] INFO root fetch - main [MainThread]: End processing [devopsdriver]: success
+[2024-04-09 00:45:28] INFO root fetch - main [MainThread]: Store serial: [22674111]
