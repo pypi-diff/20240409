@@ -966,3 +966,28 @@
 [2024-04-09 00:45:28] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.41.tar.gz]
 [2024-04-09 00:45:28] INFO root fetch - main [MainThread]: End processing [devopsdriver]: success
 [2024-04-09 00:45:28] INFO root fetch - main [MainThread]: Store serial: [22674111]
+[2024-04-09 00:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674111]
+[2024-04-09 00:47:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 00:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyegeria
+[2024-04-09 00:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optimum-neuron
+[2024-04-09 00:47:36] INFO root fetch - processPackages [pyegeria]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-09 00:47:36] INFO root fetch - processPackages [optimum-neuron]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:47:36] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/4f/a2/7acfda132b74e4356730f29342bb2a90f720051f648c826c091e46ec6181/pyegeria-0.2.4.tar.gz
+[2024-04-09 00:47:36] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/ca/49/fe58fbaeac951df22a50366d5bb2af8e0660c7b1ca87bfbcec2f6d11343e/optimum-neuron-0.0.8.tar.gz
+[2024-04-09 00:47:36] WARNING root fetch - processPackages [optimum-neuron]: Timeout reached during download
+[2024-04-09 00:47:36] WARNING root fetch - processPackages [pyegeria]: Timeout reached during download
+[2024-04-09 00:47:37] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/7a/57/a619a499bef4aada51bfa71b84d7960afbafacb18c52eddfd106497bf233/optimum-neuron-0.0.9.tar.gz
+[2024-04-09 00:47:37] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/69/de/e0267ab53eaf25ef6f082e163e2cda9fd14a40a14907399ef37555d5678f/pyegeria-0.3.0.tar.gz
+[2024-04-09 00:47:37] WARNING root fetch - processPackages [pyegeria]: Timeout reached during download
+[2024-04-09 00:47:37] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-04-09 00:47:37] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.2.4.tar.gz tmp/pyegeria-0.3.0.tar.gz --markdown 20240409/p/pyegeria/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 00:47:37] WARNING root fetch - processPackages [optimum-neuron]: Timeout reached during download
+[2024-04-09 00:47:37] INFO root fetch - processPackages [optimum-neuron]: executing diffoscope
+[2024-04-09 00:47:37] INFO root fetch - processPackages [optimum-neuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-neuron-0.0.8.tar.gz tmp/optimum-neuron-0.0.9.tar.gz --markdown 20240409/o/optimum-neuron/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:47:38] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.2.4.tar.gz]
+[2024-04-09 00:47:38] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.0.tar.gz]
+[2024-04-09 00:47:38] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-04-09 00:47:38] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.8.tar.gz]
+[2024-04-09 00:47:38] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.9.tar.gz]
+[2024-04-09 00:47:38] INFO root fetch - main [MainThread]: End processing [optimum-neuron]: success
+[2024-04-09 00:47:38] INFO root fetch - main [MainThread]: Store serial: [22674117]
