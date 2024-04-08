@@ -1542,3 +1542,86 @@
 [2024-04-09 01:07:20] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
 [2024-04-09 01:07:20] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2024-04-09 01:07:20] INFO root fetch - main [MainThread]: Store serial: [22674261]
+[2024-04-09 01:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674261]
+[2024-04-09 01:09:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ABSQL
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mov-cli-anime
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psicalc
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surge-api
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shdo
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: servizio-anon
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gradio-promptweighting
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextconsole
+[2024-04-09 01:09:29] INFO root fetch - processPackages [mov-cli-anime]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 01:09:29] WARNING root fetch - processPackages [gradio-promptweighting]: Skipping, unable to determine old version
+[2024-04-09 01:09:29] INFO root fetch - main [MainThread]: End processing [gradio-promptweighting] error
+[2024-04-09 01:09:29] INFO root fetch - processPackages [shdo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [mov-cli-anime]: Downloading https://files.pythonhosted.org/packages/70/b6/8713d080879f7fe9b32c6d96ad632f9c57289d6a8f5c3a2ae918b46fc4b7/mov-cli-anime-1.0.8.tar.gz
+[2024-04-09 01:09:29] INFO root fetch - processPackages [ABSQL]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [psicalc]: New version: [0.6.1] Old Version: [0.5.13]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/71/56/ecec9b4ede326cd50adfa0a49c707dfcd76e908e217b036530a3e8647779/shdo-0.0.8.tar.gz
+[2024-04-09 01:09:29] INFO root fetch - processPackages [surge-api]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [servizio-anon]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-09 01:09:29] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [mov-cli-anime]: Timeout reached during download
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [ABSQL]: Downloading https://files.pythonhosted.org/packages/0c/24/28c8c7ffab43d03d328b7e41afbbae47a2b27130988e6f15467afd01d5ef/ABSQL-0.5.3.tar.gz
+[2024-04-09 01:09:30] INFO root fetch - processPackages [servizio-anon]: Downloading https://files.pythonhosted.org/packages/32/d2/0e8c93ab719a2028b06baca60f3747a7e0cfbe73da7a33aa9a3b97c83123/servizio_anon-0.2.1.tar.gz
+[2024-04-09 01:09:30] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/76/27/93354c40c7ce92d696f7e7797318b4647d7aeed743a98b81ae229cf7c0b7/surge_api-1.5.3-py3-none-any.whl
+[2024-04-09 01:09:30] INFO root fetch - processPackages [mov-cli-anime]: Downloading https://files.pythonhosted.org/packages/7e/3d/5054307a54776313c11c1c16ce98b6c805659ab69cf04493a74b78d553d3/mov-cli-anime-1.0.9.tar.gz
+[2024-04-09 01:09:30] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [ABSQL]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/9c/5b/eb4f96a8275d1477f4b86df0357d1ea91a060650999741eb12e38b27c959/shdo-0.0.9.tar.gz
+[2024-04-09 01:09:30] INFO root fetch - processPackages [psicalc]: Downloading https://files.pythonhosted.org/packages/d6/a1/633f5658cd6bbda664413bebd624d8d4823eb745914ee737ff45fdf18751/psicalc-0.5.13.tar.gz
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [mov-cli-anime]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [mov-cli-anime]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [mov-cli-anime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-anime-1.0.8.tar.gz tmp/mov-cli-anime-1.0.9.tar.gz --markdown 20240409/m/mov-cli-anime/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [servizio-anon]: Timeout reached during download
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [surge-api]: Timeout reached during download
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.8.tar.gz tmp/shdo-0.0.9.tar.gz --markdown 20240409/s/shdo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [psicalc]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [ABSQL]: Downloading https://files.pythonhosted.org/packages/de/e9/0aa3b025e1b311d130cd698abee20b03079c97792bc4e8c074db2ad9471f/ABSQL-0.6.0.tar.gz
+[2024-04-09 01:09:30] INFO root fetch - processPackages [servizio-anon]: Downloading https://files.pythonhosted.org/packages/05/d4/11b94e9c86c503f9f7798bbad688a0bf94369c6d621b4dacd46d05fe28d1/servizio_anon-0.3.0.tar.gz
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [ABSQL]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [ABSQL]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [ABSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABSQL-0.5.3.tar.gz tmp/ABSQL-0.6.0.tar.gz --markdown 20240409/A/ABSQL/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/25/98/730c2422ae56525a4b7d66d864c54041b622ded3a1e45945cc83a3e7dd8f/surge_api-1.5.4-py3-none-any.whl
+[2024-04-09 01:09:30] INFO root fetch - processPackages [psicalc]: Downloading https://files.pythonhosted.org/packages/14/a0/a22e47602404d22f191ae02d98d1d0edcdf563be63c8ce314e238cc902ef/psicalc-0.6.1.tar.gz
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [surge-api]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [surge-api]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [surge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surge_api-1.5.3-py3-none-any.whl.zip tmp/surge_api-1.5.4-py3-none-any.whl.zip --markdown 20240409/s/surge-api/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [servizio-anon]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [servizio-anon]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [servizio-anon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servizio_anon-0.2.1.tar.gz tmp/servizio_anon-0.3.0.tar.gz --markdown 20240409/s/servizio-anon/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] WARNING root fetch - processPackages [psicalc]: Timeout reached during download
+[2024-04-09 01:09:30] INFO root fetch - processPackages [psicalc]: executing diffoscope
+[2024-04-09 01:09:30] INFO root fetch - processPackages [psicalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psicalc-0.5.13.tar.gz tmp/psicalc-0.6.1.tar.gz --markdown 20240409/p/psicalc/0.5.13-0.6.1/diff.md --exclude *.pyd
+[2024-04-09 01:09:30] INFO root fetch - processPackages [mov-cli-anime]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-anime-1.0.8.tar.gz]
+[2024-04-09 01:09:30] INFO root fetch - processPackages [mov-cli-anime]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-anime-1.0.9.tar.gz]
+[2024-04-09 01:09:30] INFO root fetch - main [MainThread]: End processing [mov-cli-anime]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.8.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.9.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [ABSQL]: Remove: archive file [/home/abi/fetcher/tmp/ABSQL-0.5.3.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [ABSQL]: Remove: archive file [/home/abi/fetcher/tmp/ABSQL-0.6.0.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [ABSQL]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [servizio-anon]: Remove: archive file [/home/abi/fetcher/tmp/servizio_anon-0.2.1.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [servizio-anon]: Remove: archive file [/home/abi/fetcher/tmp/servizio_anon-0.3.0.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [servizio-anon]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [psicalc]: Remove: archive file [/home/abi/fetcher/tmp/psicalc-0.5.13.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [psicalc]: Remove: archive file [/home/abi/fetcher/tmp/psicalc-0.6.1.tar.gz]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [psicalc]: success
+[2024-04-09 01:09:31] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.5.3-py3-none-any.whl.zip]
+[2024-04-09 01:09:31] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.5.4-py3-none-any.whl.zip]
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: End processing [surge-api]: success
+[2024-04-09 01:09:31] INFO root fetch - main [MainThread]: Store serial: [22674283]
