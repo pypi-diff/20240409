@@ -364,3 +364,50 @@
 [2024-04-09 00:07:42] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-04-09 00:07:42] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-04-09 00:07:42] INFO root fetch - main [MainThread]: Store serial: [22673904]
+[2024-04-09 00:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673904]
+[2024-04-09 00:09:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 00:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoppr-security-commons
+[2024-04-09 00:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deezer-oauth-cli
+[2024-04-09 00:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkatlas
+[2024-04-09 00:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oasysdb
+[2024-04-09 00:09:50] INFO root fetch - processPackages [checkatlas]: New version: [0.4.4] Old Version: [0.4.2]
+[2024-04-09 00:09:51] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/05/f5/a3d6e9078cd7b0dded010b4e7254dde4c284a30f58a72658a8f02b2e0464/checkatlas-0.4.2.tar.gz
+[2024-04-09 00:09:51] INFO root fetch - processPackages [deezer-oauth-cli]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-09 00:09:51] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.84]
+[2024-04-09 00:09:51] INFO root fetch - processPackages [oasysdb]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/7c/42/7a5def9740e64d028e1cade8474540367f28c1b397d50013fc466abc34c5/hoppr_security_commons-0.0.84.tar.gz
+[2024-04-09 00:09:51] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/a7/37/9fd64d00908b01f1ede8db078879911152e08af922c3c6de3d3d57eb0657/deezer_oauth_cli-1.2.5.tar.gz
+[2024-04-09 00:09:51] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/c3/31/556689418d1a24a985abe1df03e066ab29d3a1d43e88a1b7308370d3a1be/checkatlas-0.4.4.tar.gz
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [hoppr-security-commons]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [oasysdb]: Downloading https://files.pythonhosted.org/packages/0f/c9/cc900f98337fe88c6691c7c6222de48f4e333239eae36f56da378eb79bcc/oasysdb-0.4.0.tar.gz
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 00:09:51] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.2.tar.gz tmp/checkatlas-0.4.4.tar.gz --markdown 20240409/c/checkatlas/0.4.2-0.4.4/diff.md --exclude *.pyd
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [deezer-oauth-cli]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [oasysdb]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/0f/28/e76384980de6fe8058f9f67d6731abbc93d2c1fca73857cfb319fa9b34d6/deezer_oauth_cli-1.2.6.tar.gz
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [deezer-oauth-cli]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [deezer-oauth-cli]: executing diffoscope
+[2024-04-09 00:09:51] INFO root fetch - processPackages [deezer-oauth-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_oauth_cli-1.2.5.tar.gz tmp/deezer_oauth_cli-1.2.6.tar.gz --markdown 20240409/d/deezer-oauth-cli/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2024-04-09 00:09:51] WARNING root fetch - processPackages [hoppr-security-commons]: Timeout reached during download
+[2024-04-09 00:09:51] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2024-04-09 00:09:51] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.84.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20240409/h/hoppr-security-commons/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:09:51] INFO root fetch - processPackages [oasysdb]: Downloading https://files.pythonhosted.org/packages/a1/20/edaf18f32f6724de89b544339d5749d99478b2f7487bafdf62f211311eb5/oasysdb-0.4.1-cp310-none-win32.whl
+[2024-04-09 00:09:52] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.2.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.4.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 00:09:52] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.2.5.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.2.6.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - main [MainThread]: End processing [deezer-oauth-cli]: success
+[2024-04-09 00:09:52] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.84.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.9.tar.gz]
+[2024-04-09 00:09:52] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2024-04-09 00:09:52] WARNING root fetch - processPackages [oasysdb]: Timeout reached during download
+[2024-04-09 00:09:52] INFO root fetch - processPackages [oasysdb]: executing diffoscope
+[2024-04-09 00:09:52] INFO root fetch - processPackages [oasysdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasysdb-0.4.0.tar.gz tmp/oasysdb-0.4.1-cp310-none-win32.whl.zip --markdown 20240409/o/oasysdb/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-09 00:09:53] INFO root fetch - processPackages [oasysdb]: Remove: archive file [/home/abi/fetcher/tmp/oasysdb-0.4.0.tar.gz]
+[2024-04-09 00:09:53] INFO root fetch - processPackages [oasysdb]: Remove: archive file [/home/abi/fetcher/tmp/oasysdb-0.4.1-cp310-none-win32.whl.zip]
+[2024-04-09 00:09:53] INFO root fetch - main [MainThread]: End processing [oasysdb]: success
+[2024-04-09 00:09:53] INFO root fetch - main [MainThread]: Store serial: [22673920]
