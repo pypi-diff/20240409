@@ -206,3 +206,72 @@
 [2024-04-09 00:01:09] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_vertexai-0.9.4.tar.gz]
 [2024-04-09 00:01:09] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-vertexai]: success
 [2024-04-09 00:01:09] INFO root fetch - main [MainThread]: Store serial: [22673854]
+[2024-04-09 00:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673854]
+[2024-04-09 00:03:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex-chat
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frid
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: traceloop-sdk
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmdsclient
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-04-09 00:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tab-menus
+[2024-04-09 00:03:18] INFO root fetch - processPackages [reflex-chat]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-04-09 00:03:18] INFO root fetch - processPackages [tmdsclient]: New version: [0.1.21] Old Version: [0.1.20]
+[2024-04-09 00:03:18] INFO root fetch - processPackages [frid]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 00:03:18] INFO root fetch - processPackages [reflex-chat]: Downloading https://files.pythonhosted.org/packages/a5/9f/30d5c4f5bb3c8c7136dd6aa3266d0d8cd89dc9afec43aa1297788073c1f6/reflex-chat-0.0.1a3.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/f7/2f/7ca3841f6240f177bfa12f6b1dd0a7a69034516cb620a56cf7bf565ad51d/tmdsclient-0.1.20.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [django-tab-menus]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:03:18] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/04/cf/1533833b108e849e3a5c643979701b82d1853064429d8cf47f5487b8dfca/frid-0.0.5.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-09 00:03:18] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [tmdsclient]: Timeout reached during download
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [reflex-chat]: Timeout reached during download
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [frid]: Timeout reached during download
+[2024-04-09 00:03:18] INFO root fetch - processPackages [reflex-chat]: Downloading https://files.pythonhosted.org/packages/8c/cb/a42e52cf00aadccda25ca18511f5738643e6056c19b4b24ffa5df2a2c222/reflex-chat-0.0.1a4.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/e4/b7/c26c42c87d15b8568472f9d8ff9ffe84807dc786165a12bcab6485f333d8/frid-0.0.6.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [django-tab-menus]: Downloading https://files.pythonhosted.org/packages/ac/8d/b61acbcffa4aa1caa8925d128bc667b2c85ea74541cc5844c69a2f9810db/django-tab-menus-0.0.8.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-04-09 00:03:18] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [reflex-chat]: Timeout reached during download
+[2024-04-09 00:03:18] INFO root fetch - processPackages [reflex-chat]: executing diffoscope
+[2024-04-09 00:03:18] INFO root fetch - processPackages [reflex-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-chat-0.0.1a3.tar.gz tmp/reflex-chat-0.0.1a4.tar.gz --markdown 20240409/r/reflex-chat/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2024-04-09 00:03:18] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/d6/9a/83392999612f02c80c699491a233bf0bea66cd2c81f5eb5046fed910ba99/tmdsclient-0.1.21.tar.gz
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [frid]: Timeout reached during download
+[2024-04-09 00:03:18] INFO root fetch - processPackages [frid]: executing diffoscope
+[2024-04-09 00:03:18] INFO root fetch - processPackages [frid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frid-0.0.5.tar.gz tmp/frid-0.0.6.tar.gz --markdown 20240409/f/frid/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [django-tab-menus]: Timeout reached during download
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [tmdsclient]: Timeout reached during download
+[2024-04-09 00:03:18] INFO root fetch - processPackages [tmdsclient]: executing diffoscope
+[2024-04-09 00:03:18] INFO root fetch - processPackages [tmdsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmdsclient-0.1.20.tar.gz tmp/tmdsclient-0.1.21.tar.gz --markdown 20240409/t/tmdsclient/0.1.20-0.1.21/diff.md --exclude *.pyd
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [traceloop-sdk]: Timeout reached during download
+[2024-04-09 00:03:18] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 00:03:19] INFO root fetch - processPackages [django-tab-menus]: Downloading https://files.pythonhosted.org/packages/3d/f8/f6281e8e39406d41964852b548d592fa095c587a94f3aca34846ecfb3f42/django-tab-menus-0.0.9.tar.gz
+[2024-04-09 00:03:19] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-04-09 00:03:19] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-09 00:03:19] WARNING root fetch - processPackages [django-tab-menus]: Timeout reached during download
+[2024-04-09 00:03:19] INFO root fetch - processPackages [django-tab-menus]: executing diffoscope
+[2024-04-09 00:03:19] INFO root fetch - processPackages [django-tab-menus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tab-menus-0.0.8.tar.gz tmp/django-tab-menus-0.0.9.tar.gz --markdown 20240409/d/django-tab-menus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:03:19] WARNING root fetch - processPackages [traceloop-sdk]: Timeout reached during download
+[2024-04-09 00:03:19] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-04-09 00:03:19] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240409/t/traceloop-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-09 00:03:19] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 00:03:19] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-09 00:03:19] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240409/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 00:03:19] INFO root fetch - processPackages [reflex-chat]: Remove: archive file [/home/abi/fetcher/tmp/reflex-chat-0.0.1a3.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - processPackages [reflex-chat]: Remove: archive file [/home/abi/fetcher/tmp/reflex-chat-0.0.1a4.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - main [MainThread]: End processing [reflex-chat]: success
+[2024-04-09 00:03:19] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.1.20.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.1.21.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - main [MainThread]: End processing [tmdsclient]: success
+[2024-04-09 00:03:19] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.5.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.6.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - main [MainThread]: End processing [frid]: success
+[2024-04-09 00:03:19] INFO root fetch - processPackages [django-tab-menus]: Remove: archive file [/home/abi/fetcher/tmp/django-tab-menus-0.0.8.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - processPackages [django-tab-menus]: Remove: archive file [/home/abi/fetcher/tmp/django-tab-menus-0.0.9.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - main [MainThread]: End processing [django-tab-menus]: success
+[2024-04-09 00:03:19] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-04-09 00:03:19] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-04-09 00:03:20] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-09 00:03:20] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-09 00:03:20] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-09 00:03:20] INFO root fetch - main [MainThread]: Store serial: [22673873]
