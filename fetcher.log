@@ -1634,3 +1634,53 @@
 [2024-04-09 01:11:40] WARNING root fetch - processPackages [intropy]: Skipping, unable to determine old version
 [2024-04-09 01:11:40] INFO root fetch - main [MainThread]: End processing [intropy] error
 [2024-04-09 01:11:40] INFO root fetch - main [MainThread]: Store serial: [22674293]
+[2024-04-09 01:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674293]
+[2024-04-09 01:13:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-testing-framework-summasolutions
+[2024-04-09 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepllm
+[2024-04-09 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2024-04-09 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyanglianwater
+[2024-04-09 01:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jbar
+[2024-04-09 01:13:49] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: New version: [0.1.dev4] Old Version: [0.1.dev3]
+[2024-04-09 01:13:49] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [jbar]: Skipping, unable to determine old version
+[2024-04-09 01:13:49] INFO root fetch - main [MainThread]: End processing [jbar] error
+[2024-04-09 01:13:49] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/b5/87/461004bbef01784e3095f731559aac16e663d76e4f70d6d77e5ad12e3928/summa-testing-framework-summasolutions-0.1.dev3.tar.gz
+[2024-04-09 01:13:49] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-04-09 01:13:49] INFO root fetch - processPackages [deepllm]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-04-09 01:13:49] INFO root fetch - processPackages [pyanglianwater]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [latch]: Timeout reached during download
+[2024-04-09 01:13:49] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/1b/b3/cc10865119b63dd35632e0146c1f248a6b0fbba29b65d53d54cf29f5f9bb/summa-testing-framework-summasolutions-0.1.dev4.tar.gz
+[2024-04-09 01:13:49] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-04-09 01:13:49] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/1d/1d/e38cc4d9637d287c554c215315fc7a45fb97bdf49f56cfd6b0257efa5bcf/deepllm-1.4.6.tar.gz
+[2024-04-09 01:13:49] INFO root fetch - processPackages [pyanglianwater]: Downloading https://files.pythonhosted.org/packages/3d/6c/74f171709fc02b30a41798b20b0258ec6dce0917b62449790a3623190a82/pyanglianwater-0.1.0.tar.gz
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 01:13:49] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: executing diffoscope
+[2024-04-09 01:13:49] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz --markdown 20240409/s/summa-testing-framework-summasolutions/0.1.dev3-0.1.dev4/diff.md --exclude *.pyd
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [pyanglianwater]: Timeout reached during download
+[2024-04-09 01:13:49] WARNING root fetch - processPackages [latch]: Timeout reached during download
+[2024-04-09 01:13:49] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-04-09 01:13:49] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240409/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2024-04-09 01:13:50] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/d1/4c/e8511a4c59e9a84da487341e6c18960b93c663f2123df4c62eea0ff42dab/deepllm-1.4.7.tar.gz
+[2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: Downloading https://files.pythonhosted.org/packages/61/cc/6687d8ae52b4c7411dff9c885ce4c784ada08c138e4306bc822a8fe35532/pyanglianwater-0.1.1.tar.gz
+[2024-04-09 01:13:50] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-09 01:13:50] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2024-04-09 01:13:50] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-1.4.6.tar.gz tmp/deepllm-1.4.7.tar.gz --markdown 20240409/d/deepllm/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2024-04-09 01:13:50] WARNING root fetch - processPackages [pyanglianwater]: Timeout reached during download
+[2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: executing diffoscope
+[2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanglianwater-0.1.0.tar.gz tmp/pyanglianwater-0.1.1.tar.gz --markdown 20240409/p/pyanglianwater/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 01:13:50] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - main [MainThread]: End processing [summa-testing-framework-summasolutions]: success
+[2024-04-09 01:13:50] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-04-09 01:13:50] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.6.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.7.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: Remove: archive file [/home/abi/fetcher/tmp/pyanglianwater-0.1.0.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: Remove: archive file [/home/abi/fetcher/tmp/pyanglianwater-0.1.1.tar.gz]
+[2024-04-09 01:13:50] INFO root fetch - main [MainThread]: End processing [pyanglianwater]: success
+[2024-04-09 01:13:50] INFO root fetch - main [MainThread]: Store serial: [22674308]
