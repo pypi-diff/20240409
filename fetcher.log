@@ -2447,3 +2447,28 @@
 [2024-04-09 01:42:53] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.2.tar.gz]
 [2024-04-09 01:42:53] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
 [2024-04-09 01:42:53] INFO root fetch - main [MainThread]: Store serial: [22674616]
+[2024-04-09 01:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674616]
+[2024-04-09 01:45:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 01:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarpcdantic
+[2024-04-09 01:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyrl
+[2024-04-09 01:45:01] INFO root fetch - processPackages [jarpcdantic]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 01:45:01] INFO root fetch - processPackages [tinyrl]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-09 01:45:01] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/b2/75/f0e46c6a11cfbd34818056464ca9237fe8b92ed6b2b034a77d13b551b46b/jarpcdantic-0.0.1.tar.gz
+[2024-04-09 01:45:02] INFO root fetch - processPackages [tinyrl]: Downloading https://files.pythonhosted.org/packages/c6/45/69852d8541f583608ddfb9c291f48931f8e975049eac6946efe2b7ccec4a/tinyrl-0.1.5.tar.gz
+[2024-04-09 01:45:02] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 01:45:02] WARNING root fetch - processPackages [tinyrl]: Timeout reached during download
+[2024-04-09 01:45:02] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/c4/fc/2e12f0446bc4341f65d19d6aaf0005cf55aab068b8fda80bfa151cd83d1c/jarpcdantic-0.0.2.tar.gz
+[2024-04-09 01:45:02] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 01:45:02] INFO root fetch - processPackages [jarpcdantic]: executing diffoscope
+[2024-04-09 01:45:02] INFO root fetch - processPackages [jarpcdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarpcdantic-0.0.1.tar.gz tmp/jarpcdantic-0.0.2.tar.gz --markdown 20240409/j/jarpcdantic/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 01:45:02] INFO root fetch - processPackages [tinyrl]: Downloading https://files.pythonhosted.org/packages/fe/86/0c86f72e317e0db4f0825a27f4824426cbf6459fff97972f54785eddc36b/tinyrl-0.2.0.tar.gz
+[2024-04-09 01:45:02] WARNING root fetch - processPackages [tinyrl]: Timeout reached during download
+[2024-04-09 01:45:02] INFO root fetch - processPackages [tinyrl]: executing diffoscope
+[2024-04-09 01:45:02] INFO root fetch - processPackages [tinyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyrl-0.1.5.tar.gz tmp/tinyrl-0.2.0.tar.gz --markdown 20240409/t/tinyrl/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 01:45:02] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.1.tar.gz]
+[2024-04-09 01:45:02] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.2.tar.gz]
+[2024-04-09 01:45:02] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
+[2024-04-09 01:45:03] INFO root fetch - processPackages [tinyrl]: Remove: archive file [/home/abi/fetcher/tmp/tinyrl-0.1.5.tar.gz]
+[2024-04-09 01:45:03] INFO root fetch - processPackages [tinyrl]: Remove: archive file [/home/abi/fetcher/tmp/tinyrl-0.2.0.tar.gz]
+[2024-04-09 01:45:03] INFO root fetch - main [MainThread]: End processing [tinyrl]: success
+[2024-04-09 01:45:03] INFO root fetch - main [MainThread]: Store serial: [22674622]
