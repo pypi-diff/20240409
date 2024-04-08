@@ -1105,3 +1105,201 @@
 [2024-04-09 00:54:06] INFO root fetch - processPackages [sdwi2iextender]: Remove: archive file [/home/abi/fetcher/tmp/sdwi2iextender-0.1.0.tar.gz]
 [2024-04-09 00:54:06] INFO root fetch - main [MainThread]: End processing [sdwi2iextender]: success
 [2024-04-09 00:54:06] INFO root fetch - main [MainThread]: Store serial: [22674144]
+[2024-04-09 00:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674144]
+[2024-04-09 00:56:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coinpaprika-async
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-bridge
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summa-testing-framework-summasolutions
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-conf
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sage-docbuild
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sage-setup
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sage-sws2rst
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-bliss
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sagemath-categories
+[2024-04-09 00:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sagemath-coxeter3
+[2024-04-09 00:56:14] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:56:14] INFO root fetch - processPackages [coinpaprika-async]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-09 00:56:14] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-bliss]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-coxeter3]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: New version: [0.1.dev4] Old Version: [0.1.dev3]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:15] INFO root fetch - processPackages [coinpaprika-async]: Downloading https://files.pythonhosted.org/packages/04/d7/f7c4eac437ffef44ff68191b9afdcb8ac3eb4ed51b312e6248423d8e445b/coinpaprika_async-3.0.2.tar.gz
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/3f/de/134235ab8d326d1458710fbc42482e7aa4d53d4a3150352fc6d60f6b87a0/sagemath-bliss-10.4b2.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/24/a3/d8b9bd1a00101f365c7d954bd3f232820198c6e18fe57b5d5f0c97fb5867/sagemath-coxeter3-10.4b2.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/b5/87/461004bbef01784e3095f731559aac16e663d76e4f70d6d77e5ad12e3928/summa-testing-framework-summasolutions-0.1.dev3.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [coinpaprika-async]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-bliss]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-docbuild]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-coxeter3]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-categories]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-sws2rst]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-setup]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [coinpaprika-async]: Downloading https://files.pythonhosted.org/packages/a7/3b/c338e36b0e57299066eecd46ad71678b38ced12e9a65308714538fa33be6/coinpaprika_async-3.0.3.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/ab/1b/7da7337e59f18c9b2960c84a3752cff8a9f5f2e7997a157b36e368ea2d2d/sagemath-bliss-9.8b1.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/3f/01/5f1c705c13f9e31203dd08bb7cbc28220ea2a913d75ac9366eb1e9fa71c1/sagemath-coxeter3-9.8b1.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-conf]: Timeout reached during download
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [coinpaprika-async]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [coinpaprika-async]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [coinpaprika-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinpaprika_async-3.0.2.tar.gz tmp/coinpaprika_async-3.0.3.tar.gz --markdown 20240409/c/coinpaprika-async/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-docbuild]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20240409/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-coxeter3]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-coxeter3]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-coxeter3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-coxeter3-10.4b2.tar.gz tmp/sagemath-coxeter3-9.8b1.tar.gz --markdown 20240409/s/sagemath-coxeter3/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-bliss]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-bliss]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-bliss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-bliss-10.4b2.tar.gz tmp/sagemath-bliss-9.8b1.tar.gz --markdown 20240409/s/sagemath-bliss/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sagemath-categories]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20240409/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:15] WARNING root fetch - processPackages [sage-sws2rst]: Timeout reached during download
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2024-04-09 00:56:15] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20240409/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2024-04-09 00:56:16] WARNING root fetch - processPackages [sage-setup]: Timeout reached during download
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20240409/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:16] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 00:56:16] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [python-bridge]: Start processing: sagemath-environment
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/1b/b3/cc10865119b63dd35632e0146c1f248a6b0fbba29b65d53d54cf29f5f9bb/summa-testing-framework-summasolutions-0.1.dev4.tar.gz
+[2024-04-09 00:56:16] WARNING root fetch - processPackages [sage-conf]: Timeout reached during download
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20240409/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:16] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 00:56:16] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: executing diffoscope
+[2024-04-09 00:56:16] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz --markdown 20240409/s/summa-testing-framework-summasolutions/0.1.dev3-0.1.dev4/diff.md --exclude *.pyd
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2024-04-09 00:56:16] WARNING root fetch - processPackages [sagemath-environment]: Timeout reached during download
+[2024-04-09 00:56:16] INFO root fetch - processPackages [coinpaprika-async]: Remove: archive file [/home/abi/fetcher/tmp/coinpaprika_async-3.0.2.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [coinpaprika-async]: Remove: archive file [/home/abi/fetcher/tmp/coinpaprika_async-3.0.3.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [coinpaprika-async]: Start processing: sagemath-mcqd
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [coinpaprika-async]: success
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8b7.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8rc0.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-docbuild]: Start processing: sagemath-meataxe
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-coxeter3]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-coxeter3-10.4b2.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-coxeter3]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-coxeter3-9.8b1.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-coxeter3]: Start processing: sagemath-objects
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [sagemath-coxeter3]: success
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-mcqd]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-meataxe]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8b7.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8rc0.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sage-sws2rst]: Start processing: sagemath-repl
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-bliss]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-bliss-10.4b2.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-bliss]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-bliss-9.8b1.tar.gz]
+[2024-04-09 00:56:16] INFO root fetch - processPackages [sagemath-bliss]: Start processing: sagemath-sirocco
+[2024-04-09 00:56:16] INFO root fetch - main [MainThread]: End processing [sagemath-bliss]: success
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8b7.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8rc0.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sage-setup]: Start processing: sagemath-standard
+[2024-04-09 00:56:17] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-environment]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20240409/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/3e/d9/4249c551ef74fc1bd70f5a474f72196531d97025acac83202c74ef9ca896/sagemath-mcqd-10.4b2.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-sirocco]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/3f/89/56ce92ab73f2840fbe5f62fc51b38bc92f4b50e8f9a420db511f684cc9ed/sagemath-meataxe-10.4b2.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Start processing: sagemath-tdlib
+[2024-04-09 00:56:17] INFO root fetch - main [MainThread]: End processing [summa-testing-framework-summasolutions]: success
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-mcqd]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/bf/9c/e71950416a01b5ac27e41ee274e311dbf9f3b6648bd0d3b09a027ddd17f5/sagemath-sirocco-10.4b2.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-meataxe]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-tdlib]: New version: [9.8b1] Old Version: [10.4b2]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-repl]: Timeout reached during download
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-objects]: Timeout reached during download
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-standard]: Start processing: GodEatsPython-ApplePieCodes
+[2024-04-09 00:56:17] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-sirocco]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/94/df/c39207a5cb81b8dd0c2816b58e661823536571fc32a72066271f31e821fa/sagemath-tdlib-10.4b2.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/cc/14/35fd31511b7d3b2e5fe540c1b89008ed79aa0306eda2d831fa07ab792c73/sagemath-mcqd-9.8b1.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/8e/b8/a2a3607fb4575896f02a16a77077e9761a27ad84c081f6a2a22509f74ada/sagemath-meataxe-9.8b1.tar.gz
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [GodEatsPython-ApplePieCodes]: Skipping, unable to determine old version
+[2024-04-09 00:56:17] INFO root fetch - main [MainThread]: End processing [GodEatsPython-ApplePieCodes] error
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-meataxe]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-meataxe]: executing diffoscope
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-meataxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-meataxe-10.4b2.tar.gz tmp/sagemath-meataxe-9.8b1.tar.gz --markdown 20240409/s/sagemath-meataxe/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-mcqd]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-mcqd]: executing diffoscope
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-mcqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-mcqd-10.4b2.tar.gz tmp/sagemath-mcqd-9.8b1.tar.gz --markdown 20240409/s/sagemath-mcqd/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/28/cb/160bc3b7eca0d3fb546c30a5ecbdecd892d03062349e717fc61de420ea66/sagemath-sirocco-9.8b1.tar.gz
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8b7.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8rc0.tar.gz]
+[2024-04-09 00:56:17] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-tdlib]: Timeout reached during download
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-repl]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20240409/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:17] WARNING root fetch - processPackages [sagemath-sirocco]: Timeout reached during download
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-sirocco]: executing diffoscope
+[2024-04-09 00:56:17] INFO root fetch - processPackages [sagemath-sirocco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-sirocco-10.4b2.tar.gz tmp/sagemath-sirocco-9.8b1.tar.gz --markdown 20240409/s/sagemath-sirocco/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8b7.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8rc0.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2024-04-09 00:56:18] WARNING root fetch - processPackages [sagemath-objects]: Timeout reached during download
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20240409/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/b5/ad/ad26f8cd628393a4303a0e832c95c0218f4b3cd59196203fbe52dbca1855/sagemath-tdlib-9.8b1.tar.gz
+[2024-04-09 00:56:18] WARNING root fetch - processPackages [sagemath-tdlib]: Timeout reached during download
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-tdlib]: executing diffoscope
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-tdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-tdlib-10.4b2.tar.gz tmp/sagemath-tdlib-9.8b1.tar.gz --markdown 20240409/s/sagemath-tdlib/10.4b2-9.8b1/diff.md --exclude *.pyd
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-mcqd]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-mcqd-10.4b2.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-mcqd]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-mcqd-9.8b1.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-mcqd]: success
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-meataxe]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-meataxe-10.4b2.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-meataxe]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-meataxe-9.8b1.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-meataxe]: success
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-sirocco]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-sirocco-10.4b2.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-sirocco]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-sirocco-9.8b1.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-sirocco]: success
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-tdlib]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-tdlib-10.4b2.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-tdlib]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-tdlib-9.8b1.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-tdlib]: success
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8b7.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8rc0.tar.gz]
+[2024-04-09 00:56:18] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2024-04-09 00:56:19] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8b7.tar.gz]
+[2024-04-09 00:56:19] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8rc0.tar.gz]
+[2024-04-09 00:56:19] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2024-04-09 00:56:23] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8b7.tar.gz]
+[2024-04-09 00:56:23] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
+[2024-04-09 00:56:23] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
+[2024-04-09 00:56:23] INFO root fetch - main [MainThread]: Store serial: [22674187]
