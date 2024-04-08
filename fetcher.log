@@ -2186,3 +2186,83 @@
 [2024-04-09 01:29:47] INFO root fetch - processPackages [mythic-container]: Remove: archive file [/home/abi/fetcher/tmp/mythic_container-0.4.9.tar.gz]
 [2024-04-09 01:29:47] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
 [2024-04-09 01:29:47] INFO root fetch - main [MainThread]: Store serial: [22674542]
+[2024-04-09 01:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674542]
+[2024-04-09 01:31:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moesifapi
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: life360
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Kqlmagic
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coded-flows
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KqlmagicCustom
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otter-service-stdalone
+[2024-04-09 01:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: messagev
+[2024-04-09 01:31:55] INFO root fetch - processPackages [messagev]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [KqlmagicCustom]: New version: [0.1.114.post9] Old Version: [0.1.114.post8]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [moesifapi]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [life360]: New version: [7.0.0b0] Old Version: [6.0.1]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [coded-flows]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/54/61/27e488f66351097e7075e1e2c540760402993a07ed5b47aa8aa65cf44316/messagev-0.0.7.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [otter-service-stdalone]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [Kqlmagic]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-09 01:31:55] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/e7/42/a888990b9442e87a1744c5f8f59c37188ecb23cf7251cbbb87f8c723ad10/moesifapi-1.4.4.tar.gz
+[2024-04-09 01:31:55] WARNING root fetch - processPackages [messagev]: Timeout reached during download
+[2024-04-09 01:31:55] INFO root fetch - processPackages [KqlmagicCustom]: Downloading https://files.pythonhosted.org/packages/2a/cc/6f299d966ea8c0f5611f8e10868a8eb3469f5cb344d2e5076e5a7cb65e0b/KqlmagicCustom-0.1.114.post8.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [coded-flows]: Downloading https://files.pythonhosted.org/packages/84/5b/b9f018d251929c5fd159011a1143bb32ced11c9f360405e025e07a47f41c/coded_flows-0.2.1.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [Kqlmagic]: Downloading https://files.pythonhosted.org/packages/d0/3f/1d64fb52989792b110341512fdfd735f17a060410df432df4b2fb77a1084/Kqlmagic-0.1.97.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/3d/ba/02b46802e34763c6c309b42b80bcca7e751a1b79aca8103c0497822ca950/life360-6.0.1.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [otter-service-stdalone]: Downloading https://files.pythonhosted.org/packages/18/82/451a22e95572b231133eb9559930e4147365ab2c7d86c3af894c4a3badf2/otter_service_stdalone-0.1.7.tar.gz
+[2024-04-09 01:31:55] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/20/f3/692ca6221f16dd623c2ac30e42afae9ea3563ecec5657ad9399a1c39ff2f/messagev-0.0.8.tar.gz
+[2024-04-09 01:31:55] WARNING root fetch - processPackages [moesifapi]: Timeout reached during download
+[2024-04-09 01:31:55] WARNING root fetch - processPackages [messagev]: Timeout reached during download
+[2024-04-09 01:31:55] INFO root fetch - processPackages [messagev]: executing diffoscope
+[2024-04-09 01:31:55] INFO root fetch - processPackages [messagev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messagev-0.0.7.tar.gz tmp/messagev-0.0.8.tar.gz --markdown 20240409/m/messagev/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 01:31:55] WARNING root fetch - processPackages [KqlmagicCustom]: Timeout reached during download
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [coded-flows]: Timeout reached during download
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [life360]: Timeout reached during download
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [otter-service-stdalone]: Timeout reached during download
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [Kqlmagic]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/cb/d8/67c8c79197df431d20a77f24d82ab592deff9d073ce66535f7e50da4659f/moesifapi-1.4.5.tar.gz
+[2024-04-09 01:31:56] INFO root fetch - processPackages [KqlmagicCustom]: Downloading https://files.pythonhosted.org/packages/fa/a8/b6aadc9e68ffd9cbb940ed71fc88f4f1db9a681b5bcc7910b9a58dc13fa2/KqlmagicCustom-0.1.114.post9.tar.gz
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [moesifapi]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [moesifapi]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [moesifapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifapi-1.4.4.tar.gz tmp/moesifapi-1.4.5.tar.gz --markdown 20240409/m/moesifapi/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] INFO root fetch - processPackages [coded-flows]: Downloading https://files.pythonhosted.org/packages/b9/7f/2a5de2dd956ad36868fed98b0a5556f44771b92c0b8f4ef1b35224046f30/coded_flows-0.2.2.tar.gz
+[2024-04-09 01:31:56] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/a6/e3/07dfdcdac7cac4295068c4b723ed48a9df65462f371abaed52872eed26c4/life360-7.0.0b0.tar.gz
+[2024-04-09 01:31:56] INFO root fetch - processPackages [Kqlmagic]: Downloading https://files.pythonhosted.org/packages/be/ff/42dac5a67aecbea3750f0bfda10f0f8f99c444458154f4dc6a37f44635a5/Kqlmagic-0.1.99.tar.gz
+[2024-04-09 01:31:56] INFO root fetch - processPackages [otter-service-stdalone]: Downloading https://files.pythonhosted.org/packages/30/05/c0616c34d4e2721e791342f2ae9ce0054d57f0cbf1b4fb2a4c0439b24de0/otter_service_stdalone-0.1.8.tar.gz
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [coded-flows]: Timeout reached during download
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [life360]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [coded-flows]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [coded-flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coded_flows-0.2.1.tar.gz tmp/coded_flows-0.2.2.tar.gz --markdown 20240409/c/coded-flows/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] INFO root fetch - processPackages [life360]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [life360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life360-6.0.1.tar.gz tmp/life360-7.0.0b0.tar.gz --markdown 20240409/l/life360/6.0.1-7.0.0b0/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [KqlmagicCustom]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [KqlmagicCustom]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [KqlmagicCustom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KqlmagicCustom-0.1.114.post8.tar.gz tmp/KqlmagicCustom-0.1.114.post9.tar.gz --markdown 20240409/K/KqlmagicCustom/0.1.114.post8-0.1.114.post9/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [Kqlmagic]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [Kqlmagic]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [Kqlmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kqlmagic-0.1.97.tar.gz tmp/Kqlmagic-0.1.99.tar.gz --markdown 20240409/K/Kqlmagic/0.1.97-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] WARNING root fetch - processPackages [otter-service-stdalone]: Timeout reached during download
+[2024-04-09 01:31:56] INFO root fetch - processPackages [otter-service-stdalone]: executing diffoscope
+[2024-04-09 01:31:56] INFO root fetch - processPackages [otter-service-stdalone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter_service_stdalone-0.1.7.tar.gz tmp/otter_service_stdalone-0.1.8.tar.gz --markdown 20240409/o/otter-service-stdalone/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 01:31:56] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.7.tar.gz]
+[2024-04-09 01:31:56] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.8.tar.gz]
+[2024-04-09 01:31:56] INFO root fetch - main [MainThread]: End processing [messagev]: success
+[2024-04-09 01:31:56] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.4.tar.gz]
+[2024-04-09 01:31:56] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.5.tar.gz]
+[2024-04-09 01:31:56] INFO root fetch - main [MainThread]: End processing [moesifapi]: success
+[2024-04-09 01:31:56] INFO root fetch - processPackages [coded-flows]: Remove: archive file [/home/abi/fetcher/tmp/coded_flows-0.2.1.tar.gz]
+[2024-04-09 01:31:56] INFO root fetch - processPackages [coded-flows]: Remove: archive file [/home/abi/fetcher/tmp/coded_flows-0.2.2.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [coded-flows]: success
+[2024-04-09 01:31:57] INFO root fetch - processPackages [otter-service-stdalone]: Remove: archive file [/home/abi/fetcher/tmp/otter_service_stdalone-0.1.7.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - processPackages [otter-service-stdalone]: Remove: archive file [/home/abi/fetcher/tmp/otter_service_stdalone-0.1.8.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [otter-service-stdalone]: success
+[2024-04-09 01:31:57] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-6.0.1.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-7.0.0b0.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [life360]: success
+[2024-04-09 01:31:57] INFO root fetch - processPackages [Kqlmagic]: Remove: archive file [/home/abi/fetcher/tmp/Kqlmagic-0.1.97.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - processPackages [Kqlmagic]: Remove: archive file [/home/abi/fetcher/tmp/Kqlmagic-0.1.99.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [Kqlmagic]: success
+[2024-04-09 01:31:57] INFO root fetch - processPackages [KqlmagicCustom]: Remove: archive file [/home/abi/fetcher/tmp/KqlmagicCustom-0.1.114.post8.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - processPackages [KqlmagicCustom]: Remove: archive file [/home/abi/fetcher/tmp/KqlmagicCustom-0.1.114.post9.tar.gz]
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [KqlmagicCustom]: success
+[2024-04-09 01:31:57] INFO root fetch - main [MainThread]: Store serial: [22674563]
