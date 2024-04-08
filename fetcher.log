@@ -2123,3 +2123,66 @@
 [2024-04-09 01:27:36] INFO root fetch - processPackages [ludwig]: Remove: archive file [/home/abi/fetcher/tmp/ludwig-0.9.3.tar.gz]
 [2024-04-09 01:27:36] INFO root fetch - main [MainThread]: End processing [ludwig]: success
 [2024-04-09 01:27:36] INFO root fetch - main [MainThread]: Store serial: [22674527]
+[2024-04-09 01:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674527]
+[2024-04-09 01:29:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reboot-resemble
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartesify-backend
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galileo-protect
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mythic-container
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: summa-testing-framework-summasolutions
+[2024-04-09 01:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-bridge
+[2024-04-09 01:29:45] INFO root fetch - processPackages [galileo-protect]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: New version: [0.1.dev4] Old Version: [0.1.dev3]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [reboot-resemble]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [mythic-container]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 01:29:45] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/b5/87/461004bbef01784e3095f731559aac16e663d76e4f70d6d77e5ad12e3928/summa-testing-framework-summasolutions-0.1.dev3.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/60/aa/de4440373ebaac0cf9357d0db63d8e957fc39f4093aff1686292d11a4fea/galileo_protect-0.0.2.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [reboot-resemble]: Downloading https://files.pythonhosted.org/packages/a3/4b/2726c710f975600b6aa4aef0cfdff5a8837cb7a36c8a1862412122cc6bc7/reboot_resemble-0.5.4-cp310-cp310-manylinux_2_35_x86_64.whl
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [galileo-protect]: Timeout reached during download
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 01:29:45] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/e0/37/6c05d2e7ff767144f47f781f192846d857bced0f4c8476bb818f0574742a/mythic_container-0.4.8.tar.gz
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [reboot-resemble]: Skipping package: exceeds size limit 17363512>=10485760
+[2024-04-09 01:29:45] INFO root fetch - main [MainThread]: End processing [reboot-resemble] error
+[2024-04-09 01:29:45] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Downloading https://files.pythonhosted.org/packages/1b/b3/cc10865119b63dd35632e0146c1f248a6b0fbba29b65d53d54cf29f5f9bb/summa-testing-framework-summasolutions-0.1.dev4.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/52/37/f72618ab649728d3fcb3c95c8e0557946b5e40ee1eac2cccef488383a7dc/galileo_protect-0.1.0.tar.gz
+[2024-04-09 01:29:45] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [summa-testing-framework-summasolutions]: Timeout reached during download
+[2024-04-09 01:29:45] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: executing diffoscope
+[2024-04-09 01:29:45] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz --markdown 20240409/s/summa-testing-framework-summasolutions/0.1.dev3-0.1.dev4/diff.md --exclude *.pyd
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [mythic-container]: Timeout reached during download
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 01:29:45] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-09 01:29:45] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240409/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [galileo-protect]: Timeout reached during download
+[2024-04-09 01:29:45] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-04-09 01:29:45] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.0.2.tar.gz tmp/galileo_protect-0.1.0.tar.gz --markdown 20240409/g/galileo-protect/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 01:29:45] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 01:29:45] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 01:29:45] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:29:45] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/75/7e/a412b90d5435993a2d8182d6f672f0e5c77e4bc878bbb74b6573149f8ce4/mythic_container-0.4.9.tar.gz
+[2024-04-09 01:29:46] WARNING root fetch - processPackages [mythic-container]: Timeout reached during download
+[2024-04-09 01:29:46] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2024-04-09 01:29:46] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.4.8.tar.gz tmp/mythic_container-0.4.9.tar.gz --markdown 20240409/m/mythic-container/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 01:29:46] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.0.2.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.1.0.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-04-09 01:29:46] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev3.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - processPackages [summa-testing-framework-summasolutions]: Remove: archive file [/home/abi/fetcher/tmp/summa-testing-framework-summasolutions-0.1.dev4.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - main [MainThread]: End processing [summa-testing-framework-summasolutions]: success
+[2024-04-09 01:29:46] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 01:29:46] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-09 01:29:46] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-09 01:29:47] INFO root fetch - processPackages [mythic-container]: Remove: archive file [/home/abi/fetcher/tmp/mythic_container-0.4.8.tar.gz]
+[2024-04-09 01:29:47] INFO root fetch - processPackages [mythic-container]: Remove: archive file [/home/abi/fetcher/tmp/mythic_container-0.4.9.tar.gz]
+[2024-04-09 01:29:47] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2024-04-09 01:29:47] INFO root fetch - main [MainThread]: Store serial: [22674542]
