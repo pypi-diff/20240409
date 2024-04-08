@@ -275,3 +275,39 @@
 [2024-04-09 00:03:20] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-04-09 00:03:20] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-04-09 00:03:20] INFO root fetch - main [MainThread]: Store serial: [22673873]
+[2024-04-09 00:05:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673873]
+[2024-04-09 00:05:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 00:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stelladb
+[2024-04-09 00:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: structifyai
+[2024-04-09 00:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli-anime
+[2024-04-09 00:05:28] INFO root fetch - processPackages [structifyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 00:05:28] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/fb/48/d8ae9d97526f9fe8aaa87dbd3738a9f0181f42d8069e6296ef3dc95ba011/structifyai-0.8.0.tar.gz
+[2024-04-09 00:05:28] INFO root fetch - processPackages [stelladb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 00:05:28] INFO root fetch - processPackages [mov-cli-anime]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 00:05:28] WARNING root fetch - processPackages [structifyai]: Timeout reached during download
+[2024-04-09 00:05:28] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a2/30/35ee236f19dac5e3f595bedeabbbb3e29fee055ddc18222df1f7e833f066/structifyai-0.9.0.tar.gz
+[2024-04-09 00:05:28] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/d3/80/4f33d4247ac0d4f462bb1c1260054e5317ad33c438911f5532a3835608dc/stelladb-0.2.8.tar.gz
+[2024-04-09 00:05:28] INFO root fetch - processPackages [mov-cli-anime]: Downloading https://files.pythonhosted.org/packages/70/b6/8713d080879f7fe9b32c6d96ad632f9c57289d6a8f5c3a2ae918b46fc4b7/mov-cli-anime-1.0.8.tar.gz
+[2024-04-09 00:05:28] WARNING root fetch - processPackages [stelladb]: Timeout reached during download
+[2024-04-09 00:05:28] WARNING root fetch - processPackages [structifyai]: Timeout reached during download
+[2024-04-09 00:05:28] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-04-09 00:05:28] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.8.0.tar.gz tmp/structifyai-0.9.0.tar.gz --markdown 20240409/s/structifyai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 00:05:28] WARNING root fetch - processPackages [mov-cli-anime]: Timeout reached during download
+[2024-04-09 00:05:28] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/1c/8a/be7d118e01bef7c65f59010a63f961541ae73c19979c1815c3a2d73c4229/stelladb-0.2.9.tar.gz
+[2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: Downloading https://files.pythonhosted.org/packages/7e/3d/5054307a54776313c11c1c16ce98b6c805659ab69cf04493a74b78d553d3/mov-cli-anime-1.0.9.tar.gz
+[2024-04-09 00:05:29] WARNING root fetch - processPackages [stelladb]: Timeout reached during download
+[2024-04-09 00:05:29] INFO root fetch - processPackages [stelladb]: executing diffoscope
+[2024-04-09 00:05:29] INFO root fetch - processPackages [stelladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stelladb-0.2.8.tar.gz tmp/stelladb-0.2.9.tar.gz --markdown 20240409/s/stelladb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 00:05:29] WARNING root fetch - processPackages [mov-cli-anime]: Timeout reached during download
+[2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: executing diffoscope
+[2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-anime-1.0.8.tar.gz tmp/mov-cli-anime-1.0.9.tar.gz --markdown 20240409/m/mov-cli-anime/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:05:29] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.8.0.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.9.0.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-04-09 00:05:29] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.8.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.9.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - main [MainThread]: End processing [stelladb]: success
+[2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-anime-1.0.8.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-anime-1.0.9.tar.gz]
+[2024-04-09 00:05:29] INFO root fetch - main [MainThread]: End processing [mov-cli-anime]: success
+[2024-04-09 00:05:29] INFO root fetch - main [MainThread]: Store serial: [22673885]
