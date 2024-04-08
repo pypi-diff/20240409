@@ -411,3 +411,42 @@
 [2024-04-09 00:09:53] INFO root fetch - processPackages [oasysdb]: Remove: archive file [/home/abi/fetcher/tmp/oasysdb-0.4.1-cp310-none-win32.whl.zip]
 [2024-04-09 00:09:53] INFO root fetch - main [MainThread]: End processing [oasysdb]: success
 [2024-04-09 00:09:53] INFO root fetch - main [MainThread]: Store serial: [22673920]
+[2024-04-09 00:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673920]
+[2024-04-09 00:12:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 00:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ig-package
+[2024-04-09 00:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpcontribs-client
+[2024-04-09 00:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arrow-odbc
+[2024-04-09 00:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-bridge
+[2024-04-09 00:12:01] WARNING root fetch - processPackages [ig-package]: Skipping, unable to determine old version
+[2024-04-09 00:12:01] INFO root fetch - main [MainThread]: End processing [ig-package] error
+[2024-04-09 00:12:01] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:12:01] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 00:12:01] INFO root fetch - processPackages [arrow-odbc]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-09 00:12:01] INFO root fetch - processPackages [mpcontribs-client]: New version: [5.8.1] Old Version: [5.7.0]
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:12:02] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 00:12:02] INFO root fetch - processPackages [mpcontribs-client]: Downloading https://files.pythonhosted.org/packages/45/b6/b5636c5784d6e00f1cad9fd2d323bf22444da2c4064b94796825b0c93483/mpcontribs-client-5.7.0.tar.gz
+[2024-04-09 00:12:02] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/63/f8/b31d01f62d295a92daa613746e9db6d09214760a339eaafd4f12135134c3/arrow_odbc-5.0.0.tar.gz
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:12:02] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 00:12:02] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [mpcontribs-client]: Timeout reached during download
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [arrow-odbc]: Timeout reached during download
+[2024-04-09 00:12:02] INFO root fetch - processPackages [mpcontribs-client]: Downloading https://files.pythonhosted.org/packages/e4/8d/ba8b9d3e77e7ac069b387a5c9225037f2f516407d61aea57c27f51b8abff/mpcontribs-client-5.8.1.tar.gz
+[2024-04-09 00:12:02] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/83/3f/e3b1aecb81a78093b473f722a48b2bcb85e06015fdbb472de9cc47065c38/arrow_odbc-5.1.0.tar.gz
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [mpcontribs-client]: Timeout reached during download
+[2024-04-09 00:12:02] INFO root fetch - processPackages [mpcontribs-client]: executing diffoscope
+[2024-04-09 00:12:02] INFO root fetch - processPackages [mpcontribs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpcontribs-client-5.7.0.tar.gz tmp/mpcontribs-client-5.8.1.tar.gz --markdown 20240409/m/mpcontribs-client/5.7.0-5.8.1/diff.md --exclude *.pyd
+[2024-04-09 00:12:02] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 00:12:02] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 00:12:02] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 00:12:02] WARNING root fetch - processPackages [arrow-odbc]: Timeout reached during download
+[2024-04-09 00:12:02] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2024-04-09 00:12:02] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-5.0.0.tar.gz tmp/arrow_odbc-5.1.0.tar.gz --markdown 20240409/a/arrow-odbc/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-09 00:12:03] INFO root fetch - processPackages [mpcontribs-client]: Remove: archive file [/home/abi/fetcher/tmp/mpcontribs-client-5.7.0.tar.gz]
+[2024-04-09 00:12:03] INFO root fetch - processPackages [mpcontribs-client]: Remove: archive file [/home/abi/fetcher/tmp/mpcontribs-client-5.8.1.tar.gz]
+[2024-04-09 00:12:03] INFO root fetch - main [MainThread]: End processing [mpcontribs-client]: success
+[2024-04-09 00:12:03] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-5.0.0.tar.gz]
+[2024-04-09 00:12:03] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-5.1.0.tar.gz]
+[2024-04-09 00:12:03] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2024-04-09 00:12:03] INFO root fetch - main [MainThread]: Store serial: [22673971]
