@@ -1764,3 +1764,72 @@
 [2024-04-09 01:16:01] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-gui-network-client-0.0.5a1.tar.gz]
 [2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-gui-network-client]: success
 [2024-04-09 01:16:01] INFO root fetch - main [MainThread]: Store serial: [22674329]
+[2024-04-09 01:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674329]
+[2024-04-09 01:18:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-phal-plugin-switches
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-phal-plugin-monitoring
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-phal-plugin-linear-led
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-core
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jafgen
+[2024-04-09 01:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentelemetry-instrumentation-anthropic
+[2024-04-09 01:18:10] INFO root fetch - processPackages [jafgen]: New version: [0.4.9] Old Version: [0.4.6]
+[2024-04-09 01:18:10] INFO root fetch - processPackages [jafgen]: Downloading https://files.pythonhosted.org/packages/46/22/98dec1c130155ed3d16912e7e12421eff1489506bc72f8a0b443f5fa370c/jafgen-0.4.6.tar.gz
+[2024-04-09 01:18:10] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: New version: [0.2.3a1] Old Version: [0.2.2a2]
+[2024-04-09 01:18:10] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: New version: [0.0.2a1] Old Version: [0.0.1a2]
+[2024-04-09 01:18:10] INFO root fetch - processPackages [pypomes-core]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-09 01:18:10] INFO root fetch - processPackages [neon-phal-plugin-switches]: New version: [0.0.5a2] Old Version: [0.0.5a1]
+[2024-04-09 01:18:10] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [jafgen]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: Downloading https://files.pythonhosted.org/packages/48/c5/d9175cc3fbe3bb3fbcc77d32e13eda0d6188f4dbbc8918e55b9769611393/neon-phal-plugin-monitoring-0.0.1a2.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/5c/f5/01bf71ecf4adc847ecb38d5e3ea5088969eaa12a73eeae436c59c21365f4/pypomes_core-0.8.2.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [jafgen]: Downloading https://files.pythonhosted.org/packages/46/c4/300a1dab2933592bc4482ab40a7989479e27a5001a28995099392335c1cc/jafgen-0.4.9.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/3c/93/146d34f2fb73e4c205b33248dcb584ad910b396a8892ad467a5a35367cc6/neon-phal-plugin-linear_led-0.2.2a2.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/83/c6/315cdf295730ac88c964e45f96b24c22414fd0d0e640cb78b2b4be75e3e5/neon-phal-plugin-switches-0.0.5a1.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/5d/38/07d43238e5bd6c34da52cb237a8cd6da03bd8e3aa348b84995966a57497d/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [jafgen]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [jafgen]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [jafgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jafgen-0.4.6.tar.gz tmp/jafgen-0.4.9.tar.gz --markdown 20240409/j/jafgen/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-monitoring]: Timeout reached during download
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Timeout reached during download
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [pypomes-core]: Timeout reached during download
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-linear-led]: Timeout reached during download
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-switches]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: Downloading https://files.pythonhosted.org/packages/6a/96/47039f7d1b15c158e731c4bf757e34ad80692fe59161f866517709fc7a40/neon-phal-plugin-monitoring-0.0.2a1.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/0b/06/f3c10ccba37cadd7e1af5d2ae4a9ea7b95cfeb6463c87fff6d424fc51777/neon-phal-plugin-linear_led-0.2.3a1.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/d2/75/442e8d29f458e204aefb93c752dd0e94325c8988982fa3f4411db1277c30/pypomes_core-0.8.3.tar.gz
+[2024-04-09 01:18:11] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/0a/26/5438ad99d1393251c1d5de1e45c24ff4109b7080c21bd7f3eb22d7f9a17c/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-monitoring]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-monitoring-0.0.1a2.tar.gz tmp/neon-phal-plugin-monitoring-0.0.2a1.tar.gz --markdown 20240409/n/neon-phal-plugin-monitoring/0.0.1a2-0.0.2a1/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/64/eb/6927caa24dbff44faff2d25c94e1dabce761b053b3487b575d26265dfa0b/neon-phal-plugin-switches-0.0.5a2.tar.gz
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-linear-led]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-linear_led-0.2.2a2.tar.gz tmp/neon-phal-plugin-linear_led-0.2.3a1.tar.gz --markdown 20240409/n/neon-phal-plugin-linear-led/0.2.2a2-0.2.3a1/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz tmp/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz --markdown 20240409/o/opentelemetry-instrumentation-anthropic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [pypomes-core]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.8.2.tar.gz tmp/pypomes_core-0.8.3.tar.gz --markdown 20240409/p/pypomes-core/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] WARNING root fetch - processPackages [neon-phal-plugin-switches]: Timeout reached during download
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-switches]: executing diffoscope
+[2024-04-09 01:18:11] INFO root fetch - processPackages [neon-phal-plugin-switches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-switches-0.0.5a1.tar.gz tmp/neon-phal-plugin-switches-0.0.5a2.tar.gz --markdown 20240409/n/neon-phal-plugin-switches/0.0.5a1-0.0.5a2/diff.md --exclude *.pyd
+[2024-04-09 01:18:11] INFO root fetch - processPackages [jafgen]: Remove: archive file [/home/abi/fetcher/tmp/jafgen-0.4.6.tar.gz]
+[2024-04-09 01:18:11] INFO root fetch - processPackages [jafgen]: Remove: archive file [/home/abi/fetcher/tmp/jafgen-0.4.9.tar.gz]
+[2024-04-09 01:18:11] INFO root fetch - main [MainThread]: End processing [jafgen]: success
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-monitoring-0.0.1a2.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-monitoring-0.0.2a1.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-monitoring]: success
+[2024-04-09 01:18:12] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-anthropic]: success
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-linear_led-0.2.2a2.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-linear_led-0.2.3a1.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-linear-led]: success
+[2024-04-09 01:18:12] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.2.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.3.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-switches-0.0.5a1.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-switches-0.0.5a2.tar.gz]
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-switches]: success
+[2024-04-09 01:18:12] INFO root fetch - main [MainThread]: Store serial: [22674345]
