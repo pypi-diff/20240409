@@ -1684,3 +1684,83 @@
 [2024-04-09 01:13:50] INFO root fetch - processPackages [pyanglianwater]: Remove: archive file [/home/abi/fetcher/tmp/pyanglianwater-0.1.1.tar.gz]
 [2024-04-09 01:13:50] INFO root fetch - main [MainThread]: End processing [pyanglianwater]: success
 [2024-04-09 01:13:50] INFO root fetch - main [MainThread]: Store serial: [22674308]
+[2024-04-09 01:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674308]
+[2024-04-09 01:15:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-hub
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-phal-plugin-reset
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-google-cloud-sql-mysql
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sliceitoff
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-phal-plugin-gui-network-client
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdwi2iextender
+[2024-04-09 01:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shdo
+[2024-04-09 01:15:59] INFO root fetch - processPackages [sdwi2iextender]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [sliceitoff]: New version: [0.3b2] Old Version: [0.3b1]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [qai-hub]: New version: [0.9.0] Old Version: [0.10.0]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [sdwi2iextender]: Downloading https://files.pythonhosted.org/packages/04/5c/fe120502af05818f2366f804829ea597edfd3b2eb67e132602f0eca7e752/sdwi2iextender-0.0.9.tar.gz
+[2024-04-09 01:15:59] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [sliceitoff]: Downloading https://files.pythonhosted.org/packages/53/e1/a61d5336e8d954b3681433fff81cde220903763dfddae35e1c1e53ff9ee1/sliceitoff-0.3b1.tar.gz
+[2024-04-09 01:15:59] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: New version: [0.0.5a1] Old Version: [0.0.4a1]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [neon-phal-plugin-reset]: New version: [0.4.1a1] Old Version: [0.4.0]
+[2024-04-09 01:15:59] INFO root fetch - processPackages [shdo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [sdwi2iextender]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/52/91/42f114796b415d6f84287ad3abb7602131c92f8488f29c400583d70b4b96/qai_hub-0.10.0-py3-none-any.whl
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [sliceitoff]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Downloading https://files.pythonhosted.org/packages/0d/60/2196a29afd29a3fe11169325f879669626e5ba512931ed12c21b24c7cdb5/langchain_google_cloud_sql_mysql-0.1.0-py3-none-any.whl
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/e6/9a/d5cb9bf3525a96805055f3a970c5bb1f8655fbb6e8cb69849bbe76cd1e0c/neon-phal-plugin-reset-0.4.0.tar.gz
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: Downloading https://files.pythonhosted.org/packages/c7/f6/a382cf6122e811e2039e44daa718ac8ec87d30083e6a598176a9fe79e00d/neon-phal-plugin-gui-network-client-0.0.4a1.tar.gz
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sdwi2iextender]: Downloading https://files.pythonhosted.org/packages/88/1a/1fcb36e7859e722bca337857851a2e50628a49a3cfd122094937e587a90a/sdwi2iextender-0.1.0.tar.gz
+[2024-04-09 01:16:00] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/03/01/05d9b82c978cc93b2c56a234562405ff63b99c5ab40cc8f532ded9dc8e4a/shdo-0.1.0.tar.gz
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [qai-hub]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sliceitoff]: Downloading https://files.pythonhosted.org/packages/89/e4/bb74812774da882549ee65d6ce3cb7b53cc74dad74b00ee078080dfc0365/sliceitoff-0.3b2.tar.gz
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [sdwi2iextender]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sdwi2iextender]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sdwi2iextender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdwi2iextender-0.0.9.tar.gz tmp/sdwi2iextender-0.1.0.tar.gz --markdown 20240409/s/sdwi2iextender/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [neon-phal-plugin-reset]: Timeout reached during download
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [langchain-google-cloud-sql-mysql]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/8a/a1/155f9e472c58d46d0f594dee34bc89ea23e392591c53393ff46cfa0dbe97/qai_hub-0.9.0-py3-none-any.whl
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [neon-phal-plugin-gui-network-client]: Timeout reached during download
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [sliceitoff]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sliceitoff]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sliceitoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceitoff-0.3b1.tar.gz tmp/sliceitoff-0.3b2.tar.gz --markdown 20240409/s/sliceitoff/0.3b1-0.3b2/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/b7/2b/9e5ddf557ed6351760cd7315be2b5e73ad652e635417ec850075f29aa8c8/shdo-0.1.1.tar.gz
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [qai-hub]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [qai-hub]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [qai-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_hub-0.10.0-py3-none-any.whl.zip tmp/qai_hub-0.9.0-py3-none-any.whl.zip --markdown 20240409/q/qai-hub/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/b5/63/e1b512e0ea428ace3fd587615fce5d8a184eec81bf1a832524be28d65e21/neon-phal-plugin-reset-0.4.1a1.tar.gz
+[2024-04-09 01:16:00] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Downloading https://files.pythonhosted.org/packages/79/70/8691e93cde8af8de45e3d66e7a16e712665d5757af4f0b1c396c06037139/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: Downloading https://files.pythonhosted.org/packages/2c/f7/7331f7f881fb9fd3f516d86a4bf3a35f39d804d9522989266853339e438f/neon-phal-plugin-gui-network-client-0.0.5a1.tar.gz
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [neon-phal-plugin-reset]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-reset]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-reset-0.4.0.tar.gz tmp/neon-phal-plugin-reset-0.4.1a1.tar.gz --markdown 20240409/n/neon-phal-plugin-reset/0.4.0-0.4.1a1/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [langchain-google-cloud-sql-mysql]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_cloud_sql_mysql-0.1.0-py3-none-any.whl.zip tmp/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl.zip --markdown 20240409/l/langchain-google-cloud-sql-mysql/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.1.0.tar.gz tmp/shdo-0.1.1.tar.gz --markdown 20240409/s/shdo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] WARNING root fetch - processPackages [neon-phal-plugin-gui-network-client]: Timeout reached during download
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: executing diffoscope
+[2024-04-09 01:16:00] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-gui-network-client-0.0.4a1.tar.gz tmp/neon-phal-plugin-gui-network-client-0.0.5a1.tar.gz --markdown 20240409/n/neon-phal-plugin-gui-network-client/0.0.4a1-0.0.5a1/diff.md --exclude *.pyd
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sdwi2iextender]: Remove: archive file [/home/abi/fetcher/tmp/sdwi2iextender-0.0.9.tar.gz]
+[2024-04-09 01:16:00] INFO root fetch - processPackages [sdwi2iextender]: Remove: archive file [/home/abi/fetcher/tmp/sdwi2iextender-0.1.0.tar.gz]
+[2024-04-09 01:16:00] INFO root fetch - main [MainThread]: End processing [sdwi2iextender]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.1.0.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.1.1.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.4.0.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.4.1a1.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.10.0-py3-none-any.whl.zip]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.9.0-py3-none-any.whl.zip]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [qai-hub]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [sliceitoff]: Remove: archive file [/home/abi/fetcher/tmp/sliceitoff-0.3b1.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [sliceitoff]: Remove: archive file [/home/abi/fetcher/tmp/sliceitoff-0.3b2.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [sliceitoff]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_mysql-0.1.0-py3-none-any.whl.zip]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl.zip]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [langchain-google-cloud-sql-mysql]: success
+[2024-04-09 01:16:01] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-gui-network-client-0.0.4a1.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - processPackages [neon-phal-plugin-gui-network-client]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-gui-network-client-0.0.5a1.tar.gz]
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-gui-network-client]: success
+[2024-04-09 01:16:01] INFO root fetch - main [MainThread]: Store serial: [22674329]
