@@ -1495,3 +1495,50 @@
 [2024-04-09 01:05:10] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.9.tar.gz]
 [2024-04-09 01:05:10] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
 [2024-04-09 01:05:10] INFO root fetch - main [MainThread]: Store serial: [22674250]
+[2024-04-09 01:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674250]
+[2024-04-09 01:07:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 01:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-quality-rules-tools
+[2024-04-09 01:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-09 01:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nextconsole
+[2024-04-09 01:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anon-testo
+[2024-04-09 01:07:18] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 01:07:18] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 01:07:18] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 01:07:18] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/dd/8f/d84b177ebcdc0ffb3ee9f4aaf22feec2fb8f4fe820fc7b2e34c8b56d73d3/spark_quality_rules_tools-0.9.8.tar.gz
+[2024-04-09 01:07:18] INFO root fetch - processPackages [anon-testo]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-09 01:07:18] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240408]
+[2024-04-09 01:07:18] WARNING root fetch - processPackages [spark-quality-rules-tools]: Timeout reached during download
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/45/86/8809fb99413b096088b404d66129a416e8dedbe3fea1ba8880c02a551150/spark_quality_rules_tools-0.9.9.tar.gz
+[2024-04-09 01:07:19] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 01:07:19] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/03/76/5c305d42947c47d4dd8a223ebc0c21af48bb3693b8dff8d3d240fd9856c0/tmnt-0.7.47b20240408.tar.gz
+[2024-04-09 01:07:19] INFO root fetch - processPackages [anon-testo]: Downloading https://files.pythonhosted.org/packages/cc/f6/c965b5398850cb20a450f69f0b77c78a161eda4c66f6b979bd04617acf17/anon_testo-0.3.0.tar.gz
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 01:07:19] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [spark-quality-rules-tools]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2024-04-09 01:07:19] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.9.8.tar.gz tmp/spark_quality_rules_tools-0.9.9.tar.gz --markdown 20240409/s/spark-quality-rules-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [anon-testo]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-09 01:07:19] INFO root fetch - processPackages [anon-testo]: Downloading https://files.pythonhosted.org/packages/98/1f/268f3a73a1f54d26d7adabefd1491823012a269e8f9a750a1633d0138309/anon_testo-0.4.0.tar.gz
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-09 01:07:19] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240408.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240409/t/tmnt/0.7.47b20240408-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-09 01:07:19] WARNING root fetch - processPackages [anon-testo]: Timeout reached during download
+[2024-04-09 01:07:19] INFO root fetch - processPackages [anon-testo]: executing diffoscope
+[2024-04-09 01:07:19] INFO root fetch - processPackages [anon-testo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anon_testo-0.3.0.tar.gz tmp/anon_testo-0.4.0.tar.gz --markdown 20240409/a/anon-testo/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 01:07:19] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 01:07:19] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 01:07:19] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 01:07:19] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.8.tar.gz]
+[2024-04-09 01:07:19] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.9.tar.gz]
+[2024-04-09 01:07:19] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2024-04-09 01:07:20] INFO root fetch - processPackages [anon-testo]: Remove: archive file [/home/abi/fetcher/tmp/anon_testo-0.3.0.tar.gz]
+[2024-04-09 01:07:20] INFO root fetch - processPackages [anon-testo]: Remove: archive file [/home/abi/fetcher/tmp/anon_testo-0.4.0.tar.gz]
+[2024-04-09 01:07:20] INFO root fetch - main [MainThread]: End processing [anon-testo]: success
+[2024-04-09 01:07:20] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240408.tar.gz]
+[2024-04-09 01:07:20] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-09 01:07:20] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-09 01:07:20] INFO root fetch - main [MainThread]: Store serial: [22674261]
