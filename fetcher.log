@@ -854,3 +854,68 @@
 [2024-04-09 00:39:01] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
 [2024-04-09 00:39:01] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
 [2024-04-09 00:39:01] INFO root fetch - main [MainThread]: Store serial: [22674083]
+[2024-04-09 00:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674083]
+[2024-04-09 00:41:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-09 00:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674083]
+[2024-04-09 00:43:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextconsole
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsl
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np_codeocean
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stockdex
+[2024-04-09 00:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: okntool
+[2024-04-09 00:43:15] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 00:43:15] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:43:15] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 00:43:16] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [stockdex]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 00:43:16] INFO root fetch - processPackages [np_codeocean]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-09 00:43:16] INFO root fetch - processPackages [parsl]: New version: [2024.4.8] Old Version: [2024.4.1]
+[2024-04-09 00:43:16] INFO root fetch - processPackages [okntool]: New version: [8.2.1] Old Version: [8.2.0]
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:43:16] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 00:43:16] INFO root fetch - processPackages [np_codeocean]: Downloading https://files.pythonhosted.org/packages/2d/77/7783d57964af2e5521f3a8ee5c58edd820ebd2e09518b1c78115232b3a33/np_codeocean-0.1.7.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/a0/4c/05dedc0d282922a0b074a0911f0a052bd2562ff4151446b6b73b85af56bc/parsl-2024.4.1.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [stockdex]: Downloading https://files.pythonhosted.org/packages/37/05/ab4e68366df13ec9a36235d4dadc66588992f1ba567dcf5f7f29b8eb1348/stockdex-0.3.8.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/b5/b9/1447e6f242fbc6f759a1833731d2003271e9b4b71dc7db2582ac56fdc9b1/okntool-8.2.0.tar.gz
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [np_codeocean]: Timeout reached during download
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:43:16] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 00:43:16] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 00:43:16] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 00:43:16] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [stockdex]: Timeout reached during download
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [okntool]: Skipping package: exceeds size limit 99170890>=10485760
+[2024-04-09 00:43:16] INFO root fetch - main [MainThread]: End processing [okntool] error
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [parsl]: Timeout reached during download
+[2024-04-09 00:43:16] INFO root fetch - processPackages [np_codeocean]: Downloading https://files.pythonhosted.org/packages/a1/b3/b58a680227f1d2904830462920f24e48f289e716165746afd7acc5c1c3ff/np_codeocean-0.2.0.tar.gz
+[2024-04-09 00:43:16] INFO root fetch - processPackages [stockdex]: Downloading https://files.pythonhosted.org/packages/1d/4b/9ee626f45679c90979b1f21bfbe4b576b940580a865e0a0da19692b805d2/stockdex-0.3.9.tar.gz
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [np_codeocean]: Timeout reached during download
+[2024-04-09 00:43:16] INFO root fetch - processPackages [np_codeocean]: executing diffoscope
+[2024-04-09 00:43:16] INFO root fetch - processPackages [np_codeocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_codeocean-0.1.7.tar.gz tmp/np_codeocean-0.2.0.tar.gz --markdown 20240409/n/np_codeocean/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 00:43:16] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/94/de/893d796efa9e69eb525af6a6cc016f08b80bac955081b189080204720968/parsl-2024.4.8.tar.gz
+[2024-04-09 00:43:16] WARNING root fetch - processPackages [parsl]: Timeout reached during download
+[2024-04-09 00:43:16] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-04-09 00:43:16] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.4.1.tar.gz tmp/parsl-2024.4.8.tar.gz --markdown 20240409/p/parsl/2024.4.1-2024.4.8/diff.md --exclude *.pyd
+[2024-04-09 00:43:16] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 00:43:16] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 00:43:16] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 00:43:17] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 00:43:17] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 00:43:17] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 00:43:17] INFO root fetch - processPackages [np_codeocean]: Remove: archive file [/home/abi/fetcher/tmp/np_codeocean-0.1.7.tar.gz]
+[2024-04-09 00:43:17] INFO root fetch - processPackages [np_codeocean]: Remove: archive file [/home/abi/fetcher/tmp/np_codeocean-0.2.0.tar.gz]
+[2024-04-09 00:43:17] INFO root fetch - main [MainThread]: End processing [np_codeocean]: success
+[2024-04-09 00:43:17] WARNING root fetch - processPackages [stockdex]: Timeout reached during download
+[2024-04-09 00:43:17] INFO root fetch - processPackages [stockdex]: executing diffoscope
+[2024-04-09 00:43:17] INFO root fetch - processPackages [stockdex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockdex-0.3.8.tar.gz tmp/stockdex-0.3.9.tar.gz --markdown 20240409/s/stockdex/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 00:43:18] INFO root fetch - processPackages [stockdex]: Remove: archive file [/home/abi/fetcher/tmp/stockdex-0.3.8.tar.gz]
+[2024-04-09 00:43:18] INFO root fetch - processPackages [stockdex]: Remove: archive file [/home/abi/fetcher/tmp/stockdex-0.3.9.tar.gz]
+[2024-04-09 00:43:18] INFO root fetch - main [MainThread]: End processing [stockdex]: success
+[2024-04-09 00:43:18] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.1.tar.gz]
+[2024-04-09 00:43:18] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
+[2024-04-09 00:43:18] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-04-09 00:43:18] INFO root fetch - main [MainThread]: Store serial: [22674099]
