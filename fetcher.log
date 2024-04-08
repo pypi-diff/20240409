@@ -2311,3 +2311,45 @@
 [2024-04-09 01:36:21] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.7.232657.dev0.tar.gz]
 [2024-04-09 01:36:21] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-09 01:36:21] INFO root fetch - main [MainThread]: Store serial: [22674581]
+[2024-04-09 01:38:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674581]
+[2024-04-09 01:38:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudtoken
+[2024-04-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pomodorable
+[2024-04-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-logging
+[2024-04-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccpf
+[2024-04-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMPDATA-MPI
+[2024-04-09 01:38:29] WARNING root fetch - processPackages [ccpf]: Skipping, unable to determine old version
+[2024-04-09 01:38:29] INFO root fetch - main [MainThread]: End processing [ccpf] error
+[2024-04-09 01:38:29] INFO root fetch - processPackages [pomodorable]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2024-04-09 01:38:29] WARNING root fetch - processPackages [pypomes-logging]: Skipping, unable to determine old version
+[2024-04-09 01:38:29] INFO root fetch - main [MainThread]: End processing [pypomes-logging] error
+[2024-04-09 01:38:29] INFO root fetch - processPackages [PyMPDATA-MPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:38:29] INFO root fetch - processPackages [cloudtoken]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-09 01:38:29] INFO root fetch - processPackages [pomodorable]: Downloading https://files.pythonhosted.org/packages/d3/ad/517479bdc5c62854d59457c9cf5b4e6c6e9cf861d961bdbafb55857f6a86/pomodorable-0.1.dev8.tar.gz
+[2024-04-09 01:38:29] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/33/9c/bbe97835f69f89856a0b4db5539891f5d4e30c20e0cd0b4b1f02b42e8dca/cloudtoken-2.1.8-py3-none-any.whl
+[2024-04-09 01:38:30] INFO root fetch - processPackages [PyMPDATA-MPI]: Downloading https://files.pythonhosted.org/packages/d0/b8/d54f2b2ece8936373368088f08948e76d41110d7b68cc3d0bf46b128318d/PyMPDATA-MPI-0.0.8.tar.gz
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [cloudtoken]: Timeout reached during download
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [pomodorable]: Timeout reached during download
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [PyMPDATA-MPI]: Timeout reached during download
+[2024-04-09 01:38:30] INFO root fetch - processPackages [pomodorable]: Downloading https://files.pythonhosted.org/packages/92/5d/b91c67f6c7dae00041e39f7688d01b87851bf8d8d273efb1a25cc434849e/pomodorable-0.1.dev9.tar.gz
+[2024-04-09 01:38:30] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/34/fc/6bc460ae68387b62d25a0ff84166adfaa2fe5304b6c6cba8379692b2dbde/cloudtoken-2.1.9-py3-none-any.whl
+[2024-04-09 01:38:30] INFO root fetch - processPackages [PyMPDATA-MPI]: Downloading https://files.pythonhosted.org/packages/fe/35/b9bf7af01c48aa4dd8c811b702d6a8d4a0210ed53ac0ab991fa94b985bfb/PyMPDATA-MPI-0.0.9.tar.gz
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [cloudtoken]: Timeout reached during download
+[2024-04-09 01:38:30] INFO root fetch - processPackages [cloudtoken]: executing diffoscope
+[2024-04-09 01:38:30] INFO root fetch - processPackages [cloudtoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoken-2.1.8-py3-none-any.whl.zip tmp/cloudtoken-2.1.9-py3-none-any.whl.zip --markdown 20240409/c/cloudtoken/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [pomodorable]: Timeout reached during download
+[2024-04-09 01:38:30] INFO root fetch - processPackages [pomodorable]: executing diffoscope
+[2024-04-09 01:38:30] INFO root fetch - processPackages [pomodorable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodorable-0.1.dev8.tar.gz tmp/pomodorable-0.1.dev9.tar.gz --markdown 20240409/p/pomodorable/0.1.dev8-0.1.dev9/diff.md --exclude *.pyd
+[2024-04-09 01:38:30] WARNING root fetch - processPackages [PyMPDATA-MPI]: Timeout reached during download
+[2024-04-09 01:38:30] INFO root fetch - processPackages [PyMPDATA-MPI]: executing diffoscope
+[2024-04-09 01:38:30] INFO root fetch - processPackages [PyMPDATA-MPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMPDATA-MPI-0.0.8.tar.gz tmp/PyMPDATA-MPI-0.0.9.tar.gz --markdown 20240409/P/PyMPDATA-MPI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:38:31] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.8-py3-none-any.whl.zip]
+[2024-04-09 01:38:31] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.9-py3-none-any.whl.zip]
+[2024-04-09 01:38:31] INFO root fetch - main [MainThread]: End processing [cloudtoken]: success
+[2024-04-09 01:38:31] INFO root fetch - processPackages [pomodorable]: Remove: archive file [/home/abi/fetcher/tmp/pomodorable-0.1.dev8.tar.gz]
+[2024-04-09 01:38:31] INFO root fetch - processPackages [pomodorable]: Remove: archive file [/home/abi/fetcher/tmp/pomodorable-0.1.dev9.tar.gz]
+[2024-04-09 01:38:31] INFO root fetch - main [MainThread]: End processing [pomodorable]: success
+[2024-04-09 01:38:31] INFO root fetch - processPackages [PyMPDATA-MPI]: Remove: archive file [/home/abi/fetcher/tmp/PyMPDATA-MPI-0.0.8.tar.gz]
+[2024-04-09 01:38:31] INFO root fetch - processPackages [PyMPDATA-MPI]: Remove: archive file [/home/abi/fetcher/tmp/PyMPDATA-MPI-0.0.9.tar.gz]
+[2024-04-09 01:38:31] INFO root fetch - main [MainThread]: End processing [PyMPDATA-MPI]: success
+[2024-04-09 01:38:31] INFO root fetch - main [MainThread]: Store serial: [22674595]
