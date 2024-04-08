@@ -1370,3 +1370,89 @@
 [2024-04-09 01:00:45] INFO root fetch - processPackages [deepdiff]: Remove: archive file [/home/abi/fetcher/tmp/deepdiff-7.0.0.tar.gz]
 [2024-04-09 01:00:45] INFO root fetch - main [MainThread]: End processing [deepdiff]: success
 [2024-04-09 01:00:45] INFO root fetch - main [MainThread]: Store serial: [22674213]
+[2024-04-09 01:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674213]
+[2024-04-09 01:02:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqld-integration-test
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-promptweighting
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notion2pandas
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-criteria
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dump-psql-roles-grants
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-protocol-models
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GodEatsPython
+[2024-04-09 01:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kolibri-light
+[2024-04-09 01:02:55] INFO root fetch - processPackages [python-criteria]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-09 01:02:55] INFO root fetch - processPackages [mysqld-integration-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 01:02:55] WARNING root fetch - processPackages [GodEatsPython]: Skipping, unable to determine old version
+[2024-04-09 01:02:55] INFO root fetch - main [MainThread]: End processing [GodEatsPython] error
+[2024-04-09 01:02:55] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-09 01:02:55] INFO root fetch - processPackages [kolibri-light]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-09 01:02:55] INFO root fetch - processPackages [notion2pandas]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-04-09 01:02:55] WARNING root fetch - processPackages [gradio-promptweighting]: Skipping, unable to determine old version
+[2024-04-09 01:02:55] INFO root fetch - main [MainThread]: End processing [gradio-promptweighting] error
+[2024-04-09 01:02:55] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/91/a9/d211ff40b72cc63cd582875047a3f00ca882d18b5189f73664a66a635a19/python-criteria-0.3.2.tar.gz
+[2024-04-09 01:02:55] INFO root fetch - processPackages [airbyte-protocol-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 01:02:55] INFO root fetch - processPackages [dump-psql-roles-grants]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-09 01:02:55] INFO root fetch - processPackages [mysqld-integration-test]: Downloading https://files.pythonhosted.org/packages/0a/21/0f655e8705a21a56887e2d5a85f576df767e0635c5dbc34eb4f81fbcf02f/mysqld-integration-test-0.0.8.tar.gz
+[2024-04-09 01:02:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-09 01:02:55] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-09 01:02:55] WARNING root fetch - processPackages [mysqld-integration-test]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [notion2pandas]: Downloading https://files.pythonhosted.org/packages/d8/b5/ed07bb4955d48e0a8a57612bb7499a8f8d97eb92212fce8eec2d20be0e6c/notion2pandas-0.9.0-py3-none-any.whl
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/7e/cf/ab2b02d56aedfcc8ac6ddf332e15bbfcbc593d709838a28ca5d488d8d5e4/airbyte_protocol_models-1.0.0.tar.gz
+[2024-04-09 01:02:56] INFO root fetch - processPackages [mysqld-integration-test]: Downloading https://files.pythonhosted.org/packages/7d/82/850dde7ff5b3b6cb8f1d207fcdd4a22de065c37a0a00f2e56561afe4c818/mysqld-integration-test-0.0.9.tar.gz
+[2024-04-09 01:02:56] INFO root fetch - processPackages [dump-psql-roles-grants]: Downloading https://files.pythonhosted.org/packages/f6/c4/eea89e53117d14e9f136c9df336d56236ec0396898ae8c3d586e01b943ba/dump_psql_roles_grants-0.2.0.tar.gz
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [notion2pandas]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/2a/ef/8d59426ced4be581921ca88a9b7bb5d1c8ecd43c98a54dbef2ece502d1f1/python-criteria-0.3.3.tar.gz
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [mysqld-integration-test]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [mysqld-integration-test]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [mysqld-integration-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqld-integration-test-0.0.8.tar.gz tmp/mysqld-integration-test-0.0.9.tar.gz --markdown 20240409/m/mysqld-integration-test/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [dump-psql-roles-grants]: Timeout reached during download
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.3.2.tar.gz tmp/python-criteria-0.3.3.tar.gz --markdown 20240409/p/python-criteria/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] INFO root fetch - processPackages [kolibri-light]: Downloading https://files.pythonhosted.org/packages/38/86/96a0e289ca54a8b515a82edb71a2ec8460aa8683bc93d94328dce1a30b81/kolibri_light-0.2.5-py3-none-any.whl
+[2024-04-09 01:02:56] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [airbyte-protocol-models]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [notion2pandas]: Downloading https://files.pythonhosted.org/packages/a2/c9/611b5cc1924473018abd079db6134e30e800a27f3636dc9aa0874d532627/notion2pandas-0.9.2-py3-none-any.whl
+[2024-04-09 01:02:56] INFO root fetch - processPackages [dump-psql-roles-grants]: Downloading https://files.pythonhosted.org/packages/79/d7/b5026a9e4372930a2806454facbce2994a36115e5e1bbd736acc22e0a5de/dump_psql_roles_grants-0.3.0.tar.gz
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240409/c/coiled/1.9.1.dev8-1.9.1.dev9/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [notion2pandas]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [notion2pandas]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [notion2pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion2pandas-0.9.0-py3-none-any.whl.zip tmp/notion2pandas-0.9.2-py3-none-any.whl.zip --markdown 20240409/n/notion2pandas/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [dump-psql-roles-grants]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [dump-psql-roles-grants]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [dump-psql-roles-grants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dump_psql_roles_grants-0.2.0.tar.gz tmp/dump_psql_roles_grants-0.3.0.tar.gz --markdown 20240409/d/dump-psql-roles-grants/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/23/76/d8cc8b0a6f4cba45b2bce02f280c5c3607faca5481c684879768e119b415/airbyte_protocol_models-1.0.1.tar.gz
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [kolibri-light]: Timeout reached during download
+[2024-04-09 01:02:56] WARNING root fetch - processPackages [airbyte-protocol-models]: Timeout reached during download
+[2024-04-09 01:02:56] INFO root fetch - processPackages [airbyte-protocol-models]: executing diffoscope
+[2024-04-09 01:02:56] INFO root fetch - processPackages [airbyte-protocol-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_protocol_models-1.0.0.tar.gz tmp/airbyte_protocol_models-1.0.1.tar.gz --markdown 20240409/a/airbyte-protocol-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 01:02:56] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.2.tar.gz]
+[2024-04-09 01:02:56] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.3.tar.gz]
+[2024-04-09 01:02:56] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-09 01:02:56] INFO root fetch - processPackages [kolibri-light]: Downloading https://files.pythonhosted.org/packages/34/f0/b9add80b6756f12bdb67606905d5edb450358d29d1a6012463bb6db1a546/kolibri_light-0.3.0-py3-none-any.whl
+[2024-04-09 01:02:56] INFO root fetch - processPackages [mysqld-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/mysqld-integration-test-0.0.8.tar.gz]
+[2024-04-09 01:02:56] INFO root fetch - processPackages [mysqld-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/mysqld-integration-test-0.0.9.tar.gz]
+[2024-04-09 01:02:56] INFO root fetch - main [MainThread]: End processing [mysqld-integration-test]: success
+[2024-04-09 01:02:57] INFO root fetch - processPackages [notion2pandas]: Remove: archive file [/home/abi/fetcher/tmp/notion2pandas-0.9.0-py3-none-any.whl.zip]
+[2024-04-09 01:02:57] INFO root fetch - processPackages [notion2pandas]: Remove: archive file [/home/abi/fetcher/tmp/notion2pandas-0.9.2-py3-none-any.whl.zip]
+[2024-04-09 01:02:57] INFO root fetch - main [MainThread]: End processing [notion2pandas]: success
+[2024-04-09 01:02:57] INFO root fetch - processPackages [dump-psql-roles-grants]: Remove: archive file [/home/abi/fetcher/tmp/dump_psql_roles_grants-0.2.0.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - processPackages [dump-psql-roles-grants]: Remove: archive file [/home/abi/fetcher/tmp/dump_psql_roles_grants-0.3.0.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - main [MainThread]: End processing [dump-psql-roles-grants]: success
+[2024-04-09 01:02:57] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-09 01:02:57] INFO root fetch - processPackages [airbyte-protocol-models]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_protocol_models-1.0.0.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - processPackages [airbyte-protocol-models]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_protocol_models-1.0.1.tar.gz]
+[2024-04-09 01:02:57] INFO root fetch - main [MainThread]: End processing [airbyte-protocol-models]: success
+[2024-04-09 01:02:57] WARNING root fetch - processPackages [kolibri-light]: Timeout reached during download
+[2024-04-09 01:02:57] INFO root fetch - processPackages [kolibri-light]: executing diffoscope
+[2024-04-09 01:02:57] INFO root fetch - processPackages [kolibri-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_light-0.2.5-py3-none-any.whl.zip tmp/kolibri_light-0.3.0-py3-none-any.whl.zip --markdown 20240409/k/kolibri-light/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 01:02:59] INFO root fetch - processPackages [kolibri-light]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_light-0.2.5-py3-none-any.whl.zip]
+[2024-04-09 01:02:59] INFO root fetch - processPackages [kolibri-light]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_light-0.3.0-py3-none-any.whl.zip]
+[2024-04-09 01:02:59] INFO root fetch - main [MainThread]: End processing [kolibri-light]: success
+[2024-04-09 01:02:59] INFO root fetch - main [MainThread]: Store serial: [22674240]
