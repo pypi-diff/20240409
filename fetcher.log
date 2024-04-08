@@ -585,3 +585,31 @@
 [2024-04-09 00:22:51] INFO root fetch - processPackages [Ciw]: Remove: archive file [/home/abi/fetcher/tmp/Ciw-3.1.2.tar.gz]
 [2024-04-09 00:22:51] INFO root fetch - main [MainThread]: End processing [Ciw]: success
 [2024-04-09 00:22:51] INFO root fetch - main [MainThread]: Store serial: [22674012]
+[2024-04-09 00:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674012]
+[2024-04-09 00:25:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 00:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okareo
+[2024-04-09 00:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hexagon
+[2024-04-09 00:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ct-encrypt
+[2024-04-09 00:25:00] INFO root fetch - processPackages [hexagon]: New version: [0.58.1] Old Version: [0.57.0]
+[2024-04-09 00:25:00] WARNING root fetch - processPackages [ct-encrypt]: Skipping, unable to determine old version
+[2024-04-09 00:25:00] INFO root fetch - main [MainThread]: End processing [ct-encrypt] error
+[2024-04-09 00:25:00] INFO root fetch - processPackages [okareo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:25:00] INFO root fetch - processPackages [hexagon]: Downloading https://files.pythonhosted.org/packages/3e/4c/ed6bd1c3355394913ef06ed0565e1e0e064349f4b867e6329b105c115553/hexagon-0.57.0.tar.gz
+[2024-04-09 00:25:01] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/18/96/fbddf5611512c68bf19cf900058a104fa5564b54b0ea0452bcacad120aaa/okareo-0.0.8.tar.gz
+[2024-04-09 00:25:01] WARNING root fetch - processPackages [hexagon]: Timeout reached during download
+[2024-04-09 00:25:01] WARNING root fetch - processPackages [okareo]: Timeout reached during download
+[2024-04-09 00:25:01] INFO root fetch - processPackages [hexagon]: Downloading https://files.pythonhosted.org/packages/47/08/fe77493b87ec6cd3ec9a6eccb75c228ce6e7154180217f4c2352f36e69f5/hexagon-0.58.1.tar.gz
+[2024-04-09 00:25:01] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/01/4e/9acae98a4a269d0d02e75ffb72ded2a238371b5382ab719a49fcd70f9394/okareo-0.0.9.tar.gz
+[2024-04-09 00:25:01] WARNING root fetch - processPackages [hexagon]: Timeout reached during download
+[2024-04-09 00:25:01] INFO root fetch - processPackages [hexagon]: executing diffoscope
+[2024-04-09 00:25:01] INFO root fetch - processPackages [hexagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexagon-0.57.0.tar.gz tmp/hexagon-0.58.1.tar.gz --markdown 20240409/h/hexagon/0.57.0-0.58.1/diff.md --exclude *.pyd
+[2024-04-09 00:25:01] WARNING root fetch - processPackages [okareo]: Timeout reached during download
+[2024-04-09 00:25:01] INFO root fetch - processPackages [okareo]: executing diffoscope
+[2024-04-09 00:25:01] INFO root fetch - processPackages [okareo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okareo-0.0.8.tar.gz tmp/okareo-0.0.9.tar.gz --markdown 20240409/o/okareo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:25:02] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.8.tar.gz]
+[2024-04-09 00:25:02] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.9.tar.gz]
+[2024-04-09 00:25:02] INFO root fetch - main [MainThread]: End processing [okareo]: success
+[2024-04-09 00:25:02] INFO root fetch - processPackages [hexagon]: Remove: archive file [/home/abi/fetcher/tmp/hexagon-0.57.0.tar.gz]
+[2024-04-09 00:25:02] INFO root fetch - processPackages [hexagon]: Remove: archive file [/home/abi/fetcher/tmp/hexagon-0.58.1.tar.gz]
+[2024-04-09 00:25:02] INFO root fetch - main [MainThread]: End processing [hexagon]: success
+[2024-04-09 00:25:02] INFO root fetch - main [MainThread]: Store serial: [22674023]
