@@ -2578,3 +2578,20 @@
 [2024-04-09 01:51:38] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.6.9.tar.gz]
 [2024-04-09 01:51:38] INFO root fetch - main [MainThread]: End processing [browserist]: success
 [2024-04-09 01:51:38] INFO root fetch - main [MainThread]: Store serial: [22674661]
+[2024-04-09 01:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674661]
+[2024-04-09 01:53:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 01:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosaicml-streaming
+[2024-04-09 01:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beit3-gml
+[2024-04-09 01:53:46] INFO root fetch - processPackages [mosaicml-streaming]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-09 01:53:46] WARNING root fetch - processPackages [beit3-gml]: Skipping, unable to determine old version
+[2024-04-09 01:53:46] INFO root fetch - main [MainThread]: End processing [beit3-gml] error
+[2024-04-09 01:53:46] INFO root fetch - processPackages [mosaicml-streaming]: Downloading https://files.pythonhosted.org/packages/fa/2e/15c8bad81c3d2409595fdf66eb4708b98f70cc9052dcc79b127fa8d314a3/mosaicml-streaming-0.7.4.tar.gz
+[2024-04-09 01:53:46] WARNING root fetch - processPackages [mosaicml-streaming]: Timeout reached during download
+[2024-04-09 01:53:47] INFO root fetch - processPackages [mosaicml-streaming]: Downloading https://files.pythonhosted.org/packages/08/01/3b27e240a799b0415f2444c66e35bbf89c012db420a7d0923742a4827d08/mosaicml-streaming-0.7.5.tar.gz
+[2024-04-09 01:53:47] WARNING root fetch - processPackages [mosaicml-streaming]: Timeout reached during download
+[2024-04-09 01:53:47] INFO root fetch - processPackages [mosaicml-streaming]: executing diffoscope
+[2024-04-09 01:53:47] INFO root fetch - processPackages [mosaicml-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-streaming-0.7.4.tar.gz tmp/mosaicml-streaming-0.7.5.tar.gz --markdown 20240409/m/mosaicml-streaming/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-09 01:53:48] INFO root fetch - processPackages [mosaicml-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-streaming-0.7.4.tar.gz]
+[2024-04-09 01:53:48] INFO root fetch - processPackages [mosaicml-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-streaming-0.7.5.tar.gz]
+[2024-04-09 01:53:48] INFO root fetch - main [MainThread]: End processing [mosaicml-streaming]: success
+[2024-04-09 01:53:48] INFO root fetch - main [MainThread]: Store serial: [22674671]
