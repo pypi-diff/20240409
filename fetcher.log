@@ -2411,3 +2411,39 @@
 [2024-04-09 01:40:41] INFO root fetch - processPackages [django-intra]: Remove: archive file [/home/abi/fetcher/tmp/django-intra-0.2.1.tar.gz]
 [2024-04-09 01:40:41] INFO root fetch - main [MainThread]: End processing [django-intra]: success
 [2024-04-09 01:40:41] INFO root fetch - main [MainThread]: Store serial: [22674607]
+[2024-04-09 01:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674607]
+[2024-04-09 01:42:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 01:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-intra
+[2024-04-09 01:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chaturbate-poller
+[2024-04-09 01:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpd-lib
+[2024-04-09 01:42:51] INFO root fetch - processPackages [django-intra]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 01:42:51] INFO root fetch - processPackages [dpd-lib]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 01:42:51] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: Downloading https://files.pythonhosted.org/packages/0f/8d/c36f28d21cf32721989ae6575abc2e36263944589558f60b1a279d676b0f/django-intra-0.2.0.tar.gz
+[2024-04-09 01:42:52] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/04/d2/1bdc64288255fe8fec6849b1e9eacce0c1a645da291df5a8394e5418041e/dpd_lib-0.0.5.tar.gz
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [django-intra]: Timeout reached during download
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [dpd-lib]: Timeout reached during download
+[2024-04-09 01:42:52] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/5c/0d/719e27650806362fb9770adef8b6a008e72043b74c99f14d04d9e49dcec7/chaturbate_poller-0.3.1.tar.gz
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: Downloading https://files.pythonhosted.org/packages/23/d5/8fd50ce123a1e788c1968e4b57b0c3e48d0c8864e3e2b58065514d9d71a6/django-intra-0.2.1.tar.gz
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [django-intra]: Timeout reached during download
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: executing diffoscope
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-intra-0.2.0.tar.gz tmp/django-intra-0.2.1.tar.gz --markdown 20240409/d/django-intra/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 01:42:52] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/39/a8/9bfb71fe16ae3981363221baa9ede8eb8d627de1f07593ba8c3972a61006/dpd_lib-0.0.6.tar.gz
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [dpd-lib]: Timeout reached during download
+[2024-04-09 01:42:52] INFO root fetch - processPackages [dpd-lib]: executing diffoscope
+[2024-04-09 01:42:52] INFO root fetch - processPackages [dpd-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpd_lib-0.0.5.tar.gz tmp/dpd_lib-0.0.6.tar.gz --markdown 20240409/d/dpd-lib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 01:42:52] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/61/28/1023445ca03424fa5882ff5a23fcb66193f3caf7d17fb47348dc1d89128f/chaturbate_poller-0.3.2.tar.gz
+[2024-04-09 01:42:52] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-09 01:42:52] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-09 01:42:52] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.3.1.tar.gz tmp/chaturbate_poller-0.3.2.tar.gz --markdown 20240409/c/chaturbate-poller/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: Remove: archive file [/home/abi/fetcher/tmp/django-intra-0.2.0.tar.gz]
+[2024-04-09 01:42:52] INFO root fetch - processPackages [django-intra]: Remove: archive file [/home/abi/fetcher/tmp/django-intra-0.2.1.tar.gz]
+[2024-04-09 01:42:52] INFO root fetch - main [MainThread]: End processing [django-intra]: success
+[2024-04-09 01:42:53] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.0.5.tar.gz]
+[2024-04-09 01:42:53] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.0.6.tar.gz]
+[2024-04-09 01:42:53] INFO root fetch - main [MainThread]: End processing [dpd-lib]: success
+[2024-04-09 01:42:53] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.1.tar.gz]
+[2024-04-09 01:42:53] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.2.tar.gz]
+[2024-04-09 01:42:53] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-09 01:42:53] INFO root fetch - main [MainThread]: Store serial: [22674616]
