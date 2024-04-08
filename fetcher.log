@@ -771,3 +771,61 @@
 [2024-04-09 00:34:31] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.0.tar.gz]
 [2024-04-09 00:34:31] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
 [2024-04-09 00:34:31] INFO root fetch - main [MainThread]: Store serial: [22674068]
+[2024-04-09 00:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674068]
+[2024-04-09 00:36:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 00:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-slack
+[2024-04-09 00:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartesify-backend
+[2024-04-09 00:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: damo
+[2024-04-09 00:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastclip
+[2024-04-09 00:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xml2rfc
+[2024-04-09 00:36:40] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:36:40] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-09 00:36:40] INFO root fetch - processPackages [fastclip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:36:40] INFO root fetch - processPackages [damo]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-09 00:36:40] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.5a1712614650] Old Version: [0.4.5a1712488607]
+[2024-04-09 00:36:40] INFO root fetch - processPackages [xml2rfc]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-09 00:36:40] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:36:40] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/c1/bd/57b35376ba802aab693a0628a3c7796f63f4fcd862fd343cf2bc34263a70/fastclip-0.0.8.tar.gz
+[2024-04-09 00:36:40] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/0d/ba/ab80738a6ac6556fb7db4c5abddca2d1bea24a645a762aa1d1f0bfc80000/damo-2.2.8.tar.gz
+[2024-04-09 00:36:40] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/24/38/7af268354a5aee5792db59e321cb3f00e7b77df4a39400369fec1c6d786b/pulumi_slack-0.4.5a1712488607.tar.gz
+[2024-04-09 00:36:40] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-09 00:36:41] INFO root fetch - processPackages [xml2rfc]: Downloading https://files.pythonhosted.org/packages/7b/da/6e6b2b0c9b4332fd2c4886707a608296858537fc8fa4779397a046dd4d5f/xml2rfc-3.9.0.tar.gz
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [fastclip]: Timeout reached during download
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [pulumi-slack]: Timeout reached during download
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:36:41] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-09 00:36:41] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240409/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [damo]: Timeout reached during download
+[2024-04-09 00:36:41] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/18/9c/061ce3445064bc994cf3482d28124bc0314cbaf7ab4a269cea85e083fbc1/fastclip-0.0.9.tar.gz
+[2024-04-09 00:36:41] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/ec/04/d099c5fd798c43fba7b74b235cfc77ecc6b6e3686f4c2a18e41b110b8048/pulumi_slack-0.4.5a1712614650.tar.gz
+[2024-04-09 00:36:41] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/d6/12/9765b3b6c5670d7d1589d892c84ef633a41f4c29cf5b34ae4d4b02bb109d/damo-2.2.9.tar.gz
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [fastclip]: Timeout reached during download
+[2024-04-09 00:36:41] INFO root fetch - processPackages [fastclip]: executing diffoscope
+[2024-04-09 00:36:41] INFO root fetch - processPackages [fastclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastclip-0.0.8.tar.gz tmp/fastclip-0.0.9.tar.gz --markdown 20240409/f/fastclip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [pulumi-slack]: Timeout reached during download
+[2024-04-09 00:36:41] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-04-09 00:36:41] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1712488607.tar.gz tmp/pulumi_slack-0.4.5a1712614650.tar.gz --markdown 20240409/p/pulumi-slack/0.4.5a1712488607-0.4.5a1712614650/diff.md --exclude *.pyd
+[2024-04-09 00:36:41] WARNING root fetch - processPackages [damo]: Timeout reached during download
+[2024-04-09 00:36:41] INFO root fetch - processPackages [damo]: executing diffoscope
+[2024-04-09 00:36:41] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-2.2.8.tar.gz tmp/damo-2.2.9.tar.gz --markdown 20240409/d/damo/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-09 00:36:41] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-09 00:36:41] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.8.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.9.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - main [MainThread]: End processing [fastclip]: success
+[2024-04-09 00:36:41] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1712488607.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1712614650.tar.gz]
+[2024-04-09 00:36:41] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-04-09 00:36:42] WARNING root fetch - processPackages [xml2rfc]: Timeout reached during download
+[2024-04-09 00:36:42] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.2.8.tar.gz]
+[2024-04-09 00:36:42] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.2.9.tar.gz]
+[2024-04-09 00:36:42] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2024-04-09 00:36:42] INFO root fetch - processPackages [xml2rfc]: Downloading https://files.pythonhosted.org/packages/4e/bf/daf99d5899136f2754734021dd2c41f80d424cfde52b50cf2c046a0fb257/xml2rfc-3.9.1.tar.gz
+[2024-04-09 00:36:43] WARNING root fetch - processPackages [xml2rfc]: Timeout reached during download
+[2024-04-09 00:36:43] INFO root fetch - processPackages [xml2rfc]: executing diffoscope
+[2024-04-09 00:36:43] INFO root fetch - processPackages [xml2rfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xml2rfc-3.9.0.tar.gz tmp/xml2rfc-3.9.1.tar.gz --markdown 20240409/x/xml2rfc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-09 00:36:47] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.0.tar.gz]
+[2024-04-09 00:36:47] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
+[2024-04-09 00:36:47] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
+[2024-04-09 00:36:47] INFO root fetch - main [MainThread]: Store serial: [22674079]
