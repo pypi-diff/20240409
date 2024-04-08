@@ -311,3 +311,56 @@
 [2024-04-09 00:05:29] INFO root fetch - processPackages [mov-cli-anime]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-anime-1.0.9.tar.gz]
 [2024-04-09 00:05:29] INFO root fetch - main [MainThread]: End processing [mov-cli-anime]: success
 [2024-04-09 00:05:29] INFO root fetch - main [MainThread]: Store serial: [22673885]
+[2024-04-09 00:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673885]
+[2024-04-09 00:07:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvector
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sagemaker-schema-inference-artifacts
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jbar
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mov-cli
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: carbon-python-sdk
+[2024-04-09 00:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planet
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [openvector]: Skipping, unable to determine old version
+[2024-04-09 00:07:38] INFO root fetch - main [MainThread]: End processing [openvector] error
+[2024-04-09 00:07:38] INFO root fetch - processPackages [mov-cli]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [jbar]: Skipping, unable to determine old version
+[2024-04-09 00:07:38] INFO root fetch - main [MainThread]: End processing [jbar] error
+[2024-04-09 00:07:38] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 00:07:38] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 00:07:38] INFO root fetch - processPackages [planet]: New version: [2.6.dev0] Old Version: [2.4]
+[2024-04-09 00:07:38] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/08/74/049ea936bb5c009d20a77230d35901c514c88f73635a7367dafa29431573/mov-cli-4.2.8.tar.gz
+[2024-04-09 00:07:38] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: Downloading https://files.pythonhosted.org/packages/e9/f2/fbc7a5cd6e7e205163e9c47e4f3b8fd4914bc6cb626133dc3af9bd2f1d27/sagemaker-schema-inference-artifacts-0.0.4.tar.gz
+[2024-04-09 00:07:38] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-04-09 00:07:38] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/98/26/f7d687f5e4b00c0f6c15b3e841fa4d7c760d249c072898d66f89d89af234/planet-2.4.tar.gz
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [carbon-python-sdk]: Timeout reached during download
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [sagemaker-schema-inference-artifacts]: Timeout reached during download
+[2024-04-09 00:07:38] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/50/fd/7415356b93530e0f35b03e1344ccca112ede6501207f15f8705de808e559/mov-cli-4.2.9.tar.gz
+[2024-04-09 00:07:38] WARNING root fetch - processPackages [planet]: Timeout reached during download
+[2024-04-09 00:07:39] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-09 00:07:39] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-09 00:07:39] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-4.2.8.tar.gz tmp/mov-cli-4.2.9.tar.gz --markdown 20240409/m/mov-cli/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2024-04-09 00:07:39] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: Downloading https://files.pythonhosted.org/packages/51/b3/b39099f265041678c03798c636d8460f8cc6a398deb299b05441f1aaa812/sagemaker_schema_inference_artifacts-0.0.5-py3-none-any.whl
+[2024-04-09 00:07:39] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/d9/14/569cbc5724cdf6642cf629c513bbfb606a5f7dd0f102234d76852f169923/planet-2.6.dev0.tar.gz
+[2024-04-09 00:07:39] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-04-09 00:07:39] WARNING root fetch - processPackages [sagemaker-schema-inference-artifacts]: Timeout reached during download
+[2024-04-09 00:07:39] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: executing diffoscope
+[2024-04-09 00:07:39] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-schema-inference-artifacts-0.0.4.tar.gz tmp/sagemaker_schema_inference_artifacts-0.0.5-py3-none-any.whl.zip --markdown 20240409/s/sagemaker-schema-inference-artifacts/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 00:07:39] WARNING root fetch - processPackages [planet]: Timeout reached during download
+[2024-04-09 00:07:39] INFO root fetch - processPackages [planet]: executing diffoscope
+[2024-04-09 00:07:39] INFO root fetch - processPackages [planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planet-2.4.tar.gz tmp/planet-2.6.dev0.tar.gz --markdown 20240409/p/planet/2.4-2.6.dev0/diff.md --exclude *.pyd
+[2024-04-09 00:07:39] WARNING root fetch - processPackages [carbon-python-sdk]: Timeout reached during download
+[2024-04-09 00:07:39] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-04-09 00:07:39] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240409/c/carbon-python-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 00:07:39] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.8.tar.gz]
+[2024-04-09 00:07:39] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.9.tar.gz]
+[2024-04-09 00:07:39] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-09 00:07:39] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-schema-inference-artifacts-0.0.4.tar.gz]
+[2024-04-09 00:07:39] INFO root fetch - processPackages [sagemaker-schema-inference-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_schema_inference_artifacts-0.0.5-py3-none-any.whl.zip]
+[2024-04-09 00:07:39] INFO root fetch - main [MainThread]: End processing [sagemaker-schema-inference-artifacts]: success
+[2024-04-09 00:07:40] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.4.tar.gz]
+[2024-04-09 00:07:40] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.6.dev0.tar.gz]
+[2024-04-09 00:07:40] INFO root fetch - main [MainThread]: End processing [planet]: success
+[2024-04-09 00:07:42] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-04-09 00:07:42] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-04-09 00:07:42] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-04-09 00:07:42] INFO root fetch - main [MainThread]: Store serial: [22673904]
