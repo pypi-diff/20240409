@@ -2564,3 +2564,17 @@
 [2024-04-09 01:49:26] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc1.tar.gz]
 [2024-04-09 01:49:26] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-09 01:49:26] INFO root fetch - main [MainThread]: Store serial: [22674656]
+[2024-04-09 01:51:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674656]
+[2024-04-09 01:51:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 01:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: browserist
+[2024-04-09 01:51:36] INFO root fetch - processPackages [browserist]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-09 01:51:36] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/cf/7c/1d6bc1d82faf4b964463a5611d63835587ceb64791e23913111bd91707e6/browserist-1.6.8.tar.gz
+[2024-04-09 01:51:36] WARNING root fetch - processPackages [browserist]: Timeout reached during download
+[2024-04-09 01:51:37] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/d0/ac/64e013f01184ad61e764b7d02e4014f5b7770074bb4fb1dabac3c56c08b8/browserist-1.6.9.tar.gz
+[2024-04-09 01:51:37] WARNING root fetch - processPackages [browserist]: Timeout reached during download
+[2024-04-09 01:51:37] INFO root fetch - processPackages [browserist]: executing diffoscope
+[2024-04-09 01:51:37] INFO root fetch - processPackages [browserist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserist-1.6.8.tar.gz tmp/browserist-1.6.9.tar.gz --markdown 20240409/b/browserist/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2024-04-09 01:51:38] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.6.8.tar.gz]
+[2024-04-09 01:51:38] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.6.9.tar.gz]
+[2024-04-09 01:51:38] INFO root fetch - main [MainThread]: End processing [browserist]: success
+[2024-04-09 01:51:38] INFO root fetch - main [MainThread]: Store serial: [22674661]
