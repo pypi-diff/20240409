@@ -718,3 +718,39 @@
 [2024-04-09 00:29:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev6.tar.gz]
 [2024-04-09 00:29:33] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-09 00:29:33] INFO root fetch - main [MainThread]: Store serial: [22674051]
+[2024-04-09 00:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674051]
+[2024-04-09 00:31:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 00:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-04-09 00:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uf-toolkit
+[2024-04-09 00:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opcut
+[2024-04-09 00:31:41] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:31:41] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 00:31:41] INFO root fetch - processPackages [uf-toolkit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 00:31:41] INFO root fetch - processPackages [opcut]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 00:31:41] INFO root fetch - processPackages [uf-toolkit]: Downloading https://files.pythonhosted.org/packages/5e/32/f72754e194c0595f31e2eb2e9c5a58aaa59cb3da4818a41fba6790c70fd7/uf-toolkit-0.2.2.tar.gz
+[2024-04-09 00:31:41] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:31:41] WARNING root fetch - processPackages [uf-toolkit]: Timeout reached during download
+[2024-04-09 00:31:41] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 00:31:41] INFO root fetch - processPackages [opcut]: Downloading https://files.pythonhosted.org/packages/66/a3/ad97d3685bb89d92dc388bcdfa2e95baf59b9766ffb5bce0514efb22e509/opcut-0.4.8-cp38.cp39.cp310.cp311-none-any.whl
+[2024-04-09 00:31:42] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 00:31:42] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 00:31:42] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:31:42] INFO root fetch - processPackages [uf-toolkit]: Downloading https://files.pythonhosted.org/packages/3a/28/4d00e0a5b5195987d61e31eff1ab44a887b2ba73fdd90a269872552e237a/uf-toolkit-0.2.3.tar.gz
+[2024-04-09 00:31:42] WARNING root fetch - processPackages [opcut]: Timeout reached during download
+[2024-04-09 00:31:42] WARNING root fetch - processPackages [uf-toolkit]: Timeout reached during download
+[2024-04-09 00:31:42] INFO root fetch - processPackages [uf-toolkit]: executing diffoscope
+[2024-04-09 00:31:42] INFO root fetch - processPackages [uf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uf-toolkit-0.2.2.tar.gz tmp/uf-toolkit-0.2.3.tar.gz --markdown 20240409/u/uf-toolkit/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 00:31:42] INFO root fetch - processPackages [opcut]: Downloading https://files.pythonhosted.org/packages/a0/b0/48b60c138d00860c51c8c4c97f06cb220c837b6b4a1960e6e11fdfe6c90a/opcut-0.4.9-cp38.cp39.cp310.cp311-none-any.whl
+[2024-04-09 00:31:42] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 00:31:42] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 00:31:42] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 00:31:42] WARNING root fetch - processPackages [opcut]: Timeout reached during download
+[2024-04-09 00:31:42] INFO root fetch - processPackages [opcut]: executing diffoscope
+[2024-04-09 00:31:42] INFO root fetch - processPackages [opcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opcut-0.4.8-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/opcut-0.4.9-cp38.cp39.cp310.cp311-none-any.whl.zip --markdown 20240409/o/opcut/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 00:31:42] INFO root fetch - processPackages [uf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/uf-toolkit-0.2.2.tar.gz]
+[2024-04-09 00:31:42] INFO root fetch - processPackages [uf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/uf-toolkit-0.2.3.tar.gz]
+[2024-04-09 00:31:42] INFO root fetch - main [MainThread]: End processing [uf-toolkit]: success
+[2024-04-09 00:31:44] INFO root fetch - processPackages [opcut]: Remove: archive file [/home/abi/fetcher/tmp/opcut-0.4.8-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2024-04-09 00:31:44] INFO root fetch - processPackages [opcut]: Remove: archive file [/home/abi/fetcher/tmp/opcut-0.4.9-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2024-04-09 00:31:44] INFO root fetch - main [MainThread]: End processing [opcut]: success
+[2024-04-09 00:31:44] INFO root fetch - main [MainThread]: Store serial: [22674060]
