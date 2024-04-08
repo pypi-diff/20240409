@@ -450,3 +450,42 @@
 [2024-04-09 00:12:03] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-5.1.0.tar.gz]
 [2024-04-09 00:12:03] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
 [2024-04-09 00:12:03] INFO root fetch - main [MainThread]: Store serial: [22673971]
+[2024-04-09 00:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673971]
+[2024-04-09 00:14:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 00:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devicebay
+[2024-04-09 00:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-release-noter
+[2024-04-09 00:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cartesify-backend
+[2024-04-09 00:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nextconsole
+[2024-04-09 00:14:12] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 00:14:12] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 00:14:12] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:14:12] WARNING root fetch - processPackages [devicebay]: Skipping, unable to determine old version
+[2024-04-09 00:14:12] INFO root fetch - main [MainThread]: End processing [devicebay] error
+[2024-04-09 00:14:12] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 00:14:12] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-09 00:14:12] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2024-04-09 00:14:12] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:14:12] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:14:13] WARNING root fetch - processPackages [qctrl-release-noter]: Timeout reached during download
+[2024-04-09 00:14:13] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 00:14:13] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2024-04-09 00:14:13] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-09 00:14:13] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-09 00:14:13] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240409/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:14:13] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 00:14:13] WARNING root fetch - processPackages [qctrl-release-noter]: Timeout reached during download
+[2024-04-09 00:14:13] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2024-04-09 00:14:13] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20240409/q/qctrl-release-noter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 00:14:13] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-09 00:14:13] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-09 00:14:13] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-09 00:14:13] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.8.0.tar.gz]
+[2024-04-09 00:14:13] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
+[2024-04-09 00:14:13] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 00:14:13] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 00:14:13] INFO root fetch - main [MainThread]: Store serial: [22673985]
