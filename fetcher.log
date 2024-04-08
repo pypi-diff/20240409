@@ -638,3 +638,83 @@
 [2024-04-09 00:27:11] INFO root fetch - processPackages [tscluster]: Remove: archive file [/home/abi/fetcher/tmp/tscluster-1.0.1.tar.gz]
 [2024-04-09 00:27:11] INFO root fetch - main [MainThread]: End processing [tscluster]: success
 [2024-04-09 00:27:11] INFO root fetch - main [MainThread]: Store serial: [22674030]
+[2024-04-09 00:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674030]
+[2024-04-09 00:29:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xian-py
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvene
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slackoff
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litio
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dyff-schema
+[2024-04-09 00:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpi-tools
+[2024-04-09 00:29:20] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev6] Old Version: [5.0.6.dev4]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [pyvene]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [litio]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [xian-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [cpi-tools]: New version: [0.3.19] Old Version: [0.2.9]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [dyff-schema]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [slackoff]: New version: [1.2] Old Version: [1.1b1]
+[2024-04-09 00:29:20] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/6e/28/e759c26ac9e517ff5bf544b343f023dd9198e68f11f70794f1ac30097b51/moto-5.0.6.dev4.tar.gz
+[2024-04-09 00:29:20] INFO root fetch - processPackages [pyvene]: Downloading https://files.pythonhosted.org/packages/16/16/555bfe7f31f3b08ad3c6a6c00ec20f90c0f6df4ab1b4394ff77c389c6518/pyvene-0.1.0.tar.gz
+[2024-04-09 00:29:20] INFO root fetch - processPackages [xian-py]: Downloading https://files.pythonhosted.org/packages/88/23/11f06d30b5a3b9c42f7585ddd9c95a3f61c5800a72a267cfb4beefdc51cc/xian_py-0.1.3.tar.gz
+[2024-04-09 00:29:20] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/4e/f1/51cf8ed931aa2d68b2f0815841ecac767aa5a3656282a964b77f0d309f75/dyff-schema-0.2.2.tar.gz
+[2024-04-09 00:29:20] WARNING root fetch - processPackages [pyvene]: Timeout reached during download
+[2024-04-09 00:29:20] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/a5/84/c7a4e4d55ca9c6d61e1631b6c5ebf33029cc155e87d3ae331ae094b2248e/cpi_tools-0.2.9.tar.gz
+[2024-04-09 00:29:20] INFO root fetch - processPackages [litio]: Downloading https://files.pythonhosted.org/packages/7c/c3/d1077520bf9a8a1d2e0463ce9d0c3d2b4052848e2e4bc9d47ccdb72227ed/litio-1.6.0.tar.gz
+[2024-04-09 00:29:20] INFO root fetch - processPackages [slackoff]: Downloading https://files.pythonhosted.org/packages/90/87/58d544a269b74e081137fa98cfad9481679ee5e01971d625fd0f41ab881f/slackoff-1.1b1.tar.gz
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [dyff-schema]: Timeout reached during download
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [xian-py]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [pyvene]: Downloading https://files.pythonhosted.org/packages/c1/30/e10eef003f8a64b26631c00d19ced2e5c63524d662c8a628b2affefe1157/pyvene-0.1.1.tar.gz
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [cpi-tools]: Timeout reached during download
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [litio]: Timeout reached during download
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [slackoff]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/69/75/4bf84a158b58f0fc38e90329d761f810eef9b02be9876452460ad9346439/dyff-schema-0.3.0.tar.gz
+[2024-04-09 00:29:21] INFO root fetch - processPackages [xian-py]: Downloading https://files.pythonhosted.org/packages/9e/69/642beeabb9793bf36b0ec22db6138a7b087afba7f764ee1d977cb89ddc7a/xian_py-0.1.4.tar.gz
+[2024-04-09 00:29:21] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/e6/c5/449e8ed157e286496e03ea0afa5e3f55c6f9f9fcd696b1b8376375ef13df/moto-5.0.6.dev6.tar.gz
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [pyvene]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [pyvene]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [pyvene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvene-0.1.0.tar.gz tmp/pyvene-0.1.1.tar.gz --markdown 20240409/p/pyvene/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] INFO root fetch - processPackages [slackoff]: Downloading https://files.pythonhosted.org/packages/f6/c9/b949877c1d988c1edf816608ae0bd2100a093e564cec6659eaea01e461e5/slackoff-1.2.tar.gz
+[2024-04-09 00:29:21] INFO root fetch - processPackages [litio]: Downloading https://files.pythonhosted.org/packages/ae/ae/000ac19ba371f485fd8a65226c858b381329d14fb7284bf0774bc8aa7cab/litio-1.6.1.tar.gz
+[2024-04-09 00:29:21] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/fe/2f/666daa635ec35c04bc4480c75acd5a1f51d6fb761bfb007e4978700945a1/cpi_tools-0.3.19.tar.gz
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [dyff-schema]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-schema-0.2.2.tar.gz tmp/dyff-schema-0.3.0.tar.gz --markdown 20240409/d/dyff-schema/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [xian-py]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [xian-py]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [xian-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xian_py-0.1.3.tar.gz tmp/xian_py-0.1.4.tar.gz --markdown 20240409/x/xian-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [slackoff]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [slackoff]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [slackoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackoff-1.1b1.tar.gz tmp/slackoff-1.2.tar.gz --markdown 20240409/s/slackoff/1.1b1-1.2/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [litio]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [litio]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [litio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litio-1.6.0.tar.gz tmp/litio-1.6.1.tar.gz --markdown 20240409/l/litio/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [cpi-tools]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [cpi-tools]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [cpi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpi_tools-0.2.9.tar.gz tmp/cpi_tools-0.3.19.tar.gz --markdown 20240409/c/cpi-tools/0.2.9-0.3.19/diff.md --exclude *.pyd
+[2024-04-09 00:29:21] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-09 00:29:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-09 00:29:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev4.tar.gz tmp/moto-5.0.6.dev6.tar.gz --markdown 20240409/m/moto/5.0.6.dev4-5.0.6.dev6/diff.md --exclude *.pyd
+[2024-04-09 00:29:22] INFO root fetch - processPackages [pyvene]: Remove: archive file [/home/abi/fetcher/tmp/pyvene-0.1.0.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [pyvene]: Remove: archive file [/home/abi/fetcher/tmp/pyvene-0.1.1.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [pyvene]: success
+[2024-04-09 00:29:22] INFO root fetch - processPackages [xian-py]: Remove: archive file [/home/abi/fetcher/tmp/xian_py-0.1.3.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [xian-py]: Remove: archive file [/home/abi/fetcher/tmp/xian_py-0.1.4.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [xian-py]: success
+[2024-04-09 00:29:22] INFO root fetch - processPackages [slackoff]: Remove: archive file [/home/abi/fetcher/tmp/slackoff-1.1b1.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [slackoff]: Remove: archive file [/home/abi/fetcher/tmp/slackoff-1.2.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [slackoff]: success
+[2024-04-09 00:29:22] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.9.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.3.19.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [cpi-tools]: success
+[2024-04-09 00:29:22] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.2.2.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.0.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-04-09 00:29:22] INFO root fetch - processPackages [litio]: Remove: archive file [/home/abi/fetcher/tmp/litio-1.6.0.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - processPackages [litio]: Remove: archive file [/home/abi/fetcher/tmp/litio-1.6.1.tar.gz]
+[2024-04-09 00:29:22] INFO root fetch - main [MainThread]: End processing [litio]: success
+[2024-04-09 00:29:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev4.tar.gz]
+[2024-04-09 00:29:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev6.tar.gz]
+[2024-04-09 00:29:33] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-09 00:29:33] INFO root fetch - main [MainThread]: Store serial: [22674051]
