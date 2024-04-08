@@ -2266,3 +2266,9 @@
 [2024-04-09 01:31:57] INFO root fetch - processPackages [KqlmagicCustom]: Remove: archive file [/home/abi/fetcher/tmp/KqlmagicCustom-0.1.114.post9.tar.gz]
 [2024-04-09 01:31:57] INFO root fetch - main [MainThread]: End processing [KqlmagicCustom]: success
 [2024-04-09 01:31:57] INFO root fetch - main [MainThread]: Store serial: [22674563]
+[2024-04-09 01:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674563]
+[2024-04-09 01:34:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 01:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaspad-client
+[2024-04-09 01:34:05] WARNING root fetch - processPackages [kaspad-client]: Skipping, unable to determine old version
+[2024-04-09 01:34:05] INFO root fetch - main [MainThread]: End processing [kaspad-client] error
+[2024-04-09 01:34:05] INFO root fetch - main [MainThread]: Store serial: [22674567]
