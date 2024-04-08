@@ -489,3 +489,20 @@
 [2024-04-09 00:14:13] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
 [2024-04-09 00:14:13] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
 [2024-04-09 00:14:13] INFO root fetch - main [MainThread]: Store serial: [22673985]
+[2024-04-09 00:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22673985]
+[2024-04-09 00:16:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devicebay
+[2024-04-09 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhostprep
+[2024-04-09 00:16:22] WARNING root fetch - processPackages [devicebay]: Skipping, unable to determine old version
+[2024-04-09 00:16:22] INFO root fetch - main [MainThread]: End processing [devicebay] error
+[2024-04-09 00:16:22] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 00:16:23] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-04-09 00:16:23] WARNING root fetch - processPackages [pyhostprep]: Timeout reached during download
+[2024-04-09 00:16:23] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-04-09 00:16:23] WARNING root fetch - processPackages [pyhostprep]: Timeout reached during download
+[2024-04-09 00:16:23] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-04-09 00:16:23] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240409/p/pyhostprep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:16:24] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-04-09 00:16:24] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-04-09 00:16:24] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-04-09 00:16:24] INFO root fetch - main [MainThread]: Store serial: [22673991]
