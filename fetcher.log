@@ -547,3 +547,41 @@
 [2024-04-09 00:18:35] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-04-09 00:18:35] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-04-09 00:18:35] INFO root fetch - main [MainThread]: Store serial: [22674003]
+[2024-04-09 00:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674003]
+[2024-04-09 00:20:44] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-09 00:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674003]
+[2024-04-09 00:22:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 00:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqld-integration-test
+[2024-04-09 00:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkatlas
+[2024-04-09 00:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Ciw
+[2024-04-09 00:22:49] INFO root fetch - processPackages [Ciw]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-09 00:22:49] INFO root fetch - processPackages [checkatlas]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-09 00:22:49] INFO root fetch - processPackages [mysqld-integration-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 00:22:49] INFO root fetch - processPackages [Ciw]: Downloading https://files.pythonhosted.org/packages/4f/6a/7a4ff3b62be886f3c2a88a198e46913aaa6b7037c6f01dd75b393d8297c2/Ciw-3.1.1.tar.gz
+[2024-04-09 00:22:49] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/c3/31/556689418d1a24a985abe1df03e066ab29d3a1d43e88a1b7308370d3a1be/checkatlas-0.4.4.tar.gz
+[2024-04-09 00:22:49] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:22:49] INFO root fetch - processPackages [mysqld-integration-test]: Downloading https://files.pythonhosted.org/packages/0a/21/0f655e8705a21a56887e2d5a85f576df767e0635c5dbc34eb4f81fbcf02f/mysqld-integration-test-0.0.8.tar.gz
+[2024-04-09 00:22:49] WARNING root fetch - processPackages [Ciw]: Timeout reached during download
+[2024-04-09 00:22:49] WARNING root fetch - processPackages [mysqld-integration-test]: Timeout reached during download
+[2024-04-09 00:22:49] INFO root fetch - processPackages [Ciw]: Downloading https://files.pythonhosted.org/packages/7d/c1/abdfd091452274a48dc2c1c843911feaf336e5c5e72e00848248bb5da5ff/Ciw-3.1.2.tar.gz
+[2024-04-09 00:22:49] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/7d/d1/01028ef317cc6109bc38673fc03c5d8e4d4eaac1b1679adea41015511375/checkatlas-0.4.5.tar.gz
+[2024-04-09 00:22:49] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 00:22:49] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 00:22:49] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.4.tar.gz tmp/checkatlas-0.4.5.tar.gz --markdown 20240409/c/checkatlas/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2024-04-09 00:22:49] INFO root fetch - processPackages [mysqld-integration-test]: Downloading https://files.pythonhosted.org/packages/7d/82/850dde7ff5b3b6cb8f1d207fcdd4a22de065c37a0a00f2e56561afe4c818/mysqld-integration-test-0.0.9.tar.gz
+[2024-04-09 00:22:50] WARNING root fetch - processPackages [mysqld-integration-test]: Timeout reached during download
+[2024-04-09 00:22:50] INFO root fetch - processPackages [mysqld-integration-test]: executing diffoscope
+[2024-04-09 00:22:50] INFO root fetch - processPackages [mysqld-integration-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqld-integration-test-0.0.8.tar.gz tmp/mysqld-integration-test-0.0.9.tar.gz --markdown 20240409/m/mysqld-integration-test/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:22:50] WARNING root fetch - processPackages [Ciw]: Timeout reached during download
+[2024-04-09 00:22:50] INFO root fetch - processPackages [Ciw]: executing diffoscope
+[2024-04-09 00:22:50] INFO root fetch - processPackages [Ciw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ciw-3.1.1.tar.gz tmp/Ciw-3.1.2.tar.gz --markdown 20240409/C/Ciw/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2024-04-09 00:22:50] INFO root fetch - processPackages [mysqld-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/mysqld-integration-test-0.0.8.tar.gz]
+[2024-04-09 00:22:50] INFO root fetch - processPackages [mysqld-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/mysqld-integration-test-0.0.9.tar.gz]
+[2024-04-09 00:22:50] INFO root fetch - main [MainThread]: End processing [mysqld-integration-test]: success
+[2024-04-09 00:22:50] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.4.tar.gz]
+[2024-04-09 00:22:50] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.5.tar.gz]
+[2024-04-09 00:22:50] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 00:22:51] INFO root fetch - processPackages [Ciw]: Remove: archive file [/home/abi/fetcher/tmp/Ciw-3.1.1.tar.gz]
+[2024-04-09 00:22:51] INFO root fetch - processPackages [Ciw]: Remove: archive file [/home/abi/fetcher/tmp/Ciw-3.1.2.tar.gz]
+[2024-04-09 00:22:51] INFO root fetch - main [MainThread]: End processing [Ciw]: success
+[2024-04-09 00:22:51] INFO root fetch - main [MainThread]: Store serial: [22674012]
