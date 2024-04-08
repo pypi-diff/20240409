@@ -829,3 +829,28 @@
 [2024-04-09 00:36:47] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
 [2024-04-09 00:36:47] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
 [2024-04-09 00:36:47] INFO root fetch - main [MainThread]: Store serial: [22674079]
+[2024-04-09 00:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674079]
+[2024-04-09 00:38:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xml2rfc
+[2024-04-09 00:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mig
+[2024-04-09 00:38:56] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 00:38:56] INFO root fetch - processPackages [xml2rfc]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-09 00:38:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-09 00:38:56] INFO root fetch - processPackages [xml2rfc]: Downloading https://files.pythonhosted.org/packages/7b/da/6e6b2b0c9b4332fd2c4886707a608296858537fc8fa4779397a046dd4d5f/xml2rfc-3.9.0.tar.gz
+[2024-04-09 00:38:56] WARNING root fetch - processPackages [sbcli-mig]: Timeout reached during download
+[2024-04-09 00:38:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-09 00:38:57] WARNING root fetch - processPackages [xml2rfc]: Timeout reached during download
+[2024-04-09 00:38:57] WARNING root fetch - processPackages [sbcli-mig]: Timeout reached during download
+[2024-04-09 00:38:57] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-09 00:38:57] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240409/s/sbcli-mig/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 00:38:57] INFO root fetch - processPackages [xml2rfc]: Downloading https://files.pythonhosted.org/packages/4e/bf/daf99d5899136f2754734021dd2c41f80d424cfde52b50cf2c046a0fb257/xml2rfc-3.9.1.tar.gz
+[2024-04-09 00:38:57] WARNING root fetch - processPackages [xml2rfc]: Timeout reached during download
+[2024-04-09 00:38:57] INFO root fetch - processPackages [xml2rfc]: executing diffoscope
+[2024-04-09 00:38:57] INFO root fetch - processPackages [xml2rfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xml2rfc-3.9.0.tar.gz tmp/xml2rfc-3.9.1.tar.gz --markdown 20240409/x/xml2rfc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-09 00:38:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-09 00:38:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-09 00:38:58] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-09 00:39:01] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.0.tar.gz]
+[2024-04-09 00:39:01] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
+[2024-04-09 00:39:01] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
+[2024-04-09 00:39:01] INFO root fetch - main [MainThread]: Store serial: [22674083]
