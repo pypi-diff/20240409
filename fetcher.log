@@ -23114,3 +23114,42 @@
 [2024-04-09 11:57:25] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.6.tar.gz]
 [2024-04-09 11:57:25] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
 [2024-04-09 11:57:25] INFO root fetch - main [MainThread]: Store serial: [22681546]
+[2024-04-09 11:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681546]
+[2024-04-09 11:59:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 11:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-EasyGraph
+[2024-04-09 11:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mxlm
+[2024-04-09 11:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demo-alphav2
+[2024-04-09 11:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbnconfig
+[2024-04-09 11:59:34] WARNING root fetch - processPackages [demo-alphav2]: Skipping, unable to determine old version
+[2024-04-09 11:59:34] INFO root fetch - main [MainThread]: End processing [demo-alphav2] error
+[2024-04-09 11:59:34] INFO root fetch - processPackages [mxlm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 11:59:34] INFO root fetch - processPackages [fbnconfig]: New version: [0.0.38] Old Version: [0.0.37]
+[2024-04-09 11:59:34] INFO root fetch - processPackages [Python-EasyGraph]: New version: [1.2] Old Version: [1.1]
+[2024-04-09 11:59:35] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/2b/e4/8a3bd8d0e1493aa260b51dc76648f0ec1e2dab66da4f8e7e8e967847fcdf/mxlm-0.0.2.tar.gz
+[2024-04-09 11:59:35] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/c9/cc/734cff4b6c7d4b1bc00f2a17efa7b146612bff88ca9c0597bf2e9923bec6/Python_EasyGraph-1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 11:59:35] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/a1/5f/1bc51664eb6061a373cad7cddce36492048cc9aafc2ebaaf4986939ca102/fbnconfig-0.0.37.tar.gz
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [mxlm]: Timeout reached during download
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [fbnconfig]: Timeout reached during download
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [Python-EasyGraph]: Timeout reached during download
+[2024-04-09 11:59:35] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/b6/3d/5eed7d026eb436c31fc163700f8305220f018edb54bde9ceb361dead0459/mxlm-0.0.3.tar.gz
+[2024-04-09 11:59:35] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/33/a2/d4dc52e728863c19437bce9e0d41de53a0108afab86b63919ce2c5cb09e5/fbnconfig-0.0.38.tar.gz
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [mxlm]: Timeout reached during download
+[2024-04-09 11:59:35] INFO root fetch - processPackages [mxlm]: executing diffoscope
+[2024-04-09 11:59:35] INFO root fetch - processPackages [mxlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxlm-0.0.2.tar.gz tmp/mxlm-0.0.3.tar.gz --markdown 20240409/m/mxlm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [fbnconfig]: Timeout reached during download
+[2024-04-09 11:59:35] INFO root fetch - processPackages [fbnconfig]: executing diffoscope
+[2024-04-09 11:59:35] INFO root fetch - processPackages [fbnconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnconfig-0.0.37.tar.gz tmp/fbnconfig-0.0.38.tar.gz --markdown 20240409/f/fbnconfig/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2024-04-09 11:59:35] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/c2/a7/79512610a990d293e572ad67c740b4af704ff12ad9704113e41111f02861/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl
+[2024-04-09 11:59:35] WARNING root fetch - processPackages [Python-EasyGraph]: Timeout reached during download
+[2024-04-09 11:59:35] INFO root fetch - processPackages [Python-EasyGraph]: executing diffoscope
+[2024-04-09 11:59:35] INFO root fetch - processPackages [Python-EasyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_EasyGraph-1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl.zip --markdown 20240409/P/Python-EasyGraph/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-09 11:59:36] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.2.tar.gz]
+[2024-04-09 11:59:36] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.3.tar.gz]
+[2024-04-09 11:59:36] INFO root fetch - main [MainThread]: End processing [mxlm]: success
+[2024-04-09 11:59:36] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.37.tar.gz]
+[2024-04-09 11:59:36] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.38.tar.gz]
+[2024-04-09 11:59:36] INFO root fetch - main [MainThread]: End processing [fbnconfig]: success
+[2024-04-09 11:59:38] INFO root fetch - processPackages [Python-EasyGraph]: Remove: archive file [/home/abi/fetcher/tmp/Python_EasyGraph-1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 11:59:38] INFO root fetch - processPackages [Python-EasyGraph]: Remove: archive file [/home/abi/fetcher/tmp/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 11:59:38] INFO root fetch - main [MainThread]: End processing [Python-EasyGraph]: success
+[2024-04-09 11:59:38] INFO root fetch - main [MainThread]: Store serial: [22681598]
