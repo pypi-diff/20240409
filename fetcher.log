@@ -18011,3 +18011,77 @@
 [2024-04-09 09:23:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409061242.tar.gz]
 [2024-04-09 09:23:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-09 09:23:58] INFO root fetch - main [MainThread]: Store serial: [22679572]
+[2024-04-09 09:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679572]
+[2024-04-09 09:26:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsearch-glm
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-check
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaeger-bio
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: janus-core
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-sysom20231230
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-sysom20231230-py2
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ip-check]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-09 09:26:07] INFO root fetch - processPackages [janus-core]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2024-04-09 09:26:07] INFO root fetch - processPackages [alibabacloud-sysom20231230]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 09:26:07] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/ff/3f/89f02c6d52338495bccd2c8ff6d3a68fb24bd0eb083cdd95ef2108ec7c9b/ip_check-1.5.2-py3-none-any.whl
+[2024-04-09 09:26:07] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/75/e9/80b48960a9fba262f5ba64496730b032f11f369151a08f09d7d9705e1945/janus_core-0.2.0b2.tar.gz
+[2024-04-09 09:26:07] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 09:26:07] INFO root fetch - processPackages [jaeger-bio]: New version: [1.1.251] Old Version: [1.1.25]
+[2024-04-09 09:26:07] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [janus-core]: Timeout reached during download
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [ip-check]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230]: Downloading https://files.pythonhosted.org/packages/2c/c1/2851cb108f45da0dfd23d31ff0f974ff573446029124878240a9d18ea15a/alibabacloud_sysom20231230-1.0.0.tar.gz
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: Downloading https://files.pythonhosted.org/packages/bc/27/ecda4650ef5a75f1aea8570bbfad1d23d31fded044d55eb8fbc25161eca6/alibabacloud_sysom20231230_py2-1.0.0.tar.gz
+[2024-04-09 09:26:08] INFO root fetch - processPackages [jaeger-bio]: Downloading https://files.pythonhosted.org/packages/62/99/4af4cebace227b020dc804b3cfeeef28221de33068a0f69baa58cddb5eef/jaeger-bio-1.1.25.tar.gz
+[2024-04-09 09:26:08] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9b/9e/e3aec9901c93140a9ce87412641f030d7e333289633728170b0e46f96459/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [jaeger-bio]: Skipping package: exceeds size limit 33427426>=10485760
+[2024-04-09 09:26:08] INFO root fetch - main [MainThread]: End processing [jaeger-bio] error
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [alibabacloud-sysom20231230]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/5a/fa/32b343b3ff70420504933fd80fb75a63ca17ebdd57af048afd88b6e9f805/janus_core-0.2.0b3.tar.gz
+[2024-04-09 09:26:08] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/3d/c0/791826326fe5e92cd13da1738faa5da1be7847892a72bd636a9e189492db/ip_check-1.5.3-py3-none-any.whl
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [alibabacloud-sysom20231230-py2]: Timeout reached during download
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [janus-core]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [janus-core]: executing diffoscope
+[2024-04-09 09:26:08] INFO root fetch - processPackages [janus-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_core-0.2.0b2.tar.gz tmp/janus_core-0.2.0b3.tar.gz --markdown 20240409/j/janus-core/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [ip-check]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-09 09:26:08] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.2-py3-none-any.whl.zip tmp/ip_check-1.5.3-py3-none-any.whl.zip --markdown 20240409/i/ip-check/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230]: Downloading https://files.pythonhosted.org/packages/a2/00/0ab2bcfed2a2ab1b656ccea48060802e205ef5d572e5b6c520620149c640/alibabacloud_sysom20231230-1.0.1.tar.gz
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [deepsearch-glm]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: Downloading https://files.pythonhosted.org/packages/e9/9d/67038e682292e12e1bc2cc3054619ccc68a09965c06c24dbd1f61c7c5e9b/alibabacloud_sysom20231230_py2-1.0.1.tar.gz
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [alibabacloud-sysom20231230]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230]: executing diffoscope
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sysom20231230-1.0.0.tar.gz tmp/alibabacloud_sysom20231230-1.0.1.tar.gz --markdown 20240409/a/alibabacloud-sysom20231230/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:26:08] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/a7/b4/b6e4a1f599dd8c5b22a644ee41f01aa39b5fad5698dce6be0e003fdd6457/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 09:26:08] WARNING root fetch - processPackages [alibabacloud-sysom20231230-py2]: Timeout reached during download
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: executing diffoscope
+[2024-04-09 09:26:08] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sysom20231230_py2-1.0.0.tar.gz tmp/alibabacloud_sysom20231230_py2-1.0.1.tar.gz --markdown 20240409/a/alibabacloud-sysom20231230-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:26:09] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.2.0b2.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.2.0b3.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - main [MainThread]: End processing [janus-core]: success
+[2024-04-09 09:26:09] WARNING root fetch - processPackages [deepsearch-glm]: Timeout reached during download
+[2024-04-09 09:26:09] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2024-04-09 09:26:09] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240409/d/deepsearch-glm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 09:26:09] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.2-py3-none-any.whl.zip]
+[2024-04-09 09:26:09] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.3-py3-none-any.whl.zip]
+[2024-04-09 09:26:09] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-09 09:26:09] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sysom20231230_py2-1.0.0.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - processPackages [alibabacloud-sysom20231230-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sysom20231230_py2-1.0.1.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-sysom20231230-py2]: success
+[2024-04-09 09:26:09] INFO root fetch - processPackages [alibabacloud-sysom20231230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sysom20231230-1.0.0.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - processPackages [alibabacloud-sysom20231230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sysom20231230-1.0.1.tar.gz]
+[2024-04-09 09:26:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-sysom20231230]: success
+[2024-04-09 09:26:09] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-09 09:26:09] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-09 09:26:10] WARNING root fetch - processPackages [pyAgrum-nightly]: Timeout reached during download
+[2024-04-09 09:26:10] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-09 09:26:10] WARNING root fetch - processPackages [pyAgrum-nightly]: Timeout reached during download
+[2024-04-09 09:26:10] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-09 09:26:10] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240409/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/diff.md --exclude *.pyd
+[2024-04-09 09:26:11] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 09:26:11] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 09:26:11] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-09 09:26:34] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 09:26:34] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 09:26:34] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2024-04-09 09:26:34] INFO root fetch - main [MainThread]: Store serial: [22679607]
