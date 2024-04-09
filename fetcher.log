@@ -16966,3 +16966,61 @@
 [2024-04-09 08:43:46] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip]
 [2024-04-09 08:43:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-04-09 08:43:46] INFO root fetch - main [MainThread]: Store serial: [22679170]
+[2024-04-09 08:45:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679170]
+[2024-04-09 08:45:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ANBUtils
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc-plugin
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instill-sdk
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thirdai
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: locustdb
+[2024-04-09 08:45:56] INFO root fetch - processPackages [vloc-plugin]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 08:45:56] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ANBUtils]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-09 08:45:56] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-09 08:45:56] INFO root fetch - processPackages [instill-sdk]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2024-04-09 08:45:56] INFO root fetch - processPackages [locustdb]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-09 08:45:56] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/31/8d/86ce24cf3a502f0efd88e863716d67b3446c30f0a2d19f9c748302478737/vloc_plugin-0.0.2.tar.gz
+[2024-04-09 08:45:56] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/27/06/5565c6ee03a02231b99e0e74bff771df3b8e7f2bf60169685a284522fedd/ANBUtils-1.7.2.tar.gz
+[2024-04-09 08:45:56] WARNING root fetch - processPackages [vloc-plugin]: Timeout reached during download
+[2024-04-09 08:45:56] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/08/4e/2909c481e5a1b81f74763adb7582ecea123e5d7f50d1c2e738fc6a771054/instill_sdk-0.8.0rc8.tar.gz
+[2024-04-09 08:45:56] INFO root fetch - processPackages [locustdb]: Downloading https://files.pythonhosted.org/packages/6b/d4/0ae75ae5ffdc8861487ebad066c640890732fb2f6855eaa0c29d6f771cbc/locustdb-0.4.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 08:45:56] WARNING root fetch - processPackages [ANBUtils]: Timeout reached during download
+[2024-04-09 08:45:56] WARNING root fetch - processPackages [thirdai]: Timeout reached during download
+[2024-04-09 08:45:57] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/11/93/49faf604dc9e9a321b09d3f41a91bdf6dd1eae6a0f1d670aa5be1e887181/vloc_plugin-0.0.3.tar.gz
+[2024-04-09 08:45:57] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/2e/ae/518345510deda992f5ad17d98b9904da6d129e5fc047b9ce3f77dbbdb4e6/ANBUtils-1.7.3.tar.gz
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [instill-sdk]: Timeout reached during download
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [vloc-plugin]: Timeout reached during download
+[2024-04-09 08:45:57] INFO root fetch - processPackages [vloc-plugin]: executing diffoscope
+[2024-04-09 08:45:57] INFO root fetch - processPackages [vloc-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin-0.0.2.tar.gz tmp/vloc_plugin-0.0.3.tar.gz --markdown 20240409/v/vloc-plugin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [locustdb]: Timeout reached during download
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [ANBUtils]: Timeout reached during download
+[2024-04-09 08:45:57] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2024-04-09 08:45:57] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.7.2.tar.gz tmp/ANBUtils-1.7.3.tar.gz --markdown 20240409/A/ANBUtils/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2024-04-09 08:45:57] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-09 08:45:57] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/c8/aa/8f204c74111a46608b3945576f70ebf0eb2a5bba5585b5b6e2b8fcb48b54/instill_sdk-0.8.0rc9.tar.gz
+[2024-04-09 08:45:57] INFO root fetch - processPackages [locustdb]: Downloading https://files.pythonhosted.org/packages/58/b5/2627d05c90d7cfddd266bb67e2722cc07fb263e5c36748da0ab521da615a/locustdb-0.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [instill-sdk]: Timeout reached during download
+[2024-04-09 08:45:57] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-04-09 08:45:57] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.8.0rc8.tar.gz tmp/instill_sdk-0.8.0rc9.tar.gz --markdown 20240409/i/instill-sdk/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2024-04-09 08:45:57] WARNING root fetch - processPackages [thirdai]: Timeout reached during download
+[2024-04-09 08:45:57] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-09 08:45:57] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240409/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-09 08:45:57] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.2.tar.gz]
+[2024-04-09 08:45:57] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.3.tar.gz]
+[2024-04-09 08:45:57] INFO root fetch - main [MainThread]: End processing [vloc-plugin]: success
+[2024-04-09 08:45:57] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.2.tar.gz]
+[2024-04-09 08:45:57] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.3.tar.gz]
+[2024-04-09 08:45:57] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2024-04-09 08:45:58] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 08:45:58] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 08:45:58] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-09 08:45:58] WARNING root fetch - processPackages [locustdb]: Timeout reached during download
+[2024-04-09 08:45:58] INFO root fetch - processPackages [locustdb]: executing diffoscope
+[2024-04-09 08:45:58] INFO root fetch - processPackages [locustdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locustdb-0.4.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/locustdb-0.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240409/l/locustdb/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2024-04-09 08:45:58] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc8.tar.gz]
+[2024-04-09 08:45:58] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc9.tar.gz]
+[2024-04-09 08:45:58] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-04-09 08:46:15] INFO root fetch - processPackages [locustdb]: Remove: archive file [/home/abi/fetcher/tmp/locustdb-0.4.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 08:46:15] INFO root fetch - processPackages [locustdb]: Remove: archive file [/home/abi/fetcher/tmp/locustdb-0.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 08:46:15] INFO root fetch - main [MainThread]: End processing [locustdb]: success
+[2024-04-09 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22679201]
