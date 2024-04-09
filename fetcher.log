@@ -8525,3 +8525,20 @@
 [2024-04-09 03:19:26] INFO root fetch - processPackages [botocore-a-la-carte-migrationhub-config]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migrationhub-config-1.34.9.tar.gz]
 [2024-04-09 03:19:26] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-migrationhub-config]: success
 [2024-04-09 03:19:26] INFO root fetch - main [MainThread]: Store serial: [22676009]
+[2024-04-09 03:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676009]
+[2024-04-09 03:21:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 03:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcion-graficas
+[2024-04-09 03:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syllogistic
+[2024-04-09 03:21:39] WARNING root fetch - processPackages [funcion-graficas]: Skipping, unable to determine old version
+[2024-04-09 03:21:39] INFO root fetch - processPackages [syllogistic]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-04-09 03:21:39] INFO root fetch - main [MainThread]: End processing [funcion-graficas] error
+[2024-04-09 03:21:39] INFO root fetch - processPackages [syllogistic]: Downloading https://files.pythonhosted.org/packages/4d/1b/857d403f192852c3aab84253e45b44208c45ed61179d98954adb4b921ad5/syllogistic-0.0.42.tar.gz
+[2024-04-09 03:21:39] WARNING root fetch - processPackages [syllogistic]: Timeout reached during download
+[2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: Downloading https://files.pythonhosted.org/packages/29/3d/32763e49b33060be71095c8790dbdbfa75d5fff542c7958a7fa11e2ac67b/syllogistic-0.0.43.tar.gz
+[2024-04-09 03:21:40] WARNING root fetch - processPackages [syllogistic]: Timeout reached during download
+[2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: executing diffoscope
+[2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syllogistic-0.0.42.tar.gz tmp/syllogistic-0.0.43.tar.gz --markdown 20240409/s/syllogistic/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: Remove: archive file [/home/abi/fetcher/tmp/syllogistic-0.0.42.tar.gz]
+[2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: Remove: archive file [/home/abi/fetcher/tmp/syllogistic-0.0.43.tar.gz]
+[2024-04-09 03:21:40] INFO root fetch - main [MainThread]: End processing [syllogistic]: success
+[2024-04-09 03:21:40] INFO root fetch - main [MainThread]: Store serial: [22676087]
