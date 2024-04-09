@@ -18085,3 +18085,94 @@
 [2024-04-09 09:26:34] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-09 09:26:34] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
 [2024-04-09 09:26:34] INFO root fetch - main [MainThread]: Store serial: [22679607]
+[2024-04-09 09:28:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679607]
+[2024-04-09 09:28:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbirthday
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dia-aiml
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cytobench
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recce
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typed-ffmpeg
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piwiPre
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mrp-multi-level-estimate
+[2024-04-09 09:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hepai
+[2024-04-09 09:28:49] INFO root fetch - processPackages [dia-aiml]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [unbirthday]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: New version: [16.0.1.1.2] Old Version: [16.0.1.1.1]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [cytobench]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [typed-ffmpeg]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [hepai]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 09:28:49] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/ca/e9/e86e02305f0a8db887d9c90ddcb1b870af71229180b1a0ee355a5171eff6/unbirthday-1.0.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/e0/ac/911bc181b0567ad3872fb4730a477639712057c0a13c0aded48af2411352/dia-aiml-1.1.6.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/e6/cb/77afaef0c5128474a3d74048eaff32086ef425a774e216c7c22670ed0b36/odoo_addon_mrp_multi_level_estimate-16.0.1.1.1-py3-none-any.whl
+[2024-04-09 09:28:49] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/fd/dd/38b9e99d6ad7f1b4f32de69ec45080efe34039e3584467b2cfa448010333/cytobench-0.1.8.tar.gz
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [dia-aiml]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [typed-ffmpeg]: Downloading https://files.pythonhosted.org/packages/f3/b7/c572137f1487287d0c41aec1760c490dece5160fa282d9fb7d6f02fc4541/typed_ffmpeg-2.0.0a1.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d2/48/574defb5be39fcfc014c62f2ea841adbcddac2357adee3e26911a8a3fcb6/hepai-1.1.0.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/db/86/b1ef4ee5e97c708481d09d54e18bc890bfc86ab8603896caf2ae54bccdb8/unbirthday-1.0.1.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/64/3b/4a4c1967849a8c6d1e5fbe1c292c2688f31f9e4eeabff5c3e04f6da61ea2/dia-aiml-1.1.7.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/51/37/37ba01dff63e6cb0ac8bfcd45949778bec7a3bb6b7ae9129be6a4a165607/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl
+[2024-04-09 09:28:49] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/f0/15/dcac1aee121e607cb2669a54ee227f4ba927d4883ac7b8d5f2791dd903f5/cytobench-0.1.9.tar.gz
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [unbirthday]: executing diffoscope
+[2024-04-09 09:28:49] INFO root fetch - processPackages [unbirthday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbirthday-1.0.tar.gz tmp/unbirthday-1.0.1.tar.gz --markdown 20240409/u/unbirthday/1.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-09 09:28:49] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240409/p/piwiPre/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [dia-aiml]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [dia-aiml]: executing diffoscope
+[2024-04-09 09:28:49] INFO root fetch - processPackages [dia-aiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-aiml-1.1.6.tar.gz tmp/dia-aiml-1.1.7.tar.gz --markdown 20240409/d/dia-aiml/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [cytobench]: executing diffoscope
+[2024-04-09 09:28:49] INFO root fetch - processPackages [cytobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytobench-0.1.8.tar.gz tmp/cytobench-0.1.9.tar.gz --markdown 20240409/c/cytobench/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 09:28:49] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: executing diffoscope
+[2024-04-09 09:28:49] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-mrp-multi-level-estimate/16.0.1.1.1-16.0.1.1.2/diff.md --exclude *.pyd
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [typed-ffmpeg]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [hepai]: Timeout reached during download
+[2024-04-09 09:28:49] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-09 09:28:49] INFO root fetch - processPackages [typed-ffmpeg]: Downloading https://files.pythonhosted.org/packages/2f/d5/4797a04358370a3d51dd91e68485d9c42ab2e65f2f499d0b6571938730a0/typed_ffmpeg-2.0.0a2.tar.gz
+[2024-04-09 09:28:49] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/c4/29/2fd57ddedc9e13e91537b1899dea14f61da2d7e644b579e0b104fc20b748/hepai-1.1.1.tar.gz
+[2024-04-09 09:28:50] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-04-09 09:28:50] WARNING root fetch - processPackages [hepai]: Timeout reached during download
+[2024-04-09 09:28:50] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2024-04-09 09:28:50] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.1.0.tar.gz tmp/hepai-1.1.1.tar.gz --markdown 20240409/h/hepai/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 09:28:50] WARNING root fetch - processPackages [typed-ffmpeg]: Timeout reached during download
+[2024-04-09 09:28:50] INFO root fetch - processPackages [typed-ffmpeg]: executing diffoscope
+[2024-04-09 09:28:50] INFO root fetch - processPackages [typed-ffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed_ffmpeg-2.0.0a1.tar.gz tmp/typed_ffmpeg-2.0.0a2.tar.gz --markdown 20240409/t/typed-ffmpeg/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2024-04-09 09:28:50] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-09 09:28:50] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-04-09 09:28:50] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240409/r/recce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 09:28:50] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.1.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - main [MainThread]: End processing [unbirthday]: success
+[2024-04-09 09:28:50] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.8.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.9.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - main [MainThread]: End processing [cytobench]: success
+[2024-04-09 09:28:50] INFO root fetch - processPackages [dia-aiml]: Remove: archive file [/home/abi/fetcher/tmp/dia-aiml-1.1.6.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - processPackages [dia-aiml]: Remove: archive file [/home/abi/fetcher/tmp/dia-aiml-1.1.7.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - main [MainThread]: End processing [dia-aiml]: success
+[2024-04-09 09:28:50] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-09 09:28:50] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-04-09 09:28:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level-estimate]: success
+[2024-04-09 09:28:50] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-09 09:28:50] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-09 09:28:51] INFO root fetch - processPackages [typed-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/typed_ffmpeg-2.0.0a1.tar.gz]
+[2024-04-09 09:28:51] INFO root fetch - processPackages [typed-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/typed_ffmpeg-2.0.0a2.tar.gz]
+[2024-04-09 09:28:51] INFO root fetch - main [MainThread]: End processing [typed-ffmpeg]: success
+[2024-04-09 09:28:51] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.1.0.tar.gz]
+[2024-04-09 09:28:51] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.1.1.tar.gz]
+[2024-04-09 09:28:51] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2024-04-09 09:29:01] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-04-09 09:29:01] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-04-09 09:29:01] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-04-09 09:29:01] INFO root fetch - main [MainThread]: Store serial: [22679638]
