@@ -24107,3 +24107,75 @@
 [2024-04-09 12:32:41] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-09 12:32:41] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-09 12:32:41] INFO root fetch - main [MainThread]: Store serial: [22681909]
+[2024-04-09 12:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681909]
+[2024-04-09 12:34:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlrc
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moval
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-orangejuice
+[2024-04-09 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smaht-submitr
+[2024-04-09 12:34:50] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 12:34:50] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 12:34:50] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 12:34:50] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-09 12:34:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 12:34:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-09 12:34:50] INFO root fetch - processPackages [openlrc]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-09 12:34:50] WARNING root fetch - processPackages [grafana-foundation-sdk]: Skipping, unable to determine old version
+[2024-04-09 12:34:50] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk] error
+[2024-04-09 12:34:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/6a/fc/b08cc42e90fe130e33a2bc3ac95e69755721edb8a0c50d6b10584458ed21/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz
+[2024-04-09 12:34:50] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/c8/1a/ffcfb7152b23a65f63e9316c5cfb525ffd8c5fe2db6ef30a25e10bbe39fa/nonebot-plugin-orangejuice-0.7.0.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [nonebot-plugin-orangejuice]: Timeout reached during download
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/fd/b9/82266139563818f4f0cf791a3073c134580af7071466d4602fd20d7eae10/openlrc-1.2.0.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/1c/e2/0bb63730c92d199749373cc0c97e0bd9cafae0a7406d73a2b71a61a59961/nonebot-plugin-orangejuice-0.7.1.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-09 12:34:51] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/9b/4b/3d50276c59564d4fd2d42f7d58697a4818fe00111f264958219c02b2df1c/pyrt_lib_rasmusklitgaard-0.1.3.tar.gz
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240409/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [nonebot-plugin-orangejuice]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-orangejuice-0.7.0.tar.gz tmp/nonebot-plugin-orangejuice-0.7.1.tar.gz --markdown 20240409/n/nonebot-plugin-orangejuice/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [openlrc]: Timeout reached during download
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.1.3.tar.gz --markdown 20240409/p/pyrt-lib-rasmusklitgaard/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240409/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/diff.md --exclude *.pyd
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240409/m/moval/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 12:34:51] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/a3/fa/59a652da51deaa6d361856ac5e47b09ce8d03380ad24ee79586f9c167cf2/openlrc-1.3.0.tar.gz
+[2024-04-09 12:34:51] WARNING root fetch - processPackages [openlrc]: Timeout reached during download
+[2024-04-09 12:34:51] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2024-04-09 12:34:51] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-1.2.0.tar.gz tmp/openlrc-1.3.0.tar.gz --markdown 20240409/o/openlrc/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-09 12:34:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.3.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-04-09 12:34:52] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-09 12:34:52] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-09 12:34:52] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.7.0.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.7.1.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangejuice]: success
+[2024-04-09 12:34:52] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-1.2.0.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-1.3.0.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2024-04-09 12:34:52] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-09 12:34:52] INFO root fetch - main [MainThread]: Store serial: [22681935]
