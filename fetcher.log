@@ -9353,3 +9353,39 @@
 [2024-04-09 04:12:25] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.1.0.tar.gz]
 [2024-04-09 04:12:25] INFO root fetch - main [MainThread]: End processing [segmentation-skeleton-metrics]: success
 [2024-04-09 04:12:25] INFO root fetch - main [MainThread]: Store serial: [22676682]
+[2024-04-09 04:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676682]
+[2024-04-09 04:14:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 04:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: segmentation-skeleton-metrics
+[2024-04-09 04:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nyctibius
+[2024-04-09 04:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: STCAT
+[2024-04-09 04:14:35] INFO root fetch - processPackages [segmentation-skeleton-metrics]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-09 04:14:35] INFO root fetch - processPackages [nyctibius]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 04:14:35] INFO root fetch - processPackages [STCAT]: New version: [0.3] Old Version: [0.2]
+[2024-04-09 04:14:35] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/a3/f7/6841a458f3a94d174606b8f17df305a127c41dbf28d6e904a86e05a49f4c/segmentation_skeleton_metrics-4.0.1.tar.gz
+[2024-04-09 04:14:35] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/81/d6/292476bd37ee3e0ec6676f93ff4d04ed95b3cb17c9255310f5f85ba02efe/nyctibius-0.0.7.tar.gz
+[2024-04-09 04:14:35] WARNING root fetch - processPackages [nyctibius]: Timeout reached during download
+[2024-04-09 04:14:35] WARNING root fetch - processPackages [segmentation-skeleton-metrics]: Timeout reached during download
+[2024-04-09 04:14:35] INFO root fetch - processPackages [STCAT]: Downloading https://files.pythonhosted.org/packages/54/ff/46d805ee24659e6c5896441d6a58a39f48af44e54ab5496acf66a564fbc2/STCAT-0.2.tar.gz
+[2024-04-09 04:14:35] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/91/dc/0e723b5347a9bd1c432e31bf3344f980f819d304cb7863bffc3b20d5ea2b/segmentation_skeleton_metrics-4.1.0.tar.gz
+[2024-04-09 04:14:35] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/db/5c/8a79abbeee72a42e3ebc19d89b5c212c05a75fd32792e0220a4456117cfc/nyctibius-0.0.8.tar.gz
+[2024-04-09 04:14:35] WARNING root fetch - processPackages [nyctibius]: Timeout reached during download
+[2024-04-09 04:14:35] INFO root fetch - processPackages [nyctibius]: executing diffoscope
+[2024-04-09 04:14:35] INFO root fetch - processPackages [nyctibius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyctibius-0.0.7.tar.gz tmp/nyctibius-0.0.8.tar.gz --markdown 20240409/n/nyctibius/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 04:14:35] WARNING root fetch - processPackages [segmentation-skeleton-metrics]: Timeout reached during download
+[2024-04-09 04:14:35] INFO root fetch - processPackages [segmentation-skeleton-metrics]: executing diffoscope
+[2024-04-09 04:14:35] INFO root fetch - processPackages [segmentation-skeleton-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation_skeleton_metrics-4.0.1.tar.gz tmp/segmentation_skeleton_metrics-4.1.0.tar.gz --markdown 20240409/s/segmentation-skeleton-metrics/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2024-04-09 04:14:36] WARNING root fetch - processPackages [STCAT]: Timeout reached during download
+[2024-04-09 04:14:36] INFO root fetch - processPackages [STCAT]: Downloading https://files.pythonhosted.org/packages/0a/80/6f95d103fabcc905d1f3752b8df72f6f94bbee03d856fea3b87d6734399e/STCAT-0.3.tar.gz
+[2024-04-09 04:14:36] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.7.tar.gz]
+[2024-04-09 04:14:36] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.8.tar.gz]
+[2024-04-09 04:14:36] INFO root fetch - main [MainThread]: End processing [nyctibius]: success
+[2024-04-09 04:14:37] WARNING root fetch - processPackages [STCAT]: Timeout reached during download
+[2024-04-09 04:14:37] INFO root fetch - processPackages [STCAT]: executing diffoscope
+[2024-04-09 04:14:37] INFO root fetch - processPackages [STCAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STCAT-0.2.tar.gz tmp/STCAT-0.3.tar.gz --markdown 20240409/S/STCAT/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-09 04:14:37] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.0.1.tar.gz]
+[2024-04-09 04:14:37] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.1.0.tar.gz]
+[2024-04-09 04:14:37] INFO root fetch - main [MainThread]: End processing [segmentation-skeleton-metrics]: success
+[2024-04-09 04:14:37] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.2.tar.gz]
+[2024-04-09 04:14:37] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.3.tar.gz]
+[2024-04-09 04:14:37] INFO root fetch - main [MainThread]: End processing [STCAT]: success
+[2024-04-09 04:14:37] INFO root fetch - main [MainThread]: Store serial: [22676691]
