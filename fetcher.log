@@ -16464,3 +16464,77 @@
 [2024-04-09 08:23:23] INFO root fetch - processPackages [attackcti]: Remove: archive file [/home/abi/fetcher/tmp/attackcti-0.4.2.tar.gz]
 [2024-04-09 08:23:23] INFO root fetch - main [MainThread]: End processing [attackcti]: success
 [2024-04-09 08:23:23] INFO root fetch - main [MainThread]: Store serial: [22678963]
+[2024-04-09 08:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678963]
+[2024-04-09 08:25:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sonicparanoid
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstract-adapters
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Starlette-WTF
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apptrackr
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CodingRider
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ithaca-py
+[2024-04-09 08:25:33] INFO root fetch - processPackages [apptrackr]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [Starlette-WTF]: New version: [0.4.4rc1] Old Version: [0.4.3rc1]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [unstract-adapters]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/20/41/3a099ed0def35965c51c1fafa9f91ccc32fa6946dd1ce74de27ff9536a71/apptrackr-0.2.1.tar.gz
+[2024-04-09 08:25:33] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.5a2] Old Version: [2.0.5]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [CodingRider]: New version: [2.3] Old Version: [2.2]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 08:25:33] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-09 08:25:33] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-09 08:25:33] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/1f/16/fea7361f2f38ebd13fce0aeb3445abad3dc359fec968e33d1d4dc8140efa/unstract_adapters-0.8.0.tar.gz
+[2024-04-09 08:25:33] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/27/b7/5d98e22c82d657fc5bd828217cdea120b79fcb5bb55162e3768d39d826d6/sonicparanoid-2.0.5.tar.gz
+[2024-04-09 08:25:33] INFO root fetch - processPackages [Starlette-WTF]: Downloading https://files.pythonhosted.org/packages/4d/3f/fc2364e244269d364fbe876ebf95ef6319993d0beb1f10035aae03d21f44/Starlette-WTF-0.4.3rc1.tar.gz
+[2024-04-09 08:25:33] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/f2/04/6efb3034b33079390cbef8d997e58e1f83eef0a55f450abe7daf4c155498/CodingRider-2.2.tar.gz
+[2024-04-09 08:25:33] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 89284252>=10485760
+[2024-04-09 08:25:33] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2024-04-09 08:25:33] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/dc/56/08b69bd5faa1a1c15a36f24d08381a0f37dd79c64e3d499654acc3bbc816/ithaca_py-0.1.8.tar.gz
+[2024-04-09 08:25:33] WARNING root fetch - processPackages [unstract-adapters]: Timeout reached during download
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/90/15/fbf433bbc526a3d5c30b5e5226f4289e4c0d985b714af7dddb7cb683a0d3/apptrackr-0.2.2.tar.gz
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [apptrackr]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [apptrackr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apptrackr-0.2.1.tar.gz tmp/apptrackr-0.2.2.tar.gz --markdown 20240409/a/apptrackr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/34/1e/b333e46a167fb6afb1b57a5c6e373447a3a907ebe7af4ec6aec6852e7250/unstract_adapters-0.8.1.tar.gz
+[2024-04-09 08:25:34] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/0a/60/76f7c4030a1003a06647da97c2e8e24a2b799f16d0c6e65a5e4115f5896f/CodingRider-2.3.tar.gz
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [unstract-adapters]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.8.0.tar.gz tmp/unstract_adapters-0.8.1.tar.gz --markdown 20240409/u/unstract-adapters/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/86/46/35f7c39c336e3016573f935ac65be19ca5e429c3851b9025dbf2a7950d5f/ithaca_py-0.1.9-py3-none-any.whl
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [Starlette-WTF]: Timeout reached during download
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240409/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-2.2.tar.gz tmp/CodingRider-2.3.tar.gz --markdown 20240409/C/CodingRider/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] INFO root fetch - processPackages [Starlette-WTF]: Downloading https://files.pythonhosted.org/packages/ef/5c/ebae9eeee15676f230d14b3b533c8b6472263248514dc3ec028cd37f9541/Starlette-WTF-0.4.4rc1.tar.gz
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.8.tar.gz tmp/ithaca_py-0.1.9-py3-none-any.whl.zip --markdown 20240409/i/ithaca-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] WARNING root fetch - processPackages [Starlette-WTF]: Timeout reached during download
+[2024-04-09 08:25:34] INFO root fetch - processPackages [Starlette-WTF]: executing diffoscope
+[2024-04-09 08:25:34] INFO root fetch - processPackages [Starlette-WTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starlette-WTF-0.4.3rc1.tar.gz tmp/Starlette-WTF-0.4.4rc1.tar.gz --markdown 20240409/S/Starlette-WTF/0.4.3rc1-0.4.4rc1/diff.md --exclude *.pyd
+[2024-04-09 08:25:34] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.2.1.tar.gz]
+[2024-04-09 08:25:34] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.2.2.tar.gz]
+[2024-04-09 08:25:34] INFO root fetch - main [MainThread]: End processing [apptrackr]: success
+[2024-04-09 08:25:35] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.8.0.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.8.1.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-09 08:25:35] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.2.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.3.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-04-09 08:25:35] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.8.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.9-py3-none-any.whl.zip]
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-09 08:25:35] INFO root fetch - processPackages [Starlette-WTF]: Remove: archive file [/home/abi/fetcher/tmp/Starlette-WTF-0.4.3rc1.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - processPackages [Starlette-WTF]: Remove: archive file [/home/abi/fetcher/tmp/Starlette-WTF-0.4.4rc1.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [Starlette-WTF]: success
+[2024-04-09 08:25:35] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-09 08:25:35] INFO root fetch - main [MainThread]: Store serial: [22678978]
