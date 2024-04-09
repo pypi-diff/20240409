@@ -23871,3 +23871,45 @@
 [2024-04-09 12:26:00] INFO root fetch - processPackages [OSCR-UI]: Remove: archive file [/home/abi/fetcher/tmp/oscr_ui-2024.4b20.tar.gz]
 [2024-04-09 12:26:00] INFO root fetch - main [MainThread]: End processing [OSCR-UI]: success
 [2024-04-09 12:26:00] INFO root fetch - main [MainThread]: Store serial: [22681823]
+[2024-04-09 12:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681823]
+[2024-04-09 12:28:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 12:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grimoirelab-toolkit
+[2024-04-09 12:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sindapi
+[2024-04-09 12:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradescope
+[2024-04-09 12:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitpapa-pay
+[2024-04-09 12:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ImgDataConvertCodeGen
+[2024-04-09 12:28:09] WARNING root fetch - processPackages [tradescope]: Skipping, unable to determine old version
+[2024-04-09 12:28:09] INFO root fetch - main [MainThread]: End processing [tradescope] error
+[2024-04-09 12:28:09] WARNING root fetch - processPackages [ImgDataConvertCodeGen]: Skipping, unable to determine old version
+[2024-04-09 12:28:09] INFO root fetch - main [MainThread]: End processing [ImgDataConvertCodeGen] error
+[2024-04-09 12:28:09] INFO root fetch - processPackages [sindapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 12:28:09] INFO root fetch - processPackages [bitpapa-pay]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 12:28:09] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/18/38/7a83c217c4bd61b4ee1b3d2b219e056c1fddf8eeccbf48f3ff430fb35441/bitpapa_pay-0.1.2.tar.gz
+[2024-04-09 12:28:10] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [1.0.0rc1] Old Version: [0.4.5rc1]
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/4e/8d/b50c22d5fd1d1b50f16b113a2ae5bf7bd4bd7d7a12fa51d26cf0fbcdf19a/sindapi-0.0.3.tar.gz
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [bitpapa-pay]: Timeout reached during download
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [sindapi]: Timeout reached during download
+[2024-04-09 12:28:10] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/40/c5/0918879f97e017f831462336e7a35c5ec3509bca1fccc4946a12b94cf1e5/grimoirelab_toolkit-0.4.5rc1.tar.gz
+[2024-04-09 12:28:10] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/fc/71/fe8ef7fd174388b7a826121c5d7e1a8310a258762ed489dd212cfbf979f0/bitpapa_pay-0.1.3.tar.gz
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/1d/40/d0d188fb1a789cba5f6a337554a27c592be0266bd902624961a8cd7bff22/sindapi-0.0.4.tar.gz
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [bitpapa-pay]: Timeout reached during download
+[2024-04-09 12:28:10] INFO root fetch - processPackages [bitpapa-pay]: executing diffoscope
+[2024-04-09 12:28:10] INFO root fetch - processPackages [bitpapa-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpapa_pay-0.1.2.tar.gz tmp/bitpapa_pay-0.1.3.tar.gz --markdown 20240409/b/bitpapa-pay/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [grimoirelab-toolkit]: Timeout reached during download
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [sindapi]: Timeout reached during download
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: executing diffoscope
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sindapi-0.0.3.tar.gz tmp/sindapi-0.0.4.tar.gz --markdown 20240409/s/sindapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 12:28:10] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/4c/95/66c8f35ae65311ad45846924482c49e4493aec72cf5105bbcd20823a95f7/grimoirelab_toolkit-1.0.0rc1.tar.gz
+[2024-04-09 12:28:10] WARNING root fetch - processPackages [grimoirelab-toolkit]: Timeout reached during download
+[2024-04-09 12:28:10] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2024-04-09 12:28:10] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-0.4.5rc1.tar.gz tmp/grimoirelab_toolkit-1.0.0rc1.tar.gz --markdown 20240409/g/grimoirelab-toolkit/0.4.5rc1-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-09 12:28:10] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.2.tar.gz]
+[2024-04-09 12:28:10] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.3.tar.gz]
+[2024-04-09 12:28:10] INFO root fetch - main [MainThread]: End processing [bitpapa-pay]: success
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.3.tar.gz]
+[2024-04-09 12:28:10] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.4.tar.gz]
+[2024-04-09 12:28:10] INFO root fetch - main [MainThread]: End processing [sindapi]: success
+[2024-04-09 12:28:11] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.4.5rc1.tar.gz]
+[2024-04-09 12:28:11] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-1.0.0rc1.tar.gz]
+[2024-04-09 12:28:11] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2024-04-09 12:28:11] INFO root fetch - main [MainThread]: Store serial: [22681846]
