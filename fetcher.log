@@ -8765,3 +8765,39 @@
 [2024-04-09 03:41:08] WARNING root fetch - processPackages [vloc-plugin]: Skipping, unable to determine old version
 [2024-04-09 03:41:08] INFO root fetch - main [MainThread]: End processing [vloc-plugin] error
 [2024-04-09 03:41:08] INFO root fetch - main [MainThread]: Store serial: [22676485]
+[2024-04-09 03:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676485]
+[2024-04-09 03:43:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 03:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: util_td
+[2024-04-09 03:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: okareo
+[2024-04-09 03:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats
+[2024-04-09 03:43:17] INFO root fetch - processPackages [util_td]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 03:43:17] INFO root fetch - processPackages [okareo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 03:43:17] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/4f/75/d78158b2f82b677921652101542e2a61cb14785d6e8a9e023b1e0dfae21d/util_td-0.0.5.tar.gz
+[2024-04-09 03:43:17] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/18/96/fbddf5611512c68bf19cf900058a104fa5564b54b0ea0452bcacad120aaa/okareo-0.0.8.tar.gz
+[2024-04-09 03:43:17] INFO root fetch - processPackages [fileformats]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-09 03:43:17] WARNING root fetch - processPackages [okareo]: Timeout reached during download
+[2024-04-09 03:43:17] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 03:43:17] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/01/4e/9acae98a4a269d0d02e75ffb72ded2a238371b5382ab719a49fcd70f9394/okareo-0.0.9.tar.gz
+[2024-04-09 03:43:17] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/1e/91/da64a4e2718841add2b1e050d7fcd8cc5aa3157865cc7e5450cb02533928/fileformats-0.9.4.tar.gz
+[2024-04-09 03:43:17] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/60/37/88d16ba1ebadaf91a800d01d0539f73a709b6cd7683c4e32ea53887b3a64/util_td-0.0.6.tar.gz
+[2024-04-09 03:43:17] WARNING root fetch - processPackages [okareo]: Timeout reached during download
+[2024-04-09 03:43:17] INFO root fetch - processPackages [okareo]: executing diffoscope
+[2024-04-09 03:43:17] INFO root fetch - processPackages [okareo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okareo-0.0.8.tar.gz tmp/okareo-0.0.9.tar.gz --markdown 20240409/o/okareo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 03:43:17] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 03:43:17] INFO root fetch - processPackages [util_td]: executing diffoscope
+[2024-04-09 03:43:17] INFO root fetch - processPackages [util_td]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/util_td-0.0.5.tar.gz tmp/util_td-0.0.6.tar.gz --markdown 20240409/u/util_td/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 03:43:17] WARNING root fetch - processPackages [fileformats]: Timeout reached during download
+[2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/9f/7c/2c272d3e4261be79744584640a7d371b26db444b9a4b297e4b388e5c33bf/fileformats-0.9.5.tar.gz
+[2024-04-09 03:43:18] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.8.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.9.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - main [MainThread]: End processing [okareo]: success
+[2024-04-09 03:43:18] WARNING root fetch - processPackages [fileformats]: Timeout reached during download
+[2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.9.4.tar.gz tmp/fileformats-0.9.5.tar.gz --markdown 20240409/f/fileformats/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-09 03:43:18] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.5.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.6.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - main [MainThread]: End processing [util_td]: success
+[2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.9.4.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.9.5.tar.gz]
+[2024-04-09 03:43:18] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2024-04-09 03:43:18] INFO root fetch - main [MainThread]: Store serial: [22676496]
