@@ -9690,3 +9690,50 @@
 [2024-04-09 04:38:35] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.6.tar.gz]
 [2024-04-09 04:38:35] INFO root fetch - main [MainThread]: End processing [hebill]: success
 [2024-04-09 04:38:35] INFO root fetch - main [MainThread]: Store serial: [22676803]
+[2024-04-09 04:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676803]
+[2024-04-09 04:40:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 04:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neobridge
+[2024-04-09 04:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tccli
+[2024-04-09 04:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-test-common
+[2024-04-09 04:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyon
+[2024-04-09 04:40:44] INFO root fetch - processPackages [anyon]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-04-09 04:40:44] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.91] Old Version: [1.1.90]
+[2024-04-09 04:40:44] INFO root fetch - processPackages [tccli]: New version: [3.0.999.1] Old Version: [3.0.998.1]
+[2024-04-09 04:40:44] INFO root fetch - processPackages [neobridge]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 04:40:44] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/24/ed/2f67e33cc3593bb3be782e7e0ba50def2a74cd1e068a0e7653f1333eade6/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl
+[2024-04-09 04:40:44] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/5e/aa/24d197b0ad4c3161f7e2e1e7fc0852d76a7325cb688ddffc0517113e370f/auto-test-common-1.1.90.tar.gz
+[2024-04-09 04:40:44] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/4b/45/a3b0e2cc7f86f87ffa99bd6f833796de67aee82386f88a6d4a85073532e9/tccli-3.0.998.1.tar.gz
+[2024-04-09 04:40:44] WARNING root fetch - processPackages [anyon]: Timeout reached during download
+[2024-04-09 04:40:44] INFO root fetch - processPackages [neobridge]: Downloading https://files.pythonhosted.org/packages/9e/08/fa4d4b92ea96497b0f547897bf5008c3855a86a7572bdd669c367e49b8ab/neobridge-0.2.0.tar.gz
+[2024-04-09 04:40:44] WARNING root fetch - processPackages [auto-test-common]: Timeout reached during download
+[2024-04-09 04:40:44] WARNING root fetch - processPackages [neobridge]: Timeout reached during download
+[2024-04-09 04:40:45] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/b4/6c/5daee9c0195218338842777ad296901de20bc192d15888d60bdaa3e7507c/anyon-4.1.3-cp312-none-win_amd64.whl
+[2024-04-09 04:40:45] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/ef/fe/3b140b586553e48dfac11e51910a010a67fc05f83ff970ce6f02056b36bd/auto-test-common-1.1.91.tar.gz
+[2024-04-09 04:40:45] INFO root fetch - processPackages [neobridge]: Downloading https://files.pythonhosted.org/packages/d1/af/2e46a705a55780f6e03766578391bafdc34b05de35f719008556fcfa35ff/neobridge-0.2.1.tar.gz
+[2024-04-09 04:40:45] WARNING root fetch - processPackages [auto-test-common]: Timeout reached during download
+[2024-04-09 04:40:45] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-09 04:40:45] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.90.tar.gz tmp/auto-test-common-1.1.91.tar.gz --markdown 20240409/a/auto-test-common/1.1.90-1.1.91/diff.md --exclude *.pyd
+[2024-04-09 04:40:45] WARNING root fetch - processPackages [neobridge]: Timeout reached during download
+[2024-04-09 04:40:45] INFO root fetch - processPackages [neobridge]: executing diffoscope
+[2024-04-09 04:40:45] INFO root fetch - processPackages [neobridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neobridge-0.2.0.tar.gz tmp/neobridge-0.2.1.tar.gz --markdown 20240409/n/neobridge/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 04:40:45] WARNING root fetch - processPackages [anyon]: Timeout reached during download
+[2024-04-09 04:40:45] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-04-09 04:40:45] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl.zip tmp/anyon-4.1.3-cp312-none-win_amd64.whl.zip --markdown 20240409/a/anyon/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2024-04-09 04:40:45] WARNING root fetch - processPackages [tccli]: Timeout reached during download
+[2024-04-09 04:40:45] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/06/41/78d3ee9b2ead17ab0876618d203995653100fb27e524f51810d16df1bc97/tccli-3.0.999.1.tar.gz
+[2024-04-09 04:40:45] INFO root fetch - processPackages [neobridge]: Remove: archive file [/home/abi/fetcher/tmp/neobridge-0.2.0.tar.gz]
+[2024-04-09 04:40:45] INFO root fetch - processPackages [neobridge]: Remove: archive file [/home/abi/fetcher/tmp/neobridge-0.2.1.tar.gz]
+[2024-04-09 04:40:45] INFO root fetch - main [MainThread]: End processing [neobridge]: success
+[2024-04-09 04:40:45] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.90.tar.gz]
+[2024-04-09 04:40:45] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.91.tar.gz]
+[2024-04-09 04:40:45] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-09 04:40:45] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl.zip]
+[2024-04-09 04:40:45] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.3-cp312-none-win_amd64.whl.zip]
+[2024-04-09 04:40:45] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-04-09 04:40:46] WARNING root fetch - processPackages [tccli]: Timeout reached during download
+[2024-04-09 04:40:46] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2024-04-09 04:40:46] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.998.1.tar.gz tmp/tccli-3.0.999.1.tar.gz --markdown 20240409/t/tccli/3.0.998.1-3.0.999.1/diff.md --exclude *.pyd
+[2024-04-09 04:42:04] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.998.1.tar.gz]
+[2024-04-09 04:42:04] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
+[2024-04-09 04:42:04] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2024-04-09 04:42:04] INFO root fetch - main [MainThread]: Store serial: [22676821]
