@@ -16414,3 +16414,53 @@
 [2024-04-09 08:21:13] INFO root fetch - processPackages [automathon]: Remove: archive file [/home/abi/fetcher/tmp/automathon-0.0.9.tar.gz]
 [2024-04-09 08:21:13] INFO root fetch - main [MainThread]: End processing [automathon]: success
 [2024-04-09 08:21:13] INFO root fetch - main [MainThread]: Store serial: [22678949]
+[2024-04-09 08:23:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678949]
+[2024-04-09 08:23:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plants-vs-zombies
+[2024-04-09 08:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: attackcti
+[2024-04-09 08:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aisploit
+[2024-04-09 08:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cytobench
+[2024-04-09 08:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPCAD
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [plants-vs-zombies]: Skipping, unable to determine old version
+[2024-04-09 08:23:22] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies] error
+[2024-04-09 08:23:22] INFO root fetch - processPackages [aisploit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:23:22] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/1d/74/57334bbb6cdd1f5fb94ed46c97de575ed8c0ab6a66b52cc953fe6946746c/aisploit-0.0.8.tar.gz
+[2024-04-09 08:23:22] INFO root fetch - processPackages [cytobench]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 08:23:22] INFO root fetch - processPackages [attackcti]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-09 08:23:22] INFO root fetch - processPackages [PyPCAD]: New version: [1.1] Old Version: [1.0]
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [aisploit]: Timeout reached during download
+[2024-04-09 08:23:22] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/79/1a/32067b96fbd51e172e74fa8134d42b6721bd699ae2c9f8e5927b09de2401/aisploit-0.0.9.tar.gz
+[2024-04-09 08:23:22] INFO root fetch - processPackages [PyPCAD]: Downloading https://files.pythonhosted.org/packages/dc/11/304dad20bbbd1edaff0a4c32bb5e6e6faf12f314955ae667a343865bc23c/PyPCAD-1.0-py3-none-win_amd64.whl
+[2024-04-09 08:23:22] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/fd/dd/38b9e99d6ad7f1b4f32de69ec45080efe34039e3584467b2cfa448010333/cytobench-0.1.8.tar.gz
+[2024-04-09 08:23:22] INFO root fetch - processPackages [attackcti]: Downloading https://files.pythonhosted.org/packages/82/1c/53e1bd446d0fb29ae5bff5191f88765eb9c3ebab045a36041e103cf47140/attackcti-0.4.1.tar.gz
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [aisploit]: Timeout reached during download
+[2024-04-09 08:23:22] INFO root fetch - processPackages [aisploit]: executing diffoscope
+[2024-04-09 08:23:22] INFO root fetch - processPackages [aisploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisploit-0.0.8.tar.gz tmp/aisploit-0.0.9.tar.gz --markdown 20240409/a/aisploit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [PyPCAD]: Timeout reached during download
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [attackcti]: Timeout reached during download
+[2024-04-09 08:23:22] INFO root fetch - processPackages [PyPCAD]: Downloading https://files.pythonhosted.org/packages/f5/b9/83a1424f6409463f34944ea82b3724a2d6f58dae8b42db8bc387d014cf57/PyPCAD-1.1-py3-none-any.whl
+[2024-04-09 08:23:22] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/f0/15/dcac1aee121e607cb2669a54ee227f4ba927d4883ac7b8d5f2791dd903f5/cytobench-0.1.9.tar.gz
+[2024-04-09 08:23:22] INFO root fetch - processPackages [attackcti]: Downloading https://files.pythonhosted.org/packages/1c/37/fe560d8bafff7c8860ad9aa279f8dd9924576db9d95a2097afe384a5a285/attackcti-0.4.2.tar.gz
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [attackcti]: Timeout reached during download
+[2024-04-09 08:23:22] INFO root fetch - processPackages [attackcti]: executing diffoscope
+[2024-04-09 08:23:22] INFO root fetch - processPackages [attackcti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attackcti-0.4.1.tar.gz tmp/attackcti-0.4.2.tar.gz --markdown 20240409/a/attackcti/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-09 08:23:22] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 08:23:22] INFO root fetch - processPackages [cytobench]: executing diffoscope
+[2024-04-09 08:23:22] INFO root fetch - processPackages [cytobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytobench-0.1.8.tar.gz tmp/cytobench-0.1.9.tar.gz --markdown 20240409/c/cytobench/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 08:23:23] WARNING root fetch - processPackages [PyPCAD]: Timeout reached during download
+[2024-04-09 08:23:23] INFO root fetch - processPackages [PyPCAD]: executing diffoscope
+[2024-04-09 08:23:23] INFO root fetch - processPackages [PyPCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPCAD-1.0-py3-none-win_amd64.whl.zip tmp/PyPCAD-1.1-py3-none-any.whl.zip --markdown 20240409/P/PyPCAD/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-09 08:23:23] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.8.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.9.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - main [MainThread]: End processing [aisploit]: success
+[2024-04-09 08:23:23] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.8.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.9.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - main [MainThread]: End processing [cytobench]: success
+[2024-04-09 08:23:23] INFO root fetch - processPackages [PyPCAD]: Remove: archive file [/home/abi/fetcher/tmp/PyPCAD-1.0-py3-none-win_amd64.whl.zip]
+[2024-04-09 08:23:23] INFO root fetch - processPackages [PyPCAD]: Remove: archive file [/home/abi/fetcher/tmp/PyPCAD-1.1-py3-none-any.whl.zip]
+[2024-04-09 08:23:23] INFO root fetch - main [MainThread]: End processing [PyPCAD]: success
+[2024-04-09 08:23:23] INFO root fetch - processPackages [attackcti]: Remove: archive file [/home/abi/fetcher/tmp/attackcti-0.4.1.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - processPackages [attackcti]: Remove: archive file [/home/abi/fetcher/tmp/attackcti-0.4.2.tar.gz]
+[2024-04-09 08:23:23] INFO root fetch - main [MainThread]: End processing [attackcti]: success
+[2024-04-09 08:23:23] INFO root fetch - main [MainThread]: Store serial: [22678963]
