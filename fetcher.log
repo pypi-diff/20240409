@@ -23727,3 +23727,147 @@
 [2024-04-09 12:23:45] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-09 12:23:45] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-09 12:23:45] INFO root fetch - main [MainThread]: Store serial: [22681762]
+[2024-04-09 12:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681762]
+[2024-04-09 12:25:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inboard
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudpss-hydrogen
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-sii-taxfree
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cowbase
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OSCR-UI
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tieto-pika-test1
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hub-sdk
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flickr-photos-api
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tui-dsmt
+[2024-04-09 12:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tradescope
+[2024-04-09 12:25:54] INFO root fetch - processPackages [hub-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [cloudpss-hydrogen]: New version: [4.0.0a6] Old Version: [4.0.0a5]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [tui-dsmt]: New version: [202404091015] Old Version: [202404071540]
+[2024-04-09 12:25:54] WARNING root fetch - processPackages [tradescope]: Skipping, unable to determine old version
+[2024-04-09 12:25:54] INFO root fetch - processPackages [tradescope]: Start processing: prem-utils
+[2024-04-09 12:25:54] INFO root fetch - main [MainThread]: End processing [tradescope] error
+[2024-04-09 12:25:54] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [flickr-photos-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-09 12:25:54] WARNING root fetch - processPackages [cowbase]: Skipping, unable to determine old version
+[2024-04-09 12:25:54] INFO root fetch - processPackages [cowbase]: Start processing: mango-agents-assume
+[2024-04-09 12:25:54] INFO root fetch - main [MainThread]: End processing [cowbase] error
+[2024-04-09 12:25:54] WARNING root fetch - processPackages [tieto-pika-test1]: Skipping, unable to determine old version
+[2024-04-09 12:25:54] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.1]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [tieto-pika-test1]: Start processing: debloat
+[2024-04-09 12:25:54] INFO root fetch - main [MainThread]: End processing [tieto-pika-test1] error
+[2024-04-09 12:25:54] INFO root fetch - processPackages [OSCR-UI]: New version: [2024.4b20] Old Version: [2024.3b291]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [mango-agents-assume]: New version: [1.1.3.post1] Old Version: [1.1.1.post8]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [hub-sdk]: Downloading https://files.pythonhosted.org/packages/98/57/7813ef5f4ac8a7f461149d41d0d6f4e48141a636a323799c8cbae498fd2a/hub-sdk-0.0.6.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [mango-agents-assume]: Downloading https://files.pythonhosted.org/packages/ec/47/a2a891719ff57ec01425f94ac492d2df0ce18bd4df3c5e39ae2db9d7bf9e/mango_agents_assume-1.1.1.post8.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [debloat]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-09 12:25:54] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/98/b1/234673ab8537cf87a8cbfdf86357445bdf610fe48600511080e874b415ee/tui_dsmt-202404071540-py3-none-any.whl
+[2024-04-09 12:25:54] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/f8/d9/7ecd5222b6c072190fcf70251923987989aa786f39a20e6149d1d978d0f7/cloudpss-hydrogen-4.0.0a5.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Downloading https://files.pythonhosted.org/packages/f7/fb/e806109a0216d3fdab4bb106cc10924b99267a5741005ff5c531c6c661d2/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-09 12:25:54] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/29/d2/dfaa2d9faa31a88f1c421f4b58a0d4ba312aa191495033ea3f8aac37a200/flickr-photos-api-1.9.1.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [OSCR-UI]: Downloading https://files.pythonhosted.org/packages/ef/de/59427f0bc0048a8e8117eb28b932d1d5077730a240f493f74eb36e92c97a/oscr_ui-2024.3b291.tar.gz
+[2024-04-09 12:25:54] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/97/92/2aed3626ae65b65a238ed15cf73e90c4482343dc30477493d0c39e2c2dde/debloat-1.5.4.tar.gz
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [mango-agents-assume]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [tui-dsmt]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [debloat]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [inboard]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [cloudpss-hydrogen]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [hub-sdk]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [flickr-photos-api]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-09 12:25:55] INFO root fetch - processPackages [mango-agents-assume]: Downloading https://files.pythonhosted.org/packages/02/de/dc3c84d128bea8da0e6f02d344c8fbaef6b77964aaa28382d61263c296a4/mango_agents_assume-1.1.3.post1.tar.gz
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [OSCR-UI]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/b2/db/fc4f898705b0a24141b8186574f0abb609438ad2604a1052b395f765ca48/tui_dsmt-202404091015.tar.gz
+[2024-04-09 12:25:55] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Downloading https://files.pythonhosted.org/packages/b4/19/9664b694ea1730df3361c375eb2027d673f11019e2ef91564ce4c995a98e/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.1.0-py3-none-any.whl
+[2024-04-09 12:25:55] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/9e/a4/63a5def18bbbe0f09c5af07368203bdd53a9fef0a70938932f47b8cfbfd4/debloat-1.5.5.tar.gz
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240409/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [mango-agents-assume]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [mango-agents-assume]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [mango-agents-assume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_agents_assume-1.1.1.post8.tar.gz tmp/mango_agents_assume-1.1.3.post1.tar.gz --markdown 20240409/m/mango-agents-assume/1.1.1.post8-1.1.3.post1/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2024-04-09 12:25:55] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/de/94/e08f559411dc840e78766c581f3a29d19ecf6e9b2cdf675ebef419917e33/cloudpss-hydrogen-4.0.0a6.tar.gz
+[2024-04-09 12:25:55] INFO root fetch - processPackages [hub-sdk]: Downloading https://files.pythonhosted.org/packages/25/08/0044d8b1c241bef08d8c763b58aeb62dd09f2e56a82b0d9320c129e36281/hub-sdk-0.0.7.tar.gz
+[2024-04-09 12:25:55] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/38/ac/07447b6ae1d72699cff5c06fed59a01c0e90667034da3f730eacfbc3a77f/flickr-photos-api-1.9.2.tar.gz
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-l10n-es-aeat-sii-taxfree/16.0.1.0.0.1-16.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] INFO root fetch - processPackages [OSCR-UI]: Downloading https://files.pythonhosted.org/packages/f3/c8/c8804b6b20706483b64ef9872c96823fa7bb17aa58fdcfb6588473191898/oscr_ui-2024.4b20.tar.gz
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [tui-dsmt]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404071540-py3-none-any.whl.zip tmp/tui_dsmt-202404091015.tar.gz --markdown 20240409/t/tui-dsmt/202404071540-202404091015/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [debloat]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.5.4.tar.gz tmp/debloat-1.5.5.tar.gz --markdown 20240409/d/debloat/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [hub-sdk]: Timeout reached during download
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [flickr-photos-api]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [hub-sdk]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [hub-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hub-sdk-0.0.6.tar.gz tmp/hub-sdk-0.0.7.tar.gz --markdown 20240409/h/hub-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr-photos-api-1.9.1.tar.gz tmp/flickr-photos-api-1.9.2.tar.gz --markdown 20240409/f/flickr-photos-api/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [cloudpss-hydrogen]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [cloudpss-hydrogen]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [cloudpss-hydrogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-hydrogen-4.0.0a5.tar.gz tmp/cloudpss-hydrogen-4.0.0a6.tar.gz --markdown 20240409/c/cloudpss-hydrogen/4.0.0a5-4.0.0a6/diff.md --exclude *.pyd
+[2024-04-09 12:25:55] WARNING root fetch - processPackages [inboard]: Timeout reached during download
+[2024-04-09 12:25:55] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2024-04-09 12:25:55] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20240409/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-09 12:25:56] WARNING root fetch - processPackages [OSCR-UI]: Timeout reached during download
+[2024-04-09 12:25:56] INFO root fetch - processPackages [OSCR-UI]: executing diffoscope
+[2024-04-09 12:25:56] INFO root fetch - processPackages [OSCR-UI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscr_ui-2024.3b291.tar.gz tmp/oscr_ui-2024.4b20.tar.gz --markdown 20240409/O/OSCR-UI/2024.3b291-2024.4b20/diff.md --exclude *.pyd
+[2024-04-09 12:25:56] INFO root fetch - processPackages [debloat]: Remove: archive file [/home/abi/fetcher/tmp/debloat-1.5.4.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [debloat]: Remove: archive file [/home/abi/fetcher/tmp/debloat-1.5.5.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [debloat]: Start processing: VideoOpinionMining
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_taxfree-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-taxfree]: Start processing: pep440-rs
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-taxfree]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [VideoOpinionMining]: New version: [1.1] Old Version: [1.0]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404071540-py3-none-any.whl.zip]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404091015.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [pep440-rs]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [hub-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hub-sdk-0.0.6.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [hub-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hub-sdk-0.0.7.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [hub-sdk]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.1.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a5.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a6.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [VideoOpinionMining]: Downloading https://files.pythonhosted.org/packages/ce/f4/c5da5463af019590d4434a52f76c732cf5f143930c8c2355956654ee66b5/VideoOpinionMining-1.0.tar.gz
+[2024-04-09 12:25:56] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2024-04-09 12:25:56] INFO root fetch - processPackages [mango-agents-assume]: Remove: archive file [/home/abi/fetcher/tmp/mango_agents_assume-1.1.1.post8.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - processPackages [mango-agents-assume]: Remove: archive file [/home/abi/fetcher/tmp/mango_agents_assume-1.1.3.post1.tar.gz]
+[2024-04-09 12:25:56] INFO root fetch - main [MainThread]: End processing [mango-agents-assume]: success
+[2024-04-09 12:25:56] WARNING root fetch - processPackages [VideoOpinionMining]: Timeout reached during download
+[2024-04-09 12:25:56] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/da/73/e233a23d0e5275f780117fae2d4e2ae04738dd141031f2daefe539744af1/pep440_rs-0.5.0.tar.gz
+[2024-04-09 12:25:57] INFO root fetch - processPackages [VideoOpinionMining]: Downloading https://files.pythonhosted.org/packages/43/c0/eaa38fa99e653f0408e1acfc95ae94d7f0fca7ab34f6554c87c3dd86a731/VideoOpinionMining-1.1.tar.gz
+[2024-04-09 12:25:57] WARNING root fetch - processPackages [pep440-rs]: Timeout reached during download
+[2024-04-09 12:25:57] WARNING root fetch - processPackages [VideoOpinionMining]: Timeout reached during download
+[2024-04-09 12:25:57] INFO root fetch - processPackages [VideoOpinionMining]: executing diffoscope
+[2024-04-09 12:25:57] INFO root fetch - processPackages [VideoOpinionMining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VideoOpinionMining-1.0.tar.gz tmp/VideoOpinionMining-1.1.tar.gz --markdown 20240409/V/VideoOpinionMining/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-09 12:25:57] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/5e/b1/ca066bad5b3d923d3a83ecafd9ed4cd7df3b8c4cf16a8deab36c9f408bb5/pep440_rs-0.6.0-cp38-abi3-musllinux_1_2_armv7l.whl
+[2024-04-09 12:25:57] INFO root fetch - processPackages [VideoOpinionMining]: Remove: archive file [/home/abi/fetcher/tmp/VideoOpinionMining-1.0.tar.gz]
+[2024-04-09 12:25:57] INFO root fetch - processPackages [VideoOpinionMining]: Remove: archive file [/home/abi/fetcher/tmp/VideoOpinionMining-1.1.tar.gz]
+[2024-04-09 12:25:57] INFO root fetch - main [MainThread]: End processing [VideoOpinionMining]: success
+[2024-04-09 12:25:58] WARNING root fetch - processPackages [pep440-rs]: Timeout reached during download
+[2024-04-09 12:25:58] INFO root fetch - processPackages [pep440-rs]: executing diffoscope
+[2024-04-09 12:25:58] INFO root fetch - processPackages [pep440-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pep440_rs-0.5.0.tar.gz tmp/pep440_rs-0.6.0-cp38-abi3-musllinux_1_2_armv7l.whl.zip --markdown 20240409/p/pep440-rs/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 12:25:59] INFO root fetch - processPackages [pep440-rs]: Remove: archive file [/home/abi/fetcher/tmp/pep440_rs-0.5.0.tar.gz]
+[2024-04-09 12:25:59] INFO root fetch - processPackages [pep440-rs]: Remove: archive file [/home/abi/fetcher/tmp/pep440_rs-0.6.0-cp38-abi3-musllinux_1_2_armv7l.whl.zip]
+[2024-04-09 12:25:59] INFO root fetch - main [MainThread]: End processing [pep440-rs]: success
+[2024-04-09 12:26:00] INFO root fetch - processPackages [OSCR-UI]: Remove: archive file [/home/abi/fetcher/tmp/oscr_ui-2024.3b291.tar.gz]
+[2024-04-09 12:26:00] INFO root fetch - processPackages [OSCR-UI]: Remove: archive file [/home/abi/fetcher/tmp/oscr_ui-2024.4b20.tar.gz]
+[2024-04-09 12:26:00] INFO root fetch - main [MainThread]: End processing [OSCR-UI]: success
+[2024-04-09 12:26:00] INFO root fetch - main [MainThread]: Store serial: [22681823]
