@@ -19682,3 +19682,67 @@
 [2024-04-09 10:24:21] INFO root fetch - processPackages [riotwatcher]: Remove: archive file [/home/abi/fetcher/tmp/riotwatcher-3.3.0.tar.gz]
 [2024-04-09 10:24:21] INFO root fetch - main [MainThread]: End processing [riotwatcher]: success
 [2024-04-09 10:24:21] INFO root fetch - main [MainThread]: Store serial: [22680211]
+[2024-04-09 10:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680211]
+[2024-04-09 10:26:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tira
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matini-net
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-connect
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-connect
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afas-connector
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqqq
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diffusion
+[2024-04-09 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stroke-maps
+[2024-04-09 10:26:31] INFO root fetch - processPackages [cognite-neat]: New version: [0.69.1] Old Version: [0.69.0]
+[2024-04-09 10:26:31] WARNING root fetch - processPackages [stroke-maps]: Skipping, unable to determine old version
+[2024-04-09 10:26:31] INFO root fetch - main [MainThread]: End processing [stroke-maps] error
+[2024-04-09 10:26:31] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.60] Old Version: [9.1.58]
+[2024-04-09 10:26:31] WARNING root fetch - processPackages [matini-net]: Skipping, unable to determine old version
+[2024-04-09 10:26:31] INFO root fetch - main [MainThread]: End processing [matini-net] error
+[2024-04-09 10:26:31] WARNING root fetch - processPackages [afas-connector]: Skipping, unable to determine old version
+[2024-04-09 10:26:31] INFO root fetch - main [MainThread]: End processing [afas-connector] error
+[2024-04-09 10:26:31] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.60] Old Version: [9.1.58]
+[2024-04-09 10:26:31] INFO root fetch - processPackages [diffusion]: New version: [6.9.7] Old Version: [6.9.6]
+[2024-04-09 10:26:31] INFO root fetch - processPackages [pyqqq]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-09 10:26:31] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 10:26:31] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/82/0e/6d482e0e020c78800302dcf5375005a65ef629fac72fcedb3c25a77715cb/databricks-connect-9.1.58.tar.gz
+[2024-04-09 10:26:31] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/82/0e/6d482e0e020c78800302dcf5375005a65ef629fac72fcedb3c25a77715cb/databricks-connect-9.1.58.tar.gz
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257311450>=10485760
+[2024-04-09 10:26:32] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257311450>=10485760
+[2024-04-09 10:26:32] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-09 10:26:32] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/bd/dc/96e735b7c476a34b57112f70877e8c7b8bcb077bc2b9b90310af5be7c043/cognite_neat-0.69.1.tar.gz
+[2024-04-09 10:26:32] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/d8/4d/45e2b2f111751fb8b03be1f88bb82a695fae5f8e950fa4fc19b996d40509/pyqqq-0.6.8.tar.gz
+[2024-04-09 10:26:32] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/18/32/6c0430b33596e4bef36f51ba7d5e75a05f01a7f8ba265f79cf156a101b01/diffusion-6.9.6-1-py3-none-any.whl
+[2024-04-09 10:26:32] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [diffusion]: Timeout reached during download
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [cognite-neat]: Timeout reached during download
+[2024-04-09 10:26:32] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-09 10:26:32] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.69.0.tar.gz tmp/cognite_neat-0.69.1.tar.gz --markdown 20240409/c/cognite-neat/0.69.0-0.69.1/diff.md --exclude *.pyd
+[2024-04-09 10:26:32] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9c/27/2a339968e9b1a9072d13dc7e87d2532373029dc50440d36589963636f9b7/pyqqq-0.6.9.tar.gz
+[2024-04-09 10:26:32] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/b5/f7/3b98241a271d07e427092acf99de96149d1ec91564d1f6e129c8b558c11f/diffusion-6.9.7-1-py3-none-any.whl
+[2024-04-09 10:26:32] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 10:26:32] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-09 10:26:32] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240409/t/tira/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-09 10:26:32] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-09 10:26:32] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.8.tar.gz tmp/pyqqq-0.6.9.tar.gz --markdown 20240409/p/pyqqq/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-09 10:26:32] WARNING root fetch - processPackages [diffusion]: Timeout reached during download
+[2024-04-09 10:26:32] INFO root fetch - processPackages [diffusion]: executing diffoscope
+[2024-04-09 10:26:32] INFO root fetch - processPackages [diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusion-6.9.6-1-py3-none-any.whl.zip tmp/diffusion-6.9.7-1-py3-none-any.whl.zip --markdown 20240409/d/diffusion/6.9.6-6.9.7/diff.md --exclude *.pyd
+[2024-04-09 10:26:33] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.8.tar.gz]
+[2024-04-09 10:26:33] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.9.tar.gz]
+[2024-04-09 10:26:33] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-09 10:26:33] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-09 10:26:33] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-09 10:26:33] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-09 10:26:33] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.6-1-py3-none-any.whl.zip]
+[2024-04-09 10:26:33] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.7-1-py3-none-any.whl.zip]
+[2024-04-09 10:26:33] INFO root fetch - main [MainThread]: End processing [diffusion]: success
+[2024-04-09 10:26:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.69.0.tar.gz]
+[2024-04-09 10:26:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.69.1.tar.gz]
+[2024-04-09 10:26:35] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-09 10:26:35] INFO root fetch - main [MainThread]: Store serial: [22680232]
