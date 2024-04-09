@@ -24491,3 +24491,83 @@
 [2024-04-09 12:48:12] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.3.tar.gz]
 [2024-04-09 12:48:12] INFO root fetch - main [MainThread]: End processing [physicsml]: success
 [2024-04-09 12:48:12] INFO root fetch - main [MainThread]: Store serial: [22682066]
+[2024-04-09 12:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682066]
+[2024-04-09 12:50:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alliance-platform-core
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docrawl
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imioweb.core
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verifit
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: juice-phs
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide6-Addons
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SightTraining
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tenzir-platform
+[2024-04-09 12:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SdcStatsBot
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [alliance-platform-core]: Skipping, unable to determine old version
+[2024-04-09 12:50:21] INFO root fetch - main [MainThread]: End processing [alliance-platform-core] error
+[2024-04-09 12:50:21] INFO root fetch - processPackages [SdcStatsBot]: New version: [0.2.4] Old Version: [0.2.1]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [PySide6-Addons]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [tenzir-platform]: Skipping, unable to determine old version
+[2024-04-09 12:50:21] INFO root fetch - main [MainThread]: End processing [tenzir-platform] error
+[2024-04-09 12:50:21] INFO root fetch - processPackages [verifit]: New version: [5.0.0] Old Version: [4.4.1]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [docrawl]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [SightTraining]: New version: [0.1.24] Old Version: [0.1.23]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [imioweb.core]: New version: [1.0a5] Old Version: [1.0a4]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [juice-phs]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-04-09 12:50:21] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/3f/7d/2445f9bd0f91bea5fdd67767c84f2517f644e4d6d2eab5f49022c398218f/verifit-4.4.1.tar.gz
+[2024-04-09 12:50:21] INFO root fetch - processPackages [SdcStatsBot]: Downloading https://files.pythonhosted.org/packages/a1/8b/c9e0f8cb8c302a992e638e74e835dbeff46d4dff03ab920f8a436434943f/SdcStatsBot-0.2.1.tar.gz
+[2024-04-09 12:50:21] INFO root fetch - processPackages [PySide6-Addons]: Downloading https://files.pythonhosted.org/packages/e5/46/1c9e3d93c412f5f712a0c530f128346a1b9cb1e2c6d71040cf8d70a13955/PySide6_Addons-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [PySide6-Addons]: Skipping package: exceeds size limit 104068645>=10485760
+[2024-04-09 12:50:21] INFO root fetch - main [MainThread]: End processing [PySide6-Addons] error
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 12:50:21] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/d8/27/4b0b44a290cf9c4377cbea020ec16417be1c55e568810c14a83e51e19b4d/docrawl-1.2.4.tar.gz
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [SdcStatsBot]: Timeout reached during download
+[2024-04-09 12:50:21] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/b6/d9/8aff6ff9653d3f68f374f7be1907e1609d2a06a61aa45296b8f3a669f290/SightTraining-0.1.23.tar.gz
+[2024-04-09 12:50:21] INFO root fetch - processPackages [imioweb.core]: Downloading https://files.pythonhosted.org/packages/fc/83/e2874d3679402ce6577adb49f75f8cefac85fdb705524a1e8586174df3fd/imioweb.core-1.0a4.tar.gz
+[2024-04-09 12:50:21] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/44/fa/14e1a90fa1652da3cc7dd334acab1baef0c64f8cf51a8de563d6dacb3c9d/juice_phs-0.4.0-py3-none-any.whl
+[2024-04-09 12:50:21] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/5f/b1/6d04a43a74857be95da447b6b181709d728cfbb673ea61010a797122fdfc/verifit-5.0.0.tar.gz
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [imioweb.core]: Timeout reached during download
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [docrawl]: Timeout reached during download
+[2024-04-09 12:50:21] INFO root fetch - processPackages [SdcStatsBot]: Downloading https://files.pythonhosted.org/packages/90/43/f52786ba61c027827cb9cd88e03526579d4c30a2552b3231e66cec63b0ed/SdcStatsBot-0.2.4.tar.gz
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 12:50:21] INFO root fetch - processPackages [verifit]: executing diffoscope
+[2024-04-09 12:50:21] INFO root fetch - processPackages [verifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifit-4.4.1.tar.gz tmp/verifit-5.0.0.tar.gz --markdown 20240409/v/verifit/4.4.1-5.0.0/diff.md --exclude *.pyd
+[2024-04-09 12:50:21] WARNING root fetch - processPackages [juice-phs]: Timeout reached during download
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [SdcStatsBot]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SdcStatsBot]: executing diffoscope
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SdcStatsBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SdcStatsBot-0.2.1.tar.gz tmp/SdcStatsBot-0.2.4.tar.gz --markdown 20240409/S/SdcStatsBot/0.2.1-0.2.4/diff.md --exclude *.pyd
+[2024-04-09 12:50:22] INFO root fetch - processPackages [docrawl]: Downloading https://files.pythonhosted.org/packages/b1/0b/8a7868073f8ad8df4e5e1b9d7cca6570ec520b583ff53972859ee7432a83/docrawl-1.2.5.tar.gz
+[2024-04-09 12:50:22] INFO root fetch - processPackages [imioweb.core]: Downloading https://files.pythonhosted.org/packages/b6/8e/980e433be9e3ff05c090d94fff2fb09e22cf52337aa40338705418cb7c22/imioweb.core-1.0a5.tar.gz
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/2f/ca/f6da1dbce678838d21e55ec5b73c129b1d2c9454c742def0ed5c7d9d3883/juice_phs-0.4.2-py3-none-any.whl
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [docrawl]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [docrawl]: executing diffoscope
+[2024-04-09 12:50:22] INFO root fetch - processPackages [docrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrawl-1.2.4.tar.gz tmp/docrawl-1.2.5.tar.gz --markdown 20240409/d/docrawl/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/4f/d1/a1cfe4a11082eeb6cea3a270d0e4888b86c600895c4731342fad6037e77a/SightTraining-0.1.24-py3-none-any.whl
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [juice-phs]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [juice-phs]: executing diffoscope
+[2024-04-09 12:50:22] INFO root fetch - processPackages [juice-phs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juice_phs-0.4.0-py3-none-any.whl.zip tmp/juice_phs-0.4.2-py3-none-any.whl.zip --markdown 20240409/j/juice-phs/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [imioweb.core]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [imioweb.core]: executing diffoscope
+[2024-04-09 12:50:22] INFO root fetch - processPackages [imioweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imioweb.core-1.0a4.tar.gz tmp/imioweb.core-1.0a5.tar.gz --markdown 20240409/i/imioweb.core/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2024-04-09 12:50:22] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.23.tar.gz tmp/SightTraining-0.1.24-py3-none-any.whl.zip --markdown 20240409/S/SightTraining/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2024-04-09 12:50:22] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.4.1.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-5.0.0.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - main [MainThread]: End processing [verifit]: success
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SdcStatsBot]: Remove: archive file [/home/abi/fetcher/tmp/SdcStatsBot-0.2.1.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - processPackages [SdcStatsBot]: Remove: archive file [/home/abi/fetcher/tmp/SdcStatsBot-0.2.4.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - main [MainThread]: End processing [SdcStatsBot]: success
+[2024-04-09 12:50:22] INFO root fetch - processPackages [docrawl]: Remove: archive file [/home/abi/fetcher/tmp/docrawl-1.2.4.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - processPackages [docrawl]: Remove: archive file [/home/abi/fetcher/tmp/docrawl-1.2.5.tar.gz]
+[2024-04-09 12:50:22] INFO root fetch - main [MainThread]: End processing [docrawl]: success
+[2024-04-09 12:50:22] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.4.0-py3-none-any.whl.zip]
+[2024-04-09 12:50:22] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.4.2-py3-none-any.whl.zip]
+[2024-04-09 12:50:22] INFO root fetch - main [MainThread]: End processing [juice-phs]: success
+[2024-04-09 12:50:23] INFO root fetch - processPackages [imioweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imioweb.core-1.0a4.tar.gz]
+[2024-04-09 12:50:23] INFO root fetch - processPackages [imioweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imioweb.core-1.0a5.tar.gz]
+[2024-04-09 12:50:23] INFO root fetch - main [MainThread]: End processing [imioweb.core]: success
+[2024-04-09 12:50:23] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.23.tar.gz]
+[2024-04-09 12:50:23] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.24-py3-none-any.whl.zip]
+[2024-04-09 12:50:23] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-09 12:50:23] INFO root fetch - main [MainThread]: Store serial: [22682091]
