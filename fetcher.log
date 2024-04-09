@@ -2693,3 +2693,42 @@
 [2024-04-09 02:02:36] INFO root fetch - processPackages [ntgcalls]: Remove: archive file [/home/abi/fetcher/tmp/ntgcalls-1.2.0b7.tar.gz]
 [2024-04-09 02:02:36] INFO root fetch - main [MainThread]: End processing [ntgcalls]: success
 [2024-04-09 02:02:36] INFO root fetch - main [MainThread]: Store serial: [22674725]
+[2024-04-09 02:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674725]
+[2024-04-09 02:04:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Leonardo-Ai-SDK
+[2024-04-09 02:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvesyncakerl
+[2024-04-09 02:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-transfer
+[2024-04-09 02:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [pyvesyncakerl]: Skipping, unable to determine old version
+[2024-04-09 02:04:46] INFO root fetch - main [MainThread]: End processing [pyvesyncakerl] error
+[2024-04-09 02:04:46] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.3] Old Version: [5.3.2]
+[2024-04-09 02:04:46] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240408.430] Old Version: [2.0.0.20240407.442]
+[2024-04-09 02:04:46] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-09 02:04:46] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/04/7e/07a65ed2174487be4bcb73fce390ad440a98289ea728285b3879e109e6eb/mct-nightly-2.0.0.20240407.442.tar.gz
+[2024-04-09 02:04:46] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/07/6f/1b25ac479127ee5723dd1eb3016e79e7ec8037ea44bb16d793765e53ff1f/Leonardo-Ai-SDK-5.3.2.tar.gz
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-09 02:04:46] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/c6/c0/d43cf5b63152fa04e14114f721f196be5dd4bdfdd260c46ab01f94dbc621/aind-data-transfer-0.9.2.tar.gz
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-09 02:04:46] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/4e/1b/3afea7c203988f2ec2a2d09febdce512ab9c453a41af98a9bbca5f2a9a08/Leonardo-Ai-SDK-5.3.3.tar.gz
+[2024-04-09 02:04:46] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/2e/77/99c7f58d91a5cd94dd05800ef31cb03c99ba96d434437af0db328ffa6a70/mct-nightly-2.0.0.20240408.430.tar.gz
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-09 02:04:46] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-09 02:04:46] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.2.tar.gz tmp/Leonardo-Ai-SDK-5.3.3.tar.gz --markdown 20240409/L/Leonardo-Ai-SDK/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [aind-data-transfer]: Timeout reached during download
+[2024-04-09 02:04:46] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-09 02:04:46] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-09 02:04:46] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240407.442.tar.gz tmp/mct-nightly-2.0.0.20240408.430.tar.gz --markdown 20240409/m/mct-nightly/2.0.0.20240407.442-2.0.0.20240408.430/diff.md --exclude *.pyd
+[2024-04-09 02:04:46] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/ee/dc/9a630eab65d1c84402e0889b488d378cf516a68beee16401bf6e0c916cff/aind-data-transfer-0.9.3.tar.gz
+[2024-04-09 02:04:47] WARNING root fetch - processPackages [aind-data-transfer]: Timeout reached during download
+[2024-04-09 02:04:47] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2024-04-09 02:04:47] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20240409/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-09 02:04:47] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.2.tar.gz]
+[2024-04-09 02:04:47] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.3.tar.gz]
+[2024-04-09 02:04:47] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-09 02:04:48] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.2.tar.gz]
+[2024-04-09 02:04:48] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
+[2024-04-09 02:04:48] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2024-04-09 02:04:48] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240407.442.tar.gz]
+[2024-04-09 02:04:48] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240408.430.tar.gz]
+[2024-04-09 02:04:48] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-09 02:04:48] INFO root fetch - main [MainThread]: Store serial: [22674738]
