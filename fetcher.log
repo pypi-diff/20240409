@@ -23467,3 +23467,42 @@
 [2024-04-09 12:12:50] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040809.tar.gz]
 [2024-04-09 12:12:50] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-09 12:12:50] INFO root fetch - main [MainThread]: Store serial: [22681689]
+[2024-04-09 12:14:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681689]
+[2024-04-09 12:14:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 12:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sorting-vis
+[2024-04-09 12:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywayne
+[2024-04-09 12:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssh-ca-cli
+[2024-04-09 12:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notdiamond
+[2024-04-09 12:14:58] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 12:14:58] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.6.6] Old Version: [1.0.0.6.5]
+[2024-04-09 12:14:59] INFO root fetch - processPackages [notdiamond]: New version: [0.1.0b0] Old Version: [0.1.0a9]
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [sorting-vis]: Skipping, unable to determine old version
+[2024-04-09 12:14:59] INFO root fetch - main [MainThread]: End processing [sorting-vis] error
+[2024-04-09 12:14:59] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/5d/ac/86eb73ad6c3f586b299d6d0526359184daf3285019a8d73ee0c53bf49a0d/ssh_ca_cli-0.8.0.tar.gz
+[2024-04-09 12:14:59] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/e1/9c/c958093059dfa9f97a6ba1645df0826ec54ae121f4bd0f1a6f87a0de8fd9/pywayne-1.0.0.6.5.tar.gz
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-09 12:14:59] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/2c/a2/2a500dcaabf282c4b5f54e799b725799cc3217fe3be20c6f2ec7c6a60dbb/notdiamond-0.1.0a9.tar.gz
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 12:14:59] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/ce/13/7c87b51de6af9b7db6cfa09019a1ea03840b43fbfd18b611f3a71860e0e2/ssh_ca_cli-0.9.0.tar.gz
+[2024-04-09 12:14:59] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/3f/48/de60312ddb60d9adcb6c95156b493a6f190f281aa9fbfec9ad75bc860904/pywayne-1.0.0.6.6.tar.gz
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-09 12:14:59] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-09 12:14:59] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.8.0.tar.gz tmp/ssh_ca_cli-0.9.0.tar.gz --markdown 20240409/s/ssh-ca-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [notdiamond]: Timeout reached during download
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 12:14:59] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-04-09 12:14:59] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.6.5.tar.gz tmp/pywayne-1.0.0.6.6.tar.gz --markdown 20240409/p/pywayne/1.0.0.6.5-1.0.0.6.6/diff.md --exclude *.pyd
+[2024-04-09 12:14:59] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/9f/13/dc360b281d52e4f6b9d3dc185827307c79d32569973655d332959a768590/notdiamond-0.1.0b0.tar.gz
+[2024-04-09 12:14:59] WARNING root fetch - processPackages [notdiamond]: Timeout reached during download
+[2024-04-09 12:14:59] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-04-09 12:14:59] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.0a9.tar.gz tmp/notdiamond-0.1.0b0.tar.gz --markdown 20240409/n/notdiamond/0.1.0a9-0.1.0b0/diff.md --exclude *.pyd
+[2024-04-09 12:15:00] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.5.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.6.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-04-09 12:15:00] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.8.0.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.9.0.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-09 12:15:00] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0a9.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0b0.tar.gz]
+[2024-04-09 12:15:00] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-04-09 12:15:00] INFO root fetch - main [MainThread]: Store serial: [22681703]
