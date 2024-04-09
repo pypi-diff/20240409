@@ -19460,3 +19460,86 @@
 [2024-04-09 10:15:36] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-09 10:15:36] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2024-04-09 10:15:36] INFO root fetch - main [MainThread]: Store serial: [22680121]
+[2024-04-09 10:17:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680121]
+[2024-04-09 10:17:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verifit
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agricore_sp_models
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rclip
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: item-matching
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aio-code-editor
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: educhain
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reki
+[2024-04-09 10:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mhlee
+[2024-04-09 10:17:46] INFO root fetch - processPackages [aio-code-editor]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [rclip]: New version: [1.7.9] Old Version: [1.7.7]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [verifit]: New version: [5.0.0] Old Version: [4.4.1]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [educhain]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [reki]: New version: [2024.4.0] Old Version: [0.3.0]
+[2024-04-09 10:17:46] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/24/af/a29ae057243ee7e1a3f6b8483b06d69cc8fae41e148847d170fbd1bd2645/rclip-1.7.7.tar.gz
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [mhlee]: Skipping, unable to determine old version
+[2024-04-09 10:17:46] INFO root fetch - main [MainThread]: End processing [mhlee] error
+[2024-04-09 10:17:46] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/1c/8d/71df612a23ef80402cbe5c3da78ce3341ca62ac168db78bc59fbb578a113/aio_code_editor-0.6.3.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/3f/7d/2445f9bd0f91bea5fdd67767c84f2517f644e4d6d2eab5f49022c398218f/verifit-4.4.1.tar.gz
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [agricore_sp_models]: Timeout reached during download
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 10:17:46] INFO root fetch - processPackages [educhain]: Downloading https://files.pythonhosted.org/packages/82/9c/35ff8c4a0d63daf905a9c6bddd098cf6ca1543033deb43b2bf8be714fc0c/educhain-0.1.4.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [reki]: Downloading https://files.pythonhosted.org/packages/a7/ce/2d1855d894776435911d5177b4b0fc2131c261bd011050d91730c9b4082b/reki-0.3.0.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/46/d3/5796d299c24445776e4e4b4536d3829cf786742585aed463dddd92e9c17e/rclip-1.7.9.tar.gz
+[2024-04-09 10:17:46] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/5e/82/bafd69178706e05a4081a8efe1427d5e7fc6ddc9e157134184f29fb04849/aio_code_editor-0.7.0.tar.gz
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:17:46] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-09 10:17:46] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240409/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [reki]: Timeout reached during download
+[2024-04-09 10:17:46] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/5f/b1/6d04a43a74857be95da447b6b181709d728cfbb673ea61010a797122fdfc/verifit-5.0.0.tar.gz
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [agricore_sp_models]: Timeout reached during download
+[2024-04-09 10:17:46] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-09 10:17:46] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240409/a/agricore_sp_models/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-09 10:17:46] WARNING root fetch - processPackages [educhain]: Timeout reached during download
+[2024-04-09 10:17:47] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 10:17:47] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 10:17:47] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.7.7.tar.gz tmp/rclip-1.7.9.tar.gz --markdown 20240409/r/rclip/1.7.7-1.7.9/diff.md --exclude *.pyd
+[2024-04-09 10:17:47] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 10:17:47] INFO root fetch - processPackages [aio-code-editor]: executing diffoscope
+[2024-04-09 10:17:47] INFO root fetch - processPackages [aio-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_code_editor-0.6.3.tar.gz tmp/aio_code_editor-0.7.0.tar.gz --markdown 20240409/a/aio-code-editor/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 10:17:47] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 10:17:47] INFO root fetch - processPackages [verifit]: executing diffoscope
+[2024-04-09 10:17:47] INFO root fetch - processPackages [verifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifit-4.4.1.tar.gz tmp/verifit-5.0.0.tar.gz --markdown 20240409/v/verifit/4.4.1-5.0.0/diff.md --exclude *.pyd
+[2024-04-09 10:17:47] INFO root fetch - processPackages [reki]: Downloading https://files.pythonhosted.org/packages/e5/6c/37ac05812e6d31d615b63ca047a15598788258d2637e8b117fe421279950/reki-2024.4.0.tar.gz
+[2024-04-09 10:17:47] INFO root fetch - processPackages [educhain]: Downloading https://files.pythonhosted.org/packages/c8/54/b07adbf70e918ba88aa385db58b70cfead807e3776f9e7925065f6d8858d/educhain-0.1.6.tar.gz
+[2024-04-09 10:17:47] WARNING root fetch - processPackages [educhain]: Timeout reached during download
+[2024-04-09 10:17:47] INFO root fetch - processPackages [educhain]: executing diffoscope
+[2024-04-09 10:17:47] INFO root fetch - processPackages [educhain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educhain-0.1.4.tar.gz tmp/educhain-0.1.6.tar.gz --markdown 20240409/e/educhain/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2024-04-09 10:17:47] WARNING root fetch - processPackages [reki]: Timeout reached during download
+[2024-04-09 10:17:47] INFO root fetch - processPackages [reki]: executing diffoscope
+[2024-04-09 10:17:47] INFO root fetch - processPackages [reki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reki-0.3.0.tar.gz tmp/reki-2024.4.0.tar.gz --markdown 20240409/r/reki/0.3.0-2024.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:17:47] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-09 10:17:47] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.4.1.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-5.0.0.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [verifit]: success
+[2024-04-09 10:17:47] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.7.7.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.7.9.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 10:17:47] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-09 10:17:47] INFO root fetch - processPackages [educhain]: Remove: archive file [/home/abi/fetcher/tmp/educhain-0.1.4.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [educhain]: Remove: archive file [/home/abi/fetcher/tmp/educhain-0.1.6.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [educhain]: success
+[2024-04-09 10:17:47] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.6.3.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.7.0.tar.gz]
+[2024-04-09 10:17:47] INFO root fetch - main [MainThread]: End processing [aio-code-editor]: success
+[2024-04-09 10:17:48] INFO root fetch - processPackages [reki]: Remove: archive file [/home/abi/fetcher/tmp/reki-0.3.0.tar.gz]
+[2024-04-09 10:17:48] INFO root fetch - processPackages [reki]: Remove: archive file [/home/abi/fetcher/tmp/reki-2024.4.0.tar.gz]
+[2024-04-09 10:17:48] INFO root fetch - main [MainThread]: End processing [reki]: success
+[2024-04-09 10:17:48] INFO root fetch - main [MainThread]: Store serial: [22680154]
