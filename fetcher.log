@@ -8756,3 +8756,12 @@
 [2024-04-09 03:38:59] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
 [2024-04-09 03:38:59] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-09 03:38:59] INFO root fetch - main [MainThread]: Store serial: [22676477]
+[2024-04-09 03:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676477]
+[2024-04-09 03:41:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 03:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anacondas
+[2024-04-09 03:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc-plugin
+[2024-04-09 03:41:08] WARNING root fetch - processPackages [anacondas]: Skipping, unable to determine old version
+[2024-04-09 03:41:08] INFO root fetch - main [MainThread]: End processing [anacondas] error
+[2024-04-09 03:41:08] WARNING root fetch - processPackages [vloc-plugin]: Skipping, unable to determine old version
+[2024-04-09 03:41:08] INFO root fetch - main [MainThread]: End processing [vloc-plugin] error
+[2024-04-09 03:41:08] INFO root fetch - main [MainThread]: Store serial: [22676485]
