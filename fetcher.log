@@ -15592,3 +15592,81 @@
 [2024-04-09 07:45:30] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.6.tar.gz]
 [2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [chainbench]: success
 [2024-04-09 07:45:30] INFO root fetch - main [MainThread]: Store serial: [22678712]
+[2024-04-09 07:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678712]
+[2024-04-09 07:47:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxapit
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HawaData
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-viewflow
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jemma
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jemma
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsw-jzyunqi
+[2024-04-09 07:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bard
+[2024-04-09 07:47:39] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: New version: [0.1.123] Old Version: [0.1.122]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: New version: [0.1.123] Old Version: [0.1.122]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jsw-jzyunqi]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [nonebot-plugin-bard]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [django-viewflow]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/6c/31/dac68b30cd957b3a2f58e39f6b8fd75226069948aa81dbdf1e460eaaf92f/jemma-0.1.122.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/6c/31/dac68b30cd957b3a2f58e39f6b8fd75226069948aa81dbdf1e460eaaf92f/jemma-0.1.122.tar.gz
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [HawaData]: Timeout reached during download
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jsw-jzyunqi]: Downloading https://files.pythonhosted.org/packages/75/fc/652e373b3cebfdefe5f428a97e265622076a9004211c8b7dea53624bdadb/jsw_jzyunqi-1.0.4.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/eb/db/f9c55217e4a325e28a6393ed93f0ec7215a31d85c56378adddf788324f38/nonebot_plugin_bard-0.3.3.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/7f/35/4184ec43b194736c9e79dd0da40ddf8a971d2ca7e9d7d02ad2880def2540/django-viewflow-2.0.0b7.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [jsw-jzyunqi]: Timeout reached during download
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/20/d4/b1f5749e7ff2de4ea54fd7e6c25d7a3deaff3b32078c28f391cab69073dd/jemma-0.1.123.tar.gz
+[2024-04-09 07:47:39] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/20/d4/b1f5749e7ff2de4ea54fd7e6c25d7a3deaff3b32078c28f391cab69073dd/jemma-0.1.123.tar.gz
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [HawaData]: Timeout reached during download
+[2024-04-09 07:47:39] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-09 07:47:39] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240409/H/HawaData/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-09 07:47:39] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 07:47:39] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 07:47:39] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [nonebot-plugin-bard]: Timeout reached during download
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.122.tar.gz tmp/jemma-0.1.123.tar.gz --markdown 20240409/j/jemma/0.1.122-0.1.123/diff.md --exclude *.pyd
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.122.tar.gz tmp/jemma-0.1.123.tar.gz --markdown 20240409/j/jemma/0.1.122-0.1.123/diff.md --exclude *.pyd
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jsw-jzyunqi]: Downloading https://files.pythonhosted.org/packages/8a/18/ff26905f155b41cfbc3e0859527371b23bb92b77bb55f27635197415ca81/jsw_jzyunqi-1.0.5.tar.gz
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [jsw-jzyunqi]: Timeout reached during download
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jsw-jzyunqi]: executing diffoscope
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jsw-jzyunqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsw_jzyunqi-1.0.4.tar.gz tmp/jsw_jzyunqi-1.0.5.tar.gz --markdown 20240409/j/jsw-jzyunqi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 07:47:40] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/24/1a/d631f196f1309070a977f659e36a84bb875ffba367a2d0cf9800a65a4d48/nonebot_plugin_bard-0.4.0.tar.gz
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [django-viewflow]: Timeout reached during download
+[2024-04-09 07:47:40] WARNING root fetch - processPackages [nonebot-plugin-bard]: Timeout reached during download
+[2024-04-09 07:47:40] INFO root fetch - processPackages [nonebot-plugin-bard]: executing diffoscope
+[2024-04-09 07:47:40] INFO root fetch - processPackages [nonebot-plugin-bard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bard-0.3.3.tar.gz tmp/nonebot_plugin_bard-0.4.0.tar.gz --markdown 20240409/n/nonebot-plugin-bard/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 07:47:40] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/7f/5b/9e81185971c52115a3be7fec1337c1431788bce241ec3feafb4a76c88c8f/django-viewflow-2.0.0b8.tar.gz
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.122.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.123.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:47:40] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-09 07:47:40] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:47:40] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jsw-jzyunqi]: Remove: archive file [/home/abi/fetcher/tmp/jsw_jzyunqi-1.0.4.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - processPackages [jsw-jzyunqi]: Remove: archive file [/home/abi/fetcher/tmp/jsw_jzyunqi-1.0.5.tar.gz]
+[2024-04-09 07:47:40] INFO root fetch - main [MainThread]: End processing [jsw-jzyunqi]: success
+[2024-04-09 07:47:41] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.3.3.tar.gz]
+[2024-04-09 07:47:41] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.4.0.tar.gz]
+[2024-04-09 07:47:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bard]: success
+[2024-04-09 07:47:41] WARNING root fetch - processPackages [django-viewflow]: Timeout reached during download
+[2024-04-09 07:47:41] INFO root fetch - processPackages [django-viewflow]: executing diffoscope
+[2024-04-09 07:47:41] INFO root fetch - processPackages [django-viewflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-viewflow-2.0.0b7.tar.gz tmp/django-viewflow-2.0.0b8.tar.gz --markdown 20240409/d/django-viewflow/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2024-04-09 07:47:49] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b7.tar.gz]
+[2024-04-09 07:47:49] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b8.tar.gz]
+[2024-04-09 07:47:49] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
+[2024-04-09 07:47:49] INFO root fetch - main [MainThread]: Store serial: [22678732]
