@@ -14257,3 +14257,39 @@
 [2024-04-09 06:28:45] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.8.tar.gz]
 [2024-04-09 06:28:45] INFO root fetch - main [MainThread]: End processing [advcalc]: success
 [2024-04-09 06:28:45] INFO root fetch - main [MainThread]: Store serial: [22678211]
+[2024-04-09 06:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678211]
+[2024-04-09 06:30:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slidge
+[2024-04-09 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-runlog
+[2024-04-09 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vloc
+[2024-04-09 06:30:54] INFO root fetch - processPackages [vloc]: New version: [0.1.9] Old Version: [0.1.10]
+[2024-04-09 06:30:54] INFO root fetch - processPackages [ml-runlog]: New version: [1.8] Old Version: [1.7]
+[2024-04-09 06:30:54] INFO root fetch - processPackages [slidge]: New version: [0.1.0rc1] Old Version: [0.1.0b2]
+[2024-04-09 06:30:54] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/70/8a/49331fdc626dead1603aab6dc7ab1b3965365ed926792db8da763ee5f812/vloc-0.1.10.tar.gz
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:30:54] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/38/86/c3842050821e54fff51275a410647dee7b90d2359d2e830d280db1119309/ml_runlog-1.7.tar.gz
+[2024-04-09 06:30:54] INFO root fetch - processPackages [slidge]: Downloading https://files.pythonhosted.org/packages/84/3c/3f798974c62e3e757315f57a2772e3324d1c2ff576951100571ab8d254e3/slidge-0.1.0b2.tar.gz
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [slidge]: Timeout reached during download
+[2024-04-09 06:30:54] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/75/38/dae0cec666987d786564bf9fb8f8fd73ad932ebeccdf04e63b6a20cb49c8/vloc-0.1.9.tar.gz
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:30:54] INFO root fetch - processPackages [vloc]: executing diffoscope
+[2024-04-09 06:30:54] INFO root fetch - processPackages [vloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc-0.1.10.tar.gz tmp/vloc-0.1.9.tar.gz --markdown 20240409/v/vloc/0.1.10-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:30:54] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/57/e4/f2313c037872870d36f82bfd823442cc00dc4c9765702df94dd1c9abf107/ml_runlog-1.8.tar.gz
+[2024-04-09 06:30:54] INFO root fetch - processPackages [slidge]: Downloading https://files.pythonhosted.org/packages/8c/8a/2c9578dc6eea4310b39ec27e7b52e5c7794084dede834542db0b10bd13fd/slidge-0.1.0rc1.tar.gz
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 06:30:54] INFO root fetch - processPackages [ml-runlog]: executing diffoscope
+[2024-04-09 06:30:54] INFO root fetch - processPackages [ml-runlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_runlog-1.7.tar.gz tmp/ml_runlog-1.8.tar.gz --markdown 20240409/m/ml-runlog/1.7-1.8/diff.md --exclude *.pyd
+[2024-04-09 06:30:54] WARNING root fetch - processPackages [slidge]: Timeout reached during download
+[2024-04-09 06:30:54] INFO root fetch - processPackages [slidge]: executing diffoscope
+[2024-04-09 06:30:54] INFO root fetch - processPackages [slidge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidge-0.1.0b2.tar.gz tmp/slidge-0.1.0rc1.tar.gz --markdown 20240409/s/slidge/0.1.0b2-0.1.0rc1/diff.md --exclude *.pyd
+[2024-04-09 06:30:55] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.10.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.9.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - main [MainThread]: End processing [vloc]: success
+[2024-04-09 06:30:55] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.7.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.8.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
+[2024-04-09 06:30:55] INFO root fetch - processPackages [slidge]: Remove: archive file [/home/abi/fetcher/tmp/slidge-0.1.0b2.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - processPackages [slidge]: Remove: archive file [/home/abi/fetcher/tmp/slidge-0.1.0rc1.tar.gz]
+[2024-04-09 06:30:55] INFO root fetch - main [MainThread]: End processing [slidge]: success
+[2024-04-09 06:30:55] INFO root fetch - main [MainThread]: Store serial: [22678220]
