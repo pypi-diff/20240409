@@ -17024,3 +17024,62 @@
 [2024-04-09 08:46:15] INFO root fetch - processPackages [locustdb]: Remove: archive file [/home/abi/fetcher/tmp/locustdb-0.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-09 08:46:15] INFO root fetch - main [MainThread]: End processing [locustdb]: success
 [2024-04-09 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22679201]
+[2024-04-09 08:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679201]
+[2024-04-09 08:48:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-barcodes-gs1-secondary-unit
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newswacafi
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpkits
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gzspidertools
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabryc
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcpyext
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: still-manim
+[2024-04-09 08:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unicodecheck
+[2024-04-09 08:48:28] INFO root fetch - processPackages [dpkits]: New version: [1.1] Old Version: [1.0]
+[2024-04-09 08:48:28] INFO root fetch - processPackages [gzspidertools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [odoo-addon-stock-barcodes-gs1-secondary-unit]: Skipping, unable to determine old version
+[2024-04-09 08:48:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes-gs1-secondary-unit] error
+[2024-04-09 08:48:28] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/ed/7e/a4ae3d59da92d1a08faffb6246e12bbf0390dc6a50b4737710d65a2fa299/dpkits-1.0.tar.gz
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [newswacafi]: Skipping, unable to determine old version
+[2024-04-09 08:48:28] INFO root fetch - main [MainThread]: End processing [newswacafi] error
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [still-manim]: Skipping, unable to determine old version
+[2024-04-09 08:48:28] INFO root fetch - main [MainThread]: End processing [still-manim] error
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [fabryc]: Skipping, unable to determine old version
+[2024-04-09 08:48:28] INFO root fetch - main [MainThread]: End processing [fabryc] error
+[2024-04-09 08:48:28] INFO root fetch - processPackages [arcpyext]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-09 08:48:28] INFO root fetch - processPackages [gzspidertools]: Downloading https://files.pythonhosted.org/packages/c9/c6/7c55e7e31a8d7816f94b463418a0f32bf3db997cd331bdc3fef504b95912/gzspidertools-0.0.8.tar.gz
+[2024-04-09 08:48:28] INFO root fetch - processPackages [unicodecheck]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [dpkits]: Timeout reached during download
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [gzspidertools]: Timeout reached during download
+[2024-04-09 08:48:28] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/dd/96/106326b40afa0ccaf9f4c26dbae06b073cc0c69b83dc5ad3711e37ef6178/dpkits-1.1.tar.gz
+[2024-04-09 08:48:28] INFO root fetch - processPackages [gzspidertools]: Downloading https://files.pythonhosted.org/packages/6d/d5/2c91c311fe5816dfb2b208c3a171253257a5f07d35135e0f6f420a2b087b/gzspidertools-0.0.9.tar.gz
+[2024-04-09 08:48:28] INFO root fetch - processPackages [unicodecheck]: Downloading https://files.pythonhosted.org/packages/29/db/05484e6ba3e9611fdbf4d5699f87bafca0e87d0d2f5af31e732b89c4ae50/unicodecheck-1.0.3.tar.gz
+[2024-04-09 08:48:28] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/af/eb/0d5f144561d2a0dab2cb717956e2051169c299d412df7da0d8730577b7b3/arcpyext-0.7.8-py2.py3-none-any.whl
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [dpkits]: Timeout reached during download
+[2024-04-09 08:48:28] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-04-09 08:48:28] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.0.tar.gz tmp/dpkits-1.1.tar.gz --markdown 20240409/d/dpkits/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [gzspidertools]: Timeout reached during download
+[2024-04-09 08:48:28] INFO root fetch - processPackages [gzspidertools]: executing diffoscope
+[2024-04-09 08:48:28] INFO root fetch - processPackages [gzspidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gzspidertools-0.0.8.tar.gz tmp/gzspidertools-0.0.9.tar.gz --markdown 20240409/g/gzspidertools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [unicodecheck]: Timeout reached during download
+[2024-04-09 08:48:28] WARNING root fetch - processPackages [arcpyext]: Timeout reached during download
+[2024-04-09 08:48:29] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/8e/70/c8a3549a9ad665f3831b83fb3320d345e16d3687c177c70a07ba1afce80d/arcpyext-0.7.9-py2.py3-none-any.whl
+[2024-04-09 08:48:29] INFO root fetch - processPackages [unicodecheck]: Downloading https://files.pythonhosted.org/packages/dc/f1/9283e72f97dc568d007552926ddfc688735501d5e5c9573a167adcb7df37/unicodecheck-1.1.0.tar.gz
+[2024-04-09 08:48:29] WARNING root fetch - processPackages [unicodecheck]: Timeout reached during download
+[2024-04-09 08:48:29] INFO root fetch - processPackages [unicodecheck]: executing diffoscope
+[2024-04-09 08:48:29] INFO root fetch - processPackages [unicodecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicodecheck-1.0.3.tar.gz tmp/unicodecheck-1.1.0.tar.gz --markdown 20240409/u/unicodecheck/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2024-04-09 08:48:29] WARNING root fetch - processPackages [arcpyext]: Timeout reached during download
+[2024-04-09 08:48:29] INFO root fetch - processPackages [arcpyext]: executing diffoscope
+[2024-04-09 08:48:29] INFO root fetch - processPackages [arcpyext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip --markdown 20240409/a/arcpyext/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-09 08:48:29] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.0.tar.gz]
+[2024-04-09 08:48:29] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.1.tar.gz]
+[2024-04-09 08:48:29] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-04-09 08:48:29] INFO root fetch - processPackages [gzspidertools]: Remove: archive file [/home/abi/fetcher/tmp/gzspidertools-0.0.8.tar.gz]
+[2024-04-09 08:48:29] INFO root fetch - processPackages [gzspidertools]: Remove: archive file [/home/abi/fetcher/tmp/gzspidertools-0.0.9.tar.gz]
+[2024-04-09 08:48:29] INFO root fetch - main [MainThread]: End processing [gzspidertools]: success
+[2024-04-09 08:48:30] INFO root fetch - processPackages [unicodecheck]: Remove: archive file [/home/abi/fetcher/tmp/unicodecheck-1.0.3.tar.gz]
+[2024-04-09 08:48:30] INFO root fetch - processPackages [unicodecheck]: Remove: archive file [/home/abi/fetcher/tmp/unicodecheck-1.1.0.tar.gz]
+[2024-04-09 08:48:30] INFO root fetch - main [MainThread]: End processing [unicodecheck]: success
+[2024-04-09 08:48:30] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip]
+[2024-04-09 08:48:30] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
+[2024-04-09 08:48:30] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
+[2024-04-09 08:48:30] INFO root fetch - main [MainThread]: Store serial: [22679251]
