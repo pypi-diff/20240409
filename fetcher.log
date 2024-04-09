@@ -17083,3 +17083,28 @@
 [2024-04-09 08:48:30] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
 [2024-04-09 08:48:30] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
 [2024-04-09 08:48:30] INFO root fetch - main [MainThread]: Store serial: [22679251]
+[2024-04-09 08:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679251]
+[2024-04-09 08:50:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 08:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: function-schema
+[2024-04-09 08:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-logidater
+[2024-04-09 08:50:39] INFO root fetch - processPackages [pg-logidater]: New version: [0.1.0b0] Old Version: [0.1.0]
+[2024-04-09 08:50:39] INFO root fetch - processPackages [function-schema]: New version: [0.3.3] Old Version: [0.3.0]
+[2024-04-09 08:50:39] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/67/ac/fb268f4f0dc2473f5174c467bee9f1435044eca60bdf30127400ada19130/pg_logidater-0.1.0.tar.gz
+[2024-04-09 08:50:39] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/38/e0/a740e5ff148c00c2fd8f71f98aeac0f661ddff2719705c2964ed05b0be6e/function_schema-0.3.0.tar.gz
+[2024-04-09 08:50:39] WARNING root fetch - processPackages [pg-logidater]: Timeout reached during download
+[2024-04-09 08:50:39] WARNING root fetch - processPackages [function-schema]: Timeout reached during download
+[2024-04-09 08:50:39] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/96/a7/7dc4106c5a2c651e23d9689351586adf1debcacc565a6d0beb7e95a2377b/pg_logidater-0.1.0b0.tar.gz
+[2024-04-09 08:50:39] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/dd/45/001551934740778224669180a06bdef53437e16907126d2faec636711c17/function_schema-0.3.3.tar.gz
+[2024-04-09 08:50:39] WARNING root fetch - processPackages [function-schema]: Timeout reached during download
+[2024-04-09 08:50:39] INFO root fetch - processPackages [function-schema]: executing diffoscope
+[2024-04-09 08:50:39] INFO root fetch - processPackages [function-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function_schema-0.3.0.tar.gz tmp/function_schema-0.3.3.tar.gz --markdown 20240409/f/function-schema/0.3.0-0.3.3/diff.md --exclude *.pyd
+[2024-04-09 08:50:39] WARNING root fetch - processPackages [pg-logidater]: Timeout reached during download
+[2024-04-09 08:50:39] INFO root fetch - processPackages [pg-logidater]: executing diffoscope
+[2024-04-09 08:50:39] INFO root fetch - processPackages [pg-logidater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_logidater-0.1.0.tar.gz tmp/pg_logidater-0.1.0b0.tar.gz --markdown 20240409/p/pg-logidater/0.1.0-0.1.0b0/diff.md --exclude *.pyd
+[2024-04-09 08:50:40] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function_schema-0.3.0.tar.gz]
+[2024-04-09 08:50:40] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function_schema-0.3.3.tar.gz]
+[2024-04-09 08:50:40] INFO root fetch - main [MainThread]: End processing [function-schema]: success
+[2024-04-09 08:50:40] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.1.0.tar.gz]
+[2024-04-09 08:50:40] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.1.0b0.tar.gz]
+[2024-04-09 08:50:40] INFO root fetch - main [MainThread]: End processing [pg-logidater]: success
+[2024-04-09 08:50:40] INFO root fetch - main [MainThread]: Store serial: [22679258]
