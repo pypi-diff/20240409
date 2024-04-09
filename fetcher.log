@@ -9089,3 +9089,53 @@
 [2024-04-09 03:56:29] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.8.tar.gz]
 [2024-04-09 03:56:29] INFO root fetch - main [MainThread]: End processing [nyctibius]: success
 [2024-04-09 03:56:29] INFO root fetch - main [MainThread]: Store serial: [22676590]
+[2024-04-09 03:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676590]
+[2024-04-09 03:58:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 03:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lqbox
+[2024-04-09 03:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-by-ckl
+[2024-04-09 03:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivymd2_widgets
+[2024-04-09 03:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-rds20140815-py2
+[2024-04-09 03:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-rds20140815
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [kivymd2_widgets]: Skipping, unable to determine old version
+[2024-04-09 03:58:38] INFO root fetch - main [MainThread]: End processing [kivymd2_widgets] error
+[2024-04-09 03:58:38] INFO root fetch - processPackages [lqbox]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-09 03:58:38] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/ec/a8/5419abb5d9fa4467df355e0093c93a73a7e21ee8d4e95419c281c814cd8f/lqbox-2.2.0.tar.gz
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-09 03:58:38] INFO root fetch - processPackages [mlflow-by-ckl]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [lqbox]: Timeout reached during download
+[2024-04-09 03:58:38] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/5c/3e/e45867efbb0121091d4617f66072a16fb4b25dd03a049231e4c67d2db76c/lqbox-2.3.0.tar.gz
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/0e/61/09263bf7e8e9369a708b12ed1098fbddd8f119c1a87aa3bfe4c730290b9a/alibabacloud_rds20140815-4.0.0.tar.gz
+[2024-04-09 03:58:38] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/52/9b/e6c8943f2bcd064b66ca0d0a2fdc12808ca6d64359f41f820e569abf832d/mlflow_by_ckl-2.8.2.tar.gz
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/3e/1b/c3e25cc403606a6d9f48618a7249d1d1c497c2ce7ccb1a51cc3d4a8a6b13/alibabacloud_rds20140815_py2-3.0.0.tar.gz
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [lqbox]: Timeout reached during download
+[2024-04-09 03:58:38] INFO root fetch - processPackages [lqbox]: executing diffoscope
+[2024-04-09 03:58:38] INFO root fetch - processPackages [lqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqbox-2.2.0.tar.gz tmp/lqbox-2.3.0.tar.gz --markdown 20240409/l/lqbox/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [alibabacloud-rds20140815]: Timeout reached during download
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [alibabacloud-rds20140815-py2]: Timeout reached during download
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5b/99/7db4d4f2c7b590a3317b8f0f11ee44f300b37212fd79bb1c268e07fcf5c1/alibabacloud_rds20140815-4.0.1.tar.gz
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/ff/1e/400a10336168116af32052390b7095d3daed96b646b0d7caa86362f4c268/alibabacloud_rds20140815_py2-3.0.1.tar.gz
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [alibabacloud-rds20140815]: Timeout reached during download
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-4.0.0.tar.gz tmp/alibabacloud_rds20140815-4.0.1.tar.gz --markdown 20240409/a/alibabacloud-rds20140815/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 03:58:38] WARNING root fetch - processPackages [alibabacloud-rds20140815-py2]: Timeout reached during download
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2024-04-09 03:58:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-3.0.0.tar.gz tmp/alibabacloud_rds20140815_py2-3.0.1.tar.gz --markdown 20240409/a/alibabacloud-rds20140815-py2/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-09 03:58:39] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.2.0.tar.gz]
+[2024-04-09 03:58:39] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.3.0.tar.gz]
+[2024-04-09 03:58:39] INFO root fetch - main [MainThread]: End processing [lqbox]: success
+[2024-04-09 03:58:39] WARNING root fetch - processPackages [mlflow-by-ckl]: Timeout reached during download
+[2024-04-09 03:58:40] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/2e/75/4fafb074b7224b5bc3c3070a694278901be300ebb0318d43d3402e2bc31b/mlflow_by_ckl-2.8.3.tar.gz
+[2024-04-09 03:58:41] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-3.0.0.tar.gz]
+[2024-04-09 03:58:41] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-3.0.1.tar.gz]
+[2024-04-09 03:58:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2024-04-09 03:58:41] WARNING root fetch - processPackages [mlflow-by-ckl]: Timeout reached during download
+[2024-04-09 03:58:41] INFO root fetch - processPackages [mlflow-by-ckl]: executing diffoscope
+[2024-04-09 03:58:41] INFO root fetch - processPackages [mlflow-by-ckl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_by_ckl-2.8.2.tar.gz tmp/mlflow_by_ckl-2.8.3.tar.gz --markdown 20240409/m/mlflow-by-ckl/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2024-04-09 03:58:42] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.0.tar.gz]
+[2024-04-09 03:58:42] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.1.tar.gz]
+[2024-04-09 03:58:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2024-04-09 03:58:44] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.2.tar.gz]
+[2024-04-09 03:58:44] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.3.tar.gz]
+[2024-04-09 03:58:44] INFO root fetch - main [MainThread]: End processing [mlflow-by-ckl]: success
+[2024-04-09 03:58:44] INFO root fetch - main [MainThread]: Store serial: [22676605]
