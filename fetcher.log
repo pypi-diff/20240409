@@ -9389,3 +9389,42 @@
 [2024-04-09 04:14:37] INFO root fetch - processPackages [STCAT]: Remove: archive file [/home/abi/fetcher/tmp/STCAT-0.3.tar.gz]
 [2024-04-09 04:14:37] INFO root fetch - main [MainThread]: End processing [STCAT]: success
 [2024-04-09 04:14:37] INFO root fetch - main [MainThread]: Store serial: [22676691]
+[2024-04-09 04:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676691]
+[2024-04-09 04:16:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextconsole
+[2024-04-09 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-icalendar
+[2024-04-09 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-redis
+[2024-04-09 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pami
+[2024-04-09 04:16:46] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 04:16:46] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 04:16:46] WARNING root fetch - processPackages [types-icalendar]: Skipping, unable to determine old version
+[2024-04-09 04:16:46] INFO root fetch - main [MainThread]: End processing [types-icalendar] error
+[2024-04-09 04:16:46] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.9] Old Version: [4.6.0.8]
+[2024-04-09 04:16:46] INFO root fetch - processPackages [pami]: New version: [2024.4.9.1] Old Version: [2024.3.9.2]
+[2024-04-09 04:16:46] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 04:16:46] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 04:16:46] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/f7/d1/d47e3e455098dc949a0f15430a6318a00eb1a08293878b067471e34284ae/types-redis-4.6.0.8.tar.gz
+[2024-04-09 04:16:46] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/81/51/b9289bcb34d87dc240282b2bde6513c05c2499288d7fb983d8daa4b7282a/pami-2024.3.9.2.tar.gz
+[2024-04-09 04:16:46] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 04:16:46] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 04:16:46] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 04:16:46] WARNING root fetch - processPackages [types-redis]: Timeout reached during download
+[2024-04-09 04:16:46] WARNING root fetch - processPackages [pami]: Timeout reached during download
+[2024-04-09 04:16:47] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/4b/2f/9b1eed7650da20192ca15426ca7ac9f54a1249bd48fdb310a4755c076921/types-redis-4.6.0.9.tar.gz
+[2024-04-09 04:16:47] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/46/a7/dca599df03b4e779f939be80a4ba017d370fa9a4133a445e50509d5c337a/pami-2024.4.9.1.tar.gz
+[2024-04-09 04:16:47] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 04:16:47] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 04:16:47] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 04:16:47] WARNING root fetch - processPackages [types-redis]: Timeout reached during download
+[2024-04-09 04:16:47] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2024-04-09 04:16:47] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.8.tar.gz tmp/types-redis-4.6.0.9.tar.gz --markdown 20240409/t/types-redis/4.6.0.8-4.6.0.9/diff.md --exclude *.pyd
+[2024-04-09 04:16:47] WARNING root fetch - processPackages [pami]: Timeout reached during download
+[2024-04-09 04:16:47] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-04-09 04:16:47] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.3.9.2.tar.gz tmp/pami-2024.4.9.1.tar.gz --markdown 20240409/p/pami/2024.3.9.2-2024.4.9.1/diff.md --exclude *.pyd
+[2024-04-09 04:16:48] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.8.tar.gz]
+[2024-04-09 04:16:48] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.9.tar.gz]
+[2024-04-09 04:16:48] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2024-04-09 04:16:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.3.9.2.tar.gz]
+[2024-04-09 04:16:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
+[2024-04-09 04:16:50] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-04-09 04:16:50] INFO root fetch - main [MainThread]: Store serial: [22676704]
