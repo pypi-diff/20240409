@@ -16818,3 +16818,37 @@
 [2024-04-09 08:36:35] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.9.3rc1.tar.gz]
 [2024-04-09 08:36:35] INFO root fetch - main [MainThread]: End processing [renku]: success
 [2024-04-09 08:36:35] INFO root fetch - main [MainThread]: Store serial: [22679106]
+[2024-04-09 08:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679106]
+[2024-04-09 08:38:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-04-09 08:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-charpic-migang
+[2024-04-09 08:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3-utils-wufan
+[2024-04-09 08:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-barcodes-gs1
+[2024-04-09 08:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hscorrect
+[2024-04-09 08:38:44] WARNING root fetch - processPackages [s3-utils-wufan]: Skipping, unable to determine old version
+[2024-04-09 08:38:44] INFO root fetch - main [MainThread]: End processing [s3-utils-wufan] error
+[2024-04-09 08:38:44] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: New version: [15.0.3.0.1] Old Version: [15.0.3.0.0]
+[2024-04-09 08:38:44] WARNING root fetch - processPackages [nonebot-plugin-charpic-migang]: Skipping, unable to determine old version
+[2024-04-09 08:38:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-charpic-migang] error
+[2024-04-09 08:38:44] WARNING root fetch - processPackages [hscorrect]: Skipping, unable to determine old version
+[2024-04-09 08:38:44] INFO root fetch - main [MainThread]: End processing [hscorrect] error
+[2024-04-09 08:38:44] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1476] Old Version: [1.0.0.post1474]
+[2024-04-09 08:38:44] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Downloading https://files.pythonhosted.org/packages/be/bb/39065d1f9c86beea591eefe9c09d83b944c10914ee46c3598be35035a98d/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl
+[2024-04-09 08:38:44] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/4e/6f/56040ab9883566b68d3fa9eeb6015e0ef0dec88cc8743627003a75adef4f/nucliadb_admin_assets-1.0.0.post1474-py3-none-any.whl
+[2024-04-09 08:38:44] WARNING root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Timeout reached during download
+[2024-04-09 08:38:44] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-09 08:38:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Downloading https://files.pythonhosted.org/packages/ec/59/d0f2478b9dd5a67e6c08068f866cbf5352c0ab9be37d605533a4f0f58b8e/odoo_addon_stock_barcodes_gs1-15.0.3.0.1-py3-none-any.whl
+[2024-04-09 08:38:45] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/45/fb/6d100f749b567f0ab935c99b03632a6ace8ac32a47d796f0a3f3008e8400/nucliadb_admin_assets-1.0.0.post1476-py3-none-any.whl
+[2024-04-09 08:38:45] WARNING root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Timeout reached during download
+[2024-04-09 08:38:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: executing diffoscope
+[2024-04-09 08:38:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.1-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-stock-barcodes-gs1/15.0.3.0.0-15.0.3.0.1/diff.md --exclude *.pyd
+[2024-04-09 08:38:45] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-09 08:38:45] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-09 08:38:45] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1474-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1476-py3-none-any.whl.zip --markdown 20240409/n/nucliadb-admin-assets/1.0.0.post1474-1.0.0.post1476/diff.md --exclude *.pyd
+[2024-04-09 08:38:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl.zip]
+[2024-04-09 08:38:45] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.1-py3-none-any.whl.zip]
+[2024-04-09 08:38:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes-gs1]: success
+[2024-04-09 08:38:59] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1474-py3-none-any.whl.zip]
+[2024-04-09 08:38:59] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1476-py3-none-any.whl.zip]
+[2024-04-09 08:38:59] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-09 08:38:59] INFO root fetch - main [MainThread]: Store serial: [22679125]
