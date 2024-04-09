@@ -13265,3 +13265,102 @@
 [2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
 [2024-04-09 05:53:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
 [2024-04-09 05:53:32] INFO root fetch - main [MainThread]: Store serial: [22677833]
+[2024-04-09 05:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677833]
+[2024-04-09 05:55:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellsnap
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomistics
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcb
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcbr
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tcex
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packyak-aws-cdk
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tchd
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tci
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tcm
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ailia
+[2024-04-09 05:55:41] WARNING root fetch - processPackages [cellsnap]: Skipping, unable to determine old version
+[2024-04-09 05:55:41] INFO root fetch - main [MainThread]: End processing [cellsnap] error
+[2024-04-09 05:55:41] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 05:55:41] INFO root fetch - processPackages [atomistics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 05:55:41] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-04-09 05:55:41] INFO root fetch - processPackages [ailia]: New version: [1.3.0.4] Old Version: [1.3.0.3]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [atomistics]: Downloading https://files.pythonhosted.org/packages/ef/eb/7ed97c71b5e1922e9188019b440e4792045c3db3b1f387b27c022b709cb6/atomistics-0.1.8.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/95/ad/2570f9c6758c23f40f87dde486f9ae9d6032afa12c6e3f92f3133361e7d1/ailia-1.3.0.3-py3-none-any.whl
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/8d/52/70391cc4668deedb94c0918102bc5cc1a65097ea2f9a483069541c2924de/tencentcloud-sdk-python-tcm-3.0.998.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/b0/9f/9fae18b940ebf887508248e5cc5d4d6e5342f9d09f04f147fcc21cbccc5d/tencentcloud-sdk-python-tcb-3.0.998.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47687872>=10485760
+[2024-04-09 05:55:42] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/88/13/447244fea2ac59fb002143ab7a6872a40fe023ef19c53b914c1007d5f801/tencentcloud-sdk-python-tci-3.0.998.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/e7/dd/470496a8bc3644c6dc51ea7ae9f5294a97e04aa55d7cb6c13f9cdfbae504/tencentcloud-sdk-python-tchd-3.0.998.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [atomistics]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/27/a7/c326c453e0c7d0a625b76b160e70327916f52648d1e12ddf5362a05fc032/tencentcloud-sdk-python-tcex-3.0.998.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/1e/ca/3a77920b5d015352c941caae0af0b9e47101e454af90349e7a00ee9d4f40/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcm]: Timeout reached during download
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tchd]: Timeout reached during download
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tci]: Timeout reached during download
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcex]: Timeout reached during download
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240409/p/packyak-aws-cdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [atomistics]: Downloading https://files.pythonhosted.org/packages/fa/7c/ef931c24f972258e913c2b89f0c1a0ae6372ba9744c50da047240cebf50e/atomistics-0.1.9.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcb]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/05/c7/192fe849c684ed9a0a19adca60e74f8f2b34294b51741cc8d69d1066d686/tencentcloud-sdk-python-tcm-3.0.999.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [atomistics]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [atomistics]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [atomistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomistics-0.1.8.tar.gz tmp/atomistics-0.1.9.tar.gz --markdown 20240409/a/atomistics/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/ff/0d/a4657aff6a79429f541d57dd11f9f8250141378d3343253bf2a9e2191f28/tencentcloud-sdk-python-tchd-3.0.999.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/06/f0/bef7ea7199fb40b71edbd9e4bc7e430fba283576e0933a65bd66d32faa68/tencentcloud-sdk-python-tcex-3.0.999.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/5f/e1/bab98f22337a6e71c07f6c1fc578c7161f0c0497a7a6080530c6a07063d1/tencentcloud-sdk-python-tci-3.0.999.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/bc/ea/a72bf279ee2386a70d415d18ef8f8bd2e92f395a8d13c12deb5560030de2/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/74/3b/942dca5f60c252fa151c186ac96d525e10206a4d5f0449ab92870990a428/tencentcloud-sdk-python-tcb-3.0.999.tar.gz
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tchd]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tchd/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcex]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcex/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcbr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcm]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-tci]: Timeout reached during download
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: executing diffoscope
+[2024-04-09 05:55:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tci/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:43] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcb]: Timeout reached during download
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: executing diffoscope
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:55:43] INFO root fetch - processPackages [atomistics]: Remove: archive file [/home/abi/fetcher/tmp/atomistics-0.1.8.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [atomistics]: Remove: archive file [/home/abi/fetcher/tmp/atomistics-0.1.9.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [atomistics]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcm]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tchd]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tci]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz]
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
+[2024-04-09 05:55:43] INFO root fetch - main [MainThread]: Store serial: [22677863]
