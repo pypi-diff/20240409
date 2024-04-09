@@ -10074,3 +10074,69 @@
 [2024-04-09 04:53:27] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2024-04-09 04:53:27] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2024-04-09 04:53:27] INFO root fetch - main [MainThread]: Store serial: [22676932]
+[2024-04-09 04:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676932]
+[2024-04-09 04:55:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-ams
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-csgo-case-simulator
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-base-import
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-mass-reconcile
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vsensebox
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quasar-client
+[2024-04-09 04:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arxiv-client
+[2024-04-09 04:55:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [vsensebox]: Skipping, unable to determine old version
+[2024-04-09 04:55:37] INFO root fetch - main [MainThread]: End processing [vsensebox] error
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.6]
+[2024-04-09 04:55:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-04-09 04:55:37] INFO root fetch - processPackages [quasar-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2024-04-09 04:55:37] INFO root fetch - processPackages [arxiv-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 04:55:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/bf/16/558220ca5e828c75e2356a538633628fb60f5da0bf4f48af92c9fb8f1b35/tencentcloud-sdk-python-ams-3.0.998.tar.gz
+[2024-04-09 04:55:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/59/53/2894c300726022fa34a69defc59df209e17c68031ed89f3a984d476527fa/nonebot_plugin_csgo_case_simulator-1.0.1.tar.gz
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/d0/17/fb7e59992b9e5a5020f334f0b0d6504d396803e5ec4ee4f810fda346e1f5/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2024-04-09 04:55:37] INFO root fetch - processPackages [quasar-client]: Downloading https://files.pythonhosted.org/packages/8e/2c/89d5465d9e46dce89c68106a93f859bbecaf3312b51f66034e44880d7a3c/quasar_client-0.1.8.tar.gz
+[2024-04-09 04:55:37] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/67/c2/c3d6a6a51624215a0156e91216f875cea5dd54c3cd9b4c005f177afe4281/arxiv_client-0.1.0.tar.gz
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [tencentcloud-sdk-python-ams]: Timeout reached during download
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Skipping package: exceeds size limit 11075462>=10485760
+[2024-04-09 04:55:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator] error
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [quasar-client]: Timeout reached during download
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [arxiv-client]: Timeout reached during download
+[2024-04-09 04:55:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/ea/06/91a225cbf84182dc3d5f6efbbfef0dc92dd65197f8cb818a1b390700ca7c/tencentcloud-sdk-python-ams-3.0.999.tar.gz
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [odoo-addon-account-move-base-import]: Timeout reached during download
+[2024-04-09 04:55:37] WARNING root fetch - processPackages [tencentcloud-sdk-python-ams]: Timeout reached during download
+[2024-04-09 04:55:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: executing diffoscope
+[2024-04-09 04:55:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ams-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ams-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-ams/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:55:37] INFO root fetch - processPackages [quasar-client]: Downloading https://files.pythonhosted.org/packages/66/85/accbddb64d1d221710993bd9d6fa66fdc23d1a882c911ccba0b4845de866/quasar_client-0.1.9.tar.gz
+[2024-04-09 04:55:37] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/29/b3/49cde50c793f9220e80e8b02d8cbf49873e2a666a1648cd6513eaf6314db/arxiv_client-0.1.1.tar.gz
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/21/6b/b5722b3bb00475493f2879dd9c82f52f75865136a0055eab8046468e2bf1/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl
+[2024-04-09 04:55:37] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/4a/69/5efcd2e48f11ff30e7f159eb7bee37b1717bf7a8622c39acf7a474711650/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl
+[2024-04-09 04:55:38] WARNING root fetch - processPackages [quasar-client]: Timeout reached during download
+[2024-04-09 04:55:38] INFO root fetch - processPackages [quasar-client]: executing diffoscope
+[2024-04-09 04:55:38] INFO root fetch - processPackages [quasar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasar_client-0.1.8.tar.gz tmp/quasar_client-0.1.9.tar.gz --markdown 20240409/q/quasar-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 04:55:38] WARNING root fetch - processPackages [arxiv-client]: Timeout reached during download
+[2024-04-09 04:55:38] INFO root fetch - processPackages [arxiv-client]: executing diffoscope
+[2024-04-09 04:55:38] INFO root fetch - processPackages [arxiv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_client-0.1.0.tar.gz tmp/arxiv_client-0.1.1.tar.gz --markdown 20240409/a/arxiv-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 04:55:38] WARNING root fetch - processPackages [odoo-addon-account-move-base-import]: Timeout reached during download
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-account-move-base-import/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2024-04-09 04:55:38] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-account-mass-reconcile/17.0.1.0.0.6-17.0.1.0.0.7/diff.md --exclude *.pyd
+[2024-04-09 04:55:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.998.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.999.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ams]: success
+[2024-04-09 04:55:38] INFO root fetch - processPackages [quasar-client]: Remove: archive file [/home/abi/fetcher/tmp/quasar_client-0.1.8.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - processPackages [quasar-client]: Remove: archive file [/home/abi/fetcher/tmp/quasar_client-0.1.9.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: End processing [quasar-client]: success
+[2024-04-09 04:55:38] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.1.0.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.1.1.tar.gz]
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: End processing [arxiv-client]: success
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-09 04:55:38] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2024-04-09 04:55:38] INFO root fetch - main [MainThread]: Store serial: [22676949]
