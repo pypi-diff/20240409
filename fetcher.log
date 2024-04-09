@@ -9737,3 +9737,50 @@
 [2024-04-09 04:42:04] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-04-09 04:42:04] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-04-09 04:42:04] INFO root fetch - main [MainThread]: Store serial: [22676821]
+[2024-04-09 04:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676821]
+[2024-04-09 04:44:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ajdmom
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lineartest
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boxedfactory
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdpython
+[2024-04-09 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qleegss
+[2024-04-09 04:44:13] INFO root fetch - processPackages [boxedfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [lineartest]: Skipping, unable to determine old version
+[2024-04-09 04:44:13] INFO root fetch - main [MainThread]: End processing [lineartest] error
+[2024-04-09 04:44:13] INFO root fetch - processPackages [mdpython]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 04:44:13] INFO root fetch - processPackages [BioSAK]: New version: [1.82.0] Old Version: [1.81.3]
+[2024-04-09 04:44:13] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/2e/3c/74917fe9bf4746dceec97aab9548b9fffa2ba6fdcf12be4bf475c48f6f6c/boxedfactory-0.0.7.tar.gz
+[2024-04-09 04:44:13] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [ajdmom]: Skipping, unable to determine old version
+[2024-04-09 04:44:13] INFO root fetch - main [MainThread]: End processing [ajdmom] error
+[2024-04-09 04:44:13] INFO root fetch - processPackages [mdpython]: Downloading https://files.pythonhosted.org/packages/6c/2b/089d96d8935d71ca3b9332ca3ecdc54545b569000f15af4bfb83ef115434/mdpython-0.0.4.tar.gz
+[2024-04-09 04:44:13] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/bd/9e/fb880d68d9d3bbc4a3a295f2ec699b752c25b427287a682df3862068d5a2/BioSAK-1.81.3.tar.gz
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [mdpython]: Timeout reached during download
+[2024-04-09 04:44:13] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/db/84/654120932bbb70daaf8d11dec99ef25e174c66768fdc8559e2b74616c9d3/boxedfactory-0.0.8.tar.gz
+[2024-04-09 04:44:13] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-09 04:44:13] INFO root fetch - processPackages [mdpython]: Downloading https://files.pythonhosted.org/packages/63/34/2bb78890831f6acae10204b28cab3a4ba5a56b9ca84dd36c392e3aa2a818/mdpython-0.0.5.tar.gz
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-09 04:44:13] INFO root fetch - processPackages [boxedfactory]: executing diffoscope
+[2024-04-09 04:44:13] INFO root fetch - processPackages [boxedfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxedfactory-0.0.7.tar.gz tmp/boxedfactory-0.0.8.tar.gz --markdown 20240409/b/boxedfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [mdpython]: Timeout reached during download
+[2024-04-09 04:44:13] INFO root fetch - processPackages [mdpython]: executing diffoscope
+[2024-04-09 04:44:13] INFO root fetch - processPackages [mdpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdpython-0.0.4.tar.gz tmp/mdpython-0.0.5.tar.gz --markdown 20240409/m/mdpython/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 04:44:13] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-09 04:44:13] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-09 04:44:14] WARNING root fetch - processPackages [BioSAK]: Timeout reached during download
+[2024-04-09 04:44:14] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/22/46/6c311b62feff598e3e5d851a70bee3b12586b2c2b24d9428107c9151e7b5/BioSAK-1.82.0.tar.gz
+[2024-04-09 04:44:14] WARNING root fetch - processPackages [BioSAK]: Timeout reached during download
+[2024-04-09 04:44:14] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-09 04:44:14] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.81.3.tar.gz tmp/BioSAK-1.82.0.tar.gz --markdown 20240409/B/BioSAK/1.81.3-1.82.0/diff.md --exclude *.pyd
+[2024-04-09 04:44:14] INFO root fetch - processPackages [mdpython]: Remove: archive file [/home/abi/fetcher/tmp/mdpython-0.0.4.tar.gz]
+[2024-04-09 04:44:14] INFO root fetch - processPackages [mdpython]: Remove: archive file [/home/abi/fetcher/tmp/mdpython-0.0.5.tar.gz]
+[2024-04-09 04:44:14] INFO root fetch - main [MainThread]: End processing [mdpython]: success
+[2024-04-09 04:44:14] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.7.tar.gz]
+[2024-04-09 04:44:14] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
+[2024-04-09 04:44:14] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
+[2024-04-09 04:44:15] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.81.3.tar.gz]
+[2024-04-09 04:44:15] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.82.0.tar.gz]
+[2024-04-09 04:44:15] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-09 04:44:15] INFO root fetch - main [MainThread]: Store serial: [22676841]
