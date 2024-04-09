@@ -8728,3 +8728,31 @@
 [2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.4.tar.gz]
 [2024-04-09 03:36:48] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
 [2024-04-09 03:36:48] INFO root fetch - main [MainThread]: Store serial: [22676466]
+[2024-04-09 03:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676466]
+[2024-04-09 03:38:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-04-09 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agt-server
+[2024-04-09 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivymd2_widgets
+[2024-04-09 03:38:57] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev7] Old Version: [0.3.9.dev6]
+[2024-04-09 03:38:57] INFO root fetch - processPackages [agt-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-09 03:38:57] WARNING root fetch - processPackages [kivymd2_widgets]: Skipping, unable to determine old version
+[2024-04-09 03:38:57] INFO root fetch - main [MainThread]: End processing [kivymd2_widgets] error
+[2024-04-09 03:38:57] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/70/60/c8a1ae5053631c7dbd7749f177289bb7661eb8d2a0cad78c16048f604153/launchflow-0.3.9.dev6.tar.gz
+[2024-04-09 03:38:57] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/36/9f/5eb178ea7ad13e83f760619a9c19e59976238c354dc8b1536e70f0000e28/agt_server-1.2.8.tar.gz
+[2024-04-09 03:38:57] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-09 03:38:57] WARNING root fetch - processPackages [agt-server]: Timeout reached during download
+[2024-04-09 03:38:57] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-09 03:38:57] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/35/f7/291ed498714891b733e79ea12cb87b8e56760f5dee7cef35e85ab05f26b1/agt_server-1.2.9.tar.gz
+[2024-04-09 03:38:58] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-09 03:38:58] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-09 03:38:58] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev6.tar.gz tmp/launchflow-0.3.9.dev7.tar.gz --markdown 20240409/l/launchflow/0.3.9.dev6-0.3.9.dev7/diff.md --exclude *.pyd
+[2024-04-09 03:38:58] WARNING root fetch - processPackages [agt-server]: Timeout reached during download
+[2024-04-09 03:38:58] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-09 03:38:58] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.2.8.tar.gz tmp/agt_server-1.2.9.tar.gz --markdown 20240409/a/agt-server/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-09 03:38:58] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev6.tar.gz]
+[2024-04-09 03:38:58] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-09 03:38:58] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-09 03:38:59] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.8.tar.gz]
+[2024-04-09 03:38:59] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.9.tar.gz]
+[2024-04-09 03:38:59] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-09 03:38:59] INFO root fetch - main [MainThread]: Store serial: [22676477]
