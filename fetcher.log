@@ -16248,3 +16248,86 @@
 [2024-04-09 08:14:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409055414.tar.gz]
 [2024-04-09 08:14:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-09 08:14:35] INFO root fetch - main [MainThread]: Store serial: [22678901]
+[2024-04-09 08:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678901]
+[2024-04-09 08:16:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-awscdk-resolver
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hst-funcs
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2c.template
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-auth-remote
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KPCommons
+[2024-04-09 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dogma-rust
+[2024-04-09 08:16:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240408] Old Version: [20240407]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [email-auth-remote]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240408] Old Version: [20240407]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/1e/5b/73b562c0a82838f575e8e44fd85a2b8db984b382658320c9072148c97cf9/cdk8s-awscdk-resolver-0.0.8.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [hst-funcs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [c2c.template]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-09 08:16:45] INFO root fetch - processPackages [dogma-rust]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [KPCommons]: Skipping, unable to determine old version
+[2024-04-09 08:16:45] INFO root fetch - main [MainThread]: End processing [KPCommons] error
+[2024-04-09 08:16:45] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/5b/61/ce62189f5ff9da4e34e7858c71a530ce29513f0cb803bfbbe8e9cde4628b/email-auth-remote-1.1.0.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/71/b6/693735b61a868345bf4bf1125d0ddbfa72771153af2c1fd3537e6b9a0c46/fake-bpy-module-20240407.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cd/48/94634d265dab91cd5c27a4d2f21e4d104f573851425859fab6101c025c2c/fake-bpy-module-latest-20240407.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [email-auth-remote]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [hst-funcs]: Downloading https://files.pythonhosted.org/packages/23/fe/b7b96ac0f07f720a2b85d6e7893b5a6f696905d4dd0c2ae24ad11f951734/hst_funcs-0.0.1.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/20/09/263b7d704324f7115a31497ec159ab0d2de2517da7dd4a2e3b35b3ac801b/c2c.template-2.3.0-py3-none-any.whl
+[2024-04-09 08:16:45] INFO root fetch - processPackages [dogma-rust]: Downloading https://files.pythonhosted.org/packages/1b/e0/adba348daa3927e04e7ded2a259a5d3caef2942fdef94b7c704b9ad4bbd5/dogma_rust-0.2.2.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [hst-funcs]: Timeout reached during download
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [cdk8s-awscdk-resolver]: Timeout reached during download
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/cc/be/4ea35b5a84fff787c9a82f4576dd9f16036e29b0c109d2174fe25ecd2dab/email-auth-remote-1.1.1.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [c2c.template]: Timeout reached during download
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [dogma-rust]: Timeout reached during download
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [email-auth-remote]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [email-auth-remote]: executing diffoscope
+[2024-04-09 08:16:45] INFO root fetch - processPackages [email-auth-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-auth-remote-1.1.0.tar.gz tmp/email-auth-remote-1.1.1.tar.gz --markdown 20240409/e/email-auth-remote/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 08:16:45] INFO root fetch - processPackages [hst-funcs]: Downloading https://files.pythonhosted.org/packages/ee/2f/b7b05eb03a66e34ca940e12b03494c0f1d3fa9b56dcd8fb18c0bdeae807a/hst_funcs-0.0.2.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/28/c4/75175a143b2bfa755319e9f5a499911cf53cd60ca16eb8d4280d9717f2c5/fake-bpy-module-20240408.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/b8/28/4dd748f055d5356a057160308b8dea68ae61d8ec1b7cf6d48acbe67fb614/c2c_template-2.4.0.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [hst-funcs]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [hst-funcs]: executing diffoscope
+[2024-04-09 08:16:45] INFO root fetch - processPackages [hst-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hst_funcs-0.0.1.tar.gz tmp/hst_funcs-0.0.2.tar.gz --markdown 20240409/h/hst-funcs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [cdk8s-awscdk-resolver]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-09 08:16:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240409/c/cdk8s-awscdk-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:16:45] INFO root fetch - processPackages [dogma-rust]: Downloading https://files.pythonhosted.org/packages/48/a5/9d97fbd1272ec78cdf15376ab9dddea9903e09bbea2761001a4d945e380b/dogma_rust-0.2.3.tar.gz
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d5/49/3cfa65ebbad7dd09e7279760bf8f3515a1453085501f9580e7a35f519eb8/fake-bpy-module-latest-20240408.tar.gz
+[2024-04-09 08:16:45] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-09 08:16:45] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240407.tar.gz tmp/fake-bpy-module-20240408.tar.gz --markdown 20240409/f/fake-bpy-module/20240407-20240408/diff.md --exclude *.pyd
+[2024-04-09 08:16:46] WARNING root fetch - processPackages [c2c.template]: Timeout reached during download
+[2024-04-09 08:16:46] INFO root fetch - processPackages [c2c.template]: executing diffoscope
+[2024-04-09 08:16:46] INFO root fetch - processPackages [c2c.template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2c.template-2.3.0-py3-none-any.whl.zip tmp/c2c_template-2.4.0.tar.gz --markdown 20240409/c/c2c.template/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2024-04-09 08:16:46] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-09 08:16:46] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-09 08:16:46] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240407.tar.gz tmp/fake-bpy-module-latest-20240408.tar.gz --markdown 20240409/f/fake-bpy-module-latest/20240407-20240408/diff.md --exclude *.pyd
+[2024-04-09 08:16:46] WARNING root fetch - processPackages [dogma-rust]: Timeout reached during download
+[2024-04-09 08:16:46] INFO root fetch - processPackages [dogma-rust]: executing diffoscope
+[2024-04-09 08:16:46] INFO root fetch - processPackages [dogma-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogma_rust-0.2.2.tar.gz tmp/dogma_rust-0.2.3.tar.gz --markdown 20240409/d/dogma-rust/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 08:16:46] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.1.0.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.1.1.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - main [MainThread]: End processing [email-auth-remote]: success
+[2024-04-09 08:16:46] INFO root fetch - processPackages [hst-funcs]: Remove: archive file [/home/abi/fetcher/tmp/hst_funcs-0.0.1.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - processPackages [hst-funcs]: Remove: archive file [/home/abi/fetcher/tmp/hst_funcs-0.0.2.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - main [MainThread]: End processing [hst-funcs]: success
+[2024-04-09 08:16:46] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-09 08:16:46] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c.template-2.3.0-py3-none-any.whl.zip]
+[2024-04-09 08:16:46] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c_template-2.4.0.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - main [MainThread]: End processing [c2c.template]: success
+[2024-04-09 08:16:46] INFO root fetch - processPackages [dogma-rust]: Remove: archive file [/home/abi/fetcher/tmp/dogma_rust-0.2.2.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - processPackages [dogma-rust]: Remove: archive file [/home/abi/fetcher/tmp/dogma_rust-0.2.3.tar.gz]
+[2024-04-09 08:16:46] INFO root fetch - main [MainThread]: End processing [dogma-rust]: success
+[2024-04-09 08:16:50] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240407.tar.gz]
+[2024-04-09 08:16:50] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240408.tar.gz]
+[2024-04-09 08:16:50] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-09 08:16:50] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240407.tar.gz]
+[2024-04-09 08:16:50] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240408.tar.gz]
+[2024-04-09 08:16:50] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-09 08:16:50] INFO root fetch - main [MainThread]: Store serial: [22678928]
