@@ -16378,3 +16378,39 @@
 [2024-04-09 08:19:02] INFO root fetch - processPackages [ring-doorbell]: Remove: archive file [/home/abi/fetcher/tmp/ring_doorbell-0.8.9.tar.gz]
 [2024-04-09 08:19:02] INFO root fetch - main [MainThread]: End processing [ring-doorbell]: success
 [2024-04-09 08:19:02] INFO root fetch - main [MainThread]: Store serial: [22678940]
+[2024-04-09 08:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678940]
+[2024-04-09 08:21:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 08:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dpkits
+[2024-04-09 08:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automathon
+[2024-04-09 08:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: factorslib
+[2024-04-09 08:21:11] INFO root fetch - processPackages [factorslib]: New version: [5.3] Old Version: [5.2]
+[2024-04-09 08:21:11] INFO root fetch - processPackages [automathon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:21:11] INFO root fetch - processPackages [dpkits]: New version: [1.1] Old Version: [1.0]
+[2024-04-09 08:21:11] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/14/27/1de815ccbd04fc2e4966014fb4539c06df11ab50f67c03a1405926065116/factorslib-5.2.tar.gz
+[2024-04-09 08:21:11] INFO root fetch - processPackages [automathon]: Downloading https://files.pythonhosted.org/packages/97/4a/4c575b5f88cce014aab5994a8c20b8bc0c3b8391cc9dd58a3fe475ccf7b1/automathon-0.0.8.tar.gz
+[2024-04-09 08:21:11] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/ed/7e/a4ae3d59da92d1a08faffb6246e12bbf0390dc6a50b4737710d65a2fa299/dpkits-1.0.tar.gz
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [factorslib]: Timeout reached during download
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [automathon]: Timeout reached during download
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [dpkits]: Timeout reached during download
+[2024-04-09 08:21:12] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/a8/1f/442917df7fd4a02c2ef0737b7f032122e5c63f5a3132655bb44a67325583/factorslib-5.3.tar.gz
+[2024-04-09 08:21:12] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/dd/96/106326b40afa0ccaf9f4c26dbae06b073cc0c69b83dc5ad3711e37ef6178/dpkits-1.1.tar.gz
+[2024-04-09 08:21:12] INFO root fetch - processPackages [automathon]: Downloading https://files.pythonhosted.org/packages/d7/51/05bdebd657e91e03029397f0d855f4b5d26d2e2eb6261806f4e9f1063d05/automathon-0.0.9.tar.gz
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [factorslib]: Timeout reached during download
+[2024-04-09 08:21:12] INFO root fetch - processPackages [factorslib]: executing diffoscope
+[2024-04-09 08:21:12] INFO root fetch - processPackages [factorslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorslib-5.2.tar.gz tmp/factorslib-5.3.tar.gz --markdown 20240409/f/factorslib/5.2-5.3/diff.md --exclude *.pyd
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [dpkits]: Timeout reached during download
+[2024-04-09 08:21:12] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-04-09 08:21:12] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.0.tar.gz tmp/dpkits-1.1.tar.gz --markdown 20240409/d/dpkits/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-09 08:21:12] WARNING root fetch - processPackages [automathon]: Timeout reached during download
+[2024-04-09 08:21:12] INFO root fetch - processPackages [automathon]: executing diffoscope
+[2024-04-09 08:21:12] INFO root fetch - processPackages [automathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automathon-0.0.8.tar.gz tmp/automathon-0.0.9.tar.gz --markdown 20240409/a/automathon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:21:13] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.2.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.3.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - main [MainThread]: End processing [factorslib]: success
+[2024-04-09 08:21:13] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.0.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.1.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-04-09 08:21:13] INFO root fetch - processPackages [automathon]: Remove: archive file [/home/abi/fetcher/tmp/automathon-0.0.8.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - processPackages [automathon]: Remove: archive file [/home/abi/fetcher/tmp/automathon-0.0.9.tar.gz]
+[2024-04-09 08:21:13] INFO root fetch - main [MainThread]: End processing [automathon]: success
+[2024-04-09 08:21:13] INFO root fetch - main [MainThread]: Store serial: [22678949]
