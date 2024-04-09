@@ -17484,3 +17484,83 @@
 [2024-04-09 09:06:18] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.9.tar.gz]
 [2024-04-09 09:06:18] INFO root fetch - main [MainThread]: End processing [django-data-browser]: success
 [2024-04-09 09:06:18] INFO root fetch - main [MainThread]: Store serial: [22679409]
+[2024-04-09 09:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679409]
+[2024-04-09 09:08:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: line-web
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jarpcdantic
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiosu
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryptoowl
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psp-liquids-daq-parser
+[2024-04-09 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtisdevremotepy
+[2024-04-09 09:08:28] INFO root fetch - processPackages [line-web]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [jarpcdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/f4/e0/703f13b5d271b746a6cc42cd86bacb233d08772fada4f955a11fb02e3029/line-web-0.0.2.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/bc/2a/806d456488f6c88981bc0c34d6c4336a7289936befcf3e5d4fede72e4254/psp_liquids_daq_parser-0.0.3.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [aiosu]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/69/35/72d73c4c1dc167ea69df7e3cb00a3b438ebf381abf9ae03511209b211256/jarpcdantic-0.0.8.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [rtisdevremotepy]: New version: [2.13.0] Old Version: [2.12.3]
+[2024-04-09 09:08:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/05/cc/a85b7e63ac0cf453ed8c4f0586ca235d1e131da0d1893d0e8404c6d9c0f1/line-web-0.0.3.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/85/f7/ce20ecb89f57a824225ae36a57c2dc572c097dc406ebca1adef658d673b0/aiosu-2.2.2.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [rtisdevremotepy]: Downloading https://files.pythonhosted.org/packages/10/d5/9da4bc3168a82fbd259c6f533cfdf85965e6a2d1d494825aff4704195c39/rtisdevremotepy-2.12.3.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [line-web]: executing diffoscope
+[2024-04-09 09:08:29] INFO root fetch - processPackages [line-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-web-0.0.2.tar.gz tmp/line-web-0.0.3.tar.gz --markdown 20240409/l/line-web/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 09:08:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/c1/b1/688d842e039db47b65bb6fa3e25462a2ac3aa39689d285c5aad9ad189d60/psp_liquids_daq_parser-0.0.4.tar.gz
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/4c/d8/6ed3fc20e6eab6e6fc9568731c82f7ecc77dda4ccd90f930c0e6b4ca992a/jarpcdantic-0.0.9.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [rtisdevremotepy]: Timeout reached during download
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [aiosu]: Timeout reached during download
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: executing diffoscope
+[2024-04-09 09:08:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psp_liquids_daq_parser-0.0.3.tar.gz tmp/psp_liquids_daq_parser-0.0.4.tar.gz --markdown 20240409/p/psp-liquids-daq-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [jarpcdantic]: executing diffoscope
+[2024-04-09 09:08:29] INFO root fetch - processPackages [jarpcdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarpcdantic-0.0.8.tar.gz tmp/jarpcdantic-0.0.9.tar.gz --markdown 20240409/j/jarpcdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:08:29] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/f1/0b/30c048ddf00e77cda28fbc1977b50464c501bf666705a001a4271fd58f6f/aiosu-2.3.0.tar.gz
+[2024-04-09 09:08:29] INFO root fetch - processPackages [rtisdevremotepy]: Downloading https://files.pythonhosted.org/packages/54/0a/d00653b76a849f873e5400de2f04f6f6dc6a7cf89d99743c9d0fd37853f0/rtisdevremotepy-2.13.0.tar.gz
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-09 09:08:29] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240409/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:08:29] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 09:08:29] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-09 09:08:29] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240409/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-09 09:08:30] WARNING root fetch - processPackages [rtisdevremotepy]: Timeout reached during download
+[2024-04-09 09:08:30] INFO root fetch - processPackages [rtisdevremotepy]: executing diffoscope
+[2024-04-09 09:08:30] INFO root fetch - processPackages [rtisdevremotepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtisdevremotepy-2.12.3.tar.gz tmp/rtisdevremotepy-2.13.0.tar.gz --markdown 20240409/r/rtisdevremotepy/2.12.3-2.13.0/diff.md --exclude *.pyd
+[2024-04-09 09:08:30] WARNING root fetch - processPackages [aiosu]: Timeout reached during download
+[2024-04-09 09:08:30] INFO root fetch - processPackages [aiosu]: executing diffoscope
+[2024-04-09 09:08:30] INFO root fetch - processPackages [aiosu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosu-2.2.2.tar.gz tmp/aiosu-2.3.0.tar.gz --markdown 20240409/a/aiosu/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2024-04-09 09:08:30] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.2.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.3.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [line-web]: success
+[2024-04-09 09:08:30] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.3.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.4.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
+[2024-04-09 09:08:30] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.8.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.9.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
+[2024-04-09 09:08:30] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-09 09:08:30] INFO root fetch - processPackages [rtisdevremotepy]: Remove: archive file [/home/abi/fetcher/tmp/rtisdevremotepy-2.12.3.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [rtisdevremotepy]: Remove: archive file [/home/abi/fetcher/tmp/rtisdevremotepy-2.13.0.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [rtisdevremotepy]: success
+[2024-04-09 09:08:30] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.2.2.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.3.0.tar.gz]
+[2024-04-09 09:08:30] INFO root fetch - main [MainThread]: End processing [aiosu]: success
+[2024-04-09 09:08:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-09 09:08:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-09 09:08:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-09 09:08:31] INFO root fetch - main [MainThread]: Store serial: [22679429]
