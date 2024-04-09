@@ -14836,3 +14836,42 @@
 [2024-04-09 07:05:46] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.0-py3-none-any.whl.zip]
 [2024-04-09 07:05:46] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
 [2024-04-09 07:05:46] INFO root fetch - main [MainThread]: Store serial: [22678425]
+[2024-04-09 07:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678425]
+[2024-04-09 07:07:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kBmc
+[2024-04-09 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GeneralAgent
+[2024-04-09 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-codeforce
+[2024-04-09 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psp-liquids-daq-parser
+[2024-04-09 07:07:55] INFO root fetch - processPackages [psp-liquids-daq-parser]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [py-codeforce]: Skipping, unable to determine old version
+[2024-04-09 07:07:56] INFO root fetch - main [MainThread]: End processing [py-codeforce] error
+[2024-04-09 07:07:56] INFO root fetch - processPackages [GeneralAgent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 07:07:56] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-09 07:07:56] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/ce/28/0ce83c2eedd3873b8f861dc0307d8c548b3310dcceabc497cd88811e09d7/psp_liquids_daq_parser-0.0.1.tar.gz
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 07:07:56] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/4a/85/8ba69c65756dc2834f17de340ea370a0f1766c4e2dbf7ad78a7a1d7897c8/generalagent-0.2.8.tar.gz
+[2024-04-09 07:07:56] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [kBmc]: Timeout reached during download
+[2024-04-09 07:07:56] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/6d/d4/6d99ad81e33e0b7ac24d4cc975b701358b0b5661478c6276e2c32713c587/psp_liquids_daq_parser-0.0.2.tar.gz
+[2024-04-09 07:07:56] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 07:07:56] INFO root fetch - processPackages [psp-liquids-daq-parser]: executing diffoscope
+[2024-04-09 07:07:56] INFO root fetch - processPackages [psp-liquids-daq-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psp_liquids_daq_parser-0.0.1.tar.gz tmp/psp_liquids_daq_parser-0.0.2.tar.gz --markdown 20240409/p/psp-liquids-daq-parser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [GeneralAgent]: Timeout reached during download
+[2024-04-09 07:07:56] WARNING root fetch - processPackages [kBmc]: Timeout reached during download
+[2024-04-09 07:07:56] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-04-09 07:07:56] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240409/k/kBmc/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2024-04-09 07:07:56] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/e9/fa/fc31444c8cf506043f3d6aabb6baa345465ece6af60121119b62330ca790/generalagent-0.2.9.tar.gz
+[2024-04-09 07:07:57] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.1.tar.gz]
+[2024-04-09 07:07:57] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.2.tar.gz]
+[2024-04-09 07:07:57] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
+[2024-04-09 07:07:57] WARNING root fetch - processPackages [GeneralAgent]: Timeout reached during download
+[2024-04-09 07:07:57] INFO root fetch - processPackages [GeneralAgent]: executing diffoscope
+[2024-04-09 07:07:57] INFO root fetch - processPackages [GeneralAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalagent-0.2.8.tar.gz tmp/generalagent-0.2.9.tar.gz --markdown 20240409/G/GeneralAgent/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 07:07:57] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-04-09 07:07:57] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-04-09 07:07:57] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-04-09 07:07:58] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.8.tar.gz]
+[2024-04-09 07:07:58] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
+[2024-04-09 07:07:58] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
+[2024-04-09 07:07:58] INFO root fetch - main [MainThread]: Store serial: [22678436]
