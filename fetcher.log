@@ -18914,3 +18914,42 @@
 [2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-payments-4.0.3.tar.gz]
 [2024-04-09 09:55:33] INFO root fetch - main [MainThread]: End processing [django-codenerix-payments]: success
 [2024-04-09 09:55:33] INFO root fetch - main [MainThread]: Store serial: [22679934]
+[2024-04-09 09:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679934]
+[2024-04-09 09:57:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dip-coater
+[2024-04-09 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2fft
+[2024-04-09 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getrpimodel
+[2024-04-09 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numeratorpy
+[2024-04-09 09:57:43] INFO root fetch - processPackages [s2fft]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-09 09:57:43] INFO root fetch - processPackages [getrpimodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 09:57:43] WARNING root fetch - processPackages [numeratorpy]: Skipping, unable to determine old version
+[2024-04-09 09:57:43] INFO root fetch - main [MainThread]: End processing [numeratorpy] error
+[2024-04-09 09:57:43] INFO root fetch - processPackages [dip-coater]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 09:57:43] INFO root fetch - processPackages [s2fft]: Downloading https://files.pythonhosted.org/packages/d2/53/19c35c90a5b3e25995c7eb035a5d9907cd5b5c9041934265874b7f407067/s2fft-1.0.2.tar.gz
+[2024-04-09 09:57:43] INFO root fetch - processPackages [getrpimodel]: Downloading https://files.pythonhosted.org/packages/96/4c/81cb09c187544b8f35226b8441761cd7844395dcdbbe27200cc3756c74d2/getrpimodel-0.1.8.tar.gz
+[2024-04-09 09:57:43] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/12/8b/943168670e4c50a5c662eb848ab96de5fa33bb813f06e090934521650ee0/dip-coater-0.8.0.tar.gz
+[2024-04-09 09:57:43] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-09 09:57:43] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/b5/cb/d744ee7c2d454e3a1367da2acf13654530ff52ff3288851dfc27d61e5814/dip-coater-0.9.0.tar.gz
+[2024-04-09 09:57:43] WARNING root fetch - processPackages [getrpimodel]: Timeout reached during download
+[2024-04-09 09:57:44] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-09 09:57:44] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-09 09:57:44] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.8.0.tar.gz tmp/dip-coater-0.9.0.tar.gz --markdown 20240409/d/dip-coater/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 09:57:44] INFO root fetch - processPackages [getrpimodel]: Downloading https://files.pythonhosted.org/packages/03/84/11e7e9fb423105b47c6773ed16e492f08dcb9651f2eaa501c375e7ecac0a/getrpimodel-0.1.9.tar.gz
+[2024-04-09 09:57:44] WARNING root fetch - processPackages [s2fft]: Timeout reached during download
+[2024-04-09 09:57:44] WARNING root fetch - processPackages [getrpimodel]: Timeout reached during download
+[2024-04-09 09:57:44] INFO root fetch - processPackages [getrpimodel]: executing diffoscope
+[2024-04-09 09:57:44] INFO root fetch - processPackages [getrpimodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getrpimodel-0.1.8.tar.gz tmp/getrpimodel-0.1.9.tar.gz --markdown 20240409/g/getrpimodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 09:57:44] INFO root fetch - processPackages [s2fft]: Downloading https://files.pythonhosted.org/packages/7d/41/697735f8f606ba49ae46c442212dfb0a0aba83d3398dd1afa1a69a46613c/s2fft-1.1.0.tar.gz
+[2024-04-09 09:57:44] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.8.0.tar.gz]
+[2024-04-09 09:57:44] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.9.0.tar.gz]
+[2024-04-09 09:57:44] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-09 09:57:44] INFO root fetch - processPackages [getrpimodel]: Remove: archive file [/home/abi/fetcher/tmp/getrpimodel-0.1.8.tar.gz]
+[2024-04-09 09:57:44] INFO root fetch - processPackages [getrpimodel]: Remove: archive file [/home/abi/fetcher/tmp/getrpimodel-0.1.9.tar.gz]
+[2024-04-09 09:57:44] INFO root fetch - main [MainThread]: End processing [getrpimodel]: success
+[2024-04-09 09:58:02] WARNING root fetch - processPackages [s2fft]: Timeout reached during download
+[2024-04-09 09:58:02] INFO root fetch - processPackages [s2fft]: executing diffoscope
+[2024-04-09 09:58:02] INFO root fetch - processPackages [s2fft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2fft-1.0.2.tar.gz tmp/s2fft-1.1.0.tar.gz --markdown 20240409/s/s2fft/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-09 09:58:04] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.0.2.tar.gz]
+[2024-04-09 09:58:04] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.1.0.tar.gz]
+[2024-04-09 09:58:04] INFO root fetch - main [MainThread]: End processing [s2fft]: success
+[2024-04-09 09:58:04] INFO root fetch - main [MainThread]: Store serial: [22679945]
