@@ -10935,3 +10935,75 @@
 [2024-04-09 05:06:48] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz]
 [2024-04-09 05:06:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-common]: success
 [2024-04-09 05:06:48] INFO root fetch - main [MainThread]: Store serial: [22677179]
+[2024-04-09 05:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677179]
+[2024-04-09 05:08:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-common
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formatbr
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gocodeo
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dingtalk
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxapit
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtutils
+[2024-04-09 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyyaml-include
+[2024-04-09 05:08:57] INFO root fetch - processPackages [pyyaml-include]: New version: [2.0b2] Old Version: [2.0b1]
+[2024-04-09 05:08:57] INFO root fetch - processPackages [cxapit]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-09 05:08:57] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:08:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.94] Old Version: [2.0.93]
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [formatbr]: Skipping, unable to determine old version
+[2024-04-09 05:08:57] INFO root fetch - main [MainThread]: End processing [formatbr] error
+[2024-04-09 05:08:57] INFO root fetch - processPackages [mtutils]: New version: [2.1.9] Old Version: [2.1.85]
+[2024-04-09 05:08:57] INFO root fetch - processPackages [gocodeo]: New version: [0.0.9.1] Old Version: [0.0.9]
+[2024-04-09 05:08:57] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/0b/00/fdc69db2ee1eb030d98a98adb71463fe0a76ca4cd2f9d583dfc0c24a8ae9/cxapit-1.0.3.tar.gz
+[2024-04-09 05:08:57] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/e1/1c/59773b8e6448f536fc8c76fdb8a269fbbbb302f7f44071c7aa2e1bd60946/tencentcloud-sdk-python-common-3.0.998.tar.gz
+[2024-04-09 05:08:57] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/f9/c6/85eb56e004076d6bc27caa782b664c001ff61a2d7aafd0be1cea7f2cd8ae/pyyaml-include-2.0b1.tar.gz
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-common]: Timeout reached during download
+[2024-04-09 05:08:57] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/cd/52/1e1a9fdc7b42fc56781e989191b5a35a20129e0fd936d5ddc0ab4e66cb85/mtutils-2.1.85.tar.gz
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [pyyaml-include]: Timeout reached during download
+[2024-04-09 05:08:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/9b/dba1d5c1cfc659253b9a527a9bd366baa467f08facf99f9bc26828953bdc/alibabacloud_dingtalk-2.0.93.tar.gz
+[2024-04-09 05:08:57] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/97/cc/a638c9bd3bfe77f7bd3f23cc22d17ee6b8d3adfe5da7dd594ac0feba8d7b/gocodeo-0.0.9.tar.gz
+[2024-04-09 05:08:57] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/ff/e2/06dd8939f4e7173972aad2e7aa36cb8ed49d2f81b69a1869659fbbd09cc8/tencentcloud-sdk-python-common-3.0.999.tar.gz
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [mtutils]: Timeout reached during download
+[2024-04-09 05:08:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-common]: Timeout reached during download
+[2024-04-09 05:08:57] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: executing diffoscope
+[2024-04-09 05:08:57] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-common/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:08:57] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/da/7c/da6f9ac3a5531313bf3f46b7969f32e5d3ef1f262e142047d3ecdb2db9bb/cxapit-1.0.4.tar.gz
+[2024-04-09 05:08:57] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/37/f3/56432e920a05a95eeb528fa3d37601406678f0de88d76be64b8600c6de69/pyyaml-include-2.0b2.tar.gz
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [gocodeo]: Timeout reached during download
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 05:08:58] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.3.tar.gz tmp/cxapit-1.0.4.tar.gz --markdown 20240409/c/cxapit/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-09 05:08:58] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/09/0b/f97ea00148e58ba821750da9233f98bde684788e7383c8b5006b35858f3e/mtutils-2.1.9.tar.gz
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [alibabacloud-dingtalk]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/58/fe/59f55c4817be0ad865d7de440745ab36f969ae9d0e9d70a26a3729ad1214/gocodeo-0.0.9.1.tar.gz
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [pyyaml-include]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [pyyaml-include]: executing diffoscope
+[2024-04-09 05:08:58] INFO root fetch - processPackages [pyyaml-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyaml-include-2.0b1.tar.gz tmp/pyyaml-include-2.0b2.tar.gz --markdown 20240409/p/pyyaml-include/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [mtutils]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [mtutils]: executing diffoscope
+[2024-04-09 05:08:58] INFO root fetch - processPackages [mtutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtutils-2.1.85.tar.gz tmp/mtutils-2.1.9.tar.gz --markdown 20240409/m/mtutils/2.1.85-2.1.9/diff.md --exclude *.pyd
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [gocodeo]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [gocodeo]: executing diffoscope
+[2024-04-09 05:08:58] INFO root fetch - processPackages [gocodeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocodeo-0.0.9.tar.gz tmp/gocodeo-0.0.9.1.tar.gz --markdown 20240409/g/gocodeo/0.0.9-0.0.9.1/diff.md --exclude *.pyd
+[2024-04-09 05:08:58] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/02/81/8669ac8bcbefbcf433e5a6958d78fd4cd3231bbbf1e7acecc4dbe6f21c33/alibabacloud_dingtalk-2.0.94.tar.gz
+[2024-04-09 05:08:58] WARNING root fetch - processPackages [alibabacloud-dingtalk]: Timeout reached during download
+[2024-04-09 05:08:58] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-09 05:08:58] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.93.tar.gz tmp/alibabacloud_dingtalk-2.0.94.tar.gz --markdown 20240409/a/alibabacloud-dingtalk/2.0.93-2.0.94/diff.md --exclude *.pyd
+[2024-04-09 05:08:58] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-common]: success
+[2024-04-09 05:08:58] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.1.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - main [MainThread]: End processing [gocodeo]: success
+[2024-04-09 05:08:58] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-2.0b1.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-2.0b2.tar.gz]
+[2024-04-09 05:08:58] INFO root fetch - main [MainThread]: End processing [pyyaml-include]: success
+[2024-04-09 05:08:59] INFO root fetch - processPackages [mtutils]: Remove: archive file [/home/abi/fetcher/tmp/mtutils-2.1.85.tar.gz]
+[2024-04-09 05:08:59] INFO root fetch - processPackages [mtutils]: Remove: archive file [/home/abi/fetcher/tmp/mtutils-2.1.9.tar.gz]
+[2024-04-09 05:08:59] INFO root fetch - main [MainThread]: End processing [mtutils]: success
+[2024-04-09 05:09:01] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.3.tar.gz]
+[2024-04-09 05:09:01] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.4.tar.gz]
+[2024-04-09 05:09:01] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 05:09:01] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.93.tar.gz]
+[2024-04-09 05:09:01] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.94.tar.gz]
+[2024-04-09 05:09:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-09 05:09:01] INFO root fetch - main [MainThread]: Store serial: [22677199]
