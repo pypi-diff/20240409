@@ -15101,3 +15101,62 @@
 [2024-04-09 07:23:14] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-09 07:23:14] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-09 07:23:14] INFO root fetch - main [MainThread]: Store serial: [22678569]
+[2024-04-09 07:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678569]
+[2024-04-09 07:25:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maitai-sdk-python
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lookout-cli
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p4adev_tools
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syntaxlight
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-bridge
+[2024-04-09 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p4adev_tools
+[2024-04-09 07:25:24] INFO root fetch - processPackages [maitai-sdk-python]: New version: [0.374] Old Version: [0.373]
+[2024-04-09 07:25:24] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 07:25:24] INFO root fetch - processPackages [p4adev_tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 07:25:24] INFO root fetch - processPackages [p4adev_tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 07:25:24] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/0c/3d/7dd7191bc52520065ff3ebb87e9f3dae5c4c8382cd0c7addf62114c36b23/maitai_sdk_python-0.373.tar.gz
+[2024-04-09 07:25:24] WARNING root fetch - processPackages [lookout-cli]: Skipping, unable to determine old version
+[2024-04-09 07:25:24] INFO root fetch - main [MainThread]: End processing [lookout-cli] error
+[2024-04-09 07:25:24] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-09 07:25:24] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 07:25:24] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:25:24] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 07:25:24] INFO root fetch - processPackages [p4adev_tools]: Downloading https://files.pythonhosted.org/packages/56/74/da28b2b2667da268632407fc1348e571dcb3abbf3599b33f0f4ab0c8e1fc/p4adev_tools-0.0.1.tar.gz
+[2024-04-09 07:25:24] INFO root fetch - processPackages [p4adev_tools]: Downloading https://files.pythonhosted.org/packages/56/74/da28b2b2667da268632407fc1348e571dcb3abbf3599b33f0f4ab0c8e1fc/p4adev_tools-0.0.1.tar.gz
+[2024-04-09 07:25:24] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/9a/d1/cdbfc408dd337283793e9135ca1ac5ce9df44aa910a38f3ee2d4d2c78cfa/maitai_sdk_python-0.374.tar.gz
+[2024-04-09 07:25:24] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2024-04-09 07:25:24] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-09 07:25:24] WARNING root fetch - processPackages [p4adev_tools]: Timeout reached during download
+[2024-04-09 07:25:24] WARNING root fetch - processPackages [p4adev_tools]: Timeout reached during download
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:25:25] INFO root fetch - processPackages [maitai-sdk-python]: executing diffoscope
+[2024-04-09 07:25:25] INFO root fetch - processPackages [maitai-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maitai_sdk_python-0.373.tar.gz tmp/maitai_sdk_python-0.374.tar.gz --markdown 20240409/m/maitai-sdk-python/0.373-0.374/diff.md --exclude *.pyd
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [syntaxlight]: Timeout reached during download
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-09 07:25:25] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-09 07:25:25] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240409/p/python-bridge/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: Downloading https://files.pythonhosted.org/packages/da/6a/10b1279ecacd5a2af409b761477cf3a5e460efb91b983052791fec981349/p4adev_tools-0.0.2.tar.gz
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: Downloading https://files.pythonhosted.org/packages/da/6a/10b1279ecacd5a2af409b761477cf3a5e460efb91b983052791fec981349/p4adev_tools-0.0.2.tar.gz
+[2024-04-09 07:25:25] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/5d/5d/baa11c92a42514efc11f867983e51bcf5c2a036044e6117d6a4e629d267f/syntaxlight-0.1.9.tar.gz
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [p4adev_tools]: Timeout reached during download
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [p4adev_tools]: Timeout reached during download
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: executing diffoscope
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4adev_tools-0.0.1.tar.gz tmp/p4adev_tools-0.0.2.tar.gz --markdown 20240409/p/p4adev_tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: executing diffoscope
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4adev_tools-0.0.1.tar.gz tmp/p4adev_tools-0.0.2.tar.gz --markdown 20240409/p/p4adev_tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 07:25:25] WARNING root fetch - processPackages [syntaxlight]: Timeout reached during download
+[2024-04-09 07:25:25] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2024-04-09 07:25:25] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.8.tar.gz tmp/syntaxlight-0.1.9.tar.gz --markdown 20240409/s/syntaxlight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 07:25:25] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.373.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.374.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - main [MainThread]: End processing [maitai-sdk-python]: success
+[2024-04-09 07:25:25] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: Remove: archive file [/home/abi/fetcher/tmp/p4adev_tools-0.0.1.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - processPackages [p4adev_tools]: Remove: archive file [/home/abi/fetcher/tmp/p4adev_tools-0.0.2.tar.gz]
+[2024-04-09 07:25:25] INFO root fetch - main [MainThread]: End processing [p4adev_tools]: success
+[2024-04-09 07:25:25] INFO root fetch - main [MainThread]: End processing [p4adev_tools]: success
+[2024-04-09 07:25:26] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2024-04-09 07:25:26] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
+[2024-04-09 07:25:26] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2024-04-09 07:25:26] INFO root fetch - main [MainThread]: Store serial: [22678592]
