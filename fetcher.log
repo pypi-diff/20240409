@@ -9139,3 +9139,17 @@
 [2024-04-09 03:58:44] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.3.tar.gz]
 [2024-04-09 03:58:44] INFO root fetch - main [MainThread]: End processing [mlflow-by-ckl]: success
 [2024-04-09 03:58:44] INFO root fetch - main [MainThread]: Store serial: [22676605]
+[2024-04-09 04:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676605]
+[2024-04-09 04:01:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 04:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feature-engineering
+[2024-04-09 04:01:02] INFO root fetch - processPackages [feature-engineering]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-09 04:01:02] INFO root fetch - processPackages [feature-engineering]: Downloading https://files.pythonhosted.org/packages/6b/f8/051a1e9c7854301e7bcd13ed9575b8d07dc43637a3e546833a11fc7eeee8/feature_engineering-2.1.2.tar.gz
+[2024-04-09 04:01:02] WARNING root fetch - processPackages [feature-engineering]: Timeout reached during download
+[2024-04-09 04:01:02] INFO root fetch - processPackages [feature-engineering]: Downloading https://files.pythonhosted.org/packages/be/e2/8bd1eeaacf633aac79d311e96b503521c0635a8e1dedbc1c5ac1a2697c00/feature_engineering-2.1.3.tar.gz
+[2024-04-09 04:01:02] WARNING root fetch - processPackages [feature-engineering]: Timeout reached during download
+[2024-04-09 04:01:02] INFO root fetch - processPackages [feature-engineering]: executing diffoscope
+[2024-04-09 04:01:02] INFO root fetch - processPackages [feature-engineering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feature_engineering-2.1.2.tar.gz tmp/feature_engineering-2.1.3.tar.gz --markdown 20240409/f/feature-engineering/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-09 04:01:03] INFO root fetch - processPackages [feature-engineering]: Remove: archive file [/home/abi/fetcher/tmp/feature_engineering-2.1.2.tar.gz]
+[2024-04-09 04:01:03] INFO root fetch - processPackages [feature-engineering]: Remove: archive file [/home/abi/fetcher/tmp/feature_engineering-2.1.3.tar.gz]
+[2024-04-09 04:01:03] INFO root fetch - main [MainThread]: End processing [feature-engineering]: success
+[2024-04-09 04:01:03] INFO root fetch - main [MainThread]: Store serial: [22676607]
