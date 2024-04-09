@@ -15924,3 +15924,53 @@
 [2024-04-09 07:58:51] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.9.tar.gz]
 [2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [snowflake-deployer]: success
 [2024-04-09 07:58:51] INFO root fetch - main [MainThread]: Store serial: [22678798]
+[2024-04-09 08:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678798]
+[2024-04-09 08:01:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxapit
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-social
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: charmcord
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parallel-abus
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-runlog
+[2024-04-09 08:01:01] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 08:01:01] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 08:01:01] WARNING root fetch - processPackages [parallel-abus]: Skipping, unable to determine old version
+[2024-04-09 08:01:01] INFO root fetch - main [MainThread]: End processing [parallel-abus] error
+[2024-04-09 08:01:01] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20240325.0] Old Version: [16.0.20240320.0]
+[2024-04-09 08:01:01] INFO root fetch - processPackages [charmcord]: New version: [0.25.0] Old Version: [0.24.2]
+[2024-04-09 08:01:01] INFO root fetch - processPackages [ml-runlog]: New version: [1.9] Old Version: [1.8]
+[2024-04-09 08:01:01] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 08:01:02] INFO root fetch - processPackages [charmcord]: Downloading https://files.pythonhosted.org/packages/70/d0/5e005cd16d15161eb659fdd7eae062e69500c3613ac3ef695d5360b132c4/charmcord-0.24.2.tar.gz
+[2024-04-09 08:01:02] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 08:01:02] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5d/83/f1b0ebff54c9eb30e68d7b6086272e8bf54dabe51eefd51bc3e5d68b324e/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl
+[2024-04-09 08:01:02] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/57/e4/f2313c037872870d36f82bfd823442cc00dc4c9765702df94dd1c9abf107/ml_runlog-1.8.tar.gz
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 08:01:02] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 08:01:02] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [charmcord]: Timeout reached during download
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [odoo-addons-oca-social]: Timeout reached during download
+[2024-04-09 08:01:02] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/b7/32/22b8b5e90e2ec0d71662ec4f477bf8cd025a0db3a587d34bbf8e0d4725e7/ml_runlog-1.9.tar.gz
+[2024-04-09 08:01:02] INFO root fetch - processPackages [charmcord]: Downloading https://files.pythonhosted.org/packages/11/0d/74df4a65444c8a2f934cc50b4537128dea5137f2b3928e4b59585672fadc/charmcord-0.25.0.tar.gz
+[2024-04-09 08:01:02] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/08/a3/ad58b3976fca25347969b2a5095a8448b3e8c5a7ef95db7eaf634d918a7e/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [charmcord]: Timeout reached during download
+[2024-04-09 08:01:02] INFO root fetch - processPackages [charmcord]: executing diffoscope
+[2024-04-09 08:01:02] INFO root fetch - processPackages [charmcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmcord-0.24.2.tar.gz tmp/charmcord-0.25.0.tar.gz --markdown 20240409/c/charmcord/0.24.2-0.25.0/diff.md --exclude *.pyd
+[2024-04-09 08:01:02] WARNING root fetch - processPackages [odoo-addons-oca-social]: Timeout reached during download
+[2024-04-09 08:01:02] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2024-04-09 08:01:02] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addons-oca-social/16.0.20240320.0-16.0.20240325.0/diff.md --exclude *.pyd
+[2024-04-09 08:01:02] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 08:01:02] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 08:01:02] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 08:01:03] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 08:01:03] INFO root fetch - processPackages [ml-runlog]: executing diffoscope
+[2024-04-09 08:01:03] INFO root fetch - processPackages [ml-runlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_runlog-1.8.tar.gz tmp/ml_runlog-1.9.tar.gz --markdown 20240409/m/ml-runlog/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-09 08:01:03] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl.zip]
+[2024-04-09 08:01:03] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-04-09 08:01:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2024-04-09 08:01:03] INFO root fetch - processPackages [charmcord]: Remove: archive file [/home/abi/fetcher/tmp/charmcord-0.24.2.tar.gz]
+[2024-04-09 08:01:03] INFO root fetch - processPackages [charmcord]: Remove: archive file [/home/abi/fetcher/tmp/charmcord-0.25.0.tar.gz]
+[2024-04-09 08:01:03] INFO root fetch - main [MainThread]: End processing [charmcord]: success
+[2024-04-09 08:01:03] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.8.tar.gz]
+[2024-04-09 08:01:03] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.9.tar.gz]
+[2024-04-09 08:01:03] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
+[2024-04-09 08:01:03] INFO root fetch - main [MainThread]: Store serial: [22678810]
