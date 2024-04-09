@@ -24368,3 +24368,59 @@
 [2024-04-09 12:43:45] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1712659053!10.2.0.tar.gz]
 [2024-04-09 12:43:45] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-09 12:43:45] INFO root fetch - main [MainThread]: Store serial: [22682016]
+[2024-04-09 12:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682016]
+[2024-04-09 12:45:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packaging-tutorial-meyerno
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dump-psql-roles-grants
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitpapa-pay
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SdcStatsBot
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DuHast
+[2024-04-09 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mizdb-watchlist
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [SdcStatsBot]: Skipping, unable to determine old version
+[2024-04-09 12:45:55] INFO root fetch - main [MainThread]: End processing [SdcStatsBot] error
+[2024-04-09 12:45:55] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1712659258!10.3.0] Old Version: [1712659053!10.2.0]
+[2024-04-09 12:45:55] INFO root fetch - processPackages [bitpapa-pay]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 12:45:55] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/ea/d8/831ae69d9f0d2d77208a16a7ec19e07e1cce68282772c4eaf6d08b21ccea/grafana_foundation_sdk-1712659053!10.2.0.tar.gz
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [packaging-tutorial-meyerno]: Skipping, unable to determine old version
+[2024-04-09 12:45:55] INFO root fetch - main [MainThread]: End processing [packaging-tutorial-meyerno] error
+[2024-04-09 12:45:55] INFO root fetch - processPackages [DuHast]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 12:45:55] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/fc/71/fe8ef7fd174388b7a826121c5d7e1a8310a258762ed489dd212cfbf979f0/bitpapa_pay-0.1.3.tar.gz
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [mizdb-watchlist]: Skipping, unable to determine old version
+[2024-04-09 12:45:55] INFO root fetch - main [MainThread]: End processing [mizdb-watchlist] error
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [bitpapa-pay]: Timeout reached during download
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [grafana-foundation-sdk]: Timeout reached during download
+[2024-04-09 12:45:55] INFO root fetch - processPackages [dump-psql-roles-grants]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-09 12:45:55] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/e0/8d/126321da139e54691519dfecb86131df105c09f2064aec60b32de364ac4d/DuHast-0.1.2.tar.gz
+[2024-04-09 12:45:55] INFO root fetch - processPackages [bitpapa-pay]: Downloading https://files.pythonhosted.org/packages/10/5c/da11f9fd46502125c22a321c77970bccf1ad5970eac010db76c3cbcca409/bitpapa_pay-0.1.4.tar.gz
+[2024-04-09 12:45:55] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/8f/6a/bf61a055585c15b7ecb0f258f00b5f1cbac1c5c98171bf8c21022f67cd82/grafana_foundation_sdk-1712659258!10.3.0.tar.gz
+[2024-04-09 12:45:55] INFO root fetch - processPackages [dump-psql-roles-grants]: Downloading https://files.pythonhosted.org/packages/36/d4/6b24c1bebcd84b59cc2bc29f41a66532e741997e549b7fb75559f6981b10/dump_psql_roles_grants-0.2.1.tar.gz
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [bitpapa-pay]: Timeout reached during download
+[2024-04-09 12:45:55] INFO root fetch - processPackages [bitpapa-pay]: executing diffoscope
+[2024-04-09 12:45:55] INFO root fetch - processPackages [bitpapa-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpapa_pay-0.1.3.tar.gz tmp/bitpapa_pay-0.1.4.tar.gz --markdown 20240409/b/bitpapa-pay/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [DuHast]: Timeout reached during download
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [grafana-foundation-sdk]: Timeout reached during download
+[2024-04-09 12:45:55] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-09 12:45:55] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1712659053!10.2.0.tar.gz tmp/grafana_foundation_sdk-1712659258!10.3.0.tar.gz --markdown 20240409/g/grafana-foundation-sdk/1712659053!10.2.0-1712659258!10.3.0/diff.md --exclude *.pyd
+[2024-04-09 12:45:55] WARNING root fetch - processPackages [dump-psql-roles-grants]: Timeout reached during download
+[2024-04-09 12:45:55] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/69/86/96134b1a4801055ac43d756d7bc6e2acbab8f1b277b0ae3033a5558f2aa9/DuHast-0.1.3.tar.gz
+[2024-04-09 12:45:55] INFO root fetch - processPackages [dump-psql-roles-grants]: Downloading https://files.pythonhosted.org/packages/79/d7/b5026a9e4372930a2806454facbce2994a36115e5e1bbd736acc22e0a5de/dump_psql_roles_grants-0.3.0.tar.gz
+[2024-04-09 12:45:56] WARNING root fetch - processPackages [dump-psql-roles-grants]: Timeout reached during download
+[2024-04-09 12:45:56] INFO root fetch - processPackages [dump-psql-roles-grants]: executing diffoscope
+[2024-04-09 12:45:56] INFO root fetch - processPackages [dump-psql-roles-grants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dump_psql_roles_grants-0.2.1.tar.gz tmp/dump_psql_roles_grants-0.3.0.tar.gz --markdown 20240409/d/dump-psql-roles-grants/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 12:45:56] WARNING root fetch - processPackages [DuHast]: Timeout reached during download
+[2024-04-09 12:45:56] INFO root fetch - processPackages [DuHast]: executing diffoscope
+[2024-04-09 12:45:56] INFO root fetch - processPackages [DuHast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DuHast-0.1.2.tar.gz tmp/DuHast-0.1.3.tar.gz --markdown 20240409/D/DuHast/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 12:45:56] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.3.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - processPackages [bitpapa-pay]: Remove: archive file [/home/abi/fetcher/tmp/bitpapa_pay-0.1.4.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - main [MainThread]: End processing [bitpapa-pay]: success
+[2024-04-09 12:45:56] INFO root fetch - processPackages [dump-psql-roles-grants]: Remove: archive file [/home/abi/fetcher/tmp/dump_psql_roles_grants-0.2.1.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - processPackages [dump-psql-roles-grants]: Remove: archive file [/home/abi/fetcher/tmp/dump_psql_roles_grants-0.3.0.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - main [MainThread]: End processing [dump-psql-roles-grants]: success
+[2024-04-09 12:45:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1712659053!10.2.0.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1712659258!10.3.0.tar.gz]
+[2024-04-09 12:45:56] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-09 12:45:58] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.1.2.tar.gz]
+[2024-04-09 12:45:58] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.1.3.tar.gz]
+[2024-04-09 12:45:58] INFO root fetch - main [MainThread]: End processing [DuHast]: success
+[2024-04-09 12:45:58] INFO root fetch - main [MainThread]: Store serial: [22682042]
