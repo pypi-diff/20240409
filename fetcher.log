@@ -3864,3 +3864,28 @@
 [2024-04-09 02:54:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-09 02:54:38] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-09 02:54:38] INFO root fetch - main [MainThread]: Store serial: [22675100]
+[2024-04-09 02:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675100]
+[2024-04-09 02:56:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiolifx-themes
+[2024-04-09 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-metadata
+[2024-04-09 02:56:47] INFO root fetch - processPackages [aiolifx-themes]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 02:56:47] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.94] Old Version: [0.3.93]
+[2024-04-09 02:56:47] INFO root fetch - processPackages [aiolifx-themes]: Downloading https://files.pythonhosted.org/packages/9d/9d/41973322460254ba91d2cf925db241bfd8d8e3aab5ad2478eff735ec8957/aiolifx_themes-0.4.8.tar.gz
+[2024-04-09 02:56:47] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/61/e0/7d57da81f6cffac1cee5a8eb78fcf696588840a9802543cfb95a56516382/edc-metadata-0.3.93.tar.gz
+[2024-04-09 02:56:47] WARNING root fetch - processPackages [aiolifx-themes]: Timeout reached during download
+[2024-04-09 02:56:47] WARNING root fetch - processPackages [edc-metadata]: Timeout reached during download
+[2024-04-09 02:56:47] INFO root fetch - processPackages [aiolifx-themes]: Downloading https://files.pythonhosted.org/packages/7b/78/28ff89959ffd192264ca6afd62db1d1b9d2bfd30ef1dccba53c6a01f370c/aiolifx_themes-0.4.9.tar.gz
+[2024-04-09 02:56:47] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/02/21/d23b3422da3e3c77b47f864cd03ccd62f955c1d59524ab1ce82830c197c0/edc-metadata-0.3.94.tar.gz
+[2024-04-09 02:56:48] WARNING root fetch - processPackages [aiolifx-themes]: Timeout reached during download
+[2024-04-09 02:56:48] INFO root fetch - processPackages [aiolifx-themes]: executing diffoscope
+[2024-04-09 02:56:48] INFO root fetch - processPackages [aiolifx-themes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiolifx_themes-0.4.8.tar.gz tmp/aiolifx_themes-0.4.9.tar.gz --markdown 20240409/a/aiolifx-themes/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 02:56:48] WARNING root fetch - processPackages [edc-metadata]: Timeout reached during download
+[2024-04-09 02:56:48] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2024-04-09 02:56:48] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-metadata-0.3.93.tar.gz tmp/edc-metadata-0.3.94.tar.gz --markdown 20240409/e/edc-metadata/0.3.93-0.3.94/diff.md --exclude *.pyd
+[2024-04-09 02:56:48] INFO root fetch - processPackages [aiolifx-themes]: Remove: archive file [/home/abi/fetcher/tmp/aiolifx_themes-0.4.8.tar.gz]
+[2024-04-09 02:56:48] INFO root fetch - processPackages [aiolifx-themes]: Remove: archive file [/home/abi/fetcher/tmp/aiolifx_themes-0.4.9.tar.gz]
+[2024-04-09 02:56:48] INFO root fetch - main [MainThread]: End processing [aiolifx-themes]: success
+[2024-04-09 02:56:48] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc-metadata-0.3.93.tar.gz]
+[2024-04-09 02:56:48] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc-metadata-0.3.94.tar.gz]
+[2024-04-09 02:56:48] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2024-04-09 02:56:48] INFO root fetch - main [MainThread]: Store serial: [22675106]
