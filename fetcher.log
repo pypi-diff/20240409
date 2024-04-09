@@ -20335,3 +20335,94 @@
 [2024-04-09 10:44:53] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.1.0.tar.gz]
 [2024-04-09 10:44:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
 [2024-04-09 10:44:53] INFO root fetch - main [MainThread]: Store serial: [22680484]
+[2024-04-09 10:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680484]
+[2024-04-09 10:47:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-type-plugin
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-orbit-api
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edwh-uptime-plugin
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio-log
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkatlas
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy_kite_methods
+[2024-04-09 10:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2024-04-09 10:47:03] INFO root fetch - processPackages [checkatlas]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.12] Old Version: [1.1.11]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [easy_kite_methods]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [gradio-log]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [mysql-type-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/18/2f/fa26bd1ce3fd264df4e25d13c059da7922ac6a18fc35de812fad5d362b7c/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz
+[2024-04-09 10:47:03] INFO root fetch - processPackages [edwh-uptime-plugin]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-09 10:47:03] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/5e/43/b492c185b16e3909de8175a03f486215ee95df4d33be4b266e5151f190ed/checkatlas-0.4.7.tar.gz
+[2024-04-09 10:47:03] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/27/e8/5a4dfce85e4bae1ce145bb6927c76562a08fb910ddf653fddbd234f079d6/cloud_orbit_api-1.1.11.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/da/37/971c0ae8eb2cf9bf56e3285346ebd498ddbf9a6a873171a0f29db08df684/easy_kite_methods-0.0.5.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240409] Old Version: [2.17.0.dev20240408]
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [gradio-log]: Downloading https://files.pythonhosted.org/packages/4f/5c/fb110d2be5f4ae9654887f5e70cc7f93c6f342131d7d29933c31e18e3804/gradio_log-0.0.1.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/5a/29/72eb39a4eb77c0917f25d0b4294027387d91d941663025d169a9714f26be/mysql_type_plugin-0.1.8.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [edwh-uptime-plugin]: Downloading https://files.pythonhosted.org/packages/f0/05/3656711c6b8a99dc4fd5754ca38a6bfe92aa833189ebd67ab264e50f5158/edwh_uptime_plugin-0.3.4.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [gradio-log]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/6a/fc/b08cc42e90fe130e33a2bc3ac95e69755721edb8a0c50d6b10584458ed21/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/47/ac/1a4e620087f3df4c9dba185e07cf2064ec9211527541ae0e233dab4c2fdf/cloud_orbit_api-1.1.12.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [edwh-uptime-plugin]: Timeout reached during download
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [mysql-type-plugin]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/d4/05/44618cb4a5d1d1cf3e3eae08a8afc93039b416eff58a5402f1e70d2db213/easy_kite_methods-0.0.6.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz --markdown 20240409/p/pyrt-lib-rasmusklitgaard/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.11.tar.gz tmp/cloud_orbit_api-1.1.12.tar.gz --markdown 20240409/c/cloud-orbit-api/1.1.11-1.1.12/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] INFO root fetch - processPackages [gradio-log]: Downloading https://files.pythonhosted.org/packages/e1/3b/76a0f88b5d547320e4294d234e296cd0fbdfda9eed5965fadc2207edc34c/gradio_log-0.0.2.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3a/86/62c376a4ed508913f970333922507f5f5d02e076eb7948ef96090ae8649b/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.7.tar.gz tmp/checkatlas-0.4.8.tar.gz --markdown 20240409/c/checkatlas/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] INFO root fetch - processPackages [edwh-uptime-plugin]: Downloading https://files.pythonhosted.org/packages/30/0a/311a03ef823b821ba2ab8be1fe7b9082ef349d3332208b243d02b5828ac3/edwh_uptime_plugin-0.3.5.tar.gz
+[2024-04-09 10:47:04] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/9b/07/1e2b2973642aee972715f3b174d96254cec99601964a5b5ee7339b640b07/mysql_type_plugin-0.1.9.tar.gz
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [easy_kite_methods]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [easy_kite_methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_kite_methods-0.0.5.tar.gz tmp/easy_kite_methods-0.0.6.tar.gz --markdown 20240409/e/easy_kite_methods/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [gradio-log]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [gradio-log]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [gradio-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_log-0.0.1.tar.gz tmp/gradio_log-0.0.2.tar.gz --markdown 20240409/g/gradio-log/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [edwh-uptime-plugin]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [edwh-uptime-plugin]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [edwh-uptime-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_uptime_plugin-0.3.4.tar.gz tmp/edwh_uptime_plugin-0.3.5.tar.gz --markdown 20240409/e/edwh-uptime-plugin/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] WARNING root fetch - processPackages [mysql-type-plugin]: Timeout reached during download
+[2024-04-09 10:47:04] INFO root fetch - processPackages [mysql-type-plugin]: executing diffoscope
+[2024-04-09 10:47:04] INFO root fetch - processPackages [mysql-type-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_type_plugin-0.1.8.tar.gz tmp/mysql_type_plugin-0.1.9.tar.gz --markdown 20240409/m/mysql-type-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 10:47:04] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/32/e3/857b594e3babaeb180775eab768462dc11a8814a6a0ec12864a3968aa222/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl
+[2024-04-09 10:47:05] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.11.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.12.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-09 10:47:05] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-09 10:47:05] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-09 10:47:05] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip --markdown 20240409/t/tf-nightly-cpu/2.17.0.dev20240408-2.17.0.dev20240409/diff.md --exclude *.pyd
+[2024-04-09 10:47:05] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.2.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.5.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.6.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [easy_kite_methods]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.7.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [gradio-log]: Remove: archive file [/home/abi/fetcher/tmp/gradio_log-0.0.1.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [gradio-log]: Remove: archive file [/home/abi/fetcher/tmp/gradio_log-0.0.2.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [gradio-log]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [edwh-uptime-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_uptime_plugin-0.3.4.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [edwh-uptime-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_uptime_plugin-0.3.5.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [edwh-uptime-plugin]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [mysql-type-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mysql_type_plugin-0.1.8.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [mysql-type-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mysql_type_plugin-0.1.9.tar.gz]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [mysql-type-plugin]: success
+[2024-04-09 10:47:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 10:47:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-09 10:47:05] INFO root fetch - main [MainThread]: Store serial: [22680513]
