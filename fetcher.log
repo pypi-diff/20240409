@@ -3032,3 +3032,50 @@
 [2024-04-09 02:17:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
 [2024-04-09 02:17:58] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
 [2024-04-09 02:17:58] INFO root fetch - main [MainThread]: Store serial: [22674829]
+[2024-04-09 02:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674829]
+[2024-04-09 02:20:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-09 02:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-04-09 02:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.appsync-utils
+[2024-04-09 02:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchao-nightly
+[2024-04-09 02:20:06] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-09 02:20:06] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:20:06] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:20:07] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-09 02:20:07] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-09 02:20:07] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-09 02:20:07] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240409/t/torchao-nightly/2024.4.8-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240409/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240409/c/cdk-gitlab-runner/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2024-04-09 02:20:07] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-09 02:20:07] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240409/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:20:08] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-09 02:20:08] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-09 02:20:08] INFO root fetch - main [MainThread]: Store serial: [22674841]
