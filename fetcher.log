@@ -21211,3 +21211,80 @@
 [2024-04-09 11:06:54] INFO root fetch - processPackages [py-loop]: Remove: archive file [/home/abi/fetcher/tmp/py_loop-0.5.0b2.tar.gz]
 [2024-04-09 11:06:54] INFO root fetch - main [MainThread]: End processing [py-loop]: success
 [2024-04-09 11:06:54] INFO root fetch - main [MainThread]: Store serial: [22680752]
+[2024-04-09 11:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680752]
+[2024-04-09 11:09:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fifids
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KPCommons
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fastapi
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basedpyright
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nkf
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liblet
+[2024-04-09 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bow-client
+[2024-04-09 11:09:04] INFO root fetch - processPackages [KPCommons]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [nkf]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-09 11:09:04] WARNING root fetch - processPackages [fifids]: Skipping, unable to determine old version
+[2024-04-09 11:09:04] INFO root fetch - main [MainThread]: End processing [fifids] error
+[2024-04-09 11:09:04] INFO root fetch - processPackages [liblet]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.1.2.8] Old Version: [16.0.1.2.7]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [bow-client]: New version: [4.0.2.2082] Old Version: [4.0.2.2081]
+[2024-04-09 11:09:04] INFO root fetch - processPackages [KPCommons]: Downloading https://files.pythonhosted.org/packages/ab/8a/9faea0114fe6577e5cd73c6e6a5ba15121e40e1f9a125c845c9f340ef630/KPCommons-0.0.1.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [nkf]: Downloading https://files.pythonhosted.org/packages/82/93/53f4c20b11690122f72f68e0e7745a514b49854009a592bd58bec30c1f9f/nkf-1.0.3.tar.gz
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [KPCommons]: Timeout reached during download
+[2024-04-09 11:09:05] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/8b/36/1d22439ed63227ee6da8cf2c74922c79078586e3f22feae185a47e37de2b/liblet-1.7.3.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [bow-client]: Downloading https://files.pythonhosted.org/packages/a5/84/33c471d032826324d872e2a0a4733102be3ee3282023db94073ca2332f25/bow_client-4.0.2.2081-cp39-none-win_amd64.whl
+[2024-04-09 11:09:05] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/36/f8/41d0fe9f41277843d90d8b7f599fa2eefd0d284170195330cae8d2e96b8f/odoo_addon_fastapi-16.0.1.2.7-py3-none-any.whl
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [bow-client]: Skipping package: exceeds size limit 16135244>=10485760
+[2024-04-09 11:09:05] INFO root fetch - main [MainThread]: End processing [bow-client] error
+[2024-04-09 11:09:05] INFO root fetch - processPackages [KPCommons]: Downloading https://files.pythonhosted.org/packages/1c/bc/9270d66bd85becce0615ed5433974724309aee6c16bda6490bca8b4f4249/KPCommons-0.0.2.tar.gz
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [nkf]: Timeout reached during download
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [odoo-addon-fastapi]: Timeout reached during download
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [liblet]: Timeout reached during download
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [KPCommons]: Timeout reached during download
+[2024-04-09 11:09:05] INFO root fetch - processPackages [KPCommons]: executing diffoscope
+[2024-04-09 11:09:05] INFO root fetch - processPackages [KPCommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KPCommons-0.0.1.tar.gz tmp/KPCommons-0.0.2.tar.gz --markdown 20240409/K/KPCommons/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 11:09:05] INFO root fetch - processPackages [nkf]: Downloading https://files.pythonhosted.org/packages/cc/f6/8cfefbc6b443fbfd87fb8e0bfa78e4c339d608f9968a1fca5b15969489b7/nkf-1.0.4.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/82/47/598ff7159afe31482eb00b9d15101d4a801e93737f85bc1e8a3ccf1beda2/odoo_addon_fastapi-16.0.1.2.8-py3-none-any.whl
+[2024-04-09 11:09:05] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-09 11:09:05] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/37/95/b3151c69560cccfd618c21c7d375359a03529843ab324baec8617c3a2bff/liblet-1.7.4.tar.gz
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-09 11:09:05] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-09 11:09:05] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240409/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [odoo-addon-fastapi]: Timeout reached during download
+[2024-04-09 11:09:05] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2024-04-09 11:09:05] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.1.2.7-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.1.2.8-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-fastapi/16.0.1.2.7-16.0.1.2.8/diff.md --exclude *.pyd
+[2024-04-09 11:09:05] WARNING root fetch - processPackages [nkf]: Timeout reached during download
+[2024-04-09 11:09:05] INFO root fetch - processPackages [nkf]: executing diffoscope
+[2024-04-09 11:09:05] INFO root fetch - processPackages [nkf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkf-1.0.3.tar.gz tmp/nkf-1.0.4.tar.gz --markdown 20240409/n/nkf/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-09 11:09:06] INFO root fetch - processPackages [KPCommons]: Remove: archive file [/home/abi/fetcher/tmp/KPCommons-0.0.1.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - processPackages [KPCommons]: Remove: archive file [/home/abi/fetcher/tmp/KPCommons-0.0.2.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - main [MainThread]: End processing [KPCommons]: success
+[2024-04-09 11:09:06] WARNING root fetch - processPackages [liblet]: Timeout reached during download
+[2024-04-09 11:09:06] INFO root fetch - processPackages [liblet]: executing diffoscope
+[2024-04-09 11:09:06] INFO root fetch - processPackages [liblet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblet-1.7.3.tar.gz tmp/liblet-1.7.4.tar.gz --markdown 20240409/l/liblet/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2024-04-09 11:09:06] INFO root fetch - processPackages [nkf]: Remove: archive file [/home/abi/fetcher/tmp/nkf-1.0.3.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - processPackages [nkf]: Remove: archive file [/home/abi/fetcher/tmp/nkf-1.0.4.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - main [MainThread]: End processing [nkf]: success
+[2024-04-09 11:09:06] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-09 11:09:06] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.1.2.7-py3-none-any.whl.zip]
+[2024-04-09 11:09:06] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.1.2.8-py3-none-any.whl.zip]
+[2024-04-09 11:09:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2024-04-09 11:09:06] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.3.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.4.tar.gz]
+[2024-04-09 11:09:06] INFO root fetch - main [MainThread]: End processing [liblet]: success
+[2024-04-09 11:09:06] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-09 11:09:07] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-04-09 11:09:08] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-09 11:09:08] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-09 11:09:08] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240409/b/basedpyright/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-09 11:10:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-09 11:10:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-04-09 11:10:04] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-09 11:10:04] INFO root fetch - main [MainThread]: Store serial: [22680777]
