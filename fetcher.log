@@ -13966,3 +13966,61 @@
 [2024-04-09 06:15:36] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.23.tar.gz]
 [2024-04-09 06:15:36] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-04-09 06:15:36] INFO root fetch - main [MainThread]: Store serial: [22678103]
+[2024-04-09 06:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678103]
+[2024-04-09 06:17:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 06:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myprayer
+[2024-04-09 06:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-wav
+[2024-04-09 06:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-wedata
+[2024-04-09 06:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-weilingwith
+[2024-04-09 06:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twelvelabs
+[2024-04-09 06:17:45] INFO root fetch - processPackages [twelvelabs]: New version: [0.1.21] Old Version: [0.1.2]
+[2024-04-09 06:17:45] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:17:45] INFO root fetch - processPackages [myprayer]: New version: [3.0.0] Old Version: [2.0.6]
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:17:46] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/80/c5/845a29889e50fda09c0c0acef32d8defa9061f0821463c2807c6995d9ad5/twelvelabs-0.1.2.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/81/63/b0d1801a15fad8e2aa2c233009875f8c4240c99f14a58252fee1453d7213/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/91/5a/5d37608e44ea69ff67feff9e5e76e2476cf68272baf99aefe49eb7d5b5fd/myprayer-2.0.6.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Timeout reached during download
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [myprayer]: Timeout reached during download
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-wav]: Timeout reached during download
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [twelvelabs]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/35/b3/f926e3ed6c290f3bbf08ac990f833a7daaf3868d916b224d01578d8d378d/tencentcloud-sdk-python-wedata-3.0.998.tar.gz
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-wedata]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/8e/53/05c56868a8ff1e3043c9f3469384a86d7c598f770d420b5af47a08e942e2/myprayer-3.0.0.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/08/78/bd819066dae9b59b3914d16608523bca597e2ebdcd1f3bfcd534f708414f/twelvelabs-0.1.21.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/53/86/2730b85def19aa7efe94bf2779bbcef46bbbbf609dfc65193421600e0a6c/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: executing diffoscope
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-weilingwith/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-wav]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:17:46] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/13/f7/dd48b9a4c3f121c9e4be93063ea150b1d23184f2079d7796592825767327/tencentcloud-sdk-python-wedata-3.0.999.tar.gz
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [myprayer]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [myprayer]: executing diffoscope
+[2024-04-09 06:17:46] INFO root fetch - processPackages [myprayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myprayer-2.0.6.tar.gz tmp/myprayer-3.0.0.tar.gz --markdown 20240409/m/myprayer/2.0.6-3.0.0/diff.md --exclude *.pyd
+[2024-04-09 06:17:46] WARNING root fetch - processPackages [twelvelabs]: Timeout reached during download
+[2024-04-09 06:17:46] INFO root fetch - processPackages [twelvelabs]: executing diffoscope
+[2024-04-09 06:17:46] INFO root fetch - processPackages [twelvelabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twelvelabs-0.1.2.tar.gz tmp/twelvelabs-0.1.21.tar.gz --markdown 20240409/t/twelvelabs/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2024-04-09 06:17:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-wedata]: Timeout reached during download
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: executing diffoscope
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-wedata/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:17:47] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.2.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.21.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - main [MainThread]: End processing [twelvelabs]: success
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-04-09 06:17:47] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-2.0.6.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-3.0.0.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - main [MainThread]: End processing [myprayer]: success
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz]
+[2024-04-09 06:17:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-weilingwith]: success
+[2024-04-09 06:17:48] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz]
+[2024-04-09 06:17:48] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
+[2024-04-09 06:17:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
+[2024-04-09 06:17:48] INFO root fetch - main [MainThread]: Store serial: [22678128]
