@@ -18653,3 +18653,96 @@
 [2024-04-09 09:47:04] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc2.tar.gz]
 [2024-04-09 09:47:04] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-09 09:47:04] INFO root fetch - main [MainThread]: Store serial: [22679838]
+[2024-04-09 09:49:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679838]
+[2024-04-09 09:49:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: richie
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwb4fp
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkproxy
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piwiPre
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afas-connector
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webwithpy
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waylay-beta
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datashuttle
+[2024-04-09 09:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xsh
+[2024-04-09 09:49:13] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [sparkproxy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [lambkid]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [xsh]: Skipping, unable to determine old version
+[2024-04-09 09:49:13] INFO root fetch - main [MainThread]: End processing [xsh] error
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [afas-connector]: Skipping, unable to determine old version
+[2024-04-09 09:49:13] INFO root fetch - main [MainThread]: End processing [afas-connector] error
+[2024-04-09 09:49:13] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.9.5] Old Version: [0.5.9.4]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4] Old Version: [0.7.2.2]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [waylay-beta]: New version: [9.9.9b9] Old Version: [0.7.1]
+[2024-04-09 09:49:13] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/46/50/49762742693895ba93ab15cefe9ce9bf60c51d906c884016e602cafb214b/sparkproxy-0.1.0.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/7b/c5/640b02048fe89121c76097ff7fb0bc39e4b4f7b6bcf4b94249fcd08671e5/lambkid-0.1.7.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [datashuttle]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [sparkproxy]: Timeout reached during download
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-09 09:49:13] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/6a/80/fe60fc2ea804a657cfc4016bd2bd07c9e8b32d41261162e131413f130354/nwb4fp-0.5.9.4.tar.gz
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 09:49:13] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/81/f3/c5b5d3441059dfc586310f74d6f79645ab58db08e3f00527f4c391cbf330/webwithpy-0.7.2.2.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [waylay-beta]: Downloading https://files.pythonhosted.org/packages/f6/15/db7aeeec7c6e548676b8d61d39026dab93446f3feefbe1d056ce3da34b4d/waylay-beta-0.7.1.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/29/da/8b846311149e15788eabe7d620f14b3cca975c1216bae3b0eef905193bea/sparkproxy-0.2.0.tar.gz
+[2024-04-09 09:49:13] INFO root fetch - processPackages [datashuttle]: Downloading https://files.pythonhosted.org/packages/a3/8e/6cf0e16aa7ee3b03d3d1f1bc5b7e4797a9d845475c2e983606ec1413a243/datashuttle-0.2.0.tar.gz
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-09 09:49:13] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-09 09:49:13] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [sparkproxy]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-09 09:49:14] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.1.0.tar.gz tmp/sparkproxy-0.2.0.tar.gz --markdown 20240409/s/sparkproxy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240409/p/piwiPre/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [waylay-beta]: Timeout reached during download
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [datashuttle]: Timeout reached during download
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.7.tar.gz tmp/lambkid-0.1.8.tar.gz --markdown 20240409/l/lambkid/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/d0/2d/de4b8fdc313901c6a7d6c6c9128dd61a357e37377abaa7fc7d60c099af62/webwithpy-0.7.4.tar.gz
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240409/r/richie/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/15/bb/a54b04044c6c66e5a471b087be8d8288fd568c3816d34e5fb90e78b38466/nwb4fp-0.5.9.5.tar.gz
+[2024-04-09 09:49:14] INFO root fetch - processPackages [waylay-beta]: Downloading https://files.pythonhosted.org/packages/78/8e/18b18f57131a26d8aa122b52c61c961be77a8117370a65f20b68717fd26a/waylay-beta-9.9.9b9.tar.gz
+[2024-04-09 09:49:14] INFO root fetch - processPackages [datashuttle]: Downloading https://files.pythonhosted.org/packages/cd/70/6e3c5f0e8b11aaf1dc61d8f49be62412af320fb4dc05cafc324ed4e51a3d/datashuttle-0.3.0.tar.gz
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.2.2.tar.gz tmp/webwithpy-0.7.4.tar.gz --markdown 20240409/w/webwithpy/0.7.2.2-0.7.4/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [datashuttle]: Skipping package: exceeds size limit 35857522>=10485760
+[2024-04-09 09:49:14] INFO root fetch - main [MainThread]: End processing [datashuttle] error
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-09 09:49:14] WARNING root fetch - processPackages [waylay-beta]: Timeout reached during download
+[2024-04-09 09:49:14] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.9.4.tar.gz tmp/nwb4fp-0.5.9.5.tar.gz --markdown 20240409/n/nwb4fp/0.5.9.4-0.5.9.5/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] INFO root fetch - processPackages [waylay-beta]: executing diffoscope
+[2024-04-09 09:49:14] INFO root fetch - processPackages [waylay-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-beta-0.7.1.tar.gz tmp/waylay-beta-9.9.9b9.tar.gz --markdown 20240409/w/waylay-beta/0.7.1-9.9.9b9/diff.md --exclude *.pyd
+[2024-04-09 09:49:14] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-09 09:49:14] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-09 09:49:14] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-09 09:49:14] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.7.tar.gz]
+[2024-04-09 09:49:14] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-09 09:49:14] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-09 09:49:15] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.1.0.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.2.0.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-09 09:49:15] INFO root fetch - processPackages [waylay-beta]: Remove: archive file [/home/abi/fetcher/tmp/waylay-beta-0.7.1.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - processPackages [waylay-beta]: Remove: archive file [/home/abi/fetcher/tmp/waylay-beta-9.9.9b9.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - main [MainThread]: End processing [waylay-beta]: success
+[2024-04-09 09:49:15] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.4.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.5.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-09 09:49:15] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.2.2.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.tar.gz]
+[2024-04-09 09:49:15] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-09 09:51:09] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-09 09:51:09] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-09 09:51:09] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-09 09:51:09] INFO root fetch - main [MainThread]: Store serial: [22679870]
