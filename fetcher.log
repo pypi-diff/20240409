@@ -20426,3 +20426,50 @@
 [2024-04-09 10:47:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip]
 [2024-04-09 10:47:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
 [2024-04-09 10:47:05] INFO root fetch - main [MainThread]: Store serial: [22680513]
+[2024-04-09 10:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680513]
+[2024-04-09 10:49:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 10:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nodoc
+[2024-04-09 10:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-xlibrary
+[2024-04-09 10:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hahomematic
+[2024-04-09 10:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-orbit-api
+[2024-04-09 10:49:14] INFO root fetch - processPackages [nodoc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:49:14] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.13] Old Version: [1.1.12]
+[2024-04-09 10:49:14] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-09 10:49:14] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 10:49:14] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-09 10:49:14] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/47/ac/1a4e620087f3df4c9dba185e07cf2064ec9211527541ae0e233dab4c2fdf/cloud_orbit_api-1.1.12.tar.gz
+[2024-04-09 10:49:14] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/5b/cc/7df8e507b13a78243e761c64fe38b6f85aa4fbd0730c2ff795054b209f3d/hahomematic-2024.4.1.tar.gz
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [hahomematic]: Timeout reached during download
+[2024-04-09 10:49:14] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/1b/8f/b74141d2005ef2a6a1fab6d96cad962620b38d991e34a6f7e6deda63aea5/robotframework-xlibrary-1.0.0.tar.gz
+[2024-04-09 10:49:14] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/c3/01/365275f65437bdcd49fb8054d4dd45304b5a0f8ee40ef9cdaf3d0fa5ad12/nodoc-1.0.9.tar.gz
+[2024-04-09 10:49:14] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/47/d6/56c780b1a3f3072598abebf2cb653aaccc463044f581af5cd8f641929558/hahomematic-2024.4.2.tar.gz
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 10:49:14] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/ed/b2/a4d29f781870f07a86cd27b3caec7b9ab224ca903e9bf8170a66e60c38d0/cloud_orbit_api-1.1.13.tar.gz
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:49:14] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-09 10:49:14] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.8.tar.gz tmp/nodoc-1.0.9.tar.gz --markdown 20240409/n/nodoc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [hahomematic]: Timeout reached during download
+[2024-04-09 10:49:14] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-09 10:49:14] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.1.tar.gz tmp/hahomematic-2024.4.2.tar.gz --markdown 20240409/h/hahomematic/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-09 10:49:14] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:49:14] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-09 10:49:14] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.12.tar.gz tmp/cloud_orbit_api-1.1.13.tar.gz --markdown 20240409/c/cloud-orbit-api/1.1.12-1.1.13/diff.md --exclude *.pyd
+[2024-04-09 10:49:14] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/66/23/f4d62a23e961c3a7f408dde7d6ed4c4c259a0db944d71becae718facc5e8/robotframework-xlibrary-1.0.1.tar.gz
+[2024-04-09 10:49:15] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 10:49:15] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-09 10:49:15] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-1.0.0.tar.gz tmp/robotframework-xlibrary-1.0.1.tar.gz --markdown 20240409/r/robotframework-xlibrary/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 10:49:15] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.12.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.13.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-09 10:49:15] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.9.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-09 10:49:15] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.0.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.1.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-09 10:49:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.1.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.2.tar.gz]
+[2024-04-09 10:49:15] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-09 10:49:15] INFO root fetch - main [MainThread]: Store serial: [22680526]
