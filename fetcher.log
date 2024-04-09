@@ -14201,3 +14201,39 @@
 [2024-04-09 06:24:24] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc2.tar.gz]
 [2024-04-09 06:24:24] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-09 06:24:24] INFO root fetch - main [MainThread]: Store serial: [22678192]
+[2024-04-09 06:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678192]
+[2024-04-09 06:26:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 06:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pure-ocean-breeze
+[2024-04-09 06:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-pybroker
+[2024-04-09 06:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myprayer
+[2024-04-09 06:26:33] INFO root fetch - processPackages [myprayer]: New version: [3.0.1] Old Version: [2.0.6]
+[2024-04-09 06:26:33] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-09 06:26:33] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.2.0] Old Version: [4.1.7]
+[2024-04-09 06:26:34] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/91/5a/5d37608e44ea69ff67feff9e5e76e2476cf68272baf99aefe49eb7d5b5fd/myprayer-2.0.6.tar.gz
+[2024-04-09 06:26:34] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2024-04-09 06:26:34] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/c5/5c/2495acfc520c1130d33c938ef1e5871b55904eed2aed7d9ec45256bf21c1/pure_ocean_breeze-4.1.7.tar.gz
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [myprayer]: Timeout reached during download
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [pure-ocean-breeze]: Timeout reached during download
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [lib-pybroker]: Timeout reached during download
+[2024-04-09 06:26:34] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/17/e9/c9bc565a06b19ffb6e635bd9549b5542dda01664f4b142b66c1f9b59a4a3/myprayer-3.0.1.tar.gz
+[2024-04-09 06:26:34] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/4a/57/0ee32c92ad8f64855d85649f7f9296b1ead58453f4bad009e8a9f1834bea/pure_ocean_breeze-4.2.0.tar.gz
+[2024-04-09 06:26:34] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [myprayer]: Timeout reached during download
+[2024-04-09 06:26:34] INFO root fetch - processPackages [myprayer]: executing diffoscope
+[2024-04-09 06:26:34] INFO root fetch - processPackages [myprayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myprayer-2.0.6.tar.gz tmp/myprayer-3.0.1.tar.gz --markdown 20240409/m/myprayer/2.0.6-3.0.1/diff.md --exclude *.pyd
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [lib-pybroker]: Timeout reached during download
+[2024-04-09 06:26:34] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2024-04-09 06:26:34] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20240409/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:26:34] WARNING root fetch - processPackages [pure-ocean-breeze]: Timeout reached during download
+[2024-04-09 06:26:34] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2024-04-09 06:26:34] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.1.7.tar.gz tmp/pure_ocean_breeze-4.2.0.tar.gz --markdown 20240409/p/pure-ocean-breeze/4.1.7-4.2.0/diff.md --exclude *.pyd
+[2024-04-09 06:26:35] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-2.0.6.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-3.0.1.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - main [MainThread]: End processing [myprayer]: success
+[2024-04-09 06:26:35] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2024-04-09 06:26:35] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.1.7.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.2.0.tar.gz]
+[2024-04-09 06:26:35] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2024-04-09 06:26:35] INFO root fetch - main [MainThread]: Store serial: [22678200]
