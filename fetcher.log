@@ -9606,3 +9606,17 @@
 [2024-04-09 04:29:55] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-jupyter-0.9.0.tar.gz]
 [2024-04-09 04:29:55] INFO root fetch - main [MainThread]: End processing [mkdocs-jupyter]: success
 [2024-04-09 04:29:55] INFO root fetch - main [MainThread]: Store serial: [22676777]
+[2024-04-09 04:32:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676777]
+[2024-04-09 04:32:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 04:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyegeria
+[2024-04-09 04:32:05] INFO root fetch - processPackages [pyegeria]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-09 04:32:05] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/69/de/e0267ab53eaf25ef6f082e163e2cda9fd14a40a14907399ef37555d5678f/pyegeria-0.3.0.tar.gz
+[2024-04-09 04:32:05] WARNING root fetch - processPackages [pyegeria]: Timeout reached during download
+[2024-04-09 04:32:05] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/53/5a/6713f3bdec241e3fee9049931a9cbbd6560dd94d718d5afde6b8d32ec21b/pyegeria-0.3.1.tar.gz
+[2024-04-09 04:32:06] WARNING root fetch - processPackages [pyegeria]: Timeout reached during download
+[2024-04-09 04:32:06] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-04-09 04:32:06] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.0.tar.gz tmp/pyegeria-0.3.1.tar.gz --markdown 20240409/p/pyegeria/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-09 04:32:06] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.0.tar.gz]
+[2024-04-09 04:32:06] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.1.tar.gz]
+[2024-04-09 04:32:06] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-04-09 04:32:06] INFO root fetch - main [MainThread]: Store serial: [22676780]
