@@ -9475,3 +9475,28 @@
 [2024-04-09 04:19:03] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240408.tar.gz]
 [2024-04-09 04:19:03] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-09 04:19:03] INFO root fetch - main [MainThread]: Store serial: [22676717]
+[2024-04-09 04:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676717]
+[2024-04-09 04:21:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmreader
+[2024-04-09 04:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nuon
+[2024-04-09 04:21:12] INFO root fetch - processPackages [nuon]: New version: [0.19.93] Old Version: [0.19.92]
+[2024-04-09 04:21:12] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/36/fd/57ff68b69fb90de4d03376b9b967a5a0412adb84b13c0fc8cb76a04d83d8/nuon-0.19.92.tar.gz
+[2024-04-09 04:21:12] INFO root fetch - processPackages [llmreader]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-09 04:21:12] WARNING root fetch - processPackages [nuon]: Timeout reached during download
+[2024-04-09 04:21:12] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/f6/63/96584bf914eb273f27c883957037cd8d1f1017eedcf660f709c4d39fb06c/llmreader-0.2.4.tar.gz
+[2024-04-09 04:21:12] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/ac/81/dd3026680059afc9a531209fd49195ad70f86f55b003b082537ca4b0a2c3/nuon-0.19.93.tar.gz
+[2024-04-09 04:21:12] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-09 04:21:12] WARNING root fetch - processPackages [nuon]: Timeout reached during download
+[2024-04-09 04:21:12] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-09 04:21:12] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.92.tar.gz tmp/nuon-0.19.93.tar.gz --markdown 20240409/n/nuon/0.19.92-0.19.93/diff.md --exclude *.pyd
+[2024-04-09 04:21:12] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/9d/ab/c0b09698fb612481e2a60386ebc5ea8b948ec660e8c9287377eeb2a6ac0c/llmreader-0.2.5.tar.gz
+[2024-04-09 04:21:12] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-09 04:21:12] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-09 04:21:12] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.4.tar.gz tmp/llmreader-0.2.5.tar.gz --markdown 20240409/l/llmreader/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-09 04:21:13] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.4.tar.gz]
+[2024-04-09 04:21:13] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.5.tar.gz]
+[2024-04-09 04:21:13] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-09 04:21:14] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.92.tar.gz]
+[2024-04-09 04:21:14] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.93.tar.gz]
+[2024-04-09 04:21:14] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-09 04:21:14] INFO root fetch - main [MainThread]: Store serial: [22676729]
