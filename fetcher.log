@@ -17564,3 +17564,78 @@
 [2024-04-09 09:08:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-09 09:08:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-09 09:08:31] INFO root fetch - main [MainThread]: Store serial: [22679429]
+[2024-04-09 09:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679429]
+[2024-04-09 09:10:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wifi-connection
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akeneo-connector
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: henryobj
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jacksung
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: punkweb-bb
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geovisio_cli
+[2024-04-09 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unbirthday
+[2024-04-09 09:10:39] WARNING root fetch - processPackages [punkweb-bb]: Skipping, unable to determine old version
+[2024-04-09 09:10:39] INFO root fetch - main [MainThread]: End processing [punkweb-bb] error
+[2024-04-09 09:10:39] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [wifi-connection]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [akeneo-connector]: Skipping, unable to determine old version
+[2024-04-09 09:10:40] INFO root fetch - main [MainThread]: End processing [akeneo-connector] error
+[2024-04-09 09:10:40] INFO root fetch - processPackages [geovisio_cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [unbirthday]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [henryobj]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [jacksung]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [wifi-connection]: Downloading https://files.pythonhosted.org/packages/7d/ed/b73e74ef7bd6a0a3faa7aa2b45f751de55916b524a3db3c9522fb32efa9e/wifi_connection-0.1.6.tar.gz
+[2024-04-09 09:10:40] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/ca/e9/e86e02305f0a8db887d9c90ddcb1b870af71229180b1a0ee355a5171eff6/unbirthday-1.0.tar.gz
+[2024-04-09 09:10:40] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/f6/88/49ec0a6599acc0dbbd5530723e0fabb4fdf2e1d46e3a159186de1b0e99b1/henryobj-0.2.1.tar.gz
+[2024-04-09 09:10:40] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a4/56/cda54b3c2cf89cf6687a224d31dc6162743f742e68a351f40bb34b91a323/geovisio_cli-0.3.8.tar.gz
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [tf-hub-nightly]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [henryobj]: Timeout reached during download
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [wifi-connection]: Timeout reached during download
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [tf-hub-nightly]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-09 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240409/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [jacksung]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-04-09 09:10:40] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240409/j/jacksung/0.0.2.98-0.0.2.99/diff.md --exclude *.pyd
+[2024-04-09 09:10:40] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/d4/21/1e82598ca8ab9b553492bb436ab77b6c9c9d3339712994692ea23656ee88/henryobj-0.2.2.tar.gz
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [geovisio_cli]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [wifi-connection]: Downloading https://files.pythonhosted.org/packages/fd/0a/b46291b27fbd7d1b4eb549365f6f6b0ec1bfa23df763b155f06ff922802c/wifi_connection-0.1.7.tar.gz
+[2024-04-09 09:10:40] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/f9/16/13d610e3f05fa106ac270f4ce13746390e06078a02c105ba92d067801a5b/unbirthday-1.0.1-py3-none-any.whl
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [henryobj]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [henryobj]: executing diffoscope
+[2024-04-09 09:10:40] INFO root fetch - processPackages [henryobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henryobj-0.2.1.tar.gz tmp/henryobj-0.2.2.tar.gz --markdown 20240409/h/henryobj/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 09:10:40] WARNING root fetch - processPackages [wifi-connection]: Timeout reached during download
+[2024-04-09 09:10:40] INFO root fetch - processPackages [wifi-connection]: executing diffoscope
+[2024-04-09 09:10:40] INFO root fetch - processPackages [wifi-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wifi_connection-0.1.6.tar.gz tmp/wifi_connection-0.1.7.tar.gz --markdown 20240409/w/wifi-connection/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-09 09:10:40] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/2f/0e/209293c33762da73cb92bc93b521883720bad9e5b2b3efd6271c3e5fc13e/geovisio_cli-0.3.9.tar.gz
+[2024-04-09 09:10:41] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-04-09 09:10:41] WARNING root fetch - processPackages [geovisio_cli]: Timeout reached during download
+[2024-04-09 09:10:41] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2024-04-09 09:10:41] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.3.8.tar.gz tmp/geovisio_cli-0.3.9.tar.gz --markdown 20240409/g/geovisio_cli/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 09:10:41] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:10:41] INFO root fetch - processPackages [unbirthday]: executing diffoscope
+[2024-04-09 09:10:41] INFO root fetch - processPackages [unbirthday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbirthday-1.0.tar.gz tmp/unbirthday-1.0.1-py3-none-any.whl.zip --markdown 20240409/u/unbirthday/1.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:10:41] INFO root fetch - processPackages [wifi-connection]: Remove: archive file [/home/abi/fetcher/tmp/wifi_connection-0.1.6.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - processPackages [wifi-connection]: Remove: archive file [/home/abi/fetcher/tmp/wifi_connection-0.1.7.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - main [MainThread]: End processing [wifi-connection]: success
+[2024-04-09 09:10:41] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.1.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.2.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - main [MainThread]: End processing [henryobj]: success
+[2024-04-09 09:10:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-09 09:10:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-09 09:10:41] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-09 09:10:41] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.tar.gz]
+[2024-04-09 09:10:41] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.1-py3-none-any.whl.zip]
+[2024-04-09 09:10:41] INFO root fetch - main [MainThread]: End processing [unbirthday]: success
+[2024-04-09 09:10:42] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.8.tar.gz]
+[2024-04-09 09:10:42] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.9.tar.gz]
+[2024-04-09 09:10:42] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2024-04-09 09:10:42] INFO root fetch - main [MainThread]: Store serial: [22679451]
