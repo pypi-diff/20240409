@@ -24215,3 +24215,61 @@
 [2024-04-09 12:37:03] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc9.tar.gz]
 [2024-04-09 12:37:03] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
 [2024-04-09 12:37:03] INFO root fetch - main [MainThread]: Store serial: [22681947]
+[2024-04-09 12:39:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681947]
+[2024-04-09 12:39:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prowler
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prowler-cloud
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dibs-cli
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tenzir-platform
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playwright
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llmstudio
+[2024-04-09 12:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-base-vat-optional-vies
+[2024-04-09 12:39:12] INFO root fetch - processPackages [prowler-cloud]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 12:39:12] INFO root fetch - processPackages [playwright]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-09 12:39:12] INFO root fetch - processPackages [prowler]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 12:39:12] INFO root fetch - processPackages [llmstudio]: New version: [0.3.4a0] Old Version: [0.3.3]
+[2024-04-09 12:39:12] WARNING root fetch - processPackages [dibs-cli]: Skipping, unable to determine old version
+[2024-04-09 12:39:12] INFO root fetch - main [MainThread]: End processing [dibs-cli] error
+[2024-04-09 12:39:12] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: New version: [12.0.1.0.2] Old Version: [12.0.1.0.1.99.dev8]
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [tenzir-platform]: Skipping, unable to determine old version
+[2024-04-09 12:39:13] INFO root fetch - main [MainThread]: End processing [tenzir-platform] error
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/3c/fe/1003cd628981bd26f39b6980ec5b628128326327d4379635290de95a4768/prowler_cloud-4.0.0.tar.gz
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/72/3e/aea117a74df11b8a0d2b5587d39c0ab314b2376301705bf5fc3cad0e9ee6/prowler-4.0.0.tar.gz
+[2024-04-09 12:39:13] INFO root fetch - processPackages [playwright]: Downloading https://files.pythonhosted.org/packages/e3/40/d00479d326a7f3bcf068a06934da13619aa1e2575194a45d36ee0fe8f869/playwright-1.9.1-py3-none-win_amd64.whl
+[2024-04-09 12:39:13] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Downloading https://files.pythonhosted.org/packages/b5/ff/67259624238759bc9a8a83e43866271799e3fac8685714dd5a794504ec6c/odoo12_addon_base_vat_optional_vies-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2024-04-09 12:39:13] INFO root fetch - processPackages [llmstudio]: Downloading https://files.pythonhosted.org/packages/49/10/20c2319f5a92b2ea7dd5b19f63cc7df96129bdebc72eb0ce4a6b145da9a7/llmstudio-0.3.3.tar.gz
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [prowler]: Timeout reached during download
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [prowler-cloud]: Timeout reached during download
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/12/d1/92243380f3e56e54d6aac68f3961bdc26d9904bce3385258dc002ffaea37/prowler-4.0.1.tar.gz
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/71/30/ebe8700b29ae95de014d31d0569bcfe7238623b4e04a8553613f00ae4cb5/prowler_cloud-4.0.1.tar.gz
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Timeout reached during download
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [llmstudio]: Timeout reached during download
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [playwright]: Skipping package: exceeds size limit 39899667>=10485760
+[2024-04-09 12:39:13] INFO root fetch - main [MainThread]: End processing [playwright] error
+[2024-04-09 12:39:13] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Downloading https://files.pythonhosted.org/packages/ef/2f/15de71c8531e1ea72ae7168c4fb77c17af37d4ec91439afa8f885b4d4585/odoo12_addon_base_vat_optional_vies-12.0.1.0.2-py3-none-any.whl
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [prowler]: Timeout reached during download
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-4.0.0.tar.gz tmp/prowler-4.0.1.tar.gz --markdown 20240409/p/prowler/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 12:39:13] INFO root fetch - processPackages [llmstudio]: Downloading https://files.pythonhosted.org/packages/02/1a/1d393a275e1e65c76d3984a7f94fb67c436e5d7902a0933412e903d84164/llmstudio-0.3.4a0.tar.gz
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [prowler-cloud]: Timeout reached during download
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-04-09 12:39:13] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-4.0.0.tar.gz tmp/prowler_cloud-4.0.1.tar.gz --markdown 20240409/p/prowler-cloud/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [llmstudio]: Timeout reached during download
+[2024-04-09 12:39:13] INFO root fetch - processPackages [llmstudio]: executing diffoscope
+[2024-04-09 12:39:13] INFO root fetch - processPackages [llmstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmstudio-0.3.3.tar.gz tmp/llmstudio-0.3.4a0.tar.gz --markdown 20240409/l/llmstudio/0.3.3-0.3.4a0/diff.md --exclude *.pyd
+[2024-04-09 12:39:13] WARNING root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Timeout reached during download
+[2024-04-09 12:39:13] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: executing diffoscope
+[2024-04-09 12:39:13] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_vat_optional_vies-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_base_vat_optional_vies-12.0.1.0.2-py3-none-any.whl.zip --markdown 20240409/o/odoo12-addon-base-vat-optional-vies/12.0.1.0.1.99.dev8-12.0.1.0.2/diff.md --exclude *.pyd
+[2024-04-09 12:39:14] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_vat_optional_vies-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2024-04-09 12:39:14] INFO root fetch - processPackages [odoo12-addon-base-vat-optional-vies]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_vat_optional_vies-12.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-09 12:39:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-vat-optional-vies]: success
+[2024-04-09 12:39:14] INFO root fetch - processPackages [llmstudio]: Remove: archive file [/home/abi/fetcher/tmp/llmstudio-0.3.3.tar.gz]
+[2024-04-09 12:39:14] INFO root fetch - processPackages [llmstudio]: Remove: archive file [/home/abi/fetcher/tmp/llmstudio-0.3.4a0.tar.gz]
+[2024-04-09 12:39:14] INFO root fetch - main [MainThread]: End processing [llmstudio]: success
+[2024-04-09 12:39:22] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.0.tar.gz]
+[2024-04-09 12:39:22] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.1.tar.gz]
+[2024-04-09 12:39:22] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-04-09 12:39:22] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.0.tar.gz]
+[2024-04-09 12:39:22] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
+[2024-04-09 12:39:22] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-04-09 12:39:22] INFO root fetch - main [MainThread]: Store serial: [22681979]
