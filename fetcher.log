@@ -22374,3 +22374,86 @@
 [2024-04-09 11:39:32] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.7.1.tar.gz]
 [2024-04-09 11:39:32] INFO root fetch - main [MainThread]: End processing [arg-services]: success
 [2024-04-09 11:39:32] INFO root fetch - main [MainThread]: Store serial: [22681319]
+[2024-04-09 11:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681319]
+[2024-04-09 11:41:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airportsdata
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltares_datasuite
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BCEmbedding
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celitech-test-sdk
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unifyai
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-hcloud
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawlab-ai
+[2024-04-09 11:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: haystack-ai
+[2024-04-09 11:41:41] INFO root fetch - processPackages [unifyai]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [haystack-ai]: New version: [2.0.1rc1] Old Version: [2.0.0rc1]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [airportsdata]: New version: [20240401] Old Version: [20240316.1]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/46/29/64f738db70ab223f3d41c7d8f80567cf577e420833086651fe36f59e9064/unifyai-0.7.0.tar.gz
+[2024-04-09 11:41:41] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-09 11:41:41] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [deltares_datasuite]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-09 11:41:41] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/90/88/81c837e059c00ec4c820156eec3ec546bb67b638f6bfc4f289ed68283955/haystack_ai-2.0.0rc1.tar.gz
+[2024-04-09 11:41:41] INFO root fetch - processPackages [BCEmbedding]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 11:41:41] WARNING root fetch - processPackages [celitech-test-sdk]: Skipping, unable to determine old version
+[2024-04-09 11:41:41] INFO root fetch - main [MainThread]: End processing [celitech-test-sdk] error
+[2024-04-09 11:41:42] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/e2/b5/63c7671cae2f39045aa873ff63776623322723beb0f05b74a292b5a7ace9/airportsdata-20240316.1.tar.gz
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [unifyai]: Timeout reached during download
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [haystack-ai]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [deltares_datasuite]: Downloading https://files.pythonhosted.org/packages/bc/6e/938fa1e481ac9f9427e113217062360d8cccdca64ff7b31b6ed11fc60682/deltares_datasuite-0.4.0.tar.gz
+[2024-04-09 11:41:42] INFO root fetch - processPackages [BCEmbedding]: Downloading https://files.pythonhosted.org/packages/54/31/89b3ff2ca1f4020a1ca7afdae96ccb0edca77747670e8c5465d9a1e0616a/BCEmbedding-0.1.3-py3-none-any.whl
+[2024-04-09 11:41:42] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/60/30/207557b87cdfedaffda338c15c903ba5a4ab546e5f741414903a09477526/crawlab-ai-0.0.3.tar.gz
+[2024-04-09 11:41:42] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-09 11:41:42] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/2b/14/35ad2cf31b486b02498dc3bb6ff8d82a71f88524d76b60a451933e5e2e8f/haystack_ai-2.0.1rc1.tar.gz
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [BCEmbedding]: Timeout reached during download
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [crawlab-ai]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/2b/8b/23707bbf39f1f4511eb6f232c11915bda80d38acdc013b4665683a21b27b/unifyai-0.7.1.tar.gz
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [airportsdata]: Timeout reached during download
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [deltares_datasuite]: Timeout reached during download
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240409/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [haystack-ai]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [haystack-ai]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [haystack-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_ai-2.0.0rc1.tar.gz tmp/haystack_ai-2.0.1rc1.tar.gz --markdown 20240409/h/haystack-ai/2.0.0rc1-2.0.1rc1/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [unifyai]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.7.0.tar.gz tmp/unifyai-0.7.1.tar.gz --markdown 20240409/u/unifyai/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] INFO root fetch - processPackages [BCEmbedding]: Downloading https://files.pythonhosted.org/packages/83/4c/d47147ad7da902b768909f611cf2700e29811c9a840fb18e773ffcee7b7a/BCEmbedding-0.1.4-py3-none-any.whl
+[2024-04-09 11:41:42] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/16/67/c186681b2040470cb3081e447d88f5bfeb18eb94593beea10f2f9687477c/crawlab-ai-0.0.4.tar.gz
+[2024-04-09 11:41:42] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/d0/22/227a5d50907617385be6968511710d71848bb973f58717e0cb1a40d53cbf/airportsdata-20240401.tar.gz
+[2024-04-09 11:41:42] INFO root fetch - processPackages [deltares_datasuite]: Downloading https://files.pythonhosted.org/packages/a4/2b/70db3e93fd5cb03c155f9ca6123a71136b44794addb76ced936da109351b/deltares_datasuite-0.5.0.tar.gz
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [BCEmbedding]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [BCEmbedding]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [BCEmbedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BCEmbedding-0.1.3-py3-none-any.whl.zip tmp/BCEmbedding-0.1.4-py3-none-any.whl.zip --markdown 20240409/B/BCEmbedding/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [crawlab-ai]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.3.tar.gz tmp/crawlab-ai-0.0.4.tar.gz --markdown 20240409/c/crawlab-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [airportsdata]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20240316.1.tar.gz tmp/airportsdata-20240401.tar.gz --markdown 20240409/a/airportsdata/20240316.1-20240401/diff.md --exclude *.pyd
+[2024-04-09 11:41:42] WARNING root fetch - processPackages [deltares_datasuite]: Timeout reached during download
+[2024-04-09 11:41:42] INFO root fetch - processPackages [deltares_datasuite]: executing diffoscope
+[2024-04-09 11:41:42] INFO root fetch - processPackages [deltares_datasuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltares_datasuite-0.4.0.tar.gz tmp/deltares_datasuite-0.5.0.tar.gz --markdown 20240409/d/deltares_datasuite/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-09 11:41:43] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.7.0.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.7.1.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-09 11:41:43] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.3.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.4.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-09 11:41:43] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-09 11:41:43] INFO root fetch - processPackages [BCEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/BCEmbedding-0.1.3-py3-none-any.whl.zip]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [BCEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/BCEmbedding-0.1.4-py3-none-any.whl.zip]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [BCEmbedding]: success
+[2024-04-09 11:41:43] INFO root fetch - processPackages [deltares_datasuite]: Remove: archive file [/home/abi/fetcher/tmp/deltares_datasuite-0.4.0.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [deltares_datasuite]: Remove: archive file [/home/abi/fetcher/tmp/deltares_datasuite-0.5.0.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [deltares_datasuite]: success
+[2024-04-09 11:41:43] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.0.0rc1.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.0.1rc1.tar.gz]
+[2024-04-09 11:41:43] INFO root fetch - main [MainThread]: End processing [haystack-ai]: success
+[2024-04-09 11:41:45] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240316.1.tar.gz]
+[2024-04-09 11:41:45] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240401.tar.gz]
+[2024-04-09 11:41:45] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2024-04-09 11:41:45] INFO root fetch - main [MainThread]: Store serial: [22681347]
