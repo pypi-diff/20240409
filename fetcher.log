@@ -3811,3 +3811,17 @@
 [2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
 [2024-04-09 02:50:16] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
 [2024-04-09 02:50:16] INFO root fetch - main [MainThread]: Store serial: [22675081]
+[2024-04-09 02:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675081]
+[2024-04-09 02:52:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 02:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2024-04-09 02:52:26] INFO root fetch - processPackages [vector-vault]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-04-09 02:52:26] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/80/6e/b65a668b8e2ed1bdde1dd7a4bba954a0c34545cd75fc597a0fa342ee9a4a/vector_vault-4.3.8.tar.gz
+[2024-04-09 02:52:26] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/cf/ee/1f533a260a3edda205190db8ee4512f241f4912686625fb86840e3abe927/vector_vault-4.3.9.tar.gz
+[2024-04-09 02:52:27] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.3.8.tar.gz tmp/vector_vault-4.3.9.tar.gz --markdown 20240409/v/vector-vault/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.8.tar.gz]
+[2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.9.tar.gz]
+[2024-04-09 02:52:27] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-09 02:52:27] INFO root fetch - main [MainThread]: Store serial: [22675089]
