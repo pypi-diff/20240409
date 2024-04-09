@@ -9784,3 +9784,59 @@
 [2024-04-09 04:44:15] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.82.0.tar.gz]
 [2024-04-09 04:44:15] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-04-09 04:44:15] INFO root fetch - main [MainThread]: Store serial: [22676841]
+[2024-04-09 04:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676841]
+[2024-04-09 04:46:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 04:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-invoice-report-due-list
+[2024-04-09 04:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: degirum
+[2024-04-09 04:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packyak-aws-cdk
+[2024-04-09 04:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-transaction-mixin
+[2024-04-09 04:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packyak-aws-cdk
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: New version: [14.0.4.6.0] Old Version: [14.0.4.5.0]
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/66/bb/e5fcf4dc5efa6d636a1cc3389249174e1be1cea57a1d9cbbad677784a92a/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: New version: [14.0.2.0.1.dev4] Old Version: [14.0.2.0.1.dev3]
+[2024-04-09 04:46:24] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 04:46:24] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 04:46:24] INFO root fetch - processPackages [degirum]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-09 04:46:24] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Timeout reached during download
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Downloading https://files.pythonhosted.org/packages/a0/01/707d3df9d29d3799a03bb7300e84c918128f9a41b946f31a3ade762ab804/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev3-py3-none-any.whl
+[2024-04-09 04:46:24] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-04-09 04:46:24] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-04-09 04:46:24] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/67/e5/d59ae59724f47bafc06b5e72dbe8acedeb31dbde516fcd913ca2cc3e9f09/degirum-0.9.5-cp39-cp39-win_amd64.whl
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/4e/e6/0d147b3a8bd98a8f2fe6da2d56cca6d247a56c4f1e0be910d8938f3e7302/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl
+[2024-04-09 04:46:24] WARNING root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Timeout reached during download
+[2024-04-09 04:46:24] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Timeout reached during download
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: executing diffoscope
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl.zip --markdown 20240409/o/odoo14-addon-ssi-transaction-mixin/14.0.4.5.0-14.0.4.6.0/diff.md --exclude *.pyd
+[2024-04-09 04:46:24] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 04:46:24] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 04:46:24] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Downloading https://files.pythonhosted.org/packages/c0/50/6ffb85304cf8ac1574fce789fd0ec0bffa9fc7c5d04dac367762338a006a/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev4-py3-none-any.whl
+[2024-04-09 04:46:25] WARNING root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Timeout reached during download
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: executing diffoscope
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev4-py3-none-any.whl.zip --markdown 20240409/o/odoo14-addon-account-invoice-report-due-list/14.0.2.0.1.dev3-14.0.2.0.1.dev4/diff.md --exclude *.pyd
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl.zip]
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl.zip]
+[2024-04-09 04:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-mixin]: success
+[2024-04-09 04:46:25] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240409/p/packyak-aws-cdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 04:46:25] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-04-09 04:46:25] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240409/p/packyak-aws-cdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev3-py3-none-any.whl.zip]
+[2024-04-09 04:46:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-report-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_report_due_list-14.0.2.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-09 04:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-report-due-list]: success
+[2024-04-09 04:46:26] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-04-09 04:46:26] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-04-09 04:46:26] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-04-09 04:46:26] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-04-09 04:46:26] WARNING root fetch - processPackages [degirum]: Timeout reached during download
+[2024-04-09 04:46:26] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/93/c8/d4506b3d625c38d620b14f05a19625d7e169c6a89e1b58deeed272f36855/degirum-0.9.6-cp39-cp39-win_amd64.whl
+[2024-04-09 04:46:28] WARNING root fetch - processPackages [degirum]: Timeout reached during download
+[2024-04-09 04:46:28] INFO root fetch - processPackages [degirum]: executing diffoscope
+[2024-04-09 04:46:28] INFO root fetch - processPackages [degirum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum-0.9.5-cp39-cp39-win_amd64.whl.zip tmp/degirum-0.9.6-cp39-cp39-win_amd64.whl.zip --markdown 20240409/d/degirum/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-09 04:46:40] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 04:46:40] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 04:46:40] INFO root fetch - main [MainThread]: End processing [degirum]: success
+[2024-04-09 04:46:40] INFO root fetch - main [MainThread]: Store serial: [22676869]
