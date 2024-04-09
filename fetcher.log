@@ -3825,3 +3825,42 @@
 [2024-04-09 02:52:27] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.9.tar.gz]
 [2024-04-09 02:52:27] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2024-04-09 02:52:27] INFO root fetch - main [MainThread]: Store serial: [22675089]
+[2024-04-09 02:54:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675089]
+[2024-04-09 02:54:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvector
+[2024-04-09 02:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-04-09 02:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mythic-container
+[2024-04-09 02:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cozmoapp
+[2024-04-09 02:54:36] INFO root fetch - processPackages [openvector]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 02:54:36] INFO root fetch - processPackages [mythic-container]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [cozmoapp]: Skipping, unable to determine old version
+[2024-04-09 02:54:36] INFO root fetch - main [MainThread]: End processing [cozmoapp] error
+[2024-04-09 02:54:36] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/e0/37/6c05d2e7ff767144f47f781f192846d857bced0f4c8476bb818f0574742a/mythic_container-0.4.8.tar.gz
+[2024-04-09 02:54:36] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-09 02:54:36] INFO root fetch - processPackages [openvector]: Downloading https://files.pythonhosted.org/packages/51/c9/17ec085d2b7505a322ca56d33eeebbafddc8bb308d0642327a86223e13a5/openvector-0.0.1.tar.gz
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [mythic-container]: Timeout reached during download
+[2024-04-09 02:54:36] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/75/7e/a412b90d5435993a2d8182d6f672f0e5c77e4bc878bbb74b6573149f8ce4/mythic_container-0.4.9.tar.gz
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [openvector]: Timeout reached during download
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [mythic-container]: Timeout reached during download
+[2024-04-09 02:54:36] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-09 02:54:36] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2024-04-09 02:54:36] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.4.8.tar.gz tmp/mythic_container-0.4.9.tar.gz --markdown 20240409/m/mythic-container/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 02:54:36] INFO root fetch - processPackages [openvector]: Downloading https://files.pythonhosted.org/packages/c7/8a/c95b46b5f129629ff672477d5d345f159041ff7995e8ca04f89e9a973fef/openvector-0.0.2.tar.gz
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [openvector]: Timeout reached during download
+[2024-04-09 02:54:36] INFO root fetch - processPackages [openvector]: executing diffoscope
+[2024-04-09 02:54:36] INFO root fetch - processPackages [openvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvector-0.0.1.tar.gz tmp/openvector-0.0.2.tar.gz --markdown 20240409/o/openvector/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 02:54:36] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-09 02:54:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-09 02:54:37] INFO root fetch - processPackages [mythic-container]: Remove: archive file [/home/abi/fetcher/tmp/mythic_container-0.4.8.tar.gz]
+[2024-04-09 02:54:37] INFO root fetch - processPackages [mythic-container]: Remove: archive file [/home/abi/fetcher/tmp/mythic_container-0.4.9.tar.gz]
+[2024-04-09 02:54:37] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2024-04-09 02:54:37] INFO root fetch - processPackages [openvector]: Remove: archive file [/home/abi/fetcher/tmp/openvector-0.0.1.tar.gz]
+[2024-04-09 02:54:37] INFO root fetch - processPackages [openvector]: Remove: archive file [/home/abi/fetcher/tmp/openvector-0.0.2.tar.gz]
+[2024-04-09 02:54:37] INFO root fetch - main [MainThread]: End processing [openvector]: success
+[2024-04-09 02:54:37] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-09 02:54:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-09 02:54:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240409/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:54:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-09 02:54:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-09 02:54:38] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-09 02:54:38] INFO root fetch - main [MainThread]: Store serial: [22675100]
