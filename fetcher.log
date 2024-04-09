@@ -8578,3 +8578,61 @@
 [2024-04-09 03:23:51] INFO root fetch - processPackages [py2saber]: Remove: archive file [/home/abi/fetcher/tmp/py2saber-0.12.2.tar.gz]
 [2024-04-09 03:23:51] INFO root fetch - main [MainThread]: End processing [py2saber]: success
 [2024-04-09 03:23:51] INFO root fetch - main [MainThread]: Store serial: [22676155]
+[2024-04-09 03:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676155]
+[2024-04-09 03:26:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 03:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-media
+[2024-04-09 03:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nhmail
+[2024-04-09 03:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyi18next
+[2024-04-09 03:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediff
+[2024-04-09 03:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediffx
+[2024-04-09 03:26:01] INFO root fetch - processPackages [nhmail]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 03:26:01] INFO root fetch - processPackages [pyi18next]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 03:26:01] INFO root fetch - processPackages [ovos-media]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404090125] Old Version: [0.13.0.dev202404080125]
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/0a/e2/9d03d89f1ae11c38e7d1ad1606ca45d372811960a42b50dc4d9f548a5b0a/onediffx-0.13.0.dev202404080125.tar.gz
+[2024-04-09 03:26:01] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/55/1f/794e4796c326437aa2051b23cf0804cd2ee29bf15ff97158d3ddaf2259ae/nhmail-1.0.0.tar.gz
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-09 03:26:01] INFO root fetch - processPackages [pyi18next]: Downloading https://files.pythonhosted.org/packages/82/f8/d6b8446331dc3c2d291725d905318a01c0e5cf6e711bcc34cc5e6b55665a/pyi18next-0.0.1.tar.gz
+[2024-04-09 03:26:01] INFO root fetch - processPackages [ovos-media]: Downloading https://files.pythonhosted.org/packages/09/f3/74a7a56936254db3b0698296f8617b0b7cc5557cb4872fab3e409b9891f3/ovos_media-0.0.1a8-py3-none-any.whl
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [nhmail]: Timeout reached during download
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [pyi18next]: Timeout reached during download
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [ovos-media]: Timeout reached during download
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/f3/73/e226c9345fecfc24377cc8ad32ac2fdc2ca35d2c123f11e19a26ffb23eb5/onediffx-0.13.0.dev202404090125.tar.gz
+[2024-04-09 03:26:01] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/cf/75/c51f7aebdf9566bd61c8a2c70c4a7e6202dfe20da6e67d09e3556e2405ae/nhmail-1.0.1.tar.gz
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404080125.tar.gz tmp/onediffx-0.13.0.dev202404090125.tar.gz --markdown 20240409/o/onediffx/0.13.0.dev202404080125-0.13.0.dev202404090125/diff.md --exclude *.pyd
+[2024-04-09 03:26:01] INFO root fetch - processPackages [pyi18next]: Downloading https://files.pythonhosted.org/packages/64/56/9311ef73a4b8bcf75a36c3be3a0a7978d491ffc57b19eb5c40278b6d7cb4/pyi18next-0.0.2.tar.gz
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [nhmail]: Timeout reached during download
+[2024-04-09 03:26:01] INFO root fetch - processPackages [nhmail]: executing diffoscope
+[2024-04-09 03:26:01] INFO root fetch - processPackages [nhmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhmail-1.0.0.tar.gz tmp/nhmail-1.0.1.tar.gz --markdown 20240409/n/nhmail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-09 03:26:01] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240409/o/onediff/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 03:26:01] INFO root fetch - processPackages [ovos-media]: Downloading https://files.pythonhosted.org/packages/03/73/9c012773ec5cc28d0030e4cdb8e46009ac6440e34248ede5625cf1ce74de/ovos_media-0.0.1a9-py3-none-any.whl
+[2024-04-09 03:26:01] WARNING root fetch - processPackages [pyi18next]: Timeout reached during download
+[2024-04-09 03:26:01] INFO root fetch - processPackages [pyi18next]: executing diffoscope
+[2024-04-09 03:26:01] INFO root fetch - processPackages [pyi18next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyi18next-0.0.1.tar.gz tmp/pyi18next-0.0.2.tar.gz --markdown 20240409/p/pyi18next/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 03:26:02] WARNING root fetch - processPackages [ovos-media]: Timeout reached during download
+[2024-04-09 03:26:02] INFO root fetch - processPackages [ovos-media]: executing diffoscope
+[2024-04-09 03:26:02] INFO root fetch - processPackages [ovos-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_media-0.0.1a8-py3-none-any.whl.zip tmp/ovos_media-0.0.1a9-py3-none-any.whl.zip --markdown 20240409/o/ovos-media/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2024-04-09 03:26:02] INFO root fetch - processPackages [pyi18next]: Remove: archive file [/home/abi/fetcher/tmp/pyi18next-0.0.1.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - processPackages [pyi18next]: Remove: archive file [/home/abi/fetcher/tmp/pyi18next-0.0.2.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: End processing [pyi18next]: success
+[2024-04-09 03:26:02] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-09 03:26:02] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-09 03:26:02] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.0.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.1.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: End processing [nhmail]: success
+[2024-04-09 03:26:02] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404080125.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404090125.tar.gz]
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-09 03:26:02] INFO root fetch - processPackages [ovos-media]: Remove: archive file [/home/abi/fetcher/tmp/ovos_media-0.0.1a8-py3-none-any.whl.zip]
+[2024-04-09 03:26:02] INFO root fetch - processPackages [ovos-media]: Remove: archive file [/home/abi/fetcher/tmp/ovos_media-0.0.1a9-py3-none-any.whl.zip]
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: End processing [ovos-media]: success
+[2024-04-09 03:26:02] INFO root fetch - main [MainThread]: Store serial: [22676231]
