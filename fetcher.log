@@ -23284,3 +23284,50 @@
 [2024-04-09 12:04:03] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.5.tar.gz]
 [2024-04-09 12:04:03] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
 [2024-04-09 12:04:03] INFO root fetch - main [MainThread]: Store serial: [22681634]
+[2024-04-09 12:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681634]
+[2024-04-09 12:06:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 12:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-ai-python
+[2024-04-09 12:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pfx
+[2024-04-09 12:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataTransformationsBertas
+[2024-04-09 12:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cogflow
+[2024-04-09 12:06:12] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-09 12:06:12] INFO root fetch - processPackages [cogflow]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-09 12:06:12] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-09 12:06:12] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/33/d5/d429439a81c7eabf64a83e6a7021a43afdb83ee6bfe0fb82f35f788a7e5f/datatransformationsbertas-0.7.4.tar.gz
+[2024-04-09 12:06:12] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 12:06:12] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/c2/d7/d30e806c14a7de1d4a5077bb8bc732a7eb3c75e99fe5736ffdc626491064/cogflow-1.7.1.tar.gz
+[2024-04-09 12:06:12] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-09 12:06:12] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:06:12] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 12:06:12] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-09 12:06:12] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-09 12:06:12] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-09 12:06:12] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/c6/3d/c3374879257ab847315312b0dd1cdf48bcddfa82a7d6a47532d1ecd72c8e/cogflow-1.7.2.tar.gz
+[2024-04-09 12:06:12] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/82/07/784d2089e18c9f182db7a92f8b7f30ed7d7ac65e20d0f8904467540eb77f/datatransformationsbertas-0.7.5.tar.gz
+[2024-04-09 12:06:12] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-09 12:06:12] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-09 12:06:12] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-09 12:06:12] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240409/d/django-pfx/1.4.dev6-1.4.dev8/diff.md --exclude *.pyd
+[2024-04-09 12:06:13] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:06:13] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-09 12:06:13] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.7.1.tar.gz tmp/cogflow-1.7.2.tar.gz --markdown 20240409/c/cogflow/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2024-04-09 12:06:13] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 12:06:13] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 12:06:13] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.7.4.tar.gz tmp/datatransformationsbertas-0.7.5.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-09 12:06:13] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-09 12:06:13] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-09 12:06:13] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-09 12:06:13] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240409/s/spark-ai-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 12:06:13] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.7.1.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.7.2.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-09 12:06:13] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.4.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.5.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 12:06:13] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-09 12:06:13] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-09 12:06:14] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-09 12:06:14] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-09 12:06:14] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-09 12:06:14] INFO root fetch - main [MainThread]: Store serial: [22681647]
