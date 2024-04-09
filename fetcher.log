@@ -20175,3 +20175,94 @@
 [2024-04-09 10:40:22] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.4.tar.gz]
 [2024-04-09 10:40:22] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
 [2024-04-09 10:40:22] INFO root fetch - main [MainThread]: Store serial: [22680409]
+[2024-04-09 10:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680409]
+[2024-04-09 10:42:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-code-editor
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memium
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimic-cxr-jpg-loader
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mofapy2
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuzu
+[2024-04-09 10:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csvinsight
+[2024-04-09 10:42:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [aio-code-editor]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [phdu]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [mofapy2]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [memium]: New version: [0.7.0] Old Version: [0.15.0]
+[2024-04-09 10:42:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/c2/51/984a86da58f6bc9571d0de4b8a3496b2506295cd0971d12ff86f081dea38/pyrt_lib_rasmusklitgaard-0.1.0.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/5e/82/bafd69178706e05a4081a8efe1427d5e7fc6ddc9e157134184f29fb04849/aio_code_editor-0.7.0.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/84/69/8f19c67983aa3325f62f9bee20adf85fbaeb4f7dd1358c51be46ecaab520/phdu-2.3.5.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fa/ff/4af98fccfdf1938d3969ca49d52576d2858e4425725e85e84a82dc858cb1/kuzu-0.3.3.dev8.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [csvinsight]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/65/04/9d2dd8828f75f22a04a463eaaa6470244aae19c6fcbb16e71624b01f3bb4/memium-0.15.0.tar.gz
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: Downloading https://files.pythonhosted.org/packages/2e/fb/ee17bf26c24271f0668d09ef1291eac1001fbe8927ab76eeb62861129478/mimic_cxr_jpg_loader-0.0.5.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [mofapy2]: Downloading https://files.pythonhosted.org/packages/56/e2/921e21ef2cdeb42d8b0003010fbbbcd2c7862d408b4af4297e9fd3dff263/mofapy2-0.7.0.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/18/2f/fa26bd1ce3fd264df4e25d13c059da7922ac6a18fc35de812fad5d362b7c/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz
+[2024-04-09 10:42:33] INFO root fetch - processPackages [csvinsight]: Downloading https://files.pythonhosted.org/packages/2f/1a/5a05b5f7eab7ea5a7136c0add0f6331e5b7aa2c8a4146f660b51c877dfba/csvinsight-0.3.3.tar.gz
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [mimic-cxr-jpg-loader]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5c/15/3963142b07652cb150bf6285bf872b4ef59a4828172d8d23a1a44a6166d2/phdu-2.3.6.tar.gz
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-04-09 10:42:33] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.1.0.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz --markdown 20240409/p/pyrt-lib-rasmusklitgaard/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 10:42:33] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/36/a2/c4e9d2c35ae6fc1710543da657752c350ca81e512484c911381f582aead6/aio_code_editor-0.7.1.tar.gz
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [csvinsight]: Timeout reached during download
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-09 10:42:33] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.5.tar.gz tmp/phdu-2.3.6.tar.gz --markdown 20240409/p/phdu/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [mofapy2]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: Downloading https://files.pythonhosted.org/packages/ac/0c/cafbdbdcfc152201f823c3aee03902a469f35c10ee1db0220715240f4824/mimic_cxr_jpg_loader-0.0.6.tar.gz
+[2024-04-09 10:42:33] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 10:42:33] INFO root fetch - processPackages [aio-code-editor]: executing diffoscope
+[2024-04-09 10:42:33] INFO root fetch - processPackages [aio-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_code_editor-0.7.0.tar.gz tmp/aio_code_editor-0.7.1.tar.gz --markdown 20240409/a/aio-code-editor/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 10:42:33] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/8a/a3/a3f5e0b58a853724e800a65c85c0df00b7d5138ea7cbb3db40d329c5f3d3/memium-0.7.0.tar.gz
+[2024-04-09 10:42:34] WARNING root fetch - processPackages [mimic-cxr-jpg-loader]: Timeout reached during download
+[2024-04-09 10:42:34] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: executing diffoscope
+[2024-04-09 10:42:34] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimic_cxr_jpg_loader-0.0.5.tar.gz tmp/mimic_cxr_jpg_loader-0.0.6.tar.gz --markdown 20240409/m/mimic-cxr-jpg-loader/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 10:42:34] INFO root fetch - processPackages [csvinsight]: Downloading https://files.pythonhosted.org/packages/c3/f4/e7c8ea14384b7ab535217a432f5cf10fbdc460f464902bcda405cd38fe5e/csvinsight-0.4.0-py2.py3-none-any.whl
+[2024-04-09 10:42:34] INFO root fetch - processPackages [mofapy2]: Downloading https://files.pythonhosted.org/packages/6f/cd/84e7073f9e2d9600cde97a1ec0448a5ea27cbe2192b7168c061fe57d200f/mofapy2-0.7.1.tar.gz
+[2024-04-09 10:42:34] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 10:42:34] INFO root fetch - processPackages [memium]: executing diffoscope
+[2024-04-09 10:42:34] INFO root fetch - processPackages [memium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memium-0.15.0.tar.gz tmp/memium-0.7.0.tar.gz --markdown 20240409/m/memium/0.15.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 10:42:34] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.0.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.1.1.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-04-09 10:42:34] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.5.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.6.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-09 10:42:34] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.7.0.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.7.1.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - main [MainThread]: End processing [aio-code-editor]: success
+[2024-04-09 10:42:34] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: Remove: archive file [/home/abi/fetcher/tmp/mimic_cxr_jpg_loader-0.0.5.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - processPackages [mimic-cxr-jpg-loader]: Remove: archive file [/home/abi/fetcher/tmp/mimic_cxr_jpg_loader-0.0.6.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - main [MainThread]: End processing [mimic-cxr-jpg-loader]: success
+[2024-04-09 10:42:34] WARNING root fetch - processPackages [csvinsight]: Timeout reached during download
+[2024-04-09 10:42:34] INFO root fetch - processPackages [csvinsight]: executing diffoscope
+[2024-04-09 10:42:34] INFO root fetch - processPackages [csvinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvinsight-0.3.3.tar.gz tmp/csvinsight-0.4.0-py2.py3-none-any.whl.zip --markdown 20240409/c/csvinsight/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:42:34] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.15.0.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.7.0.tar.gz]
+[2024-04-09 10:42:34] INFO root fetch - main [MainThread]: End processing [memium]: success
+[2024-04-09 10:42:35] INFO root fetch - processPackages [csvinsight]: Remove: archive file [/home/abi/fetcher/tmp/csvinsight-0.3.3.tar.gz]
+[2024-04-09 10:42:35] INFO root fetch - processPackages [csvinsight]: Remove: archive file [/home/abi/fetcher/tmp/csvinsight-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-09 10:42:35] INFO root fetch - main [MainThread]: End processing [csvinsight]: success
+[2024-04-09 10:42:36] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-09 10:42:36] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a2/67/22a60ceaa7cc3d03784a4c12db350f0f9d0b05181256e6007a55f7308e73/kuzu-0.3.3.dev9.tar.gz
+[2024-04-09 10:42:36] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-09 10:42:36] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-09 10:42:36] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev8.tar.gz tmp/kuzu-0.3.3.dev9.tar.gz --markdown 20240409/k/kuzu/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-09 10:42:40] WARNING root fetch - processPackages [mofapy2]: Timeout reached during download
+[2024-04-09 10:42:40] INFO root fetch - processPackages [mofapy2]: executing diffoscope
+[2024-04-09 10:42:40] INFO root fetch - processPackages [mofapy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofapy2-0.7.0.tar.gz tmp/mofapy2-0.7.1.tar.gz --markdown 20240409/m/mofapy2/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 10:42:41] INFO root fetch - processPackages [mofapy2]: Remove: archive file [/home/abi/fetcher/tmp/mofapy2-0.7.0.tar.gz]
+[2024-04-09 10:42:41] INFO root fetch - processPackages [mofapy2]: Remove: archive file [/home/abi/fetcher/tmp/mofapy2-0.7.1.tar.gz]
+[2024-04-09 10:42:41] INFO root fetch - main [MainThread]: End processing [mofapy2]: success
+[2024-04-09 10:42:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev8.tar.gz]
+[2024-04-09 10:42:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
+[2024-04-09 10:42:42] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-09 10:42:42] INFO root fetch - main [MainThread]: Store serial: [22680432]
