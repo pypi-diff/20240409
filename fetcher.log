@@ -15320,3 +15320,78 @@
 [2024-04-09 07:30:02] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Remove: archive file [/home/abi/fetcher/tmp/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl.zip]
 [2024-04-09 07:30:02] INFO root fetch - main [MainThread]: End processing [azure-cognitiveservices-speech]: success
 [2024-04-09 07:30:02] INFO root fetch - main [MainThread]: Store serial: [22678635]
+[2024-04-09 07:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678635]
+[2024-04-09 07:32:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inovopy
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pirogue
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jemma
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycol-complexity
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cron-runner-python
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yamld
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Jetski
+[2024-04-09 07:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: httpwindex
+[2024-04-09 07:32:18] INFO root fetch - processPackages [jemma]: New version: [0.1.121] Old Version: [0.1.12]
+[2024-04-09 07:32:18] INFO root fetch - processPackages [yamld]: New version: [0.0.3] Old Version: [0.0.22]
+[2024-04-09 07:32:18] INFO root fetch - processPackages [Jetski]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 07:32:18] INFO root fetch - processPackages [inovopy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 07:32:18] INFO root fetch - processPackages [pycol-complexity]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [httpwindex]: Skipping, unable to determine old version
+[2024-04-09 07:32:18] INFO root fetch - main [MainThread]: End processing [httpwindex] error
+[2024-04-09 07:32:18] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/da/84/58b8425cf0849907ca65874b222a29406738a4fff4c52688bf2fdfd0212b/jemma-0.1.12.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [pirogue]: New version: [2.0.0] Old Version: [1.4.2]
+[2024-04-09 07:32:18] INFO root fetch - processPackages [Jetski]: Downloading https://files.pythonhosted.org/packages/c1/bd/cb564466d1192ea845fef0274fda0ea3f2b926f0447437b22d54c900daed/Jetski-0.0.2.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [yamld]: Downloading https://files.pythonhosted.org/packages/62/22/d750d4b1b8d37e6a98a05a858d06e8ec771f5adab6ab7b3c5cc0e9d3de89/yamld-0.0.22.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/39/ed/5ce5daf9eac677fe2d4d8e36e4d5130d864d05b64562d559bdd76172379b/inovopy-0.0.2.tar.gz
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [Jetski]: Timeout reached during download
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [cron-runner-python]: Skipping, unable to determine old version
+[2024-04-09 07:32:18] INFO root fetch - main [MainThread]: End processing [cron-runner-python] error
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [yamld]: Timeout reached during download
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [inovopy]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [pycol-complexity]: Downloading https://files.pythonhosted.org/packages/f4/58/4b972962400f01c95fdbbb9e687821f650e3263b2d7ed4fed099c080f8d5/pycol_complexity-0.0.3.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/8f/7d/eb14f543525adc487a633239645cc79ad36aabe01b5b6013ca40ea676083/pirogue-1.4.2.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [Jetski]: Downloading https://files.pythonhosted.org/packages/ba/3a/3b8418c87f17534e0bae8df8ef0474f292853c20472b3a63d9f173b42802/Jetski-0.0.3.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/67/c9/964831088c936d90d8d0f89184744d717b38a28ed5b211a5e4b98e3a5d60/inovopy-0.0.3.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/72/b9/4935a07996f2a9ace88a08afbdbbd781c8c93154d496cbb0a58a6f54cb8c/jemma-0.1.121.tar.gz
+[2024-04-09 07:32:18] INFO root fetch - processPackages [yamld]: Downloading https://files.pythonhosted.org/packages/17/cd/5993b26e56ba799c38bac7272c5486b15a313c49ce8be5e0114e0f8f648e/yamld-0.0.3.tar.gz
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [Jetski]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [Jetski]: executing diffoscope
+[2024-04-09 07:32:18] INFO root fetch - processPackages [Jetski]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jetski-0.0.2.tar.gz tmp/Jetski-0.0.3.tar.gz --markdown 20240409/J/Jetski/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [inovopy]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [inovopy]: executing diffoscope
+[2024-04-09 07:32:18] INFO root fetch - processPackages [inovopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inovopy-0.0.2.tar.gz tmp/inovopy-0.0.3.tar.gz --markdown 20240409/i/inovopy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [yamld]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [yamld]: executing diffoscope
+[2024-04-09 07:32:18] INFO root fetch - processPackages [yamld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamld-0.0.22.tar.gz tmp/yamld-0.0.3.tar.gz --markdown 20240409/y/yamld/0.0.22-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:32:18] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.12.tar.gz tmp/jemma-0.1.121.tar.gz --markdown 20240409/j/jemma/0.1.12-0.1.121/diff.md --exclude *.pyd
+[2024-04-09 07:32:18] WARNING root fetch - processPackages [pycol-complexity]: Timeout reached during download
+[2024-04-09 07:32:18] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/74/aa/a5b165cbcf7a7a570edc5f6fdf644c8253ed181a3f5fbad22c2590c9d0bd/pirogue-2.0.0.tar.gz
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pycol-complexity]: Downloading https://files.pythonhosted.org/packages/35/cd/9327c9868b6b60456acaa17215668c6aa98eeb087fbddc92139ad6067073/pycol_complexity-0.0.4.tar.gz
+[2024-04-09 07:32:19] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pirogue]: executing diffoscope
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pirogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pirogue-1.4.2.tar.gz tmp/pirogue-2.0.0.tar.gz --markdown 20240409/p/pirogue/1.4.2-2.0.0/diff.md --exclude *.pyd
+[2024-04-09 07:32:19] WARNING root fetch - processPackages [pycol-complexity]: Timeout reached during download
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pycol-complexity]: executing diffoscope
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pycol-complexity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycol_complexity-0.0.3.tar.gz tmp/pycol_complexity-0.0.4.tar.gz --markdown 20240409/p/pycol-complexity/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 07:32:19] INFO root fetch - processPackages [Jetski]: Remove: archive file [/home/abi/fetcher/tmp/Jetski-0.0.2.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [Jetski]: Remove: archive file [/home/abi/fetcher/tmp/Jetski-0.0.3.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [Jetski]: success
+[2024-04-09 07:32:19] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.2.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.3.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [inovopy]: success
+[2024-04-09 07:32:19] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.12.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.121.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:32:19] INFO root fetch - processPackages [yamld]: Remove: archive file [/home/abi/fetcher/tmp/yamld-0.0.22.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [yamld]: Remove: archive file [/home/abi/fetcher/tmp/yamld-0.0.3.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [yamld]: success
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pycol-complexity]: Remove: archive file [/home/abi/fetcher/tmp/pycol_complexity-0.0.3.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pycol-complexity]: Remove: archive file [/home/abi/fetcher/tmp/pycol_complexity-0.0.4.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [pycol-complexity]: success
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-1.4.2.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.0.tar.gz]
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [pirogue]: success
+[2024-04-09 07:32:19] INFO root fetch - main [MainThread]: Store serial: [22678662]
