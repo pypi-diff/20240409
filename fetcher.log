@@ -15054,3 +15054,50 @@
 [2024-04-09 07:20:59] INFO root fetch - processPackages [hifitime]: Remove: archive file [/home/abi/fetcher/tmp/hifitime-4.0.0.dev0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
 [2024-04-09 07:20:59] INFO root fetch - main [MainThread]: End processing [hifitime]: success
 [2024-04-09 07:20:59] INFO root fetch - main [MainThread]: Store serial: [22678502]
+[2024-04-09 07:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678502]
+[2024-04-09 07:23:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 07:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-04-09 07:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax-freighter
+[2024-04-09 07:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irispie
+[2024-04-09 07:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax
+[2024-04-09 07:23:09] INFO root fetch - processPackages [alamos]: New version: [0.3.1] Old Version: [0.2.9]
+[2024-04-09 07:23:09] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 07:23:09] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.1] Old Version: [0.5.6]
+[2024-04-09 07:23:09] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-09 07:23:09] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/91/7d/b34438c6a7d3022c7e64ccb05fc9d745f79d0571a1eca11a0e31b5e85559/alamos-0.2.9.tar.gz
+[2024-04-09 07:23:09] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-04-09 07:23:09] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/3a/fa/9f045c1e09eca63c7d6c3e508f7c0a59dff69962cf840acbe4c7868974c9/synnax_freighter-0.5.6.tar.gz
+[2024-04-09 07:23:09] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-09 07:23:10] WARNING root fetch - processPackages [alamos]: Timeout reached during download
+[2024-04-09 07:23:10] WARNING root fetch - processPackages [synnax]: Timeout reached during download
+[2024-04-09 07:23:10] WARNING root fetch - processPackages [synnax-freighter]: Timeout reached during download
+[2024-04-09 07:23:10] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/fb/f0/805a7c860fb23b30679dea6f4b76afc04c96b71a4cb05f6c247053dd75c8/alamos-0.3.1.tar.gz
+[2024-04-09 07:23:10] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-04-09 07:23:11] WARNING root fetch - processPackages [alamos]: Timeout reached during download
+[2024-04-09 07:23:11] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-04-09 07:23:11] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.2.9.tar.gz tmp/alamos-0.3.1.tar.gz --markdown 20240409/a/alamos/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2024-04-09 07:23:11] WARNING root fetch - processPackages [synnax]: Timeout reached during download
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240409/s/synnax/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/df/c3/a5f65eb04677603800d48bbe866385bc994e5e8658bfb877efd590e9b5f6/synnax_freighter-0.6.1.tar.gz
+[2024-04-09 07:23:11] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-09 07:23:11] WARNING root fetch - processPackages [synnax-freighter]: Timeout reached during download
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.5.6.tar.gz tmp/synnax_freighter-0.6.1.tar.gz --markdown 20240409/s/synnax-freighter/0.5.6-0.6.1/diff.md --exclude *.pyd
+[2024-04-09 07:23:11] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-04-09 07:23:11] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.2.9.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.1.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.5.6.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.1.tar.gz]
+[2024-04-09 07:23:11] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-04-09 07:23:12] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-09 07:23:12] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-09 07:23:12] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240409/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 07:23:14] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-09 07:23:14] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-09 07:23:14] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-09 07:23:14] INFO root fetch - main [MainThread]: Store serial: [22678569]
