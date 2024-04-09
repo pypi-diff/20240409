@@ -8879,3 +8879,47 @@
 [2024-04-09 03:47:40] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-09 03:47:40] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-09 03:47:40] INFO root fetch - main [MainThread]: Store serial: [22676521]
+[2024-04-09 03:49:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676521]
+[2024-04-09 03:49:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 03:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFASoC
+[2024-04-09 03:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frykit
+[2024-04-09 03:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edman-cli
+[2024-04-09 03:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docprompt
+[2024-04-09 03:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typos
+[2024-04-09 03:49:49] WARNING root fetch - processPackages [OpenFASoC]: Skipping, unable to determine old version
+[2024-04-09 03:49:49] INFO root fetch - main [MainThread]: End processing [OpenFASoC] error
+[2024-04-09 03:49:49] INFO root fetch - processPackages [frykit]: New version: [0.5.0] Old Version: [0.4.4.post1]
+[2024-04-09 03:49:49] INFO root fetch - processPackages [typos]: New version: [1.20.4] Old Version: [1.20.3]
+[2024-04-09 03:49:49] INFO root fetch - processPackages [frykit]: Downloading https://files.pythonhosted.org/packages/d8/ac/0299e8c0011642fc466e6ae7c2689cddaa5afa302cf20f7583ce620e3029/frykit-0.4.4.post1.tar.gz
+[2024-04-09 03:49:49] INFO root fetch - processPackages [edman-cli]: New version: [2024.4.9] Old Version: [2024.3.5]
+[2024-04-09 03:49:49] INFO root fetch - processPackages [docprompt]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-09 03:49:49] WARNING root fetch - processPackages [frykit]: Skipping package: exceeds size limit 13748565>=10485760
+[2024-04-09 03:49:49] INFO root fetch - main [MainThread]: End processing [frykit] error
+[2024-04-09 03:49:49] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/64/66/203beb7a27c834e2aea34490e5eda2e197dbea6b419e4aee8266fb833031/typos-1.20.3.tar.gz
+[2024-04-09 03:49:49] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/b9/7f/0f7e93b105fd5e6710763519038e00c68ca89f0e156728f6a63092150ea1/edman_cli-2024.3.5.tar.gz
+[2024-04-09 03:49:49] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/4b/04/fb8c077524681fc7278a7d95174f8cfd63f1e77642b40015d477f77e2249/docprompt-0.2.3.tar.gz
+[2024-04-09 03:49:49] WARNING root fetch - processPackages [typos]: Timeout reached during download
+[2024-04-09 03:49:49] WARNING root fetch - processPackages [edman-cli]: Timeout reached during download
+[2024-04-09 03:49:49] WARNING root fetch - processPackages [docprompt]: Timeout reached during download
+[2024-04-09 03:49:50] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/97/24/cd008a46fd323ff3cd0fa47894ab74883c400b95214b7474b952e5934277/edman_cli-2024.4.9.tar.gz
+[2024-04-09 03:49:50] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/8a/37/f814be04a5b5c208256a9f8d91b76f7f3ca48cafc95d2a1e4de2015d8343/typos-1.20.4.tar.gz
+[2024-04-09 03:49:50] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/59/f0/95588aaf6a0c50e22f57b286e61bc5646207a805962937968eaf161810ea/docprompt-0.2.4.tar.gz
+[2024-04-09 03:49:50] WARNING root fetch - processPackages [edman-cli]: Timeout reached during download
+[2024-04-09 03:49:50] INFO root fetch - processPackages [edman-cli]: executing diffoscope
+[2024-04-09 03:49:50] INFO root fetch - processPackages [edman-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_cli-2024.3.5.tar.gz tmp/edman_cli-2024.4.9.tar.gz --markdown 20240409/e/edman-cli/2024.3.5-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 03:49:50] WARNING root fetch - processPackages [typos]: Timeout reached during download
+[2024-04-09 03:49:50] INFO root fetch - processPackages [typos]: executing diffoscope
+[2024-04-09 03:49:50] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.20.3.tar.gz tmp/typos-1.20.4.tar.gz --markdown 20240409/t/typos/1.20.3-1.20.4/diff.md --exclude *.pyd
+[2024-04-09 03:49:50] WARNING root fetch - processPackages [docprompt]: Timeout reached during download
+[2024-04-09 03:49:50] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-04-09 03:49:50] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.2.3.tar.gz tmp/docprompt-0.2.4.tar.gz --markdown 20240409/d/docprompt/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-09 03:49:50] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2024.3.5.tar.gz]
+[2024-04-09 03:49:50] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2024.4.9.tar.gz]
+[2024-04-09 03:49:50] INFO root fetch - main [MainThread]: End processing [edman-cli]: success
+[2024-04-09 03:49:51] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.2.3.tar.gz]
+[2024-04-09 03:49:51] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.2.4.tar.gz]
+[2024-04-09 03:49:51] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-04-09 03:49:54] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.3.tar.gz]
+[2024-04-09 03:49:54] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.4.tar.gz]
+[2024-04-09 03:49:54] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2024-04-09 03:49:54] INFO root fetch - main [MainThread]: Store serial: [22676537]
