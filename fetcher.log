@@ -14766,3 +14766,12 @@
 [2024-04-09 07:01:27] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-04-09 07:01:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-09 07:01:27] INFO root fetch - main [MainThread]: Store serial: [22678399]
+[2024-04-09 07:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678399]
+[2024-04-09 07:03:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 07:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conflare
+[2024-04-09 07:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-04-09 07:03:35] WARNING root fetch - processPackages [jemma]: Skipping, unable to determine old version
+[2024-04-09 07:03:35] INFO root fetch - main [MainThread]: End processing [jemma] error
+[2024-04-09 07:03:35] WARNING root fetch - processPackages [conflare]: Skipping, unable to determine old version
+[2024-04-09 07:03:35] INFO root fetch - main [MainThread]: End processing [conflare] error
+[2024-04-09 07:03:35] INFO root fetch - main [MainThread]: Store serial: [22678408]
