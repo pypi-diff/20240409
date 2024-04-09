@@ -21447,3 +21447,53 @@
 [2024-04-09 11:14:28] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-09 11:14:28] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-09 11:14:28] INFO root fetch - main [MainThread]: Store serial: [22680855]
+[2024-04-09 11:16:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680855]
+[2024-04-09 11:16:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyecif
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DIPEX
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocatari
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: os2borgerpc-client
+[2024-04-09 11:16:38] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-09 11:16:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [pyecif]: Skipping, unable to determine old version
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ocatari]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 11:16:38] INFO root fetch - main [MainThread]: End processing [pyecif] error
+[2024-04-09 11:16:38] INFO root fetch - processPackages [os2borgerpc-client]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-09 11:16:38] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-04-09 11:16:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-09 11:16:38] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/e6/b7/5e2c1023b380f3c230add0d4c9a27cccd34f5c7368efb926ad48c3de2ab2/ocatari-1.0.4.tar.gz
+[2024-04-09 11:16:38] INFO root fetch - processPackages [os2borgerpc-client]: Downloading https://files.pythonhosted.org/packages/d1/c4/aa999336195b5b4d92c10da93be7739e77714d098b52f6fc48880ac3112e/os2borgerpc_client-2.4.1.tar.gz
+[2024-04-09 11:16:38] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-04-09 11:16:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-09 11:16:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-09 11:16:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240409/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [ocatari]: Timeout reached during download
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [os2borgerpc-client]: Timeout reached during download
+[2024-04-09 11:16:38] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 11:16:38] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-04-09 11:16:38] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240409/D/DIPEX/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-09 11:16:39] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/41/a8/0529674ef516e2113c29ab8634bc33f0ddc4ce09c2fc1f5c5e042fa75752/ocatari-1.0.5.tar.gz
+[2024-04-09 11:16:39] INFO root fetch - processPackages [os2borgerpc-client]: Downloading https://files.pythonhosted.org/packages/05/88/5614313e1a09a94c0aa759f54234dd30cab6b49f7003bcd3d3a6087d09ee/os2borgerpc_client-2.5.0.tar.gz
+[2024-04-09 11:16:39] WARNING root fetch - processPackages [ocatari]: Timeout reached during download
+[2024-04-09 11:16:39] INFO root fetch - processPackages [ocatari]: executing diffoscope
+[2024-04-09 11:16:39] INFO root fetch - processPackages [ocatari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocatari-1.0.4.tar.gz tmp/ocatari-1.0.5.tar.gz --markdown 20240409/o/ocatari/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 11:16:39] WARNING root fetch - processPackages [os2borgerpc-client]: Timeout reached during download
+[2024-04-09 11:16:39] INFO root fetch - processPackages [os2borgerpc-client]: executing diffoscope
+[2024-04-09 11:16:39] INFO root fetch - processPackages [os2borgerpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2borgerpc_client-2.4.1.tar.gz tmp/os2borgerpc_client-2.5.0.tar.gz --markdown 20240409/o/os2borgerpc-client/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2024-04-09 11:16:39] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-09 11:16:39] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-04-09 11:16:39] INFO root fetch - processPackages [os2borgerpc-client]: Remove: archive file [/home/abi/fetcher/tmp/os2borgerpc_client-2.4.1.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - processPackages [os2borgerpc-client]: Remove: archive file [/home/abi/fetcher/tmp/os2borgerpc_client-2.5.0.tar.gz]
+[2024-04-09 11:16:39] INFO root fetch - main [MainThread]: End processing [os2borgerpc-client]: success
+[2024-04-09 11:16:40] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.4.tar.gz]
+[2024-04-09 11:16:40] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.5.tar.gz]
+[2024-04-09 11:16:40] INFO root fetch - main [MainThread]: End processing [ocatari]: success
+[2024-04-09 11:16:40] INFO root fetch - main [MainThread]: Store serial: [22680881]
