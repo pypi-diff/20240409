@@ -14727,3 +14727,17 @@
 [2024-04-09 06:57:02] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
 [2024-04-09 06:57:02] INFO root fetch - main [MainThread]: End processing [synnax]: success
 [2024-04-09 06:57:02] INFO root fetch - main [MainThread]: Store serial: [22678392]
+[2024-04-09 06:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678392]
+[2024-04-09 06:59:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 06:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-openupgrade-scripts
+[2024-04-09 06:59:11] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2024-04-09 06:59:11] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2024-04-09 06:59:11] WARNING root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Timeout reached during download
+[2024-04-09 06:59:12] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2024-04-09 06:59:12] WARNING root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Timeout reached during download
+[2024-04-09 06:59:12] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-09 06:59:12] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20240409/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2024-04-09 06:59:14] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2024-04-09 06:59:14] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2024-04-09 06:59:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2024-04-09 06:59:14] INFO root fetch - main [MainThread]: Store serial: [22678394]
