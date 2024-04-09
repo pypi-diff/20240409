@@ -17228,3 +17228,55 @@
 [2024-04-09 08:57:14] INFO root fetch - processPackages [AutoNico]: Remove: archive file [/home/abi/fetcher/tmp/AutoNico-1.1.3-py3-none-any.whl.zip]
 [2024-04-09 08:57:14] INFO root fetch - main [MainThread]: End processing [AutoNico]: success
 [2024-04-09 08:57:14] INFO root fetch - main [MainThread]: Store serial: [22679304]
+[2024-04-09 08:59:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679304]
+[2024-04-09 08:59:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dns-manager
+[2024-04-09 08:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piwiPre
+[2024-04-09 08:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2024-04-09 08:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refvars
+[2024-04-09 08:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-04-09 08:59:23] INFO root fetch - processPackages [refvars]: New version: [0.2] Old Version: [0.1]
+[2024-04-09 08:59:23] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-09 08:59:23] INFO root fetch - processPackages [dns-manager]: New version: [0.0.8] Old Version: [0.0.12]
+[2024-04-09 08:59:23] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-09 08:59:23] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/f7/69/e9a606174e448a7c296190acb89fcaff92da90360a668c2c9be3fd07ceca/refvars-0.1.tar.gz
+[2024-04-09 08:59:23] INFO root fetch - processPackages [dns-manager]: Downloading https://files.pythonhosted.org/packages/aa/ea/3a2734f32d76b4c636687d62246fd8d815bcc9d84a5528a4e5d913a8ae07/dns_manager-0.0.12-py3-none-any.whl
+[2024-04-09 08:59:23] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-09 08:59:23] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.5.0] Old Version: [5.4.1]
+[2024-04-09 08:59:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [dns-manager]: Timeout reached during download
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 08:59:23] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/fa/66/4240208e4208a3dfbf37697ab686fa4bf65397acec8a3792c3506f3d91ef/refvars-0.2.tar.gz
+[2024-04-09 08:59:23] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/86/df/d7f28b2cb6619597128410ebee6d6f7ac3317266e4eb5e921b7f5b0ec4c3/nonebot-plugin-osubot-5.4.1.tar.gz
+[2024-04-09 08:59:23] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-09 08:59:23] INFO root fetch - processPackages [dns-manager]: Downloading https://files.pythonhosted.org/packages/a1/41/8a1f63bf264d248424cd774898f1941bdeb318bfd46a0706212ad3db0f13/dns_manager-0.0.8-py3-none-any.whl
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 08:59:23] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-04-09 08:59:23] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.1.tar.gz tmp/refvars-0.2.tar.gz --markdown 20240409/r/refvars/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381130>=10485760
+[2024-04-09 08:59:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [dns-manager]: Timeout reached during download
+[2024-04-09 08:59:23] INFO root fetch - processPackages [dns-manager]: executing diffoscope
+[2024-04-09 08:59:23] INFO root fetch - processPackages [dns-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dns_manager-0.0.12-py3-none-any.whl.zip tmp/dns_manager-0.0.8-py3-none-any.whl.zip --markdown 20240409/d/dns-manager/0.0.12-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 08:59:23] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 08:59:23] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-09 08:59:23] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240409/p/piwiPre/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-09 08:59:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-09 08:59:24] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:59:24] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-09 08:59:24] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240409/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-09 08:59:24] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.1.tar.gz]
+[2024-04-09 08:59:24] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.2.tar.gz]
+[2024-04-09 08:59:24] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-04-09 08:59:24] INFO root fetch - processPackages [dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/dns_manager-0.0.12-py3-none-any.whl.zip]
+[2024-04-09 08:59:24] INFO root fetch - processPackages [dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/dns_manager-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 08:59:24] INFO root fetch - main [MainThread]: End processing [dns-manager]: success
+[2024-04-09 08:59:24] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-09 08:59:24] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-09 08:59:24] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-09 08:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-09 08:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-09 08:59:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-09 08:59:25] INFO root fetch - main [MainThread]: Store serial: [22679317]
