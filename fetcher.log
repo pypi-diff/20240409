@@ -22457,3 +22457,72 @@
 [2024-04-09 11:41:45] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240401.tar.gz]
 [2024-04-09 11:41:45] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
 [2024-04-09 11:41:45] INFO root fetch - main [MainThread]: Store serial: [22681347]
+[2024-04-09 11:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681347]
+[2024-04-09 11:43:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rke
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyfi-modelship
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rclip
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-venafi
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tulona
+[2024-04-09 11:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: df-qc-tools
+[2024-04-09 11:43:58] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.8.0a1712653977] Old Version: [1.8.0a1712403151]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [df-qc-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [rclip]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [skyfi-modelship]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [tulona]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [pulumi-rke]: New version: [3.4.0a1712653573] Old Version: [3.4.0a1712470927]
+[2024-04-09 11:43:58] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/59/67/6599bedf0fe1fce2924989c3990234f15373b1a9ea01a45322f0e8095f5d/pulumi_venafi-1.8.0a1712403151.tar.gz
+[2024-04-09 11:43:58] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/90/75/ac1abe50e474c060f6791f8e2139e95cc7d3bc9dd04cb5bd6a14f29c3159/df_qc_tools-0.0.2.tar.gz
+[2024-04-09 11:43:58] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/7d/06/39c2cd1a368d2becc5dd8d582b4e5ed666e3b42f17ea9066c973d8924d57/rclip-1.8.3.tar.gz
+[2024-04-09 11:43:58] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:43:58] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [skyfi-modelship]: Downloading https://files.pythonhosted.org/packages/11/09/b2910e11f9030bcf1351191f10cd1ab5493bf2938dd541247da1af8d1b59/skyfi_modelship-0.5.0.tar.gz
+[2024-04-09 11:43:59] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/83/c1/b94d47cd5434534e48426db8b9994bfb0a153d6ffc74a0f8c27d4d45440e/tulona-0.2.6.tar.gz
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/c7/fb/b31b8c033eace87c233c1f9a5a002d78d606cc1561c92c62b9272304f7a2/pulumi_rke-3.4.0a1712470927.tar.gz
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/b1/a6/69c619f4e5e9c342d04807bb7ea6546d490919a756c42fdf69ad17a588c8/pulumi_venafi-1.8.0a1712653977.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/5b/c2/99ddf4f96f8c6291cd58704d1901c47a9315e2195c0e5e07bf323156a971/rclip-1.8.4.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [skyfi-modelship]: Timeout reached during download
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.8.0a1712403151.tar.gz tmp/pulumi_venafi-1.8.0a1712653977.tar.gz --markdown 20240409/p/pulumi-venafi/1.8.0a1712403151-1.8.0a1712653977/diff.md --exclude *.pyd
+[2024-04-09 11:43:59] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/90/de/9fa1ea01bf570def69d784903d955c6b8818f4f73d0aa09856f8797c3721/df_qc_tools-0.0.3.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [pulumi-rke]: Timeout reached during download
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.8.3.tar.gz tmp/rclip-1.8.4.tar.gz --markdown 20240409/r/rclip/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2024-04-09 11:43:59] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/f9/13/062e512d7bc68e2d281d0d6b3f4391f5bdd6840391d7f6f55b7c8fcdd3e4/tulona-0.3.0.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [df-qc-tools]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [df-qc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_qc_tools-0.0.2.tar.gz tmp/df_qc_tools-0.0.3.tar.gz --markdown 20240409/d/df-qc-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 11:43:59] INFO root fetch - processPackages [skyfi-modelship]: Downloading https://files.pythonhosted.org/packages/6a/8f/f1a9541a3e2742519686b9f7418a3cb3cc61cba763d52bc72d2da653c665/skyfi_modelship-0.6.0.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.2.6.tar.gz tmp/tulona-0.3.0.tar.gz --markdown 20240409/t/tulona/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f1/97/890f3c6898b600a0038a480a0f0c2869e4fe87cf5c9fc38cc2e971532ef1/pulumi_rke-3.4.0a1712653573.tar.gz
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [skyfi-modelship]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [skyfi-modelship]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [skyfi-modelship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyfi_modelship-0.5.0.tar.gz tmp/skyfi_modelship-0.6.0.tar.gz --markdown 20240409/s/skyfi-modelship/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 11:43:59] WARNING root fetch - processPackages [pulumi-rke]: Timeout reached during download
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-09 11:43:59] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.4.0a1712470927.tar.gz tmp/pulumi_rke-3.4.0a1712653573.tar.gz --markdown 20240409/p/pulumi-rke/3.4.0a1712470927-3.4.0a1712653573/diff.md --exclude *.pyd
+[2024-04-09 11:44:00] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712403151.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712653977.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-09 11:44:00] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.3.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.4.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 11:44:00] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.2.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.3.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [df-qc-tools]: success
+[2024-04-09 11:44:00] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.2.6.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.3.0.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-04-09 11:44:00] INFO root fetch - processPackages [skyfi-modelship]: Remove: archive file [/home/abi/fetcher/tmp/skyfi_modelship-0.5.0.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [skyfi-modelship]: Remove: archive file [/home/abi/fetcher/tmp/skyfi_modelship-0.6.0.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [skyfi-modelship]: success
+[2024-04-09 11:44:00] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712470927.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712653573.tar.gz]
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-09 11:44:00] INFO root fetch - main [MainThread]: Store serial: [22681365]
