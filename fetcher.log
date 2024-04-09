@@ -17969,3 +17969,45 @@
 [2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.12.tar.gz]
 [2024-04-09 09:21:43] INFO root fetch - main [MainThread]: End processing [pkl-python]: success
 [2024-04-09 09:21:43] INFO root fetch - main [MainThread]: Store serial: [22679553]
+[2024-04-09 09:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679553]
+[2024-04-09 09:23:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 09:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2c.template
+[2024-04-09 09:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapperchain
+[2024-04-09 09:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-09 09:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Profiler-Flask
+[2024-04-09 09:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cytobench
+[2024-04-09 09:23:54] INFO root fetch - processPackages [c2c.template]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-09 09:23:54] INFO root fetch - processPackages [cytobench]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 09:23:54] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240409061242] Old Version: [3.3.1.dev20240409055414]
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [Profiler-Flask]: Skipping, unable to determine old version
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [sapperchain]: Skipping, unable to determine old version
+[2024-04-09 09:23:54] INFO root fetch - main [MainThread]: End processing [Profiler-Flask] error
+[2024-04-09 09:23:54] INFO root fetch - main [MainThread]: End processing [sapperchain] error
+[2024-04-09 09:23:54] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/20/09/263b7d704324f7115a31497ec159ab0d2de2517da7dd4a2e3b35b3ac801b/c2c.template-2.3.0-py3-none-any.whl
+[2024-04-09 09:23:54] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/fd/dd/38b9e99d6ad7f1b4f32de69ec45080efe34039e3584467b2cfa448010333/cytobench-0.1.8.tar.gz
+[2024-04-09 09:23:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a0/56/b1550c602cfbe96c1bcd42580a53c88e8eb26ba3aa4f9c04a79936581bc7/localstack-core-3.3.1.dev20240409055414.tar.gz
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [c2c.template]: Timeout reached during download
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 09:23:54] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/b8/28/4dd748f055d5356a057160308b8dea68ae61d8ec1b7cf6d48acbe67fb614/c2c_template-2.4.0.tar.gz
+[2024-04-09 09:23:54] INFO root fetch - processPackages [cytobench]: Downloading https://files.pythonhosted.org/packages/f0/15/dcac1aee121e607cb2669a54ee227f4ba927d4883ac7b8d5f2791dd903f5/cytobench-0.1.9.tar.gz
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [c2c.template]: Timeout reached during download
+[2024-04-09 09:23:54] INFO root fetch - processPackages [c2c.template]: executing diffoscope
+[2024-04-09 09:23:54] INFO root fetch - processPackages [c2c.template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2c.template-2.3.0-py3-none-any.whl.zip tmp/c2c_template-2.4.0.tar.gz --markdown 20240409/c/c2c.template/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2024-04-09 09:23:54] WARNING root fetch - processPackages [cytobench]: Timeout reached during download
+[2024-04-09 09:23:54] INFO root fetch - processPackages [cytobench]: executing diffoscope
+[2024-04-09 09:23:54] INFO root fetch - processPackages [cytobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytobench-0.1.8.tar.gz tmp/cytobench-0.1.9.tar.gz --markdown 20240409/c/cytobench/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 09:23:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1f/a1/d5c950b2623cf0bf0780cdf36b43dad19b9725b339ee864b0de555d53ce7/localstack-core-3.3.1.dev20240409061242.tar.gz
+[2024-04-09 09:23:55] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 09:23:55] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-09 09:23:55] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240409055414.tar.gz tmp/localstack-core-3.3.1.dev20240409061242.tar.gz --markdown 20240409/l/localstack-core/3.3.1.dev20240409055414-3.3.1.dev20240409061242/diff.md --exclude *.pyd
+[2024-04-09 09:23:55] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.8.tar.gz]
+[2024-04-09 09:23:55] INFO root fetch - processPackages [cytobench]: Remove: archive file [/home/abi/fetcher/tmp/cytobench-0.1.9.tar.gz]
+[2024-04-09 09:23:55] INFO root fetch - main [MainThread]: End processing [cytobench]: success
+[2024-04-09 09:23:55] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c.template-2.3.0-py3-none-any.whl.zip]
+[2024-04-09 09:23:55] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c_template-2.4.0.tar.gz]
+[2024-04-09 09:23:55] INFO root fetch - main [MainThread]: End processing [c2c.template]: success
+[2024-04-09 09:23:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409055414.tar.gz]
+[2024-04-09 09:23:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409061242.tar.gz]
+[2024-04-09 09:23:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-09 09:23:58] INFO root fetch - main [MainThread]: Store serial: [22679572]
