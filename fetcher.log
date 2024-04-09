@@ -3079,3 +3079,88 @@
 [2024-04-09 02:20:08] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
 [2024-04-09 02:20:08] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
 [2024-04-09 02:20:08] INFO root fetch - main [MainThread]: Store serial: [22674841]
+[2024-04-09 02:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674841]
+[2024-04-09 02:22:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semgrep
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEURON-nightly
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltacat
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-criteria
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: air-sdk-python
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-09 02:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: immunopipe
+[2024-04-09 02:22:17] INFO root fetch - processPackages [immunopipe]: New version: [1.3.4.post1] Old Version: [1.3.4]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [python-criteria]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [deltacat]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/2a/ef/8d59426ced4be581921ca88a9b7bb5d1c8ecd43c98a54dbef2ece502d1f1/python-criteria-0.3.3.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/94/4f/c2bd69e71c44bc39b6b61e3f75e85401b4c469e348430e803d736b386f93/immunopipe-1.3.4.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev204] Old Version: [9.0a1.dev202]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [immunopipe]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/aa/70/499383f1d61f78e46435ab057b1a3274be629bff198ae21e91f84393569d/deltacat-1.1.0.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-09 02:22:17] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/08/a9/84817361a17025efd1167567440d3918d3f75463e709e320568794588b06/immunopipe-1.3.4.post1.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/a5/bf/753645b8fe90aaa169357eef40069f8eb50a97e8742dd975bdbb8c85dc4e/NEURON_nightly-9.0a1.dev202-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17255939>=10485760
+[2024-04-09 02:22:17] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/1a/2c/6bd1f6cc8246fe0c4938e51a9668bd330752bb37098d7b336556e895ad4e/python-criteria-0.3.4.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [immunopipe]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [immunopipe]: executing diffoscope
+[2024-04-09 02:22:17] INFO root fetch - processPackages [immunopipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunopipe-1.3.4.tar.gz tmp/immunopipe-1.3.4.post1.tar.gz --markdown 20240409/i/immunopipe/1.3.4-1.3.4.post1/diff.md --exclude *.pyd
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [semgrep]: Timeout reached during download
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [deltacat]: Timeout reached during download
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-09 02:22:17] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.3.3.tar.gz tmp/python-criteria-0.3.4.tar.gz --markdown 20240409/p/python-criteria/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-09 02:22:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [cdklabs.cdk-ethereum-node]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-04-09 02:22:17] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-09 02:22:17] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/41/9d/7802e1de72ca9f61c266f37098356729da1563fe001c876091626cb94152/deltacat-1.1.1.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2024-04-09 02:22:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-09 02:22:18] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-09 02:22:18] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-04-09 02:22:18] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240409/a/air-sdk-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 02:22:18] WARNING root fetch - processPackages [deltacat]: Timeout reached during download
+[2024-04-09 02:22:18] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2024-04-09 02:22:18] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-1.1.0.tar.gz tmp/deltacat-1.1.1.tar.gz --markdown 20240409/d/deltacat/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-09 02:22:18] WARNING root fetch - processPackages [cdklabs.cdk-ethereum-node]: Timeout reached during download
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240409/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:22:18] WARNING root fetch - processPackages [semgrep]: Timeout reached during download
+[2024-04-09 02:22:18] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2024-04-09 02:22:18] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20240409/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-09 02:22:18] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240409/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-09 02:22:18] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.3.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.4.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-09 02:22:18] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.4.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.4.post1.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - main [MainThread]: End processing [immunopipe]: success
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-09 02:22:18] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-09 02:22:18] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-09 02:22:19] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.0.tar.gz]
+[2024-04-09 02:22:19] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.1.tar.gz]
+[2024-04-09 02:22:19] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2024-04-09 02:22:19] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2024-04-09 02:22:19] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2024-04-09 02:22:19] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2024-04-09 02:22:19] INFO root fetch - main [MainThread]: Store serial: [22674872]
