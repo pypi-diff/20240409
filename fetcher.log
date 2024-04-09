@@ -23223,3 +23223,64 @@
 [2024-04-09 12:01:49] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
 [2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
 [2024-04-09 12:01:49] INFO root fetch - main [MainThread]: Store serial: [22681616]
+[2024-04-09 12:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681616]
+[2024-04-09 12:04:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBrainai
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-artifacts
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inline-snapshot
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SdcStatsBot
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymycobot
+[2024-04-09 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cogflow
+[2024-04-09 12:04:01] INFO root fetch - processPackages [auto-artifacts]: New version: [2024.3.9] Old Version: [2024.3.8]
+[2024-04-09 12:04:01] INFO root fetch - processPackages [cogflow]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-09 12:04:01] INFO root fetch - processPackages [pyBrainai]: New version: [1.4.1.0] Old Version: [1.4.0.9]
+[2024-04-09 12:04:01] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/1e/55/160ebd09b0a95953884a0c6d337837a1c1a67115c4f996d496aa80bceeac/auto_artifacts-2024.3.8.tar.gz
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [SdcStatsBot]: Skipping, unable to determine old version
+[2024-04-09 12:04:01] INFO root fetch - main [MainThread]: End processing [SdcStatsBot] error
+[2024-04-09 12:04:01] INFO root fetch - processPackages [inline-snapshot]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-09 12:04:01] INFO root fetch - processPackages [pymycobot]: New version: [3.4.5] Old Version: [3.4.4]
+[2024-04-09 12:04:01] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3d/4d/669dff95ff879708d5ac50f8f69b942f96b3bb97f2cebd5776079dca54bb/cogflow-1.7.0.tar.gz
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-09 12:04:01] INFO root fetch - processPackages [pyBrainai]: Downloading https://files.pythonhosted.org/packages/79/6a/2e7777b5c3395a8143841d1daf538d4d9de9c9b1c000acc0c04f810da789/pyBrainai-1.4.0.9.tar.gz
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:04:01] INFO root fetch - processPackages [inline-snapshot]: Downloading https://files.pythonhosted.org/packages/fa/c2/0a3c7c16fb2a52ae244c7be592c2b735f5f3b14f96c8e6ec5186764710e5/inline_snapshot-0.7.0.tar.gz
+[2024-04-09 12:04:01] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/7c/38/cc3f41c2833a37c2af5220f7156b6550dbf503357e575e2d6002b860bb0e/auto_artifacts-2024.3.9.tar.gz
+[2024-04-09 12:04:01] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/1d/4f/1fb4eaf894cb28e3bd8d8e61ac75985a4dfb77d3a0d9912b4e098b8a7ea2/pymycobot-3.4.4.tar.gz
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-09 12:04:01] INFO root fetch - processPackages [auto-artifacts]: executing diffoscope
+[2024-04-09 12:04:01] INFO root fetch - processPackages [auto-artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_artifacts-2024.3.8.tar.gz tmp/auto_artifacts-2024.3.9.tar.gz --markdown 20240409/a/auto-artifacts/2024.3.8-2024.3.9/diff.md --exclude *.pyd
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [pyBrainai]: Timeout reached during download
+[2024-04-09 12:04:01] WARNING root fetch - processPackages [inline-snapshot]: Timeout reached during download
+[2024-04-09 12:04:01] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/c2/d7/d30e806c14a7de1d4a5077bb8bc732a7eb3c75e99fe5736ffdc626491064/cogflow-1.7.1.tar.gz
+[2024-04-09 12:04:02] WARNING root fetch - processPackages [pymycobot]: Timeout reached during download
+[2024-04-09 12:04:02] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:04:02] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-09 12:04:02] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.7.0.tar.gz tmp/cogflow-1.7.1.tar.gz --markdown 20240409/c/cogflow/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pyBrainai]: Downloading https://files.pythonhosted.org/packages/a8/ce/11495f81ec73847dcc48dbdfbdc500b02a8d16dad34ce959397fb98c0406/pyBrainai-1.4.1.0.tar.gz
+[2024-04-09 12:04:02] INFO root fetch - processPackages [inline-snapshot]: Downloading https://files.pythonhosted.org/packages/b0/5f/663a53c6e2b55f695d5c534290474a4e2ead374b456c20487c0e080646cb/inline_snapshot-0.8.0.tar.gz
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/01/23/c5c010c7e70ef399c836c3972d1624fefc8da62618a3b0507f71511795d9/pymycobot-3.4.5.tar.gz
+[2024-04-09 12:04:02] WARNING root fetch - processPackages [pyBrainai]: Timeout reached during download
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pyBrainai]: executing diffoscope
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pyBrainai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBrainai-1.4.0.9.tar.gz tmp/pyBrainai-1.4.1.0.tar.gz --markdown 20240409/p/pyBrainai/1.4.0.9-1.4.1.0/diff.md --exclude *.pyd
+[2024-04-09 12:04:02] WARNING root fetch - processPackages [inline-snapshot]: Timeout reached during download
+[2024-04-09 12:04:02] INFO root fetch - processPackages [inline-snapshot]: executing diffoscope
+[2024-04-09 12:04:02] INFO root fetch - processPackages [inline-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inline_snapshot-0.7.0.tar.gz tmp/inline_snapshot-0.8.0.tar.gz --markdown 20240409/i/inline-snapshot/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-09 12:04:02] WARNING root fetch - processPackages [pymycobot]: Timeout reached during download
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.4.4.tar.gz tmp/pymycobot-3.4.5.tar.gz --markdown 20240409/p/pymycobot/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2024-04-09 12:04:02] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.8.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.9.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - main [MainThread]: End processing [auto-artifacts]: success
+[2024-04-09 12:04:02] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.7.0.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.7.1.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-09 12:04:02] INFO root fetch - processPackages [inline-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/inline_snapshot-0.7.0.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - processPackages [inline-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/inline_snapshot-0.8.0.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - main [MainThread]: End processing [inline-snapshot]: success
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pyBrainai]: Remove: archive file [/home/abi/fetcher/tmp/pyBrainai-1.4.0.9.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - processPackages [pyBrainai]: Remove: archive file [/home/abi/fetcher/tmp/pyBrainai-1.4.1.0.tar.gz]
+[2024-04-09 12:04:02] INFO root fetch - main [MainThread]: End processing [pyBrainai]: success
+[2024-04-09 12:04:03] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.4.tar.gz]
+[2024-04-09 12:04:03] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.5.tar.gz]
+[2024-04-09 12:04:03] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2024-04-09 12:04:03] INFO root fetch - main [MainThread]: Store serial: [22681634]
