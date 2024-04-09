@@ -3607,3 +3607,70 @@
 [2024-04-09 02:38:57] INFO root fetch - processPackages [pyauthorizer]: Remove: archive file [/home/abi/fetcher/tmp/pyauthorizer-0.2.9.tar.gz]
 [2024-04-09 02:38:57] INFO root fetch - main [MainThread]: End processing [pyauthorizer]: success
 [2024-04-09 02:38:57] INFO root fetch - main [MainThread]: Store serial: [22675023]
+[2024-04-09 02:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675023]
+[2024-04-09 02:41:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cosmix-launcher
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langflow
+[2024-04-09 02:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-09 02:41:06] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [vector-vault]: New version: [4.3.8] Old Version: [4.3.7]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712622503] Old Version: [0.0.11a1712622470]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712622503] Old Version: [0.0.11a1712622470]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-09 02:41:06] INFO root fetch - processPackages [cosmix-launcher]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 02:41:06] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/4e/80/71dff6e50249fe15907eceb96a90d368a29b4dcb98f5fdd0b06e877267c2/vector_vault-4.3.7.tar.gz
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-09 02:41:06] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ac/04/d4a2a3c4bb4c5678150ccb2f7fe24d75c443ea4331cc6296e389616c00a8/pulumi_kubernetes_the_hard_way-0.0.11a1712622470.tar.gz
+[2024-04-09 02:41:06] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ac/04/d4a2a3c4bb4c5678150ccb2f7fe24d75c443ea4331cc6296e389616c00a8/pulumi_kubernetes_the_hard_way-0.0.11a1712622470.tar.gz
+[2024-04-09 02:41:06] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-09 02:41:06] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/ef/01/c0d7cc2fb12a20bc2691a3b0db610d7e2aeb4a00b0a917021a89960a336e/cosmix_launcher-1.0.0.tar.gz
+[2024-04-09 02:41:06] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [cosmix-launcher]: Timeout reached during download
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:41:06] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/80/6e/b65a668b8e2ed1bdde1dd7a4bba954a0c34545cd75fc597a0fa342ee9a4a/vector_vault-4.3.8.tar.gz
+[2024-04-09 02:41:06] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-09 02:41:06] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-09 02:41:06] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240409/l/langflow/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-09 02:41:07] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-09 02:41:07] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.3.7.tar.gz tmp/vector_vault-4.3.8.tar.gz --markdown 20240409/v/vector-vault/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-09 02:41:07] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/e3/30/c3bff276f9596dbe10065d4a0ca7c9b44b80272128e18754d00d10e65542/cosmix_launcher-1.0.1.tar.gz
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ca/18/5c24d501e4ca46fd613565d68bd0ac88c74bb6f91ea6cecfcf7ae882eefa/pulumi_kubernetes_the_hard_way-0.0.11a1712622503.tar.gz
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ca/18/5c24d501e4ca46fd613565d68bd0ac88c74bb6f91ea6cecfcf7ae882eefa/pulumi_kubernetes_the_hard_way-0.0.11a1712622503.tar.gz
+[2024-04-09 02:41:07] WARNING root fetch - processPackages [cosmix-launcher]: Timeout reached during download
+[2024-04-09 02:41:07] INFO root fetch - processPackages [cosmix-launcher]: executing diffoscope
+[2024-04-09 02:41:07] INFO root fetch - processPackages [cosmix-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmix_launcher-1.0.0.tar.gz tmp/cosmix_launcher-1.0.1.tar.gz --markdown 20240409/c/cosmix-launcher/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:41:07] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-09 02:41:07] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240409/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622470.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622503.tar.gz --markdown 20240409/p/pulumi-kubernetes-the-hard-way/0.0.11a1712622470-0.0.11a1712622503/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-09 02:41:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622470.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622503.tar.gz --markdown 20240409/p/pulumi-kubernetes-the-hard-way/0.0.11a1712622470-0.0.11a1712622503/diff.md --exclude *.pyd
+[2024-04-09 02:41:07] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-09 02:41:07] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.7.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.8.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-09 02:41:07] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.0.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.1.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - main [MainThread]: End processing [cosmix-launcher]: success
+[2024-04-09 02:41:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-09 02:41:07] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-09 02:41:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622470.tar.gz]
+[2024-04-09 02:41:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712622503.tar.gz]
+[2024-04-09 02:41:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-09 02:41:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-09 02:41:08] INFO root fetch - main [MainThread]: Store serial: [22675041]
