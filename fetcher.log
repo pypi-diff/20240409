@@ -2648,3 +2648,20 @@
 [2024-04-09 01:58:10] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
 [2024-04-09 01:58:10] INFO root fetch - main [MainThread]: End processing [zou]: success
 [2024-04-09 01:58:10] INFO root fetch - main [MainThread]: Store serial: [22674688]
+[2024-04-09 02:00:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674688]
+[2024-04-09 02:00:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 02:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 2404-segmentation-pipeline
+[2024-04-09 02:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapescript
+[2024-04-09 02:00:18] WARNING root fetch - processPackages [2404-segmentation-pipeline]: Skipping, unable to determine old version
+[2024-04-09 02:00:18] INFO root fetch - main [MainThread]: End processing [2404-segmentation-pipeline] error
+[2024-04-09 02:00:18] INFO root fetch - processPackages [tapescript]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-09 02:00:19] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/83/d7/7d67e04f07038431333908553e39e7b7f0dc044e448242dcafbce9252309/tapescript-0.4.0.tar.gz
+[2024-04-09 02:00:19] WARNING root fetch - processPackages [tapescript]: Timeout reached during download
+[2024-04-09 02:00:19] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/96/ff/7b85ee395d17ab867ffeb54b1898e8dcfacb41f982a6cd18eb4fd1da60bd/tapescript-0.4.1.tar.gz
+[2024-04-09 02:00:19] WARNING root fetch - processPackages [tapescript]: Timeout reached during download
+[2024-04-09 02:00:19] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2024-04-09 02:00:19] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.4.0.tar.gz tmp/tapescript-0.4.1.tar.gz --markdown 20240409/t/tapescript/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-09 02:00:20] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.4.0.tar.gz]
+[2024-04-09 02:00:20] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.4.1.tar.gz]
+[2024-04-09 02:00:20] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2024-04-09 02:00:20] INFO root fetch - main [MainThread]: Store serial: [22674695]
