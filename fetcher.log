@@ -21671,3 +21671,42 @@
 [2024-04-09 11:21:03] INFO root fetch - processPackages [three_d_converter]: Remove: archive file [/home/abi/fetcher/tmp/three_d_converter-0.1.3.tar.gz]
 [2024-04-09 11:21:03] INFO root fetch - main [MainThread]: End processing [three_d_converter]: success
 [2024-04-09 11:21:03] INFO root fetch - main [MainThread]: Store serial: [22680938]
+[2024-04-09 11:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680938]
+[2024-04-09 11:23:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tieto-pika-test
+[2024-04-09 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybts
+[2024-04-09 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-hcloud
+[2024-04-09 11:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pokerkit
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pokerkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 11:23:13] WARNING root fetch - processPackages [tieto-pika-test]: Skipping, unable to determine old version
+[2024-04-09 11:23:13] INFO root fetch - main [MainThread]: End processing [tieto-pika-test] error
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pybts]: New version: [1.3.5] Old Version: [1.3.3]
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/8b/3c/3b7c51a05940dc6241d1e4e8394abb1ff566f9b13a7d7d0e551dfb75431b/pokerkit-0.4.8.tar.gz
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/cb/21/329a1925005e09442f23abf63456cd1a5c349adc1ac0f4dae7a221a94100/pybts-1.3.3.tar.gz
+[2024-04-09 11:23:13] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-09 11:23:13] WARNING root fetch - processPackages [pokerkit]: Timeout reached during download
+[2024-04-09 11:23:13] WARNING root fetch - processPackages [pybts]: Timeout reached during download
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/1b/ff/594b7172fd34fb55ed774384dda1be4353fecb7ceffe0b450272d74eb26c/pokerkit-0.4.9.tar.gz
+[2024-04-09 11:23:13] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240409/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2024-04-09 11:23:13] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/d1/af/7bf349cadcd5746d4fde876fb8705ad4082f276d98700e1ee47f26ab8d10/pybts-1.3.5.tar.gz
+[2024-04-09 11:23:14] WARNING root fetch - processPackages [pokerkit]: Timeout reached during download
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pokerkit]: executing diffoscope
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pokerkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerkit-0.4.8.tar.gz tmp/pokerkit-0.4.9.tar.gz --markdown 20240409/p/pokerkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:23:14] WARNING root fetch - processPackages [pybts]: Timeout reached during download
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.3.3.tar.gz tmp/pybts-1.3.5.tar.gz --markdown 20240409/p/pybts/1.3.3-1.3.5/diff.md --exclude *.pyd
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.4.8.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.4.9.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - main [MainThread]: End processing [pokerkit]: success
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.3.3.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.3.5.tar.gz]
+[2024-04-09 11:23:14] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-09 11:23:14] INFO root fetch - main [MainThread]: Store serial: [22680955]
