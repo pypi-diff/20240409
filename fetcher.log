@@ -9673,3 +9673,20 @@
 [2024-04-09 04:36:25] INFO root fetch - processPackages [edc-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_dashboard-0.3.9-py3-none-any.whl.zip]
 [2024-04-09 04:36:25] INFO root fetch - main [MainThread]: End processing [edc-dashboard]: success
 [2024-04-09 04:36:25] INFO root fetch - main [MainThread]: Store serial: [22676797]
+[2024-04-09 04:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676797]
+[2024-04-09 04:38:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bsv-sdk
+[2024-04-09 04:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hebill
+[2024-04-09 04:38:34] WARNING root fetch - processPackages [bsv-sdk]: Skipping, unable to determine old version
+[2024-04-09 04:38:34] INFO root fetch - main [MainThread]: End processing [bsv-sdk] error
+[2024-04-09 04:38:34] INFO root fetch - processPackages [hebill]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-09 04:38:34] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/6d/fb/e369b90307d3f252df3f702eb6460f757fdad29d142aa35f374e6f1bf554/hebill-1.1.5.tar.gz
+[2024-04-09 04:38:34] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:38:34] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/1b/78/f15dbfcedc50f15fbfb48869a0a83ca2803e3c2a1d3fad1a27ea78af9089/hebill-1.1.6.tar.gz
+[2024-04-09 04:38:34] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:38:34] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-09 04:38:34] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.5.tar.gz tmp/hebill-1.1.6.tar.gz --markdown 20240409/h/hebill/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-09 04:38:35] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.5.tar.gz]
+[2024-04-09 04:38:35] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.6.tar.gz]
+[2024-04-09 04:38:35] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-09 04:38:35] INFO root fetch - main [MainThread]: Store serial: [22676803]
