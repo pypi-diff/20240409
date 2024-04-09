@@ -14237,3 +14237,23 @@
 [2024-04-09 06:26:35] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.2.0.tar.gz]
 [2024-04-09 06:26:35] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
 [2024-04-09 06:26:35] INFO root fetch - main [MainThread]: Store serial: [22678200]
+[2024-04-09 06:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678200]
+[2024-04-09 06:28:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 06:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inovopy
+[2024-04-09 06:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advcalc
+[2024-04-09 06:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-includecontents
+[2024-04-09 06:28:44] WARNING root fetch - processPackages [django-includecontents]: Skipping, unable to determine old version
+[2024-04-09 06:28:44] INFO root fetch - main [MainThread]: End processing [django-includecontents] error
+[2024-04-09 06:28:44] WARNING root fetch - processPackages [inovopy]: Skipping, unable to determine old version
+[2024-04-09 06:28:44] INFO root fetch - main [MainThread]: End processing [inovopy] error
+[2024-04-09 06:28:44] INFO root fetch - processPackages [advcalc]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 06:28:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/d5/fd/9da6359bd2ea1758d6ac7abdffaf4446bc37e8c39761099eb60de508a646/advcalc-0.1.7.tar.gz
+[2024-04-09 06:28:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-09 06:28:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/80/cd/5884aaa36ba518c9784c7a58b3e565036d098c9aae7c00b408ab595593d3/advcalc-0.1.8.tar.gz
+[2024-04-09 06:28:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-09 06:28:44] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-09 06:28:44] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.1.7.tar.gz tmp/advcalc-0.1.8.tar.gz --markdown 20240409/a/advcalc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 06:28:45] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.7.tar.gz]
+[2024-04-09 06:28:45] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.8.tar.gz]
+[2024-04-09 06:28:45] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-09 06:28:45] INFO root fetch - main [MainThread]: Store serial: [22678211]
