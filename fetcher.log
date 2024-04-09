@@ -3563,3 +3563,47 @@
 [2024-04-09 02:36:47] INFO root fetch - processPackages [sweecrypt]: Remove: archive file [/home/abi/fetcher/tmp/sweecrypt-1.0.1.tar.gz]
 [2024-04-09 02:36:47] INFO root fetch - main [MainThread]: End processing [sweecrypt]: success
 [2024-04-09 02:36:47] INFO root fetch - main [MainThread]: Store serial: [22675006]
+[2024-04-09 02:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675006]
+[2024-04-09 02:38:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-deployment
+[2024-04-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pt-br-verbs-lemmatizer
+[2024-04-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcion-graficas
+[2024-04-09 02:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyauthorizer
+[2024-04-09 02:38:56] INFO root fetch - processPackages [pt-br-verbs-lemmatizer]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:38:56] INFO root fetch - processPackages [sphinx-deployment]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 02:38:56] INFO root fetch - processPackages [pt-br-verbs-lemmatizer]: Downloading https://files.pythonhosted.org/packages/0e/78/75ed09c9bd3f1e910a028cd1aa114318155bdb24927de20a1e907c56ebd1/pt_br_verbs_lemmatizer-0.0.98.tar.gz
+[2024-04-09 02:38:56] INFO root fetch - processPackages [pyauthorizer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 02:38:56] WARNING root fetch - processPackages [funcion-graficas]: Skipping, unable to determine old version
+[2024-04-09 02:38:56] INFO root fetch - main [MainThread]: End processing [funcion-graficas] error
+[2024-04-09 02:38:56] WARNING root fetch - processPackages [pt-br-verbs-lemmatizer]: Skipping package: exceeds size limit 11749704>=10485760
+[2024-04-09 02:38:56] INFO root fetch - main [MainThread]: End processing [pt-br-verbs-lemmatizer] error
+[2024-04-09 02:38:56] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 02:38:56] INFO root fetch - processPackages [pyauthorizer]: Downloading https://files.pythonhosted.org/packages/a6/71/1f24f47d7eab8f28f6e7ba790bc6ac53fcfd70f206ef261717a79ef4d851/pyauthorizer-0.2.8.tar.gz
+[2024-04-09 02:38:56] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/12/83/9f4dc763926f91cf7add9d058e1518fc4dc16c973f7f3f70a6fe7e92940b/sphinx-deployment-0.0.8.tar.gz
+[2024-04-09 02:38:56] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-09 02:38:56] WARNING root fetch - processPackages [pyauthorizer]: Timeout reached during download
+[2024-04-09 02:38:56] WARNING root fetch - processPackages [sphinx-deployment]: Timeout reached during download
+[2024-04-09 02:38:56] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-09 02:38:56] INFO root fetch - processPackages [pyauthorizer]: Downloading https://files.pythonhosted.org/packages/68/29/36582d1a7c7fa8e23f06a480a406cac6ee5aacb9887e4bfca9834ee21f7f/pyauthorizer-0.2.9.tar.gz
+[2024-04-09 02:38:56] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/40/bb/fafac3d74a06527ce2251806cc3dd286da63ba64282466869f14a02a5de5/sphinx-deployment-0.0.9.tar.gz
+[2024-04-09 02:38:57] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-09 02:38:57] WARNING root fetch - processPackages [pyauthorizer]: Timeout reached during download
+[2024-04-09 02:38:57] INFO root fetch - processPackages [pyauthorizer]: executing diffoscope
+[2024-04-09 02:38:57] INFO root fetch - processPackages [pyauthorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyauthorizer-0.2.8.tar.gz tmp/pyauthorizer-0.2.9.tar.gz --markdown 20240409/p/pyauthorizer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 02:38:57] WARNING root fetch - processPackages [sphinx-deployment]: Timeout reached during download
+[2024-04-09 02:38:57] INFO root fetch - processPackages [sphinx-deployment]: executing diffoscope
+[2024-04-09 02:38:57] INFO root fetch - processPackages [sphinx-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-deployment-0.0.8.tar.gz tmp/sphinx-deployment-0.0.9.tar.gz --markdown 20240409/s/sphinx-deployment/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 02:38:57] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-09 02:38:57] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-09 02:38:57] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240409/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 02:38:57] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-09 02:38:57] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.8.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.9.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - main [MainThread]: End processing [sphinx-deployment]: success
+[2024-04-09 02:38:57] INFO root fetch - processPackages [pyauthorizer]: Remove: archive file [/home/abi/fetcher/tmp/pyauthorizer-0.2.8.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - processPackages [pyauthorizer]: Remove: archive file [/home/abi/fetcher/tmp/pyauthorizer-0.2.9.tar.gz]
+[2024-04-09 02:38:57] INFO root fetch - main [MainThread]: End processing [pyauthorizer]: success
+[2024-04-09 02:38:57] INFO root fetch - main [MainThread]: Store serial: [22675023]
