@@ -18878,3 +18878,39 @@
 [2024-04-09 09:53:22] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.4.2.tar.gz]
 [2024-04-09 09:53:22] INFO root fetch - main [MainThread]: End processing [Promium]: success
 [2024-04-09 09:53:22] INFO root fetch - main [MainThread]: Store serial: [22679925]
+[2024-04-09 09:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679925]
+[2024-04-09 09:55:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Promium
+[2024-04-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-codenerix-payments
+[2024-04-09 09:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecoscope
+[2024-04-09 09:55:32] INFO root fetch - processPackages [Promium]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-09 09:55:32] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/bc/9e/c8c4102bf0e8c09919b20c7f507798064c04669f7b7f5f7ea28540684003/Promium-3.4.1.tar.gz
+[2024-04-09 09:55:32] INFO root fetch - processPackages [django-codenerix-payments]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-09 09:55:32] INFO root fetch - processPackages [ecoscope]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-09 09:55:32] WARNING root fetch - processPackages [Promium]: Timeout reached during download
+[2024-04-09 09:55:32] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/dd/42/119f481d9d81d1bb8f3d7f9da228b96e9e57328ca45c3b4d6d0565a94357/Promium-3.4.2.tar.gz
+[2024-04-09 09:55:32] INFO root fetch - processPackages [django-codenerix-payments]: Downloading https://files.pythonhosted.org/packages/2f/20/32beade4019dc1df4087830ccb47b3dc4239e1e8f8fe861a0b18e683419e/django-codenerix-payments-4.0.2.tar.gz
+[2024-04-09 09:55:32] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/9d/64/451f978a88dc2645a65de1a159e3cf217014042ac58220a5db7ac7ea56a8/ecoscope-1.6.2.tar.gz
+[2024-04-09 09:55:32] WARNING root fetch - processPackages [Promium]: Timeout reached during download
+[2024-04-09 09:55:32] INFO root fetch - processPackages [Promium]: executing diffoscope
+[2024-04-09 09:55:32] INFO root fetch - processPackages [Promium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Promium-3.4.1.tar.gz tmp/Promium-3.4.2.tar.gz --markdown 20240409/P/Promium/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2024-04-09 09:55:32] WARNING root fetch - processPackages [ecoscope]: Timeout reached during download
+[2024-04-09 09:55:32] WARNING root fetch - processPackages [django-codenerix-payments]: Timeout reached during download
+[2024-04-09 09:55:33] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/dd/b7/42846e080440ad7d7b73c7cd8fd6664e3c71985cfc8e1dfcccecb2cc4d56/ecoscope-1.6.3.tar.gz
+[2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: Downloading https://files.pythonhosted.org/packages/7f/85/d10b944b3e8edbac808758c34e42d015287a9e911196f6ec9349fb9b6d1a/django-codenerix-payments-4.0.3.tar.gz
+[2024-04-09 09:55:33] WARNING root fetch - processPackages [ecoscope]: Timeout reached during download
+[2024-04-09 09:55:33] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2024-04-09 09:55:33] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.6.2.tar.gz tmp/ecoscope-1.6.3.tar.gz --markdown 20240409/e/ecoscope/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-09 09:55:33] WARNING root fetch - processPackages [django-codenerix-payments]: Timeout reached during download
+[2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: executing diffoscope
+[2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-payments-4.0.2.tar.gz tmp/django-codenerix-payments-4.0.3.tar.gz --markdown 20240409/d/django-codenerix-payments/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2024-04-09 09:55:33] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.4.1.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.4.2.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - main [MainThread]: End processing [Promium]: success
+[2024-04-09 09:55:33] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.6.2.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.6.3.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-payments-4.0.2.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - processPackages [django-codenerix-payments]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-payments-4.0.3.tar.gz]
+[2024-04-09 09:55:33] INFO root fetch - main [MainThread]: End processing [django-codenerix-payments]: success
+[2024-04-09 09:55:33] INFO root fetch - main [MainThread]: Store serial: [22679934]
