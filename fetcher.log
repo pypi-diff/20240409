@@ -21040,3 +21040,174 @@
 [2024-04-09 11:04:41] INFO root fetch - processPackages [timeout-sampler]: Remove: archive file [/home/abi/fetcher/tmp/timeout_sampler-0.0.9.tar.gz]
 [2024-04-09 11:04:41] INFO root fetch - main [MainThread]: End processing [timeout-sampler]: success
 [2024-04-09 11:04:41] INFO root fetch - main [MainThread]: Store serial: [22680704]
+[2024-04-09 11:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680704]
+[2024-04-09 11:06:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-utility-scripts
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unifyai
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-analysis-bilibili
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhelper-utils
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.common
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.core
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-sqlmodel-starter
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2024-04-09 11:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2024-04-09 11:06:50] INFO root fetch - processPackages [python-utility-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [unifyai]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.common]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.core]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:50] WARNING root fetch - processPackages [fastapi-sqlmodel-starter]: Skipping, unable to determine old version
+[2024-04-09 11:06:50] INFO root fetch - processPackages [fastapi-sqlmodel-starter]: Start processing: checkatlas
+[2024-04-09 11:06:50] INFO root fetch - main [MainThread]: End processing [fastapi-sqlmodel-starter] error
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.features]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/06/6f/682247c7c84251fd5c248d697c2a75fbd541c2f61096241a9886ad794710/pyhelper_utils-0.0.5.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/f1/21/7ba70d43fadb3892d23b971e7a86197410f9e4622f3802f2eb4cb7481229/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/7b/c7/e0328c89bae593fcf99e81ed7897855234efd09641c28c500a628599e74b/unifyai-0.5.1.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/6c/01/51bfeb2fcf48de8e85393b7dc865596d4ef5a95d7c36d178832b3a4f77bb/python_utility_scripts-0.0.8.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c6/49/fdb69bc756f32e7888455842f71e5f019ec153b2b11314a34b1743cc44a3/autogluon.common-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/27/b0/7c3b3bb39329cc3e965d8660cb34a0e370a486d06f117374fa2683c9e41c/autogluon.features-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/30/b7/9bb60666caf785ba38616e93b01148545ea5d0e1137b369222a3f658f710/autogluon.core-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:50] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/1f/6d/3ac4d7cd43daef87309de263f18b5539fbc033f89fd00e485bb1478faea2/autogluon.multimodal-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [python-utility-scripts]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [unifyai]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/3c/b9/da847d63f79213d11f406e5a5f80f9b57cb47f53894989dee34b6e097d24/autogluon.tabular-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.multimodal]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/b5/1f/a795660b71037e5c289d162daebc6fa80614879af1af487e37846d02355e/python_utility_scripts-0.0.9.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/8f/b4/6dcb2e7eba35c7f559eac816b1cef17dbc0805d6b58bcb219e451d2baac9/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/a1/31/25d5c00a2b5f2a9eea1ce343fc1929d8c6b34ce648991b99287cb1972b0f/unifyai-0.6.0.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/d3/01/2fb53c2dcb2b9312596cf5e722cab9ffc09ae952401209bb0fec84375517/autogluon.features-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/25/f4/e763bfd08d600c91801a28a2de299e580896e8be584dbaa454682a6dfaf1/autogluon.common-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/85/46/8eb5e072b7a4beb9886c6ba2d7366a994dd6c4084060ac16ad3cfe5329e5/pyhelper_utils-0.0.6.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [unifyai]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.5.1.tar.gz tmp/unifyai-0.6.0.tar.gz --markdown 20240409/u/unifyai/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [python-utility-scripts]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [python-utility-scripts]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [python-utility-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_utility_scripts-0.0.8.tar.gz tmp/python_utility_scripts-0.0.9.tar.gz --markdown 20240409/p/python-utility-scripts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz --markdown 20240409/n/nonebot-plugin-analysis-bilibili/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/e1/e4/1f979d07217b6af517570d92ec36c68fa4c5e9747190fa3821b4d2c5ca01/autogluon.core-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ab/76/427358f6cd9476db7f2130d06a5278b173c5bf3dbd4b8a022a3fb5d44579/autogluon.multimodal-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.0.1b20240407.tar.gz tmp/autogluon.common-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.common/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.5.tar.gz tmp/pyhelper_utils-0.0.6.tar.gz --markdown 20240409/p/pyhelper-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.0.1b20240407.tar.gz tmp/autogluon.features-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.features/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.0.1b20240407.tar.gz tmp/autogluon.core-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.core/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/1a/40/c875b159d7bc1a0b5b846d5e96290dcfb52c82f1d48eb781223c8842c9db/autogluon.tabular-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.multimodal]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.0.1b20240407.tar.gz tmp/autogluon.multimodal-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.multimodal/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240409/c/checkatlas/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:06:51] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-09 11:06:51] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.0.1b20240407.tar.gz tmp/autogluon.tabular-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.tabular/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:52] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.5.1.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.6.0.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [unifyai]: Start processing: autogluon.timeseries
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.8.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.9.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [python-utility-scripts]: Start processing: rclip
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [python-utility-scripts]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.5.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.6.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [pyhelper-utils]: Start processing: autogluon
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Start processing: py-loop
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [rclip]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.features]: Start processing: sferriol-python
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/29/79/bc6a8fd9fddc6bbe687f6ed1d2471410ab305ad2a2f7f66563f4e03ab7aa/autogluon.timeseries-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:52] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/46/d3/5796d299c24445776e4e4b4536d3829cf786742585aed463dddd92e9c17e/rclip-1.7.9.tar.gz
+[2024-04-09 11:06:52] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 11:06:52] INFO root fetch - processPackages [py-loop]: New version: [0.5.0b2] Old Version: [0.4.1b2]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [sferriol-python]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/c5/25/f3d1db21e531276cee7ba611377f2c5d7aa48c4e48e0ad1e1ecab53e0583/autogluon-1.0.1b20240407.tar.gz
+[2024-04-09 11:06:52] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:06:52] WARNING root fetch - processPackages [autogluon.timeseries]: Timeout reached during download
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:52] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-09 11:06:52] WARNING root fetch - processPackages [autogluon]: Timeout reached during download
+[2024-04-09 11:06:52] INFO root fetch - processPackages [py-loop]: Downloading https://files.pythonhosted.org/packages/3d/f7/cbd86664d5a157bcf092602b4fde93182eb9572a3902366d120d5d2ac52d/py-loop-0.4.1b2.tar.gz
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-09 11:06:53] INFO root fetch - processPackages [sferriol-python]: Downloading https://files.pythonhosted.org/packages/7e/22/928bb6f18d6ff26d4cf759d0d114a90311b9ff0413e7919227b3cd2dcc1f/sferriol_python-0.4.0-py3-none-any.whl
+[2024-04-09 11:06:53] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ee/40/a34a23fd3e7bd18ae84b057645e866c0e5d92aaf167925a06e372a7e0aa8/rclip-1.8.0.tar.gz
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/53/fb/4c65bade711ec6384bbfdab5a73ef23e6eba120c1d1bdcc3a1994c5958b1/autogluon.timeseries-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 11:06:53] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.7.9.tar.gz tmp/rclip-1.8.0.tar.gz --markdown 20240409/r/rclip/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [sferriol-python]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/92/fc/9ddaf8153a21048f7f5435a4c17eeab9c570c4e73dd5879e0c62afae443c/autogluon-1.0.1b20240408.tar.gz
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [py-loop]: Timeout reached during download
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [autogluon.timeseries]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.0.1b20240407.tar.gz tmp/autogluon.timeseries-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon.timeseries/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [autogluon]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.0.1b20240407.tar.gz tmp/autogluon-1.0.1b20240408.tar.gz --markdown 20240409/a/autogluon/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-09 11:06:53] INFO root fetch - processPackages [sferriol-python]: Downloading https://files.pythonhosted.org/packages/18/04/f0fae401e38afb99415b51b08ae8fafd22abd15833f4f7b5d27f83ae468d/sferriol-python-0.4.1.tar.gz
+[2024-04-09 11:06:53] INFO root fetch - processPackages [py-loop]: Downloading https://files.pythonhosted.org/packages/5f/6f/7042e765acbaa5377d0c83de0c73556e91412b84b19eaa8cdd869e58c440/py_loop-0.5.0b2.tar.gz
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [sferriol-python]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [sferriol-python]: executing diffoscope
+[2024-04-09 11:06:53] WARNING root fetch - processPackages [py-loop]: Timeout reached during download
+[2024-04-09 11:06:53] INFO root fetch - processPackages [sferriol-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sferriol_python-0.4.0-py3-none-any.whl.zip tmp/sferriol-python-0.4.1.tar.gz --markdown 20240409/s/sferriol-python/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-09 11:06:53] INFO root fetch - processPackages [py-loop]: executing diffoscope
+[2024-04-09 11:06:53] INFO root fetch - processPackages [py-loop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-loop-0.4.1b2.tar.gz tmp/py_loop-0.5.0b2.tar.gz --markdown 20240409/p/py-loop/0.4.1b2-0.5.0b2/diff.md --exclude *.pyd
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-09 11:06:53] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.7.9.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.0.tar.gz]
+[2024-04-09 11:06:53] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 11:06:54] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240407.tar.gz]
+[2024-04-09 11:06:54] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240408.tar.gz]
+[2024-04-09 11:06:54] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-09 11:06:54] INFO root fetch - processPackages [sferriol-python]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_python-0.4.0-py3-none-any.whl.zip]
+[2024-04-09 11:06:54] INFO root fetch - processPackages [sferriol-python]: Remove: archive file [/home/abi/fetcher/tmp/sferriol-python-0.4.1.tar.gz]
+[2024-04-09 11:06:54] INFO root fetch - main [MainThread]: End processing [sferriol-python]: success
+[2024-04-09 11:06:54] INFO root fetch - processPackages [py-loop]: Remove: archive file [/home/abi/fetcher/tmp/py-loop-0.4.1b2.tar.gz]
+[2024-04-09 11:06:54] INFO root fetch - processPackages [py-loop]: Remove: archive file [/home/abi/fetcher/tmp/py_loop-0.5.0b2.tar.gz]
+[2024-04-09 11:06:54] INFO root fetch - main [MainThread]: End processing [py-loop]: success
+[2024-04-09 11:06:54] INFO root fetch - main [MainThread]: Store serial: [22680752]
