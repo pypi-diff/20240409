@@ -24731,3 +24731,28 @@
 [2024-04-09 12:54:45] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.9.0rc9.tar.gz]
 [2024-04-09 12:54:45] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
 [2024-04-09 12:54:45] INFO root fetch - main [MainThread]: Store serial: [22682144]
+[2024-04-09 12:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682144]
+[2024-04-09 12:56:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pierskarsenbarg-pulumi-sdm
+[2024-04-09 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protokolo
+[2024-04-09 12:56:54] INFO root fetch - processPackages [protokolo]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-04-09 12:56:54] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 12:56:54] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/db/5f/43786688d54d0ff70a385ca5139304a4aa2df11146f80be4cb5a0cd12760/pierskarsenbarg_pulumi_sdm-1.8.0.tar.gz
+[2024-04-09 12:56:54] INFO root fetch - processPackages [protokolo]: Downloading https://files.pythonhosted.org/packages/e1/43/30254ea88f563965341d0208f981109c214325ed2d1b00ea8070474a390b/protokolo-0.3.0.tar.gz
+[2024-04-09 12:56:54] WARNING root fetch - processPackages [protokolo]: Timeout reached during download
+[2024-04-09 12:56:54] WARNING root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Timeout reached during download
+[2024-04-09 12:56:54] INFO root fetch - processPackages [protokolo]: Downloading https://files.pythonhosted.org/packages/9d/ad/eb66d10f4787923a5913599c930f2386a8bdfc4ae7cc97387a7d2bbb1deb/protokolo-1.0.0.tar.gz
+[2024-04-09 12:56:54] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/3f/94/f70566f985577a4c4dcddde6be30629343edf0fc979217269bef4b72ad08/pierskarsenbarg_pulumi_sdm-1.9.0.tar.gz
+[2024-04-09 12:56:54] WARNING root fetch - processPackages [protokolo]: Timeout reached during download
+[2024-04-09 12:56:54] INFO root fetch - processPackages [protokolo]: executing diffoscope
+[2024-04-09 12:56:54] INFO root fetch - processPackages [protokolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protokolo-0.3.0.tar.gz tmp/protokolo-1.0.0.tar.gz --markdown 20240409/p/protokolo/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-09 12:56:55] WARNING root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Timeout reached during download
+[2024-04-09 12:56:55] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2024-04-09 12:56:55] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.8.0.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.9.0.tar.gz --markdown 20240409/p/pierskarsenbarg-pulumi-sdm/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-09 12:56:55] INFO root fetch - processPackages [protokolo]: Remove: archive file [/home/abi/fetcher/tmp/protokolo-0.3.0.tar.gz]
+[2024-04-09 12:56:55] INFO root fetch - processPackages [protokolo]: Remove: archive file [/home/abi/fetcher/tmp/protokolo-1.0.0.tar.gz]
+[2024-04-09 12:56:55] INFO root fetch - main [MainThread]: End processing [protokolo]: success
+[2024-04-09 12:56:56] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.8.0.tar.gz]
+[2024-04-09 12:56:56] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.9.0.tar.gz]
+[2024-04-09 12:56:56] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2024-04-09 12:56:56] INFO root fetch - main [MainThread]: Store serial: [22682150]
