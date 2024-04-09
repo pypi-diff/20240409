@@ -9545,3 +9545,28 @@
 [2024-04-09 04:25:34] INFO root fetch - processPackages [s5cmdpy]: Remove: archive file [/home/abi/fetcher/tmp/s5cmdpy-0.2.5.tar.gz]
 [2024-04-09 04:25:34] INFO root fetch - main [MainThread]: End processing [s5cmdpy]: success
 [2024-04-09 04:25:34] INFO root fetch - main [MainThread]: Store serial: [22676754]
+[2024-04-09 04:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676754]
+[2024-04-09 04:27:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: util_td
+[2024-04-09 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2024-04-09 04:27:43] INFO root fetch - processPackages [util_td]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 04:27:43] INFO root fetch - processPackages [anyon]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-04-09 04:27:43] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/5d/51/54c8b18d74b513fc2c859172d8c22dbf34b453f8527e9e92d336435c4d50/anyon-4.1.1-cp312-none-win_amd64.whl
+[2024-04-09 04:27:43] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/cf/8c/7e65bc9585bb223d1a500cd94394502b6ed5a74829579e3fb7a69ede2c53/util_td-0.0.8.tar.gz
+[2024-04-09 04:27:43] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:27:43] WARNING root fetch - processPackages [anyon]: Timeout reached during download
+[2024-04-09 04:27:43] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/24/ed/2f67e33cc3593bb3be782e7e0ba50def2a74cd1e068a0e7653f1333eade6/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl
+[2024-04-09 04:27:43] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/52/9e/39ef74a46474a3613b9e9419253c0350568899819985a492b5f7b8e68889/util_td-0.0.9.tar.gz
+[2024-04-09 04:27:43] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:27:43] INFO root fetch - processPackages [util_td]: executing diffoscope
+[2024-04-09 04:27:43] INFO root fetch - processPackages [util_td]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/util_td-0.0.8.tar.gz tmp/util_td-0.0.9.tar.gz --markdown 20240409/u/util_td/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 04:27:43] WARNING root fetch - processPackages [anyon]: Timeout reached during download
+[2024-04-09 04:27:43] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-04-09 04:27:43] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.1.1-cp312-none-win_amd64.whl.zip tmp/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl.zip --markdown 20240409/a/anyon/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2024-04-09 04:27:44] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.8.tar.gz]
+[2024-04-09 04:27:44] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.9.tar.gz]
+[2024-04-09 04:27:44] INFO root fetch - main [MainThread]: End processing [util_td]: success
+[2024-04-09 04:27:44] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.1-cp312-none-win_amd64.whl.zip]
+[2024-04-09 04:27:44] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl.zip]
+[2024-04-09 04:27:44] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-04-09 04:27:44] INFO root fetch - main [MainThread]: Store serial: [22676769]
