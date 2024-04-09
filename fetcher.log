@@ -16852,3 +16852,39 @@
 [2024-04-09 08:38:59] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1476-py3-none-any.whl.zip]
 [2024-04-09 08:38:59] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-09 08:38:59] INFO root fetch - main [MainThread]: Store serial: [22679125]
+[2024-04-09 08:41:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679125]
+[2024-04-09 08:41:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 08:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbsite
+[2024-04-09 08:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-timesheet-sheet
+[2024-04-09 08:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sora-sdk
+[2024-04-09 08:41:09] INFO root fetch - processPackages [nbsite]: New version: [0.8.5rc1] Old Version: [0.8.5a5]
+[2024-04-09 08:41:09] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1]
+[2024-04-09 08:41:09] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/84/6a/808fe7d1a1749ce2b18e0e0f2f5888c595f151755cc9050dbb172e354d5a/nbsite-0.8.5a5.tar.gz
+[2024-04-09 08:41:09] WARNING root fetch - processPackages [nbsite]: Timeout reached during download
+[2024-04-09 08:41:09] INFO root fetch - processPackages [sora-sdk]: New version: [2024.2.0.dev2] Old Version: [2024.2.0.dev1]
+[2024-04-09 08:41:09] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/7e/0c/d08415ba885d66ac5744e8e3e163a75c9940daf48cae303abeaf6ea6e3e5/nbsite-0.8.5rc1.tar.gz
+[2024-04-09 08:41:09] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/32/a5/e94028ededa364bacf1257e5c1c628cd39dec158b3464708c62e37fb711a/odoo_addon_hr_timesheet_sheet-16.0.1.1.1-py3-none-any.whl
+[2024-04-09 08:41:10] WARNING root fetch - processPackages [nbsite]: Timeout reached during download
+[2024-04-09 08:41:10] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2024-04-09 08:41:10] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.5a5.tar.gz tmp/nbsite-0.8.5rc1.tar.gz --markdown 20240409/n/nbsite/0.8.5a5-0.8.5rc1/diff.md --exclude *.pyd
+[2024-04-09 08:41:10] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/68/45/9b6b881da5d2a3f1e7d4463ca0a8ce2bf69bd31287377f787c498f64f077/sora_sdk-2024.2.0.dev1.tar.gz
+[2024-04-09 08:41:10] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Timeout reached during download
+[2024-04-09 08:41:10] WARNING root fetch - processPackages [sora-sdk]: Timeout reached during download
+[2024-04-09 08:41:10] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/a2/73/c16956533ad6cfa0490fb44c38283f9b1d2ce3cde13caa8fd21bc249aef1/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl
+[2024-04-09 08:41:10] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/ad/10/1d3aab48d3097631a2271d58bcdc672aad4e52fc517edbee308c3512d31e/sora_sdk-2024.2.0.dev2.tar.gz
+[2024-04-09 08:41:10] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.5a5.tar.gz]
+[2024-04-09 08:41:10] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.5rc1.tar.gz]
+[2024-04-09 08:41:10] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2024-04-09 08:41:10] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Timeout reached during download
+[2024-04-09 08:41:10] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2024-04-09 08:41:10] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-hr-timesheet-sheet/16.0.1.1.1-16.0.1.1.1.2/diff.md --exclude *.pyd
+[2024-04-09 08:41:10] WARNING root fetch - processPackages [sora-sdk]: Timeout reached during download
+[2024-04-09 08:41:10] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-04-09 08:41:10] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.2.0.dev1.tar.gz tmp/sora_sdk-2024.2.0.dev2.tar.gz --markdown 20240409/s/sora-sdk/2024.2.0.dev1-2024.2.0.dev2/diff.md --exclude *.pyd
+[2024-04-09 08:41:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-09 08:41:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-04-09 08:41:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2024-04-09 08:41:23] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev1.tar.gz]
+[2024-04-09 08:41:23] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev2.tar.gz]
+[2024-04-09 08:41:23] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-04-09 08:41:23] INFO root fetch - main [MainThread]: Store serial: [22679135]
