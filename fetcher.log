@@ -17280,3 +17280,72 @@
 [2024-04-09 08:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-09 08:59:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-09 08:59:25] INFO root fetch - main [MainThread]: Store serial: [22679317]
+[2024-04-09 09:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679317]
+[2024-04-09 09:01:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apitally
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newswacafi
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dia-aiml
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autograph-utils
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-04-09 09:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: giant-events
+[2024-04-09 09:01:33] INFO root fetch - processPackages [newswacafi]: New version: [0.3] Old Version: [0.2]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [autograph-utils]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [giant-events]: New version: [0.3.0.0] Old Version: [0.2.9]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [dia-aiml]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [apitally]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [newswacafi]: Downloading https://files.pythonhosted.org/packages/1f/51/d17629067189f2272effaa9b9eb1baf9ae37370fe43450ac9d18a2256338/newswacafi-0.2.tar.gz
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [newswacafi]: Timeout reached during download
+[2024-04-09 09:01:34] INFO root fetch - processPackages [autograph-utils]: Downloading https://files.pythonhosted.org/packages/cf/9f/7f91dd430c305db488a69fb94ff21edde906730e9735cffdd74c08e70432/autograph_utils-0.1.1.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [giant-events]: Downloading https://files.pythonhosted.org/packages/be/34/82e713b58859eb2ffdc4f76d8080cd2e25b27d836b57a758ef0e5c6d7812/giant-events-0.2.9.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240408] Old Version: [1.33.1.dev20240407]
+[2024-04-09 09:01:34] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/e0/ac/911bc181b0567ad3872fb4730a477639712057c0a13c0aded48af2411352/dia-aiml-1.1.6.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [apitally]: Downloading https://files.pythonhosted.org/packages/f5/ff/beb39e168a80d3e7831b9bd4c272d5beb2442c7ef412b65eb55197e32d90/apitally-0.7.1.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [newswacafi]: Downloading https://files.pythonhosted.org/packages/96/19/60e86e539d127c264c5ba3422db22a313fc4bb87b13cb857bb5fd4990668/newswacafi-0.3.tar.gz
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [apitally]: Timeout reached during download
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [autograph-utils]: Timeout reached during download
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [giant-events]: Timeout reached during download
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [newswacafi]: Timeout reached during download
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [dia-aiml]: Timeout reached during download
+[2024-04-09 09:01:34] INFO root fetch - processPackages [newswacafi]: executing diffoscope
+[2024-04-09 09:01:34] INFO root fetch - processPackages [newswacafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newswacafi-0.2.tar.gz tmp/newswacafi-0.3.tar.gz --markdown 20240409/n/newswacafi/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-09 09:01:34] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/2e/59/3bb08bfc427a0f0f7eb45f289a99f4086bc467ae8547a8e6981eee00c6a6/streamlit-nightly-1.33.1.dev20240407.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [apitally]: Downloading https://files.pythonhosted.org/packages/db/ba/e1916c1af6dc8354bba6236fdf41add6769e28ee101e4dd5a5ee7d0111f3/apitally-0.8.0.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [autograph-utils]: Downloading https://files.pythonhosted.org/packages/10/d4/ae7b24a11856e97a9864083e75e5bcd591daf109cff45e50e0f4f1c8d543/autograph-utils-0.2.0.tar.gz
+[2024-04-09 09:01:34] INFO root fetch - processPackages [giant-events]: Downloading https://files.pythonhosted.org/packages/85/88/ae5756e70a99373eed346eb23bd06ded4e4e637ad76050b49b88eb3a7eb4/giant_events-0.3.0.0-py3-none-any.whl
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [apitally]: Timeout reached during download
+[2024-04-09 09:01:34] INFO root fetch - processPackages [apitally]: executing diffoscope
+[2024-04-09 09:01:34] INFO root fetch - processPackages [apitally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apitally-0.7.1.tar.gz tmp/apitally-0.8.0.tar.gz --markdown 20240409/a/apitally/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-09 09:01:34] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/64/3b/4a4c1967849a8c6d1e5fbe1c292c2688f31f9e4eeabff5c3e04f6da61ea2/dia-aiml-1.1.7.tar.gz
+[2024-04-09 09:01:34] WARNING root fetch - processPackages [autograph-utils]: Timeout reached during download
+[2024-04-09 09:01:34] INFO root fetch - processPackages [autograph-utils]: executing diffoscope
+[2024-04-09 09:01:34] INFO root fetch - processPackages [autograph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autograph_utils-0.1.1.tar.gz tmp/autograph-utils-0.2.0.tar.gz --markdown 20240409/a/autograph-utils/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 09:01:35] WARNING root fetch - processPackages [giant-events]: Timeout reached during download
+[2024-04-09 09:01:35] INFO root fetch - processPackages [giant-events]: executing diffoscope
+[2024-04-09 09:01:35] INFO root fetch - processPackages [giant-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant-events-0.2.9.tar.gz tmp/giant_events-0.3.0.0-py3-none-any.whl.zip --markdown 20240409/g/giant-events/0.2.9-0.3.0.0/diff.md --exclude *.pyd
+[2024-04-09 09:01:35] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-09 09:01:35] WARNING root fetch - processPackages [dia-aiml]: Timeout reached during download
+[2024-04-09 09:01:35] INFO root fetch - processPackages [dia-aiml]: executing diffoscope
+[2024-04-09 09:01:35] INFO root fetch - processPackages [dia-aiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-aiml-1.1.6.tar.gz tmp/dia-aiml-1.1.7.tar.gz --markdown 20240409/d/dia-aiml/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-09 09:01:35] INFO root fetch - processPackages [newswacafi]: Remove: archive file [/home/abi/fetcher/tmp/newswacafi-0.2.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - processPackages [newswacafi]: Remove: archive file [/home/abi/fetcher/tmp/newswacafi-0.3.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - main [MainThread]: End processing [newswacafi]: success
+[2024-04-09 09:01:35] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/a8/9e/6a20d78183dc0a338075306f2aa901a3271641dd6c9c9d937aa3412ec925/streamlit-nightly-1.33.1.dev20240408.tar.gz
+[2024-04-09 09:01:35] INFO root fetch - processPackages [apitally]: Remove: archive file [/home/abi/fetcher/tmp/apitally-0.7.1.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - processPackages [apitally]: Remove: archive file [/home/abi/fetcher/tmp/apitally-0.8.0.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - main [MainThread]: End processing [apitally]: success
+[2024-04-09 09:01:35] INFO root fetch - processPackages [autograph-utils]: Remove: archive file [/home/abi/fetcher/tmp/autograph_utils-0.1.1.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - processPackages [autograph-utils]: Remove: archive file [/home/abi/fetcher/tmp/autograph-utils-0.2.0.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - main [MainThread]: End processing [autograph-utils]: success
+[2024-04-09 09:01:35] INFO root fetch - processPackages [giant-events]: Remove: archive file [/home/abi/fetcher/tmp/giant-events-0.2.9.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - processPackages [giant-events]: Remove: archive file [/home/abi/fetcher/tmp/giant_events-0.3.0.0-py3-none-any.whl.zip]
+[2024-04-09 09:01:35] INFO root fetch - main [MainThread]: End processing [giant-events]: success
+[2024-04-09 09:01:35] INFO root fetch - processPackages [dia-aiml]: Remove: archive file [/home/abi/fetcher/tmp/dia-aiml-1.1.6.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - processPackages [dia-aiml]: Remove: archive file [/home/abi/fetcher/tmp/dia-aiml-1.1.7.tar.gz]
+[2024-04-09 09:01:35] INFO root fetch - main [MainThread]: End processing [dia-aiml]: success
+[2024-04-09 09:01:37] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-09 09:01:37] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-09 09:01:37] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.33.1.dev20240407.tar.gz tmp/streamlit-nightly-1.33.1.dev20240408.tar.gz --markdown 20240409/s/streamlit-nightly/1.33.1.dev20240407-1.33.1.dev20240408/diff.md --exclude *.pyd
+[2024-04-09 09:01:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240407.tar.gz]
+[2024-04-09 09:01:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240408.tar.gz]
+[2024-04-09 09:01:40] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-09 09:01:40] INFO root fetch - main [MainThread]: Store serial: [22679334]
