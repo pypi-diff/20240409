@@ -14875,3 +14875,19 @@
 [2024-04-09 07:07:58] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
 [2024-04-09 07:07:58] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
 [2024-04-09 07:07:58] INFO root fetch - main [MainThread]: Store serial: [22678436]
+[2024-04-09 07:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678436]
+[2024-04-09 07:10:06] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-09 07:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678436]
+[2024-04-09 07:12:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 07:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kivy-garden-invisible-magnet
+[2024-04-09 07:12:12] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 07:12:12] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: Downloading https://files.pythonhosted.org/packages/d5/5d/7fcb9617db838df992be9478a0d94f754120565fd7a3edb6f21dc0bdb4da/kivy_garden_invisible_magnet-0.1.0.tar.gz
+[2024-04-09 07:12:12] WARNING root fetch - processPackages [kivy-garden-invisible-magnet]: Timeout reached during download
+[2024-04-09 07:12:12] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: Downloading https://files.pythonhosted.org/packages/46/08/9ce417cea1f47ecbd416829f6dfc24a1871b17dea9e315ad7190a3b58200/kivy_garden_invisible_magnet-0.1.1.tar.gz
+[2024-04-09 07:12:12] WARNING root fetch - processPackages [kivy-garden-invisible-magnet]: Timeout reached during download
+[2024-04-09 07:12:12] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: executing diffoscope
+[2024-04-09 07:12:12] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_garden_invisible_magnet-0.1.0.tar.gz tmp/kivy_garden_invisible_magnet-0.1.1.tar.gz --markdown 20240409/k/kivy-garden-invisible-magnet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 07:12:13] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: Remove: archive file [/home/abi/fetcher/tmp/kivy_garden_invisible_magnet-0.1.0.tar.gz]
+[2024-04-09 07:12:13] INFO root fetch - processPackages [kivy-garden-invisible-magnet]: Remove: archive file [/home/abi/fetcher/tmp/kivy_garden_invisible_magnet-0.1.1.tar.gz]
+[2024-04-09 07:12:13] INFO root fetch - main [MainThread]: End processing [kivy-garden-invisible-magnet]: success
+[2024-04-09 07:12:13] INFO root fetch - main [MainThread]: Store serial: [22678439]
