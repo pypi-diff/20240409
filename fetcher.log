@@ -9620,3 +9620,9 @@
 [2024-04-09 04:32:06] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.1.tar.gz]
 [2024-04-09 04:32:06] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
 [2024-04-09 04:32:06] INFO root fetch - main [MainThread]: Store serial: [22676780]
+[2024-04-09 04:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676780]
+[2024-04-09 04:34:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 04:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bsv-sdk
+[2024-04-09 04:34:15] WARNING root fetch - processPackages [bsv-sdk]: Skipping, unable to determine old version
+[2024-04-09 04:34:15] INFO root fetch - main [MainThread]: End processing [bsv-sdk] error
+[2024-04-09 04:34:15] INFO root fetch - main [MainThread]: Store serial: [22676785]
