@@ -14775,3 +14775,64 @@
 [2024-04-09 07:03:35] WARNING root fetch - processPackages [conflare]: Skipping, unable to determine old version
 [2024-04-09 07:03:35] INFO root fetch - main [MainThread]: End processing [conflare] error
 [2024-04-09 07:03:35] INFO root fetch - main [MainThread]: Store serial: [22678408]
+[2024-04-09 07:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678408]
+[2024-04-09 07:05:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EduWorld
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kmport
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmisc
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conflare
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trieve-py-client
+[2024-04-09 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-homeassistant-custom-component
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [conflare]: Skipping, unable to determine old version
+[2024-04-09 07:05:44] INFO root fetch - main [MainThread]: End processing [conflare] error
+[2024-04-09 07:05:44] INFO root fetch - processPackages [trieve-py-client]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-04-09 07:05:44] INFO root fetch - processPackages [kmisc]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-04-09 07:05:44] INFO root fetch - processPackages [EduWorld]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 07:05:44] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 07:05:44] INFO root fetch - processPackages [kmport]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-09 07:05:44] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/57/3e/41d33e2366b544dc318e61fae1039b212ac820c32ad9a6d88aad2b66f9e6/trieve_py_client-0.5.7-py3-none-any.whl
+[2024-04-09 07:05:44] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/d2/e9/9059daaf908df88545defa11e93fe59095bf5bd8c7d6ee1636b1de378fff/eduworld-0.0.8.tar.gz
+[2024-04-09 07:05:44] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/c6/05/03f0c5e0f02d96763e9820c3142b83796fcfd07d500caa565d12708c8a1d/kmisc-2.1.98.tar.gz
+[2024-04-09 07:05:44] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-04-09 07:05:44] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/de/34/408260b6aef2cd9dd1cd65f240a9ba675ba97e105793757017256eeba510/kmport-2.1.4.tar.gz
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [EduWorld]: Timeout reached during download
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [trieve-py-client]: Timeout reached during download
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [kmisc]: Timeout reached during download
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [pytest-homeassistant-custom-component]: Timeout reached during download
+[2024-04-09 07:05:44] WARNING root fetch - processPackages [kmport]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/44/20/2f5d4850240756cbee95b0ed2ff8fa33c7b0da6f6587f998b3dff1908ead/trieve_py_client-0.6.0-py3-none-any.whl
+[2024-04-09 07:05:45] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/cd/ad/5d9dcd6558665c4d07701bb9e1c30762e9fb53f3c14635353af23c10f825/eduworld-0.0.9.tar.gz
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/5a/0b/bcd559a50df4a22543c5eb44e4fd34bbc0a82ae753b6ce5584a5f77a9eff/kmisc-2.1.99.tar.gz
+[2024-04-09 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/b1/cd/8967ceca2d054c1471c588b6d9a43c6e3088805ba26c97553faca7f6471f/kmport-2.1.5.tar.gz
+[2024-04-09 07:05:45] WARNING root fetch - processPackages [EduWorld]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [EduWorld]: executing diffoscope
+[2024-04-09 07:05:45] INFO root fetch - processPackages [EduWorld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eduworld-0.0.8.tar.gz tmp/eduworld-0.0.9.tar.gz --markdown 20240409/E/EduWorld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 07:05:45] WARNING root fetch - processPackages [trieve-py-client]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-04-09 07:05:45] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.5.7-py3-none-any.whl.zip tmp/trieve_py_client-0.6.0-py3-none-any.whl.zip --markdown 20240409/t/trieve-py-client/0.5.7-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 07:05:45] WARNING root fetch - processPackages [pytest-homeassistant-custom-component]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-04-09 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240409/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 07:05:45] WARNING root fetch - processPackages [kmport]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.4.tar.gz tmp/kmport-2.1.5.tar.gz --markdown 20240409/k/kmport/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2024-04-09 07:05:45] WARNING root fetch - processPackages [kmisc]: Timeout reached during download
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmisc]: executing diffoscope
+[2024-04-09 07:05:45] INFO root fetch - processPackages [kmisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmisc-2.1.98.tar.gz tmp/kmisc-2.1.99.tar.gz --markdown 20240409/k/kmisc/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2024-04-09 07:05:45] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.8.tar.gz]
+[2024-04-09 07:05:45] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.9.tar.gz]
+[2024-04-09 07:05:45] INFO root fetch - main [MainThread]: End processing [EduWorld]: success
+[2024-04-09 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-04-09 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-04-09 07:05:45] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-04-09 07:05:46] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.98.tar.gz]
+[2024-04-09 07:05:46] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.99.tar.gz]
+[2024-04-09 07:05:46] INFO root fetch - main [MainThread]: End processing [kmisc]: success
+[2024-04-09 07:05:46] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.4.tar.gz]
+[2024-04-09 07:05:46] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.5.tar.gz]
+[2024-04-09 07:05:46] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-04-09 07:05:46] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.5.7-py3-none-any.whl.zip]
+[2024-04-09 07:05:46] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.0-py3-none-any.whl.zip]
+[2024-04-09 07:05:46] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-04-09 07:05:46] INFO root fetch - main [MainThread]: Store serial: [22678425]
