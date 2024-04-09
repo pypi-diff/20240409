@@ -13436,3 +13436,20 @@
 [2024-04-09 05:57:54] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.2.dev0.tar.gz]
 [2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2024-04-09 05:57:54] INFO root fetch - main [MainThread]: Store serial: [22677885]
+[2024-04-09 05:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677885]
+[2024-04-09 06:00:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facebook-graphql-scraper
+[2024-04-09 06:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-log
+[2024-04-09 06:00:03] WARNING root fetch - processPackages [gradio-log]: Skipping, unable to determine old version
+[2024-04-09 06:00:03] INFO root fetch - main [MainThread]: End processing [gradio-log] error
+[2024-04-09 06:00:03] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 06:00:03] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/62/67/9880282a3628f486662ee23279be40e85f11c50ed6c3da626d09a0fbffb0/facebook-graphql-scraper-1.0.4.tar.gz
+[2024-04-09 06:00:03] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-09 06:00:04] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/9d/f8/6028aadadde9e5aad7aad4981f2d0cad9f6250ea3ccb5d3bf68a837972e6/facebook-graphql-scraper-1.0.5.tar.gz
+[2024-04-09 06:00:04] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-09 06:00:04] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-09 06:00:04] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-1.0.4.tar.gz tmp/facebook-graphql-scraper-1.0.5.tar.gz --markdown 20240409/f/facebook-graphql-scraper/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 06:00:04] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.4.tar.gz]
+[2024-04-09 06:00:04] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.5.tar.gz]
+[2024-04-09 06:00:04] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-09 06:00:04] INFO root fetch - main [MainThread]: Store serial: [22677893]
