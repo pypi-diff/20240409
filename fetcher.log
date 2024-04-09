@@ -9972,3 +9972,105 @@
 [2024-04-09 04:51:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
 [2024-04-09 04:51:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
 [2024-04-09 04:51:15] INFO root fetch - main [MainThread]: Store serial: [22676905]
+[2024-04-09 04:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676905]
+[2024-04-09 04:53:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-af
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-afc
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-aiart
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ame
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retell-sdk
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Xdcheckin
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: merlin-sdk
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: merlin-batch-predictor
+[2024-04-09 04:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merlin-pyfunc-server
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.41.2rc2] Old Version: [0.41.2rc1]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [Xdcheckin]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [retell-sdk]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.41.2rc2] Old Version: [0.41.2rc1]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/1b/3d/892a4b732429616efd25890577528a4c8f6facb60a0b958e414356c826f1/tencentcloud-sdk-python-afc-3.0.998.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/13/a7/cd4744c8322ce953518d00c96a9266d48d63a1126add51148a4d0d4c8e04/tencentcloud-sdk-python-ame-3.0.998.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/32/cd/310dfc1b231f91094eb0b66ffda3518b9dbf6487688b2fc420db4ddd4fc0/tencentcloud-sdk-python-af-3.0.998.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/6f/f3/1c1ff6933fbe6e5f6f5d9f21462ef2d10d1b5798d76c1a460157b513de2a/tencentcloud-sdk-python-aiart-3.0.998.tar.gz
+[2024-04-09 04:53:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-ame]: Timeout reached during download
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/17/c5/90fdd196df0f127c561fa73be7ee30053e8507bee2e6a610f4a9a5e9ef0e/merlin-pyfunc-server-0.41.2rc1.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/a6/4a/d03c32cf379e417efd3fdaa76ad1a514dbfcb036c9383ebbce3c3aca37e0/Xdcheckin-2.0.2.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/63/b4/cc779d8b4dea227783d70b4e1cfde1276ee42559cef7f7be451387605c5c/retell_sdk-3.4.0.tar.gz
+[2024-04-09 04:53:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-afc]: Timeout reached during download
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/47/c8/b0e1017a468f3dfef6ec6ba3ca83f91e7ed803b414512b840c37a584e404/merlin-batch-predictor-0.41.2rc1.tar.gz
+[2024-04-09 04:53:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-09 04:53:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-aiart]: Timeout reached during download
+[2024-04-09 04:53:24] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/b9/49/4b1e853c13ae996691188ababc25350864b53a71d496ab249a841ee6651b/tencentcloud-sdk-python-ame-3.0.999.tar.gz
+[2024-04-09 04:53:24] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/60/87/c3400c845a32edea1a82597849385ca49c7a5b2913971888ed1f05e8e32f/tencentcloud-sdk-python-af-3.0.999.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [Xdcheckin]: Timeout reached during download
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [retell-sdk]: Timeout reached during download
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-ame]: Timeout reached during download
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ame-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ame-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-ame/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/8d/3c/1c15761ec6f3ecaa67c88459d131c53be2ccf755263244bd16397c1ae3e8/tencentcloud-sdk-python-afc-3.0.999.tar.gz
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/e2/96/4956127b5f951ebbc42171d45c0a075fe8e3ed8147f616796fa637e626f3/tencentcloud-sdk-python-aiart-3.0.999.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-af/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/2c/42/e737465ca048ad456b4a5b4c53689bec37b16e4757977021ca6e741c0147/Xdcheckin-2.0.3.tar.gz
+[2024-04-09 04:53:25] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/a0/4f/f09a005add2816982798f87002c5d1a5b348e16fa46d08f8b4bc4c89cdc3/retell_sdk-3.5.0.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/f3/ef/4f83e58ada0f77ca0593a6394ba9f9b9c7b83f8f4daed85a074853930f2b/merlin-pyfunc-server-0.41.2rc2.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-afc]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-afc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-afc-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-afc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-aiart]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aiart-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aiart-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-aiart/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/da/15/969f136e980dd34b6e5284899caef13883dc045b3a84e757894a6994fdca/merlin-batch-predictor-0.41.2rc2.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [Xdcheckin]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [Xdcheckin]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [Xdcheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xdcheckin-2.0.2.tar.gz tmp/Xdcheckin-2.0.3.tar.gz --markdown 20240409/X/Xdcheckin/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [retell-sdk]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [retell-sdk]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [retell-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retell_sdk-3.4.0.tar.gz tmp/retell_sdk-3.5.0.tar.gz --markdown 20240409/r/retell-sdk/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.41.2rc1.tar.gz tmp/merlin-batch-predictor-0.41.2rc2.tar.gz --markdown 20240409/m/merlin-batch-predictor/0.41.2rc1-0.41.2rc2/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz --markdown 20240409/m/merlin-pyfunc-server/0.41.2rc1-0.41.2rc2/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-04-09 04:53:25] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-04-09 04:53:25] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240409/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz]
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz]
+[2024-04-09 04:53:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-af]: success
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.998.tar.gz]
+[2024-04-09 04:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.999.tar.gz]
+[2024-04-09 04:53:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ame]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.998.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.999.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-afc]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.998.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.999.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aiart]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc1.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc2.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/Xdcheckin-2.0.2.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/Xdcheckin-2.0.3.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [Xdcheckin]: success
+[2024-04-09 04:53:26] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.4.0.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.5.0.tar.gz]
+[2024-04-09 04:53:26] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
+[2024-04-09 04:53:27] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-04-09 04:53:27] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-04-09 04:53:27] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-04-09 04:53:27] INFO root fetch - main [MainThread]: Store serial: [22676932]
