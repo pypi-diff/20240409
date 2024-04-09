@@ -16768,3 +16768,53 @@
 [2024-04-09 08:34:21] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
 [2024-04-09 08:34:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
 [2024-04-09 08:34:21] INFO root fetch - main [MainThread]: Store serial: [22679042]
+[2024-04-09 08:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679042]
+[2024-04-09 08:36:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connected-components-3d
+[2024-04-09 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlist
+[2024-04-09 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-utils
+[2024-04-09 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renku
+[2024-04-09 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renku-lock
+[2024-04-09 08:36:30] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [crawlist]: Skipping, unable to determine old version
+[2024-04-09 08:36:30] INFO root fetch - main [MainThread]: End processing [crawlist] error
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku-lock]: New version: [2.9.3rc1] Old Version: [2.9.2rc2]
+[2024-04-09 08:36:30] INFO root fetch - processPackages [deep-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-09 08:36:30] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/49/68/f6e5c4226abe4bc6dd3b14531abddd5374e59fc2ce1832907d93f2855935/deep_utils-1.3.8.tar.gz
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku]: New version: [2.9.3rc1] Old Version: [2.9.2rc2]
+[2024-04-09 08:36:30] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/93/0c/29ede64f4f15fa317a89aa89701680432c38d170e3e0cf9c7119a905858a/renku_lock-2.9.2rc2-py3-none-any.whl
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [deep-utils]: Timeout reached during download
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [renku-lock]: Timeout reached during download
+[2024-04-09 08:36:30] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/e0/06/728eb7458cfb1b26de44010d59bef94cd9a590a00dac7dda13e3777e437c/deep_utils-1.3.9.tar.gz
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/8a/42/79ca26c207c7c8de594b52c49c4e20417083a00279d9af747896892d4c94/renku-2.9.2rc2.tar.gz
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/46/3d/ea649807c8df130aca6b4572d5c23737944b2586717f22a22a1d971dd3eb/renku_lock-2.9.3rc1-py3-none-any.whl
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [deep-utils]: Timeout reached during download
+[2024-04-09 08:36:30] INFO root fetch - processPackages [deep-utils]: executing diffoscope
+[2024-04-09 08:36:30] INFO root fetch - processPackages [deep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_utils-1.3.8.tar.gz tmp/deep_utils-1.3.9.tar.gz --markdown 20240409/d/deep-utils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [renku-lock]: Timeout reached during download
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2024-04-09 08:36:30] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.9.2rc2-py3-none-any.whl.zip tmp/renku_lock-2.9.3rc1-py3-none-any.whl.zip --markdown 20240409/r/renku-lock/2.9.2rc2-2.9.3rc1/diff.md --exclude *.pyd
+[2024-04-09 08:36:30] WARNING root fetch - processPackages [renku]: Timeout reached during download
+[2024-04-09 08:36:30] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2024-04-09 08:36:31] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/cb/8a/46c7069ca2072a389dabaeca53f9a4d112e9ef428ddadfb140861e077111/renku-2.9.3rc1.tar.gz
+[2024-04-09 08:36:31] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-09 08:36:31] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2024-04-09 08:36:31] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20240409/c/connected-components-3d/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-09 08:36:31] WARNING root fetch - processPackages [renku]: Timeout reached during download
+[2024-04-09 08:36:31] INFO root fetch - processPackages [renku]: executing diffoscope
+[2024-04-09 08:36:31] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.9.2rc2.tar.gz tmp/renku-2.9.3rc1.tar.gz --markdown 20240409/r/renku/2.9.2rc2-2.9.3rc1/diff.md --exclude *.pyd
+[2024-04-09 08:36:31] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.9.2rc2-py3-none-any.whl.zip]
+[2024-04-09 08:36:31] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.9.3rc1-py3-none-any.whl.zip]
+[2024-04-09 08:36:31] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2024-04-09 08:36:32] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.8.tar.gz]
+[2024-04-09 08:36:32] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
+[2024-04-09 08:36:32] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
+[2024-04-09 08:36:32] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2024-04-09 08:36:32] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2024-04-09 08:36:32] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2024-04-09 08:36:35] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.9.2rc2.tar.gz]
+[2024-04-09 08:36:35] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.9.3rc1.tar.gz]
+[2024-04-09 08:36:35] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2024-04-09 08:36:35] INFO root fetch - main [MainThread]: Store serial: [22679106]
