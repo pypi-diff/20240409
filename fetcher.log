@@ -15492,3 +15492,17 @@
 [2024-04-09 07:38:57] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.1.1.tar.gz]
 [2024-04-09 07:38:57] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
 [2024-04-09 07:38:57] INFO root fetch - main [MainThread]: Store serial: [22678688]
+[2024-04-09 07:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678688]
+[2024-04-09 07:41:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcloud-setup
+[2024-04-09 07:41:06] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 07:41:06] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/fb/56/8c189806712495a41635c775527eb4b3952336d5b3f5b20c5b377c6adc66/qcloud_setup-1.0.8.tar.gz
+[2024-04-09 07:41:08] WARNING root fetch - processPackages [qcloud-setup]: Timeout reached during download
+[2024-04-09 07:41:08] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/51/e3/46320aa18bcac027394c71063da5617b18d28d359fe1707f290f13c84ab5/qcloud_setup-1.0.9.tar.gz
+[2024-04-09 07:41:08] WARNING root fetch - processPackages [qcloud-setup]: Timeout reached during download
+[2024-04-09 07:41:08] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2024-04-09 07:41:08] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.8.tar.gz tmp/qcloud_setup-1.0.9.tar.gz --markdown 20240409/q/qcloud-setup/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 07:41:09] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.8.tar.gz]
+[2024-04-09 07:41:09] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.9.tar.gz]
+[2024-04-09 07:41:09] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2024-04-09 07:41:09] INFO root fetch - main [MainThread]: Store serial: [22678691]
