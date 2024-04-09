@@ -15728,3 +15728,11 @@
 [2024-04-09 07:50:00] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.58.tar.gz]
 [2024-04-09 07:50:00] INFO root fetch - main [MainThread]: End processing [countess]: success
 [2024-04-09 07:50:00] INFO root fetch - main [MainThread]: Store serial: [22678746]
+[2024-04-09 07:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678746]
+[2024-04-09 07:52:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 07:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atommediaserver
+[2024-04-09 07:52:09] INFO root fetch - processPackages [atommediaserver]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-09 07:52:09] INFO root fetch - processPackages [atommediaserver]: Downloading https://files.pythonhosted.org/packages/1e/b3/4c891cd2b75a63ba162c592da0391cd99a645995514f899e13201137d822/atommediaserver-1.0.0-py3-none-any.whl
+[2024-04-09 07:52:09] WARNING root fetch - processPackages [atommediaserver]: Skipping package: exceeds size limit 28758750>=10485760
+[2024-04-09 07:52:09] INFO root fetch - main [MainThread]: End processing [atommediaserver] error
+[2024-04-09 07:52:09] INFO root fetch - main [MainThread]: Store serial: [22678749]
