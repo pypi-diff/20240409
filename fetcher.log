@@ -18584,3 +18584,72 @@
 [2024-04-09 09:44:52] INFO root fetch - processPackages [django-codenerix-pos]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-pos-4.0.4.tar.gz]
 [2024-04-09 09:44:52] INFO root fetch - main [MainThread]: End processing [django-codenerix-pos]: success
 [2024-04-09 09:44:52] INFO root fetch - main [MainThread]: Store serial: [22679818]
+[2024-04-09 09:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679818]
+[2024-04-09 09:47:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smol_k8s_lab
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cxapit
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybiolib
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Starlette-WTF
+[2024-04-09 09:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywayne
+[2024-04-09 09:47:01] INFO root fetch - processPackages [smol_k8s_lab]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [Starlette-WTF]: New version: [0.4.4rc1] Old Version: [0.4.3rc1]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.6.5] Old Version: [1.0.0.6.4]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc2] Old Version: [2.8.0rc1]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-09 09:47:01] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/50/bc/ef2c26425eec2a3e61b1c0be70053d8091dce06cac6794fabd3f8b343a56/smol_k8s_lab-4.0.0.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [Starlette-WTF]: Downloading https://files.pythonhosted.org/packages/4d/3f/fc2364e244269d364fbe876ebf95ef6319993d0beb1f10035aae03d21f44/Starlette-WTF-0.4.3rc1.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/65/e4/969e8269f0ae6bb56b89acde015864a897fa96b1936c6e41014bc52051ba/rime_sdk-2.8.0rc1.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/e2/f7/24d1ce30a581c9b995a8a643ca7a4c884c19f72cd8057d2100e205873803/pywayne-1.0.0.6.4.tar.gz
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [Starlette-WTF]: Timeout reached during download
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [Starlette-WTF]: Downloading https://files.pythonhosted.org/packages/ef/5c/ebae9eeee15676f230d14b3b533c8b6472263248514dc3ec028cd37f9541/Starlette-WTF-0.4.4rc1.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 09:47:01] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/dd/8f/b5f7652386333c570047737ee99094659643eda6562a2077d3c76f9a3cfa/rime_sdk-2.8.0rc2.tar.gz
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [pybiolib]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/e1/9c/c958093059dfa9f97a6ba1645df0826ec54ae121f4bd0f1a6f87a0de8fd9/pywayne-1.0.0.6.5.tar.gz
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [Starlette-WTF]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [Starlette-WTF]: executing diffoscope
+[2024-04-09 09:47:01] INFO root fetch - processPackages [Starlette-WTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starlette-WTF-0.4.3rc1.tar.gz tmp/Starlette-WTF-0.4.4rc1.tar.gz --markdown 20240409/S/Starlette-WTF/0.4.3rc1-0.4.4rc1/diff.md --exclude *.pyd
+[2024-04-09 09:47:01] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/c3/aa/5086e161b0d33323ac4902a087e82283a9b69f593fae9ba052e2f3560da1/smol_k8s_lab-4.0.1.tar.gz
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 09:47:01] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-09 09:47:01] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc1.tar.gz tmp/rime_sdk-2.8.0rc2.tar.gz --markdown 20240409/r/rime-sdk/2.8.0rc1-2.8.0rc2/diff.md --exclude *.pyd
+[2024-04-09 09:47:01] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.6.4.tar.gz tmp/pywayne-1.0.0.6.5.tar.gz --markdown 20240409/p/pywayne/1.0.0.6.4-1.0.0.6.5/diff.md --exclude *.pyd
+[2024-04-09 09:47:01] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-09 09:47:02] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-09 09:47:02] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-04-09 09:47:02] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-4.0.0.tar.gz tmp/smol_k8s_lab-4.0.1.tar.gz --markdown 20240409/s/smol_k8s_lab/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:47:02] WARNING root fetch - processPackages [pybiolib]: Timeout reached during download
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240409/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2024-04-09 09:47:02] INFO root fetch - processPackages [Starlette-WTF]: Remove: archive file [/home/abi/fetcher/tmp/Starlette-WTF-0.4.3rc1.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - processPackages [Starlette-WTF]: Remove: archive file [/home/abi/fetcher/tmp/Starlette-WTF-0.4.4rc1.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - main [MainThread]: End processing [Starlette-WTF]: success
+[2024-04-09 09:47:02] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.4.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.5.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-09 09:47:02] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.0.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.1.tar.gz]
+[2024-04-09 09:47:02] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-04-09 09:47:04] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc1.tar.gz]
+[2024-04-09 09:47:04] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc2.tar.gz]
+[2024-04-09 09:47:04] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-09 09:47:04] INFO root fetch - main [MainThread]: Store serial: [22679838]
