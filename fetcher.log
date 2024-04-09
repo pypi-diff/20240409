@@ -17443,3 +17443,44 @@
 [2024-04-09 09:03:52] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-09 09:03:52] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
 [2024-04-09 09:03:52] INFO root fetch - main [MainThread]: Store serial: [22679365]
+[2024-04-09 09:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679365]
+[2024-04-09 09:06:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aviatrix-migration
+[2024-04-09 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jarpcdantic
+[2024-04-09 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-data-browser
+[2024-04-09 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwastic-desktop
+[2024-04-09 09:06:02] INFO root fetch - processPackages [jarpcdantic]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 09:06:02] INFO root fetch - processPackages [gwastic-desktop]: New version: [0.4.5] Old Version: [0.4.3]
+[2024-04-09 09:06:02] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/20/9a/a50bd2217f68c80e8aa39b93caa9b3097614eadc3061fec9aa05ff039d38/jarpcdantic-0.0.7.tar.gz
+[2024-04-09 09:06:02] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.87] Old Version: [0.2.85]
+[2024-04-09 09:06:02] INFO root fetch - processPackages [gwastic-desktop]: Downloading https://files.pythonhosted.org/packages/2b/47/691dc5572b5c4cbb0fe3e3474537a6db81d399aa453faa39b69683b10c30/gwastic_desktop-0.4.3.tar.gz
+[2024-04-09 09:06:02] INFO root fetch - processPackages [django-data-browser]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-09 09:06:02] WARNING root fetch - processPackages [gwastic-desktop]: Skipping package: exceeds size limit 19266884>=10485760
+[2024-04-09 09:06:02] INFO root fetch - main [MainThread]: End processing [gwastic-desktop] error
+[2024-04-09 09:06:02] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 09:06:02] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/f9/ec/8fe19881b015050c879d31f333a6358bd9a686162d6fbf3486a4c6cbff0d/aviatrix_migration-0.2.85-cp39-cp39-win_amd64.whl
+[2024-04-09 09:06:02] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/f6/0e/8b4214cf6b86616203ec35a001cd395d6a18f8b6739235ae21296313ed0c/django-data-browser-4.2.8.tar.gz
+[2024-04-09 09:06:02] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/69/35/72d73c4c1dc167ea69df7e3cb00a3b438ebf381abf9ae03511209b211256/jarpcdantic-0.0.8.tar.gz
+[2024-04-09 09:06:02] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 09:06:02] INFO root fetch - processPackages [jarpcdantic]: executing diffoscope
+[2024-04-09 09:06:02] INFO root fetch - processPackages [jarpcdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarpcdantic-0.0.7.tar.gz tmp/jarpcdantic-0.0.8.tar.gz --markdown 20240409/j/jarpcdantic/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 09:06:02] WARNING root fetch - processPackages [django-data-browser]: Timeout reached during download
+[2024-04-09 09:06:02] WARNING root fetch - processPackages [aviatrix-migration]: Timeout reached during download
+[2024-04-09 09:06:02] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/76/e1/e229e75c167b755700accbeae7bd30fc8e239194747bb3c9718da2ec74bd/aviatrix_migration-0.2.87-cp39-cp39-win_amd64.whl
+[2024-04-09 09:06:02] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/7e/d3/9055bc710e215033b3ba82b1b5f72579c882580bc6b5209890769644001b/django-data-browser-4.2.9.tar.gz
+[2024-04-09 09:06:03] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.7.tar.gz]
+[2024-04-09 09:06:03] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.8.tar.gz]
+[2024-04-09 09:06:03] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
+[2024-04-09 09:06:03] WARNING root fetch - processPackages [django-data-browser]: Timeout reached during download
+[2024-04-09 09:06:03] INFO root fetch - processPackages [django-data-browser]: executing diffoscope
+[2024-04-09 09:06:03] INFO root fetch - processPackages [django-data-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-data-browser-4.2.8.tar.gz tmp/django-data-browser-4.2.9.tar.gz --markdown 20240409/d/django-data-browser/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2024-04-09 09:06:04] WARNING root fetch - processPackages [aviatrix-migration]: Timeout reached during download
+[2024-04-09 09:06:04] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2024-04-09 09:06:04] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.85-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.87-cp39-cp39-win_amd64.whl.zip --markdown 20240409/a/aviatrix-migration/0.2.85-0.2.87/diff.md --exclude *.pyd
+[2024-04-09 09:06:04] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.85-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 09:06:04] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.87-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 09:06:04] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2024-04-09 09:06:18] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.8.tar.gz]
+[2024-04-09 09:06:18] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.9.tar.gz]
+[2024-04-09 09:06:18] INFO root fetch - main [MainThread]: End processing [django-data-browser]: success
+[2024-04-09 09:06:18] INFO root fetch - main [MainThread]: Store serial: [22679409]
