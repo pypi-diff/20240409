@@ -14396,3 +14396,42 @@
 [2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: Remove: archive file [/home/abi/fetcher/tmp/presentation-card-0.1.7.tar.gz]
 [2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [presentation-card]: success
 [2024-04-09 06:37:27] INFO root fetch - main [MainThread]: Store serial: [22678276]
+[2024-04-09 06:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678276]
+[2024-04-09 06:39:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 06:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bttc
+[2024-04-09 06:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oddswrangler
+[2024-04-09 06:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vloc
+[2024-04-09 06:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edman-web
+[2024-04-09 06:39:37] INFO root fetch - processPackages [vloc]: New version: [0.1.9] Old Version: [0.1.12]
+[2024-04-09 06:39:37] INFO root fetch - processPackages [edman-web]: New version: [2024.4.9] Old Version: [2024.3.5]
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [oddswrangler]: Skipping, unable to determine old version
+[2024-04-09 06:39:37] INFO root fetch - main [MainThread]: End processing [oddswrangler] error
+[2024-04-09 06:39:37] INFO root fetch - processPackages [bttc]: New version: [0.0.73.1] Old Version: [0.0.73]
+[2024-04-09 06:39:37] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/c4/53/1baf7927a3752a6eeff7927aae6e21ed9ef5a95e63499c8499a6b06395da/edman_web-2024.3.5.tar.gz
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [edman-web]: Timeout reached during download
+[2024-04-09 06:39:37] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/e9/b0/3b266afe12ebe478dfd606e071cee68cbfc9b588025a27bc2d49e97091cd/vloc-0.1.12.tar.gz
+[2024-04-09 06:39:37] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/4d/47/85c82280c84095edbd0a0feae4c5ab7fa7792903879d9ef22285156560d7/edman_web-2024.4.9.tar.gz
+[2024-04-09 06:39:37] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/48/77/a9d6c8632be567aabbc178731f95ca69024d59e46a266f48bdab91c67dbd/bttc-0.0.73.tar.gz
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [edman-web]: Timeout reached during download
+[2024-04-09 06:39:37] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2024-04-09 06:39:37] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2024.3.5.tar.gz tmp/edman_web-2024.4.9.tar.gz --markdown 20240409/e/edman-web/2024.3.5-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 06:39:37] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/75/38/dae0cec666987d786564bf9fb8f8fd73ad932ebeccdf04e63b6a20cb49c8/vloc-0.1.9.tar.gz
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [bttc]: Timeout reached during download
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:39:37] INFO root fetch - processPackages [vloc]: executing diffoscope
+[2024-04-09 06:39:37] INFO root fetch - processPackages [vloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc-0.1.12.tar.gz tmp/vloc-0.1.9.tar.gz --markdown 20240409/v/vloc/0.1.12-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:39:37] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/bf/79/c031813292268a929128aee8b9c8cdf3063224f70872813b1940e04da758/bttc-0.0.73.1.tar.gz
+[2024-04-09 06:39:37] WARNING root fetch - processPackages [bttc]: Timeout reached during download
+[2024-04-09 06:39:37] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-09 06:39:37] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.tar.gz tmp/bttc-0.0.73.1.tar.gz --markdown 20240409/b/bttc/0.0.73-0.0.73.1/diff.md --exclude *.pyd
+[2024-04-09 06:39:38] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2024.3.5.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2024.4.9.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2024-04-09 06:39:38] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.12.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.9.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - main [MainThread]: End processing [vloc]: success
+[2024-04-09 06:39:38] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.1.tar.gz]
+[2024-04-09 06:39:38] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-09 06:39:38] INFO root fetch - main [MainThread]: Store serial: [22678290]
