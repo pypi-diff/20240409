@@ -15974,3 +15974,39 @@
 [2024-04-09 08:01:03] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.9.tar.gz]
 [2024-04-09 08:01:03] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
 [2024-04-09 08:01:03] INFO root fetch - main [MainThread]: Store serial: [22678810]
+[2024-04-09 08:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678810]
+[2024-04-09 08:03:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-runlog
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-stock-logistics-availability
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-product-barcode-report
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ml-runlog]: New version: [1.9] Old Version: [1.8]
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/57/e4/f2313c037872870d36f82bfd823442cc00dc4c9765702df94dd1c9abf107/ml_runlog-1.8.tar.gz
+[2024-04-09 08:03:12] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: New version: [16.0.20240408.1] Old Version: [16.0.20230629.0]
+[2024-04-09 08:03:12] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: New version: [15.0.3.5.0.1] Old Version: [15.0.3.5.0]
+[2024-04-09 08:03:12] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/6f/a2/293176bd2760992834f73c8eb02eba909ac7457a9c386420e17466c26c48/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl
+[2024-04-09 08:03:12] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 08:03:12] WARNING root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Timeout reached during download
+[2024-04-09 08:03:12] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/61/df/67c7be147ae8eb6e66fd43d4fa406e658a1f3744edaf7b5749da8d1e39a4/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/b7/32/22b8b5e90e2ec0d71662ec4f477bf8cd025a0db3a587d34bbf8e0d4725e7/ml_runlog-1.9.tar.gz
+[2024-04-09 08:03:12] WARNING root fetch - processPackages [ml-runlog]: Timeout reached during download
+[2024-04-09 08:03:12] WARNING root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Timeout reached during download
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ml-runlog]: executing diffoscope
+[2024-04-09 08:03:12] INFO root fetch - processPackages [ml-runlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_runlog-1.8.tar.gz tmp/ml_runlog-1.9.tar.gz --markdown 20240409/m/ml-runlog/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/23/8f/68728aa86ab7e1ff5a8a7d5257296bd483c5aaae8f986141f51036c8390b/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0.1-py3-none-any.whl
+[2024-04-09 08:03:13] WARNING root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Timeout reached during download
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: executing diffoscope
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0.1-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-stock-picking-product-barcode-report/15.0.3.5.0-15.0.3.5.0.1/diff.md --exclude *.pyd
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/fe/40/0abe226d8288f5de009416d2c20940b3db27acb0cb9bb1acdab266465bf3/odoo_addons_oca_stock_logistics_availability-16.0.20240408.1-py3-none-any.whl
+[2024-04-09 08:03:13] WARNING root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Timeout reached during download
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: executing diffoscope
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_availability-16.0.20240408.1-py3-none-any.whl.zip --markdown 20240409/o/odoo-addons-oca-stock-logistics-availability/16.0.20230629.0-16.0.20240408.1/diff.md --exclude *.pyd
+[2024-04-09 08:03:13] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.8.tar.gz]
+[2024-04-09 08:03:13] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.9.tar.gz]
+[2024-04-09 08:03:13] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl.zip]
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_availability-16.0.20240408.1-py3-none-any.whl.zip]
+[2024-04-09 08:03:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-availability]: success
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl.zip]
+[2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0.1-py3-none-any.whl.zip]
+[2024-04-09 08:03:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
+[2024-04-09 08:03:13] INFO root fetch - main [MainThread]: Store serial: [22678817]
