@@ -23406,3 +23406,64 @@
 [2024-04-09 12:10:38] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.69.2.tar.gz]
 [2024-04-09 12:10:38] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-09 12:10:38] INFO root fetch - main [MainThread]: Store serial: [22681669]
+[2024-04-09 12:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681669]
+[2024-04-09 12:12:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-logidater
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: warmth
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overturemaps
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orthanc-tools
+[2024-04-09 12:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moval
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [overturemaps]: Skipping, unable to determine old version
+[2024-04-09 12:12:47] INFO root fetch - main [MainThread]: End processing [overturemaps] error
+[2024-04-09 12:12:47] INFO root fetch - processPackages [pg-logidater]: New version: [0.2.0] Old Version: [0.1.0b0]
+[2024-04-09 12:12:47] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 12:12:47] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024040809] Old Version: [2.17.0.dev2024040709]
+[2024-04-09 12:12:47] INFO root fetch - processPackages [warmth]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 12:12:47] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/96/a7/7dc4106c5a2c651e23d9689351586adf1debcacc565a6d0beb7e95a2377b/pg_logidater-0.1.0b0.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [orthanc-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 12:12:47] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/01/98/51358a9cc32fe1184e6679de25e7a721fe0d88a625cdab9d3828bf27e7c0/tf_keras-nightly-2.17.0.dev2024040709.tar.gz
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [pg-logidater]: Timeout reached during download
+[2024-04-09 12:12:47] INFO root fetch - processPackages [warmth]: Downloading https://files.pythonhosted.org/packages/41/e5/ed51944cf33c871aee8fdf4b2838644dbb580ffead39bf3d8e7a464c63a8/warmth-0.0.1.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [orthanc-tools]: Downloading https://files.pythonhosted.org/packages/86/1d/cdb5090337cf9fd3a32776fd5f81540db295a5878839f9ca73e718447274/orthanc_tools-0.9.8.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-09 12:12:47] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/2a/eb/2b99b35e7b4e976dde0037e71f560954a3611cd230267e4deb99a18ecf32/pg_logidater-0.2.0.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/26/f1/1057a4ab61157a95d54a81a2f362155c2f9e01c3585b4967a4bc3f363265/tf_keras-nightly-2.17.0.dev2024040809.tar.gz
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:12:47] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-09 12:12:47] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240409/m/moval/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [warmth]: Timeout reached during download
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [orthanc-tools]: Timeout reached during download
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [pg-logidater]: Timeout reached during download
+[2024-04-09 12:12:47] INFO root fetch - processPackages [pg-logidater]: executing diffoscope
+[2024-04-09 12:12:47] INFO root fetch - processPackages [pg-logidater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_logidater-0.1.0b0.tar.gz tmp/pg_logidater-0.2.0.tar.gz --markdown 20240409/p/pg-logidater/0.1.0b0-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 12:12:47] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-09 12:12:47] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-09 12:12:47] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras-nightly-2.17.0.dev2024040709.tar.gz tmp/tf_keras-nightly-2.17.0.dev2024040809.tar.gz --markdown 20240409/t/tf-keras-nightly/2.17.0.dev2024040709-2.17.0.dev2024040809/diff.md --exclude *.pyd
+[2024-04-09 12:12:47] INFO root fetch - processPackages [warmth]: Downloading https://files.pythonhosted.org/packages/b4/a6/fcbedcfdefd36b1e1f00f36c39925c1bcd79848d43f43c24b5e2de7ee71a/warmth-0.0.2.tar.gz
+[2024-04-09 12:12:47] INFO root fetch - processPackages [orthanc-tools]: Downloading https://files.pythonhosted.org/packages/05/54/3d727941782c574c83363aba0ee009d45cbed3c74ab5d715c68618f03dee/orthanc_tools-0.9.9.tar.gz
+[2024-04-09 12:12:48] WARNING root fetch - processPackages [warmth]: Timeout reached during download
+[2024-04-09 12:12:48] INFO root fetch - processPackages [warmth]: executing diffoscope
+[2024-04-09 12:12:48] INFO root fetch - processPackages [warmth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warmth-0.0.1.tar.gz tmp/warmth-0.0.2.tar.gz --markdown 20240409/w/warmth/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 12:12:48] WARNING root fetch - processPackages [orthanc-tools]: Timeout reached during download
+[2024-04-09 12:12:48] INFO root fetch - processPackages [orthanc-tools]: executing diffoscope
+[2024-04-09 12:12:48] INFO root fetch - processPackages [orthanc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc_tools-0.9.8.tar.gz tmp/orthanc_tools-0.9.9.tar.gz --markdown 20240409/o/orthanc-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 12:12:48] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-09 12:12:48] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.1.0b0.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.2.0.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - main [MainThread]: End processing [pg-logidater]: success
+[2024-04-09 12:12:48] INFO root fetch - processPackages [warmth]: Remove: archive file [/home/abi/fetcher/tmp/warmth-0.0.1.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - processPackages [warmth]: Remove: archive file [/home/abi/fetcher/tmp/warmth-0.0.2.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - main [MainThread]: End processing [warmth]: success
+[2024-04-09 12:12:48] INFO root fetch - processPackages [orthanc-tools]: Remove: archive file [/home/abi/fetcher/tmp/orthanc_tools-0.9.8.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - processPackages [orthanc-tools]: Remove: archive file [/home/abi/fetcher/tmp/orthanc_tools-0.9.9.tar.gz]
+[2024-04-09 12:12:48] INFO root fetch - main [MainThread]: End processing [orthanc-tools]: success
+[2024-04-09 12:12:50] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040709.tar.gz]
+[2024-04-09 12:12:50] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040809.tar.gz]
+[2024-04-09 12:12:50] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-09 12:12:50] INFO root fetch - main [MainThread]: Store serial: [22681689]
