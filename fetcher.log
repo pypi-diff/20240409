@@ -21621,3 +21621,53 @@
 [2024-04-09 11:18:52] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
 [2024-04-09 11:18:52] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
 [2024-04-09 11:18:52] INFO root fetch - main [MainThread]: Store serial: [22680917]
+[2024-04-09 11:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680917]
+[2024-04-09 11:21:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tira
+[2024-04-09 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webwithpy
+[2024-04-09 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pracscode
+[2024-04-09 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: three_d_converter
+[2024-04-09 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeMeST
+[2024-04-09 11:21:01] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-09 11:21:01] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4.1] Old Version: [0.7.4]
+[2024-04-09 11:21:01] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 11:21:01] INFO root fetch - processPackages [three_d_converter]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 11:21:01] WARNING root fetch - processPackages [pracscode]: Skipping, unable to determine old version
+[2024-04-09 11:21:01] INFO root fetch - main [MainThread]: End processing [pracscode] error
+[2024-04-09 11:21:01] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/f6/be/99dd6c5b7995f2648a3ad2e4ff6eb7f741473edea99e6a00249afd4d536f/MeMeST-2024.4.8.tar.gz
+[2024-04-09 11:21:01] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/d0/2d/de4b8fdc313901c6a7d6c6c9128dd61a357e37377abaa7fc7d60c099af62/webwithpy-0.7.4.tar.gz
+[2024-04-09 11:21:01] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-09 11:21:01] WARNING root fetch - processPackages [MeMeST]: Timeout reached during download
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:21:02] INFO root fetch - processPackages [three_d_converter]: Downloading https://files.pythonhosted.org/packages/c0/0a/68cbf995838023d3bfd446e9ebf528527cdfa5f7593fa9a688ea9cb4fbad/three_d_converter-0.1.2.tar.gz
+[2024-04-09 11:21:02] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/53/52/25fa6dba207501742a4e2fdc732baedf478b47d6add5632c57fbc2e10242/MeMeST-2024.4.9.tar.gz
+[2024-04-09 11:21:02] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-09 11:21:02] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/6e/3c/96bf32d218a8b4869a800ed6d8bc3494570647da4bc7b2e9e05b859cd266/webwithpy-0.7.4.1.tar.gz
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [three_d_converter]: Timeout reached during download
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [MeMeST]: Timeout reached during download
+[2024-04-09 11:21:02] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-09 11:21:02] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.8.tar.gz tmp/MeMeST-2024.4.9.tar.gz --markdown 20240409/M/MeMeST/2024.4.8-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 11:21:02] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-09 11:21:02] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240409/t/tira/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:21:02] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-09 11:21:02] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.4.tar.gz tmp/webwithpy-0.7.4.1.tar.gz --markdown 20240409/w/webwithpy/0.7.4-0.7.4.1/diff.md --exclude *.pyd
+[2024-04-09 11:21:02] INFO root fetch - processPackages [three_d_converter]: Downloading https://files.pythonhosted.org/packages/3f/ee/aa08ac58f3a1cdc5acbf90ed51055fcdc6dad0e2ae973b159e812b6651ac/three_d_converter-0.1.3.tar.gz
+[2024-04-09 11:21:02] WARNING root fetch - processPackages [three_d_converter]: Timeout reached during download
+[2024-04-09 11:21:02] INFO root fetch - processPackages [three_d_converter]: executing diffoscope
+[2024-04-09 11:21:02] INFO root fetch - processPackages [three_d_converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/three_d_converter-0.1.2.tar.gz tmp/three_d_converter-0.1.3.tar.gz --markdown 20240409/t/three_d_converter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 11:21:02] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.8.tar.gz]
+[2024-04-09 11:21:02] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.tar.gz]
+[2024-04-09 11:21:02] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-09 11:21:02] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.tar.gz]
+[2024-04-09 11:21:02] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.1.tar.gz]
+[2024-04-09 11:21:02] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-09 11:21:03] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-09 11:21:03] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-09 11:21:03] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-09 11:21:03] INFO root fetch - processPackages [three_d_converter]: Remove: archive file [/home/abi/fetcher/tmp/three_d_converter-0.1.2.tar.gz]
+[2024-04-09 11:21:03] INFO root fetch - processPackages [three_d_converter]: Remove: archive file [/home/abi/fetcher/tmp/three_d_converter-0.1.3.tar.gz]
+[2024-04-09 11:21:03] INFO root fetch - main [MainThread]: End processing [three_d_converter]: success
+[2024-04-09 11:21:03] INFO root fetch - main [MainThread]: Store serial: [22680938]
