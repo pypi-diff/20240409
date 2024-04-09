@@ -13190,3 +13190,42 @@
 [2024-04-09 05:49:13] INFO root fetch - processPackages [goodcrap]: Remove: archive file [/home/abi/fetcher/tmp/goodcrap-0.2.5.tar.gz]
 [2024-04-09 05:49:13] INFO root fetch - main [MainThread]: End processing [goodcrap]: success
 [2024-04-09 05:49:13] INFO root fetch - main [MainThread]: Store serial: [22677810]
+[2024-04-09 05:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677810]
+[2024-04-09 05:51:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 05:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tbm
+[2024-04-09 05:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tbp
+[2024-04-09 05:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabbagok
+[2024-04-09 05:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MultiGATE
+[2024-04-09 05:51:21] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 05:51:21] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-09 05:51:21] WARNING root fetch - processPackages [cabbagok]: Skipping, unable to determine old version
+[2024-04-09 05:51:21] INFO root fetch - main [MainThread]: End processing [cabbagok] error
+[2024-04-09 05:51:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:51:21] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-09 05:51:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:51:21] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/20/4c/6b22d9812f15243cb7946fb4baccba7279fef354e1e3455d1c55f58cecff/MultiGATE-0.0.9.tar.gz
+[2024-04-09 05:51:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/8c/2f/b26a68d58bf637586ec28197c54a1f1434b269e6d4efe0f99f6e4e529cdd/tencentcloud-sdk-python-tbm-3.0.998.tar.gz
+[2024-04-09 05:51:21] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-09 05:51:21] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-09 05:51:21] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.8.tar.gz tmp/MultiGATE-0.0.9.tar.gz --markdown 20240409/M/MultiGATE/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/5f/55/64982549dccaa37329bc10d337689cdea10cb94098cf652e70ef084b062a/tencentcloud-sdk-python-tbp-3.0.998.tar.gz
+[2024-04-09 05:51:22] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbm]: Timeout reached during download
+[2024-04-09 05:51:22] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbp]: Timeout reached during download
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/db/df/52d0566ff93bbe4cf052b80784061a8e9e94e58c56bcebf0de1191206719/tencentcloud-sdk-python-tbm-3.0.999.tar.gz
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/de/b5/2240664beaf312ecba717d537c333908f86a596316a32a136cf6c6b23fae/tencentcloud-sdk-python-tbp-3.0.999.tar.gz
+[2024-04-09 05:51:22] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbm]: Timeout reached during download
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: executing diffoscope
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tbm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:51:22] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-09 05:51:22] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.9.tar.gz]
+[2024-04-09 05:51:22] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-09 05:51:22] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbp]: Timeout reached during download
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: executing diffoscope
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tbp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz]
+[2024-04-09 05:51:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz]
+[2024-04-09 05:51:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
+[2024-04-09 05:51:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz]
+[2024-04-09 05:51:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz]
+[2024-04-09 05:51:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbp]: success
+[2024-04-09 05:51:23] INFO root fetch - main [MainThread]: Store serial: [22677825]
