@@ -20531,3 +20531,64 @@
 [2024-04-09 10:51:26] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
 [2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [murfey]: success
 [2024-04-09 10:51:26] INFO root fetch - main [MainThread]: Store serial: [22680541]
+[2024-04-09 10:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680541]
+[2024-04-09 10:53:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docindex
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-send-anything-anywhere
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edwh-robin-plugin
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataTransformationsBertas
+[2024-04-09 10:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CausalPy
+[2024-04-09 10:53:35] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-09 10:53:35] INFO root fetch - processPackages [docindex]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-09 10:53:35] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-09 10:53:36] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/ae/db/8f1c560d138837fb38012e99e68e5f491d5c2181bd247ed1d63aeb1b136c/datatransformationsbertas-0.3.0.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [docindex]: Downloading https://files.pythonhosted.org/packages/ff/96/2d21da3e9149cb653b9e6131aeace269e3f11d08d71be884205814af0dde/docindex-0.1.0.tar.gz
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [edwh-robin-plugin]: Skipping, unable to determine old version
+[2024-04-09 10:53:36] INFO root fetch - main [MainThread]: End processing [edwh-robin-plugin] error
+[2024-04-09 10:53:36] INFO root fetch - processPackages [CausalPy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 10:53:36] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [docindex]: Timeout reached during download
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/ec/73/80e558a97c02635d2d3f3084e2c1854d5f7e77925fae6263fcf79ca7640c/nonebot_plugin_send_anything_anywhere-0.6.0.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [CausalPy]: Downloading https://files.pythonhosted.org/packages/7a/0a/9298555b635a5c4f9b2f6c68076d38d9fea57959f12decc18db2ff521b9b/CausalPy-0.2.2.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/20/c3/564533cadff67d657c2ef68389304aad47ee4955e57f366e43455131f379/datatransformationsbertas-0.4.0.tar.gz
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-09 10:53:36] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240409/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-09 10:53:36] INFO root fetch - processPackages [docindex]: Downloading https://files.pythonhosted.org/packages/ac/94/8875396f86c570eaf1111e636f4411afae27e6be5d9166c8a3b77d3ab597/docindex-0.2.0.tar.gz
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [CausalPy]: Timeout reached during download
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 10:53:36] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.3.0.tar.gz tmp/datatransformationsbertas-0.4.0.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Timeout reached during download
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [docindex]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [docindex]: executing diffoscope
+[2024-04-09 10:53:36] INFO root fetch - processPackages [docindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docindex-0.1.0.tar.gz tmp/docindex-0.2.0.tar.gz --markdown 20240409/d/docindex/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 10:53:36] INFO root fetch - processPackages [CausalPy]: Downloading https://files.pythonhosted.org/packages/2b/90/efd450f5d57f6ec3a5248e21514abdf0a0d2ea67cc09ce9ca0d235b1cc14/CausalPy-0.2.3.tar.gz
+[2024-04-09 10:53:36] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/8a/2d/300a2220249e02d7663ec77f9c0ee195268fcaa2e00934c4205c0eafbdcd/nonebot_plugin_send_anything_anywhere-0.6.1.tar.gz
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [CausalPy]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [CausalPy]: executing diffoscope
+[2024-04-09 10:53:36] INFO root fetch - processPackages [CausalPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CausalPy-0.2.2.tar.gz tmp/CausalPy-0.2.3.tar.gz --markdown 20240409/C/CausalPy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 10:53:36] WARNING root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Timeout reached during download
+[2024-04-09 10:53:36] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: executing diffoscope
+[2024-04-09 10:53:36] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_send_anything_anywhere-0.6.0.tar.gz tmp/nonebot_plugin_send_anything_anywhere-0.6.1.tar.gz --markdown 20240409/n/nonebot-plugin-send-anything-anywhere/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-09 10:53:37] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.3.0.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.4.0.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 10:53:37] INFO root fetch - processPackages [docindex]: Remove: archive file [/home/abi/fetcher/tmp/docindex-0.1.0.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - processPackages [docindex]: Remove: archive file [/home/abi/fetcher/tmp/docindex-0.2.0.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [docindex]: success
+[2024-04-09 10:53:37] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-09 10:53:37] INFO root fetch - processPackages [CausalPy]: Remove: archive file [/home/abi/fetcher/tmp/CausalPy-0.2.2.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - processPackages [CausalPy]: Remove: archive file [/home/abi/fetcher/tmp/CausalPy-0.2.3.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [CausalPy]: success
+[2024-04-09 10:53:37] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.6.0.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.6.1.tar.gz]
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-send-anything-anywhere]: success
+[2024-04-09 10:53:37] INFO root fetch - main [MainThread]: Store serial: [22680562]
