@@ -19008,3 +19008,61 @@
 [2024-04-09 10:00:14] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.9.tar.gz]
 [2024-04-09 10:00:14] INFO root fetch - main [MainThread]: End processing [cut-detector]: success
 [2024-04-09 10:00:14] INFO root fetch - main [MainThread]: Store serial: [22679967]
+[2024-04-09 10:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679967]
+[2024-04-09 10:02:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redbrick-sdk
+[2024-04-09 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc-plugin
+[2024-04-09 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safe-ds-runner
+[2024-04-09 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otc-sphinx-directives
+[2024-04-09 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shimoku
+[2024-04-09 10:02:23] INFO root fetch - processPackages [shimoku]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-04-09 10:02:23] INFO root fetch - processPackages [vloc-plugin]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 10:02:23] INFO root fetch - processPackages [safe-ds-runner]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-09 10:02:23] INFO root fetch - processPackages [otc-sphinx-directives]: New version: [0.3.0] Old Version: [0.2.9.dev1]
+[2024-04-09 10:02:23] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/11/93/49faf604dc9e9a321b09d3f41a91bdf6dd1eae6a0f1d670aa5be1e887181/vloc_plugin-0.0.3.tar.gz
+[2024-04-09 10:02:23] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-09 10:02:23] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/f1/02/d3bda0939adc13995eef2f0b749b5003d0d03472ebb0c947ee3b863b8973/shimoku-2.2.3.tar.gz
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [vloc-plugin]: Timeout reached during download
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/d5/7e/71303c498ee91b7885d4ba8e93f63e9d86c51cd09bd730fda7033a82523e/otc_sphinx_directives-0.2.9.dev1.tar.gz
+[2024-04-09 10:02:24] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/26/51/7201459d57d5908314248a4dd1c59ec2d745a3d9f63d7c4e66a1593e51a5/safe_ds_runner-0.8.0.tar.gz
+[2024-04-09 10:02:24] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2024-04-09 10:02:24] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/49/89/6f119c37f3af034dd585396f27eefb46b390f7fa46eab42a70e1361965eb/shimoku-2.3.0.tar.gz
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [safe-ds-runner]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/82/0d/7006e41b740554ffd7c4976bfb340b7f3dc9d42efe168d985f68fa9b9f1c/vloc_plugin-0.0.4.tar.gz
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [redbrick-sdk]: Timeout reached during download
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [otc-sphinx-directives]: Timeout reached during download
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [shimoku]: executing diffoscope
+[2024-04-09 10:02:24] INFO root fetch - processPackages [shimoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-2.2.3.tar.gz tmp/shimoku-2.3.0.tar.gz --markdown 20240409/s/shimoku/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [vloc-plugin]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [vloc-plugin]: executing diffoscope
+[2024-04-09 10:02:24] INFO root fetch - processPackages [vloc-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin-0.0.3.tar.gz tmp/vloc_plugin-0.0.4.tar.gz --markdown 20240409/v/vloc-plugin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 10:02:24] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/fc/04/f2cbd248a968f4d46ee7c961070972563505a5121de0b58fd2b2464cfa8e/safe_ds_runner-0.8.1.tar.gz
+[2024-04-09 10:02:24] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/d2/80/037f2bd67c144bd8ff0e4739d2805b9824bf27a02e977d73626aeb634130/otc_sphinx_directives-0.3.0.tar.gz
+[2024-04-09 10:02:24] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [safe-ds-runner]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [safe-ds-runner]: executing diffoscope
+[2024-04-09 10:02:24] INFO root fetch - processPackages [safe-ds-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds_runner-0.8.0.tar.gz tmp/safe_ds_runner-0.8.1.tar.gz --markdown 20240409/s/safe-ds-runner/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [otc-sphinx-directives]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [otc-sphinx-directives]: executing diffoscope
+[2024-04-09 10:02:24] INFO root fetch - processPackages [otc-sphinx-directives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otc_sphinx_directives-0.2.9.dev1.tar.gz tmp/otc_sphinx_directives-0.3.0.tar.gz --markdown 20240409/o/otc-sphinx-directives/0.2.9.dev1-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:02:24] WARNING root fetch - processPackages [redbrick-sdk]: Timeout reached during download
+[2024-04-09 10:02:24] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2024-04-09 10:02:24] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20240409/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-09 10:02:25] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.3.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.4.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [vloc-plugin]: success
+[2024-04-09 10:02:25] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.8.0.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.8.1.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [safe-ds-runner]: success
+[2024-04-09 10:02:25] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.2.9.dev1.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.3.0.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [otc-sphinx-directives]: success
+[2024-04-09 10:02:25] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2024-04-09 10:02:25] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.2.3.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.3.0.tar.gz]
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [shimoku]: success
+[2024-04-09 10:02:25] INFO root fetch - main [MainThread]: Store serial: [22679978]
