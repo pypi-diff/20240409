@@ -21497,3 +21497,127 @@
 [2024-04-09 11:16:40] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.5.tar.gz]
 [2024-04-09 11:16:40] INFO root fetch - main [MainThread]: End processing [ocatari]: success
 [2024-04-09 11:16:40] INFO root fetch - main [MainThread]: Store serial: [22680881]
+[2024-04-09 11:18:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680881]
+[2024-04-09 11:18:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rclip
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webwithpy
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecularnetwork
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finter
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parallel-abus
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seam
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-oracle
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vdk-greenplum
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vdk-postgres
+[2024-04-09 11:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-impala
+[2024-04-09 11:18:49] INFO root fetch - processPackages [parallel-abus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4] Old Version: [0.7.2.2]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [finter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [rclip]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [seam]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-impala]: New version: [0.4.975814598] Old Version: [0.4.961031287]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-greenplum]: New version: [0.0.950825255] Old Version: [0.0.944393829]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [molecularnetwork]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-oracle]: New version: [0.1.2] Old Version: [0.1.1245476944]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-postgres]: New version: [0.0.961031287] Old Version: [0.0.944393829]
+[2024-04-09 11:18:49] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/81/f3/c5b5d3441059dfc586310f74d6f79645ab58db08e3f00527f4c391cbf330/webwithpy-0.7.2.2.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/58/c9/1246d6e062936e104c558cd89b4ac58804e246a9fa80e078670405d583d9/finter-0.1.8-py3-none-any.whl
+[2024-04-09 11:18:49] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ee/40/a34a23fd3e7bd18ae84b057645e866c0e5d92aaf167925a06e372a7e0aa8/rclip-1.8.0.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [parallel-abus]: Downloading https://files.pythonhosted.org/packages/41/04/c7b9dac83da0735a423806ab87feefc0d4a91af99d2345e4eb2e67d75643/parallel_abus-0.1.0.tar.gz
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:18:49] INFO root fetch - processPackages [molecularnetwork]: Downloading https://files.pythonhosted.org/packages/af/6a/a3de357237cbaafe72e92c856821f14a7be356c5c3082a95c04e4c3f1d23/molecularnetwork-0.3.7.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/f4/1e/65f264870a4faab914b4f873070332a79f14b359453b7e530d50f7dbfd4f/seam-0.1.0.tar.gz
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [finter]: Timeout reached during download
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [parallel-abus]: Timeout reached during download
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/b0/2d/b9c4e1d70cd8dd35ac18a803b43dd4f2ac05c895d7c3738d843fa8fc1ce4/vdk-impala-0.4.961031287.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-greenplum]: Downloading https://files.pythonhosted.org/packages/de/ef/9870af28e01eb50b435781b94db3ecca307fa15c6b29e3a5232691a46222/vdk-greenplum-0.0.944393829.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/b4/6c/c8ec3eb9781d9b9d6fe69b45ed1aa7aa484a222a086305440f54b830078b/vdk-postgres-0.0.944393829.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/a5/5c/7646bfdb793dcf79adddf25f24715bc1fc51d575a3462f523bf0c5efaa4a/vdk-oracle-0.1.1245476944.tar.gz
+[2024-04-09 11:18:49] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/99/4e/b7b67460b8509dcc7a2d1f24e5cffce8649a1b66a32a9a9cf096ea455aa4/finter-0.1.9-py3-none-any.whl
+[2024-04-09 11:18:49] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/d0/2d/de4b8fdc313901c6a7d6c6c9128dd61a357e37377abaa7fc7d60c099af62/webwithpy-0.7.4.tar.gz
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [seam]: Timeout reached during download
+[2024-04-09 11:18:49] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/99/74/d94f6ba09d4925e7c5949a96b4edf5aceb6245093c895b0310bfb89f63bc/rclip-1.8.1.tar.gz
+[2024-04-09 11:18:49] WARNING root fetch - processPackages [molecularnetwork]: Timeout reached during download
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-impala]: Timeout reached during download
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-greenplum]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [parallel-abus]: Downloading https://files.pythonhosted.org/packages/eb/7a/8ba1e9b9c65c0679e83e3defab5e72e53dac4abdf97a7425fc73e119a49d/parallel_abus-0.1.1.tar.gz
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-postgres]: Timeout reached during download
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [finter]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.1.8-py3-none-any.whl.zip tmp/finter-0.1.9-py3-none-any.whl.zip --markdown 20240409/f/finter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.2.2.tar.gz tmp/webwithpy-0.7.4.tar.gz --markdown 20240409/w/webwithpy/0.7.2.2-0.7.4/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-oracle]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/f6/02/37eaf029b23527c31d0cf2af9ab1f67a8ea24a5097573dfbecf7472885c5/seam-0.2.0.tar.gz
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.8.0.tar.gz tmp/rclip-1.8.1.tar.gz --markdown 20240409/r/rclip/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] INFO root fetch - processPackages [molecularnetwork]: Downloading https://files.pythonhosted.org/packages/f5/ae/996fdf9ce79dbe69b0a6148e49d6814a3c080384a72603fa78030a8bde01/molecularnetwork-0.3.8.tar.gz
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [parallel-abus]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [parallel-abus]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [parallel-abus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel_abus-0.1.0.tar.gz tmp/parallel_abus-0.1.1.tar.gz --markdown 20240409/p/parallel-abus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [seam]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.1.0.tar.gz tmp/seam-0.2.0.tar.gz --markdown 20240409/s/seam/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/d2/cf/2a7b05bf25794fa7a32b4e288ef80a83ee9b712dcd40dfa65795aae13e40/vdk-impala-0.4.975814598.tar.gz
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-greenplum]: Downloading https://files.pythonhosted.org/packages/c3/f9/035794f3d09ed09f97497c8d3a35c295b99dd282c3e65165c5ed1c93fcc8/vdk-greenplum-0.0.950825255.tar.gz
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/ce/29/fc10d50ca1babf1f25201f42a1a5a9701ef9292a30c345eced05b69a8484/vdk-oracle-0.1.2.tar.gz
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/d8/5d/de8f365dac62d3d7078a735efc93e3b5f0ea9f05dfb3bc94775f0e5e0faf/vdk-postgres-0.0.961031287.tar.gz
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [molecularnetwork]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [molecularnetwork]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [molecularnetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecularnetwork-0.3.7.tar.gz tmp/molecularnetwork-0.3.8.tar.gz --markdown 20240409/m/molecularnetwork/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-impala]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-impala]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-impala-0.4.961031287.tar.gz tmp/vdk-impala-0.4.975814598.tar.gz --markdown 20240409/v/vdk-impala/0.4.961031287-0.4.975814598/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-greenplum]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-greenplum]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-greenplum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-greenplum-0.0.944393829.tar.gz tmp/vdk-greenplum-0.0.950825255.tar.gz --markdown 20240409/v/vdk-greenplum/0.0.944393829-0.0.950825255/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-oracle]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-oracle]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-oracle-0.1.1245476944.tar.gz tmp/vdk-oracle-0.1.2.tar.gz --markdown 20240409/v/vdk-oracle/0.1.1245476944-0.1.2/diff.md --exclude *.pyd
+[2024-04-09 11:18:50] WARNING root fetch - processPackages [vdk-postgres]: Timeout reached during download
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-postgres]: executing diffoscope
+[2024-04-09 11:18:50] INFO root fetch - processPackages [vdk-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-postgres-0.0.944393829.tar.gz tmp/vdk-postgres-0.0.961031287.tar.gz --markdown 20240409/v/vdk-postgres/0.0.944393829-0.0.961031287/diff.md --exclude *.pyd
+[2024-04-09 11:18:51] INFO root fetch - processPackages [parallel-abus]: Remove: archive file [/home/abi/fetcher/tmp/parallel_abus-0.1.0.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [parallel-abus]: Remove: archive file [/home/abi/fetcher/tmp/parallel_abus-0.1.1.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [parallel-abus]: Start processing: vdk-trino
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [parallel-abus]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.0.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.1.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.2.2.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [molecularnetwork]: Remove: archive file [/home/abi/fetcher/tmp/molecularnetwork-0.3.7.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [molecularnetwork]: Remove: archive file [/home/abi/fetcher/tmp/molecularnetwork-0.3.8.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [molecularnetwork]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.1.0.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.2.0.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk-oracle-0.1.1245476944.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk-oracle-0.1.2.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [vdk-oracle]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-greenplum]: Remove: archive file [/home/abi/fetcher/tmp/vdk-greenplum-0.0.944393829.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-greenplum]: Remove: archive file [/home/abi/fetcher/tmp/vdk-greenplum-0.0.950825255.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [vdk-greenplum]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.8-py3-none-any.whl.zip]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.9-py3-none-any.whl.zip]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.961031287.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.975814598.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.944393829.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.961031287.tar.gz]
+[2024-04-09 11:18:51] INFO root fetch - main [MainThread]: End processing [vdk-postgres]: success
+[2024-04-09 11:18:51] WARNING root fetch - processPackages [vdk-trino]: Timeout reached during download
+[2024-04-09 11:18:51] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-04-09 11:18:52] WARNING root fetch - processPackages [vdk-trino]: Timeout reached during download
+[2024-04-09 11:18:52] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-04-09 11:18:52] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240409/v/vdk-trino/0.4.944393829-0.4.948436673/diff.md --exclude *.pyd
+[2024-04-09 11:18:52] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-04-09 11:18:52] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-04-09 11:18:52] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-04-09 11:18:52] INFO root fetch - main [MainThread]: Store serial: [22680917]
