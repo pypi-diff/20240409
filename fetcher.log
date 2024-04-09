@@ -21400,3 +21400,50 @@
 [2024-04-09 11:12:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-09 11:12:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-09 11:12:16] INFO root fetch - main [MainThread]: Store serial: [22680837]
+[2024-04-09 11:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680837]
+[2024-04-09 11:14:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-04-09 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataTransformationsBertas
+[2024-04-09 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-loop
+[2024-04-09 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioimageio.spec
+[2024-04-09 11:14:25] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 11:14:25] INFO root fetch - processPackages [py-loop]: New version: [0.5.0b2] Old Version: [0.4.1b2]
+[2024-04-09 11:14:25] INFO root fetch - processPackages [bioimageio.spec]: New version: [0.5.1.post1] Old Version: [0.5.1]
+[2024-04-09 11:14:25] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/a9/24/01971a20e83cec62113fba838ad7e31c4ea9730b625ed8d8d056f2fd3a9f/datatransformationsbertas-0.7.0.tar.gz
+[2024-04-09 11:14:25] INFO root fetch - processPackages [py-loop]: Downloading https://files.pythonhosted.org/packages/3d/f7/cbd86664d5a157bcf092602b4fde93182eb9572a3902366d120d5d2ac52d/py-loop-0.4.1b2.tar.gz
+[2024-04-09 11:14:25] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [py-loop]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-09 11:14:26] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/d2/7e/88191ca0c17e676a48b34c441d91ca7fe36b66184b1e25832b7d384a2f32/bioimageio.spec-0.5.1.tar.gz
+[2024-04-09 11:14:26] INFO root fetch - processPackages [py-loop]: Downloading https://files.pythonhosted.org/packages/5f/6f/7042e765acbaa5377d0c83de0c73556e91412b84b19eaa8cdd869e58c440/py_loop-0.5.0b2.tar.gz
+[2024-04-09 11:14:26] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/f7/11/63eb0589709134b5c8f64f4bf5adbf6b39423e5b0964c8c0f25847a28d82/datatransformationsbertas-0.7.1.tar.gz
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [py-loop]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [py-loop]: executing diffoscope
+[2024-04-09 11:14:26] INFO root fetch - processPackages [py-loop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-loop-0.4.1b2.tar.gz tmp/py_loop-0.5.0b2.tar.gz --markdown 20240409/p/py-loop/0.4.1b2-0.5.0b2/diff.md --exclude *.pyd
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 11:14:26] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.7.0.tar.gz tmp/datatransformationsbertas-0.7.1.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [bioimageio.spec]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/3b/19/50b708038164f6a30ed9ed7cf4679fcc1e30cb2e9e5a6470c80eded8a413/bioimageio.spec-0.5.1.post1.tar.gz
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [bioimageio.spec]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [bioimageio.spec]: executing diffoscope
+[2024-04-09 11:14:26] INFO root fetch - processPackages [bioimageio.spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.spec-0.5.1.tar.gz tmp/bioimageio.spec-0.5.1.post1.tar.gz --markdown 20240409/b/bioimageio.spec/0.5.1-0.5.1.post1/diff.md --exclude *.pyd
+[2024-04-09 11:14:26] INFO root fetch - processPackages [py-loop]: Remove: archive file [/home/abi/fetcher/tmp/py-loop-0.4.1b2.tar.gz]
+[2024-04-09 11:14:26] INFO root fetch - processPackages [py-loop]: Remove: archive file [/home/abi/fetcher/tmp/py_loop-0.5.0b2.tar.gz]
+[2024-04-09 11:14:26] INFO root fetch - main [MainThread]: End processing [py-loop]: success
+[2024-04-09 11:14:26] WARNING root fetch - processPackages [atomic-bomb-engine]: Timeout reached during download
+[2024-04-09 11:14:26] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.0.tar.gz]
+[2024-04-09 11:14:26] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.1.tar.gz]
+[2024-04-09 11:14:26] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 11:14:26] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-09 11:14:27] WARNING root fetch - processPackages [atomic-bomb-engine]: Timeout reached during download
+[2024-04-09 11:14:27] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-09 11:14:27] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240409/a/atomic-bomb-engine/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 11:14:27] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.1.tar.gz]
+[2024-04-09 11:14:27] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.1.post1.tar.gz]
+[2024-04-09 11:14:27] INFO root fetch - main [MainThread]: End processing [bioimageio.spec]: success
+[2024-04-09 11:14:28] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-09 11:14:28] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-09 11:14:28] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-09 11:14:28] INFO root fetch - main [MainThread]: Store serial: [22680855]
