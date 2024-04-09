@@ -19543,3 +19543,48 @@
 [2024-04-09 10:17:48] INFO root fetch - processPackages [reki]: Remove: archive file [/home/abi/fetcher/tmp/reki-2024.4.0.tar.gz]
 [2024-04-09 10:17:48] INFO root fetch - main [MainThread]: End processing [reki]: success
 [2024-04-09 10:17:48] INFO root fetch - main [MainThread]: Store serial: [22680154]
+[2024-04-09 10:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680154]
+[2024-04-09 10:19:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Matini-Net
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pirogue
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logs-py
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Great-Python-Learning
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPCAD
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccdexplorer-fundamentals
+[2024-04-09 10:19:57] INFO root fetch - processPackages [pirogue]: New version: [2.0.1b1] Old Version: [2.0.0b2]
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ccdexplorer-fundamentals]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 10:19:57] INFO root fetch - processPackages [logs-py]: New version: [2.8.1] Old Version: [2.8]
+[2024-04-09 10:19:57] WARNING root fetch - processPackages [Great-Python-Learning]: Skipping, unable to determine old version
+[2024-04-09 10:19:57] INFO root fetch - main [MainThread]: End processing [Great-Python-Learning] error
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/33/24/6d47f187503970f29889a3626f1d0e60d1b10be55bc2d24edf68428fea85/ccdexplorer-fundamentals-0.1.7.tar.gz
+[2024-04-09 10:19:57] WARNING root fetch - processPackages [Matini-Net]: Skipping, unable to determine old version
+[2024-04-09 10:19:57] INFO root fetch - main [MainThread]: End processing [Matini-Net] error
+[2024-04-09 10:19:57] WARNING root fetch - processPackages [PyPCAD]: Skipping, unable to determine old version
+[2024-04-09 10:19:57] INFO root fetch - main [MainThread]: End processing [PyPCAD] error
+[2024-04-09 10:19:57] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/36/4d/5eea17a46afa6956096c3622a81626f8b0e3d724cb3af43756a2e3aa9f6e/pirogue-2.0.0b2.tar.gz
+[2024-04-09 10:19:57] WARNING root fetch - processPackages [ccdexplorer-fundamentals]: Timeout reached during download
+[2024-04-09 10:19:57] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/05/23/cd2438442cb620d8dfe9e78ca865d7da53c1c2ca9536a3f611f5785279ae/logs_py-2.8-py3-none-any.whl
+[2024-04-09 10:19:57] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 10:19:57] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/6d/a4/ca5478af4e607164175b3d7bb4ba90324851f2b9b8e79a5a326af85eb1f9/ccdexplorer-fundamentals-0.1.8.tar.gz
+[2024-04-09 10:19:57] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/29/44/a10add02735d5f1ce8549ff24dd4e0ea81540dc50f872f7ef909961d2fef/pirogue-2.0.1b1.tar.gz
+[2024-04-09 10:19:58] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-09 10:19:58] WARNING root fetch - processPackages [ccdexplorer-fundamentals]: Timeout reached during download
+[2024-04-09 10:19:58] INFO root fetch - processPackages [ccdexplorer-fundamentals]: executing diffoscope
+[2024-04-09 10:19:58] INFO root fetch - processPackages [ccdexplorer-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer-fundamentals-0.1.7.tar.gz tmp/ccdexplorer-fundamentals-0.1.8.tar.gz --markdown 20240409/c/ccdexplorer-fundamentals/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 10:19:58] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 10:19:58] INFO root fetch - processPackages [pirogue]: executing diffoscope
+[2024-04-09 10:19:58] INFO root fetch - processPackages [pirogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pirogue-2.0.0b2.tar.gz tmp/pirogue-2.0.1b1.tar.gz --markdown 20240409/p/pirogue/2.0.0b2-2.0.1b1/diff.md --exclude *.pyd
+[2024-04-09 10:19:58] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/05/6b/60b16eb6bad999ff1e339872ad10abbdefa010261ab288090d44fed66a6a/logs_py-2.8.1-py3-none-any.whl
+[2024-04-09 10:19:58] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-09 10:19:58] INFO root fetch - processPackages [logs-py]: executing diffoscope
+[2024-04-09 10:19:58] INFO root fetch - processPackages [logs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_py-2.8-py3-none-any.whl.zip tmp/logs_py-2.8.1-py3-none-any.whl.zip --markdown 20240409/l/logs-py/2.8-2.8.1/diff.md --exclude *.pyd
+[2024-04-09 10:19:58] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.0b2.tar.gz]
+[2024-04-09 10:19:58] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.1b1.tar.gz]
+[2024-04-09 10:19:58] INFO root fetch - main [MainThread]: End processing [pirogue]: success
+[2024-04-09 10:19:58] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer-fundamentals-0.1.7.tar.gz]
+[2024-04-09 10:19:58] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer-fundamentals-0.1.8.tar.gz]
+[2024-04-09 10:19:58] INFO root fetch - main [MainThread]: End processing [ccdexplorer-fundamentals]: success
+[2024-04-09 10:19:59] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8-py3-none-any.whl.zip]
+[2024-04-09 10:19:59] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8.1-py3-none-any.whl.zip]
+[2024-04-09 10:19:59] INFO root fetch - main [MainThread]: End processing [logs-py]: success
+[2024-04-09 10:19:59] INFO root fetch - main [MainThread]: Store serial: [22680176]
