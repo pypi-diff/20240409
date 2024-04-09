@@ -23153,3 +23153,73 @@
 [2024-04-09 11:59:38] INFO root fetch - processPackages [Python-EasyGraph]: Remove: archive file [/home/abi/fetcher/tmp/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-09 11:59:38] INFO root fetch - main [MainThread]: End processing [Python-EasyGraph]: success
 [2024-04-09 11:59:38] INFO root fetch - main [MainThread]: Store serial: [22681598]
+[2024-04-09 12:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681598]
+[2024-04-09 12:01:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fs-attachment
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nobuco
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sindapi
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e4ting
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cogflow
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dls-dodal
+[2024-04-09 12:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e4ting
+[2024-04-09 12:01:47] INFO root fetch - processPackages [cogflow]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-09 12:01:47] WARNING root fetch - processPackages [sindapi]: Skipping, unable to determine old version
+[2024-04-09 12:01:47] INFO root fetch - main [MainThread]: End processing [sindapi] error
+[2024-04-09 12:01:47] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/44/bf/26c8f3e2378d1fdac30334792c350cdb9989f241360cd8df63afc74ab25d/cogflow-1.6.0.tar.gz
+[2024-04-09 12:01:47] INFO root fetch - processPackages [e4ting]: New version: [1.1.2362] Old Version: [1.1.2361]
+[2024-04-09 12:01:47] INFO root fetch - processPackages [e4ting]: New version: [1.1.2362] Old Version: [1.1.2361]
+[2024-04-09 12:01:47] INFO root fetch - processPackages [nobuco]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-09 12:01:47] INFO root fetch - processPackages [odoo-addon-fs-attachment]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-09 12:01:47] INFO root fetch - processPackages [dls-dodal]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 12:01:47] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:01:47] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/68/84/794132dacc433e3e334bbd166200a6803b9ba4ee42d075e7a99aff115d7a/nobuco-0.9.1.tar.gz
+[2024-04-09 12:01:47] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/3f/dc/1ea361d532eb867a9dfd763440a2572889e79bd35201f5c4bc396a1378d1/e4ting-1.1.2361-py3-none-any.whl
+[2024-04-09 12:01:47] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/3f/dc/1ea361d532eb867a9dfd763440a2572889e79bd35201f5c4bc396a1378d1/e4ting-1.1.2361-py3-none-any.whl
+[2024-04-09 12:01:47] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/3e/e5/211e55d5e8671deab11b04a548eb4cdb6e94d1000951ca310093705f4f72/odoo_addon_fs_attachment-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-09 12:01:48] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/7d/05/37c63aa0cd1a6ce2a8a5c2af1a34235ffe8817d51ad11163a3cd85ae12f0/dls-dodal-1.8.0.tar.gz
+[2024-04-09 12:01:48] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3d/4d/669dff95ff879708d5ac50f8f69b942f96b3bb97f2cebd5776079dca54bb/cogflow-1.7.0.tar.gz
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [e4ting]: Timeout reached during download
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [e4ting]: Timeout reached during download
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [odoo-addon-fs-attachment]: Timeout reached during download
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.6.0.tar.gz tmp/cogflow-1.7.0.tar.gz --markdown 20240409/c/cogflow/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [nobuco]: Timeout reached during download
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [dls-dodal]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/3a/08/a36fdf73a99a702b8e7662c9fe554d1ce2eb8dd8eaaad723dfd56b4fab5a/e4ting-1.1.2362-py3-none-any.whl
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/3a/08/a36fdf73a99a702b8e7662c9fe554d1ce2eb8dd8eaaad723dfd56b4fab5a/e4ting-1.1.2362-py3-none-any.whl
+[2024-04-09 12:01:48] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Downloading https://files.pythonhosted.org/packages/35/e6/77379605b02145f66bf5b394dead04760f03c86c84a5d79b3cb66cbe9842/odoo_addon_fs_attachment-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-09 12:01:48] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/82/54/7cd12a09de91e79fb5f11fb08e9049763568458773fc0c674164336780b2/nobuco-0.9.2.tar.gz
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [odoo-addon-fs-attachment]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [odoo-addon-fs-attachment]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [odoo-addon-fs-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_attachment-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fs_attachment-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-fs-attachment/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-09 12:01:48] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/0f/b3/c8af395d46d1c9764756342c7841827c9e0e708aade9b05af36c576f333a/dls-dodal-1.9.0.tar.gz
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [e4ting]: Timeout reached during download
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [e4ting]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e4ting-1.1.2361-py3-none-any.whl.zip tmp/e4ting-1.1.2362-py3-none-any.whl.zip --markdown 20240409/e/e4ting/1.1.2361-1.1.2362/diff.md --exclude *.pyd
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [e4ting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e4ting-1.1.2361-py3-none-any.whl.zip tmp/e4ting-1.1.2362-py3-none-any.whl.zip --markdown 20240409/e/e4ting/1.1.2361-1.1.2362/diff.md --exclude *.pyd
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [nobuco]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.9.1.tar.gz tmp/nobuco-0.9.2.tar.gz --markdown 20240409/n/nobuco/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-09 12:01:48] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.6.0.tar.gz]
+[2024-04-09 12:01:48] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.7.0.tar.gz]
+[2024-04-09 12:01:48] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-09 12:01:48] WARNING root fetch - processPackages [dls-dodal]: Timeout reached during download
+[2024-04-09 12:01:48] INFO root fetch - processPackages [dls-dodal]: executing diffoscope
+[2024-04-09 12:01:48] INFO root fetch - processPackages [dls-dodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-dodal-1.8.0.tar.gz tmp/dls-dodal-1.9.0.tar.gz --markdown 20240409/d/dls-dodal/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-09 12:01:49] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-09 12:01:49] INFO root fetch - processPackages [odoo-addon-fs-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_attachment-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-attachment]: success
+[2024-04-09 12:01:49] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.1.2361-py3-none-any.whl.zip]
+[2024-04-09 12:01:49] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.1.2362-py3-none-any.whl.zip]
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [e4ting]: success
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [e4ting]: success
+[2024-04-09 12:01:49] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.1.tar.gz]
+[2024-04-09 12:01:49] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.2.tar.gz]
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2024-04-09 12:01:49] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.8.0.tar.gz]
+[2024-04-09 12:01:49] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
+[2024-04-09 12:01:49] INFO root fetch - main [MainThread]: Store serial: [22681616]
