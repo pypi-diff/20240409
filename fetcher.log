@@ -18223,3 +18223,58 @@
 [2024-04-09 09:31:12] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.5.4.tar.gz]
 [2024-04-09 09:31:12] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-09 09:31:12] INFO root fetch - main [MainThread]: Store serial: [22679652]
+[2024-04-09 09:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679652]
+[2024-04-09 09:33:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycutest
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secator
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recce-nightly
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runtimepy
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-fsm
+[2024-04-09 09:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akeneo-connector
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [akeneo-connector]: Skipping, unable to determine old version
+[2024-04-09 09:33:22] INFO root fetch - main [MainThread]: End processing [akeneo-connector] error
+[2024-04-09 09:33:22] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-04-09 09:33:22] INFO root fetch - processPackages [django-fsm]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-09 09:33:22] INFO root fetch - processPackages [secator]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-09 09:33:22] INFO root fetch - processPackages [pycutest]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-09 09:33:22] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-04-09 09:33:22] INFO root fetch - processPackages [runtimepy]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 09:33:22] INFO root fetch - processPackages [django-fsm]: Downloading https://files.pythonhosted.org/packages/9c/c4/8502fcb2adae21cb3d822b25fa32bb2dd7e6b523697170e63f061866ae7c/django-fsm-2.8.1.tar.gz
+[2024-04-09 09:33:22] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/ee/4d/369f4cd37c0d5effdccc0d8e4887468667ead807729fcd46e323b6587e2e/secator-0.1.1.tar.gz
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23065195>=10485760
+[2024-04-09 09:33:22] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [recce-nightly]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/e5/ca/7dc0d34f82259ef6585d4b7c49260d30db4d33a0d4a4811367019331b2f8/runtimepy-4.0.0.tar.gz
+[2024-04-09 09:33:22] INFO root fetch - processPackages [pycutest]: Downloading https://files.pythonhosted.org/packages/28/8f/c6fae4cd423e9d3af7805f6133983e60788fdb2ecef4c2e4470868ab0a2a/pycutest-1.6.1.tar.gz
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [django-fsm]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [runtimepy]: Timeout reached during download
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [recce-nightly]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-04-09 09:33:22] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240409/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/diff.md --exclude *.pyd
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [pycutest]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [django-fsm]: Downloading https://files.pythonhosted.org/packages/b6/5d/4d0aa7365097af11c373761d4d29e4cff59ac3e9a63b79a479b586a8fa7b/django-fsm-2.8.2.tar.gz
+[2024-04-09 09:33:22] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/0d/bb/827f3de9b8a32269189cbd98c0565eca66c0bfd711b7f01b6606af969489/runtimepy-4.0.1.tar.gz
+[2024-04-09 09:33:22] INFO root fetch - processPackages [pycutest]: Downloading https://files.pythonhosted.org/packages/9b/b4/de4f147801676240c5240ebaa8c15e7318eeacfe1eee21bc5735867dcbc4/pycutest-1.6.2.tar.gz
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [runtimepy]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-09 09:33:22] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.0.0.tar.gz tmp/runtimepy-4.0.1.tar.gz --markdown 20240409/r/runtimepy/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:33:22] WARNING root fetch - processPackages [django-fsm]: Timeout reached during download
+[2024-04-09 09:33:22] INFO root fetch - processPackages [django-fsm]: executing diffoscope
+[2024-04-09 09:33:22] INFO root fetch - processPackages [django-fsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fsm-2.8.1.tar.gz tmp/django-fsm-2.8.2.tar.gz --markdown 20240409/d/django-fsm/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2024-04-09 09:33:23] WARNING root fetch - processPackages [pycutest]: Timeout reached during download
+[2024-04-09 09:33:23] INFO root fetch - processPackages [pycutest]: executing diffoscope
+[2024-04-09 09:33:23] INFO root fetch - processPackages [pycutest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycutest-1.6.1.tar.gz tmp/pycutest-1.6.2.tar.gz --markdown 20240409/p/pycutest/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2024-04-09 09:33:23] INFO root fetch - processPackages [pycutest]: Remove: archive file [/home/abi/fetcher/tmp/pycutest-1.6.1.tar.gz]
+[2024-04-09 09:33:23] INFO root fetch - processPackages [pycutest]: Remove: archive file [/home/abi/fetcher/tmp/pycutest-1.6.2.tar.gz]
+[2024-04-09 09:33:23] INFO root fetch - main [MainThread]: End processing [pycutest]: success
+[2024-04-09 09:33:23] INFO root fetch - processPackages [django-fsm]: Remove: archive file [/home/abi/fetcher/tmp/django-fsm-2.8.1.tar.gz]
+[2024-04-09 09:33:23] INFO root fetch - processPackages [django-fsm]: Remove: archive file [/home/abi/fetcher/tmp/django-fsm-2.8.2.tar.gz]
+[2024-04-09 09:33:23] INFO root fetch - main [MainThread]: End processing [django-fsm]: success
+[2024-04-09 09:33:24] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.0.tar.gz]
+[2024-04-09 09:33:24] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.1.tar.gz]
+[2024-04-09 09:33:24] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-09 09:33:24] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-04-09 09:33:24] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-04-09 09:33:24] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-04-09 09:33:24] INFO root fetch - main [MainThread]: Store serial: [22679670]
