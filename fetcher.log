@@ -3889,3 +3889,42 @@
 [2024-04-09 02:56:48] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc-metadata-0.3.94.tar.gz]
 [2024-04-09 02:56:48] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
 [2024-04-09 02:56:48] INFO root fetch - main [MainThread]: Store serial: [22675106]
+[2024-04-09 02:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675106]
+[2024-04-09 02:58:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprocketship
+[2024-04-09 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-color-pick
+[2024-04-09 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qnngds
+[2024-04-09 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyminerva
+[2024-04-09 02:58:57] INFO root fetch - processPackages [sprocketship]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-09 02:58:57] INFO root fetch - processPackages [sprocketship]: Downloading https://files.pythonhosted.org/packages/ee/72/b1b04a71894492ae131cf0ffcaad9fb51d2bb2fc940572d2bceea42a4d1a/sprocketship-0.4.1.tar.gz
+[2024-04-09 02:58:57] INFO root fetch - processPackages [qnngds]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 02:58:57] WARNING root fetch - processPackages [reflex-color-pick]: Skipping, unable to determine old version
+[2024-04-09 02:58:57] INFO root fetch - main [MainThread]: End processing [reflex-color-pick] error
+[2024-04-09 02:58:57] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:58:57] WARNING root fetch - processPackages [sprocketship]: Timeout reached during download
+[2024-04-09 02:58:58] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/01/08/e839666466c40bde0353c65678721aae0c50efedc44dae293935e34c862d/qnngds-1.0.4.tar.gz
+[2024-04-09 02:58:58] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-09 02:58:58] INFO root fetch - processPackages [sprocketship]: Downloading https://files.pythonhosted.org/packages/69/39/ea3ec626a8f073dac53c26f0f373f7675f4da4dbefeec198f5a54b958d0f/sprocketship-0.4.2.tar.gz
+[2024-04-09 02:58:58] WARNING root fetch - processPackages [qnngds]: Timeout reached during download
+[2024-04-09 02:58:58] WARNING root fetch - processPackages [sprocketship]: Timeout reached during download
+[2024-04-09 02:58:58] INFO root fetch - processPackages [sprocketship]: executing diffoscope
+[2024-04-09 02:58:58] INFO root fetch - processPackages [sprocketship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocketship-0.4.1.tar.gz tmp/sprocketship-0.4.2.tar.gz --markdown 20240409/s/sprocketship/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-09 02:58:58] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-09 02:58:58] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/b9/c1/85c931e765d8359c95a122a8a765b6543cfdb74ffc1761a0e479f823b047/qnngds-1.0.5.tar.gz
+[2024-04-09 02:58:58] WARNING root fetch - processPackages [qnngds]: Timeout reached during download
+[2024-04-09 02:58:58] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-04-09 02:58:58] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-1.0.4.tar.gz tmp/qnngds-1.0.5.tar.gz --markdown 20240409/q/qnngds/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 02:58:58] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-09 02:58:58] INFO root fetch - processPackages [sprocketship]: Remove: archive file [/home/abi/fetcher/tmp/sprocketship-0.4.1.tar.gz]
+[2024-04-09 02:58:58] INFO root fetch - processPackages [sprocketship]: Remove: archive file [/home/abi/fetcher/tmp/sprocketship-0.4.2.tar.gz]
+[2024-04-09 02:58:58] INFO root fetch - main [MainThread]: End processing [sprocketship]: success
+[2024-04-09 02:58:58] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-09 02:58:58] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-09 02:58:58] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240409/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:58:59] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-1.0.4.tar.gz]
+[2024-04-09 02:58:59] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-1.0.5.tar.gz]
+[2024-04-09 02:58:59] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-04-09 02:58:59] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-09 02:58:59] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-09 02:58:59] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-09 02:58:59] INFO root fetch - main [MainThread]: Store serial: [22675124]
