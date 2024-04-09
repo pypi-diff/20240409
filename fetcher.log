@@ -15395,3 +15395,28 @@
 [2024-04-09 07:32:19] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.0.tar.gz]
 [2024-04-09 07:32:19] INFO root fetch - main [MainThread]: End processing [pirogue]: success
 [2024-04-09 07:32:19] INFO root fetch - main [MainThread]: Store serial: [22678662]
+[2024-04-09 07:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678662]
+[2024-04-09 07:34:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 07:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jemma
+[2024-04-09 07:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-akamai
+[2024-04-09 07:34:29] INFO root fetch - processPackages [jemma]: New version: [0.1.122] Old Version: [0.1.121]
+[2024-04-09 07:34:29] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.0.0a1712602529] Old Version: [7.0.0]
+[2024-04-09 07:34:29] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/72/b9/4935a07996f2a9ace88a08afbdbbd781c8c93154d496cbb0a58a6f54cb8c/jemma-0.1.121.tar.gz
+[2024-04-09 07:34:29] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:34:29] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f6/43/c7fdd84f00236733404f7708df0a4a0f8ebbe0fd913eb4f274bb6b882eb3/pulumi_akamai-7.0.0.tar.gz
+[2024-04-09 07:34:29] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/6c/31/dac68b30cd957b3a2f58e39f6b8fd75226069948aa81dbdf1e460eaaf92f/jemma-0.1.122.tar.gz
+[2024-04-09 07:34:29] WARNING root fetch - processPackages [pulumi-akamai]: Timeout reached during download
+[2024-04-09 07:34:29] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:34:29] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:34:29] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.121.tar.gz tmp/jemma-0.1.122.tar.gz --markdown 20240409/j/jemma/0.1.121-0.1.122/diff.md --exclude *.pyd
+[2024-04-09 07:34:29] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/ed/7b/c7f08dc4b005e010222997dcc217a4e766c75792391b742faaeba7982926/pulumi_akamai-7.0.0a1712602529.tar.gz
+[2024-04-09 07:34:30] WARNING root fetch - processPackages [pulumi-akamai]: Timeout reached during download
+[2024-04-09 07:34:30] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-04-09 07:34:30] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.0.0.tar.gz tmp/pulumi_akamai-7.0.0a1712602529.tar.gz --markdown 20240409/p/pulumi-akamai/7.0.0-7.0.0a1712602529/diff.md --exclude *.pyd
+[2024-04-09 07:34:30] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.121.tar.gz]
+[2024-04-09 07:34:30] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.122.tar.gz]
+[2024-04-09 07:34:30] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:34:32] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.0.0.tar.gz]
+[2024-04-09 07:34:32] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.0.0a1712602529.tar.gz]
+[2024-04-09 07:34:32] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-04-09 07:34:32] INFO root fetch - main [MainThread]: Store serial: [22678668]
