@@ -16190,3 +16190,61 @@
 [2024-04-09 08:12:22] INFO root fetch - processPackages [bingads]: Remove: archive file [/home/abi/fetcher/tmp/bingads-9.3.4.zip]
 [2024-04-09 08:12:22] INFO root fetch - main [MainThread]: End processing [bingads]: success
 [2024-04-09 08:12:22] INFO root fetch - main [MainThread]: Store serial: [22678888]
+[2024-04-09 08:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678888]
+[2024-04-09 08:14:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-04-09 08:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lanQ
+[2024-04-09 08:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-09 08:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: portfolio-carousel
+[2024-04-09 08:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2024-04-09 08:14:31] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240408] Old Version: [2.6.0.dev20240407]
+[2024-04-09 08:14:31] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240409055414] Old Version: [3.3.1.dev20240408212734]
+[2024-04-09 08:14:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-09 08:14:31] INFO root fetch - processPackages [lanQ]: New version: [1.2] Old Version: [1.1]
+[2024-04-09 08:14:31] INFO root fetch - processPackages [portfolio-carousel]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-09 08:14:31] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/77/48/de39497a8a03f4c2671bb082a5a706f7ba8fbe3a77c14691afe66129b5b4/pyg_nightly-2.6.0.dev20240407.tar.gz
+[2024-04-09 08:14:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/95/07/527758216bba8ca45bedbebc43b3de6daaa1d35db2f5fc3a5dbb36d617e7/localstack-core-3.3.1.dev20240408212734.tar.gz
+[2024-04-09 08:14:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-09 08:14:31] INFO root fetch - processPackages [portfolio-carousel]: Downloading https://files.pythonhosted.org/packages/ef/ce/00a9d3873255ced6db408e6f4fb5563f66a1dee6fa3811243f57fa5f928e/portfolio-carousel-0.1.4.tar.gz
+[2024-04-09 08:14:31] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/e9/a5/a1519185132be13d2d0a5d5f9b79e161724b5abef12e4456c01ec2e5c72b/lanQ-1.1.tar.gz
+[2024-04-09 08:14:31] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-09 08:14:31] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-09 08:14:31] WARNING root fetch - processPackages [lanQ]: Timeout reached during download
+[2024-04-09 08:14:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-09 08:14:31] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 08:14:31] WARNING root fetch - processPackages [portfolio-carousel]: Timeout reached during download
+[2024-04-09 08:14:32] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-09 08:14:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-09 08:14:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240409/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-09 08:14:32] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/29/07/84a1f42c0536c29d79214b24f9592698d15ea2f690c0ea62bebb30f4a232/lanQ-1.2.tar.gz
+[2024-04-09 08:14:32] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/bd/bf/6cad49193d7e004461888358e59a9ce05ae860003cb66650aab8b91d9c16/pyg_nightly-2.6.0.dev20240408.tar.gz
+[2024-04-09 08:14:32] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a0/56/b1550c602cfbe96c1bcd42580a53c88e8eb26ba3aa4f9c04a79936581bc7/localstack-core-3.3.1.dev20240409055414.tar.gz
+[2024-04-09 08:14:32] WARNING root fetch - processPackages [lanQ]: Timeout reached during download
+[2024-04-09 08:14:32] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-04-09 08:14:32] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.1.tar.gz tmp/lanQ-1.2.tar.gz --markdown 20240409/l/lanQ/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-09 08:14:32] INFO root fetch - processPackages [portfolio-carousel]: Downloading https://files.pythonhosted.org/packages/25/41/ff60317a8dc8f02e9ca1f1665d466c7b8223a596e9bacf1b19af34029882/portfolio-carousel-0.1.5.tar.gz
+[2024-04-09 08:14:32] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-09 08:14:32] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-09 08:14:32] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240407.tar.gz tmp/pyg_nightly-2.6.0.dev20240408.tar.gz --markdown 20240409/p/pyg-nightly/2.6.0.dev20240407-2.6.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-09 08:14:32] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 08:14:32] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-09 08:14:32] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240408212734.tar.gz tmp/localstack-core-3.3.1.dev20240409055414.tar.gz --markdown 20240409/l/localstack-core/3.3.1.dev20240408212734-3.3.1.dev20240409055414/diff.md --exclude *.pyd
+[2024-04-09 08:14:32] WARNING root fetch - processPackages [portfolio-carousel]: Timeout reached during download
+[2024-04-09 08:14:32] INFO root fetch - processPackages [portfolio-carousel]: executing diffoscope
+[2024-04-09 08:14:32] INFO root fetch - processPackages [portfolio-carousel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio-carousel-0.1.4.tar.gz tmp/portfolio-carousel-0.1.5.tar.gz --markdown 20240409/p/portfolio-carousel/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-09 08:14:32] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-09 08:14:32] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-09 08:14:32] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-09 08:14:32] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.1.tar.gz]
+[2024-04-09 08:14:32] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.2.tar.gz]
+[2024-04-09 08:14:32] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-04-09 08:14:33] INFO root fetch - processPackages [portfolio-carousel]: Remove: archive file [/home/abi/fetcher/tmp/portfolio-carousel-0.1.4.tar.gz]
+[2024-04-09 08:14:33] INFO root fetch - processPackages [portfolio-carousel]: Remove: archive file [/home/abi/fetcher/tmp/portfolio-carousel-0.1.5.tar.gz]
+[2024-04-09 08:14:33] INFO root fetch - main [MainThread]: End processing [portfolio-carousel]: success
+[2024-04-09 08:14:34] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240407.tar.gz]
+[2024-04-09 08:14:34] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240408.tar.gz]
+[2024-04-09 08:14:34] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-09 08:14:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408212734.tar.gz]
+[2024-04-09 08:14:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409055414.tar.gz]
+[2024-04-09 08:14:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-09 08:14:35] INFO root fetch - main [MainThread]: Store serial: [22678901]
