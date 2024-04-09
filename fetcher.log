@@ -13364,3 +13364,75 @@
 [2024-04-09 05:55:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz]
 [2024-04-09 05:55:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
 [2024-04-09 05:55:43] INFO root fetch - main [MainThread]: Store serial: [22677863]
+[2024-04-09 05:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677863]
+[2024-04-09 05:57:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kyws
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcss
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tdcpg
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: line-web
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tdid
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tdmq
+[2024-04-09 05:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nlp
+[2024-04-09 05:57:52] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.2.dev0] Old Version: [0.9.1.dev0]
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:57:52] INFO root fetch - processPackages [line-web]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 05:57:52] WARNING root fetch - processPackages [kyws]: Skipping, unable to determine old version
+[2024-04-09 05:57:52] INFO root fetch - main [MainThread]: End processing [kyws] error
+[2024-04-09 05:57:52] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b6/6b/5e378df208b954e0bb2f79368dfa7a478538ef65cc2c9a28861a92e5b40e/keras-nlp-0.9.1.dev0.tar.gz
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:57:52] WARNING root fetch - processPackages [keras-nlp]: Timeout reached during download
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/4d/a3/6182b96f50dff842ec614b7b7057a2bb2f2fec574dcc9e8fc524a5719894/tencentcloud-sdk-python-tcss-3.0.998.tar.gz
+[2024-04-09 05:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/46/3e/fd3c779997240f97e63b184e7fd680dbb82adfe84f83484e64ef076ac6fb/tencentcloud-sdk-python-tdid-3.0.998.tar.gz
+[2024-04-09 05:57:52] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/f4/e0/703f13b5d271b746a6cc42cd86bacb233d08772fada4f955a11fb02e3029/line-web-0.0.2.tar.gz
+[2024-04-09 05:57:52] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/d6/25/907cf23fe9ea8ec9d9ae64c01d4b918c535d1c786a347116779c21aeef0d/keras-nlp-0.9.2.dev0.tar.gz
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdid]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Downloading https://files.pythonhosted.org/packages/6a/af/a88318f4524339960be36437e29ed728dd45fec2dc428cff269dfb532fd0/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Downloading https://files.pythonhosted.org/packages/3c/ba/836fcf33b0dae525b6a6584231131cc3779434bfc42e80a8e6e3d6a45caa/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [keras-nlp]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.1.dev0.tar.gz tmp/keras-nlp-0.9.2.dev0.tar.gz --markdown 20240409/k/keras-nlp/0.9.1.dev0-0.9.2.dev0/diff.md --exclude *.pyd
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Timeout reached during download
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/05/cc/a85b7e63ac0cf453ed8c4f0586ca235d1e131da0d1893d0e8404c6d9c0f1/line-web-0.0.3.tar.gz
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/70/0d/3057d25c093970fedab89f14fba80890710dba17eb9243812ea9ff97ee7e/tencentcloud-sdk-python-tdid-3.0.999.tar.gz
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/60/ec/d37b2deb37f58692022118f9652da4944dbaecedfb22d312ca480517c2e9/tencentcloud-sdk-python-tcss-3.0.999.tar.gz
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdid]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdid-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdid-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tdid/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Downloading https://files.pythonhosted.org/packages/be/e2/73cefafe56186ea9adec2a69a562a6e64b3143f3b67b06b517497e909f64/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Downloading https://files.pythonhosted.org/packages/95/3a/d924e31813cc9362f27605b853c56abd46dc24ae528344cf9c18f7bf989d/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [line-web]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [line-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-web-0.0.2.tar.gz tmp/line-web-0.0.3.tar.gz --markdown 20240409/l/line-web/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tdmq/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:57:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Timeout reached during download
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: executing diffoscope
+[2024-04-09 05:57:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tdcpg/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdid-3.0.998.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdid-3.0.999.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdid]: success
+[2024-04-09 05:57:54] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.2.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.3.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [line-web]: success
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdmq]: success
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdcpg]: success
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcss]: success
+[2024-04-09 05:57:54] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.1.dev0.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.2.dev0.tar.gz]
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-04-09 05:57:54] INFO root fetch - main [MainThread]: Store serial: [22677885]
