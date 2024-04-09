@@ -23023,3 +23023,94 @@
 [2024-04-09 11:55:12] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
 [2024-04-09 11:55:12] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
 [2024-04-09 11:55:12] INFO root fetch - main [MainThread]: Store serial: [22681522]
+[2024-04-09 11:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681522]
+[2024-04-09 11:57:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reportbro-lib
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lowmq-client
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dciclient
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-xlibrary
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gamdl
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlcvzoo-base
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rio-tiler
+[2024-04-09 11:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DIPEX
+[2024-04-09 11:57:23] INFO root fetch - processPackages [gamdl]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [reportbro-lib]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/87/b9/1a30e4a6018d40bad05f8427d8e181f0f1f12d634cf7965996f6b63efa4d/robotframework-xlibrary-1.0.2.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [lowmq-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [mlcvzoo-base]: New version: [5.7.2] Old Version: [5.7.1]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/40/c4/1eff0393e1c126cf1fdbb3368712575fb34fe0bffb1482c5b3a0df8a3947/gamdl-2.1.1.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [dciclient]: New version: [3.5.0.post202403281939] Old Version: [3.5.0.post202401252113]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [rio-tiler]: New version: [6.4.6] Old Version: [6.4.5]
+[2024-04-09 11:57:23] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [lowmq-client]: Downloading https://files.pythonhosted.org/packages/56/4f/59009a7d4f1726b305356746aa7ecc944a4dace09085831a3ec8be0a2a36/lowmq_client-0.0.2-py3-none-any.whl
+[2024-04-09 11:57:23] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/8b/df/30330ccc89a9956b0582edbe9a0f635092b0e11e804592b3d9ca31d93253/mlcvzoo_base-5.7.1.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [dciclient]: Downloading https://files.pythonhosted.org/packages/09/9e/af77f4e94de13ed55f64e6295ef58bd74698cb351253694e25e21eefb152/dciclient-3.5.0.post202401252113.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [reportbro-lib]: Downloading https://files.pythonhosted.org/packages/db/1e/87009c7fc23d86cbbd75aec7f82db6c90284b8bff8976cee70cc9bb43dc0/reportbro_lib-3.7.0.tar.gz
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/f5/65/a23674882d97d9b0e98a756d9394ec6824b1d94d07ebc6c45f77f9167c5c/rio_tiler-6.4.5.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/d6/81/42f9025c96a9a4de66d4883a468eec4be685f1abd4b24f571122ed82dde6/robotframework-xlibrary-1.0.3.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/a6/59/25aa42ed1894708a1c48c3a0f8d4a5a59600e5f86207d98ee10b361b218f/gamdl-2.1.2.tar.gz
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [lowmq-client]: Timeout reached during download
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [mlcvzoo-base]: Timeout reached during download
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [reportbro-lib]: Timeout reached during download
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-09 11:57:23] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-1.0.2.tar.gz tmp/robotframework-xlibrary-1.0.3.tar.gz --markdown 20240409/r/robotframework-xlibrary/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [dciclient]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-09 11:57:23] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.1.tar.gz tmp/gamdl-2.1.2.tar.gz --markdown 20240409/g/gamdl/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-09 11:57:23] WARNING root fetch - processPackages [rio-tiler]: Timeout reached during download
+[2024-04-09 11:57:23] INFO root fetch - processPackages [lowmq-client]: Downloading https://files.pythonhosted.org/packages/3e/5e/48f06412d7e89b2f21e5347f25b6d28c0c28555e8727d57572eb78659ff8/lowmq-client-0.0.3.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/be/da/899dd96ceb6208d96e734877fff9ab7844ecb6d1129a12ac1a4d26007631/mlcvzoo_base-5.7.2.tar.gz
+[2024-04-09 11:57:23] INFO root fetch - processPackages [reportbro-lib]: Downloading https://files.pythonhosted.org/packages/8d/e8/74fb2408fe76e62caaeffb2a9eef40c18bda41adc963d00938ef21faa5ba/reportbro_lib-3.7.1.tar.gz
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240409/D/DIPEX/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [lowmq-client]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [lowmq-client]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [lowmq-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowmq_client-0.0.2-py3-none-any.whl.zip tmp/lowmq-client-0.0.3.tar.gz --markdown 20240409/l/lowmq-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] INFO root fetch - processPackages [dciclient]: Downloading https://files.pythonhosted.org/packages/2d/d6/710d20d8354b0d4379c9eec24d64b4a59c09ba98e9d2aa0980832b57cf9c/dciclient-3.5.0.post202403281939.tar.gz
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [mlcvzoo-base]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [mlcvzoo-base]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [mlcvzoo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_base-5.7.1.tar.gz tmp/mlcvzoo_base-5.7.2.tar.gz --markdown 20240409/m/mlcvzoo-base/5.7.1-5.7.2/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/e0/33/c86438f4c1644dc729606d79d80f223bd42f7c5c6b4d27d5910e88002d19/rio_tiler-6.4.6.tar.gz
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [reportbro-lib]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [reportbro-lib]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [reportbro-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportbro_lib-3.7.0.tar.gz tmp/reportbro_lib-3.7.1.tar.gz --markdown 20240409/r/reportbro-lib/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [dciclient]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [dciclient]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [dciclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dciclient-3.5.0.post202401252113.tar.gz tmp/dciclient-3.5.0.post202403281939.tar.gz --markdown 20240409/d/dciclient/3.5.0.post202401252113-3.5.0.post202403281939/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] WARNING root fetch - processPackages [rio-tiler]: Timeout reached during download
+[2024-04-09 11:57:24] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2024-04-09 11:57:24] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-6.4.5.tar.gz tmp/rio_tiler-6.4.6.tar.gz --markdown 20240409/r/rio-tiler/6.4.5-6.4.6/diff.md --exclude *.pyd
+[2024-04-09 11:57:24] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.2.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.3.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-09 11:57:24] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.1.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.2.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-09 11:57:24] INFO root fetch - processPackages [lowmq-client]: Remove: archive file [/home/abi/fetcher/tmp/lowmq_client-0.0.2-py3-none-any.whl.zip]
+[2024-04-09 11:57:24] INFO root fetch - processPackages [lowmq-client]: Remove: archive file [/home/abi/fetcher/tmp/lowmq-client-0.0.3.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - main [MainThread]: End processing [lowmq-client]: success
+[2024-04-09 11:57:24] INFO root fetch - processPackages [reportbro-lib]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_lib-3.7.0.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - processPackages [reportbro-lib]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_lib-3.7.1.tar.gz]
+[2024-04-09 11:57:24] INFO root fetch - main [MainThread]: End processing [reportbro-lib]: success
+[2024-04-09 11:57:25] INFO root fetch - processPackages [dciclient]: Remove: archive file [/home/abi/fetcher/tmp/dciclient-3.5.0.post202401252113.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - processPackages [dciclient]: Remove: archive file [/home/abi/fetcher/tmp/dciclient-3.5.0.post202403281939.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - main [MainThread]: End processing [dciclient]: success
+[2024-04-09 11:57:25] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-04-09 11:57:25] INFO root fetch - processPackages [mlcvzoo-base]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_base-5.7.1.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - processPackages [mlcvzoo-base]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_base-5.7.2.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - main [MainThread]: End processing [mlcvzoo-base]: success
+[2024-04-09 11:57:25] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.5.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.6.tar.gz]
+[2024-04-09 11:57:25] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2024-04-09 11:57:25] INFO root fetch - main [MainThread]: Store serial: [22681546]
