@@ -18746,3 +18746,135 @@
 [2024-04-09 09:51:09] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-09 09:51:09] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-09 09:51:09] INFO root fetch - main [MainThread]: Store serial: [22679870]
+[2024-04-09 09:53:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679870]
+[2024-04-09 09:53:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DIPEX
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chuangliang
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiledb-vector-search
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: line-web
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hs-correct
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jinaai-api-schemas
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-fsm
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylearningstandards
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oebuild
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qdd
+[2024-04-09 09:53:19] INFO root fetch - processPackages [line-web]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [hs-correct]: Skipping, unable to determine old version
+[2024-04-09 09:53:19] INFO root fetch - processPackages [hs-correct]: Start processing: ubiops
+[2024-04-09 09:53:19] INFO root fetch - main [MainThread]: End processing [hs-correct] error
+[2024-04-09 09:53:19] INFO root fetch - processPackages [pylearningstandards]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [django-fsm]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [tiledb-vector-search]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/42/37/4ba23c83b4be94174972095df1e1a138b3310f3cf9d890150609c3348c3f/line-web-0.0.5.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [chuangliang]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [qdd]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [pylearningstandards]: Downloading https://files.pythonhosted.org/packages/88/dc/9b921aecde981e8e70550281610654177b27fff8da74c13b568af233fa79/pylearningstandards-0.2.1.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [django-fsm]: Downloading https://files.pythonhosted.org/packages/9c/c4/8502fcb2adae21cb3d822b25fa32bb2dd7e6b523697170e63f061866ae7c/django-fsm-2.8.1.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ubiops]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [tiledb-vector-search]: Downloading https://files.pythonhosted.org/packages/6c/1d/d87264121f20eb6befc4ee88a98d0e0d097645d8fbf7cd18fed63f7defea/tiledb_vector_search-0.2.0.tar.gz
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [tiledb-vector-search]: Skipping package: exceeds size limit 21752724>=10485760
+[2024-04-09 09:53:19] INFO root fetch - processPackages [tiledb-vector-search]: Start processing: slurpit_nautobot
+[2024-04-09 09:53:19] INFO root fetch - main [MainThread]: End processing [tiledb-vector-search] error
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [django-fsm]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [pylearningstandards]: Timeout reached during download
+[2024-04-09 09:53:19] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.65] Old Version: [0.8.64]
+[2024-04-09 09:53:19] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [qdd]: Downloading https://files.pythonhosted.org/packages/fd/a5/c0ebb2993f48cded918424d09aa12333a5df629fd4dcfc4e746a82886929/qdd-0.2.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2024-04-09 09:53:19] INFO root fetch - processPackages [chuangliang]: Downloading https://files.pythonhosted.org/packages/af/79/a5db2fbc5ddab2e5abcf2123a7f1782688d53c409c4f06d88f618648684b/chuangliang-0.0.8.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [ubiops]: Downloading https://files.pythonhosted.org/packages/3b/d6/18ff73713a258854ae35a14646e6a708afbc6f7cdf945d9fdcfc457d2442/ubiops-4.3.0.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [django-fsm]: Downloading https://files.pythonhosted.org/packages/b6/5d/4d0aa7365097af11c373761d4d29e4cff59ac3e9a63b79a479b586a8fa7b/django-fsm-2.8.2.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [pylearningstandards]: Downloading https://files.pythonhosted.org/packages/c4/e5/ebc4afba8f11739eb0961bf0673ac00184cd71d5d22490cd66e608db3abd/pylearningstandards-0.2.2.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-04-09 09:53:19] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/bc/da/b081986963ae8e4ffdecb5d6074c642f40a565814c8a55027b36e634b5a7/slurpit_nautobot-0.8.64.tar.gz
+[2024-04-09 09:53:19] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/38/a5/7a4016cd4a8f0e9bf78e99746c09b0e93ea284f22825670d62f4fbc7da35/line-web-0.0.6.tar.gz
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [jinaai-api-schemas]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [chuangliang]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [pylearningstandards]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [qdd]: Timeout reached during download
+[2024-04-09 09:53:19] INFO root fetch - processPackages [pylearningstandards]: executing diffoscope
+[2024-04-09 09:53:19] INFO root fetch - processPackages [pylearningstandards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylearningstandards-0.2.1.tar.gz tmp/pylearningstandards-0.2.2.tar.gz --markdown 20240409/p/pylearningstandards/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [django-fsm]: Timeout reached during download
+[2024-04-09 09:53:19] INFO root fetch - processPackages [django-fsm]: executing diffoscope
+[2024-04-09 09:53:19] INFO root fetch - processPackages [django-fsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fsm-2.8.1.tar.gz tmp/django-fsm-2.8.2.tar.gz --markdown 20240409/d/django-fsm/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [ubiops]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:53:19] INFO root fetch - processPackages [line-web]: executing diffoscope
+[2024-04-09 09:53:19] INFO root fetch - processPackages [line-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-web-0.0.5.tar.gz tmp/line-web-0.0.6.tar.gz --markdown 20240409/l/line-web/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [oebuild]: Timeout reached during download
+[2024-04-09 09:53:19] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [slurpit_nautobot]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [chuangliang]: Downloading https://files.pythonhosted.org/packages/a3/8a/501568e72e49a8074d50ff13bcde70a6f46cf1738e5eeb1ea445a58a8934/chuangliang-0.0.9.tar.gz
+[2024-04-09 09:53:20] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-04-09 09:53:20] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/78/65/ee24c87bd1152093f27915f6622917cf2940d003d376f6448ce4449971f1/slurpit_nautobot-0.8.65.tar.gz
+[2024-04-09 09:53:20] INFO root fetch - processPackages [qdd]: Downloading https://files.pythonhosted.org/packages/51/67/84488e9b450d5378c4ce988a47a8da7267e35eaff73ee2e2364cbffcab7f/qdd-0.2.1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2024-04-09 09:53:20] INFO root fetch - processPackages [ubiops]: Downloading https://files.pythonhosted.org/packages/aa/33/69361526d759bc9c80bdfdd013c2dc1bf8f5164764945c86d9487053ff0f/ubiops-4.4.0.tar.gz
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [chuangliang]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [chuangliang]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [chuangliang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chuangliang-0.0.8.tar.gz tmp/chuangliang-0.0.9.tar.gz --markdown 20240409/c/chuangliang/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-04-09 09:53:20] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [jinaai-api-schemas]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240409/j/jinaai-api-schemas/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [slurpit_nautobot]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.64.tar.gz tmp/slurpit_nautobot-0.8.65.tar.gz --markdown 20240409/s/slurpit_nautobot/0.8.64-0.8.65/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [qdd]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [qdd]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [qdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdd-0.2.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip tmp/qdd-0.2.1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20240409/q/qdd/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [ubiops]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [ubiops]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [ubiops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-4.3.0.tar.gz tmp/ubiops-4.4.0.tar.gz --markdown 20240409/u/ubiops/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [oebuild]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240409/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-09 09:53:20] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-04-09 09:53:20] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240409/D/DIPEX/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-09 09:53:20] INFO root fetch - processPackages [pylearningstandards]: Remove: archive file [/home/abi/fetcher/tmp/pylearningstandards-0.2.1.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - processPackages [pylearningstandards]: Remove: archive file [/home/abi/fetcher/tmp/pylearningstandards-0.2.2.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - processPackages [pylearningstandards]: Start processing: Promium
+[2024-04-09 09:53:20] INFO root fetch - main [MainThread]: End processing [pylearningstandards]: success
+[2024-04-09 09:53:20] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.5.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.6.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - main [MainThread]: End processing [line-web]: success
+[2024-04-09 09:53:20] INFO root fetch - processPackages [django-fsm]: Remove: archive file [/home/abi/fetcher/tmp/django-fsm-2.8.1.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - processPackages [django-fsm]: Remove: archive file [/home/abi/fetcher/tmp/django-fsm-2.8.2.tar.gz]
+[2024-04-09 09:53:20] INFO root fetch - main [MainThread]: End processing [django-fsm]: success
+[2024-04-09 09:53:20] INFO root fetch - processPackages [Promium]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-04-09 09:53:21] INFO root fetch - processPackages [qdd]: Remove: archive file [/home/abi/fetcher/tmp/qdd-0.2.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [qdd]: Remove: archive file [/home/abi/fetcher/tmp/qdd-0.2.1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [qdd]: success
+[2024-04-09 09:53:21] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/bc/9e/c8c4102bf0e8c09919b20c7f507798064c04669f7b7f5f7ea28540684003/Promium-3.4.1.tar.gz
+[2024-04-09 09:53:21] INFO root fetch - processPackages [chuangliang]: Remove: archive file [/home/abi/fetcher/tmp/chuangliang-0.0.8.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [chuangliang]: Remove: archive file [/home/abi/fetcher/tmp/chuangliang-0.0.9.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [chuangliang]: success
+[2024-04-09 09:53:21] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-04-09 09:53:21] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.64.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.65.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-09 09:53:21] WARNING root fetch - processPackages [Promium]: Timeout reached during download
+[2024-04-09 09:53:21] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/dd/42/119f481d9d81d1bb8f3d7f9da228b96e9e57328ca45c3b4d6d0565a94357/Promium-3.4.2.tar.gz
+[2024-04-09 09:53:21] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-04-09 09:53:21] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-04-09 09:53:21] WARNING root fetch - processPackages [Promium]: Timeout reached during download
+[2024-04-09 09:53:21] INFO root fetch - processPackages [Promium]: executing diffoscope
+[2024-04-09 09:53:21] INFO root fetch - processPackages [Promium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Promium-3.4.1.tar.gz tmp/Promium-3.4.2.tar.gz --markdown 20240409/P/Promium/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2024-04-09 09:53:22] INFO root fetch - processPackages [ubiops]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-4.3.0.tar.gz]
+[2024-04-09 09:53:22] INFO root fetch - processPackages [ubiops]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-4.4.0.tar.gz]
+[2024-04-09 09:53:22] INFO root fetch - main [MainThread]: End processing [ubiops]: success
+[2024-04-09 09:53:22] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.4.1.tar.gz]
+[2024-04-09 09:53:22] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.4.2.tar.gz]
+[2024-04-09 09:53:22] INFO root fetch - main [MainThread]: End processing [Promium]: success
+[2024-04-09 09:53:22] INFO root fetch - main [MainThread]: Store serial: [22679925]
