@@ -22318,3 +22318,59 @@
 [2024-04-09 11:37:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409072220.tar.gz]
 [2024-04-09 11:37:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-09 11:37:22] INFO root fetch - main [MainThread]: Store serial: [22681283]
+[2024-04-09 11:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681283]
+[2024-04-09 11:39:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataTransformationsBertas
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limexhub
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lowmq-client
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypatorch
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arg-services
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pracscode3
+[2024-04-09 11:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itkdb-gtk
+[2024-04-09 11:39:31] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [limexhub]: Skipping, unable to determine old version
+[2024-04-09 11:39:31] INFO root fetch - main [MainThread]: End processing [limexhub] error
+[2024-04-09 11:39:31] INFO root fetch - processPackages [arg-services]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-09 11:39:31] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/aa/e2/11310545299ef98602b8f4a31aac839a086bfdcb743b0979bf0a9ed48dcc/datatransformationsbertas-0.7.3.tar.gz
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [lowmq-client]: Skipping, unable to determine old version
+[2024-04-09 11:39:31] INFO root fetch - main [MainThread]: End processing [lowmq-client] error
+[2024-04-09 11:39:31] INFO root fetch - processPackages [hypatorch]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-09 11:39:31] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.1.dev1] Old Version: [0.9.0]
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [pracscode3]: Skipping, unable to determine old version
+[2024-04-09 11:39:31] INFO root fetch - main [MainThread]: End processing [pracscode3] error
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:39:31] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/52/49/6f08b073550c7f9b54549ffcf2af957f132b81b5809eacbf1dbc4f541f03/arg_services-1.7.0.tar.gz
+[2024-04-09 11:39:31] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/0e/44/d82a8b3bb1c776fdd36fc983cf2060d4aef23e87d09b6d21d95c7f64b84b/hypatorch-0.2.6.tar.gz
+[2024-04-09 11:39:31] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [arg-services]: Timeout reached during download
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [hypatorch]: Timeout reached during download
+[2024-04-09 11:39:31] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/33/d5/d429439a81c7eabf64a83e6a7021a43afdb83ee6bfe0fb82f35f788a7e5f/datatransformationsbertas-0.7.4.tar.gz
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [itkdb-gtk]: Timeout reached during download
+[2024-04-09 11:39:31] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:39:31] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 11:39:31] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.7.3.tar.gz tmp/datatransformationsbertas-0.7.4.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-09 11:39:31] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/e2/f2/216f7e6efc7bd3de1ad01b298e251c44e1148ab6920f1b356b7ea67427c5/arg_services-1.7.1.tar.gz
+[2024-04-09 11:39:31] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/bc/9d/35c124514e9f0b276475edc7b69259d76eadec7d70ca4b5ccb56ea1d6843/hypatorch-0.2.7.tar.gz
+[2024-04-09 11:39:31] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/13/a7/03d30164cba13b0c5f9cc41ec7d8e1db06d82f1e660a01ed20eaf8aa0a95/itkdb_gtk-0.9.1.dev1.tar.gz
+[2024-04-09 11:39:32] WARNING root fetch - processPackages [hypatorch]: Timeout reached during download
+[2024-04-09 11:39:32] INFO root fetch - processPackages [hypatorch]: executing diffoscope
+[2024-04-09 11:39:32] INFO root fetch - processPackages [hypatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypatorch-0.2.6.tar.gz tmp/hypatorch-0.2.7.tar.gz --markdown 20240409/h/hypatorch/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-09 11:39:32] WARNING root fetch - processPackages [arg-services]: Timeout reached during download
+[2024-04-09 11:39:32] INFO root fetch - processPackages [arg-services]: executing diffoscope
+[2024-04-09 11:39:32] INFO root fetch - processPackages [arg-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arg_services-1.7.0.tar.gz tmp/arg_services-1.7.1.tar.gz --markdown 20240409/a/arg-services/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2024-04-09 11:39:32] WARNING root fetch - processPackages [itkdb-gtk]: Timeout reached during download
+[2024-04-09 11:39:32] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-04-09 11:39:32] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.9.0.tar.gz tmp/itkdb_gtk-0.9.1.dev1.tar.gz --markdown 20240409/i/itkdb-gtk/0.9.0-0.9.1.dev1/diff.md --exclude *.pyd
+[2024-04-09 11:39:32] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.3.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.4.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 11:39:32] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.6.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.7.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - main [MainThread]: End processing [hypatorch]: success
+[2024-04-09 11:39:32] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-04-09 11:39:32] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.7.0.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.7.1.tar.gz]
+[2024-04-09 11:39:32] INFO root fetch - main [MainThread]: End processing [arg-services]: success
+[2024-04-09 11:39:32] INFO root fetch - main [MainThread]: Store serial: [22681319]
