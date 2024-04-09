@@ -8542,3 +8542,39 @@
 [2024-04-09 03:21:40] INFO root fetch - processPackages [syllogistic]: Remove: archive file [/home/abi/fetcher/tmp/syllogistic-0.0.43.tar.gz]
 [2024-04-09 03:21:40] INFO root fetch - main [MainThread]: End processing [syllogistic]: success
 [2024-04-09 03:21:40] INFO root fetch - main [MainThread]: Store serial: [22676087]
+[2024-04-09 03:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676087]
+[2024-04-09 03:23:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py2saber
+[2024-04-09 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tscluster
+[2024-04-09 03:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ws-scoring
+[2024-04-09 03:23:49] INFO root fetch - processPackages [django-ws-scoring]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-09 03:23:49] INFO root fetch - processPackages [tscluster]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 03:23:49] INFO root fetch - processPackages [django-ws-scoring]: Downloading https://files.pythonhosted.org/packages/f4/39/73cdf992f164b0cb1e7d2e0ff5a8b75cdc04a289967223489176162049e6/django-ws-scoring-0.1.8.tar.gz
+[2024-04-09 03:23:49] INFO root fetch - processPackages [tscluster]: Downloading https://files.pythonhosted.org/packages/a5/28/b66827d0f4abbedf490f26b533c03a397716190955c350b070e6e4d9b107/tscluster-1.0.0.tar.gz
+[2024-04-09 03:23:49] INFO root fetch - processPackages [py2saber]: New version: [0.12.2] Old Version: [0.12.1]
+[2024-04-09 03:23:49] WARNING root fetch - processPackages [django-ws-scoring]: Timeout reached during download
+[2024-04-09 03:23:49] WARNING root fetch - processPackages [tscluster]: Timeout reached during download
+[2024-04-09 03:23:49] INFO root fetch - processPackages [django-ws-scoring]: Downloading https://files.pythonhosted.org/packages/63/1f/03954bfac523af5d324cb65e2b66e4bf176a11d702d87b1c13473c5c9efa/django-ws-scoring-0.2.0.tar.gz
+[2024-04-09 03:23:49] INFO root fetch - processPackages [tscluster]: Downloading https://files.pythonhosted.org/packages/ff/25/3d8c89301333ddf917796fe263ac4c993a4b6e9e881bc126f6c3482ff24d/tscluster-1.0.1.tar.gz
+[2024-04-09 03:23:49] INFO root fetch - processPackages [py2saber]: Downloading https://files.pythonhosted.org/packages/39/f9/6ca0c63eefdb3aad4269534c169ecf8acb1bf5c987e43f324bd778c600dd/py2saber-0.12.1.tar.gz
+[2024-04-09 03:23:49] WARNING root fetch - processPackages [django-ws-scoring]: Timeout reached during download
+[2024-04-09 03:23:49] INFO root fetch - processPackages [django-ws-scoring]: executing diffoscope
+[2024-04-09 03:23:49] INFO root fetch - processPackages [django-ws-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-scoring-0.1.8.tar.gz tmp/django-ws-scoring-0.2.0.tar.gz --markdown 20240409/d/django-ws-scoring/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 03:23:49] WARNING root fetch - processPackages [tscluster]: Timeout reached during download
+[2024-04-09 03:23:49] INFO root fetch - processPackages [tscluster]: executing diffoscope
+[2024-04-09 03:23:49] INFO root fetch - processPackages [tscluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tscluster-1.0.0.tar.gz tmp/tscluster-1.0.1.tar.gz --markdown 20240409/t/tscluster/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 03:23:50] WARNING root fetch - processPackages [py2saber]: Timeout reached during download
+[2024-04-09 03:23:50] INFO root fetch - processPackages [py2saber]: Downloading https://files.pythonhosted.org/packages/74/54/fb314d4c39bb40acd3bc9373ec5f4d9c0c863bc65fde6911182c7bde2b0b/py2saber-0.12.2.tar.gz
+[2024-04-09 03:23:50] WARNING root fetch - processPackages [py2saber]: Timeout reached during download
+[2024-04-09 03:23:50] INFO root fetch - processPackages [py2saber]: executing diffoscope
+[2024-04-09 03:23:50] INFO root fetch - processPackages [py2saber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2saber-0.12.1.tar.gz tmp/py2saber-0.12.2.tar.gz --markdown 20240409/p/py2saber/0.12.1-0.12.2/diff.md --exclude *.pyd
+[2024-04-09 03:23:50] INFO root fetch - processPackages [tscluster]: Remove: archive file [/home/abi/fetcher/tmp/tscluster-1.0.0.tar.gz]
+[2024-04-09 03:23:50] INFO root fetch - processPackages [tscluster]: Remove: archive file [/home/abi/fetcher/tmp/tscluster-1.0.1.tar.gz]
+[2024-04-09 03:23:50] INFO root fetch - main [MainThread]: End processing [tscluster]: success
+[2024-04-09 03:23:50] INFO root fetch - processPackages [django-ws-scoring]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-scoring-0.1.8.tar.gz]
+[2024-04-09 03:23:50] INFO root fetch - processPackages [django-ws-scoring]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-scoring-0.2.0.tar.gz]
+[2024-04-09 03:23:50] INFO root fetch - main [MainThread]: End processing [django-ws-scoring]: success
+[2024-04-09 03:23:51] INFO root fetch - processPackages [py2saber]: Remove: archive file [/home/abi/fetcher/tmp/py2saber-0.12.1.tar.gz]
+[2024-04-09 03:23:51] INFO root fetch - processPackages [py2saber]: Remove: archive file [/home/abi/fetcher/tmp/py2saber-0.12.2.tar.gz]
+[2024-04-09 03:23:51] INFO root fetch - main [MainThread]: End processing [py2saber]: success
+[2024-04-09 03:23:51] INFO root fetch - main [MainThread]: Store serial: [22676155]
