@@ -12583,3 +12583,83 @@
 [2024-04-09 05:31:44] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.2.dev0.tar.gz]
 [2024-04-09 05:31:44] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2024-04-09 05:31:44] INFO root fetch - main [MainThread]: Store serial: [22677637]
+[2024-04-09 05:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677637]
+[2024-04-09 05:33:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-privatedns
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authwa
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-pts
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-rce
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxapit
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampa
+[2024-04-09 05:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2024-04-09 05:33:53] INFO root fetch - processPackages [cxapit]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [sampa]: New version: [1.0.0.3] Old Version: [1.0.0.2]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/da/7c/da6f9ac3a5531313bf3f46b7969f32e5d3ef1f262e142047d3ecdb2db9bb/cxapit-1.0.4.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/7f/3d/d6a91565ef76e0394684510bbcf3e09f316a306f32cd7eac904183bacccf/sampa-1.0.0.2.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Downloading https://files.pythonhosted.org/packages/e3/58/4b7322e6679d15407809e080d3ca1e722851bba85407402c213481cb8c86/tencentcloud-sdk-python-rce-3.0.998.tar.gz
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [sampa]: Timeout reached during download
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-rce]: Timeout reached during download
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Downloading https://files.pythonhosted.org/packages/bd/db/8d153489186f762c55ba436a4470768ced065c5b910d08b7e4f89d8269fe/tencentcloud-sdk-python-pts-3.0.998.tar.gz
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Downloading https://files.pythonhosted.org/packages/54/a1/af0b4d1af3816254d753159bab1effc943734a7bc905672a3a5a32433e08/tencentcloud-sdk-python-privatedns-3.0.998.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-pts]: Timeout reached during download
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Downloading https://files.pythonhosted.org/packages/bd/51/a78c37e3600a3b2a8dff4163ff5c2af15c4a2981f635f8d64fad974389b1/tencentcloud-sdk-python-rce-3.0.999.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/55/5e/b8efc9b63a9dc8c08b36f191d2eef640c8716967c420e04a756bd7fb50b3/sampa-1.0.0.3.tar.gz
+[2024-04-09 05:33:53] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/f4/db/cb760fff36df1d3eab75ca9f68c63e89246e0ffdfa2da252a63ea67cd055/cxapit-1.0.5.tar.gz
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Timeout reached during download
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Downloading https://files.pythonhosted.org/packages/3d/b7/24a6e4cae64fade7aed6724ff8e5965fc96d570caa8e0d802b098a9b0a58/tencentcloud-sdk-python-pts-3.0.999.tar.gz
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [authwa]: Timeout reached during download
+[2024-04-09 05:33:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-rce]: Timeout reached during download
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: executing diffoscope
+[2024-04-09 05:33:53] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rce-3.0.998.tar.gz tmp/tencentcloud-sdk-python-rce-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-rce/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [sampa]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [sampa]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - processPackages [sampa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampa-1.0.0.2.tar.gz tmp/sampa-1.0.0.3.tar.gz --markdown 20240409/s/sampa/1.0.0.2-1.0.0.3/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Downloading https://files.pythonhosted.org/packages/8f/c2/60c8a495d7d0afeb1830bb2b85d912b578aa58b8bb2d3c26279e4755ca54/tencentcloud-sdk-python-privatedns-3.0.999.tar.gz
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Timeout reached during download
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [tencentcloud-sdk-python-pts]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-pts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-pts-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-pts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.4.tar.gz tmp/cxapit-1.0.5.tar.gz --markdown 20240409/c/cxapit/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-privatedns-3.0.998.tar.gz tmp/tencentcloud-sdk-python-privatedns-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-privatedns/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [authwa]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240409/a/authwa/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.2.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.3.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [sampa]: success
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rce-3.0.998.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rce-3.0.999.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rce]: success
+[2024-04-09 05:33:54] WARNING root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Timeout reached during download
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-pts-3.0.998.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-pts-3.0.999.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-pts]: success
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2024-04-09 05:33:54] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.4.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.5.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 05:33:54] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-privatedns-3.0.998.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - processPackages [tencentcloud-sdk-python-privatedns]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-privatedns-3.0.999.tar.gz]
+[2024-04-09 05:33:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-privatedns]: success
+[2024-04-09 05:33:56] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2024-04-09 05:33:56] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2024-04-09 05:33:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2024-04-09 05:33:56] INFO root fetch - main [MainThread]: Store serial: [22677656]
