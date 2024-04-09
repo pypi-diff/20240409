@@ -14572,3 +14572,20 @@
 [2024-04-09 06:48:24] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-04-09 06:48:24] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-04-09 06:48:24] INFO root fetch - main [MainThread]: Store serial: [22678341]
+[2024-04-09 06:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678341]
+[2024-04-09 06:50:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 06:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarpcdantic
+[2024-04-09 06:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-codeforce
+[2024-04-09 06:50:32] INFO root fetch - processPackages [jarpcdantic]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 06:50:32] WARNING root fetch - processPackages [py-codeforce]: Skipping, unable to determine old version
+[2024-04-09 06:50:32] INFO root fetch - main [MainThread]: End processing [py-codeforce] error
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/b2/75/f0e46c6a11cfbd34818056464ca9237fe8b92ed6b2b034a77d13b551b46b/jarpcdantic-0.0.1.tar.gz
+[2024-04-09 06:50:33] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/c4/fc/2e12f0446bc4341f65d19d6aaf0005cf55aab068b8fda80bfa151cd83d1c/jarpcdantic-0.0.2.tar.gz
+[2024-04-09 06:50:33] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: executing diffoscope
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarpcdantic-0.0.1.tar.gz tmp/jarpcdantic-0.0.2.tar.gz --markdown 20240409/j/jarpcdantic/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.1.tar.gz]
+[2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.2.tar.gz]
+[2024-04-09 06:50:33] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
+[2024-04-09 06:50:33] INFO root fetch - main [MainThread]: Store serial: [22678350]
