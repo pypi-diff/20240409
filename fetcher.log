@@ -9626,3 +9626,50 @@
 [2024-04-09 04:34:15] WARNING root fetch - processPackages [bsv-sdk]: Skipping, unable to determine old version
 [2024-04-09 04:34:15] INFO root fetch - main [MainThread]: End processing [bsv-sdk] error
 [2024-04-09 04:34:15] INFO root fetch - main [MainThread]: Store serial: [22676785]
+[2024-04-09 04:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676785]
+[2024-04-09 04:36:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 04:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-09 04:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-commands
+[2024-04-09 04:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hebill
+[2024-04-09 04:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-dashboard
+[2024-04-09 04:36:23] INFO root fetch - processPackages [poetry-plugin-commands]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-09 04:36:23] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-09 04:36:23] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/32/cb/9236fb0c265cac56ba11d1505052f906c2a7e1f2519b312250ac31906c46/poetry_plugin_commands-0.0.6.tar.gz
+[2024-04-09 04:36:23] INFO root fetch - processPackages [hebill]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-09 04:36:23] INFO root fetch - processPackages [edc-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 04:36:23] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/6d/fb/e369b90307d3f252df3f702eb6460f757fdad29d142aa35f374e6f1bf554/hebill-1.1.5.tar.gz
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [edc-dashboard]: Downloading https://files.pythonhosted.org/packages/2d/b8/29114e0dfb22fdc3bd793529dde989d9f6a5f547672fddf514129968de83/edc_dashboard-0.3.8-py3-none-any.whl
+[2024-04-09 04:36:24] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/dc/92/0ed64e470f4f523b2df76c7387b0b6417baab656e8ac076e1dc955c708c5/poetry_plugin_commands-0.0.7.tar.gz
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [poetry-plugin-commands]: executing diffoscope
+[2024-04-09 04:36:24] INFO root fetch - processPackages [poetry-plugin-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_commands-0.0.6.tar.gz tmp/poetry_plugin_commands-0.0.7.tar.gz --markdown 20240409/p/poetry-plugin-commands/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-09 04:36:24] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-09 04:36:24] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/1b/78/f15dbfcedc50f15fbfb48869a0a83ca2803e3c2a1d3fad1a27ea78af9089/hebill-1.1.6.tar.gz
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [edc-dashboard]: Timeout reached during download
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-09 04:36:24] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240409/s/specklia/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-09 04:36:24] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.5.tar.gz tmp/hebill-1.1.6.tar.gz --markdown 20240409/h/hebill/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-09 04:36:24] INFO root fetch - processPackages [edc-dashboard]: Downloading https://files.pythonhosted.org/packages/5e/a7/a3c0392aeb0460e65b093a1c4379917e377b84d41cb2886b5c199906a679/edc_dashboard-0.3.9-py3-none-any.whl
+[2024-04-09 04:36:24] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.6.tar.gz]
+[2024-04-09 04:36:24] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.7.tar.gz]
+[2024-04-09 04:36:24] INFO root fetch - main [MainThread]: End processing [poetry-plugin-commands]: success
+[2024-04-09 04:36:24] WARNING root fetch - processPackages [edc-dashboard]: Timeout reached during download
+[2024-04-09 04:36:24] INFO root fetch - processPackages [edc-dashboard]: executing diffoscope
+[2024-04-09 04:36:24] INFO root fetch - processPackages [edc-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20240409/e/edc-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 04:36:25] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-09 04:36:25] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-09 04:36:25] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-09 04:36:25] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.5.tar.gz]
+[2024-04-09 04:36:25] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.6.tar.gz]
+[2024-04-09 04:36:25] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-09 04:36:25] INFO root fetch - processPackages [edc-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_dashboard-0.3.8-py3-none-any.whl.zip]
+[2024-04-09 04:36:25] INFO root fetch - processPackages [edc-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_dashboard-0.3.9-py3-none-any.whl.zip]
+[2024-04-09 04:36:25] INFO root fetch - main [MainThread]: End processing [edc-dashboard]: success
+[2024-04-09 04:36:25] INFO root fetch - main [MainThread]: Store serial: [22676797]
