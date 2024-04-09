@@ -18408,3 +18408,64 @@
 [2024-04-09 09:37:51] INFO root fetch - processPackages [python-call-graph]: Remove: archive file [/home/abi/fetcher/tmp/python-call-graph-2.1.2.tar.gz]
 [2024-04-09 09:37:51] INFO root fetch - main [MainThread]: End processing [python-call-graph]: success
 [2024-04-09 09:37:51] INFO root fetch - main [MainThread]: Store serial: [22679760]
+[2024-04-09 09:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679760]
+[2024-04-09 09:39:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxapit
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xsh
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blackboardsync
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepdataspace
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyautowire
+[2024-04-09 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: item-matching
+[2024-04-09 09:39:59] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 09:39:59] INFO root fetch - processPackages [pyautowire]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-09 09:39:59] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [xsh]: Skipping, unable to determine old version
+[2024-04-09 09:40:00] INFO root fetch - main [MainThread]: End processing [xsh] error
+[2024-04-09 09:40:00] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [pyautowire]: Downloading https://files.pythonhosted.org/packages/b7/71/0913557baffa8c5232d0210a3551c9b9ae49c786b218d20fbb8ec3c5846d/pyautowire-0.2.1.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [deepdataspace]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-09 09:40:00] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [pyautowire]: Timeout reached during download
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:40:00] INFO root fetch - processPackages [pyautowire]: Downloading https://files.pythonhosted.org/packages/b3/8b/5a19e2c37396b4d409d9963873dc6d7c34174875804cb2e9084e0ed9525c/pyautowire-0.3.0.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/9d/c0/d352dcff66c32c096437da395ba3403cce7ca156a62ccc0e58d9d7b11151/blackboardsync-0.9.8.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/a4/a7/3f7b8b4b8ccc2c036ee40a6a2e94a5f8e807e0c2a329ecbe9a6a37586237/deepdataspace-0.9.4.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [pyautowire]: Timeout reached during download
+[2024-04-09 09:40:00] INFO root fetch - processPackages [pyautowire]: executing diffoscope
+[2024-04-09 09:40:00] INFO root fetch - processPackages [pyautowire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautowire-0.2.1.tar.gz tmp/pyautowire-0.3.0.tar.gz --markdown 20240409/p/pyautowire/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:40:00] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 09:40:00] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [blackboardsync]: Timeout reached during download
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 09:40:00] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/a9/31/834ac05bf4a7d17330ea0120a1fdd522671a932e663ee9bb64f8a29e5477/blackboardsync-0.9.9.tar.gz
+[2024-04-09 09:40:00] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-09 09:40:00] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 09:40:00] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-09 09:40:00] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240409/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:40:01] INFO root fetch - processPackages [pyautowire]: Remove: archive file [/home/abi/fetcher/tmp/pyautowire-0.2.1.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - processPackages [pyautowire]: Remove: archive file [/home/abi/fetcher/tmp/pyautowire-0.3.0.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - main [MainThread]: End processing [pyautowire]: success
+[2024-04-09 09:40:01] WARNING root fetch - processPackages [blackboardsync]: Timeout reached during download
+[2024-04-09 09:40:01] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2024-04-09 09:40:01] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.8.tar.gz tmp/blackboardsync-0.9.9.tar.gz --markdown 20240409/b/blackboardsync/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 09:40:01] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 09:40:01] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-09 09:40:01] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.8.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.9.tar.gz]
+[2024-04-09 09:40:01] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2024-04-09 09:40:01] WARNING root fetch - processPackages [deepdataspace]: Timeout reached during download
+[2024-04-09 09:40:02] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/6e/82/6f21cc4d117155b419e4806e90242207c5f51c7a01bd9e7eff94ee94f8a3/deepdataspace-0.9.5.tar.gz
+[2024-04-09 09:40:03] WARNING root fetch - processPackages [deepdataspace]: Timeout reached during download
+[2024-04-09 09:40:03] INFO root fetch - processPackages [deepdataspace]: executing diffoscope
+[2024-04-09 09:40:03] INFO root fetch - processPackages [deepdataspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdataspace-0.9.4.tar.gz tmp/deepdataspace-0.9.5.tar.gz --markdown 20240409/d/deepdataspace/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-09 09:40:29] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.9.4.tar.gz]
+[2024-04-09 09:40:29] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.9.5.tar.gz]
+[2024-04-09 09:40:29] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
+[2024-04-09 09:40:29] INFO root fetch - main [MainThread]: Store serial: [22679781]
