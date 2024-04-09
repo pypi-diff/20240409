@@ -22957,3 +22957,69 @@
 [2024-04-09 11:52:57] INFO root fetch - processPackages [mecoda-minka]: Remove: archive file [/home/abi/fetcher/tmp/mecoda-minka-1.5.2.tar.gz]
 [2024-04-09 11:52:57] INFO root fetch - main [MainThread]: End processing [mecoda-minka]: success
 [2024-04-09 11:52:57] INFO root fetch - main [MainThread]: Store serial: [22681500]
+[2024-04-09 11:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681500]
+[2024-04-09 11:55:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-xlibrary
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prusek-spheroid
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imagedata
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-api-pyensight
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adilsm
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-download-file
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scanpy
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.5.0.dev0] Old Version: [0.3.9]
+[2024-04-09 11:55:06] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-09 11:55:06] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.1] Old Version: [4.0]
+[2024-04-09 11:55:06] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc3] Old Version: [3.5.1rc2]
+[2024-04-09 11:55:06] INFO root fetch - processPackages [scanpy]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [auto-download-file]: Skipping, unable to determine old version
+[2024-04-09 11:55:06] INFO root fetch - main [MainThread]: End processing [auto-download-file] error
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/dc/0b/5fc64e9d040a955c34d28b5e4528962344e4abff3412905b3eed5d22aba7/ansys-api-pyensight-0.3.9.tar.gz
+[2024-04-09 11:55:06] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/66/23/f4d62a23e961c3a7f408dde7d6ed4c4c259a0db944d71becae718facc5e8/robotframework-xlibrary-1.0.1.tar.gz
+[2024-04-09 11:55:06] INFO root fetch - processPackages [adilsm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 11:55:06] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/10/6c/054594edd3397b4fb764ab074cd9318dd04d867e5fd2e88c7f8b3aa4ffbb/imagedata-3.5.1rc2.tar.gz
+[2024-04-09 11:55:06] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/f4/e8/d42ea7902a33cc18caae0254897ca96d598cc2c5b8cd6f2154ff85bb3c00/prusek_spheroid-4.0.tar.gz
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631690>=10485760
+[2024-04-09 11:55:06] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 11:55:06] INFO root fetch - processPackages [scanpy]: Downloading https://files.pythonhosted.org/packages/7b/f9/8571e81145135a47af4d109c256b49c1d0d2f3419e91730d978192a43a07/scanpy-1.9.7.tar.gz
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-09 11:55:06] INFO root fetch - processPackages [adilsm]: Downloading https://files.pythonhosted.org/packages/a7/86/6c9c308c49b4789113f32f2fb7d7b8dbaba5d76120928f46e390b5dbdc9a/adilsm-0.0.7.tar.gz
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [ansys-api-pyensight]: Timeout reached during download
+[2024-04-09 11:55:06] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/5e/2f/6bcf870c976198d4d98b3680f35dbf75a8cd150a86227edaa000060de733/prusek_spheroid-4.1.tar.gz
+[2024-04-09 11:55:06] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1d/4d/74f2aacccff9667904ef55fa81fe28475605f643e2ec53044ac86d291849/ansys-api-pyensight-0.5.0.dev0.tar.gz
+[2024-04-09 11:55:06] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/87/b9/1a30e4a6018d40bad05f8427d8e181f0f1f12d634cf7965996f6b63efa4d/robotframework-xlibrary-1.0.2.tar.gz
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-09 11:55:06] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-09 11:55:06] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.0.tar.gz tmp/prusek_spheroid-4.1.tar.gz --markdown 20240409/p/prusek-spheroid/4.0-4.1/diff.md --exclude *.pyd
+[2024-04-09 11:55:06] WARNING root fetch - processPackages [robotframework-xlibrary]: Timeout reached during download
+[2024-04-09 11:55:06] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-09 11:55:06] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-1.0.1.tar.gz tmp/robotframework-xlibrary-1.0.2.tar.gz --markdown 20240409/r/robotframework-xlibrary/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-09 11:55:07] WARNING root fetch - processPackages [adilsm]: Timeout reached during download
+[2024-04-09 11:55:07] WARNING root fetch - processPackages [ansys-api-pyensight]: Timeout reached during download
+[2024-04-09 11:55:07] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2024-04-09 11:55:07] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.3.9.tar.gz tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz --markdown 20240409/a/ansys-api-pyensight/0.3.9-0.5.0.dev0/diff.md --exclude *.pyd
+[2024-04-09 11:55:07] WARNING root fetch - processPackages [scanpy]: Timeout reached during download
+[2024-04-09 11:55:07] INFO root fetch - processPackages [adilsm]: Downloading https://files.pythonhosted.org/packages/b3/d2/81ee67ed1ec089dec6a7e9d25b1845e7b5b408df588ca3613c3424887085/adilsm-0.0.8.tar.gz
+[2024-04-09 11:55:07] INFO root fetch - processPackages [scanpy]: Downloading https://files.pythonhosted.org/packages/84/95/2dad7cb2ce41aa433169f189d98d9d17e8eb6dfc5b02c7200fc69e9805c0/scanpy-1.9.8.tar.gz
+[2024-04-09 11:55:07] WARNING root fetch - processPackages [adilsm]: Timeout reached during download
+[2024-04-09 11:55:07] INFO root fetch - processPackages [adilsm]: executing diffoscope
+[2024-04-09 11:55:07] INFO root fetch - processPackages [adilsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adilsm-0.0.7.tar.gz tmp/adilsm-0.0.8.tar.gz --markdown 20240409/a/adilsm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 11:55:07] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.1.tar.gz]
+[2024-04-09 11:55:07] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.2.tar.gz]
+[2024-04-09 11:55:07] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-09 11:55:07] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.0.tar.gz]
+[2024-04-09 11:55:07] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.1.tar.gz]
+[2024-04-09 11:55:07] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-09 11:55:08] INFO root fetch - processPackages [adilsm]: Remove: archive file [/home/abi/fetcher/tmp/adilsm-0.0.7.tar.gz]
+[2024-04-09 11:55:08] INFO root fetch - processPackages [adilsm]: Remove: archive file [/home/abi/fetcher/tmp/adilsm-0.0.8.tar.gz]
+[2024-04-09 11:55:08] INFO root fetch - main [MainThread]: End processing [adilsm]: success
+[2024-04-09 11:55:08] WARNING root fetch - processPackages [scanpy]: Timeout reached during download
+[2024-04-09 11:55:08] INFO root fetch - processPackages [scanpy]: executing diffoscope
+[2024-04-09 11:55:08] INFO root fetch - processPackages [scanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpy-1.9.7.tar.gz tmp/scanpy-1.9.8.tar.gz --markdown 20240409/s/scanpy/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2024-04-09 11:55:09] INFO root fetch - processPackages [scanpy]: Remove: archive file [/home/abi/fetcher/tmp/scanpy-1.9.7.tar.gz]
+[2024-04-09 11:55:09] INFO root fetch - processPackages [scanpy]: Remove: archive file [/home/abi/fetcher/tmp/scanpy-1.9.8.tar.gz]
+[2024-04-09 11:55:09] INFO root fetch - main [MainThread]: End processing [scanpy]: success
+[2024-04-09 11:55:12] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.3.9.tar.gz]
+[2024-04-09 11:55:12] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
+[2024-04-09 11:55:12] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2024-04-09 11:55:12] INFO root fetch - main [MainThread]: Store serial: [22681522]
