@@ -16140,3 +16140,53 @@
 [2024-04-09 08:10:10] ERROR root fetch - processPackages [punkweb-bb]: Unable to get metadata: No such project 'punkweb-bb'
 [2024-04-09 08:10:10] INFO root fetch - main [MainThread]: End processing [punkweb-bb] error
 [2024-04-09 08:10:10] INFO root fetch - main [MainThread]: Store serial: [22678869]
+[2024-04-09 08:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678869]
+[2024-04-09 08:12:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: punkweb-bb
+[2024-04-09 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pirogue
+[2024-04-09 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bingads
+[2024-04-09 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s
+[2024-04-09 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: presentation-card
+[2024-04-09 08:12:20] INFO root fetch - processPackages [pirogue]: New version: [2.0.1b1] Old Version: [1.4.2]
+[2024-04-09 08:12:20] INFO root fetch - processPackages [presentation-card]: New version: [0.1.7] Old Version: [0.1.4]
+[2024-04-09 08:12:20] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-09 08:12:20] INFO root fetch - processPackages [bingads]: New version: [9.3.4] Old Version: [9.3.3]
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [punkweb-bb]: Skipping, unable to determine old version
+[2024-04-09 08:12:20] INFO root fetch - main [MainThread]: End processing [punkweb-bb] error
+[2024-04-09 08:12:20] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/8f/7d/eb14f543525adc487a633239645cc79ad36aabe01b5b6013ca40ea676083/pirogue-1.4.2.tar.gz
+[2024-04-09 08:12:20] INFO root fetch - processPackages [presentation-card]: Downloading https://files.pythonhosted.org/packages/79/e7/6a27c2a1c640ebc998d847344fcc0eb1b4e750e833f0014363dfae432a33/presentation-card-0.1.4.tar.gz
+[2024-04-09 08:12:20] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [presentation-card]: Timeout reached during download
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-09 08:12:20] INFO root fetch - processPackages [bingads]: Downloading https://files.pythonhosted.org/packages/44/36/ff004800ab37d2c93587776b6fdc9947ee284f0b1138fbe77bfdc0850310/bingads-9.3.3.zip
+[2024-04-09 08:12:20] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/29/44/a10add02735d5f1ce8549ff24dd4e0ea81540dc50f872f7ef909961d2fef/pirogue-2.0.1b1.tar.gz
+[2024-04-09 08:12:20] INFO root fetch - processPackages [presentation-card]: Downloading https://files.pythonhosted.org/packages/a4/61/1ec0613539ae38ef2b90f3d69affa0558bac0572cfdbe12573ee96cf9a50/presentation-card-0.1.7.tar.gz
+[2024-04-09 08:12:20] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 08:12:20] INFO root fetch - processPackages [pirogue]: executing diffoscope
+[2024-04-09 08:12:20] INFO root fetch - processPackages [pirogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pirogue-1.4.2.tar.gz tmp/pirogue-2.0.1b1.tar.gz --markdown 20240409/p/pirogue/1.4.2-2.0.1b1/diff.md --exclude *.pyd
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [presentation-card]: Timeout reached during download
+[2024-04-09 08:12:20] INFO root fetch - processPackages [presentation-card]: executing diffoscope
+[2024-04-09 08:12:20] INFO root fetch - processPackages [presentation-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presentation-card-0.1.4.tar.gz tmp/presentation-card-0.1.7.tar.gz --markdown 20240409/p/presentation-card/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-09 08:12:20] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-09 08:12:20] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240409/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-09 08:12:20] WARNING root fetch - processPackages [bingads]: Timeout reached during download
+[2024-04-09 08:12:21] INFO root fetch - processPackages [bingads]: Downloading https://files.pythonhosted.org/packages/98/94/6d692054faca42836f40f4dd6e2a282d3a83c1fe68ad58e341a5219541c5/bingads-9.3.4.zip
+[2024-04-09 08:12:21] WARNING root fetch - processPackages [bingads]: Timeout reached during download
+[2024-04-09 08:12:21] INFO root fetch - processPackages [bingads]: executing diffoscope
+[2024-04-09 08:12:21] INFO root fetch - processPackages [bingads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingads-9.3.3.zip tmp/bingads-9.3.4.zip --markdown 20240409/b/bingads/9.3.3-9.3.4/diff.md --exclude *.pyd
+[2024-04-09 08:12:21] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-09 08:12:21] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-1.4.2.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.1b1.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - main [MainThread]: End processing [pirogue]: success
+[2024-04-09 08:12:21] INFO root fetch - processPackages [presentation-card]: Remove: archive file [/home/abi/fetcher/tmp/presentation-card-0.1.4.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - processPackages [presentation-card]: Remove: archive file [/home/abi/fetcher/tmp/presentation-card-0.1.7.tar.gz]
+[2024-04-09 08:12:21] INFO root fetch - main [MainThread]: End processing [presentation-card]: success
+[2024-04-09 08:12:22] INFO root fetch - processPackages [bingads]: Remove: archive file [/home/abi/fetcher/tmp/bingads-9.3.3.zip]
+[2024-04-09 08:12:22] INFO root fetch - processPackages [bingads]: Remove: archive file [/home/abi/fetcher/tmp/bingads-9.3.4.zip]
+[2024-04-09 08:12:22] INFO root fetch - main [MainThread]: End processing [bingads]: success
+[2024-04-09 08:12:22] INFO root fetch - main [MainThread]: Store serial: [22678888]
