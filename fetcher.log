@@ -17930,3 +17930,42 @@
 [2024-04-09 09:19:32] INFO root fetch - processPackages [pyLARDA]: Remove: archive file [/home/abi/fetcher/tmp/pyLARDA-3.3.6.tar.gz]
 [2024-04-09 09:19:32] INFO root fetch - main [MainThread]: End processing [pyLARDA]: success
 [2024-04-09 09:19:32] INFO root fetch - main [MainThread]: Store serial: [22679538]
+[2024-04-09 09:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679538]
+[2024-04-09 09:21:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkl-python
+[2024-04-09 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakehouse
+[2024-04-09 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refvars
+[2024-04-09 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hs-correct
+[2024-04-09 09:21:42] INFO root fetch - processPackages [refvars]: New version: [0.4] Old Version: [0.3]
+[2024-04-09 09:21:42] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/49/93/e4e460865bb8933ef3d58974ee13fbd8dc40d56103ae4367b4db293a3345/refvars-0.3-py3-none-any.whl
+[2024-04-09 09:21:42] INFO root fetch - processPackages [pkl-python]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-09 09:21:42] WARNING root fetch - processPackages [hs-correct]: Skipping, unable to determine old version
+[2024-04-09 09:21:42] INFO root fetch - main [MainThread]: End processing [hs-correct] error
+[2024-04-09 09:21:42] INFO root fetch - processPackages [snakehouse]: New version: [1.6] Old Version: [1.5a6]
+[2024-04-09 09:21:42] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 09:21:42] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/8c/ac/d39eebbd3e2657de14430b40d0681d955cd06e9617dcebadffe881a08e03/pkl-python-0.1.11.tar.gz
+[2024-04-09 09:21:42] INFO root fetch - processPackages [snakehouse]: Downloading https://files.pythonhosted.org/packages/6b/30/bcf12cf97cc6842794b2076d16e6c6a50e87ad317cbcd1e7a5b31f7268ae/snakehouse-1.5a6-py2.py3-none-any.whl
+[2024-04-09 09:21:42] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/f5/53/eebcb2e79f8f2c15a60738627b8a586d2ba93b77dc85ed837254350717ce/refvars-0.4-py3-none-any.whl
+[2024-04-09 09:21:42] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-09 09:21:42] WARNING root fetch - processPackages [snakehouse]: Timeout reached during download
+[2024-04-09 09:21:42] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 09:21:42] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-04-09 09:21:42] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.3-py3-none-any.whl.zip tmp/refvars-0.4-py3-none-any.whl.zip --markdown 20240409/r/refvars/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-09 09:21:42] INFO root fetch - processPackages [snakehouse]: Downloading https://files.pythonhosted.org/packages/1c/32/34f45882d04558d2315ca2f2f0a3d6d4eb905523ef35d6d690b2736af577/snakehouse-1.6.tar.gz
+[2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/8d/a4/03b866d92e0e941b365fd6f8f727fbd6f73c0b97a2c9729e3f8186e2d634/pkl-python-0.1.12.tar.gz
+[2024-04-09 09:21:43] WARNING root fetch - processPackages [snakehouse]: Timeout reached during download
+[2024-04-09 09:21:43] INFO root fetch - processPackages [snakehouse]: executing diffoscope
+[2024-04-09 09:21:43] INFO root fetch - processPackages [snakehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakehouse-1.5a6-py2.py3-none-any.whl.zip tmp/snakehouse-1.6.tar.gz --markdown 20240409/s/snakehouse/1.5a6-1.6/diff.md --exclude *.pyd
+[2024-04-09 09:21:43] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: executing diffoscope
+[2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkl-python-0.1.11.tar.gz tmp/pkl-python-0.1.12.tar.gz --markdown 20240409/p/pkl-python/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2024-04-09 09:21:43] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.3-py3-none-any.whl.zip]
+[2024-04-09 09:21:43] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.4-py3-none-any.whl.zip]
+[2024-04-09 09:21:43] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-04-09 09:21:43] INFO root fetch - processPackages [snakehouse]: Remove: archive file [/home/abi/fetcher/tmp/snakehouse-1.5a6-py2.py3-none-any.whl.zip]
+[2024-04-09 09:21:43] INFO root fetch - processPackages [snakehouse]: Remove: archive file [/home/abi/fetcher/tmp/snakehouse-1.6.tar.gz]
+[2024-04-09 09:21:43] INFO root fetch - main [MainThread]: End processing [snakehouse]: success
+[2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.11.tar.gz]
+[2024-04-09 09:21:43] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.12.tar.gz]
+[2024-04-09 09:21:43] INFO root fetch - main [MainThread]: End processing [pkl-python]: success
+[2024-04-09 09:21:43] INFO root fetch - main [MainThread]: Store serial: [22679553]
