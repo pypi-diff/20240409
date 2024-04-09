@@ -19900,3 +19900,42 @@
 [2024-04-09 10:31:18] INFO root fetch - processPackages [modoboa-contacts]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-contacts-1.1.2.tar.gz]
 [2024-04-09 10:31:18] INFO root fetch - main [MainThread]: End processing [modoboa-contacts]: success
 [2024-04-09 10:31:18] INFO root fetch - main [MainThread]: Store serial: [22680273]
+[2024-04-09 10:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680273]
+[2024-04-09 10:33:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TerraLib
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helios1208test
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ticketsdk
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/79/20/f73bdf9f924dd2c8193ee218a5ec8d8247ac7a83bfaa1ca6b1f2ad348011/ticketsdk-2.2.2.tar.gz
+[2024-04-09 10:33:28] INFO root fetch - processPackages [TerraLib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-09 10:33:28] WARNING root fetch - processPackages [helios1208test]: Skipping, unable to determine old version
+[2024-04-09 10:33:28] INFO root fetch - main [MainThread]: End processing [helios1208test] error
+[2024-04-09 10:33:28] INFO root fetch - processPackages [phdu]: New version: [2.3.5] Old Version: [2.3.4]
+[2024-04-09 10:33:28] WARNING root fetch - processPackages [ticketsdk]: Timeout reached during download
+[2024-04-09 10:33:28] INFO root fetch - processPackages [TerraLib]: Downloading https://files.pythonhosted.org/packages/04/16/4bcae812a39e83ba30fd441dac1e8a069ed3517e6456f3efbf3e69c7bc1e/TerraLib-1.0.4.tar.gz
+[2024-04-09 10:33:28] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/67/38/43dd0c0ffe7acf20fff2065d6742b92e95eb23199bdb945258a980608f09/phdu-2.3.4.tar.gz
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/64/81/e0e45f6af7ecfb92b98a4ab4a6668edd39d657b6cdd7fad9e44abfe6e09a/ticketsdk-2.2.3.tar.gz
+[2024-04-09 10:33:28] WARNING root fetch - processPackages [ticketsdk]: Timeout reached during download
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-09 10:33:28] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.2.tar.gz tmp/ticketsdk-2.2.3.tar.gz --markdown 20240409/t/ticketsdk/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2024-04-09 10:33:28] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:33:29] WARNING root fetch - processPackages [TerraLib]: Timeout reached during download
+[2024-04-09 10:33:29] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/84/69/8f19c67983aa3325f62f9bee20adf85fbaeb4f7dd1358c51be46ecaab520/phdu-2.3.5.tar.gz
+[2024-04-09 10:33:29] INFO root fetch - processPackages [TerraLib]: Downloading https://files.pythonhosted.org/packages/e5/37/06e9fcc5871dc16da8708dfb65fa6c4d752072f65fb1dc4c2c3e81416813/TerraLib-1.0.5.tar.gz
+[2024-04-09 10:33:29] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:33:29] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-09 10:33:29] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.4.tar.gz tmp/phdu-2.3.5.tar.gz --markdown 20240409/p/phdu/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2024-04-09 10:33:29] WARNING root fetch - processPackages [TerraLib]: Timeout reached during download
+[2024-04-09 10:33:29] INFO root fetch - processPackages [TerraLib]: executing diffoscope
+[2024-04-09 10:33:29] INFO root fetch - processPackages [TerraLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TerraLib-1.0.4.tar.gz tmp/TerraLib-1.0.5.tar.gz --markdown 20240409/T/TerraLib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-09 10:33:29] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.2.tar.gz]
+[2024-04-09 10:33:29] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.3.tar.gz]
+[2024-04-09 10:33:29] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-09 10:33:29] INFO root fetch - processPackages [TerraLib]: Remove: archive file [/home/abi/fetcher/tmp/TerraLib-1.0.4.tar.gz]
+[2024-04-09 10:33:29] INFO root fetch - processPackages [TerraLib]: Remove: archive file [/home/abi/fetcher/tmp/TerraLib-1.0.5.tar.gz]
+[2024-04-09 10:33:29] INFO root fetch - main [MainThread]: End processing [TerraLib]: success
+[2024-04-09 10:33:30] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.4.tar.gz]
+[2024-04-09 10:33:30] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.5.tar.gz]
+[2024-04-09 10:33:30] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-09 10:33:30] INFO root fetch - main [MainThread]: Store serial: [22680288]
