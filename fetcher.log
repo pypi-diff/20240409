@@ -11861,3 +11861,130 @@
 [2024-04-09 05:18:31] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iot-3.0.999.tar.gz]
 [2024-04-09 05:18:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iot]: success
 [2024-04-09 05:18:31] INFO root fetch - main [MainThread]: Store serial: [22677438]
+[2024-04-09 05:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677438]
+[2024-04-09 05:20:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ringcentral
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-orangejuice
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-energy
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-uwg
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-iottid
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-iotvideo
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: btc-embedded
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-iotvideoindustry
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-irp
+[2024-04-09 05:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.9] Old Version: [24.1.6]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [ringcentral]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/39/d8/00a77d78061f82dab0e7261e9d7b78692d04e1972a458e799890e984093b/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz
+[2024-04-09 05:20:40] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/af/44/fc549e2fad6f2f433caf020f38909bbdba315ee6b544538eab98d7a3bf3b/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz
+[2024-04-09 05:20:40] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-04-09 05:20:40] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/c8/1a/ffcfb7152b23a65f63e9316c5cfb525ffd8c5fe2db6ef30a25e10bbe39fa/nonebot-plugin-orangejuice-0.7.0.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/4c/4a/b87f9035ec944fdaa839bd6b5a8d4e74a44e60cf877cfc84979c8f8404c6/ringcentral-0.8.4.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/3a/94/be57051f224cab8dde8ba59206901af18ca82982597b3bb815faffae580c/tencentcloud-sdk-python-irp-3.0.998.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [nonebot-plugin-orangejuice]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [ringcentral]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/a7/88/61936247783b1e9bf146a2cf39468c8c97e83bb3284086a9f6af90752c1a/tencentcloud-sdk-python-iottid-3.0.998.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/4d/c9/04468a942f64a0d005575a43bee3399d0ed8be320ef8b83423f805b468f0/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/a7/4d/2f7d7838507385727b95705c85ca6e0ea305ffee11888e13b1d28f5d038c/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-irp]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/0d/55/e01385a7f544c485d06c4d9a9aeb94e1df5b1d956c9521b2d35639836ec2/btc_embedded-24.1.9.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/1c/e2/0bb63730c92d199749373cc0c97e0bd9cafae0a7406d73a2b71a61a59961/nonebot-plugin-orangejuice-0.7.1.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iottid]: Timeout reached during download
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-iotvideoindustry/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/22/d5/4da9568d60aecce944474aff52ed98cdb8700cadc320fb22bdb4a542bbed/ringcentral-0.8.5.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-iotvideo/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [nonebot-plugin-orangejuice]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-orangejuice-0.7.0.tar.gz tmp/nonebot-plugin-orangejuice-0.7.1.tar.gz --markdown 20240409/n/nonebot-plugin-orangejuice/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.6.tar.gz tmp/btc_embedded-24.1.9.tar.gz --markdown 20240409/b/btc-embedded/24.1.6-24.1.9/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/b6/2a/3459ece93ae8ba8ecbd53f67e1059d8cb69fdabd952d9c68a4ddbe108bf6/tencentcloud-sdk-python-irp-3.0.999.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [ringcentral]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [ringcentral]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [ringcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringcentral-0.8.4.tar.gz tmp/ringcentral-0.8.5.tar.gz --markdown 20240409/r/ringcentral/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/57/fb/d936f403c77e9c52b0c58a9153fd68fe03320460ea9055f53928b39dfb34/tencentcloud-sdk-python-iottid-3.0.999.tar.gz
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-irp]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-irp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240409/d/dragonfly-radiance/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iottid]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iottid-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iottid-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-iottid/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240409/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-09 05:20:41] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-09 05:20:41] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240409/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Start processing: tencentcloud-sdk-python-iss
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideoindustry]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.7.0.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.7.1.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Start processing: sparkproxy
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangejuice]: success
+[2024-04-09 05:20:42] WARNING root fetch - processPackages [sparkproxy]: Skipping, unable to determine old version
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [sparkproxy] error
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideo]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [ringcentral]: Remove: archive file [/home/abi/fetcher/tmp/ringcentral-0.8.4.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [ringcentral]: Remove: archive file [/home/abi/fetcher/tmp/ringcentral-0.8.5.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [ringcentral]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.998.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.999.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iottid]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.9.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-09 05:20:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/49/cc/43cbdb48e3887dd1f5d70e68797f3fcefeaded015f56e2c4e4d8c077a7ee/tencentcloud-sdk-python-iss-3.0.998.tar.gz
+[2024-04-09 05:20:42] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-09 05:20:42] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-09 05:20:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-iss]: Timeout reached during download
+[2024-04-09 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/cd/9c/b14ae7ca2d8d7b02f14526e879aa4d2be3f0c566a4a76461782f400b539f/tencentcloud-sdk-python-iss-3.0.999.tar.gz
+[2024-04-09 05:20:43] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-09 05:20:43] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-09 05:20:43] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-09 05:20:43] WARNING root fetch - processPackages [tencentcloud-sdk-python-iss]: Timeout reached during download
+[2024-04-09 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: executing diffoscope
+[2024-04-09 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-iss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz]
+[2024-04-09 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz]
+[2024-04-09 05:20:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iss]: success
+[2024-04-09 05:20:43] INFO root fetch - main [MainThread]: Store serial: [22677470]
