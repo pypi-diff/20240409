@@ -19939,3 +19939,67 @@
 [2024-04-09 10:33:30] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.5.tar.gz]
 [2024-04-09 10:33:30] INFO root fetch - main [MainThread]: End processing [phdu]: success
 [2024-04-09 10:33:30] INFO root fetch - main [MainThread]: Store serial: [22680288]
+[2024-04-09 10:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680288]
+[2024-04-09 10:35:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntracer
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hs-correct
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-cofoldinginput
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: line-web
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tad-libcint
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-server
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongodb-connect-automation
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sme
+[2024-04-09 10:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud-orbit-api
+[2024-04-09 10:35:38] WARNING root fetch - processPackages [gradio-cofoldinginput]: Skipping, unable to determine old version
+[2024-04-09 10:35:38] INFO root fetch - main [MainThread]: End processing [gradio-cofoldinginput] error
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.10] Old Version: [0.1.4]
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/e1/c7/f294a9cd54feb81dff75bdfecea46829cea8ac6dcf53404ef8125bd463fc/cloud_orbit_api-0.1.4.tar.gz
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [tad-libcint]: Skipping, unable to determine old version
+[2024-04-09 10:35:39] INFO root fetch - main [MainThread]: End processing [tad-libcint] error
+[2024-04-09 10:35:39] INFO root fetch - processPackages [hs-correct]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [mongodb-connect-automation]: Skipping, unable to determine old version
+[2024-04-09 10:35:39] INFO root fetch - main [MainThread]: End processing [mongodb-connect-automation] error
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [line-web]: Skipping, unable to determine old version
+[2024-04-09 10:35:39] INFO root fetch - main [MainThread]: End processing [line-web] error
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cntracer]: New version: [2.1.1] Old Version: [2.0.1]
+[2024-04-09 10:35:39] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:35:39] INFO root fetch - processPackages [sme]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-09 10:35:39] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/46/b4/700c4f9f64d48cfc268da7858d454a01e13970c2e086be122d6e894b1106/hs_correct-0.0.2.tar.gz
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/5d/d4/9e5ff66f9f837731e05b956f28b243aa57ac94e551f97bc16df79bc8196f/cloud_orbit_api-1.1.10.tar.gz
+[2024-04-09 10:35:39] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/67/69/0e53ecf08394a8a8518f4374e8a7997d09837c007037936172e27bd88785/fractal_server-2.0.0a2.tar.gz
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/0a/87/c4c22ffc97ba9949def05d0bc7acd059de11d675809e8112d6f01df63158/cntracer-2.0.1-cp39-cp39-win_amd64.whl
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [hs-correct]: Timeout reached during download
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-0.1.4.tar.gz tmp/cloud_orbit_api-1.1.10.tar.gz --markdown 20240409/c/cloud-orbit-api/0.1.4-1.1.10/diff.md --exclude *.pyd
+[2024-04-09 10:35:39] INFO root fetch - processPackages [sme]: Downloading https://files.pythonhosted.org/packages/25/d3/f0976a60ee56cff95609f6e28f4ee02a6ebda5c8d142091076fa1519332a/sme-1.5.0-cp39-cp39-win_amd64.whl
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [sme]: Skipping package: exceeds size limit 33507868>=10485760
+[2024-04-09 10:35:39] INFO root fetch - main [MainThread]: End processing [sme] error
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-09 10:35:39] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/2f/9c/565d4372dbfbd202f622f5abfb530402472e916fced78eab10f141ca3cf1/hs_correct-0.0.3.tar.gz
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [cntracer]: Timeout reached during download
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [hs-correct]: Timeout reached during download
+[2024-04-09 10:35:39] INFO root fetch - processPackages [hs-correct]: executing diffoscope
+[2024-04-09 10:35:39] INFO root fetch - processPackages [hs-correct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_correct-0.0.2.tar.gz tmp/hs_correct-0.0.3.tar.gz --markdown 20240409/h/hs-correct/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 10:35:39] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/d8/93/ecc34fe799dcf96479b12e45197909665a0763342e14225ab2c38167b9c8/fractal_server-2.0.0a3.tar.gz
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/f0/da/571d9c89d95a0973c6c0929e40ab71b8ce3e30302ffa4d03e002dd6651f6/cntracer-2.1.1-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-0.1.4.tar.gz]
+[2024-04-09 10:35:39] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.10.tar.gz]
+[2024-04-09 10:35:39] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-09 10:35:39] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-09 10:35:39] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-09 10:35:39] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a2.tar.gz tmp/fractal_server-2.0.0a3.tar.gz --markdown 20240409/f/fractal-server/2.0.0a2-2.0.0a3/diff.md --exclude *.pyd
+[2024-04-09 10:35:40] WARNING root fetch - processPackages [cntracer]: Timeout reached during download
+[2024-04-09 10:35:40] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2024-04-09 10:35:40] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/cntracer-2.1.1-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20240409/c/cntracer/2.0.1-2.1.1/diff.md --exclude *.pyd
+[2024-04-09 10:35:40] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.2.tar.gz]
+[2024-04-09 10:35:40] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.3.tar.gz]
+[2024-04-09 10:35:40] INFO root fetch - main [MainThread]: End processing [hs-correct]: success
+[2024-04-09 10:35:40] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-2.0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 10:35:40] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-2.1.1-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-04-09 10:35:40] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2024-04-09 10:35:40] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a2.tar.gz]
+[2024-04-09 10:35:40] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a3.tar.gz]
+[2024-04-09 10:35:40] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-09 10:35:40] INFO root fetch - main [MainThread]: Store serial: [22680343]
