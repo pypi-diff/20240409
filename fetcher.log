@@ -17831,3 +17831,17 @@
 [2024-04-09 09:15:08] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip]
 [2024-04-09 09:15:08] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
 [2024-04-09 09:15:08] INFO root fetch - main [MainThread]: Store serial: [22679506]
+[2024-04-09 09:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679506]
+[2024-04-09 09:17:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-devkit
+[2024-04-09 09:17:17] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 09:17:17] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-04-09 09:17:17] WARNING root fetch - processPackages [omnata-plugin-devkit]: Timeout reached during download
+[2024-04-09 09:17:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-04-09 09:17:18] WARNING root fetch - processPackages [omnata-plugin-devkit]: Timeout reached during download
+[2024-04-09 09:17:18] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-04-09 09:17:18] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240409/o/omnata-plugin-devkit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 09:17:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-04-09 09:17:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-04-09 09:17:18] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-04-09 09:17:18] INFO root fetch - main [MainThread]: Store serial: [22679513]
