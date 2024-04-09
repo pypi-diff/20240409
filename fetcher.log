@@ -20266,3 +20266,72 @@
 [2024-04-09 10:42:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
 [2024-04-09 10:42:42] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-09 10:42:42] INFO root fetch - main [MainThread]: Store serial: [22680432]
+[2024-04-09 10:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680432]
+[2024-04-09 10:44:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy_kite_methods
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataTransformationsBertas
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-sls20201230
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-sls20201230-py2
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenTTDLab
+[2024-04-09 10:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nodoc
+[2024-04-09 10:44:51] INFO root fetch - processPackages [nodoc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [easy_kite_methods]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-09 10:44:51] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-09 10:44:51] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/85/d0/49ead2bbe3be909b42498cf3d33f939b30eab3d5cba5cb45473ad92fbb63/easy_kite_methods-0.0.4.tar.gz
+[2024-04-09 10:44:51] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-09 10:44:51] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/8c/4b/2496c889ecd1869cc757a3c2304b6cae55e8d6987296bebd7480c64e2c07/datatransformationsbertas-0.2.0.tar.gz
+[2024-04-09 10:44:51] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-09 10:44:51] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:44:51] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-09 10:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Downloading https://files.pythonhosted.org/packages/ee/2b/9b0200fd7a265a6f393e3726c42e5c9dd3e618f2b07722a8e6a453e4d47a/alibabacloud_sls20201230_py2-5.0.0.tar.gz
+[2024-04-09 10:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/4f/fa/71c87d7d9b1e6ebef46bd967d10ac574df63b214fce1b3186aad29446644/alibabacloud_sls20201230-5.0.0.tar.gz
+[2024-04-09 10:44:51] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/c3/01/365275f65437bdcd49fb8054d4dd45304b5a0f8ee40ef9cdaf3d0fa5ad12/nodoc-1.0.9.tar.gz
+[2024-04-09 10:44:52] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [alibabacloud-sls20201230]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/da/37/971c0ae8eb2cf9bf56e3285346ebd498ddbf9a6a873171a0f29db08df684/easy_kite_methods-0.0.5.tar.gz
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240409/O/OpenTTDLab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.8.tar.gz tmp/nodoc-1.0.9.tar.gz --markdown 20240409/n/nodoc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/ae/db/8f1c560d138837fb38012e99e68e5f491d5c2181bd247ed1d63aeb1b136c/datatransformationsbertas-0.3.0.tar.gz
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [alibabacloud-sls20201230-py2]: Timeout reached during download
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [easy_kite_methods]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [easy_kite_methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_kite_methods-0.0.4.tar.gz tmp/easy_kite_methods-0.0.5.tar.gz --markdown 20240409/e/easy_kite_methods/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.2.0.tar.gz tmp/datatransformationsbertas-0.3.0.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/10/84/0d4dc06c400b3e53ae07d02c6de454e7f66f8a4e9759abf73b400d8a5010/alibabacloud_sls20201230-5.1.0.tar.gz
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Downloading https://files.pythonhosted.org/packages/23/8a/38e72bdee25d2d435aede17134de1fc7966f9d13b6480b246802b63132e3/alibabacloud_sls20201230_py2-5.1.0.tar.gz
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [alibabacloud-sls20201230]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230-5.0.0.tar.gz tmp/alibabacloud_sls20201230-5.1.0.tar.gz --markdown 20240409/a/alibabacloud-sls20201230/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] WARNING root fetch - processPackages [alibabacloud-sls20201230-py2]: Timeout reached during download
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: executing diffoscope
+[2024-04-09 10:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230_py2-5.0.0.tar.gz tmp/alibabacloud_sls20201230_py2-5.1.0.tar.gz --markdown 20240409/a/alibabacloud-sls20201230-py2/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-09 10:44:52] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-09 10:44:52] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.9.tar.gz]
+[2024-04-09 10:44:52] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-09 10:44:52] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-09 10:44:52] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-09 10:44:52] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-09 10:44:53] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.4.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.5.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - main [MainThread]: End processing [easy_kite_methods]: success
+[2024-04-09 10:44:53] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.2.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.3.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 10:44:53] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230_py2-5.0.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - processPackages [alibabacloud-sls20201230-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230_py2-5.1.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230-py2]: success
+[2024-04-09 10:44:53] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.0.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.1.0.tar.gz]
+[2024-04-09 10:44:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
+[2024-04-09 10:44:53] INFO root fetch - main [MainThread]: Store serial: [22680484]
