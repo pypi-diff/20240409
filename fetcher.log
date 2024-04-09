@@ -8711,3 +8711,20 @@
 [2024-04-09 03:34:39] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.4.9.tar.gz]
 [2024-04-09 03:34:39] INFO root fetch - main [MainThread]: End processing [edman]: success
 [2024-04-09 03:34:39] INFO root fetch - main [MainThread]: Store serial: [22676437]
+[2024-04-09 03:36:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676437]
+[2024-04-09 03:36:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 03:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaogmaneo
+[2024-04-09 03:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pseudofinch
+[2024-04-09 03:36:47] WARNING root fetch - processPackages [pseudofinch]: Skipping, unable to determine old version
+[2024-04-09 03:36:47] INFO root fetch - main [MainThread]: End processing [pseudofinch] error
+[2024-04-09 03:36:47] INFO root fetch - processPackages [pyaogmaneo]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-09 03:36:47] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/17/4e/60656d379ff00557f9c2d3972abe27686501b0939506280243ae88e14613/pyaogmaneo-2.4.3.tar.gz
+[2024-04-09 03:36:48] WARNING root fetch - processPackages [pyaogmaneo]: Timeout reached during download
+[2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/f7/06/cb3fdf154e6edf08b7fe064bd6ac4ef36a02f9c7475a2fa002d3954e4e71/pyaogmaneo-2.4.4.tar.gz
+[2024-04-09 03:36:48] WARNING root fetch - processPackages [pyaogmaneo]: Timeout reached during download
+[2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: executing diffoscope
+[2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaogmaneo-2.4.3.tar.gz tmp/pyaogmaneo-2.4.4.tar.gz --markdown 20240409/p/pyaogmaneo/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.3.tar.gz]
+[2024-04-09 03:36:48] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.4.tar.gz]
+[2024-04-09 03:36:48] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
+[2024-04-09 03:36:48] INFO root fetch - main [MainThread]: Store serial: [22676466]
