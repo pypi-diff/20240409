@@ -24179,3 +24179,39 @@
 [2024-04-09 12:34:52] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-09 12:34:52] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-09 12:34:52] INFO root fetch - main [MainThread]: Store serial: [22681935]
+[2024-04-09 12:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681935]
+[2024-04-09 12:37:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lowmq-client
+[2024-04-09 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illuminat
+[2024-04-09 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instill-sdk
+[2024-04-09 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyU4V
+[2024-04-09 12:37:02] INFO root fetch - processPackages [lowmq-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 12:37:02] INFO root fetch - processPackages [instill-sdk]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2024-04-09 12:37:02] INFO root fetch - processPackages [illuminat]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-09 12:37:02] INFO root fetch - processPackages [PyU4V]: New version: [9.2.1.7] Old Version: [9.2.1.6]
+[2024-04-09 12:37:02] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/08/4e/2909c481e5a1b81f74763adb7582ecea123e5d7f50d1c2e738fc6a771054/instill_sdk-0.8.0rc8.tar.gz
+[2024-04-09 12:37:02] INFO root fetch - processPackages [lowmq-client]: Downloading https://files.pythonhosted.org/packages/3e/5e/48f06412d7e89b2f21e5347f25b6d28c0c28555e8727d57572eb78659ff8/lowmq-client-0.0.3.tar.gz
+[2024-04-09 12:37:02] WARNING root fetch - processPackages [lowmq-client]: Timeout reached during download
+[2024-04-09 12:37:02] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/fb/0c/6afd01f548b5c82f8e59aae725294a2d0cad147bb5866f0c5c4cf10a658a/illuminat-1.2.2.tar.gz
+[2024-04-09 12:37:02] WARNING root fetch - processPackages [instill-sdk]: Timeout reached during download
+[2024-04-09 12:37:02] INFO root fetch - processPackages [PyU4V]: Downloading https://files.pythonhosted.org/packages/d3/e6/822d8726118dc90106e7e93305169a23c3f41bc50e423bbf0393048c3987/PyU4V-9.2.1.6.tar.gz
+[2024-04-09 12:37:02] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/c8/aa/8f204c74111a46608b3945576f70ebf0eb2a5bba5585b5b6e2b8fcb48b54/instill_sdk-0.8.0rc9.tar.gz
+[2024-04-09 12:37:02] ERROR root fetch - processPackages [lowmq-client]: Unable to fetch info: No such project/version 'lowmq-client' 0.0.4
+[2024-04-09 12:37:02] INFO root fetch - main [MainThread]: End processing [lowmq-client] error
+[2024-04-09 12:37:02] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425763>=10485760
+[2024-04-09 12:37:02] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-09 12:37:02] WARNING root fetch - processPackages [PyU4V]: Timeout reached during download
+[2024-04-09 12:37:02] WARNING root fetch - processPackages [instill-sdk]: Timeout reached during download
+[2024-04-09 12:37:02] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-04-09 12:37:02] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.8.0rc8.tar.gz tmp/instill_sdk-0.8.0rc9.tar.gz --markdown 20240409/i/instill-sdk/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2024-04-09 12:37:02] INFO root fetch - processPackages [PyU4V]: Downloading https://files.pythonhosted.org/packages/55/5d/24a55e37bcdadb7b911019833afbe63cb2f5e6f123ef4ce5766b91b2d939/PyU4V-9.2.1.7.tar.gz
+[2024-04-09 12:37:03] WARNING root fetch - processPackages [PyU4V]: Timeout reached during download
+[2024-04-09 12:37:03] INFO root fetch - processPackages [PyU4V]: executing diffoscope
+[2024-04-09 12:37:03] INFO root fetch - processPackages [PyU4V]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyU4V-9.2.1.6.tar.gz tmp/PyU4V-9.2.1.7.tar.gz --markdown 20240409/P/PyU4V/9.2.1.6-9.2.1.7/diff.md --exclude *.pyd
+[2024-04-09 12:37:03] INFO root fetch - processPackages [PyU4V]: Remove: archive file [/home/abi/fetcher/tmp/PyU4V-9.2.1.6.tar.gz]
+[2024-04-09 12:37:03] INFO root fetch - processPackages [PyU4V]: Remove: archive file [/home/abi/fetcher/tmp/PyU4V-9.2.1.7.tar.gz]
+[2024-04-09 12:37:03] INFO root fetch - main [MainThread]: End processing [PyU4V]: success
+[2024-04-09 12:37:03] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc8.tar.gz]
+[2024-04-09 12:37:03] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc9.tar.gz]
+[2024-04-09 12:37:03] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-04-09 12:37:03] INFO root fetch - main [MainThread]: Store serial: [22681947]
