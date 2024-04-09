@@ -24273,3 +24273,45 @@
 [2024-04-09 12:39:22] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
 [2024-04-09 12:39:22] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2024-04-09 12:39:22] INFO root fetch - main [MainThread]: Store serial: [22681979]
+[2024-04-09 12:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681979]
+[2024-04-09 12:41:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-04-09 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tieto-pika-test2
+[2024-04-09 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-04-09 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-04-09 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forta-bot-sdk
+[2024-04-09 12:41:31] WARNING root fetch - processPackages [grafana-foundation-sdk]: Skipping, unable to determine old version
+[2024-04-09 12:41:31] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk] error
+[2024-04-09 12:41:31] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240408] Old Version: [1.0.0.dev20240407]
+[2024-04-09 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240408103946] Old Version: [0.3.8.dev20240407103920]
+[2024-04-09 12:41:31] INFO root fetch - processPackages [forta-bot-sdk]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 12:41:31] WARNING root fetch - processPackages [tieto-pika-test2]: Skipping, unable to determine old version
+[2024-04-09 12:41:31] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/5a/b6/fb1124c32c823d203124ee042ae8fe16b040089d05114d2247f7b6f040a9/skypilot-nightly-1.0.0.dev20240407.tar.gz
+[2024-04-09 12:41:31] INFO root fetch - main [MainThread]: End processing [tieto-pika-test2] error
+[2024-04-09 12:41:32] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/fc/cf/3e61349197a3649a19de57d48a89c4e4970e557b83914d2291753bba62da/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-09 12:41:32] INFO root fetch - processPackages [forta-bot-sdk]: Downloading https://files.pythonhosted.org/packages/a0/e5/ea56fe0084bea6856b9395c797062fa1f29aff208a2747a3e992de68cca4/forta_bot_sdk-0.2.0.tar.gz
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [forta-bot-sdk]: Timeout reached during download
+[2024-04-09 12:41:32] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/13/f3/abd9a735b13d866c08860d69ef683fc844a4200cef263659504edacdb648/skypilot-nightly-1.0.0.dev20240408.tar.gz
+[2024-04-09 12:41:32] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/95/a4/9fdf656ca0a21756d14da73ecb8c1828d4c2104d564bcff4211bfdec274e/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz
+[2024-04-09 12:41:32] INFO root fetch - processPackages [forta-bot-sdk]: Downloading https://files.pythonhosted.org/packages/31/16/851e99e16f752917d69f13f04a5071dcdc1e7d016c34dd8c6e56372ef10f/forta_bot_sdk-0.2.1-py3-none-any.whl
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-09 12:41:32] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-09 12:41:32] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240407.tar.gz tmp/skypilot-nightly-1.0.0.dev20240408.tar.gz --markdown 20240409/s/skypilot-nightly/1.0.0.dev20240407-1.0.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-09 12:41:32] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-09 12:41:32] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz --markdown 20240409/p/pymemgpt-nightly/0.3.8.dev20240407103920-0.3.8.dev20240408103946/diff.md --exclude *.pyd
+[2024-04-09 12:41:32] WARNING root fetch - processPackages [forta-bot-sdk]: Timeout reached during download
+[2024-04-09 12:41:32] INFO root fetch - processPackages [forta-bot-sdk]: executing diffoscope
+[2024-04-09 12:41:32] INFO root fetch - processPackages [forta-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forta_bot_sdk-0.2.0.tar.gz tmp/forta_bot_sdk-0.2.1-py3-none-any.whl.zip --markdown 20240409/f/forta-bot-sdk/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 12:41:33] INFO root fetch - processPackages [forta-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/forta_bot_sdk-0.2.0.tar.gz]
+[2024-04-09 12:41:33] INFO root fetch - processPackages [forta-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/forta_bot_sdk-0.2.1-py3-none-any.whl.zip]
+[2024-04-09 12:41:33] INFO root fetch - main [MainThread]: End processing [forta-bot-sdk]: success
+[2024-04-09 12:41:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz]
+[2024-04-09 12:41:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz]
+[2024-04-09 12:41:33] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-09 12:41:33] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240407.tar.gz]
+[2024-04-09 12:41:33] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240408.tar.gz]
+[2024-04-09 12:41:33] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-09 12:41:33] INFO root fetch - main [MainThread]: Store serial: [22681995]
