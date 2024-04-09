@@ -15018,3 +15018,39 @@
 [2024-04-09 07:18:45] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
 [2024-04-09 07:18:45] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2024-04-09 07:18:45] INFO root fetch - main [MainThread]: Store serial: [22678471]
+[2024-04-09 07:20:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678471]
+[2024-04-09 07:20:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 07:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jemma
+[2024-04-09 07:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-backorder
+[2024-04-09 07:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hifitime
+[2024-04-09 07:20:54] INFO root fetch - processPackages [jemma]: New version: [0.1.11] Old Version: [0.1.1]
+[2024-04-09 07:20:54] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/55/02/2764bbbbe6879d0af4b9f6bfa72601c6d8838bb05a65520571ebb26f2f55/jemma-0.1.1.tar.gz
+[2024-04-09 07:20:54] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-09 07:20:55] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:20:55] INFO root fetch - processPackages [hifitime]: New version: [4.0.0.dev0] Old Version: [3.9.0]
+[2024-04-09 07:20:55] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: Downloading https://files.pythonhosted.org/packages/d9/b2/b552af3900070d2a58d8fde2ec1a46211725e8b6e3b6e81a7c687fca7434/odoo_addon_purchase_backorder-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-09 07:20:55] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/1a/ec/823bd5d15e8d11c4e10125735c369d2def9b4e6ddbd892da6d11cd7d35a9/jemma-0.1.11.tar.gz
+[2024-04-09 07:20:55] WARNING root fetch - processPackages [odoo-addon-purchase-backorder]: Timeout reached during download
+[2024-04-09 07:20:55] INFO root fetch - processPackages [hifitime]: Downloading https://files.pythonhosted.org/packages/4e/fb/59aa8349508bbc84c60983a5987c2a87cbe57568a3b02c0ed0ec094f33b1/hifitime-3.9.0.tar.gz
+[2024-04-09 07:20:55] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:20:55] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:20:55] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1.tar.gz tmp/jemma-0.1.11.tar.gz --markdown 20240409/j/jemma/0.1.1-0.1.11/diff.md --exclude *.pyd
+[2024-04-09 07:20:55] WARNING root fetch - processPackages [hifitime]: Timeout reached during download
+[2024-04-09 07:20:55] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: Downloading https://files.pythonhosted.org/packages/20/6c/274f786208b39844dcccb8fe5cba7b8a0bc295fa911e8fcbae53085de745/odoo_addon_purchase_backorder-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-09 07:20:55] INFO root fetch - processPackages [hifitime]: Downloading https://files.pythonhosted.org/packages/9c/2f/2c0d2a68ef273f99bbd6c6bdbf4e5b811fb3817cf6edd19810aa1a697e0c/hifitime-4.0.0.dev0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-09 07:20:55] WARNING root fetch - processPackages [odoo-addon-purchase-backorder]: Timeout reached during download
+[2024-04-09 07:20:55] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: executing diffoscope
+[2024-04-09 07:20:55] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_backorder-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_backorder-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-purchase-backorder/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-09 07:20:55] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1.tar.gz]
+[2024-04-09 07:20:55] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.11.tar.gz]
+[2024-04-09 07:20:55] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:20:56] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_backorder-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-09 07:20:56] INFO root fetch - processPackages [odoo-addon-purchase-backorder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_backorder-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-09 07:20:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-backorder]: success
+[2024-04-09 07:20:58] WARNING root fetch - processPackages [hifitime]: Timeout reached during download
+[2024-04-09 07:20:58] INFO root fetch - processPackages [hifitime]: executing diffoscope
+[2024-04-09 07:20:58] INFO root fetch - processPackages [hifitime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hifitime-3.9.0.tar.gz tmp/hifitime-4.0.0.dev0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240409/h/hifitime/3.9.0-4.0.0.dev0/diff.md --exclude *.pyd
+[2024-04-09 07:20:59] INFO root fetch - processPackages [hifitime]: Remove: archive file [/home/abi/fetcher/tmp/hifitime-3.9.0.tar.gz]
+[2024-04-09 07:20:59] INFO root fetch - processPackages [hifitime]: Remove: archive file [/home/abi/fetcher/tmp/hifitime-4.0.0.dev0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-09 07:20:59] INFO root fetch - main [MainThread]: End processing [hifitime]: success
+[2024-04-09 07:20:59] INFO root fetch - main [MainThread]: Store serial: [22678502]
