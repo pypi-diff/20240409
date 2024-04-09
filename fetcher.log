@@ -24424,3 +24424,70 @@
 [2024-04-09 12:45:58] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.1.3.tar.gz]
 [2024-04-09 12:45:58] INFO root fetch - main [MainThread]: End processing [DuHast]: success
 [2024-04-09 12:45:58] INFO root fetch - main [MainThread]: Store serial: [22682042]
+[2024-04-09 12:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682042]
+[2024-04-09 12:48:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phc-ingestion
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memium
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sony-custom-layers-dev
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: physicsml
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbofan
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alliance-platform-frontend
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alliance-platform-codegen
+[2024-04-09 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alliance-platform-core
+[2024-04-09 12:48:08] INFO root fetch - processPackages [memium]: New version: [0.7.0] Old Version: [0.16.0]
+[2024-04-09 12:48:08] INFO root fetch - processPackages [sony-custom-layers-dev]: New version: [0.2.0.dev6] Old Version: [0.2.0.dev5]
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [alliance-platform-core]: Skipping, unable to determine old version
+[2024-04-09 12:48:08] INFO root fetch - main [MainThread]: End processing [alliance-platform-core] error
+[2024-04-09 12:48:08] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/fc/21/809a2cbac2de0ecaf5baa48631cab518506af22dcd32581d198877185179/sony_custom_layers_dev-0.2.0.dev5-py3-none-any.whl
+[2024-04-09 12:48:08] INFO root fetch - processPackages [turbofan]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 12:48:08] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [alliance-platform-codegen]: Skipping, unable to determine old version
+[2024-04-09 12:48:08] INFO root fetch - main [MainThread]: End processing [alliance-platform-codegen] error
+[2024-04-09 12:48:08] INFO root fetch - processPackages [physicsml]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 12:48:08] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/76/98/3b01862cffbdcca2592f952d39468fd034bd4fd40a498835339695072b4a/memium-0.16.0.tar.gz
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [sony-custom-layers-dev]: Timeout reached during download
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [alliance-platform-frontend]: Skipping, unable to determine old version
+[2024-04-09 12:48:08] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend] error
+[2024-04-09 12:48:08] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/dd/a2/02c7a7571c91e4c4c75f9a0d62cc154d5dadbbd0ab7947ab925eb204cf7c/phc-ingestion-0.8.0.tar.gz
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 12:48:08] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/ee/4e/1011a60e55eb9a3ba4cd5f06893a23aa5e4536f1e743705deaafa7873f07/physicsml-0.2.2.tar.gz
+[2024-04-09 12:48:08] INFO root fetch - processPackages [turbofan]: Downloading https://files.pythonhosted.org/packages/6e/9b/741d38d4ec41029b6d87a7c5f340f1ace07524fe166cfcbbc165bce844fc/turbofan-0.1.3.tar.gz
+[2024-04-09 12:48:08] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/5e/42/101203cb77b5ea7f36665f932a64a5aa09f47771c92cc26f590bd8133833/sony_custom_layers_dev-0.2.0.dev6-py3-none-any.whl
+[2024-04-09 12:48:08] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/8a/a3/a3f5e0b58a853724e800a65c85c0df00b7d5138ea7cbb3db40d329c5f3d3/memium-0.7.0.tar.gz
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [turbofan]: Timeout reached during download
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [sony-custom-layers-dev]: Timeout reached during download
+[2024-04-09 12:48:08] INFO root fetch - processPackages [sony-custom-layers-dev]: executing diffoscope
+[2024-04-09 12:48:08] INFO root fetch - processPackages [sony-custom-layers-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sony_custom_layers_dev-0.2.0.dev5-py3-none-any.whl.zip tmp/sony_custom_layers_dev-0.2.0.dev6-py3-none-any.whl.zip --markdown 20240409/s/sony-custom-layers-dev/0.2.0.dev5-0.2.0.dev6/diff.md --exclude *.pyd
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [phc-ingestion]: Timeout reached during download
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 12:48:08] INFO root fetch - processPackages [memium]: executing diffoscope
+[2024-04-09 12:48:08] INFO root fetch - processPackages [memium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memium-0.16.0.tar.gz tmp/memium-0.7.0.tar.gz --markdown 20240409/m/memium/0.16.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 12:48:08] INFO root fetch - processPackages [turbofan]: Downloading https://files.pythonhosted.org/packages/8b/c4/9bbabe764a2d5c4cf4d4825551130a3b3f4d842b54a20c26d81458b98e05/turbofan-0.1.4.tar.gz
+[2024-04-09 12:48:08] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/40/5a/ea0fa846c2470b8996138ae2a05ece49b5633481fc4d0ba28cb58d46eaff/phc-ingestion-0.8.1.tar.gz
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [physicsml]: Timeout reached during download
+[2024-04-09 12:48:08] WARNING root fetch - processPackages [turbofan]: Timeout reached during download
+[2024-04-09 12:48:08] INFO root fetch - processPackages [turbofan]: executing diffoscope
+[2024-04-09 12:48:08] INFO root fetch - processPackages [turbofan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbofan-0.1.3.tar.gz tmp/turbofan-0.1.4.tar.gz --markdown 20240409/t/turbofan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 12:48:09] WARNING root fetch - processPackages [phc-ingestion]: Timeout reached during download
+[2024-04-09 12:48:09] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-04-09 12:48:09] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.0.tar.gz tmp/phc-ingestion-0.8.1.tar.gz --markdown 20240409/p/phc-ingestion/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-09 12:48:09] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/03/90/9ec005854dc009effa8f02456d1aa7c6800385938b6b1bc016f3d4d691da/physicsml-0.2.3.tar.gz
+[2024-04-09 12:48:09] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev5-py3-none-any.whl.zip]
+[2024-04-09 12:48:09] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev6-py3-none-any.whl.zip]
+[2024-04-09 12:48:09] INFO root fetch - main [MainThread]: End processing [sony-custom-layers-dev]: success
+[2024-04-09 12:48:09] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.16.0.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.7.0.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - main [MainThread]: End processing [memium]: success
+[2024-04-09 12:48:09] INFO root fetch - processPackages [turbofan]: Remove: archive file [/home/abi/fetcher/tmp/turbofan-0.1.3.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - processPackages [turbofan]: Remove: archive file [/home/abi/fetcher/tmp/turbofan-0.1.4.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - main [MainThread]: End processing [turbofan]: success
+[2024-04-09 12:48:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.0.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.1.tar.gz]
+[2024-04-09 12:48:09] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-04-09 12:48:10] WARNING root fetch - processPackages [physicsml]: Timeout reached during download
+[2024-04-09 12:48:10] INFO root fetch - processPackages [physicsml]: executing diffoscope
+[2024-04-09 12:48:10] INFO root fetch - processPackages [physicsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicsml-0.2.2.tar.gz tmp/physicsml-0.2.3.tar.gz --markdown 20240409/p/physicsml/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 12:48:12] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.2.tar.gz]
+[2024-04-09 12:48:12] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.3.tar.gz]
+[2024-04-09 12:48:12] INFO root fetch - main [MainThread]: End processing [physicsml]: success
+[2024-04-09 12:48:12] INFO root fetch - main [MainThread]: Store serial: [22682066]
