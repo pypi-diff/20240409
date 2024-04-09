@@ -18469,3 +18469,55 @@
 [2024-04-09 09:40:29] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.9.5.tar.gz]
 [2024-04-09 09:40:29] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
 [2024-04-09 09:40:29] INFO root fetch - main [MainThread]: Store serial: [22679781]
+[2024-04-09 09:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679781]
+[2024-04-09 09:42:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 09:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-codenerix-products
+[2024-04-09 09:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kydb
+[2024-04-09 09:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imagedata
+[2024-04-09 09:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytsa-ais
+[2024-04-09 09:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psp-liquids-daq-parser
+[2024-04-09 09:42:39] INFO root fetch - processPackages [psp-liquids-daq-parser]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 09:42:39] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc2] Old Version: [3.5.1rc1]
+[2024-04-09 09:42:39] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/c1/b1/688d842e039db47b65bb6fa3e25462a2ac3aa39689d285c5aad9ad189d60/psp_liquids_daq_parser-0.0.4.tar.gz
+[2024-04-09 09:42:39] INFO root fetch - processPackages [kydb]: New version: [0.7.5] Old Version: [0.7.2]
+[2024-04-09 09:42:39] INFO root fetch - processPackages [pytsa-ais]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-09 09:42:39] INFO root fetch - processPackages [django-codenerix-products]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-09 09:42:39] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/75/c2/507aed43a6bd6bb7d91d5d5086fdd5fc61def280b621967f57001ff1dcb3/imagedata-3.5.1rc1.tar.gz
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631625>=10485760
+[2024-04-09 09:42:40] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-09 09:42:40] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/7b/87/7a09662c43192c344cce7b9114da39c1bbe018cab2504b34f29c39e06097/pytsa_ais-2.2.2.tar.gz
+[2024-04-09 09:42:40] INFO root fetch - processPackages [kydb]: Downloading https://files.pythonhosted.org/packages/ef/6f/f2b6e0d3dbca1137400e64bb972867c6a03c7d4d54fb85fb91ffc20fcdd1/kydb-0.7.2.tar.gz
+[2024-04-09 09:42:40] INFO root fetch - processPackages [django-codenerix-products]: Downloading https://files.pythonhosted.org/packages/af/25/3008c302acf2b75f4a6891454c5312da12eecdd3e7756a08e3663d103352/django-codenerix-products-4.0.2.tar.gz
+[2024-04-09 09:42:40] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/6f/bb/26c6f83c3605faa24c2b13957addfb1be06e2d2878248fe9a4f93f628215/psp_liquids_daq_parser-0.0.5.tar.gz
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [kydb]: Timeout reached during download
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [pytsa-ais]: Timeout reached during download
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [django-codenerix-products]: Timeout reached during download
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 09:42:40] INFO root fetch - processPackages [psp-liquids-daq-parser]: executing diffoscope
+[2024-04-09 09:42:40] INFO root fetch - processPackages [psp-liquids-daq-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psp_liquids_daq_parser-0.0.4.tar.gz tmp/psp_liquids_daq_parser-0.0.5.tar.gz --markdown 20240409/p/psp-liquids-daq-parser/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 09:42:40] INFO root fetch - processPackages [kydb]: Downloading https://files.pythonhosted.org/packages/fd/6b/c055535b62abaa13e5bc9226764aa343a408e2deb60554e47197105eae8c/kydb-0.7.5.tar.gz
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [kydb]: Timeout reached during download
+[2024-04-09 09:42:40] INFO root fetch - processPackages [kydb]: executing diffoscope
+[2024-04-09 09:42:40] INFO root fetch - processPackages [kydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kydb-0.7.2.tar.gz tmp/kydb-0.7.5.tar.gz --markdown 20240409/k/kydb/0.7.2-0.7.5/diff.md --exclude *.pyd
+[2024-04-09 09:42:40] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/d9/33/2b671654de560227a1c5f8f069db95e695c5a370a1c022577271d2f81a3c/pytsa_ais-2.2.3.tar.gz
+[2024-04-09 09:42:40] INFO root fetch - processPackages [django-codenerix-products]: Downloading https://files.pythonhosted.org/packages/e5/5e/7725b3d4bd1e4f7816ac4de5097cf69eae2a7f7e96a171e269439caa57ad/django-codenerix-products-4.0.3.tar.gz
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [django-codenerix-products]: Timeout reached during download
+[2024-04-09 09:42:40] INFO root fetch - processPackages [django-codenerix-products]: executing diffoscope
+[2024-04-09 09:42:40] INFO root fetch - processPackages [django-codenerix-products]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-products-4.0.2.tar.gz tmp/django-codenerix-products-4.0.3.tar.gz --markdown 20240409/d/django-codenerix-products/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2024-04-09 09:42:40] WARNING root fetch - processPackages [pytsa-ais]: Timeout reached during download
+[2024-04-09 09:42:40] INFO root fetch - processPackages [pytsa-ais]: executing diffoscope
+[2024-04-09 09:42:40] INFO root fetch - processPackages [pytsa-ais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytsa_ais-2.2.2.tar.gz tmp/pytsa_ais-2.2.3.tar.gz --markdown 20240409/p/pytsa-ais/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2024-04-09 09:42:41] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.4.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.5.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
+[2024-04-09 09:42:41] INFO root fetch - processPackages [kydb]: Remove: archive file [/home/abi/fetcher/tmp/kydb-0.7.2.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - processPackages [kydb]: Remove: archive file [/home/abi/fetcher/tmp/kydb-0.7.5.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - main [MainThread]: End processing [kydb]: success
+[2024-04-09 09:42:41] INFO root fetch - processPackages [django-codenerix-products]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-products-4.0.2.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - processPackages [django-codenerix-products]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-products-4.0.3.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - main [MainThread]: End processing [django-codenerix-products]: success
+[2024-04-09 09:42:41] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.2.2.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.2.3.tar.gz]
+[2024-04-09 09:42:41] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
+[2024-04-09 09:42:41] INFO root fetch - main [MainThread]: Store serial: [22679799]
