@@ -3770,3 +3770,44 @@
 [2024-04-09 02:48:06] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-09 02:48:06] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-09 02:48:06] INFO root fetch - main [MainThread]: Store serial: [22675068]
+[2024-04-09 02:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675068]
+[2024-04-09 02:50:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2024-04-09 02:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pt-br-verbs-lemmatizer
+[2024-04-09 02:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dplutils
+[2024-04-09 02:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-sdk
+[2024-04-09 02:50:14] INFO root fetch - processPackages [dplutils]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-09 02:50:14] INFO root fetch - processPackages [pt-br-verbs-lemmatizer]: New version: [0.1.0] Old Version: [0.0.99]
+[2024-04-09 02:50:15] INFO root fetch - processPackages [dplutils]: Downloading https://files.pythonhosted.org/packages/fe/9e/f38d706f64f0c686c063bd9d6ef1770785af26f6803b6fac180d9c54d51b/dplutils-0.4.0.tar.gz
+[2024-04-09 02:50:15] INFO root fetch - processPackages [auto-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 02:50:15] INFO root fetch - processPackages [pt-br-verbs-lemmatizer]: Downloading https://files.pythonhosted.org/packages/98/20/21bba6ea8904669c942d935d63543b027d36225a53ab1a84bb66f1f84f9c/pt_br_verbs_lemmatizer-0.0.99.tar.gz
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [dplutils]: Timeout reached during download
+[2024-04-09 02:50:15] INFO root fetch - processPackages [dplutils]: Downloading https://files.pythonhosted.org/packages/1d/ab/f81a332b47448b640b36a806098abe171d155ab18d8f1f8ed41bac534f83/dplutils-0.5.0.tar.gz
+[2024-04-09 02:50:15] INFO root fetch - processPackages [auto-sdk]: Downloading https://files.pythonhosted.org/packages/b3/14/fb5385d1c33877a9e3cb552edb8cbd4b261c6b4c6692697f0f9d911740a7/auto-sdk-0.1.3.tar.gz
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [pt-br-verbs-lemmatizer]: Skipping package: exceeds size limit 11749713>=10485760
+[2024-04-09 02:50:15] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:50:15] INFO root fetch - main [MainThread]: End processing [pt-br-verbs-lemmatizer] error
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [dplutils]: Timeout reached during download
+[2024-04-09 02:50:15] INFO root fetch - processPackages [dplutils]: executing diffoscope
+[2024-04-09 02:50:15] INFO root fetch - processPackages [dplutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplutils-0.4.0.tar.gz tmp/dplutils-0.5.0.tar.gz --markdown 20240409/d/dplutils/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [auto-sdk]: Timeout reached during download
+[2024-04-09 02:50:15] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-09 02:50:15] INFO root fetch - processPackages [auto-sdk]: Downloading https://files.pythonhosted.org/packages/58/0e/ef30a4d6fd15e1669e56e35b816599f2fe322fe11ef9145f2dcf6d74b22d/auto-sdk-0.1.4.tar.gz
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [auto-sdk]: Timeout reached during download
+[2024-04-09 02:50:15] INFO root fetch - processPackages [auto-sdk]: executing diffoscope
+[2024-04-09 02:50:15] INFO root fetch - processPackages [auto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-sdk-0.1.3.tar.gz tmp/auto-sdk-0.1.4.tar.gz --markdown 20240409/a/auto-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 02:50:15] WARNING root fetch - processPackages [cdk-sns-notify]: Timeout reached during download
+[2024-04-09 02:50:16] INFO root fetch - processPackages [dplutils]: Remove: archive file [/home/abi/fetcher/tmp/dplutils-0.4.0.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - processPackages [dplutils]: Remove: archive file [/home/abi/fetcher/tmp/dplutils-0.5.0.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - main [MainThread]: End processing [dplutils]: success
+[2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-09 02:50:16] INFO root fetch - processPackages [auto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/auto-sdk-0.1.3.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - processPackages [auto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/auto-sdk-0.1.4.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - main [MainThread]: End processing [auto-sdk]: success
+[2024-04-09 02:50:16] WARNING root fetch - processPackages [cdk-sns-notify]: Timeout reached during download
+[2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240409/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-09 02:50:16] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-09 02:50:16] INFO root fetch - main [MainThread]: Store serial: [22675081]
