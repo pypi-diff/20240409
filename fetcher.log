@@ -19350,3 +19350,36 @@
 [2024-04-09 10:11:12] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.2.tar.gz]
 [2024-04-09 10:11:12] INFO root fetch - main [MainThread]: End processing [modelbest-sdk]: success
 [2024-04-09 10:11:12] INFO root fetch - main [MainThread]: Store serial: [22680054]
+[2024-04-09 10:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680054]
+[2024-04-09 10:13:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 10:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moler
+[2024-04-09 10:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: com.cryptoapis.rest-apis.sdk
+[2024-04-09 10:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-connect
+[2024-04-09 10:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runtimepy
+[2024-04-09 10:13:22] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.58] Old Version: [9.1.57]
+[2024-04-09 10:13:22] INFO root fetch - processPackages [moler]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-04-09 10:13:22] INFO root fetch - processPackages [runtimepy]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-09 10:13:22] WARNING root fetch - processPackages [com.cryptoapis.rest-apis.sdk]: Skipping, unable to determine old version
+[2024-04-09 10:13:22] INFO root fetch - main [MainThread]: End processing [com.cryptoapis.rest-apis.sdk] error
+[2024-04-09 10:13:22] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/51/60/ac1c4ac8651847db1c11cbd391893c17d99367baa189b8906474de2ba702/moler-3.3.0.tar.gz
+[2024-04-09 10:13:22] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/e5/ca/7dc0d34f82259ef6585d4b7c49260d30db4d33a0d4a4811367019331b2f8/runtimepy-4.0.0.tar.gz
+[2024-04-09 10:13:22] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/b1/e0/d8d49b956ef1f0a73e0578ecd01ae0b58ffe4037d6a88b5da19d64bf9748/databricks-connect-9.1.57.tar.gz
+[2024-04-09 10:13:22] WARNING root fetch - processPackages [runtimepy]: Timeout reached during download
+[2024-04-09 10:13:22] WARNING root fetch - processPackages [moler]: Timeout reached during download
+[2024-04-09 10:13:22] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/0d/bb/827f3de9b8a32269189cbd98c0565eca66c0bfd711b7f01b6606af969489/runtimepy-4.0.1.tar.gz
+[2024-04-09 10:13:22] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/ca/64/5b36d02a77659e46e16b542327e9ddfc2a70f1ca0a7027457c35e538b8ee/moler-3.4.0-py3-none-any.whl
+[2024-04-09 10:13:22] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257318075>=10485760
+[2024-04-09 10:13:22] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-09 10:13:23] WARNING root fetch - processPackages [runtimepy]: Timeout reached during download
+[2024-04-09 10:13:23] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-09 10:13:23] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.0.0.tar.gz tmp/runtimepy-4.0.1.tar.gz --markdown 20240409/r/runtimepy/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-09 10:13:23] WARNING root fetch - processPackages [moler]: Timeout reached during download
+[2024-04-09 10:13:23] INFO root fetch - processPackages [moler]: executing diffoscope
+[2024-04-09 10:13:23] INFO root fetch - processPackages [moler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moler-3.3.0.tar.gz tmp/moler-3.4.0-py3-none-any.whl.zip --markdown 20240409/m/moler/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:13:23] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-3.3.0.tar.gz]
+[2024-04-09 10:13:23] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-3.4.0-py3-none-any.whl.zip]
+[2024-04-09 10:13:23] INFO root fetch - main [MainThread]: End processing [moler]: success
+[2024-04-09 10:13:24] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.0.tar.gz]
+[2024-04-09 10:13:24] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.1.tar.gz]
+[2024-04-09 10:13:24] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-09 10:13:24] INFO root fetch - main [MainThread]: Store serial: [22680068]
