@@ -13803,3 +13803,53 @@
 [2024-04-09 06:11:11] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz]
 [2024-04-09 06:11:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsf]: success
 [2024-04-09 06:11:11] INFO root fetch - main [MainThread]: Store serial: [22678039]
+[2024-04-09 06:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678039]
+[2024-04-09 06:13:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 06:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcon
+[2024-04-09 06:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellsnap
+[2024-04-09 06:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-includecontents
+[2024-04-09 06:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edman
+[2024-04-09 06:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tts
+[2024-04-09 06:13:21] INFO root fetch - processPackages [cellsnap]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 06:13:21] INFO root fetch - processPackages [edman]: New version: [2024.4.9] Old Version: [2024.3.5]
+[2024-04-09 06:13:21] INFO root fetch - processPackages [arcon]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [django-includecontents]: Skipping, unable to determine old version
+[2024-04-09 06:13:21] INFO root fetch - main [MainThread]: End processing [django-includecontents] error
+[2024-04-09 06:13:21] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/4c/eb/465afe60b72ba4a7e17cb13b60061e209e6d2048f95d2f62ab7de3472a03/edman-2024.3.5.tar.gz
+[2024-04-09 06:13:21] INFO root fetch - processPackages [cellsnap]: Downloading https://files.pythonhosted.org/packages/50/16/473386c2b27684df4041d9a4a16c0e58338f5dd3d923dde01d742d7d1bb2/CellSNAP-0.0.2.tar.gz
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [edman]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [arcon]: Downloading https://files.pythonhosted.org/packages/db/24/d61c8c6acb0072760216c46bad4eba957eb990e2153eae6e53625230fd9a/arcon-0.3.1.tar.gz
+[2024-04-09 06:13:21] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/ec/9d/63b262c07b31373692400843107e398d4a510d3701a7a9c7b4aac74e4c40/edman-2024.4.9.tar.gz
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [cellsnap]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [edman]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [edman]: executing diffoscope
+[2024-04-09 06:13:21] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2024.3.5.tar.gz tmp/edman-2024.4.9.tar.gz --markdown 20240409/e/edman/2024.3.5-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [arcon]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [cellsnap]: Downloading https://files.pythonhosted.org/packages/5f/5c/b8d4d0f4b12ff7ef114f325305281134322fad1e12ff2f036dbce2d6734e/cellsnap-0.0.3.tar.gz
+[2024-04-09 06:13:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/10/59/08b9a1edde05fa318d69973b229f30dfbe049da31ff6fe2c7b369bb6abea/tencentcloud-sdk-python-tts-3.0.998.tar.gz
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [cellsnap]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [cellsnap]: executing diffoscope
+[2024-04-09 06:13:21] INFO root fetch - processPackages [cellsnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CellSNAP-0.0.2.tar.gz tmp/cellsnap-0.0.3.tar.gz --markdown 20240409/c/cellsnap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 06:13:21] INFO root fetch - processPackages [arcon]: Downloading https://files.pythonhosted.org/packages/5b/e7/26fec91ce4ea7a91f7e21d786d060d6e9f515a9338623e4f2c0efcd86995/arcon-0.4.0.tar.gz
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [tencentcloud-sdk-python-tts]: Timeout reached during download
+[2024-04-09 06:13:21] WARNING root fetch - processPackages [arcon]: Timeout reached during download
+[2024-04-09 06:13:21] INFO root fetch - processPackages [arcon]: executing diffoscope
+[2024-04-09 06:13:21] INFO root fetch - processPackages [arcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcon-0.3.1.tar.gz tmp/arcon-0.4.0.tar.gz --markdown 20240409/a/arcon/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 06:13:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/20/de/08c782128d2630bf5daf31530f1783a255752dce61e1220554659b9d2fa5/tencentcloud-sdk-python-tts-3.0.999.tar.gz
+[2024-04-09 06:13:22] WARNING root fetch - processPackages [tencentcloud-sdk-python-tts]: Timeout reached during download
+[2024-04-09 06:13:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: executing diffoscope
+[2024-04-09 06:13:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:13:22] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.3.5.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.4.9.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2024-04-09 06:13:22] INFO root fetch - processPackages [cellsnap]: Remove: archive file [/home/abi/fetcher/tmp/CellSNAP-0.0.2.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - processPackages [cellsnap]: Remove: archive file [/home/abi/fetcher/tmp/cellsnap-0.0.3.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - main [MainThread]: End processing [cellsnap]: success
+[2024-04-09 06:13:22] INFO root fetch - processPackages [arcon]: Remove: archive file [/home/abi/fetcher/tmp/arcon-0.3.1.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - processPackages [arcon]: Remove: archive file [/home/abi/fetcher/tmp/arcon-0.4.0.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - main [MainThread]: End processing [arcon]: success
+[2024-04-09 06:13:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz]
+[2024-04-09 06:13:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tts]: success
+[2024-04-09 06:13:22] INFO root fetch - main [MainThread]: Store serial: [22678056]
