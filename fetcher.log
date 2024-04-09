@@ -8683,3 +8683,31 @@
 [2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: Remove: archive file [/home/abi/fetcher/tmp/qtrade-0.6.0.tar.gz]
 [2024-04-09 03:32:28] INFO root fetch - main [MainThread]: End processing [qtrade]: success
 [2024-04-09 03:32:28] INFO root fetch - main [MainThread]: Store serial: [22676427]
+[2024-04-09 03:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676427]
+[2024-04-09 03:34:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 03:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarksay
+[2024-04-09 03:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edman
+[2024-04-09 03:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epipackpy
+[2024-04-09 03:34:37] INFO root fetch - processPackages [epipackpy]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-09 03:34:37] INFO root fetch - processPackages [epipackpy]: Downloading https://files.pythonhosted.org/packages/16/2e/8cd09b11fc00ee6de775f13574290572954f11bb6918439a593f13ed1e26/epipackpy-0.1.0.dev8.tar.gz
+[2024-04-09 03:34:37] WARNING root fetch - processPackages [quarksay]: Skipping, unable to determine old version
+[2024-04-09 03:34:37] INFO root fetch - main [MainThread]: End processing [quarksay] error
+[2024-04-09 03:34:37] INFO root fetch - processPackages [edman]: New version: [2024.4.9] Old Version: [2024.3.5]
+[2024-04-09 03:34:37] WARNING root fetch - processPackages [epipackpy]: Timeout reached during download
+[2024-04-09 03:34:37] INFO root fetch - processPackages [epipackpy]: Downloading https://files.pythonhosted.org/packages/59/28/82664ef19e140c79a29271b95b98738ae9dfbd5b9f720324f4302dbe5697/epipackpy-0.1.0.dev9.tar.gz
+[2024-04-09 03:34:38] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/4c/eb/465afe60b72ba4a7e17cb13b60061e209e6d2048f95d2f62ab7de3472a03/edman-2024.3.5.tar.gz
+[2024-04-09 03:34:38] WARNING root fetch - processPackages [epipackpy]: Timeout reached during download
+[2024-04-09 03:34:38] INFO root fetch - processPackages [epipackpy]: executing diffoscope
+[2024-04-09 03:34:38] INFO root fetch - processPackages [epipackpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epipackpy-0.1.0.dev8.tar.gz tmp/epipackpy-0.1.0.dev9.tar.gz --markdown 20240409/e/epipackpy/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2024-04-09 03:34:38] WARNING root fetch - processPackages [edman]: Timeout reached during download
+[2024-04-09 03:34:38] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/ec/9d/63b262c07b31373692400843107e398d4a510d3701a7a9c7b4aac74e4c40/edman-2024.4.9.tar.gz
+[2024-04-09 03:34:38] WARNING root fetch - processPackages [edman]: Timeout reached during download
+[2024-04-09 03:34:38] INFO root fetch - processPackages [edman]: executing diffoscope
+[2024-04-09 03:34:38] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2024.3.5.tar.gz tmp/edman-2024.4.9.tar.gz --markdown 20240409/e/edman/2024.3.5-2024.4.9/diff.md --exclude *.pyd
+[2024-04-09 03:34:38] INFO root fetch - processPackages [epipackpy]: Remove: archive file [/home/abi/fetcher/tmp/epipackpy-0.1.0.dev8.tar.gz]
+[2024-04-09 03:34:38] INFO root fetch - processPackages [epipackpy]: Remove: archive file [/home/abi/fetcher/tmp/epipackpy-0.1.0.dev9.tar.gz]
+[2024-04-09 03:34:38] INFO root fetch - main [MainThread]: End processing [epipackpy]: success
+[2024-04-09 03:34:39] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.3.5.tar.gz]
+[2024-04-09 03:34:39] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.4.9.tar.gz]
+[2024-04-09 03:34:39] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2024-04-09 03:34:39] INFO root fetch - main [MainThread]: Store serial: [22676437]
