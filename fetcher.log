@@ -15772,3 +15772,64 @@
 [2024-04-09 07:54:27] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.2.tar.gz]
 [2024-04-09 07:54:27] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
 [2024-04-09 07:54:27] INFO root fetch - main [MainThread]: Store serial: [22678760]
+[2024-04-09 07:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678760]
+[2024-04-09 07:56:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-server-tools
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httpacc
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyplanet
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jemma
+[2024-04-09 07:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commits2pdf
+[2024-04-09 07:56:36] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240408212734] Old Version: [3.3.1.dev20240408081905]
+[2024-04-09 07:56:36] INFO root fetch - processPackages [jemma]: New version: [0.1.126] Old Version: [0.1.125]
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [httpacc]: Skipping, unable to determine old version
+[2024-04-09 07:56:36] INFO root fetch - main [MainThread]: End processing [httpacc] error
+[2024-04-09 07:56:36] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20240205.0] Old Version: [16.0.20240202.0]
+[2024-04-09 07:56:36] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/35/6d/e545ade4ba719a65014529468f0a1ccdcfa64c084a80de7a6be8909ee438/jemma-0.1.125.tar.gz
+[2024-04-09 07:56:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2e/0d/c4e828e0de6863fb3c0bc1343b78270f894992bcfef122586b160cf910ad/localstack-core-3.3.1.dev20240408081905.tar.gz
+[2024-04-09 07:56:36] INFO root fetch - processPackages [pyplanet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 07:56:36] INFO root fetch - processPackages [commits2pdf]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:56:36] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/d1/f2/b3512e9ff28606f7b657bb44b527410b2fcc8394aacb702f1d608d7d7c53/odoo_addons_oca_server_tools-16.0.20240202.0-py3-none-any.whl
+[2024-04-09 07:56:36] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/9c/f5/2f1ba033f7decb8bed9ba709ef2789dfc61e9c0b3a761a75a6bb1ab8a783/commits2pdf-1.1.5.tar.gz
+[2024-04-09 07:56:36] INFO root fetch - processPackages [pyplanet]: Downloading https://files.pythonhosted.org/packages/80/e1/d0ec9fefa03c49abe2f37a5b81509105a1b4a0ad8136de090e3d1ce35e47/pyplanet-0.9.8.tar.gz
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [odoo-addons-oca-server-tools]: Timeout reached during download
+[2024-04-09 07:56:36] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/58/d2/e4b0d057163fa4bd70d33b4c344048e4b1afb4ed5088c0eeeefcc268c344/jemma-0.1.126.tar.gz
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [commits2pdf]: Timeout reached during download
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:56:36] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:56:36] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.125.tar.gz tmp/jemma-0.1.126.tar.gz --markdown 20240409/j/jemma/0.1.125-0.1.126/diff.md --exclude *.pyd
+[2024-04-09 07:56:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/95/07/527758216bba8ca45bedbebc43b3de6daaa1d35db2f5fc3a5dbb36d617e7/localstack-core-3.3.1.dev20240408212734.tar.gz
+[2024-04-09 07:56:36] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/f4/b7/efa394d38d58f1ae32ec5528f2ab90e9460768cca23446b86bd6480b37eb/commits2pdf-1.1.6.tar.gz
+[2024-04-09 07:56:36] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/a8/74/f89117b1db081b1965f441015e00807ff3face463837cb928a8f492c000b/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [odoo-addons-oca-server-tools]: Timeout reached during download
+[2024-04-09 07:56:36] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2024-04-09 07:56:36] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20240202.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addons-oca-server-tools/16.0.20240202.0-16.0.20240205.0/diff.md --exclude *.pyd
+[2024-04-09 07:56:36] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 07:56:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-09 07:56:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240408081905.tar.gz tmp/localstack-core-3.3.1.dev20240408212734.tar.gz --markdown 20240409/l/localstack-core/3.3.1.dev20240408081905-3.3.1.dev20240408212734/diff.md --exclude *.pyd
+[2024-04-09 07:56:37] WARNING root fetch - processPackages [pyplanet]: Timeout reached during download
+[2024-04-09 07:56:37] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.125.tar.gz]
+[2024-04-09 07:56:37] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.126.tar.gz]
+[2024-04-09 07:56:37] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:56:37] INFO root fetch - processPackages [pyplanet]: Downloading https://files.pythonhosted.org/packages/97/4f/1cba29459af13761068e30b00d0d7fadb24ddd355c31f610ac02463e6ef7/pyplanet-0.9.9.tar.gz
+[2024-04-09 07:56:37] WARNING root fetch - processPackages [commits2pdf]: Timeout reached during download
+[2024-04-09 07:56:37] INFO root fetch - processPackages [commits2pdf]: executing diffoscope
+[2024-04-09 07:56:37] INFO root fetch - processPackages [commits2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commits2pdf-1.1.5.tar.gz tmp/commits2pdf-1.1.6.tar.gz --markdown 20240409/c/commits2pdf/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-09 07:56:37] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240202.0-py3-none-any.whl.zip]
+[2024-04-09 07:56:37] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl.zip]
+[2024-04-09 07:56:37] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2024-04-09 07:56:37] WARNING root fetch - processPackages [pyplanet]: Timeout reached during download
+[2024-04-09 07:56:37] INFO root fetch - processPackages [pyplanet]: executing diffoscope
+[2024-04-09 07:56:37] INFO root fetch - processPackages [pyplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplanet-0.9.8.tar.gz tmp/pyplanet-0.9.9.tar.gz --markdown 20240409/p/pyplanet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 07:56:37] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.5.tar.gz]
+[2024-04-09 07:56:37] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.6.tar.gz]
+[2024-04-09 07:56:37] INFO root fetch - main [MainThread]: End processing [commits2pdf]: success
+[2024-04-09 07:56:39] INFO root fetch - processPackages [pyplanet]: Remove: archive file [/home/abi/fetcher/tmp/pyplanet-0.9.8.tar.gz]
+[2024-04-09 07:56:39] INFO root fetch - processPackages [pyplanet]: Remove: archive file [/home/abi/fetcher/tmp/pyplanet-0.9.9.tar.gz]
+[2024-04-09 07:56:39] INFO root fetch - main [MainThread]: End processing [pyplanet]: success
+[2024-04-09 07:56:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408081905.tar.gz]
+[2024-04-09 07:56:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408212734.tar.gz]
+[2024-04-09 07:56:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-09 07:56:40] INFO root fetch - main [MainThread]: Store serial: [22678775]
