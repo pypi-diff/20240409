@@ -15229,3 +15229,94 @@
 [2024-04-09 07:27:36] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev4-py3-none-any.whl.zip]
 [2024-04-09 07:27:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
 [2024-04-09 07:27:36] INFO root fetch - main [MainThread]: Store serial: [22678608]
+[2024-04-09 07:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678608]
+[2024-04-09 07:29:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-cognitiveservices-speech
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-argparse-manpage
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycv-crossvalidation
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maitai-sdk-python
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ts-soup
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yamld
+[2024-04-09 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cube-dl
+[2024-04-09 07:29:45] INFO root fetch - processPackages [maitai-sdk-python]: New version: [0.4] Old Version: [0.374]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [ts-soup]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [azure-cognitiveservices-speech]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [pycv-crossvalidation]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/9a/d1/cdbfc408dd337283793e9135ca1ac5ce9df44aa910a38f3ee2d4d2c78cfa/maitai_sdk_python-0.374.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [yamld]: New version: [0.0.3] Old Version: [0.0.22]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [hatch-argparse-manpage]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [cube-dl]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 07:29:45] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/e0/08/b44d4535334f2e24afdb428a5c4508423a56ddf65abc219fdaef1c7553e2/ts-soup-0.1.0.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Downloading https://files.pythonhosted.org/packages/03/0d/5aebb4bc61da6868d4a3c38d3042a793dcf1584988c56641de8acf4cc950/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [pycv-crossvalidation]: Downloading https://files.pythonhosted.org/packages/42/13/001bd7ebe1e2b66a303bb7d205b6dc8061156c537b6e9bec573970e6c6a6/pycv_crossvalidation-0.0.2.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [yamld]: Downloading https://files.pythonhosted.org/packages/62/22/d750d4b1b8d37e6a98a05a858d06e8ec771f5adab6ab7b3c5cc0e9d3de89/yamld-0.0.22.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [hatch-argparse-manpage]: Downloading https://files.pythonhosted.org/packages/3c/7c/bde46244277cbd292fd546d882574561462d246ec84468d46af1d0cc9327/hatch_argparse_manpage-0.5.0.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [cube-dl]: Downloading https://files.pythonhosted.org/packages/fb/3d/ab9fe0ea949ee7c30aed1de9cc44949bb3aa5c78bf48126ad51c64a9ca21/cube_dl-0.3.8.tar.gz
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/41/f0fe12097f4d1e6a081f4f9d0d99dad83c56ab9f62e91a62f09495c2e0d5/maitai_sdk_python-0.4.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/b1/52/fb57c13052ef88c79ed623e2d374c1505a7e98eac687960b85f15e7c76cb/ts-soup-0.1.1.tar.gz
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [hatch-argparse-manpage]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [pycv-crossvalidation]: Timeout reached during download
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [yamld]: Timeout reached during download
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [maitai-sdk-python]: executing diffoscope
+[2024-04-09 07:29:45] INFO root fetch - processPackages [maitai-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maitai_sdk_python-0.374.tar.gz tmp/maitai_sdk_python-0.4.tar.gz --markdown 20240409/m/maitai-sdk-python/0.374-0.4/diff.md --exclude *.pyd
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-09 07:29:45] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.1.0.tar.gz tmp/ts-soup-0.1.1.tar.gz --markdown 20240409/t/ts-soup/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [cube-dl]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [hatch-argparse-manpage]: Downloading https://files.pythonhosted.org/packages/79/c9/dbb4abadc06897d57d77028f14a15cf3c315cbe37006a4b86fd436f4ae13/hatch_argparse_manpage-0.6.0.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [pycv-crossvalidation]: Downloading https://files.pythonhosted.org/packages/16/93/6a038a0618659cf64bd1e36ec59eaecc0cef4bc10093b68ca455c0ef6ca1/pycv_crossvalidation-0.0.3.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [yamld]: Downloading https://files.pythonhosted.org/packages/17/cd/5993b26e56ba799c38bac7272c5486b15a313c49ce8be5e0114e0f8f648e/yamld-0.0.3.tar.gz
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-09 07:29:45] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240409/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [hatch-argparse-manpage]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [cube-dl]: Downloading https://files.pythonhosted.org/packages/a3/95/c675512d56532425f5cc57941cb8f4f3989eab5626ef721ed042271ba98d/cube_dl-0.3.9.tar.gz
+[2024-04-09 07:29:45] INFO root fetch - processPackages [hatch-argparse-manpage]: executing diffoscope
+[2024-04-09 07:29:45] INFO root fetch - processPackages [hatch-argparse-manpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_argparse_manpage-0.5.0.tar.gz tmp/hatch_argparse_manpage-0.6.0.tar.gz --markdown 20240409/h/hatch-argparse-manpage/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 07:29:45] WARNING root fetch - processPackages [pycv-crossvalidation]: Timeout reached during download
+[2024-04-09 07:29:45] INFO root fetch - processPackages [pycv-crossvalidation]: executing diffoscope
+[2024-04-09 07:29:45] INFO root fetch - processPackages [pycv-crossvalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycv_crossvalidation-0.0.2.tar.gz tmp/pycv_crossvalidation-0.0.3.tar.gz --markdown 20240409/p/pycv-crossvalidation/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:29:46] WARNING root fetch - processPackages [yamld]: Timeout reached during download
+[2024-04-09 07:29:46] INFO root fetch - processPackages [yamld]: executing diffoscope
+[2024-04-09 07:29:46] INFO root fetch - processPackages [yamld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamld-0.0.22.tar.gz tmp/yamld-0.0.3.tar.gz --markdown 20240409/y/yamld/0.0.22-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:29:46] WARNING root fetch - processPackages [cube-dl]: Timeout reached during download
+[2024-04-09 07:29:46] INFO root fetch - processPackages [cube-dl]: executing diffoscope
+[2024-04-09 07:29:46] INFO root fetch - processPackages [cube-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cube_dl-0.3.8.tar.gz tmp/cube_dl-0.3.9.tar.gz --markdown 20240409/c/cube-dl/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 07:29:46] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.374.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.4.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [maitai-sdk-python]: success
+[2024-04-09 07:29:46] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.0.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.1.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-09 07:29:46] INFO root fetch - processPackages [pycv-crossvalidation]: Remove: archive file [/home/abi/fetcher/tmp/pycv_crossvalidation-0.0.2.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [pycv-crossvalidation]: Remove: archive file [/home/abi/fetcher/tmp/pycv_crossvalidation-0.0.3.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [pycv-crossvalidation]: success
+[2024-04-09 07:29:46] INFO root fetch - processPackages [hatch-argparse-manpage]: Remove: archive file [/home/abi/fetcher/tmp/hatch_argparse_manpage-0.5.0.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [hatch-argparse-manpage]: Remove: archive file [/home/abi/fetcher/tmp/hatch_argparse_manpage-0.6.0.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [hatch-argparse-manpage]: success
+[2024-04-09 07:29:46] INFO root fetch - processPackages [cube-dl]: Remove: archive file [/home/abi/fetcher/tmp/cube_dl-0.3.8.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [cube-dl]: Remove: archive file [/home/abi/fetcher/tmp/cube_dl-0.3.9.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [cube-dl]: success
+[2024-04-09 07:29:46] INFO root fetch - processPackages [yamld]: Remove: archive file [/home/abi/fetcher/tmp/yamld-0.0.22.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - processPackages [yamld]: Remove: archive file [/home/abi/fetcher/tmp/yamld-0.0.3.tar.gz]
+[2024-04-09 07:29:46] INFO root fetch - main [MainThread]: End processing [yamld]: success
+[2024-04-09 07:29:46] WARNING root fetch - processPackages [azure-cognitiveservices-speech]: Timeout reached during download
+[2024-04-09 07:29:47] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Downloading https://files.pythonhosted.org/packages/6d/82/318d687feb5fc7c0fa949ac1385bee683d52398dbd253ef6c185135a0c2a/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl
+[2024-04-09 07:29:47] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-09 07:29:47] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-09 07:29:47] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-09 07:29:47] WARNING root fetch - processPackages [azure-cognitiveservices-speech]: Timeout reached during download
+[2024-04-09 07:29:47] INFO root fetch - processPackages [azure-cognitiveservices-speech]: executing diffoscope
+[2024-04-09 07:29:47] INFO root fetch - processPackages [azure-cognitiveservices-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl.zip tmp/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl.zip --markdown 20240409/a/azure-cognitiveservices-speech/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-09 07:30:02] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Remove: archive file [/home/abi/fetcher/tmp/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl.zip]
+[2024-04-09 07:30:02] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Remove: archive file [/home/abi/fetcher/tmp/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl.zip]
+[2024-04-09 07:30:02] INFO root fetch - main [MainThread]: End processing [azure-cognitiveservices-speech]: success
+[2024-04-09 07:30:02] INFO root fetch - main [MainThread]: Store serial: [22678635]
