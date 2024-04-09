@@ -17755,3 +17755,79 @@
 [2024-04-09 09:12:56] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip]
 [2024-04-09 09:12:56] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
 [2024-04-09 09:12:56] INFO root fetch - main [MainThread]: Store serial: [22679487]
+[2024-04-09 09:15:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679487]
+[2024-04-09 09:15:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plants-vs-zombies
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxu-xrt
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenTTDLab
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decentriq-platform
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BrickBundles
+[2024-04-09 09:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BrickAgx
+[2024-04-09 09:15:06] INFO root fetch - processPackages [pyxu-xrt]: New version: [0.5.1] Old Version: [0.5]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [plants-vs-zombies]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [pyxu-xrt]: Downloading https://files.pythonhosted.org/packages/d6/c5/cdab605f12f475ac3fc5669dd15869bdda028e6c210c396ff4804636a490/pyxu_xrt-0.5-py3-none-any.whl
+[2024-04-09 09:15:06] INFO root fetch - processPackages [BrickBundles]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [BrickAgx]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 09:15:06] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/77/64/ea582628082fea6186e8a3262c1e0e1cd8412543edf0655d9101f145f123/plants-vs-zombies-0.0.4.tar.gz
+[2024-04-09 09:15:06] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-04-09 09:15:06] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [pyxu-xrt]: Timeout reached during download
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-09 09:15:06] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/f6/a5/89f7647db2f0d70a0b338f4999d377330c611dc26a5fac9d8b57d256e908/brickbundles-0.4.4-py3-none-any.whl
+[2024-04-09 09:15:06] INFO root fetch - processPackages [pyxu-xrt]: Downloading https://files.pythonhosted.org/packages/6c/28/d3adc9fdceb067728a136dab8369bcd1f6fc41565e3e6fb6c7a453a0f5f5/pyxu_xrt-0.5.1-py3-none-any.whl
+[2024-04-09 09:15:06] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/eb/3e/2776da9c18f4dd04b06aa9d9b4384fa214b87e0b206349fbe1a5b5dc4146/brickagx-0.4.4-cp39-cp39-win_amd64.whl
+[2024-04-09 09:15:06] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-09 09:15:06] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-09 09:15:06] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [BrickBundles]: Timeout reached during download
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [pyxu-xrt]: Timeout reached during download
+[2024-04-09 09:15:06] INFO root fetch - processPackages [pyxu-xrt]: executing diffoscope
+[2024-04-09 09:15:06] INFO root fetch - processPackages [pyxu-xrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxu_xrt-0.5-py3-none-any.whl.zip tmp/pyxu_xrt-0.5.1-py3-none-any.whl.zip --markdown 20240409/p/pyxu-xrt/0.5-0.5.1/diff.md --exclude *.pyd
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 09:15:06] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-09 09:15:06] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240409/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-09 09:15:06] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-04-09 09:15:06] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240409/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 09:15:06] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-09 09:15:06] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/ba/b7/659affe4b4257edafb1a950290e60ac724aa7bb77de76170a347e4bc0ca7/brickbundles-0.4.5-py3-none-any.whl
+[2024-04-09 09:15:06] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/2c/31/9e2272bea85ef159bd3037756cb03d0f2717613e621e0666237da2b8a9b2/plants_vs_zombies-0.0.5-py3-none-any.whl
+[2024-04-09 09:15:07] WARNING root fetch - processPackages [BrickAgx]: Timeout reached during download
+[2024-04-09 09:15:07] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-09 09:15:07] WARNING root fetch - processPackages [BrickBundles]: Timeout reached during download
+[2024-04-09 09:15:07] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-09 09:15:07] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.4.4-py3-none-any.whl.zip tmp/brickbundles-0.4.5-py3-none-any.whl.zip --markdown 20240409/B/BrickBundles/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2024-04-09 09:15:07] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/8b/1b/8e70fd2d417623e872f6ab909e2a01ba30f275e739273d2b4e4fc6895336/brickagx-0.4.5-cp38-cp38-manylinux_2_31_x86_64.whl
+[2024-04-09 09:15:07] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 09:15:07] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-09 09:15:07] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-09 09:15:07] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240409/O/OpenTTDLab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:15:07] INFO root fetch - processPackages [plants-vs-zombies]: executing diffoscope
+[2024-04-09 09:15:07] INFO root fetch - processPackages [plants-vs-zombies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plants-vs-zombies-0.0.4.tar.gz tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip --markdown 20240409/p/plants-vs-zombies/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 09:15:07] INFO root fetch - processPackages [pyxu-xrt]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_xrt-0.5-py3-none-any.whl.zip]
+[2024-04-09 09:15:07] INFO root fetch - processPackages [pyxu-xrt]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_xrt-0.5.1-py3-none-any.whl.zip]
+[2024-04-09 09:15:07] INFO root fetch - main [MainThread]: End processing [pyxu-xrt]: success
+[2024-04-09 09:15:07] WARNING root fetch - processPackages [BrickAgx]: Skipping package: exceeds size limit 18738715>=10485760
+[2024-04-09 09:15:07] INFO root fetch - main [MainThread]: End processing [BrickAgx] error
+[2024-04-09 09:15:07] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-04-09 09:15:07] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-09 09:15:07] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-09 09:15:07] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-09 09:15:08] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.4.4-py3-none-any.whl.zip]
+[2024-04-09 09:15:08] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.4.5-py3-none-any.whl.zip]
+[2024-04-09 09:15:08] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-09 09:15:08] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.4.tar.gz]
+[2024-04-09 09:15:08] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip]
+[2024-04-09 09:15:08] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
+[2024-04-09 09:15:08] INFO root fetch - main [MainThread]: Store serial: [22679506]
