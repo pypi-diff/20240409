@@ -19809,3 +19809,94 @@
 [2024-04-09 10:28:46] INFO root fetch - processPackages [modoboa-radicale]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-radicale-1.7.2.tar.gz]
 [2024-04-09 10:28:46] INFO root fetch - main [MainThread]: End processing [modoboa-radicale]: success
 [2024-04-09 10:28:46] INFO root fetch - main [MainThread]: Store serial: [22680249]
+[2024-04-09 10:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680249]
+[2024-04-09 10:30:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryolo
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modoboa-contacts
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scinumtools
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DIRAC
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodoc
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataiku-scoring
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logflow
+[2024-04-09 10:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-orbit-api
+[2024-04-09 10:30:55] INFO root fetch - processPackages [nodoc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-09 10:30:55] INFO root fetch - processPackages [modoboa-contacts]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [logflow]: New version: [0.0.4a0] Old Version: [0.0.1]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.10] Old Version: [0.1.4]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [dataiku-scoring]: New version: [12.6.0] Old Version: [12.5.2]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [cryolo]: New version: [1.9.8b2] Old Version: [1.9.8b1]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [scinumtools]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-09 10:30:55] INFO root fetch - processPackages [DIRAC]: New version: [9.0.0a6] Old Version: [9.0.0a5]
+[2024-04-09 10:30:55] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:30:55] INFO root fetch - processPackages [logflow]: Downloading https://files.pythonhosted.org/packages/62/72/72c47a01d805f0d65b6391574a4312d1263677d8d48bb0ab769c1cb9752c/Logflow-0.0.1.tar.gz
+[2024-04-09 10:30:55] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/e1/c7/f294a9cd54feb81dff75bdfecea46829cea8ac6dcf53404ef8125bd463fc/cloud_orbit_api-0.1.4.tar.gz
+[2024-04-09 10:30:55] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/a3/48/9ee17ceaa19439630c0931429efff8c14244b3ea864a924d377ef0a66bd7/cryolo-1.9.8b1.tar.gz
+[2024-04-09 10:30:55] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/c3/01/365275f65437bdcd49fb8054d4dd45304b5a0f8ee40ef9cdaf3d0fa5ad12/nodoc-1.0.9.tar.gz
+[2024-04-09 10:30:55] INFO root fetch - processPackages [modoboa-contacts]: Downloading https://files.pythonhosted.org/packages/58/4e/9150d4c4429c09b58a877f774e4a6a23f1dac68e86a73eb4bb7e44b03e9d/modoboa-contacts-1.1.1.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/91/f2/6b088986084193107864be513b3113a0f34800f67fde6d1459573ea40f8e/scinumtools-2.8.0.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/ad/9c/c979f174feac43a73ee5f2c2733bab67e6c1c61d2f6facb95206e5c1e185/DIRAC-9.0.0a5.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [dataiku-scoring]: Downloading https://files.pythonhosted.org/packages/5a/a1/00bb56e9037734b31427d77947af63dbfad028c401407cde52cb1c2c50f0/dataiku-scoring-12.5.2.tar.gz
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [logflow]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.8.tar.gz tmp/nodoc-1.0.9.tar.gz --markdown 20240409/n/nodoc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [scinumtools]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [cryolo]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [modoboa-contacts]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [dataiku-scoring]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [logflow]: Downloading https://files.pythonhosted.org/packages/a9/03/f4128062c57fa1e5cb27ce2528b69cff8afbccff60690cf1771aa67a0db8/logflow-0.0.4a0.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/5d/d4/9e5ff66f9f837731e05b956f28b243aa57ac94e551f97bc16df79bc8196f/cloud_orbit_api-1.1.10.tar.gz
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [logflow]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [logflow]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [logflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Logflow-0.0.1.tar.gz tmp/logflow-0.0.4a0.tar.gz --markdown 20240409/l/logflow/0.0.1-0.0.4a0/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [DIRAC]: Timeout reached during download
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [cloud-orbit-api]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [modoboa-contacts]: Downloading https://files.pythonhosted.org/packages/12/39/2d813a7c1403c7640412433ab58c33f23661c117d3fce551e34a6bbc389f/modoboa-contacts-1.1.2.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/d1/ca/62471003436a79119944a64f269d746b664737225216ee10db2c7ac2a4a4/cryolo-1.9.8b2.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-0.1.4.tar.gz tmp/cloud_orbit_api-1.1.10.tar.gz --markdown 20240409/c/cloud-orbit-api/0.1.4-1.1.10/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] INFO root fetch - processPackages [dataiku-scoring]: Downloading https://files.pythonhosted.org/packages/f8/e5/d672ea0e2098a0e47829f769d0c1c54b8ae7e6e854419ad6ecb94647d195/dataiku-scoring-12.6.0.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/84/1e/b3c5f44e326bfc50a2f87de28d5cd99d62b01328d3efaf3993a0b51f9d02/scinumtools-2.9.0.tar.gz
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [cryolo]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cryolo]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cryolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryolo-1.9.8b1.tar.gz tmp/cryolo-1.9.8b2.tar.gz --markdown 20240409/c/cryolo/1.9.8b1-1.9.8b2/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [dataiku-scoring]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [dataiku-scoring]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [dataiku-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-scoring-12.5.2.tar.gz tmp/dataiku-scoring-12.6.0.tar.gz --markdown 20240409/d/dataiku-scoring/12.5.2-12.6.0/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] WARNING root fetch - processPackages [scinumtools]: Timeout reached during download
+[2024-04-09 10:30:56] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2024-04-09 10:30:56] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-2.8.0.tar.gz tmp/scinumtools-2.9.0.tar.gz --markdown 20240409/s/scinumtools/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-09 10:30:56] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/b8/3e/fa2f2d42ca920c7c6d58ddb4efeb78b34db35d4b6d3339847ac497bfc58f/DIRAC-9.0.0a6.tar.gz
+[2024-04-09 10:30:56] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-09 10:30:56] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.9.tar.gz]
+[2024-04-09 10:30:56] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-0.1.4.tar.gz]
+[2024-04-09 10:30:56] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.10.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-09 10:30:57] WARNING root fetch - processPackages [DIRAC]: Timeout reached during download
+[2024-04-09 10:30:57] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2024-04-09 10:30:57] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-9.0.0a5.tar.gz tmp/DIRAC-9.0.0a6.tar.gz --markdown 20240409/D/DIRAC/9.0.0a5-9.0.0a6/diff.md --exclude *.pyd
+[2024-04-09 10:30:57] WARNING root fetch - processPackages [modoboa-contacts]: Timeout reached during download
+[2024-04-09 10:30:57] INFO root fetch - processPackages [modoboa-contacts]: executing diffoscope
+[2024-04-09 10:30:57] INFO root fetch - processPackages [modoboa-contacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modoboa-contacts-1.1.1.tar.gz tmp/modoboa-contacts-1.1.2.tar.gz --markdown 20240409/m/modoboa-contacts/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-09 10:30:57] INFO root fetch - processPackages [logflow]: Remove: archive file [/home/abi/fetcher/tmp/Logflow-0.0.1.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - processPackages [logflow]: Remove: archive file [/home/abi/fetcher/tmp/logflow-0.0.4a0.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - main [MainThread]: End processing [logflow]: success
+[2024-04-09 10:30:57] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.8b1.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.8b2.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - main [MainThread]: End processing [cryolo]: success
+[2024-04-09 10:30:57] INFO root fetch - processPackages [dataiku-scoring]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-scoring-12.5.2.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - processPackages [dataiku-scoring]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-scoring-12.6.0.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - main [MainThread]: End processing [dataiku-scoring]: success
+[2024-04-09 10:30:57] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-2.8.0.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-2.9.0.tar.gz]
+[2024-04-09 10:30:57] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2024-04-09 10:31:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a5.tar.gz]
+[2024-04-09 10:31:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
+[2024-04-09 10:31:01] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2024-04-09 10:31:18] INFO root fetch - processPackages [modoboa-contacts]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-contacts-1.1.1.tar.gz]
+[2024-04-09 10:31:18] INFO root fetch - processPackages [modoboa-contacts]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-contacts-1.1.2.tar.gz]
+[2024-04-09 10:31:18] INFO root fetch - main [MainThread]: End processing [modoboa-contacts]: success
+[2024-04-09 10:31:18] INFO root fetch - main [MainThread]: Store serial: [22680273]
