@@ -9328,3 +9328,28 @@
 [2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.4.tar.gz]
 [2024-04-09 04:10:11] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
 [2024-04-09 04:10:11] INFO root fetch - main [MainThread]: Store serial: [22676679]
+[2024-04-09 04:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676679]
+[2024-04-09 04:12:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-09 04:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segmentation-skeleton-metrics
+[2024-04-09 04:12:22] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-09 04:12:22] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-09 04:12:22] INFO root fetch - processPackages [segmentation-skeleton-metrics]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-09 04:12:22] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-09 04:12:22] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/a3/f7/6841a458f3a94d174606b8f17df305a127c41dbf28d6e904a86e05a49f4c/segmentation_skeleton_metrics-4.0.1.tar.gz
+[2024-04-09 04:12:22] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-09 04:12:22] WARNING root fetch - processPackages [segmentation-skeleton-metrics]: Timeout reached during download
+[2024-04-09 04:12:22] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-09 04:12:22] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-09 04:12:22] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240409/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-09 04:12:22] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/91/dc/0e723b5347a9bd1c432e31bf3344f980f819d304cb7863bffc3b20d5ea2b/segmentation_skeleton_metrics-4.1.0.tar.gz
+[2024-04-09 04:12:23] WARNING root fetch - processPackages [segmentation-skeleton-metrics]: Timeout reached during download
+[2024-04-09 04:12:23] INFO root fetch - processPackages [segmentation-skeleton-metrics]: executing diffoscope
+[2024-04-09 04:12:23] INFO root fetch - processPackages [segmentation-skeleton-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation_skeleton_metrics-4.0.1.tar.gz tmp/segmentation_skeleton_metrics-4.1.0.tar.gz --markdown 20240409/s/segmentation-skeleton-metrics/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2024-04-09 04:12:24] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-09 04:12:24] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-09 04:12:24] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-09 04:12:25] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.0.1.tar.gz]
+[2024-04-09 04:12:25] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.1.0.tar.gz]
+[2024-04-09 04:12:25] INFO root fetch - main [MainThread]: End processing [segmentation-skeleton-metrics]: success
+[2024-04-09 04:12:25] INFO root fetch - main [MainThread]: Store serial: [22676682]
