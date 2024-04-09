@@ -13477,3 +13477,17 @@
 [2024-04-09 06:02:23] INFO root fetch - processPackages [oakutils]: Remove: archive file [/home/abi/fetcher/tmp/oakutils-1.5.0.tar.gz]
 [2024-04-09 06:02:23] INFO root fetch - main [MainThread]: End processing [oakutils]: success
 [2024-04-09 06:02:23] INFO root fetch - main [MainThread]: Store serial: [22677923]
+[2024-04-09 06:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677923]
+[2024-04-09 06:04:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 06:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xm-slurm
+[2024-04-09 06:04:33] INFO root fetch - processPackages [xm-slurm]: New version: [0.2] Old Version: [0.1]
+[2024-04-09 06:04:34] INFO root fetch - processPackages [xm-slurm]: Downloading https://files.pythonhosted.org/packages/d8/0a/d7f0176eca6b968567195376508c15efef6ece2695056e86e2a75b67667b/xm_slurm-0.1-py3-none-any.whl
+[2024-04-09 06:04:34] WARNING root fetch - processPackages [xm-slurm]: Timeout reached during download
+[2024-04-09 06:04:34] INFO root fetch - processPackages [xm-slurm]: Downloading https://files.pythonhosted.org/packages/70/56/5ae7c6d03098a5257446dc0b30cbbb42ecb80770b3d559eeb4e8f2453416/xm_slurm-0.2-py3-none-any.whl
+[2024-04-09 06:04:34] WARNING root fetch - processPackages [xm-slurm]: Timeout reached during download
+[2024-04-09 06:04:34] INFO root fetch - processPackages [xm-slurm]: executing diffoscope
+[2024-04-09 06:04:34] INFO root fetch - processPackages [xm-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xm_slurm-0.1-py3-none-any.whl.zip tmp/xm_slurm-0.2-py3-none-any.whl.zip --markdown 20240409/x/xm-slurm/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-09 06:04:35] INFO root fetch - processPackages [xm-slurm]: Remove: archive file [/home/abi/fetcher/tmp/xm_slurm-0.1-py3-none-any.whl.zip]
+[2024-04-09 06:04:35] INFO root fetch - processPackages [xm-slurm]: Remove: archive file [/home/abi/fetcher/tmp/xm_slurm-0.2-py3-none-any.whl.zip]
+[2024-04-09 06:04:35] INFO root fetch - main [MainThread]: End processing [xm-slurm]: success
+[2024-04-09 06:04:35] INFO root fetch - main [MainThread]: Store serial: [22677951]
