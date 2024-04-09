@@ -14310,3 +14310,28 @@
 [2024-04-09 06:33:05] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.8.tar.gz]
 [2024-04-09 06:33:05] INFO root fetch - main [MainThread]: End processing [advcalc]: success
 [2024-04-09 06:33:05] INFO root fetch - main [MainThread]: Store serial: [22678228]
+[2024-04-09 06:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678228]
+[2024-04-09 06:35:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2024-04-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leakysim
+[2024-04-09 06:35:15] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-09 06:35:15] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-09 06:35:15] INFO root fetch - processPackages [leakysim]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 06:35:15] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-09 06:35:15] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-09 06:35:15] INFO root fetch - processPackages [leakysim]: Downloading https://files.pythonhosted.org/packages/6c/fc/8ff1d9ca9fd60627c8d316941724f1746937011c4e8d725eaa62e5074932/leakysim-0.2.0.tar.gz
+[2024-04-09 06:35:15] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-09 06:35:15] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-09 06:35:15] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240409/l/langflow/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2024-04-09 06:35:15] WARNING root fetch - processPackages [leakysim]: Timeout reached during download
+[2024-04-09 06:35:16] INFO root fetch - processPackages [leakysim]: Downloading https://files.pythonhosted.org/packages/f2/f1/0e84fd381c5f75d1fb9fe3b8783bdc9f256ef64f870248f9f51d479ef381/leakysim-0.2.1-cp38-cp38-macosx_11_0_arm64.whl
+[2024-04-09 06:35:16] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-09 06:35:16] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-09 06:35:16] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-09 06:35:17] WARNING root fetch - processPackages [leakysim]: Timeout reached during download
+[2024-04-09 06:35:17] INFO root fetch - processPackages [leakysim]: executing diffoscope
+[2024-04-09 06:35:17] INFO root fetch - processPackages [leakysim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leakysim-0.2.0.tar.gz tmp/leakysim-0.2.1-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20240409/l/leakysim/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 06:35:17] INFO root fetch - processPackages [leakysim]: Remove: archive file [/home/abi/fetcher/tmp/leakysim-0.2.0.tar.gz]
+[2024-04-09 06:35:17] INFO root fetch - processPackages [leakysim]: Remove: archive file [/home/abi/fetcher/tmp/leakysim-0.2.1-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2024-04-09 06:35:17] INFO root fetch - main [MainThread]: End processing [leakysim]: success
+[2024-04-09 06:35:17] INFO root fetch - main [MainThread]: Store serial: [22678247]
