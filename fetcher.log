@@ -8801,3 +8801,39 @@
 [2024-04-09 03:43:18] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.9.5.tar.gz]
 [2024-04-09 03:43:18] INFO root fetch - main [MainThread]: End processing [fileformats]: success
 [2024-04-09 03:43:18] INFO root fetch - main [MainThread]: Store serial: [22676496]
+[2024-04-09 03:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676496]
+[2024-04-09 03:45:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fileformats-extras
+[2024-04-09 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-artifacts
+[2024-04-09 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vios
+[2024-04-09 03:45:28] INFO root fetch - processPackages [auto-artifacts]: New version: [2024.3.9] Old Version: [2024.3.8]
+[2024-04-09 03:45:28] INFO root fetch - processPackages [fileformats-extras]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 03:45:28] INFO root fetch - processPackages [vios]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-09 03:45:28] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/1e/55/160ebd09b0a95953884a0c6d337837a1c1a67115c4f996d496aa80bceeac/auto_artifacts-2024.3.8.tar.gz
+[2024-04-09 03:45:28] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-09 03:45:28] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/a4/61/34cb334d24672a380a5a458d9ed5a22356c56f20a5a5d291cb21956f39d4/fileformats_extras-0.2.2.tar.gz
+[2024-04-09 03:45:28] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/36/45/d0ac6b511df3dee1d56b2cd17f85a8da2e2538d22f6dc663d18ed5f05bbd/vios-2.3.0-py3-none-any.whl
+[2024-04-09 03:45:28] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/7c/38/cc3f41c2833a37c2af5220f7156b6550dbf503357e575e2d6002b860bb0e/auto_artifacts-2024.3.9.tar.gz
+[2024-04-09 03:45:28] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-09 03:45:28] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-09 03:45:29] INFO root fetch - processPackages [auto-artifacts]: executing diffoscope
+[2024-04-09 03:45:29] INFO root fetch - processPackages [auto-artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_artifacts-2024.3.8.tar.gz tmp/auto_artifacts-2024.3.9.tar.gz --markdown 20240409/a/auto-artifacts/2024.3.8-2024.3.9/diff.md --exclude *.pyd
+[2024-04-09 03:45:29] WARNING root fetch - processPackages [fileformats-extras]: Timeout reached during download
+[2024-04-09 03:45:29] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/9e/d5/af5a7d0c9514913eaa4e2c7ed0ea654a72bc2fd1767b691f9609a0a20425/vios-2.3.1-py3-none-any.whl
+[2024-04-09 03:45:29] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-09 03:45:29] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-09 03:45:29] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.3.0-py3-none-any.whl.zip tmp/vios-2.3.1-py3-none-any.whl.zip --markdown 20240409/v/vios/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2024-04-09 03:45:29] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/70/6c/a75aa2133ba4bfc8e037f8c45b0eacc379c93faefa7b9d1ece01800426fc/fileformats_extras-0.2.3.tar.gz
+[2024-04-09 03:45:29] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.8.tar.gz]
+[2024-04-09 03:45:29] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.9.tar.gz]
+[2024-04-09 03:45:29] INFO root fetch - main [MainThread]: End processing [auto-artifacts]: success
+[2024-04-09 03:45:29] WARNING root fetch - processPackages [fileformats-extras]: Timeout reached during download
+[2024-04-09 03:45:29] INFO root fetch - processPackages [fileformats-extras]: executing diffoscope
+[2024-04-09 03:45:29] INFO root fetch - processPackages [fileformats-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_extras-0.2.2.tar.gz tmp/fileformats_extras-0.2.3.tar.gz --markdown 20240409/f/fileformats-extras/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 03:45:29] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.0-py3-none-any.whl.zip]
+[2024-04-09 03:45:29] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.1-py3-none-any.whl.zip]
+[2024-04-09 03:45:29] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-09 03:45:30] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.2.tar.gz]
+[2024-04-09 03:45:30] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.3.tar.gz]
+[2024-04-09 03:45:30] INFO root fetch - main [MainThread]: End processing [fileformats-extras]: success
+[2024-04-09 03:45:30] INFO root fetch - main [MainThread]: Store serial: [22676503]
