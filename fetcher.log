@@ -9247,3 +9247,45 @@
 [2024-04-09 04:05:51] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-09 04:05:51] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-09 04:05:51] INFO root fetch - main [MainThread]: Store serial: [22676640]
+[2024-04-09 04:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676640]
+[2024-04-09 04:07:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 04:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: breezypythongui
+[2024-04-09 04:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moval
+[2024-04-09 04:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-sorting-tool
+[2024-04-09 04:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-pool-ex09
+[2024-04-09 04:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: util_td
+[2024-04-09 04:08:00] INFO root fetch - processPackages [util_td]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 04:08:00] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 04:08:00] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/2d/69/d150ee6ff7d97b7a4fad61654ca1657cf0d1376f2ba11b2a3ae74b6104ee/util_td-0.0.7.tar.gz
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [breezypythongui]: Skipping, unable to determine old version
+[2024-04-09 04:08:00] INFO root fetch - main [MainThread]: End processing [breezypythongui] error
+[2024-04-09 04:08:00] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [python-pool-ex09]: Skipping, unable to determine old version
+[2024-04-09 04:08:00] INFO root fetch - main [MainThread]: End processing [python-pool-ex09] error
+[2024-04-09 04:08:00] INFO root fetch - processPackages [image-sorting-tool]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 04:08:00] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-09 04:08:00] INFO root fetch - processPackages [image-sorting-tool]: Downloading https://files.pythonhosted.org/packages/aa/f9/37874b9d06631faf84df12b6b346eb084debf0ba7bd932ed9bb9103b4de9/image-sorting-tool-1.1.1.tar.gz
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 04:08:00] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-09 04:08:00] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240409/m/moval/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 04:08:00] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/cf/8c/7e65bc9585bb223d1a500cd94394502b6ed5a74829579e3fb7a69ede2c53/util_td-0.0.8.tar.gz
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [image-sorting-tool]: Timeout reached during download
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:08:00] INFO root fetch - processPackages [util_td]: executing diffoscope
+[2024-04-09 04:08:00] INFO root fetch - processPackages [util_td]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/util_td-0.0.7.tar.gz tmp/util_td-0.0.8.tar.gz --markdown 20240409/u/util_td/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 04:08:00] INFO root fetch - processPackages [image-sorting-tool]: Downloading https://files.pythonhosted.org/packages/24/53/aeb6262b1f89743ec2c8dc2ceb262749979f1aedac196118f0bf92a5c50b/image-sorting-tool-1.1.2.tar.gz
+[2024-04-09 04:08:00] WARNING root fetch - processPackages [image-sorting-tool]: Timeout reached during download
+[2024-04-09 04:08:00] INFO root fetch - processPackages [image-sorting-tool]: executing diffoscope
+[2024-04-09 04:08:00] INFO root fetch - processPackages [image-sorting-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-sorting-tool-1.1.1.tar.gz tmp/image-sorting-tool-1.1.2.tar.gz --markdown 20240409/i/image-sorting-tool/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-09 04:08:01] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-09 04:08:01] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.7.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.8.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - main [MainThread]: End processing [util_td]: success
+[2024-04-09 04:08:01] INFO root fetch - processPackages [image-sorting-tool]: Remove: archive file [/home/abi/fetcher/tmp/image-sorting-tool-1.1.1.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - processPackages [image-sorting-tool]: Remove: archive file [/home/abi/fetcher/tmp/image-sorting-tool-1.1.2.tar.gz]
+[2024-04-09 04:08:01] INFO root fetch - main [MainThread]: End processing [image-sorting-tool]: success
+[2024-04-09 04:08:01] INFO root fetch - main [MainThread]: Store serial: [22676660]
