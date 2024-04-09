@@ -21815,3 +21815,88 @@
 [2024-04-09 11:25:27] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.5.0a1712653598.tar.gz]
 [2024-04-09 11:25:27] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-04-09 11:25:27] INFO root fetch - main [MainThread]: Store serial: [22680983]
+[2024-04-09 11:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680983]
+[2024-04-09 11:27:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ih-common
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTelegramBotAPI
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webwithpy
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solara-assets
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dev-shell
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rclip
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcx
+[2024-04-09 11:27:36] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4.2] Old Version: [0.7.4.1]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [dcx]: New version: [0.78.0] Old Version: [0.77.0]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [rclip]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [dev-shell]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [solara-assets]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [pyTelegramBotAPI]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-09 11:27:36] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/6e/3c/96bf32d218a8b4869a800ed6d8bc3494570647da4bc7b2e9e05b859cd266/webwithpy-0.7.4.1.tar.gz
+[2024-04-09 11:27:36] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/99/74/d94f6ba09d4925e7c5949a96b4edf5aceb6245093c895b0310bfb89f63bc/rclip-1.8.1.tar.gz
+[2024-04-09 11:27:36] INFO root fetch - processPackages [dcx]: Downloading https://files.pythonhosted.org/packages/69/62/3531e9a7e8a59c74ae66f9389a4ab1a1284762e6351ea31116e19018756c/dcx-0.77.0.tar.gz
+[2024-04-09 11:27:36] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-09 11:27:36] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [dcx]: Timeout reached during download
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [ih-common]: Timeout reached during download
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dev-shell]: Downloading https://files.pythonhosted.org/packages/0d/f9/20e923e6b2eb0eade4d6ce5503de9d445a5855c596f31c58f167760cb287/dev_shell-0.7.0.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [solara-assets]: Downloading https://files.pythonhosted.org/packages/32/88/9e435f44c84a3837462449476bdf0c80f355c752ae05b8b5f3cd293219f1/solara_assets-1.8.2.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/69/bb/82ca44b25038344d807eee1f0022df33c786bad73f31505618ee1dee5167/pyTelegramBotAPI-4.8.0.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [dev-shell]: Timeout reached during download
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [pyTelegramBotAPI]: Timeout reached during download
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dcx]: Downloading https://files.pythonhosted.org/packages/13/84/a7e8078eb3fe4d5336691eebb579349f2c835c645e199917ef89577cafc5/dcx-0.78.0.tar.gz
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [ih-common]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240409/i/ih-common/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ba/e9/4cea27504d7413f806adda4ea5dc9d0f18d07071e6f8879f8d74797a8cac/rclip-1.8.2.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/10/1a/c27592996e083ac68080a3aa2825caedeb87028cf33a5bd6b2be9009d887/webwithpy-0.7.4.2.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.8.1.tar.gz tmp/rclip-1.8.2.tar.gz --markdown 20240409/r/rclip/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dev-shell]: Downloading https://files.pythonhosted.org/packages/3b/96/719977eef904a2042fdebf5f80e7a74e06a6f5b0d9f73689129595315501/dev_shell-0.8.0.tar.gz
+[2024-04-09 11:27:37] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/2e/6b/b3eaedc0a004c7a04a4b9ca941d38d0f94be4e9847dd537830a47218f436/pyTelegramBotAPI-4.9.0.tar.gz
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [dcx]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dcx]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcx-0.77.0.tar.gz tmp/dcx-0.78.0.tar.gz --markdown 20240409/d/dcx/0.77.0-0.78.0/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [webwithpy]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.4.1.tar.gz tmp/webwithpy-0.7.4.2.tar.gz --markdown 20240409/w/webwithpy/0.7.4.1-0.7.4.2/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [pyTelegramBotAPI]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [pyTelegramBotAPI]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [pyTelegramBotAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTelegramBotAPI-4.8.0.tar.gz tmp/pyTelegramBotAPI-4.9.0.tar.gz --markdown 20240409/p/pyTelegramBotAPI/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [dev-shell]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dev-shell]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [dev-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev_shell-0.7.0.tar.gz tmp/dev_shell-0.8.0.tar.gz --markdown 20240409/d/dev-shell/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-09 11:27:37] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-09 11:27:37] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240409/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2024-04-09 11:27:37] WARNING root fetch - processPackages [solara-assets]: Skipping package: exceeds size limit 31423360>=10485760
+[2024-04-09 11:27:37] INFO root fetch - main [MainThread]: End processing [solara-assets] error
+[2024-04-09 11:27:38] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-09 11:27:38] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.1.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.2.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 11:27:38] INFO root fetch - processPackages [dcx]: Remove: archive file [/home/abi/fetcher/tmp/dcx-0.77.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [dcx]: Remove: archive file [/home/abi/fetcher/tmp/dcx-0.78.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [dcx]: success
+[2024-04-09 11:27:38] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.1.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.2.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-09 11:27:38] INFO root fetch - processPackages [dev-shell]: Remove: archive file [/home/abi/fetcher/tmp/dev_shell-0.7.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [dev-shell]: Remove: archive file [/home/abi/fetcher/tmp/dev_shell-0.8.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [dev-shell]: success
+[2024-04-09 11:27:38] INFO root fetch - processPackages [pyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyTelegramBotAPI-4.8.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - processPackages [pyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyTelegramBotAPI-4.9.0.tar.gz]
+[2024-04-09 11:27:38] INFO root fetch - main [MainThread]: End processing [pyTelegramBotAPI]: success
+[2024-04-09 11:27:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-09 11:27:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-09 11:27:40] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-09 11:27:40] INFO root fetch - main [MainThread]: Store serial: [22681005]
