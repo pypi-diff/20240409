@@ -12850,3 +12850,72 @@
 [2024-04-09 05:38:18] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.1.1.tar.gz]
 [2024-04-09 05:38:18] INFO root fetch - main [MainThread]: End processing [lineartest]: success
 [2024-04-09 05:38:18] INFO root fetch - main [MainThread]: Store serial: [22677706]
+[2024-04-09 05:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677706]
+[2024-04-09 05:40:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paas-service
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sampa
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vloc-plugin-selenium
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google-beta
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-smpn
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-sms
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cxapit
+[2024-04-09 05:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vsensebox
+[2024-04-09 05:40:27] INFO root fetch - processPackages [cxapit]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-09 05:40:27] WARNING root fetch - processPackages [vsensebox]: Skipping, unable to determine old version
+[2024-04-09 05:40:27] INFO root fetch - main [MainThread]: End processing [vsensebox] error
+[2024-04-09 05:40:27] INFO root fetch - processPackages [sampa]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2024-04-09 05:40:27] WARNING root fetch - processPackages [vloc-plugin-selenium]: Skipping, unable to determine old version
+[2024-04-09 05:40:27] INFO root fetch - main [MainThread]: End processing [vloc-plugin-selenium] error
+[2024-04-09 05:40:27] INFO root fetch - processPackages [paas-service]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-09 05:40:27] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/55/5e/b8efc9b63a9dc8c08b36f191d2eef640c8716967c420e04a756bd7fb50b3/sampa-1.0.0.3.tar.gz
+[2024-04-09 05:40:27] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/f4/db/cb760fff36df1d3eab75ca9f68c63e89246e0ffdfa2da252a63ea67cd055/cxapit-1.0.5.tar.gz
+[2024-04-09 05:40:27] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-09 05:40:27] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:40:27] WARNING root fetch - processPackages [sampa]: Timeout reached during download
+[2024-04-09 05:40:27] INFO root fetch - processPackages [paas-service]: Downloading https://files.pythonhosted.org/packages/b1/61/d9b1f1966c0bca150f8c308c670655e574a4198dea73f04fbe82ddd4cb4a/paas_service-1.1.5.tar.gz
+[2024-04-09 05:40:27] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:40:27] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/6b/1d/26b78c5622a7e070e696eccc3cd63d7699fcc33f5ed33fa07891147b770b/cdktf-cdktf-provider-google_beta-9.0.4.tar.gz
+[2024-04-09 05:40:27] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Downloading https://files.pythonhosted.org/packages/00/3b/a7199cfc9dfe00dde4a529a945b800daf5eb1b70ea0d0383408cd259e4da/tencentcloud-sdk-python-smpn-3.0.998.tar.gz
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:40:28] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/7c/36/a786ad083c06d8e5fd2d56b861b7dc819cca2bf5bc7fb0cf8c6bb05cec5f/sampa-1.0.0.4.tar.gz
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [paas-service]: Timeout reached during download
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-smpn]: Timeout reached during download
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 24918885>=10485760
+[2024-04-09 05:40:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2024-04-09 05:40:28] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/09/30/0964e656169f84f22fbb89ebb6412e5237174b663b652a5b268d3bfb95ce/cxapit-1.0.6.tar.gz
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [sampa]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [sampa]: executing diffoscope
+[2024-04-09 05:40:28] INFO root fetch - processPackages [sampa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampa-1.0.0.3.tar.gz tmp/sampa-1.0.0.4.tar.gz --markdown 20240409/s/sampa/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2024-04-09 05:40:28] INFO root fetch - processPackages [paas-service]: Downloading https://files.pythonhosted.org/packages/a9/1d/3ada63e99dd6b72bfa02eb59eec4062ff35f18a40f10892ccfde8134f5c7/paas_service-1.1.6.tar.gz
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/cc/be/a0073f44484dd37666dbfe673eb566fb6021747d91fa22cd6b97e679a0bb/tencentcloud-sdk-python-sms-3.0.998.tar.gz
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 05:40:28] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.5.tar.gz tmp/cxapit-1.0.6.tar.gz --markdown 20240409/c/cxapit/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Downloading https://files.pythonhosted.org/packages/0e/ef/0176b825ba3fe021ef6889e36a7f3f9355f840a9a6acd19f3a127def4eb5/tencentcloud-sdk-python-smpn-3.0.999.tar.gz
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [paas-service]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [paas-service]: executing diffoscope
+[2024-04-09 05:40:28] INFO root fetch - processPackages [paas-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paas_service-1.1.5.tar.gz tmp/paas_service-1.1.6.tar.gz --markdown 20240409/p/paas-service/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-smpn]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: executing diffoscope
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-smpn-3.0.998.tar.gz tmp/tencentcloud-sdk-python-smpn-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-smpn/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-sms]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/8c/4a/d2ba3aee1f575afb2c32eac6c58328b57732522cdcda6e867ce1862f4110/tencentcloud-sdk-python-sms-3.0.999.tar.gz
+[2024-04-09 05:40:28] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.3.tar.gz]
+[2024-04-09 05:40:28] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.4.tar.gz]
+[2024-04-09 05:40:28] INFO root fetch - main [MainThread]: End processing [sampa]: success
+[2024-04-09 05:40:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-sms]: Timeout reached during download
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: executing diffoscope
+[2024-04-09 05:40:28] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-sms/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:40:28] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.5.tar.gz]
+[2024-04-09 05:40:28] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.6.tar.gz]
+[2024-04-09 05:40:28] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 05:40:29] INFO root fetch - processPackages [paas-service]: Remove: archive file [/home/abi/fetcher/tmp/paas_service-1.1.5.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - processPackages [paas-service]: Remove: archive file [/home/abi/fetcher/tmp/paas_service-1.1.6.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - main [MainThread]: End processing [paas-service]: success
+[2024-04-09 05:40:29] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smpn-3.0.998.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smpn-3.0.999.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smpn]: success
+[2024-04-09 05:40:29] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz]
+[2024-04-09 05:40:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sms]: success
+[2024-04-09 05:40:29] INFO root fetch - main [MainThread]: Store serial: [22677730]
