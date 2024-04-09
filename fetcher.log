@@ -18953,3 +18953,58 @@
 [2024-04-09 09:58:04] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.1.0.tar.gz]
 [2024-04-09 09:58:04] INFO root fetch - main [MainThread]: End processing [s2fft]: success
 [2024-04-09 09:58:04] INFO root fetch - main [MainThread]: Store serial: [22679945]
+[2024-04-09 10:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679945]
+[2024-04-09 10:00:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vloc-plugin-selenium
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cut-detector
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imagedata
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ommx
+[2024-04-09 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fta
+[2024-04-09 10:00:13] INFO root fetch - processPackages [vloc-plugin-selenium]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 10:00:13] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc3] Old Version: [3.5.1rc2]
+[2024-04-09 10:00:13] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/a6/dd/278d25a558ec0d203007076b13a57518ee94b36330d78470fea1d13f3895/vloc_plugin_selenium-0.0.3.tar.gz
+[2024-04-09 10:00:13] INFO root fetch - processPackages [cut-detector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:00:13] ERROR root fetch - processPackages [fta]: Unable to get metadata: No such project 'fta'
+[2024-04-09 10:00:13] INFO root fetch - main [MainThread]: End processing [fta] error
+[2024-04-09 10:00:13] INFO root fetch - processPackages [ommx]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-09 10:00:13] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240409] Old Version: [2.17.0.dev20240408]
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [vloc-plugin-selenium]: Timeout reached during download
+[2024-04-09 10:00:13] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/10/6c/054594edd3397b4fb764ab074cd9318dd04d867e5fd2e88c7f8b3aa4ffbb/imagedata-3.5.1rc2.tar.gz
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631690>=10485760
+[2024-04-09 10:00:13] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-09 10:00:13] INFO root fetch - processPackages [ommx]: Downloading https://files.pythonhosted.org/packages/d2/a3/7838cabb2b8c69f1a97f5f6c7dec911302764c7ced37e4302a46d28295c9/ommx-0.0.1.tar.gz
+[2024-04-09 10:00:13] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/a4/e8/c914e8c6b2f2289cbc9e36478c72afbfa6b99c930cbc131205a8c3e937f6/cut-detector-0.0.8.tar.gz
+[2024-04-09 10:00:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/aa/5d/db005207540c0903e1d4d57365b797dc6d7ecab0e395b78b5408b77e5ab5/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl
+[2024-04-09 10:00:13] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/04/fd/59dd523d9a273472fbb08cca48fd8709642d210720da1c8b4f0e882f7839/vloc_plugin_selenium-0.0.4.tar.gz
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [ommx]: Timeout reached during download
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [cut-detector]: Timeout reached during download
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [vloc-plugin-selenium]: Timeout reached during download
+[2024-04-09 10:00:13] INFO root fetch - processPackages [vloc-plugin-selenium]: executing diffoscope
+[2024-04-09 10:00:13] INFO root fetch - processPackages [vloc-plugin-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin_selenium-0.0.3.tar.gz tmp/vloc_plugin_selenium-0.0.4.tar.gz --markdown 20240409/v/vloc-plugin-selenium/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 10:00:13] INFO root fetch - processPackages [ommx]: Downloading https://files.pythonhosted.org/packages/60/32/06a01198662fca087dbb6c697c3b9ecab5ca22ec0ca6aad9525073fcb5e5/ommx-0.1.0.tar.gz
+[2024-04-09 10:00:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c0/b0/ade2774284c31f1c6cf0dc5e489017634c8478fa52aa238beec9777db888/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl
+[2024-04-09 10:00:13] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/78/63/43b98e6af539058f60d3f4e599d03537136fdcba329ac11739abd86083f8/cut-detector-0.0.9.tar.gz
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [ommx]: Timeout reached during download
+[2024-04-09 10:00:13] INFO root fetch - processPackages [ommx]: executing diffoscope
+[2024-04-09 10:00:13] INFO root fetch - processPackages [ommx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ommx-0.0.1.tar.gz tmp/ommx-0.1.0.tar.gz --markdown 20240409/o/ommx/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [cut-detector]: Timeout reached during download
+[2024-04-09 10:00:13] INFO root fetch - processPackages [cut-detector]: executing diffoscope
+[2024-04-09 10:00:13] INFO root fetch - processPackages [cut-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cut-detector-0.0.8.tar.gz tmp/cut-detector-0.0.9.tar.gz --markdown 20240409/c/cut-detector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:00:13] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-09 10:00:13] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-09 10:00:13] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip --markdown 20240409/t/tf-nightly/2.17.0.dev20240408-2.17.0.dev20240409/diff.md --exclude *.pyd
+[2024-04-09 10:00:14] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.3.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.4.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - main [MainThread]: End processing [vloc-plugin-selenium]: success
+[2024-04-09 10:00:14] INFO root fetch - processPackages [ommx]: Remove: archive file [/home/abi/fetcher/tmp/ommx-0.0.1.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - processPackages [ommx]: Remove: archive file [/home/abi/fetcher/tmp/ommx-0.1.0.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - main [MainThread]: End processing [ommx]: success
+[2024-04-09 10:00:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 10:00:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 10:00:14] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-09 10:00:14] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.8.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.9.tar.gz]
+[2024-04-09 10:00:14] INFO root fetch - main [MainThread]: End processing [cut-detector]: success
+[2024-04-09 10:00:14] INFO root fetch - main [MainThread]: Store serial: [22679967]
