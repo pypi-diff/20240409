@@ -9570,3 +9570,39 @@
 [2024-04-09 04:27:44] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.2-cp312-none-macosx_10_9_universal2.whl.zip]
 [2024-04-09 04:27:44] INFO root fetch - main [MainThread]: End processing [anyon]: success
 [2024-04-09 04:27:44] INFO root fetch - main [MainThread]: Store serial: [22676769]
+[2024-04-09 04:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676769]
+[2024-04-09 04:29:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 04:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seaplane
+[2024-04-09 04:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-jupyter
+[2024-04-09 04:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: util_td
+[2024-04-09 04:29:54] INFO root fetch - processPackages [util_td]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 04:29:54] INFO root fetch - processPackages [mkdocs-jupyter]: New version: [0.9.0] Old Version: [0.24.6]
+[2024-04-09 04:29:54] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/cf/8c/7e65bc9585bb223d1a500cd94394502b6ed5a74829579e3fb7a69ede2c53/util_td-0.0.8.tar.gz
+[2024-04-09 04:29:54] INFO root fetch - processPackages [seaplane]: New version: [0.6a9] Old Version: [0.6a8]
+[2024-04-09 04:29:54] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:29:54] INFO root fetch - processPackages [mkdocs-jupyter]: Downloading https://files.pythonhosted.org/packages/e7/d6/b303941b1d40c570574e9242f56396b750b87e1d50064f68c4c78fcc09ef/mkdocs_jupyter-0.24.6.tar.gz
+[2024-04-09 04:29:54] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/52/9e/39ef74a46474a3613b9e9419253c0350568899819985a492b5f7b8e68889/util_td-0.0.9.tar.gz
+[2024-04-09 04:29:54] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/04/dc/2ce684388fd09571ac42495b70c05571bfe81f9789cc84e483e1368b8c5c/seaplane-0.6a8.tar.gz
+[2024-04-09 04:29:54] WARNING root fetch - processPackages [util_td]: Timeout reached during download
+[2024-04-09 04:29:54] INFO root fetch - processPackages [util_td]: executing diffoscope
+[2024-04-09 04:29:54] INFO root fetch - processPackages [util_td]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/util_td-0.0.8.tar.gz tmp/util_td-0.0.9.tar.gz --markdown 20240409/u/util_td/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 04:29:54] WARNING root fetch - processPackages [seaplane]: Timeout reached during download
+[2024-04-09 04:29:54] WARNING root fetch - processPackages [mkdocs-jupyter]: Timeout reached during download
+[2024-04-09 04:29:54] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f1/5a/1fe41b722a3a104c44fe09fec599272ee8aef30de93b169fde92a324d98d/seaplane-0.6a9.tar.gz
+[2024-04-09 04:29:54] WARNING root fetch - processPackages [seaplane]: Timeout reached during download
+[2024-04-09 04:29:54] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2024-04-09 04:29:54] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.6a8.tar.gz tmp/seaplane-0.6a9.tar.gz --markdown 20240409/s/seaplane/0.6a8-0.6a9/diff.md --exclude *.pyd
+[2024-04-09 04:29:54] INFO root fetch - processPackages [mkdocs-jupyter]: Downloading https://files.pythonhosted.org/packages/77/47/c38d6d412c6ae0b8c112a60d39faf81ee5dd504f50b831de791883cbf085/mkdocs-jupyter-0.9.0.tar.gz
+[2024-04-09 04:29:55] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.8.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.9.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - main [MainThread]: End processing [util_td]: success
+[2024-04-09 04:29:55] WARNING root fetch - processPackages [mkdocs-jupyter]: Timeout reached during download
+[2024-04-09 04:29:55] INFO root fetch - processPackages [mkdocs-jupyter]: executing diffoscope
+[2024-04-09 04:29:55] INFO root fetch - processPackages [mkdocs-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_jupyter-0.24.6.tar.gz tmp/mkdocs-jupyter-0.9.0.tar.gz --markdown 20240409/m/mkdocs-jupyter/0.24.6-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 04:29:55] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a8.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a9.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2024-04-09 04:29:55] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_jupyter-0.24.6.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - processPackages [mkdocs-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-jupyter-0.9.0.tar.gz]
+[2024-04-09 04:29:55] INFO root fetch - main [MainThread]: End processing [mkdocs-jupyter]: success
+[2024-04-09 04:29:55] INFO root fetch - main [MainThread]: Store serial: [22676777]
