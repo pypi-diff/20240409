@@ -22813,3 +22813,83 @@
 [2024-04-09 11:48:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-04-09 11:48:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-04-09 11:48:26] INFO root fetch - main [MainThread]: Store serial: [22681449]
+[2024-04-09 11:50:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681449]
+[2024-04-09 11:50:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycaption
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-cofoldinginput
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xspline
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkatlas
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: social-interaction-cloud
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alerta-server
+[2024-04-09 11:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bankid6
+[2024-04-09 11:50:36] INFO root fetch - processPackages [gradio-cofoldinginput]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [social-interaction-cloud]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [xspline]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [bankid6]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-09 11:50:36] INFO root fetch - processPackages [alerta-server]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-09 11:50:36] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/f4/f9/cffa588a02fc4a706532b5ce859205cd936c469a84f062baef9f72e87db1/social_interaction_cloud-1.2.3.tar.gz
+[2024-04-09 11:50:36] INFO root fetch - processPackages [pycaption]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-04-09 11:50:37] INFO root fetch - processPackages [gradio-cofoldinginput]: Downloading https://files.pythonhosted.org/packages/34/61/08f64f9ed70286be01dabad0463d25ff7b11b41761745a1aff5f2388db2b/gradio_cofoldinginput-0.0.2.tar.gz
+[2024-04-09 11:50:37] INFO root fetch - processPackages [xspline]: Downloading https://files.pythonhosted.org/packages/82/a4/8fd1f7cc07a584e21fc6beaa4e14cf742a87fea73109baf367758a40d424/xspline-0.1.0.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [social-interaction-cloud]: Timeout reached during download
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [alerta-server]: Downloading https://files.pythonhosted.org/packages/ca/f3/ef6fcec1dbbd354ab55b4244c4eaa7f33605917a9378cc10080bb98a784a/alerta-server-9.0.1.tar.gz
+[2024-04-09 11:50:37] INFO root fetch - processPackages [bankid6]: Downloading https://files.pythonhosted.org/packages/12/76/515793830d10cd5322ba287a2877c6f945f2e298556736f142d4d0484abc/bankid6-1.0.3.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [gradio-cofoldinginput]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/2d/1d/d6f5bc2d2a326e5be3529208ccf42051ea404509e840946fb03c8d66f598/pycaption-2.2.5.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [xspline]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-09 11:50:37] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/29/de/8e870bd124945bc0ee6e772ead40baf6a922ba1a89a674a4f68f77e4b410/social_interaction_cloud-1.2.4.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240409/c/checkatlas/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] INFO root fetch - processPackages [gradio-cofoldinginput]: Downloading https://files.pythonhosted.org/packages/6c/98/5f0f3517c9aa69a115558ac4c9f039cd49750ac1c1c64ddd79f5e3eda3b9/gradio_cofoldinginput-0.0.3.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [bankid6]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [xspline]: Downloading https://files.pythonhosted.org/packages/29/24/bc044a053346d8307811a73f5e8d34de4f87c261e2850e9c072f99a0f619/xspline-0.1.1.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [social-interaction-cloud]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [social-interaction-cloud]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [social-interaction-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_interaction_cloud-1.2.3.tar.gz tmp/social_interaction_cloud-1.2.4.tar.gz --markdown 20240409/s/social-interaction-cloud/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [pycaption]: Timeout reached during download
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [alerta-server]: Timeout reached during download
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [xspline]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [xspline]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [xspline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspline-0.1.0.tar.gz tmp/xspline-0.1.1.tar.gz --markdown 20240409/x/xspline/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [gradio-cofoldinginput]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [gradio-cofoldinginput]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [gradio-cofoldinginput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_cofoldinginput-0.0.2.tar.gz tmp/gradio_cofoldinginput-0.0.3.tar.gz --markdown 20240409/g/gradio-cofoldinginput/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] INFO root fetch - processPackages [bankid6]: Downloading https://files.pythonhosted.org/packages/d2/86/b06fab7be4497e482803741a1d377d525eb55894432a89034dc7a0bde90e/bankid6-1.0.4.tar.gz
+[2024-04-09 11:50:37] INFO root fetch - processPackages [alerta-server]: Downloading https://files.pythonhosted.org/packages/75/1a/bd1411ff089e54c1a18e7a23cc8b867a07aa6e0eb77c21ce8b4ff0379f01/alerta-server-9.0.2.tar.gz
+[2024-04-09 11:50:37] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/75/0a/c33def38c44b774fc481f2ae72c1010fecb2ee2461982d96d2c125faa7d3/pycaption-2.2.6.tar.gz
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [bankid6]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [bankid6]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [bankid6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bankid6-1.0.3.tar.gz tmp/bankid6-1.0.4.tar.gz --markdown 20240409/b/bankid6/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [alerta-server]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [alerta-server]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [alerta-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alerta-server-9.0.1.tar.gz tmp/alerta-server-9.0.2.tar.gz --markdown 20240409/a/alerta-server/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2024-04-09 11:50:37] WARNING root fetch - processPackages [pycaption]: Timeout reached during download
+[2024-04-09 11:50:37] INFO root fetch - processPackages [pycaption]: executing diffoscope
+[2024-04-09 11:50:37] INFO root fetch - processPackages [pycaption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaption-2.2.5.tar.gz tmp/pycaption-2.2.6.tar.gz --markdown 20240409/p/pycaption/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2024-04-09 11:50:38] INFO root fetch - processPackages [xspline]: Remove: archive file [/home/abi/fetcher/tmp/xspline-0.1.0.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - processPackages [xspline]: Remove: archive file [/home/abi/fetcher/tmp/xspline-0.1.1.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - main [MainThread]: End processing [xspline]: success
+[2024-04-09 11:50:38] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.3.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.4.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - main [MainThread]: End processing [social-interaction-cloud]: success
+[2024-04-09 11:50:38] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 11:50:38] INFO root fetch - processPackages [bankid6]: Remove: archive file [/home/abi/fetcher/tmp/bankid6-1.0.3.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - processPackages [bankid6]: Remove: archive file [/home/abi/fetcher/tmp/bankid6-1.0.4.tar.gz]
+[2024-04-09 11:50:38] INFO root fetch - main [MainThread]: End processing [bankid6]: success
+[2024-04-09 11:50:39] INFO root fetch - processPackages [alerta-server]: Remove: archive file [/home/abi/fetcher/tmp/alerta-server-9.0.1.tar.gz]
+[2024-04-09 11:50:39] INFO root fetch - processPackages [alerta-server]: Remove: archive file [/home/abi/fetcher/tmp/alerta-server-9.0.2.tar.gz]
+[2024-04-09 11:50:39] INFO root fetch - main [MainThread]: End processing [alerta-server]: success
+[2024-04-09 11:50:39] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.5.tar.gz]
+[2024-04-09 11:50:39] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.6.tar.gz]
+[2024-04-09 11:50:39] INFO root fetch - main [MainThread]: End processing [pycaption]: success
+[2024-04-09 11:50:44] INFO root fetch - processPackages [gradio-cofoldinginput]: Remove: archive file [/home/abi/fetcher/tmp/gradio_cofoldinginput-0.0.2.tar.gz]
+[2024-04-09 11:50:44] INFO root fetch - processPackages [gradio-cofoldinginput]: Remove: archive file [/home/abi/fetcher/tmp/gradio_cofoldinginput-0.0.3.tar.gz]
+[2024-04-09 11:50:44] INFO root fetch - main [MainThread]: End processing [gradio-cofoldinginput]: success
+[2024-04-09 11:50:44] INFO root fetch - main [MainThread]: Store serial: [22681473]
