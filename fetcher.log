@@ -12478,3 +12478,55 @@
 [2024-04-09 05:27:23] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2024-04-09 05:27:23] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2024-04-09 05:27:23] INFO root fetch - main [MainThread]: Store serial: [22677599]
+[2024-04-09 05:29:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677599]
+[2024-04-09 05:29:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 05:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcl-python
+[2024-04-09 05:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-kubernetes
+[2024-04-09 05:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btc-embedded
+[2024-04-09 05:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packyak-aws-cdk
+[2024-04-09 05:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-auth
+[2024-04-09 05:29:31] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.9] Old Version: [24.1.6]
+[2024-04-09 05:29:32] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-04-09 05:29:32] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-04-09 05:29:32] INFO root fetch - processPackages [pcl-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 05:29:32] INFO root fetch - processPackages [edc-auth]: New version: [0.3.9] Old Version: [0.3.86]
+[2024-04-09 05:29:32] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/0d/55/e01385a7f544c485d06c4d9a9aeb94e1df5b1d956c9521b2d35639836ec2/btc_embedded-24.1.9.tar.gz
+[2024-04-09 05:29:32] INFO root fetch - processPackages [pcl-python]: Downloading https://files.pythonhosted.org/packages/dd/73/b1e158991edeb6dfc44cf80b64427ab51c2333138ae745ac430c990b81e1/pcl_python-0.0.1-cp312-cp312-manylinux2014_x86_64.whl
+[2024-04-09 05:29:32] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/ac/20/92f7988c08d241edae2a8f701335537080fedfffa0c2b5637d05a87517bf/edc-auth-0.3.86.tar.gz
+[2024-04-09 05:29:32] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-04-09 05:29:32] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Downloading https://files.pythonhosted.org/packages/ab/97/2a5448fe142a023aab9440837d10f2a5cf6e4bfc25006b1710dbd60182de/cdktf-cdktf-provider-kubernetes-8.0.1.tar.gz
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Skipping package: exceeds size limit 15265596>=10485760
+[2024-04-09 05:29:32] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-kubernetes] error
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.6.tar.gz tmp/btc_embedded-24.1.9.tar.gz --markdown 20240409/b/btc-embedded/24.1.6-24.1.9/diff.md --exclude *.pyd
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [pcl-python]: Timeout reached during download
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [packyak-aws-cdk]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-04-09 05:29:32] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240409/p/packyak-aws-cdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [edc-auth]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [pcl-python]: Downloading https://files.pythonhosted.org/packages/24/75/e9d38a3277b1f0c8a1439c0c52d742fe38fbe4bd8472f0d5a7a419852e59/pcl_python-0.0.2-cp312-cp312-manylinux2014_x86_64.whl
+[2024-04-09 05:29:32] INFO root fetch - processPackages [edc-auth]: Downloading https://files.pythonhosted.org/packages/63/36/404b92dd95bce03bc0fafd2cf5a0f3e72bc2176ca44f89ee75c57f685864/edc_auth-0.3.9-py2.py3-none-any.whl
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [pcl-python]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [pcl-python]: executing diffoscope
+[2024-04-09 05:29:32] INFO root fetch - processPackages [pcl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcl_python-0.0.1-cp312-cp312-manylinux2014_x86_64.whl.zip tmp/pcl_python-0.0.2-cp312-cp312-manylinux2014_x86_64.whl.zip --markdown 20240409/p/pcl-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 05:29:32] WARNING root fetch - processPackages [edc-auth]: Timeout reached during download
+[2024-04-09 05:29:32] INFO root fetch - processPackages [edc-auth]: executing diffoscope
+[2024-04-09 05:29:32] INFO root fetch - processPackages [edc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-auth-0.3.86.tar.gz tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip --markdown 20240409/e/edc-auth/0.3.86-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-04-09 05:29:32] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.9.tar.gz]
+[2024-04-09 05:29:32] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-09 05:29:33] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc-auth-0.3.86.tar.gz]
+[2024-04-09 05:29:33] INFO root fetch - processPackages [edc-auth]: Remove: archive file [/home/abi/fetcher/tmp/edc_auth-0.3.9-py2.py3-none-any.whl.zip]
+[2024-04-09 05:29:33] INFO root fetch - main [MainThread]: End processing [edc-auth]: success
+[2024-04-09 05:29:33] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-04-09 05:29:33] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-04-09 05:29:33] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-04-09 05:29:33] INFO root fetch - processPackages [pcl-python]: Remove: archive file [/home/abi/fetcher/tmp/pcl_python-0.0.1-cp312-cp312-manylinux2014_x86_64.whl.zip]
+[2024-04-09 05:29:33] INFO root fetch - processPackages [pcl-python]: Remove: archive file [/home/abi/fetcher/tmp/pcl_python-0.0.2-cp312-cp312-manylinux2014_x86_64.whl.zip]
+[2024-04-09 05:29:33] INFO root fetch - main [MainThread]: End processing [pcl-python]: success
+[2024-04-09 05:29:33] INFO root fetch - main [MainThread]: Store serial: [22677613]
