@@ -13173,3 +13173,20 @@
 [2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz]
 [2024-04-09 05:47:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
 [2024-04-09 05:47:02] INFO root fetch - main [MainThread]: Store serial: [22677801]
+[2024-04-09 05:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677801]
+[2024-04-09 05:49:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 05:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodcrap
+[2024-04-09 05:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordgoblin
+[2024-04-09 05:49:11] INFO root fetch - processPackages [goodcrap]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-09 05:49:11] WARNING root fetch - processPackages [wordgoblin]: Skipping, unable to determine old version
+[2024-04-09 05:49:11] INFO root fetch - main [MainThread]: End processing [wordgoblin] error
+[2024-04-09 05:49:12] INFO root fetch - processPackages [goodcrap]: Downloading https://files.pythonhosted.org/packages/98/fd/70dc0af0946886e983d41c4609d51020ba7250bf970cd7b3a17d109a3541/goodcrap-0.2.4.tar.gz
+[2024-04-09 05:49:12] WARNING root fetch - processPackages [goodcrap]: Timeout reached during download
+[2024-04-09 05:49:12] INFO root fetch - processPackages [goodcrap]: Downloading https://files.pythonhosted.org/packages/c1/dd/4c9725bf2792485c8ed8204148bfb8fbca3e0f39615a305282191a007043/goodcrap-0.2.5.tar.gz
+[2024-04-09 05:49:12] WARNING root fetch - processPackages [goodcrap]: Timeout reached during download
+[2024-04-09 05:49:12] INFO root fetch - processPackages [goodcrap]: executing diffoscope
+[2024-04-09 05:49:12] INFO root fetch - processPackages [goodcrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodcrap-0.2.4.tar.gz tmp/goodcrap-0.2.5.tar.gz --markdown 20240409/g/goodcrap/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-09 05:49:13] INFO root fetch - processPackages [goodcrap]: Remove: archive file [/home/abi/fetcher/tmp/goodcrap-0.2.4.tar.gz]
+[2024-04-09 05:49:13] INFO root fetch - processPackages [goodcrap]: Remove: archive file [/home/abi/fetcher/tmp/goodcrap-0.2.5.tar.gz]
+[2024-04-09 05:49:13] INFO root fetch - main [MainThread]: End processing [goodcrap]: success
+[2024-04-09 05:49:13] INFO root fetch - main [MainThread]: Store serial: [22677810]
