@@ -18325,3 +18325,86 @@
 [2024-04-09 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-09 09:35:38] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-09 09:35:38] INFO root fetch - main [MainThread]: Store serial: [22679679]
+[2024-04-09 09:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679679]
+[2024-04-09 09:37:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-brouillons
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-call-graph
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benchmarkfcns
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aio-code-editor
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluent-alchemy
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-json-report
+[2024-04-09 09:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scim-client
+[2024-04-09 09:37:49] INFO root fetch - processPackages [scim-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.1.dev20240408221134] Old Version: [0.3.1.dev20240408125117]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [aio-code-editor]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [fluent-alchemy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/d7/04/72633d158649ebe4b10df4219e83958a7357402cfa96a05e908cb1f4e555/scim_client-0.1.7.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [django-brouillons]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [mypy-json-report]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [benchmarkfcns]: Skipping, unable to determine old version
+[2024-04-09 09:37:49] INFO root fetch - main [MainThread]: End processing [benchmarkfcns] error
+[2024-04-09 09:37:49] INFO root fetch - processPackages [python-call-graph]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-09 09:37:49] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/25/88/1e05253e01c82d468c5dc34a38b48f5a2a4e67ad0a2f2bf3337f54b75e7b/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [scim-client]: Timeout reached during download
+[2024-04-09 09:37:49] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/1c/8d/71df612a23ef80402cbe5c3da78ce3341ca62ac168db78bc59fbb578a113/aio_code_editor-0.6.3.tar.gz
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-09 09:37:49] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/f2/63/023d2b0f4b96beaf727a7d510a0713f1456c763285707535efd8150bb83e/scim_client-0.1.8.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [fluent-alchemy]: Downloading https://files.pythonhosted.org/packages/ba/62/6ff76670a57ce77c228f622045fe6e308a23f745d2c4e240529bff5269b2/fluent_alchemy-0.0.1.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [django-brouillons]: Downloading https://files.pythonhosted.org/packages/0c/a3/a0df846b1d45b860038459db5bfa2004d226e5ad546e7974271af7076ed2/django_brouillons-0.0.2.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [python-call-graph]: Downloading https://files.pythonhosted.org/packages/ff/e9/5ac7accc66edb0c3e7a41f45b8e7e68aa5b81aa2d71c24e4b3c6d62ffcc9/python-call-graph-2.1.1.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [mypy-json-report]: Downloading https://files.pythonhosted.org/packages/f9/82/013fd027ba28d302695144021d7d089e99f99289eb68dfe8f816143e652d/mypy_json_report-1.1.0.tar.gz
+[2024-04-09 09:37:49] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/9c/83/f1fed1a155b80c3e23a4e0b98405093d224f2b15e79baa60de2106e3c897/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [scim-client]: Timeout reached during download
+[2024-04-09 09:37:49] INFO root fetch - processPackages [scim-client]: executing diffoscope
+[2024-04-09 09:37:49] INFO root fetch - processPackages [scim-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scim_client-0.1.7.tar.gz tmp/scim_client-0.1.8.tar.gz --markdown 20240409/s/scim-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [django-brouillons]: Timeout reached during download
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [fluent-alchemy]: Timeout reached during download
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [python-call-graph]: Timeout reached during download
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-09 09:37:49] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-09 09:37:49] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz tmp/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz --markdown 20240409/k/konfuzio-sdk/0.3.1.dev20240408125117-0.3.1.dev20240408221134/diff.md --exclude *.pyd
+[2024-04-09 09:37:49] WARNING root fetch - processPackages [mypy-json-report]: Timeout reached during download
+[2024-04-09 09:37:50] INFO root fetch - processPackages [django-brouillons]: Downloading https://files.pythonhosted.org/packages/be/ba/f3d50a396a602e51461e4072757f75974f4bd930ff8a17b33b5bc2df4919/django_brouillons-0.0.3.tar.gz
+[2024-04-09 09:37:50] INFO root fetch - processPackages [fluent-alchemy]: Downloading https://files.pythonhosted.org/packages/e7/27/4bca5f51e6ccadbf686f02ce1814b52d2458548f366934c4ab61a755dd0e/fluent_alchemy-0.0.2.tar.gz
+[2024-04-09 09:37:50] INFO root fetch - processPackages [aio-code-editor]: Downloading https://files.pythonhosted.org/packages/5e/82/bafd69178706e05a4081a8efe1427d5e7fc6ddc9e157134184f29fb04849/aio_code_editor-0.7.0.tar.gz
+[2024-04-09 09:37:50] INFO root fetch - processPackages [python-call-graph]: Downloading https://files.pythonhosted.org/packages/dd/06/cd84a0a7b851d4c07c8281ddae7bf1aed83036f22b753f40090f5075818d/python-call-graph-2.1.2.tar.gz
+[2024-04-09 09:37:50] INFO root fetch - processPackages [mypy-json-report]: Downloading https://files.pythonhosted.org/packages/31/75/dbe801c0119d38b0f8b2c9ac5beebc8d553ed92bb1edf73bbf3bef21fcf4/mypy_json_report-1.2.0.tar.gz
+[2024-04-09 09:37:50] WARNING root fetch - processPackages [django-brouillons]: Timeout reached during download
+[2024-04-09 09:37:50] INFO root fetch - processPackages [django-brouillons]: executing diffoscope
+[2024-04-09 09:37:50] INFO root fetch - processPackages [django-brouillons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_brouillons-0.0.2.tar.gz tmp/django_brouillons-0.0.3.tar.gz --markdown 20240409/d/django-brouillons/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 09:37:50] WARNING root fetch - processPackages [fluent-alchemy]: Timeout reached during download
+[2024-04-09 09:37:50] INFO root fetch - processPackages [fluent-alchemy]: executing diffoscope
+[2024-04-09 09:37:50] INFO root fetch - processPackages [fluent-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluent_alchemy-0.0.1.tar.gz tmp/fluent_alchemy-0.0.2.tar.gz --markdown 20240409/f/fluent-alchemy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 09:37:50] WARNING root fetch - processPackages [aio-code-editor]: Timeout reached during download
+[2024-04-09 09:37:50] INFO root fetch - processPackages [aio-code-editor]: executing diffoscope
+[2024-04-09 09:37:50] INFO root fetch - processPackages [aio-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_code_editor-0.6.3.tar.gz tmp/aio_code_editor-0.7.0.tar.gz --markdown 20240409/a/aio-code-editor/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 09:37:50] WARNING root fetch - processPackages [python-call-graph]: Timeout reached during download
+[2024-04-09 09:37:50] WARNING root fetch - processPackages [mypy-json-report]: Timeout reached during download
+[2024-04-09 09:37:50] INFO root fetch - processPackages [python-call-graph]: executing diffoscope
+[2024-04-09 09:37:50] INFO root fetch - processPackages [python-call-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-call-graph-2.1.1.tar.gz tmp/python-call-graph-2.1.2.tar.gz --markdown 20240409/p/python-call-graph/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-09 09:37:50] INFO root fetch - processPackages [mypy-json-report]: executing diffoscope
+[2024-04-09 09:37:50] INFO root fetch - processPackages [mypy-json-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_json_report-1.1.0.tar.gz tmp/mypy_json_report-1.2.0.tar.gz --markdown 20240409/m/mypy-json-report/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-09 09:37:50] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.7.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.8.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - main [MainThread]: End processing [scim-client]: success
+[2024-04-09 09:37:50] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-09 09:37:50] INFO root fetch - processPackages [fluent-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fluent_alchemy-0.0.1.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - processPackages [fluent-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fluent_alchemy-0.0.2.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - main [MainThread]: End processing [fluent-alchemy]: success
+[2024-04-09 09:37:50] INFO root fetch - processPackages [django-brouillons]: Remove: archive file [/home/abi/fetcher/tmp/django_brouillons-0.0.2.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - processPackages [django-brouillons]: Remove: archive file [/home/abi/fetcher/tmp/django_brouillons-0.0.3.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - main [MainThread]: End processing [django-brouillons]: success
+[2024-04-09 09:37:50] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.6.3.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - processPackages [aio-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/aio_code_editor-0.7.0.tar.gz]
+[2024-04-09 09:37:50] INFO root fetch - main [MainThread]: End processing [aio-code-editor]: success
+[2024-04-09 09:37:51] INFO root fetch - processPackages [mypy-json-report]: Remove: archive file [/home/abi/fetcher/tmp/mypy_json_report-1.1.0.tar.gz]
+[2024-04-09 09:37:51] INFO root fetch - processPackages [mypy-json-report]: Remove: archive file [/home/abi/fetcher/tmp/mypy_json_report-1.2.0.tar.gz]
+[2024-04-09 09:37:51] INFO root fetch - main [MainThread]: End processing [mypy-json-report]: success
+[2024-04-09 09:37:51] INFO root fetch - processPackages [python-call-graph]: Remove: archive file [/home/abi/fetcher/tmp/python-call-graph-2.1.1.tar.gz]
+[2024-04-09 09:37:51] INFO root fetch - processPackages [python-call-graph]: Remove: archive file [/home/abi/fetcher/tmp/python-call-graph-2.1.2.tar.gz]
+[2024-04-09 09:37:51] INFO root fetch - main [MainThread]: End processing [python-call-graph]: success
+[2024-04-09 09:37:51] INFO root fetch - main [MainThread]: Store serial: [22679760]
