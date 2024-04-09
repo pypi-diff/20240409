@@ -14335,3 +14335,64 @@
 [2024-04-09 06:35:17] INFO root fetch - processPackages [leakysim]: Remove: archive file [/home/abi/fetcher/tmp/leakysim-0.2.1-cp38-cp38-macosx_11_0_arm64.whl.zip]
 [2024-04-09 06:35:17] INFO root fetch - main [MainThread]: End processing [leakysim]: success
 [2024-04-09 06:35:17] INFO root fetch - main [MainThread]: Store serial: [22678247]
+[2024-04-09 06:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678247]
+[2024-04-09 06:37:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cobaya-utilities
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: presentation-card
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: property-utils
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lucupy
+[2024-04-09 06:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accmt
+[2024-04-09 06:37:26] INFO root fetch - processPackages [vloc]: New version: [0.1.9] Old Version: [0.1.11]
+[2024-04-09 06:37:26] INFO root fetch - processPackages [presentation-card]: New version: [0.1.7] Old Version: [0.1.4]
+[2024-04-09 06:37:26] INFO root fetch - processPackages [cobaya-utilities]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-09 06:37:26] INFO root fetch - processPackages [accmt]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [property-utils]: Skipping, unable to determine old version
+[2024-04-09 06:37:26] INFO root fetch - main [MainThread]: End processing [property-utils] error
+[2024-04-09 06:37:26] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-04-09 06:37:26] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/41/4f/bc52262c051d3bbd8045da3f614187737ed236d898a80574b99718370aba/vloc-0.1.11.tar.gz
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:37:26] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/10/7b/1d8679447e59aea2d63d7d31bfa79c3e5fd964fff2d69cf8029fb8bbb4eb/lucupy-0.1.84.tar.gz
+[2024-04-09 06:37:26] INFO root fetch - processPackages [presentation-card]: Downloading https://files.pythonhosted.org/packages/79/e7/6a27c2a1c640ebc998d847344fcc0eb1b4e750e833f0014363dfae432a33/presentation-card-0.1.4.tar.gz
+[2024-04-09 06:37:26] INFO root fetch - processPackages [cobaya-utilities]: Downloading https://files.pythonhosted.org/packages/48/d4/9202bd0cd29ecb38c00453b88353e75025498187dddee0d4804ebb33ece7/cobaya_utilities-0.2.9.tar.gz
+[2024-04-09 06:37:26] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/10/ae/39d8cf18e5d7a2a3214ffa9b056defe8ce482ead51025919d3db1a677ee4/accmt-0.0.7.tar.gz
+[2024-04-09 06:37:26] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/75/38/dae0cec666987d786564bf9fb8f8fd73ad932ebeccdf04e63b6a20cb49c8/vloc-0.1.9.tar.gz
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [lucupy]: Timeout reached during download
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [vloc]: Timeout reached during download
+[2024-04-09 06:37:26] INFO root fetch - processPackages [vloc]: executing diffoscope
+[2024-04-09 06:37:26] INFO root fetch - processPackages [vloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc-0.1.11.tar.gz tmp/vloc-0.1.9.tar.gz --markdown 20240409/v/vloc/0.1.11-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [presentation-card]: Timeout reached during download
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [accmt]: Timeout reached during download
+[2024-04-09 06:37:26] WARNING root fetch - processPackages [cobaya-utilities]: Timeout reached during download
+[2024-04-09 06:37:26] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: Downloading https://files.pythonhosted.org/packages/a4/61/1ec0613539ae38ef2b90f3d69affa0558bac0572cfdbe12573ee96cf9a50/presentation-card-0.1.7.tar.gz
+[2024-04-09 06:37:27] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/e8/14/a4ccb7e8bc4614655e3df2e18e391293b04ba8a15d80972d1be1156b82dc/accmt-0.0.8.tar.gz
+[2024-04-09 06:37:27] INFO root fetch - processPackages [cobaya-utilities]: Downloading https://files.pythonhosted.org/packages/0a/87/b62914feb42aed0a9f5e3f4d718ae4ecc3b2911ad8dfbb1ab85897b5ce5c/cobaya_utilities-0.3.0.tar.gz
+[2024-04-09 06:37:27] WARNING root fetch - processPackages [presentation-card]: Timeout reached during download
+[2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: executing diffoscope
+[2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presentation-card-0.1.4.tar.gz tmp/presentation-card-0.1.7.tar.gz --markdown 20240409/p/presentation-card/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2024-04-09 06:37:27] WARNING root fetch - processPackages [lucupy]: Timeout reached during download
+[2024-04-09 06:37:27] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2024-04-09 06:37:27] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.84.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20240409/l/lucupy/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:37:27] WARNING root fetch - processPackages [cobaya-utilities]: Timeout reached during download
+[2024-04-09 06:37:27] INFO root fetch - processPackages [cobaya-utilities]: executing diffoscope
+[2024-04-09 06:37:27] INFO root fetch - processPackages [cobaya-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobaya_utilities-0.2.9.tar.gz tmp/cobaya_utilities-0.3.0.tar.gz --markdown 20240409/c/cobaya-utilities/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 06:37:27] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.11.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.9.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [vloc]: success
+[2024-04-09 06:37:27] WARNING root fetch - processPackages [accmt]: Timeout reached during download
+[2024-04-09 06:37:27] INFO root fetch - processPackages [accmt]: executing diffoscope
+[2024-04-09 06:37:27] INFO root fetch - processPackages [accmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accmt-0.0.7.tar.gz tmp/accmt-0.0.8.tar.gz --markdown 20240409/a/accmt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 06:37:27] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.7.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.8.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [accmt]: success
+[2024-04-09 06:37:27] INFO root fetch - processPackages [cobaya-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cobaya_utilities-0.2.9.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - processPackages [cobaya-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cobaya_utilities-0.3.0.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [cobaya-utilities]: success
+[2024-04-09 06:37:27] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.84.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: Remove: archive file [/home/abi/fetcher/tmp/presentation-card-0.1.4.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - processPackages [presentation-card]: Remove: archive file [/home/abi/fetcher/tmp/presentation-card-0.1.7.tar.gz]
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: End processing [presentation-card]: success
+[2024-04-09 06:37:27] INFO root fetch - main [MainThread]: Store serial: [22678276]
