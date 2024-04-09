@@ -16010,3 +16010,91 @@
 [2024-04-09 08:03:13] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0.1-py3-none-any.whl.zip]
 [2024-04-09 08:03:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
 [2024-04-09 08:03:13] INFO root fetch - main [MainThread]: Store serial: [22678817]
+[2024-04-09 08:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678817]
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-repair
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fusion-platform-python-sdk
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zenoh-cli
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pop-cli
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudparing.aws-cdk
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plants-vs-zombies
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csscurrent
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s3-utils-wufan
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gwastic-desktop
+[2024-04-09 08:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finhack
+[2024-04-09 08:05:22] INFO root fetch - processPackages [pop-cli]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [zenoh-cli]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/7b/90/f1d18635fa60f1f80fce21a8d706a52ca528ee8dedec38a6f473b401942a/pop_cli-1.1.1.tar.gz
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [csscurrent]: Skipping, unable to determine old version
+[2024-04-09 08:05:22] INFO root fetch - processPackages [csscurrent]: Start processing: cdk-proxy-api-client
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [plants-vs-zombies]: Skipping, unable to determine old version
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: End processing [csscurrent] error
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies] error
+[2024-04-09 08:05:22] INFO root fetch - processPackages [fusion-platform-python-sdk]: New version: [1.9.2] Old Version: [1.8.2]
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [s3-utils-wufan]: Skipping, unable to determine old version
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: End processing [s3-utils-wufan] error
+[2024-04-09 08:05:22] INFO root fetch - processPackages [cloudparing.aws-cdk]: New version: [0.0.16] Old Version: [0.0.15]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [finhack]: New version: [0.0.3.dev1] Old Version: [0.0.2.dev9]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [gwastic-desktop]: New version: [0.4.5] Old Version: [0.4.3]
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [pop-cli]: Timeout reached during download
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [json-repair]: Timeout reached during download
+[2024-04-09 08:05:22] INFO root fetch - processPackages [cdk-proxy-api-client]: New version: [3.0.0rc1] Old Version: [2.3.0]
+[2024-04-09 08:05:22] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [zenoh-cli]: Downloading https://files.pythonhosted.org/packages/e8/37/d62be07b3364408717ecb17d7fd22d4bbda545c06888e92a9a2a63bc7b72/zenoh_cli-0.4.1-py3-none-any.whl
+[2024-04-09 08:05:22] INFO root fetch - processPackages [cloudparing.aws-cdk]: Downloading https://files.pythonhosted.org/packages/d7/cb/b32fb48328e802da426d2094128c16978f15d48fd4ced7ac94f72cbee729/cloudparing.aws-cdk-0.0.15.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/52/cc/700ef90830b456a550608d0a24c0c0eeaacdca90c1fc0a2e9413bcc3cdfa/fusion-platform-python-sdk-1.8.2.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [finhack]: Downloading https://files.pythonhosted.org/packages/c8/99/dbc8805fdaccec1761ff34f1364fd20bbe93b647d8d180bf7e58daa03a72/finhack-0.0.2.dev9.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [gwastic-desktop]: Downloading https://files.pythonhosted.org/packages/2b/47/691dc5572b5c4cbb0fe3e3474537a6db81d399aa453faa39b69683b10c30/gwastic_desktop-0.4.3.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/7e/0b/2fccbf7192df0bf43b7313234eb9124c742c76c416185d8605061556bb68/pop_cli-1.2.0.tar.gz
+[2024-04-09 08:05:22] INFO root fetch - processPackages [cdk-proxy-api-client]: Downloading https://files.pythonhosted.org/packages/a1/ac/855ff1882dc2159846b92f813aef75fb3d023b023c802fc724c41413daae/cdk_proxy_api_client-2.3.0.tar.gz
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [gwastic-desktop]: Skipping package: exceeds size limit 19266884>=10485760
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [cloudparing.aws-cdk]: Skipping package: exceeds size limit 16594227>=10485760
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: End processing [gwastic-desktop] error
+[2024-04-09 08:05:22] INFO root fetch - main [MainThread]: End processing [cloudparing.aws-cdk] error
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [json-repair]: Timeout reached during download
+[2024-04-09 08:05:22] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-09 08:05:22] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240409/j/json-repair/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [zenoh-cli]: Timeout reached during download
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [finhack]: Timeout reached during download
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [pop-cli]: Timeout reached during download
+[2024-04-09 08:05:22] INFO root fetch - processPackages [pop-cli]: executing diffoscope
+[2024-04-09 08:05:22] INFO root fetch - processPackages [pop-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_cli-1.1.1.tar.gz tmp/pop_cli-1.2.0.tar.gz --markdown 20240409/p/pop-cli/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-09 08:05:22] WARNING root fetch - processPackages [cdk-proxy-api-client]: Timeout reached during download
+[2024-04-09 08:05:22] INFO root fetch - processPackages [zenoh-cli]: Downloading https://files.pythonhosted.org/packages/09/e6/5ff16ab333b1d196654db3cc0706640904ddb137b40e6f6f81afaa587820/zenoh_cli-0.5.0-py3-none-any.whl
+[2024-04-09 08:05:23] INFO root fetch - processPackages [finhack]: Downloading https://files.pythonhosted.org/packages/eb/11/4faac1a80c61d8ef1417cb08591309b6ad92a539b82811bd966365429d12/finhack-0.0.3.dev1.tar.gz
+[2024-04-09 08:05:23] WARNING root fetch - processPackages [zenoh-cli]: Timeout reached during download
+[2024-04-09 08:05:23] INFO root fetch - processPackages [zenoh-cli]: executing diffoscope
+[2024-04-09 08:05:23] INFO root fetch - processPackages [zenoh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoh_cli-0.4.1-py3-none-any.whl.zip tmp/zenoh_cli-0.5.0-py3-none-any.whl.zip --markdown 20240409/z/zenoh-cli/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2024-04-09 08:05:23] INFO root fetch - processPackages [cdk-proxy-api-client]: Downloading https://files.pythonhosted.org/packages/07/cf/d8b1ec6f622aab256fcf00e20a3b5412d76a727279d8586152369ce533f7/cdk_proxy_api_client-3.0.0rc1.tar.gz
+[2024-04-09 08:05:23] WARNING root fetch - processPackages [finhack]: Timeout reached during download
+[2024-04-09 08:05:23] INFO root fetch - processPackages [finhack]: executing diffoscope
+[2024-04-09 08:05:23] INFO root fetch - processPackages [finhack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finhack-0.0.2.dev9.tar.gz tmp/finhack-0.0.3.dev1.tar.gz --markdown 20240409/f/finhack/0.0.2.dev9-0.0.3.dev1/diff.md --exclude *.pyd
+[2024-04-09 08:05:23] WARNING root fetch - processPackages [cdk-proxy-api-client]: Timeout reached during download
+[2024-04-09 08:05:23] INFO root fetch - processPackages [cdk-proxy-api-client]: executing diffoscope
+[2024-04-09 08:05:23] INFO root fetch - processPackages [cdk-proxy-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_proxy_api_client-2.3.0.tar.gz tmp/cdk_proxy_api_client-3.0.0rc1.tar.gz --markdown 20240409/c/cdk-proxy-api-client/2.3.0-3.0.0rc1/diff.md --exclude *.pyd
+[2024-04-09 08:05:23] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-1.1.1.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-1.2.0.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - main [MainThread]: End processing [pop-cli]: success
+[2024-04-09 08:05:23] WARNING root fetch - processPackages [fusion-platform-python-sdk]: Timeout reached during download
+[2024-04-09 08:05:23] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-09 08:05:23] INFO root fetch - processPackages [zenoh-cli]: Remove: archive file [/home/abi/fetcher/tmp/zenoh_cli-0.4.1-py3-none-any.whl.zip]
+[2024-04-09 08:05:23] INFO root fetch - processPackages [zenoh-cli]: Remove: archive file [/home/abi/fetcher/tmp/zenoh_cli-0.5.0-py3-none-any.whl.zip]
+[2024-04-09 08:05:23] INFO root fetch - main [MainThread]: End processing [zenoh-cli]: success
+[2024-04-09 08:05:23] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/48/fd/a6e2f901f8c78bd699d3829944d319a3c359378fd5a3999ede15d0ce74be/fusion-platform-python-sdk-1.9.2.tar.gz
+[2024-04-09 08:05:23] INFO root fetch - processPackages [cdk-proxy-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cdk_proxy_api_client-2.3.0.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - processPackages [cdk-proxy-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cdk_proxy_api_client-3.0.0rc1.tar.gz]
+[2024-04-09 08:05:23] INFO root fetch - main [MainThread]: End processing [cdk-proxy-api-client]: success
+[2024-04-09 08:05:24] INFO root fetch - processPackages [finhack]: Remove: archive file [/home/abi/fetcher/tmp/finhack-0.0.2.dev9.tar.gz]
+[2024-04-09 08:05:24] INFO root fetch - processPackages [finhack]: Remove: archive file [/home/abi/fetcher/tmp/finhack-0.0.3.dev1.tar.gz]
+[2024-04-09 08:05:24] INFO root fetch - main [MainThread]: End processing [finhack]: success
+[2024-04-09 08:05:24] WARNING root fetch - processPackages [fusion-platform-python-sdk]: Timeout reached during download
+[2024-04-09 08:05:24] INFO root fetch - processPackages [fusion-platform-python-sdk]: executing diffoscope
+[2024-04-09 08:05:24] INFO root fetch - processPackages [fusion-platform-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-platform-python-sdk-1.8.2.tar.gz tmp/fusion-platform-python-sdk-1.9.2.tar.gz --markdown 20240409/f/fusion-platform-python-sdk/1.8.2-1.9.2/diff.md --exclude *.pyd
+[2024-04-09 08:05:25] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.8.2.tar.gz]
+[2024-04-09 08:05:25] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.9.2.tar.gz]
+[2024-04-09 08:05:25] INFO root fetch - main [MainThread]: End processing [fusion-platform-python-sdk]: success
+[2024-04-09 08:05:25] INFO root fetch - main [MainThread]: Store serial: [22678854]
