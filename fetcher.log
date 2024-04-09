@@ -19209,3 +19209,97 @@
 [2024-04-09 10:06:48] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-09 10:06:48] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-09 10:06:48] INFO root fetch - main [MainThread]: Store serial: [22680017]
+[2024-04-09 10:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680017]
+[2024-04-09 10:08:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiokatcp
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scraperapi-sdk
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataiku-api-client
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sapperchain
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ubiops-cli
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textual-query-sandbox
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rime-sdk
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: item-matching
+[2024-04-09 10:08:57] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:08:57] WARNING root fetch - processPackages [sapperchain]: Skipping, unable to determine old version
+[2024-04-09 10:08:57] INFO root fetch - main [MainThread]: End processing [sapperchain] error
+[2024-04-09 10:08:57] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc3] Old Version: [2.8.0rc2]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [aiokatcp]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240408] Old Version: [0.4.5.dev20240407]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-09 10:08:57] INFO root fetch - processPackages [ubiops-cli]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [dataiku-api-client]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [scraperapi-sdk]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [textual-query-sandbox]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-09 10:08:57] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/dd/8f/b5f7652386333c570047737ee99094659643eda6562a2077d3c76f9a3cfa/rime_sdk-2.8.0rc2.tar.gz
+[2024-04-09 10:08:57] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/86/d3/e0920fffb62ce48535736c37eb0be412c0a4dc88a93d966ab8af61f1f4a8/pyglove-0.4.5.dev20240407.tar.gz
+[2024-04-09 10:08:57] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [aiokatcp]: Downloading https://files.pythonhosted.org/packages/fa/d3/0b73e627013647aa9cf6918ac67e619c0f721cfae4403ec3365a5bea4a93/aiokatcp-1.8.0.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/39/4b/1b9d5ec978c347d135d6de56958db264a0178c72c075523783324589342f/dataiku-api-client-9.0.0.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [textual-query-sandbox]: Downloading https://files.pythonhosted.org/packages/0b/60/bcd070e7cfdf4f63703fa7e2b9f708a8ab785b4f1ff7677d6522a7758043/textual-query-sandbox-0.5.1.tar.gz
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/1f/6f/c7f7c163826c4abc6d5d5ce753efd77bfbb2871e8d4dd7d20bd76ee84691/scraperapi_sdk-1.3.0.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/64/72/16e4ccf487f0a7208f959930705b2a0782b903f07d5fff8b12ee0f61848a/ubiops-cli-2.8.0.tar.gz
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [aiokatcp]: Timeout reached during download
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [textual-query-sandbox]: Timeout reached during download
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240409/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [dataiku-api-client]: Timeout reached during download
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [ubiops-cli]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/14/2d/d1fb220a831097e8102bfc3a01b27cffa87053febb74031b87ed929e614b/rime_sdk-2.8.0rc3.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/8e/b4/b2df3da36472be735ef24bf925195e2425de4637ae20b2d155f72bc1d03b/pyglove-0.4.5.dev20240408.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [aiokatcp]: Downloading https://files.pythonhosted.org/packages/91/23/e263b9dad25fd71349f0f1883173264777544cd2b712c5a529b3e7b94080/aiokatcp-1.9.0.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [textual-query-sandbox]: Downloading https://files.pythonhosted.org/packages/ff/67/056b90181bbe4a4638ac27b3a1b0ef63a90c3582847bf169829107022b6a/textual-query-sandbox-0.6.0.tar.gz
+[2024-04-09 10:08:58] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/bc/0f/f490ef761d3ca5cf6aaa77d001934f84ebdcfe5cd695f40ff4e23e1cd0cd/scraperapi_sdk-1.4.0.tar.gz
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc2.tar.gz tmp/rime_sdk-2.8.0rc3.tar.gz --markdown 20240409/r/rime-sdk/2.8.0rc2-2.8.0rc3/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/d6/5d/204da2f11db80b666b5bab1056e8c38e6d93a70051887d2d321bba06b865/dataiku-api-client-9.0.1.tar.gz
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [textual-query-sandbox]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [textual-query-sandbox]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [textual-query-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-query-sandbox-0.5.1.tar.gz tmp/textual-query-sandbox-0.6.0.tar.gz --markdown 20240409/t/textual-query-sandbox/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240407.tar.gz tmp/pyglove-0.4.5.dev20240408.tar.gz --markdown 20240409/p/pyglove/0.4.5.dev20240407-0.4.5.dev20240408/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/c8/03/81e588785a9b0180e5464ebcf5b010b4dff3d636c707b67bfe5634fbf451/ubiops-cli-2.9.0.tar.gz
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [scraperapi-sdk]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [scraperapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraperapi_sdk-1.3.0.tar.gz tmp/scraperapi_sdk-1.4.0.tar.gz --markdown 20240409/s/scraperapi-sdk/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [aiokatcp]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [aiokatcp]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [aiokatcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokatcp-1.8.0.tar.gz tmp/aiokatcp-1.9.0.tar.gz --markdown 20240409/a/aiokatcp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [dataiku-api-client]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [dataiku-api-client]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [dataiku-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-api-client-9.0.0.tar.gz tmp/dataiku-api-client-9.0.1.tar.gz --markdown 20240409/d/dataiku-api-client/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2024-04-09 10:08:58] WARNING root fetch - processPackages [ubiops-cli]: Timeout reached during download
+[2024-04-09 10:08:58] INFO root fetch - processPackages [ubiops-cli]: executing diffoscope
+[2024-04-09 10:08:58] INFO root fetch - processPackages [ubiops-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-cli-2.8.0.tar.gz tmp/ubiops-cli-2.9.0.tar.gz --markdown 20240409/u/ubiops-cli/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-09 10:08:59] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-09 10:08:59] INFO root fetch - processPackages [textual-query-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/textual-query-sandbox-0.5.1.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [textual-query-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/textual-query-sandbox-0.6.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [textual-query-sandbox]: success
+[2024-04-09 10:08:59] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.3.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.4.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [scraperapi-sdk]: success
+[2024-04-09 10:08:59] INFO root fetch - processPackages [ubiops-cli]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-cli-2.8.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [ubiops-cli]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-cli-2.9.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [ubiops-cli]: success
+[2024-04-09 10:08:59] INFO root fetch - processPackages [aiokatcp]: Remove: archive file [/home/abi/fetcher/tmp/aiokatcp-1.8.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [aiokatcp]: Remove: archive file [/home/abi/fetcher/tmp/aiokatcp-1.9.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [aiokatcp]: success
+[2024-04-09 10:08:59] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.0.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.1.tar.gz]
+[2024-04-09 10:08:59] INFO root fetch - main [MainThread]: End processing [dataiku-api-client]: success
+[2024-04-09 10:09:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240407.tar.gz]
+[2024-04-09 10:09:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240408.tar.gz]
+[2024-04-09 10:09:00] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-09 10:09:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc2.tar.gz]
+[2024-04-09 10:09:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc3.tar.gz]
+[2024-04-09 10:09:01] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-09 10:09:01] INFO root fetch - main [MainThread]: Store serial: [22680045]
