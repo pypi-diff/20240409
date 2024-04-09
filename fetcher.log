@@ -3674,3 +3674,39 @@
 [2024-04-09 02:41:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-09 02:41:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-09 02:41:08] INFO root fetch - main [MainThread]: Store serial: [22675041]
+[2024-04-09 02:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675041]
+[2024-04-09 02:43:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 02:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphene-django
+[2024-04-09 02:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dspin
+[2024-04-09 02:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hebill
+[2024-04-09 02:43:17] INFO root fetch - processPackages [dspin]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 02:43:17] INFO root fetch - processPackages [hebill]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 02:43:17] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/74/10/53bd8945121fd644d8aa5f803a5972c68bef8f5b74b2bc0c75fd2c255d73/hebill-1.1.0.tar.gz
+[2024-04-09 02:43:17] INFO root fetch - processPackages [dspin]: Downloading https://files.pythonhosted.org/packages/7a/10/7107a1b74135c190a7db75b6f0fd267b5b29621906d05eae37763d670169/dspin-1.0.8.tar.gz
+[2024-04-09 02:43:17] INFO root fetch - processPackages [graphene-django]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-04-09 02:43:17] INFO root fetch - processPackages [graphene-django]: Downloading https://files.pythonhosted.org/packages/1a/ad/f787b6b371309d39aa57b8478ffbcdc54e10fe8137a78d77a1ed20914dda/graphene-django-3.2.0.tar.gz
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [dspin]: Timeout reached during download
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 02:43:17] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/4a/38/5664bb5743002661e0b6187d20304de4677da94fdb1a348b4129f551c091/hebill-1.1.1.tar.gz
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [graphene-django]: Timeout reached during download
+[2024-04-09 02:43:17] INFO root fetch - processPackages [dspin]: Downloading https://files.pythonhosted.org/packages/fe/fd/72bc556027097f236de3300f830d6efb8ddf0df893c8b1a5c2f7e5ce3d72/dspin-1.0.9.tar.gz
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 02:43:17] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-09 02:43:17] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.0.tar.gz tmp/hebill-1.1.1.tar.gz --markdown 20240409/h/hebill/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [dspin]: Timeout reached during download
+[2024-04-09 02:43:17] INFO root fetch - processPackages [dspin]: executing diffoscope
+[2024-04-09 02:43:17] INFO root fetch - processPackages [dspin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspin-1.0.8.tar.gz tmp/dspin-1.0.9.tar.gz --markdown 20240409/d/dspin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 02:43:17] INFO root fetch - processPackages [graphene-django]: Downloading https://files.pythonhosted.org/packages/ca/f4/8e6a9221ed92cfd68ac51b495da0aaaa76ddfc527983990c9d1c7e5e5a93/graphene-django-3.2.1.tar.gz
+[2024-04-09 02:43:17] WARNING root fetch - processPackages [graphene-django]: Timeout reached during download
+[2024-04-09 02:43:17] INFO root fetch - processPackages [graphene-django]: executing diffoscope
+[2024-04-09 02:43:17] INFO root fetch - processPackages [graphene-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene-django-3.2.0.tar.gz tmp/graphene-django-3.2.1.tar.gz --markdown 20240409/g/graphene-django/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2024-04-09 02:43:18] INFO root fetch - processPackages [dspin]: Remove: archive file [/home/abi/fetcher/tmp/dspin-1.0.8.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - processPackages [dspin]: Remove: archive file [/home/abi/fetcher/tmp/dspin-1.0.9.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - main [MainThread]: End processing [dspin]: success
+[2024-04-09 02:43:18] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.0.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.1.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-09 02:43:18] INFO root fetch - processPackages [graphene-django]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-3.2.0.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - processPackages [graphene-django]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-3.2.1.tar.gz]
+[2024-04-09 02:43:18] INFO root fetch - main [MainThread]: End processing [graphene-django]: success
+[2024-04-09 02:43:18] INFO root fetch - main [MainThread]: Store serial: [22675051]
