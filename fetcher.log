@@ -9525,3 +9525,23 @@
 [2024-04-09 04:23:24] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.96.tar.gz]
 [2024-04-09 04:23:24] INFO root fetch - main [MainThread]: End processing [internal]: success
 [2024-04-09 04:23:24] INFO root fetch - main [MainThread]: Store serial: [22676747]
+[2024-04-09 04:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676747]
+[2024-04-09 04:25:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s5cmdpy
+[2024-04-09 04:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-stripe
+[2024-04-09 04:25:33] INFO root fetch - processPackages [airbyte-source-stripe]: New version: [5.3.0.dev202404090224] Old Version: [5.3.0.dev202404031936]
+[2024-04-09 04:25:33] INFO root fetch - processPackages [s5cmdpy]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-04-09 04:25:33] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/2a/4d/45edec8e8c4dfeff0c31d6f4371b194fe0beaedec3f4728235435d9265bb/airbyte_source_stripe-5.3.0.dev202404031936.tar.gz
+[2024-04-09 04:25:33] INFO root fetch - processPackages [s5cmdpy]: Downloading https://files.pythonhosted.org/packages/7a/64/e6dfc8b3688d5073a47dbf36722a9971f1a5b3586f424fed0dbff25d4cdb/s5cmdpy-0.2.3.tar.gz
+[2024-04-09 04:25:33] WARNING root fetch - processPackages [s5cmdpy]: Timeout reached during download
+[2024-04-09 04:25:33] WARNING root fetch - processPackages [airbyte-source-stripe]: Timeout reached during download
+[2024-04-09 04:25:33] INFO root fetch - processPackages [s5cmdpy]: Downloading https://files.pythonhosted.org/packages/1e/dc/0cd16d2899c9eab35e2278f10d9d93db9c8c8468d46202e70c7c26b5e7d0/s5cmdpy-0.2.5.tar.gz
+[2024-04-09 04:25:33] ERROR root fetch - processPackages [airbyte-source-stripe]: Unable to fetch info: No such project/version 'airbyte-source-stripe' 5.3.0.dev202404090224
+[2024-04-09 04:25:33] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe] error
+[2024-04-09 04:25:33] WARNING root fetch - processPackages [s5cmdpy]: Timeout reached during download
+[2024-04-09 04:25:33] INFO root fetch - processPackages [s5cmdpy]: executing diffoscope
+[2024-04-09 04:25:33] INFO root fetch - processPackages [s5cmdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5cmdpy-0.2.3.tar.gz tmp/s5cmdpy-0.2.5.tar.gz --markdown 20240409/s/s5cmdpy/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2024-04-09 04:25:34] INFO root fetch - processPackages [s5cmdpy]: Remove: archive file [/home/abi/fetcher/tmp/s5cmdpy-0.2.3.tar.gz]
+[2024-04-09 04:25:34] INFO root fetch - processPackages [s5cmdpy]: Remove: archive file [/home/abi/fetcher/tmp/s5cmdpy-0.2.5.tar.gz]
+[2024-04-09 04:25:34] INFO root fetch - main [MainThread]: End processing [s5cmdpy]: success
+[2024-04-09 04:25:34] INFO root fetch - main [MainThread]: Store serial: [22676754]
