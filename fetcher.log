@@ -14977,3 +14977,44 @@
 [2024-04-09 07:16:34] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.374.tar.gz]
 [2024-04-09 07:16:34] INFO root fetch - main [MainThread]: End processing [maitai-sdk-python]: success
 [2024-04-09 07:16:34] INFO root fetch - main [MainThread]: Store serial: [22678457]
+[2024-04-09 07:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678457]
+[2024-04-09 07:18:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 07:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maitai-sdk-python
+[2024-04-09 07:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-04-09 07:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npu-compiler
+[2024-04-09 07:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resolwe
+[2024-04-09 07:18:43] INFO root fetch - processPackages [maitai-sdk-python]: New version: [0.374] Old Version: [0.373]
+[2024-04-09 07:18:43] INFO root fetch - processPackages [jemma]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 07:18:43] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/0c/3d/7dd7191bc52520065ff3ebb87e9f3dae5c4c8382cd0c7addf62114c36b23/maitai_sdk_python-0.373.tar.gz
+[2024-04-09 07:18:43] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-04-09 07:18:43] INFO root fetch - processPackages [npu-compiler]: New version: [1.6.0rc3] Old Version: [1.6.0rc2]
+[2024-04-09 07:18:43] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/ae/ac/2fd0e7ddf0130d94d454cedc3bdb88042482bc4378e35f50ccef132555d0/jemma-0.1.0.tar.gz
+[2024-04-09 07:18:43] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:18:43] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/9a/d1/cdbfc408dd337283793e9135ca1ac5ce9df44aa910a38f3ee2d4d2c78cfa/maitai_sdk_python-0.374.tar.gz
+[2024-04-09 07:18:43] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:18:43] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:18:43] INFO root fetch - processPackages [maitai-sdk-python]: executing diffoscope
+[2024-04-09 07:18:43] INFO root fetch - processPackages [maitai-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maitai_sdk_python-0.373.tar.gz tmp/maitai_sdk_python-0.374.tar.gz --markdown 20240409/m/maitai-sdk-python/0.373-0.374/diff.md --exclude *.pyd
+[2024-04-09 07:18:43] INFO root fetch - processPackages [npu-compiler]: Downloading https://files.pythonhosted.org/packages/04/5f/1bfd65fea7a190ed6017a11513245e9733d8c4d5fae512782792efad0c82/npu_compiler-1.6.0rc2-py2-none-any.whl
+[2024-04-09 07:18:43] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2024-04-09 07:18:44] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/55/02/2764bbbbe6879d0af4b9f6bfa72601c6d8838bb05a65520571ebb26f2f55/jemma-0.1.1.tar.gz
+[2024-04-09 07:18:44] WARNING root fetch - processPackages [npu-compiler]: Skipping package: exceeds size limit 28837542>=10485760
+[2024-04-09 07:18:44] INFO root fetch - main [MainThread]: End processing [npu-compiler] error
+[2024-04-09 07:18:44] WARNING root fetch - processPackages [resolwe]: Timeout reached during download
+[2024-04-09 07:18:44] WARNING root fetch - processPackages [jemma]: Timeout reached during download
+[2024-04-09 07:18:44] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-09 07:18:44] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.0.tar.gz tmp/jemma-0.1.1.tar.gz --markdown 20240409/j/jemma/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 07:18:44] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2024-04-09 07:18:44] WARNING root fetch - processPackages [resolwe]: Timeout reached during download
+[2024-04-09 07:18:44] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2024-04-09 07:18:44] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20240409/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2024-04-09 07:18:44] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.373.tar.gz]
+[2024-04-09 07:18:44] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.374.tar.gz]
+[2024-04-09 07:18:44] INFO root fetch - main [MainThread]: End processing [maitai-sdk-python]: success
+[2024-04-09 07:18:44] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.0.tar.gz]
+[2024-04-09 07:18:44] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1.tar.gz]
+[2024-04-09 07:18:44] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-09 07:18:45] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2024-04-09 07:18:45] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2024-04-09 07:18:45] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2024-04-09 07:18:45] INFO root fetch - main [MainThread]: Store serial: [22678471]
