@@ -8652,3 +8652,34 @@
 [2024-04-09 03:30:18] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
 [2024-04-09 03:30:18] INFO root fetch - main [MainThread]: End processing [launchflow]: success
 [2024-04-09 03:30:18] INFO root fetch - main [MainThread]: Store serial: [22676359]
+[2024-04-09 03:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676359]
+[2024-04-09 03:32:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-databases
+[2024-04-09 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFASoC
+[2024-04-09 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtrade
+[2024-04-09 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: breezypythongui
+[2024-04-09 03:32:27] WARNING root fetch - processPackages [OpenFASoC]: Skipping, unable to determine old version
+[2024-04-09 03:32:27] INFO root fetch - main [MainThread]: End processing [OpenFASoC] error
+[2024-04-09 03:32:27] INFO root fetch - processPackages [pytest-databases]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-09 03:32:27] INFO root fetch - processPackages [qtrade]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-09 03:32:27] WARNING root fetch - processPackages [breezypythongui]: Skipping, unable to determine old version
+[2024-04-09 03:32:27] INFO root fetch - main [MainThread]: End processing [breezypythongui] error
+[2024-04-09 03:32:27] INFO root fetch - processPackages [qtrade]: Downloading https://files.pythonhosted.org/packages/9b/42/6f1f071fed746c96d345f02f6b4c981dc12357620dbeb8c9c542879b2b95/qtrade-0.5.0.tar.gz
+[2024-04-09 03:32:27] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/76/49/dd17599a9919b74ab1bddf26cdff4b9e269416937fd665bfab16ff9673bc/pytest_databases-0.2.2.tar.gz
+[2024-04-09 03:32:27] WARNING root fetch - processPackages [pytest-databases]: Timeout reached during download
+[2024-04-09 03:32:27] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/d6/41/1296b6bb61a85133644acdc82043ceb10b51ee6c358b54c11a531ee4d2c2/pytest_databases-0.2.3.tar.gz
+[2024-04-09 03:32:27] WARNING root fetch - processPackages [pytest-databases]: Timeout reached during download
+[2024-04-09 03:32:27] INFO root fetch - processPackages [pytest-databases]: executing diffoscope
+[2024-04-09 03:32:27] INFO root fetch - processPackages [pytest-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_databases-0.2.2.tar.gz tmp/pytest_databases-0.2.3.tar.gz --markdown 20240409/p/pytest-databases/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-09 03:32:28] WARNING root fetch - processPackages [qtrade]: Timeout reached during download
+[2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: Downloading https://files.pythonhosted.org/packages/d1/0e/0ea70152f0737768e794be3abffbea7aaf37a8567d644dd76c965491849d/qtrade-0.6.0.tar.gz
+[2024-04-09 03:32:28] WARNING root fetch - processPackages [qtrade]: Timeout reached during download
+[2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: executing diffoscope
+[2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtrade-0.5.0.tar.gz tmp/qtrade-0.6.0.tar.gz --markdown 20240409/q/qtrade/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 03:32:28] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.2.2.tar.gz]
+[2024-04-09 03:32:28] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.2.3.tar.gz]
+[2024-04-09 03:32:28] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
+[2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: Remove: archive file [/home/abi/fetcher/tmp/qtrade-0.5.0.tar.gz]
+[2024-04-09 03:32:28] INFO root fetch - processPackages [qtrade]: Remove: archive file [/home/abi/fetcher/tmp/qtrade-0.6.0.tar.gz]
+[2024-04-09 03:32:28] INFO root fetch - main [MainThread]: End processing [qtrade]: success
+[2024-04-09 03:32:28] INFO root fetch - main [MainThread]: Store serial: [22676427]
