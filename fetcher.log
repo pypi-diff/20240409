@@ -19588,3 +19588,50 @@
 [2024-04-09 10:19:59] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8.1-py3-none-any.whl.zip]
 [2024-04-09 10:19:59] INFO root fetch - main [MainThread]: End processing [logs-py]: success
 [2024-04-09 10:19:59] INFO root fetch - main [MainThread]: Store serial: [22680176]
+[2024-04-09 10:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680176]
+[2024-04-09 10:22:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litestar
+[2024-04-09 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxel-dic
+[2024-04-09 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: one4all-iop-models
+[2024-04-09 10:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmlingua
+[2024-04-09 10:22:07] INFO root fetch - processPackages [pyxel-dic]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-04-09 10:22:07] INFO root fetch - processPackages [litestar]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-09 10:22:07] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/a0/d1/afb9d187bf20446b21a8ea4cb758d9150531444f6f83d8f74140b929d5ce/pyxel-dic-3.1.3.tar.gz
+[2024-04-09 10:22:07] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-09 10:22:07] INFO root fetch - processPackages [llmlingua]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 10:22:07] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/44/aa/9f73bb16ace7a3286c4abe9a95b8eba1637c100855653ca2015ab4c389ce/litestar-2.8.0.tar.gz
+[2024-04-09 10:22:07] WARNING root fetch - processPackages [pyxel-dic]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/e2/2b/0df35dac8e2c8620755ab0b17a59b7b75c18a94de2aa89dd97921fb6478d/one4all_iop_models-0.1.4.tar.gz
+[2024-04-09 10:22:08] INFO root fetch - processPackages [llmlingua]: Downloading https://files.pythonhosted.org/packages/38/ec/841176df21f31e852493a727e430768c9f8443edc57b1e80cfdca6ddb181/llmlingua-0.2.1.tar.gz
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [litestar]: Timeout reached during download
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/3b/93/a2064e3273b761ccd964804070b0bf87bb4a2d7b615d153d154957ee300c/litestar-2.8.1.tar.gz
+[2024-04-09 10:22:08] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/63/15/49ed0e386f6c658cfd42b2113f82067ec8672422e17a3dd4c3693b896507/pyxel-dic-3.1.4.tar.gz
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [llmlingua]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/02/7f/420e2b0fdfa72ad03df2e3c43078755699ef6a8121fe7738fa73ed11265e/one4all_iop_models-0.1.5.tar.gz
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [pyxel-dic]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [pyxel-dic]: executing diffoscope
+[2024-04-09 10:22:08] INFO root fetch - processPackages [pyxel-dic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-dic-3.1.3.tar.gz tmp/pyxel-dic-3.1.4.tar.gz --markdown 20240409/p/pyxel-dic/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [litestar]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2024-04-09 10:22:08] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.8.0.tar.gz tmp/litestar-2.8.1.tar.gz --markdown 20240409/l/litestar/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2024-04-09 10:22:08] INFO root fetch - processPackages [llmlingua]: Downloading https://files.pythonhosted.org/packages/fd/02/7ed8ad9cec4b2f0a8a45c5b50a2435b559d2c764b5865e896d1c511080b1/llmlingua-0.2.2.tar.gz
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.4.tar.gz tmp/one4all_iop_models-0.1.5.tar.gz --markdown 20240409/o/one4all-iop-models/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-09 10:22:08] WARNING root fetch - processPackages [llmlingua]: Timeout reached during download
+[2024-04-09 10:22:08] INFO root fetch - processPackages [llmlingua]: executing diffoscope
+[2024-04-09 10:22:08] INFO root fetch - processPackages [llmlingua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmlingua-0.2.1.tar.gz tmp/llmlingua-0.2.2.tar.gz --markdown 20240409/l/llmlingua/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.4.tar.gz]
+[2024-04-09 10:22:08] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.5.tar.gz]
+[2024-04-09 10:22:08] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-04-09 10:22:09] INFO root fetch - processPackages [pyxel-dic]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-dic-3.1.3.tar.gz]
+[2024-04-09 10:22:09] INFO root fetch - processPackages [pyxel-dic]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-dic-3.1.4.tar.gz]
+[2024-04-09 10:22:09] INFO root fetch - main [MainThread]: End processing [pyxel-dic]: success
+[2024-04-09 10:22:09] INFO root fetch - processPackages [llmlingua]: Remove: archive file [/home/abi/fetcher/tmp/llmlingua-0.2.1.tar.gz]
+[2024-04-09 10:22:09] INFO root fetch - processPackages [llmlingua]: Remove: archive file [/home/abi/fetcher/tmp/llmlingua-0.2.2.tar.gz]
+[2024-04-09 10:22:09] INFO root fetch - main [MainThread]: End processing [llmlingua]: success
+[2024-04-09 10:22:10] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.0.tar.gz]
+[2024-04-09 10:22:10] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.1.tar.gz]
+[2024-04-09 10:22:10] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2024-04-09 10:22:10] INFO root fetch - main [MainThread]: Store serial: [22680190]
