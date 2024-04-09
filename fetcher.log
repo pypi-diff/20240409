@@ -15445,3 +15445,50 @@
 [2024-04-09 07:36:43] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.1.7.tar.gz]
 [2024-04-09 07:36:43] INFO root fetch - main [MainThread]: End processing [moobius]: success
 [2024-04-09 07:36:43] INFO root fetch - main [MainThread]: Store serial: [22678674]
+[2024-04-09 07:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678674]
+[2024-04-09 07:38:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 07:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-Firmware-updater
+[2024-04-09 07:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage
+[2024-04-09 07:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats-medimage-extras
+[2024-04-09 07:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quool
+[2024-04-09 07:38:53] INFO root fetch - processPackages [DLMS-Firmware-updater]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 07:38:53] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-09 07:38:53] INFO root fetch - processPackages [quool]: New version: [5.0.8] Old Version: [5.0.7]
+[2024-04-09 07:38:53] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-09 07:38:53] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/14/24/13adcbd44b2b0d4cdf27016dfe2ec5a90003aad5e380c2e8fee458d5d43d/DLMS_Firmware_updater-0.1.0.tar.gz
+[2024-04-09 07:38:53] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/eb/3a/cb706e74bc55dba6bd93c48baa5f9cca5c4b7f24eaf16a4e4a5cd27cd96e/fileformats_medimage-0.6.6.tar.gz
+[2024-04-09 07:38:53] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/5b/19/85bc53098ccaab81bd1d597f269954c11369d211b5f4ae1c4ebf7c4c9e57/quool-5.0.7.tar.gz
+[2024-04-09 07:38:53] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/32/79/a59a89ee6135e26638e1dbe8c8f70210a91ef05c646697b0cb3221c6e4f2/fileformats_medimage_extras-0.6.6.tar.gz
+[2024-04-09 07:38:53] WARNING root fetch - processPackages [quool]: Timeout reached during download
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [fileformats-medimage]: Timeout reached during download
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [fileformats-medimage-extras]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/56/4c/d5045a8e470b004b2e737c9d69f34c418a8f26a7ebc5f3bee4ecc808bbee/quool-5.0.8.tar.gz
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/09/6e/5dcf5d358694c265761f72daaf8330182e14799386df3ed6f881686aeafd/fileformats_medimage-0.6.7.tar.gz
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/64/c7/642b4e3b6bf75bc1543134bb1eab127d55e580079938f10789f297f7f07d/fileformats_medimage_extras-0.6.7.tar.gz
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [quool]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [quool]: executing diffoscope
+[2024-04-09 07:38:54] INFO root fetch - processPackages [quool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quool-5.0.7.tar.gz tmp/quool-5.0.8.tar.gz --markdown 20240409/q/quool/5.0.7-5.0.8/diff.md --exclude *.pyd
+[2024-04-09 07:38:54] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/74/10/e4cda742531ee85aa5d4051a31bcda3e90df8bfc2986f9e49c05780b2cb4/DLMS_Firmware_updater-0.1.1.tar.gz
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [fileformats-medimage]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.6.6.tar.gz tmp/fileformats_medimage-0.6.7.tar.gz --markdown 20240409/f/fileformats-medimage/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [fileformats-medimage-extras]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.6.6.tar.gz tmp/fileformats_medimage_extras-0.6.7.tar.gz --markdown 20240409/f/fileformats-medimage-extras/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2024-04-09 07:38:54] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Timeout reached during download
+[2024-04-09 07:38:54] INFO root fetch - processPackages [DLMS-Firmware-updater]: executing diffoscope
+[2024-04-09 07:38:54] INFO root fetch - processPackages [DLMS-Firmware-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_Firmware_updater-0.1.0.tar.gz tmp/DLMS_Firmware_updater-0.1.1.tar.gz --markdown 20240409/D/DLMS-Firmware-updater/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 07:38:54] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.0.7.tar.gz]
+[2024-04-09 07:38:54] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.0.8.tar.gz]
+[2024-04-09 07:38:54] INFO root fetch - main [MainThread]: End processing [quool]: success
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.6.6.tar.gz]
+[2024-04-09 07:38:54] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.6.7.tar.gz]
+[2024-04-09 07:38:54] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2024-04-09 07:38:55] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.6.6.tar.gz]
+[2024-04-09 07:38:55] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.6.7.tar.gz]
+[2024-04-09 07:38:55] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2024-04-09 07:38:57] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.1.0.tar.gz]
+[2024-04-09 07:38:57] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.1.1.tar.gz]
+[2024-04-09 07:38:57] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
+[2024-04-09 07:38:57] INFO root fetch - main [MainThread]: Store serial: [22678688]
