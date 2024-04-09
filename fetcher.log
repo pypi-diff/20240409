@@ -24571,3 +24571,80 @@
 [2024-04-09 12:50:23] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.24-py3-none-any.whl.zip]
 [2024-04-09 12:50:23] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
 [2024-04-09 12:50:23] INFO root fetch - main [MainThread]: Store serial: [22682091]
+[2024-04-09 12:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682091]
+[2024-04-09 12:52:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voila-vuetify-thermodynamics
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip-pkg-demo
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verifit
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panel
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipxu
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: juice-geopipeline
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markdown_convert
+[2024-04-09 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinybird-cdk
+[2024-04-09 12:52:32] INFO root fetch - processPackages [verifit]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [markdown_convert]: New version: [1.0.0] Old Version: [0.9.9]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [panel]: New version: [1.4.1rc3] Old Version: [1.4.1rc2]
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [pip-pkg-demo]: Skipping, unable to determine old version
+[2024-04-09 12:52:32] INFO root fetch - main [MainThread]: End processing [pip-pkg-demo] error
+[2024-04-09 12:52:32] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.5] Old Version: [0.17.4rc3]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [juice-geopipeline]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/5f/b1/6d04a43a74857be95da447b6b181709d728cfbb673ea61010a797122fdfc/verifit-5.0.0.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-09 12:52:32] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/d6/46/2de744369b20cf0ecf5a60a0d3f214d201b0aa034d31b83f6ae4570f37db/markdown_convert-0.9.9.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/05/0c/3eae814c830c13b073704485c98576b764baf2073a910d52e913cea4ccb4/panel-1.4.1rc2.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - processPackages [juice-geopipeline]: Downloading https://files.pythonhosted.org/packages/f7/bd/7afdf2c446141728f3b5b62051b5d0d783e58d9d997110aa4f47836c55b2/juice_geopipeline-0.4.2-py3-none-any.whl
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [markdown_convert]: Timeout reached during download
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 12:52:32] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: Downloading https://files.pythonhosted.org/packages/cd/22/712dfa86721f93d79fbcd159fc6474c984e1e07ecea74ae577b56ad39b3a/voila-vuetify-thermodynamics-0.6.7.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38063636>=10485760
+[2024-04-09 12:52:32] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/ac/e5/c1be8b7a260881f77598db52bd076e839d881e1206af1bb167a7e792ff23/tinybird-cdk-0.17.4rc3.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [juice-geopipeline]: Timeout reached during download
+[2024-04-09 12:52:32] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/81/33/461542882a0d5a700d7658db70eb3356771611b8ebb6693e339ead4d1faa/markdown_convert-1.0.0.tar.gz
+[2024-04-09 12:52:32] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/0a/90/c93a5b3ae5f6a51ea93ef85265bd6762726c503c56aad4439f05301d625d/verifit-5.0.1.tar.gz
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [voila-vuetify-thermodynamics]: Timeout reached during download
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [pipxu]: Timeout reached during download
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [tinybird-cdk]: Timeout reached during download
+[2024-04-09 12:52:32] WARNING root fetch - processPackages [markdown_convert]: Timeout reached during download
+[2024-04-09 12:52:32] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-04-09 12:52:32] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-0.9.9.tar.gz tmp/markdown_convert-1.0.0.tar.gz --markdown 20240409/m/markdown_convert/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2024-04-09 12:52:32] INFO root fetch - processPackages [juice-geopipeline]: Downloading https://files.pythonhosted.org/packages/df/03/d1858dcf163c1024384abaa0eba96dbdb51ceeb4cc3c7a0e25e3afbd5328/juice_geopipeline-0.4.3-py3-none-any.whl
+[2024-04-09 12:52:33] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: Downloading https://files.pythonhosted.org/packages/c4/10/8bb00d58ab8353e1b361ae68c6995b0264c10a0214923322593f0321a7c8/voila-vuetify-thermodynamics-0.6.8.tar.gz
+[2024-04-09 12:52:33] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-09 12:52:33] INFO root fetch - processPackages [verifit]: executing diffoscope
+[2024-04-09 12:52:33] INFO root fetch - processPackages [verifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifit-5.0.0.tar.gz tmp/verifit-5.0.1.tar.gz --markdown 20240409/v/verifit/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2024-04-09 12:52:33] WARNING root fetch - processPackages [juice-geopipeline]: Timeout reached during download
+[2024-04-09 12:52:33] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-09 12:52:33] INFO root fetch - processPackages [juice-geopipeline]: executing diffoscope
+[2024-04-09 12:52:33] INFO root fetch - processPackages [juice-geopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juice_geopipeline-0.4.2-py3-none-any.whl.zip tmp/juice_geopipeline-0.4.3-py3-none-any.whl.zip --markdown 20240409/j/juice-geopipeline/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-09 12:52:33] WARNING root fetch - processPackages [voila-vuetify-thermodynamics]: Timeout reached during download
+[2024-04-09 12:52:33] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: executing diffoscope
+[2024-04-09 12:52:33] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-thermodynamics-0.6.7.tar.gz tmp/voila-vuetify-thermodynamics-0.6.8.tar.gz --markdown 20240409/v/voila-vuetify-thermodynamics/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2024-04-09 12:52:33] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/1b/f0/503c09599a0328bf9c6a83cc90fb2441687e01dd6f14c30883ab3c72ec35/tinybird-cdk-0.17.5.tar.gz
+[2024-04-09 12:52:33] WARNING root fetch - processPackages [pipxu]: Timeout reached during download
+[2024-04-09 12:52:33] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-09 12:52:33] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240409/p/pipxu/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-09 12:52:33] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-5.0.0.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-5.0.1.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - main [MainThread]: End processing [verifit]: success
+[2024-04-09 12:52:33] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-0.9.9.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.0.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-04-09 12:52:33] INFO root fetch - processPackages [juice-geopipeline]: Remove: archive file [/home/abi/fetcher/tmp/juice_geopipeline-0.4.2-py3-none-any.whl.zip]
+[2024-04-09 12:52:33] INFO root fetch - processPackages [juice-geopipeline]: Remove: archive file [/home/abi/fetcher/tmp/juice_geopipeline-0.4.3-py3-none-any.whl.zip]
+[2024-04-09 12:52:33] INFO root fetch - main [MainThread]: End processing [juice-geopipeline]: success
+[2024-04-09 12:52:33] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-thermodynamics-0.6.7.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - processPackages [voila-vuetify-thermodynamics]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-thermodynamics-0.6.8.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - main [MainThread]: End processing [voila-vuetify-thermodynamics]: success
+[2024-04-09 12:52:33] WARNING root fetch - processPackages [tinybird-cdk]: Timeout reached during download
+[2024-04-09 12:52:33] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-04-09 12:52:33] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cdk-0.17.4rc3.tar.gz tmp/tinybird-cdk-0.17.5.tar.gz --markdown 20240409/t/tinybird-cdk/0.17.4rc3-0.17.5/diff.md --exclude *.pyd
+[2024-04-09 12:52:33] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-09 12:52:33] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-09 12:52:34] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cdk-0.17.4rc3.tar.gz]
+[2024-04-09 12:52:34] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cdk-0.17.5.tar.gz]
+[2024-04-09 12:52:34] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-04-09 12:52:34] INFO root fetch - main [MainThread]: Store serial: [22682115]
