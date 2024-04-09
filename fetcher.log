@@ -19746,3 +19746,66 @@
 [2024-04-09 10:26:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.69.1.tar.gz]
 [2024-04-09 10:26:35] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-09 10:26:35] INFO root fetch - main [MainThread]: Store serial: [22680232]
+[2024-04-09 10:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680232]
+[2024-04-09 10:28:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stroke-maps
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodoc
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modoboa-radicale
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CodersWheel
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkatlas
+[2024-04-09 10:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cxapit
+[2024-04-09 10:28:44] INFO root fetch - processPackages [stroke-maps]: New version: [0.5.0] Old Version: [0.0.2]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [checkatlas]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [nodoc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/23/7e/1b2caa6a7ce05bbf4916017404ec3490b867d221faa08de7d5720e1f9f2e/checkatlas-0.4.6.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [CodersWheel]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [modoboa-radicale]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-09 10:28:44] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [stroke-maps]: Downloading https://files.pythonhosted.org/packages/15/f4/f08d50a1d7149e2fcd501873d4bc5398aa9ae171b3da2dbb8c0b93a17e9a/stroke-maps-0.0.2.tar.gz
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [stroke-maps]: Skipping package: exceeds size limit 12220725>=10485760
+[2024-04-09 10:28:44] INFO root fetch - main [MainThread]: End processing [stroke-maps] error
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 10:28:44] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/c3/01/365275f65437bdcd49fb8054d4dd45304b5a0f8ee40ef9cdaf3d0fa5ad12/nodoc-1.0.9.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [modoboa-radicale]: Downloading https://files.pythonhosted.org/packages/10/34/927e26435c83145a29174ef10e58f081cc72b752234a91ae8f8b8cb2dac8/modoboa-radicale-1.7.1.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [CodersWheel]: Downloading https://files.pythonhosted.org/packages/9f/42/1c921dc40d09a90c4f135e668a069a99e13e20918e642af1005210dd2ab0/CodersWheel-0.2.0.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 10:28:44] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/5e/43/b492c185b16e3909de8175a03f486215ee95df4d33be4b266e5151f190ed/checkatlas-0.4.7.tar.gz
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-09 10:28:44] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-09 10:28:44] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.8.tar.gz tmp/nodoc-1.0.9.tar.gz --markdown 20240409/n/nodoc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [CodersWheel]: Timeout reached during download
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [modoboa-radicale]: Timeout reached during download
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 10:28:44] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 10:28:44] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.6.tar.gz tmp/checkatlas-0.4.7.tar.gz --markdown 20240409/c/checkatlas/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2024-04-09 10:28:44] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 10:28:44] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 10:28:44] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:28:45] INFO root fetch - processPackages [CodersWheel]: Downloading https://files.pythonhosted.org/packages/c7/75/33d8634086c062bbb7fc3e38ec12271189965ff458a99cc7b0cebbe39f49/CodersWheel-0.2.1.tar.gz
+[2024-04-09 10:28:45] INFO root fetch - processPackages [modoboa-radicale]: Downloading https://files.pythonhosted.org/packages/cd/c6/4e02a1339eec38d3894ca7742a484c1d2e41d967380d4c0681d23cfacf40/modoboa-radicale-1.7.2.tar.gz
+[2024-04-09 10:28:45] WARNING root fetch - processPackages [CodersWheel]: Timeout reached during download
+[2024-04-09 10:28:45] INFO root fetch - processPackages [CodersWheel]: executing diffoscope
+[2024-04-09 10:28:45] INFO root fetch - processPackages [CodersWheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodersWheel-0.2.0.tar.gz tmp/CodersWheel-0.2.1.tar.gz --markdown 20240409/C/CodersWheel/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-09 10:28:45] WARNING root fetch - processPackages [modoboa-radicale]: Timeout reached during download
+[2024-04-09 10:28:45] INFO root fetch - processPackages [modoboa-radicale]: executing diffoscope
+[2024-04-09 10:28:45] INFO root fetch - processPackages [modoboa-radicale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modoboa-radicale-1.7.1.tar.gz tmp/modoboa-radicale-1.7.2.tar.gz --markdown 20240409/m/modoboa-radicale/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2024-04-09 10:28:45] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.9.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-09 10:28:45] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.6.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.7.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 10:28:45] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 10:28:45] INFO root fetch - processPackages [CodersWheel]: Remove: archive file [/home/abi/fetcher/tmp/CodersWheel-0.2.0.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - processPackages [CodersWheel]: Remove: archive file [/home/abi/fetcher/tmp/CodersWheel-0.2.1.tar.gz]
+[2024-04-09 10:28:45] INFO root fetch - main [MainThread]: End processing [CodersWheel]: success
+[2024-04-09 10:28:46] INFO root fetch - processPackages [modoboa-radicale]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-radicale-1.7.1.tar.gz]
+[2024-04-09 10:28:46] INFO root fetch - processPackages [modoboa-radicale]: Remove: archive file [/home/abi/fetcher/tmp/modoboa-radicale-1.7.2.tar.gz]
+[2024-04-09 10:28:46] INFO root fetch - main [MainThread]: End processing [modoboa-radicale]: success
+[2024-04-09 10:28:46] INFO root fetch - main [MainThread]: Store serial: [22680249]
