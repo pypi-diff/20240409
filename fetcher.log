@@ -2806,3 +2806,77 @@
 [2024-04-09 02:09:12] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18314320>=10485760
 [2024-04-09 02:09:12] INFO root fetch - main [MainThread]: End processing [launchable] error
 [2024-04-09 02:09:12] INFO root fetch - main [MainThread]: Store serial: [22674768]
+[2024-04-09 02:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674768]
+[2024-04-09 02:11:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchable
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamdl
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-arn
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jenkins-jobs
+[2024-04-09 02:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-quantizers-nightly
+[2024-04-09 02:11:21] INFO root fetch - processPackages [gamdl]: New version: [2.1.1] Old Version: [2.1]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [aws-arn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.4.0.20240408.post1047] Old Version: [1.4.0.20240407.post1216]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.87.0]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404080009] Old Version: [4.1.6.dev202404070011]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [jenkins-jobs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [aws-arn]: Downloading https://files.pythonhosted.org/packages/d1/64/108cc6123a216344b2093cc2b3fa1a9ddc177c45dfe1a3dc1c8354599372/aws-arn-0.0.8.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7c/96/0fc9864472f6b44af9bf38e6ae04e98cf1a58fa7a7c77e06444c2c720bce/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/29/75/4a4bf3c2e8ae47b744e7eca2547ae7076a1b2ed6d2777aafd9de98ce0a87/gamdl-2.1.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-09 02:11:21] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/f2/b8/fb6131a7482937963e3324307046a838cb026353d3a543979576d48a47dd/launchable-1.9.0.tar.gz
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [aws-arn]: Timeout reached during download
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b4/7ab8cb21e92ee4afb7ab45aee73ea77e5a03e567caf846e208ae320a2684/openbb_nightly-4.1.6.dev202404070011.tar.gz
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18314320>=10485760
+[2024-04-09 02:11:21] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2024-04-09 02:11:21] INFO root fetch - processPackages [jenkins-jobs]: Downloading https://files.pythonhosted.org/packages/fb/94/cb31718a967e6182e57354ab9d088c6c6313ddb5105209829e2db133dc9c/jenkins_jobs-0.1.0.tar.gz
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [aws-arn]: Downloading https://files.pythonhosted.org/packages/1f/f4/e8ee6077f13c1f430b880dfb1398457dc4dae2d2b0f1e97e3c7a9d4d39ac/aws-arn-0.0.9.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/d7/89a856fa1a64601d0cc3b701234fbfc65b0fdffd5665ade88e91759caa62/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/40/c4/1eff0393e1c126cf1fdbb3368712575fb34fe0bffb1482c5b3a0df8a3947/gamdl-2.1.1.tar.gz
+[2024-04-09 02:11:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [aws-arn]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [aws-arn]: executing diffoscope
+[2024-04-09 02:11:21] INFO root fetch - processPackages [aws-arn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-arn-0.0.8.tar.gz tmp/aws-arn-0.0.9.tar.gz --markdown 20240409/a/aws-arn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [jenkins-jobs]: Timeout reached during download
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-09 02:11:21] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.tar.gz tmp/gamdl-2.1.1.tar.gz --markdown 20240409/g/gamdl/2.1-2.1.1/diff.md --exclude *.pyd
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-09 02:11:21] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz --markdown 20240409/m/mct-quantizers-nightly/1.4.0.20240407.post1216-1.4.0.20240408.post1047/diff.md --exclude *.pyd
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [jenkins-jobs]: Downloading https://files.pythonhosted.org/packages/ff/e5/76ffeba32f4cf99e21813dabda7407256ac07d3f57948125cc7c6f192eee/jenkins_jobs-0.1.1.tar.gz
+[2024-04-09 02:11:21] WARNING root fetch - processPackages [jenkins-jobs]: Timeout reached during download
+[2024-04-09 02:11:21] INFO root fetch - processPackages [jenkins-jobs]: executing diffoscope
+[2024-04-09 02:11:21] INFO root fetch - processPackages [jenkins-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkins_jobs-0.1.0.tar.gz tmp/jenkins_jobs-0.1.1.tar.gz --markdown 20240409/j/jenkins-jobs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-09 02:11:21] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/98/bd/036c8c91cf7fd958c8f2aec2741e71a95a35de9a874beb6f57be2ab62e2e/openbb_nightly-4.1.6.dev202404080009.tar.gz
+[2024-04-09 02:11:22] INFO root fetch - processPackages [aws-arn]: Remove: archive file [/home/abi/fetcher/tmp/aws-arn-0.0.8.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - processPackages [aws-arn]: Remove: archive file [/home/abi/fetcher/tmp/aws-arn-0.0.9.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - main [MainThread]: End processing [aws-arn]: success
+[2024-04-09 02:11:22] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.1.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-09 02:11:22] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-09 02:11:22] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-09 02:11:22] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404070011.tar.gz tmp/openbb_nightly-4.1.6.dev202404080009.tar.gz --markdown 20240409/o/openbb-nightly/4.1.6.dev202404070011-4.1.6.dev202404080009/diff.md --exclude *.pyd
+[2024-04-09 02:11:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-09 02:11:22] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-09 02:11:22] INFO root fetch - processPackages [jenkins-jobs]: Remove: archive file [/home/abi/fetcher/tmp/jenkins_jobs-0.1.0.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - processPackages [jenkins-jobs]: Remove: archive file [/home/abi/fetcher/tmp/jenkins_jobs-0.1.1.tar.gz]
+[2024-04-09 02:11:22] INFO root fetch - main [MainThread]: End processing [jenkins-jobs]: success
+[2024-04-09 02:11:22] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-09 02:11:23] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-09 02:11:23] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-09 02:11:23] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240409/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:11:24] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-09 02:11:24] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-09 02:11:24] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-09 02:11:25] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404070011.tar.gz]
+[2024-04-09 02:11:25] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404080009.tar.gz]
+[2024-04-09 02:11:25] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-09 02:11:25] INFO root fetch - main [MainThread]: Store serial: [22674790]
