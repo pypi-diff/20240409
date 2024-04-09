@@ -15736,3 +15736,39 @@
 [2024-04-09 07:52:09] WARNING root fetch - processPackages [atommediaserver]: Skipping package: exceeds size limit 28758750>=10485760
 [2024-04-09 07:52:09] INFO root fetch - main [MainThread]: End processing [atommediaserver] error
 [2024-04-09 07:52:09] INFO root fetch - main [MainThread]: Store serial: [22678749]
+[2024-04-09 07:54:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678749]
+[2024-04-09 07:54:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 07:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pirogue
+[2024-04-09 07:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s1-cns-cli
+[2024-04-09 07:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biopipen
+[2024-04-09 07:54:19] INFO root fetch - processPackages [pirogue]: New version: [2.0.1b1] Old Version: [1.4.2]
+[2024-04-09 07:54:19] INFO root fetch - processPackages [s1-cns-cli]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-09 07:54:19] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 07:54:19] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/8f/7d/eb14f543525adc487a633239645cc79ad36aabe01b5b6013ca40ea676083/pirogue-1.4.2.tar.gz
+[2024-04-09 07:54:19] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 07:54:19] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2024-04-09 07:54:19] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/a4/65/ed2d8cfa3f31a698c883538711438d1f1232d26481029dc0e3949c8eb482/s1_cns_cli-0.3.1.tar.gz
+[2024-04-09 07:54:19] INFO root fetch - processPackages [pirogue]: Downloading https://files.pythonhosted.org/packages/29/44/a10add02735d5f1ce8549ff24dd4e0ea81540dc50f872f7ef909961d2fef/pirogue-2.0.1b1.tar.gz
+[2024-04-09 07:54:19] WARNING root fetch - processPackages [biopipen]: Timeout reached during download
+[2024-04-09 07:54:19] WARNING root fetch - processPackages [pirogue]: Timeout reached during download
+[2024-04-09 07:54:19] INFO root fetch - processPackages [pirogue]: executing diffoscope
+[2024-04-09 07:54:19] INFO root fetch - processPackages [pirogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pirogue-1.4.2.tar.gz tmp/pirogue-2.0.1b1.tar.gz --markdown 20240409/p/pirogue/1.4.2-2.0.1b1/diff.md --exclude *.pyd
+[2024-04-09 07:54:19] WARNING root fetch - processPackages [s1-cns-cli]: Timeout reached during download
+[2024-04-09 07:54:19] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2024-04-09 07:54:19] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/74/c1/636cfd76417d321cb65cfd98789a4fa6dba874ea2646f716d373b449239f/s1_cns_cli-0.3.2.tar.gz
+[2024-04-09 07:54:20] WARNING root fetch - processPackages [s1-cns-cli]: Timeout reached during download
+[2024-04-09 07:54:20] INFO root fetch - processPackages [s1-cns-cli]: executing diffoscope
+[2024-04-09 07:54:20] INFO root fetch - processPackages [s1-cns-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1_cns_cli-0.3.1.tar.gz tmp/s1_cns_cli-0.3.2.tar.gz --markdown 20240409/s/s1-cns-cli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-09 07:54:20] WARNING root fetch - processPackages [biopipen]: Timeout reached during download
+[2024-04-09 07:54:20] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2024-04-09 07:54:20] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20240409/b/biopipen/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 07:54:20] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-1.4.2.tar.gz]
+[2024-04-09 07:54:20] INFO root fetch - processPackages [pirogue]: Remove: archive file [/home/abi/fetcher/tmp/pirogue-2.0.1b1.tar.gz]
+[2024-04-09 07:54:20] INFO root fetch - main [MainThread]: End processing [pirogue]: success
+[2024-04-09 07:54:20] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2024-04-09 07:54:20] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2024-04-09 07:54:20] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2024-04-09 07:54:27] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.1.tar.gz]
+[2024-04-09 07:54:27] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.2.tar.gz]
+[2024-04-09 07:54:27] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
+[2024-04-09 07:54:27] INFO root fetch - main [MainThread]: Store serial: [22678760]
