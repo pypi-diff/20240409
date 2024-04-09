@@ -9289,3 +9289,42 @@
 [2024-04-09 04:08:01] INFO root fetch - processPackages [image-sorting-tool]: Remove: archive file [/home/abi/fetcher/tmp/image-sorting-tool-1.1.2.tar.gz]
 [2024-04-09 04:08:01] INFO root fetch - main [MainThread]: End processing [image-sorting-tool]: success
 [2024-04-09 04:08:01] INFO root fetch - main [MainThread]: Store serial: [22676660]
+[2024-04-09 04:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676660]
+[2024-04-09 04:10:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 04:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFASoC
+[2024-04-09 04:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-scss
+[2024-04-09 04:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli-films
+[2024-04-09 04:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hebill
+[2024-04-09 04:10:10] INFO root fetch - processPackages [OpenFASoC]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 04:10:10] INFO root fetch - processPackages [hebill]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-09 04:10:10] WARNING root fetch - processPackages [tree-sitter-scss]: Skipping, unable to determine old version
+[2024-04-09 04:10:10] INFO root fetch - main [MainThread]: End processing [tree-sitter-scss] error
+[2024-04-09 04:10:10] INFO root fetch - processPackages [OpenFASoC]: Downloading https://files.pythonhosted.org/packages/6a/d4/4e254587ba6f4ec647a3939d25cfa09ff0d3a15f4968f2904261fc94baaf/OpenFASoC-0.0.2.tar.gz
+[2024-04-09 04:10:10] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/53/ae/1f396efa04e31e931636223e7086c84bdc70741a5e37f05a60d1f8d33bd4/hebill-1.1.3.tar.gz
+[2024-04-09 04:10:10] INFO root fetch - processPackages [mov-cli-films]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-09 04:10:10] WARNING root fetch - processPackages [OpenFASoC]: Timeout reached during download
+[2024-04-09 04:10:10] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:10:10] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/5c/fa/23b0e51199574c20c48d5d72bb973bcd83ce11acdaaf29d95edcee969776/mov-cli-films-1.3.3.tar.gz
+[2024-04-09 04:10:10] INFO root fetch - processPackages [OpenFASoC]: Downloading https://files.pythonhosted.org/packages/1b/5b/5e411beb707a679873e0e7380194d5c83b7b1233196837a6a41ef59ae8fd/OpenFASoC-0.0.3.tar.gz
+[2024-04-09 04:10:10] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/81/34/df6382866d875708facadf1b3b2efe638e443dbceada4e53c3b5bf315733/hebill-1.1.4.tar.gz
+[2024-04-09 04:10:11] WARNING root fetch - processPackages [mov-cli-films]: Timeout reached during download
+[2024-04-09 04:10:11] WARNING root fetch - processPackages [OpenFASoC]: Timeout reached during download
+[2024-04-09 04:10:11] INFO root fetch - processPackages [OpenFASoC]: executing diffoscope
+[2024-04-09 04:10:11] INFO root fetch - processPackages [OpenFASoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFASoC-0.0.2.tar.gz tmp/OpenFASoC-0.0.3.tar.gz --markdown 20240409/O/OpenFASoC/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 04:10:11] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 04:10:11] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-09 04:10:11] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.3.tar.gz tmp/hebill-1.1.4.tar.gz --markdown 20240409/h/hebill/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/8f/01/0ad2d913c5f29fd0282e812ad678c68cf4cf267d417c4b4208dcfc426a6c/mov-cli-films-1.3.4.tar.gz
+[2024-04-09 04:10:11] WARNING root fetch - processPackages [mov-cli-films]: Timeout reached during download
+[2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: executing diffoscope
+[2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-films-1.3.3.tar.gz tmp/mov-cli-films-1.3.4.tar.gz --markdown 20240409/m/mov-cli-films/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-09 04:10:11] INFO root fetch - processPackages [OpenFASoC]: Remove: archive file [/home/abi/fetcher/tmp/OpenFASoC-0.0.2.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - processPackages [OpenFASoC]: Remove: archive file [/home/abi/fetcher/tmp/OpenFASoC-0.0.3.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - main [MainThread]: End processing [OpenFASoC]: success
+[2024-04-09 04:10:11] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.3.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.4.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.3.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.4.tar.gz]
+[2024-04-09 04:10:11] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
+[2024-04-09 04:10:11] INFO root fetch - main [MainThread]: Store serial: [22676679]
