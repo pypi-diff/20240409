@@ -20473,3 +20473,61 @@
 [2024-04-09 10:49:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.2.tar.gz]
 [2024-04-09 10:49:15] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-04-09 10:49:15] INFO root fetch - main [MainThread]: Store serial: [22680526]
+[2024-04-09 10:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680526]
+[2024-04-09 10:51:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 10:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muon
+[2024-04-09 10:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: one4all-iop-models
+[2024-04-09 10:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: murfey
+[2024-04-09 10:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vectice
+[2024-04-09 10:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-analysis-bilibili
+[2024-04-09 10:51:24] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-09 10:51:25] INFO root fetch - processPackages [muon]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-09 10:51:25] INFO root fetch - processPackages [vectice]: New version: [24.1.9.0] Old Version: [24.1.8.1]
+[2024-04-09 10:51:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-09 10:51:25] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-09 10:51:25] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/02/7f/420e2b0fdfa72ad03df2e3c43078755699ef6a8121fe7738fa73ed11265e/one4all_iop_models-0.1.5.tar.gz
+[2024-04-09 10:51:25] INFO root fetch - processPackages [muon]: Downloading https://files.pythonhosted.org/packages/41/9f/22a0ba1b931df69fbf4d1b71f5db31bcbcde1a3be466142fe399db9a5489/muon-0.1.5.tar.gz
+[2024-04-09 10:51:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/f1/21/7ba70d43fadb3892d23b971e7a86197410f9e4622f3802f2eb4cb7481229/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/d5/aa/990e47e07fd70f1afd2bc52b845ecd89c7446eebe4b1964249654c2441eb/vectice-24.1.8.1.tar.gz
+[2024-04-09 10:51:25] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Timeout reached during download
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [muon]: Timeout reached during download
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [vectice]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/de/54/557a544c80b3556bad6297472844b348e2bb7b7ffa04eb10d6e5a1edb363/one4all_iop_models-0.1.6.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [murfey]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/8f/b4/6dcb2e7eba35c7f559eac816b1cef17dbc0805d6b58bcb219e451d2baac9/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-04-09 10:51:25] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.5.tar.gz tmp/one4all_iop_models-0.1.6.tar.gz --markdown 20240409/o/one4all-iop-models/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-09 10:51:25] INFO root fetch - processPackages [muon]: Downloading https://files.pythonhosted.org/packages/a4/23/e6c3a32cd025fba8e6763a47f09b081a3ce88e838c19d2fa20efe18c4b92/muon-0.1.6.tar.gz
+[2024-04-09 10:51:25] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/3c/94/621dffb163df1e2950957407abf243350e8439199409ff40afbed4ef1267/vectice-24.1.9.0.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2024-04-09 10:51:25] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz --markdown 20240409/n/nonebot-plugin-analysis-bilibili/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2024-04-09 10:51:25] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [muon]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [muon]: executing diffoscope
+[2024-04-09 10:51:25] INFO root fetch - processPackages [muon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muon-0.1.5.tar.gz tmp/muon-0.1.6.tar.gz --markdown 20240409/m/muon/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [vectice]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-04-09 10:51:25] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.1.8.1.tar.gz tmp/vectice-24.1.9.0.tar.gz --markdown 20240409/v/vectice/24.1.8.1-24.1.9.0/diff.md --exclude *.pyd
+[2024-04-09 10:51:25] WARNING root fetch - processPackages [murfey]: Timeout reached during download
+[2024-04-09 10:51:25] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-04-09 10:51:25] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240409/m/murfey/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-09 10:51:26] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.5.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.6.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-04-09 10:51:26] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.8.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_analysis_bilibili-2.6.9.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2024-04-09 10:51:26] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.1.8.1.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.1.9.0.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-04-09 10:51:26] INFO root fetch - processPackages [muon]: Remove: archive file [/home/abi/fetcher/tmp/muon-0.1.5.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - processPackages [muon]: Remove: archive file [/home/abi/fetcher/tmp/muon-0.1.6.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [muon]: success
+[2024-04-09 10:51:26] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-04-09 10:51:26] INFO root fetch - main [MainThread]: Store serial: [22680541]
