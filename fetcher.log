@@ -15523,3 +15523,72 @@
 [2024-04-09 07:43:19] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
 [2024-04-09 07:43:19] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
 [2024-04-09 07:43:19] INFO root fetch - main [MainThread]: Store serial: [22678698]
+[2024-04-09 07:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678698]
+[2024-04-09 07:45:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pfx
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: booktest
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainbench
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psp-liquids-daq-parser
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fovus
+[2024-04-09 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cxapit
+[2024-04-09 07:45:28] INFO root fetch - processPackages [psp-liquids-daq-parser]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 07:45:28] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 07:45:28] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-09 07:45:28] INFO root fetch - processPackages [fovus]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-09 07:45:28] INFO root fetch - processPackages [booktest]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-09 07:45:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/6d/d4/6d99ad81e33e0b7ac24d4cc975b701358b0b5661478c6276e2c32713c587/psp_liquids_daq_parser-0.0.2.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [chainbench]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-09 07:45:29] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/f1/c0/a4dd2e0c61704585bdca841ea8725ea766a28aec0b849d1254506e8a65bc/fovus-1.1.8-py3-none-any.whl
+[2024-04-09 07:45:29] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/95/21/43e7639c258b9b198722ad6e91b1a332a48b938dfab0810ab6d1d8d71547/booktest-0.3.7.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/d3/a5/ced8c55df17d7fab50a02b2383f32255e48ef255b976f703319a1c2674d3/chainbench-0.6.5.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/bc/2a/806d456488f6c88981bc0c34d6c4336a7289936befcf3e5d4fede72e4254/psp_liquids_daq_parser-0.0.3.tar.gz
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [fovus]: Timeout reached during download
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [chainbench]: Timeout reached during download
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240409/d/django-pfx/1.4.dev6-1.4.dev8/diff.md --exclude *.pyd
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [psp-liquids-daq-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psp_liquids_daq_parser-0.0.2.tar.gz tmp/psp_liquids_daq_parser-0.0.3.tar.gz --markdown 20240409/p/psp-liquids-daq-parser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [booktest]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/9d/17/d26e10c9072a12d5519630d2680aaea218cccc6fb4721b0df5a46d1e6d46/chainbench-0.6.6.tar.gz
+[2024-04-09 07:45:29] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/c1/f1/029dd56d05c770d6266c20505b366fc3143f86b85514545e2ef77ededba7/fovus-1.1.9-py3-none-any.whl
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [chainbench]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.6.5.tar.gz tmp/chainbench-0.6.6.tar.gz --markdown 20240409/c/chainbench/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2024-04-09 07:45:29] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/93/c7/91e0ef317cf0a48df8669619ee6f557d57a311d7e80732010b94ca8b6b41/booktest-0.3.8.tar.gz
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [fovus]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.1.8-py3-none-any.whl.zip tmp/fovus-1.1.9-py3-none-any.whl.zip --markdown 20240409/f/fovus/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-09 07:45:29] WARNING root fetch - processPackages [booktest]: Timeout reached during download
+[2024-04-09 07:45:29] INFO root fetch - processPackages [booktest]: executing diffoscope
+[2024-04-09 07:45:29] INFO root fetch - processPackages [booktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booktest-0.3.7.tar.gz tmp/booktest-0.3.8.tar.gz --markdown 20240409/b/booktest/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2024-04-09 07:45:30] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.2.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.3.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
+[2024-04-09 07:45:30] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 07:45:30] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-09 07:45:30] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.1.8-py3-none-any.whl.zip]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.1.9-py3-none-any.whl.zip]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2024-04-09 07:45:30] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.7.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.8.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [booktest]: success
+[2024-04-09 07:45:30] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.5.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.6.6.tar.gz]
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2024-04-09 07:45:30] INFO root fetch - main [MainThread]: Store serial: [22678712]
