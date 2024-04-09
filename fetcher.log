@@ -12663,3 +12663,61 @@
 [2024-04-09 05:33:56] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2024-04-09 05:33:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2024-04-09 05:33:56] INFO root fetch - main [MainThread]: Store serial: [22677656]
+[2024-04-09 05:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677656]
+[2024-04-09 05:36:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 05:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-parse-time
+[2024-04-09 05:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volstreet
+[2024-04-09 05:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runes-client
+[2024-04-09 05:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-redis
+[2024-04-09 05:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipyard-databricks-sql
+[2024-04-09 05:36:05] INFO root fetch - processPackages [shipyard-databricks-sql]: New version: [0.2.1a0] Old Version: [0.2.0]
+[2024-04-09 05:36:05] INFO root fetch - processPackages [runes-client]: New version: [0.8.2] Old Version: [0.7.8]
+[2024-04-09 05:36:05] INFO root fetch - processPackages [volstreet]: New version: [7.1.0] Old Version: [7.0.4]
+[2024-04-09 05:36:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:36:05] INFO root fetch - processPackages [fast-parse-time]: New version: [0.1.12] Old Version: [0.1.10]
+[2024-04-09 05:36:05] INFO root fetch - processPackages [shipyard-databricks-sql]: Downloading https://files.pythonhosted.org/packages/a8/aa/0b04ed5464b744b84e32f00f31d8d94d405c34a86c8c910b5e15de69ba0c/shipyard_databricks_sql-0.2.0.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/58/9d/88177c81b6f79f3f2b5781650482a1c99b35abe1fc1ed23206334c05555c/runes-client-0.7.8.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/67/b9/b6c718924d65cbb8f77b640bf431f53ee911cf3d8b50fd85c77945ce5996/volstreet-7.0.4.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Downloading https://files.pythonhosted.org/packages/3d/f2/fd05800e5d399321db1de937fcd1ae484644a8ca652648e594a79da51ffb/tencentcloud-sdk-python-redis-3.0.998.tar.gz
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [shipyard-databricks-sql]: Timeout reached during download
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [runes-client]: Timeout reached during download
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [tencentcloud-sdk-python-redis]: Timeout reached during download
+[2024-04-09 05:36:05] INFO root fetch - processPackages [fast-parse-time]: Downloading https://files.pythonhosted.org/packages/55/a2/9e003d9c7f8b95db34baa9126f629ca6b43398652b985a91fac56d399f9c/fast_parse_time-0.1.10.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/1e/99/ef42f8a8c900baac86d17287dfec24f72b66507fbf0b5e6027baca58db6f/runes-client-0.8.2.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [shipyard-databricks-sql]: Downloading https://files.pythonhosted.org/packages/05/f5/61230865cb6c29218a78e5fc361462f0ad293b2e7b527a03a00578aaa46a/shipyard_databricks_sql-0.2.1a0.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/b2/0c/9f71c75de151d391b86133d8d26cf3153a32280643a48bf231b30b70aafe/volstreet-7.1.0.tar.gz
+[2024-04-09 05:36:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Downloading https://files.pythonhosted.org/packages/d6/07/f5787cd3fd2169723ce34cce223b222f5b30a1e008dfae44ab5f0873e705/tencentcloud-sdk-python-redis-3.0.999.tar.gz
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [fast-parse-time]: Timeout reached during download
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [shipyard-databricks-sql]: Timeout reached during download
+[2024-04-09 05:36:05] INFO root fetch - processPackages [shipyard-databricks-sql]: executing diffoscope
+[2024-04-09 05:36:05] INFO root fetch - processPackages [shipyard-databricks-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_databricks_sql-0.2.0.tar.gz tmp/shipyard_databricks_sql-0.2.1a0.tar.gz --markdown 20240409/s/shipyard-databricks-sql/0.2.0-0.2.1a0/diff.md --exclude *.pyd
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [runes-client]: Timeout reached during download
+[2024-04-09 05:36:05] INFO root fetch - processPackages [runes-client]: executing diffoscope
+[2024-04-09 05:36:05] INFO root fetch - processPackages [runes-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-client-0.7.8.tar.gz tmp/runes-client-0.8.2.tar.gz --markdown 20240409/r/runes-client/0.7.8-0.8.2/diff.md --exclude *.pyd
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [tencentcloud-sdk-python-redis]: Timeout reached during download
+[2024-04-09 05:36:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: executing diffoscope
+[2024-04-09 05:36:05] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-redis-3.0.998.tar.gz tmp/tencentcloud-sdk-python-redis-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-redis/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:36:05] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-09 05:36:05] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-09 05:36:05] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.0.4.tar.gz tmp/volstreet-7.1.0.tar.gz --markdown 20240409/v/volstreet/7.0.4-7.1.0/diff.md --exclude *.pyd
+[2024-04-09 05:36:06] INFO root fetch - processPackages [fast-parse-time]: Downloading https://files.pythonhosted.org/packages/09/db/7abcb82d6f9cb38549f646abaeb02e0daac68a10ccfa98fd2b3c21619896/fast_parse_time-0.1.12.tar.gz
+[2024-04-09 05:36:06] WARNING root fetch - processPackages [fast-parse-time]: Timeout reached during download
+[2024-04-09 05:36:06] INFO root fetch - processPackages [fast-parse-time]: executing diffoscope
+[2024-04-09 05:36:06] INFO root fetch - processPackages [fast-parse-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_parse_time-0.1.10.tar.gz tmp/fast_parse_time-0.1.12.tar.gz --markdown 20240409/f/fast-parse-time/0.1.10-0.1.12/diff.md --exclude *.pyd
+[2024-04-09 05:36:06] INFO root fetch - processPackages [shipyard-databricks-sql]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_databricks_sql-0.2.0.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - processPackages [shipyard-databricks-sql]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_databricks_sql-0.2.1a0.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: End processing [shipyard-databricks-sql]: success
+[2024-04-09 05:36:06] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-redis-3.0.998.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - processPackages [tencentcloud-sdk-python-redis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-redis-3.0.999.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-redis]: success
+[2024-04-09 05:36:06] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.7.8.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.8.2.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: End processing [runes-client]: success
+[2024-04-09 05:36:06] INFO root fetch - processPackages [fast-parse-time]: Remove: archive file [/home/abi/fetcher/tmp/fast_parse_time-0.1.10.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - processPackages [fast-parse-time]: Remove: archive file [/home/abi/fetcher/tmp/fast_parse_time-0.1.12.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: End processing [fast-parse-time]: success
+[2024-04-09 05:36:06] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.4.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.0.tar.gz]
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-09 05:36:06] INFO root fetch - main [MainThread]: Store serial: [22677671]
