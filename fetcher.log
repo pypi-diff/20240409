@@ -22164,3 +22164,157 @@
 [2024-04-09 11:35:04] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-09 11:35:04] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2024-04-09 11:35:04] INFO root fetch - main [MainThread]: Store serial: [22681171]
+[2024-04-09 11:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681171]
+[2024-04-09 11:37:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dutree
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rclip
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cogflow
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataTransformationsBertas
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: endec
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unimpeded
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qleegss
+[2024-04-09 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: massmarket-hash-event
+[2024-04-09 11:37:16] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [rclip]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240409072220] Old Version: [3.3.1.dev20240409061242]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [dutree]: New version: [1.7] Old Version: [1.6]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [unimpeded]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [cogflow]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-04-09 11:37:16] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ba/e9/4cea27504d7413f806adda4ea5dc9d0f18d07071e6f8879f8d74797a8cac/rclip-1.8.2.tar.gz
+[2024-04-09 11:37:16] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-09 11:37:16] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/17/13/df30264b94ec75d89986ecc3823e59d6d382937632376ede119a3329fa95/datatransformationsbertas-0.7.2.tar.gz
+[2024-04-09 11:37:16] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-09 11:37:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1f/a1/d5c950b2623cf0bf0780cdf36b43dad19b9725b339ee864b0de555d53ce7/localstack-core-3.3.1.dev20240409061242.tar.gz
+[2024-04-09 11:37:16] INFO root fetch - processPackages [endec]: New version: [0.1.0b1] Old Version: [0.1.0a4]
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-09 11:37:17] INFO root fetch - processPackages [qleegss]: Start processing: stockdatamanager
+[2024-04-09 11:37:17] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dutree]: Downloading https://files.pythonhosted.org/packages/db/0b/e82de404537af7e8513310247a5e1902215e6c5ebb9e89f027d79fb61e2e/dutree-1.6.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [stockdatamanager]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/4b/54/e04f526b341de2cea0b9ddf77cc19650835bc66960da294120ef47e90103/massmarket_hash_event-0.0.8.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/e5/6b/761ed27cf3bb825c27b12ac40a8b41489c41cf6da408e49b2090464ba3a2/unimpeded-0.1.2.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/07/13/8a8b10ea041f6b61877b33218e693222ee573fad1cf6518945a1bc85dc0d/cogflow-1.5.2.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [stockdatamanager]: Downloading https://files.pythonhosted.org/packages/5e/ea/bffd547a88d65a049e44c3eabfa427b227482ff76e286fe25d32ff002bac/stockdatamanager-0.9.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/bd/5f/0ef9891fe56fcda4898346c18ce645652b871ae1b6e3523666406a38e738/endec-0.1.0a4.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/aa/e2/11310545299ef98602b8f4a31aac839a086bfdcb743b0979bf0a9ed48dcc/datatransformationsbertas-0.7.3.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/7d/06/39c2cd1a368d2becc5dd8d582b4e5ed666e3b42f17ea9066c973d8924d57/rclip-1.8.3.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [dutree]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [massmarket-hash-event]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [stockdatamanager]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [unimpeded]: Timeout reached during download
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240409/s/specklia/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.8.2.tar.gz tmp/rclip-1.8.3.tar.gz --markdown 20240409/r/rclip/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.7.2.tar.gz tmp/datatransformationsbertas-0.7.3.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] INFO root fetch - processPackages [stockdatamanager]: Downloading https://files.pythonhosted.org/packages/5d/76/8dba7aa39b8162c1c404dd81e5906d1e29dcfc22521d6e693943f06256f7/stockdatamanager-0.9.1.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d6/dd/f967bfd073739e98791598e99d7632c7cfb1792ce8f24d08a2d6db28ec61/localstack-core-3.3.1.dev20240409072220.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [endec]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dutree]: Downloading https://files.pythonhosted.org/packages/77/04/26bdb01a13c954d7da274b066aae67b7d1531f0edf9d77de4719aa774d2c/dutree-1.7.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/14/c8/0513f4d7d073606543f49d4a22039bfe11ab160f01e62d4c91536fb54ecf/massmarket_hash_event-0.0.9.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/44/bf/26c8f3e2378d1fdac30334792c350cdb9989f241360cd8df63afc74ab25d/cogflow-1.6.0.tar.gz
+[2024-04-09 11:37:17] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/73/f7/6ab9178dd162a37d4bb1c6065ec7eb12c0eb8022eaa892e44106ea2639dd/unimpeded-0.2.0.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [stockdatamanager]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [stockdatamanager]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [stockdatamanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockdatamanager-0.9.tar.gz tmp/stockdatamanager-0.9.1.tar.gz --markdown 20240409/s/stockdatamanager/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [dutree]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dutree]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [dutree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dutree-1.6.tar.gz tmp/dutree-1.7.tar.gz --markdown 20240409/d/dutree/1.6-1.7/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [massmarket-hash-event]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.0.8.tar.gz tmp/massmarket_hash_event-0.0.9.tar.gz --markdown 20240409/m/massmarket-hash-event/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/3c/ad/414eed85c8edd903f972ad8a9fd2dee3bb4ff44e5fa522c62b75387312be/endec-0.1.0b1.tar.gz
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240409061242.tar.gz tmp/localstack-core-3.3.1.dev20240409072220.tar.gz --markdown 20240409/l/localstack-core/3.3.1.dev20240409061242-3.3.1.dev20240409072220/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [unimpeded]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.1.2.tar.gz tmp/unimpeded-0.2.0.tar.gz --markdown 20240409/u/unimpeded/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-09 11:37:17] WARNING root fetch - processPackages [cogflow]: Timeout reached during download
+[2024-04-09 11:37:17] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-09 11:37:17] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.5.2.tar.gz tmp/cogflow-1.6.0.tar.gz --markdown 20240409/c/cogflow/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2024-04-09 11:37:18] WARNING root fetch - processPackages [endec]: Timeout reached during download
+[2024-04-09 11:37:18] INFO root fetch - processPackages [endec]: executing diffoscope
+[2024-04-09 11:37:18] INFO root fetch - processPackages [endec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endec-0.1.0a4.tar.gz tmp/endec-0.1.0b1.tar.gz --markdown 20240409/e/endec/0.1.0a4-0.1.0b1/diff.md --exclude *.pyd
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.2.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.3.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dataTransformationsBertas]: Start processing: sindapi
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.2.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.3.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [rclip]: Start processing: akeneo-connector
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [specklia]: Start processing: dfp
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [akeneo-connector]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 11:37:18] WARNING root fetch - processPackages [sindapi]: Skipping, unable to determine old version
+[2024-04-09 11:37:18] INFO root fetch - processPackages [sindapi]: Start processing: signapse
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [sindapi] error
+[2024-04-09 11:37:18] INFO root fetch - processPackages [stockdatamanager]: Remove: archive file [/home/abi/fetcher/tmp/stockdatamanager-0.9.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [stockdatamanager]: Remove: archive file [/home/abi/fetcher/tmp/stockdatamanager-0.9.1.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [stockdatamanager]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/27/52/a5ce101b874638abbce319f95f3e765e9e7510554d20f20d2bcf872c1553/akeneo_connector-0.1.2.tar.gz
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dutree]: Remove: archive file [/home/abi/fetcher/tmp/dutree-1.6.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dutree]: Remove: archive file [/home/abi/fetcher/tmp/dutree-1.7.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [dutree]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [signapse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dfp]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-09 11:37:18] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 11:37:18] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.0.8.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.0.9.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.5.2.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.6.0.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.1.2.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.2.0.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [dfp]: Downloading https://files.pythonhosted.org/packages/00/b5/12f455e132d246544e1a3eb53945eee6ca6e576e80889b49571656a37c79/dfp-0.9.0.tar.gz
+[2024-04-09 11:37:18] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0a4.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b1.tar.gz]
+[2024-04-09 11:37:18] INFO root fetch - main [MainThread]: End processing [endec]: success
+[2024-04-09 11:37:18] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/5f/55/38c1adcb4e9cf17fa98a9bf6c13ef898465efbb5132e54e75abe048cdf89/signapse-1.0.8.tar.gz
+[2024-04-09 11:37:18] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/6f/2e/216b900602f805c092fd996fe29827d15dd4ed58070edcb3d1f08faf74d3/akeneo_connector-0.1.3.tar.gz
+[2024-04-09 11:37:19] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 11:37:19] INFO root fetch - processPackages [akeneo-connector]: executing diffoscope
+[2024-04-09 11:37:19] INFO root fetch - processPackages [akeneo-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo_connector-0.1.2.tar.gz tmp/akeneo_connector-0.1.3.tar.gz --markdown 20240409/a/akeneo-connector/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 11:37:19] WARNING root fetch - processPackages [dfp]: Timeout reached during download
+[2024-04-09 11:37:19] WARNING root fetch - processPackages [signapse]: Timeout reached during download
+[2024-04-09 11:37:19] INFO root fetch - processPackages [dfp]: Downloading https://files.pythonhosted.org/packages/c0/63/c48e0ae5b41d50f59843745c50854baa7bcbc60e67aff619705909326549/dfp-0.9.1.tar.gz
+[2024-04-09 11:37:19] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/1e/42/501acb48a89eb482ec60016c03d5041312d79059f71f4c9ac23bc4a65961/signapse-1.0.9.tar.gz
+[2024-04-09 11:37:19] WARNING root fetch - processPackages [dfp]: Timeout reached during download
+[2024-04-09 11:37:19] INFO root fetch - processPackages [dfp]: executing diffoscope
+[2024-04-09 11:37:19] INFO root fetch - processPackages [dfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfp-0.9.0.tar.gz tmp/dfp-0.9.1.tar.gz --markdown 20240409/d/dfp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-09 11:37:19] WARNING root fetch - processPackages [signapse]: Timeout reached during download
+[2024-04-09 11:37:19] INFO root fetch - processPackages [signapse]: executing diffoscope
+[2024-04-09 11:37:19] INFO root fetch - processPackages [signapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signapse-1.0.8.tar.gz tmp/signapse-1.0.9.tar.gz --markdown 20240409/s/signapse/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:37:19] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.2.tar.gz]
+[2024-04-09 11:37:19] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.3.tar.gz]
+[2024-04-09 11:37:19] INFO root fetch - main [MainThread]: End processing [akeneo-connector]: success
+[2024-04-09 11:37:20] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.8.tar.gz]
+[2024-04-09 11:37:20] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.9.tar.gz]
+[2024-04-09 11:37:20] INFO root fetch - main [MainThread]: End processing [signapse]: success
+[2024-04-09 11:37:20] INFO root fetch - processPackages [dfp]: Remove: archive file [/home/abi/fetcher/tmp/dfp-0.9.0.tar.gz]
+[2024-04-09 11:37:20] INFO root fetch - processPackages [dfp]: Remove: archive file [/home/abi/fetcher/tmp/dfp-0.9.1.tar.gz]
+[2024-04-09 11:37:20] INFO root fetch - main [MainThread]: End processing [dfp]: success
+[2024-04-09 11:37:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409061242.tar.gz]
+[2024-04-09 11:37:22] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240409072220.tar.gz]
+[2024-04-09 11:37:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-09 11:37:22] INFO root fetch - main [MainThread]: Store serial: [22681283]
