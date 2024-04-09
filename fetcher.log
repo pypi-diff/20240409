@@ -17108,3 +17108,20 @@
 [2024-04-09 08:50:40] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.1.0b0.tar.gz]
 [2024-04-09 08:50:40] INFO root fetch - main [MainThread]: End processing [pg-logidater]: success
 [2024-04-09 08:50:40] INFO root fetch - main [MainThread]: Store serial: [22679258]
+[2024-04-09 08:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679258]
+[2024-04-09 08:52:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 08:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newswacafi
+[2024-04-09 08:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mipx
+[2024-04-09 08:52:49] WARNING root fetch - processPackages [newswacafi]: Skipping, unable to determine old version
+[2024-04-09 08:52:49] INFO root fetch - main [MainThread]: End processing [newswacafi] error
+[2024-04-09 08:52:49] INFO root fetch - processPackages [mipx]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 08:52:49] INFO root fetch - processPackages [mipx]: Downloading https://files.pythonhosted.org/packages/d5/58/ca9d06bb586f4d5b0c29a91d0345538c012897da52c8227f37fe64f7fa4d/mipx-0.2.8.tar.gz
+[2024-04-09 08:52:49] WARNING root fetch - processPackages [mipx]: Timeout reached during download
+[2024-04-09 08:52:49] INFO root fetch - processPackages [mipx]: Downloading https://files.pythonhosted.org/packages/6d/f9/ffd9037f78b6491f3bc3025a11122233a2a3d661bfc0401e81c9d18e9236/mipx-0.2.9.tar.gz
+[2024-04-09 08:52:49] WARNING root fetch - processPackages [mipx]: Timeout reached during download
+[2024-04-09 08:52:49] INFO root fetch - processPackages [mipx]: executing diffoscope
+[2024-04-09 08:52:49] INFO root fetch - processPackages [mipx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mipx-0.2.8.tar.gz tmp/mipx-0.2.9.tar.gz --markdown 20240409/m/mipx/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 08:52:50] INFO root fetch - processPackages [mipx]: Remove: archive file [/home/abi/fetcher/tmp/mipx-0.2.8.tar.gz]
+[2024-04-09 08:52:50] INFO root fetch - processPackages [mipx]: Remove: archive file [/home/abi/fetcher/tmp/mipx-0.2.9.tar.gz]
+[2024-04-09 08:52:50] INFO root fetch - main [MainThread]: End processing [mipx]: success
+[2024-04-09 08:52:50] INFO root fetch - main [MainThread]: Store serial: [22679263]
