@@ -14916,3 +14916,64 @@
 [2024-04-09 07:14:24] INFO root fetch - processPackages [winiel-rfid-sensor]: Remove: archive file [/home/abi/fetcher/tmp/winiel-rfid-sensor-0.0.5.tar.gz]
 [2024-04-09 07:14:24] INFO root fetch - main [MainThread]: End processing [winiel-rfid-sensor]: success
 [2024-04-09 07:14:24] INFO root fetch - main [MainThread]: Store serial: [22678442]
+[2024-04-09 07:16:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678442]
+[2024-04-09 07:16:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winiel-rfid-sensor
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-kusto-data
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-kusto-ingest
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff-schema
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MLEase
+[2024-04-09 07:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maitai-sdk-python
+[2024-04-09 07:16:32] INFO root fetch - processPackages [dyff-schema]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-09 07:16:32] WARNING root fetch - processPackages [MLEase]: Skipping, unable to determine old version
+[2024-04-09 07:16:32] INFO root fetch - main [MainThread]: End processing [MLEase] error
+[2024-04-09 07:16:32] INFO root fetch - processPackages [winiel-rfid-sensor]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 07:16:32] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/4e/f1/51cf8ed931aa2d68b2f0815841ecac767aa5a3656282a964b77f0d309f75/dyff-schema-0.2.2.tar.gz
+[2024-04-09 07:16:32] INFO root fetch - processPackages [azure-kusto-data]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-04-09 07:16:32] INFO root fetch - processPackages [winiel-rfid-sensor]: Downloading https://files.pythonhosted.org/packages/0a/42/b15fe3f9dbaed1b8c9cc97190f0ecc86f6e18029c096eb84010eb644d096/winiel-rfid-sensor-0.0.4.tar.gz
+[2024-04-09 07:16:32] INFO root fetch - processPackages [azure-kusto-ingest]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-04-09 07:16:32] WARNING root fetch - processPackages [winiel-rfid-sensor]: Timeout reached during download
+[2024-04-09 07:16:32] WARNING root fetch - processPackages [dyff-schema]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [winiel-rfid-sensor]: Downloading https://files.pythonhosted.org/packages/db/fa/8d226ffc69563d48ac5e36fe9a21253723e9c18a8b97bd93a0bb6318200f/winiel-rfid-sensor-0.0.5.tar.gz
+[2024-04-09 07:16:33] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/69/75/4bf84a158b58f0fc38e90329d761f810eef9b02be9876452460ad9346439/dyff-schema-0.3.0.tar.gz
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-ingest]: Downloading https://files.pythonhosted.org/packages/a1/cd/533a30ebc5c6414af1e4120df9070171830a7c7133adcdf7e0bd15e4b45b/azure-kusto-ingest-4.3.1.tar.gz
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-data]: Downloading https://files.pythonhosted.org/packages/58/18/c2497543e7d8e2f44c4a53abaaccaa4a907b1f97fe088de5cdef19373e0f/azure-kusto-data-4.3.1.tar.gz
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [winiel-rfid-sensor]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [winiel-rfid-sensor]: executing diffoscope
+[2024-04-09 07:16:33] INFO root fetch - processPackages [winiel-rfid-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winiel-rfid-sensor-0.0.4.tar.gz tmp/winiel-rfid-sensor-0.0.5.tar.gz --markdown 20240409/w/winiel-rfid-sensor/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [azure-kusto-ingest]: Timeout reached during download
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [dyff-schema]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-04-09 07:16:33] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-schema-0.2.2.tar.gz tmp/dyff-schema-0.3.0.tar.gz --markdown 20240409/d/dyff-schema/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [azure-kusto-data]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [maitai-sdk-python]: New version: [0.374] Old Version: [0.373]
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-ingest]: Downloading https://files.pythonhosted.org/packages/2b/93/79c632181ce676298a8ae6c43c018a806cbbf7c6e47bb53a084160b2d34e/azure-kusto-ingest-4.4.0.tar.gz
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-data]: Downloading https://files.pythonhosted.org/packages/2d/fe/b08ef1d862b786da8fc58eb68b3fca8aa51243b6f0436fbb1da0cca53b78/azure-kusto-data-4.4.0.tar.gz
+[2024-04-09 07:16:33] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/0c/3d/7dd7191bc52520065ff3ebb87e9f3dae5c4c8382cd0c7addf62114c36b23/maitai_sdk_python-0.373.tar.gz
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [azure-kusto-ingest]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-ingest]: executing diffoscope
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-kusto-ingest-4.3.1.tar.gz tmp/azure-kusto-ingest-4.4.0.tar.gz --markdown 20240409/a/azure-kusto-ingest/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [azure-kusto-data]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-data]: executing diffoscope
+[2024-04-09 07:16:33] INFO root fetch - processPackages [azure-kusto-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-kusto-data-4.3.1.tar.gz tmp/azure-kusto-data-4.4.0.tar.gz --markdown 20240409/a/azure-kusto-data/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2024-04-09 07:16:33] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:16:33] INFO root fetch - processPackages [winiel-rfid-sensor]: Remove: archive file [/home/abi/fetcher/tmp/winiel-rfid-sensor-0.0.4.tar.gz]
+[2024-04-09 07:16:33] INFO root fetch - processPackages [winiel-rfid-sensor]: Remove: archive file [/home/abi/fetcher/tmp/winiel-rfid-sensor-0.0.5.tar.gz]
+[2024-04-09 07:16:33] INFO root fetch - main [MainThread]: End processing [winiel-rfid-sensor]: success
+[2024-04-09 07:16:33] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.2.2.tar.gz]
+[2024-04-09 07:16:33] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.0.tar.gz]
+[2024-04-09 07:16:33] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-04-09 07:16:33] INFO root fetch - processPackages [maitai-sdk-python]: Downloading https://files.pythonhosted.org/packages/9a/d1/cdbfc408dd337283793e9135ca1ac5ce9df44aa910a38f3ee2d4d2c78cfa/maitai_sdk_python-0.374.tar.gz
+[2024-04-09 07:16:34] INFO root fetch - processPackages [azure-kusto-ingest]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-ingest-4.3.1.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - processPackages [azure-kusto-ingest]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-ingest-4.4.0.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - main [MainThread]: End processing [azure-kusto-ingest]: success
+[2024-04-09 07:16:34] INFO root fetch - processPackages [azure-kusto-data]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-data-4.3.1.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - processPackages [azure-kusto-data]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-data-4.4.0.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - main [MainThread]: End processing [azure-kusto-data]: success
+[2024-04-09 07:16:34] WARNING root fetch - processPackages [maitai-sdk-python]: Timeout reached during download
+[2024-04-09 07:16:34] INFO root fetch - processPackages [maitai-sdk-python]: executing diffoscope
+[2024-04-09 07:16:34] INFO root fetch - processPackages [maitai-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maitai_sdk_python-0.373.tar.gz tmp/maitai_sdk_python-0.374.tar.gz --markdown 20240409/m/maitai-sdk-python/0.373-0.374/diff.md --exclude *.pyd
+[2024-04-09 07:16:34] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.373.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - processPackages [maitai-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/maitai_sdk_python-0.374.tar.gz]
+[2024-04-09 07:16:34] INFO root fetch - main [MainThread]: End processing [maitai-sdk-python]: success
+[2024-04-09 07:16:34] INFO root fetch - main [MainThread]: Store serial: [22678457]
