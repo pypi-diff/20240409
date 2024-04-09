@@ -2880,3 +2880,50 @@
 [2024-04-09 02:11:25] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404080009.tar.gz]
 [2024-04-09 02:11:25] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-09 02:11:25] INFO root fetch - main [MainThread]: Store serial: [22674790]
+[2024-04-09 02:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674790]
+[2024-04-09 02:13:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ding-api-client
+[2024-04-09 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tempyenv
+[2024-04-09 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speakeasy-client-sdk-python
+[2024-04-09 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-gitlab-runner
+[2024-04-09 02:13:34] INFO root fetch - processPackages [ding-api-client]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-04-09 02:13:34] INFO root fetch - processPackages [tempyenv]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-09 02:13:34] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.6.4] Old Version: [5.6.3]
+[2024-04-09 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 02:13:34] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/12/60/4b339c0d913bb9c7c07f70a97edf4331415fea8240327c2888e3c6475985/ding_api_client-3.4.2.tar.gz
+[2024-04-09 02:13:34] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/a0/59/66b291c23efa80fa30b9d396a35d0c85706f65b00841906e1293bcf3e07f/tempyenv-1.0.1.tar.gz
+[2024-04-09 02:13:34] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/dc/84/8fb705c661d123cd8d37995e0a9a8eb69e45e4b14b2583c55f415cd6ed57/speakeasy-client-sdk-python-5.6.3.tar.gz
+[2024-04-09 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [tempyenv]: Timeout reached during download
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [ding-api-client]: Timeout reached during download
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [speakeasy-client-sdk-python]: Timeout reached during download
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [cdktf-gitlab-runner]: Timeout reached during download
+[2024-04-09 02:13:34] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/7e/52/f4bbf4c4bd3df4da906290340f6a6882fdb9b7b12679270d966507753973/tempyenv-1.0.2.tar.gz
+[2024-04-09 02:13:34] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/18/f3/d1436b01bd11f264af277f58705cce4abf6e38cba29df1a74696baae2d48/ding_api_client-3.4.3.tar.gz
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [tempyenv]: Timeout reached during download
+[2024-04-09 02:13:34] INFO root fetch - processPackages [tempyenv]: executing diffoscope
+[2024-04-09 02:13:34] INFO root fetch - processPackages [tempyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempyenv-1.0.1.tar.gz tmp/tempyenv-1.0.2.tar.gz --markdown 20240409/t/tempyenv/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-09 02:13:34] WARNING root fetch - processPackages [ding-api-client]: Timeout reached during download
+[2024-04-09 02:13:34] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-04-09 02:13:34] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.4.2.tar.gz tmp/ding_api_client-3.4.3.tar.gz --markdown 20240409/d/ding-api-client/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2024-04-09 02:13:34] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/e0/d0/c44d25827e8fb02dc00d3aab4188331cffb31c5ead901a04be5982b8a3f4/speakeasy-client-sdk-python-5.6.4.tar.gz
+[2024-04-09 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-09 02:13:35] WARNING root fetch - processPackages [speakeasy-client-sdk-python]: Timeout reached during download
+[2024-04-09 02:13:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-09 02:13:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.6.3.tar.gz tmp/speakeasy-client-sdk-python-5.6.4.tar.gz --markdown 20240409/s/speakeasy-client-sdk-python/5.6.3-5.6.4/diff.md --exclude *.pyd
+[2024-04-09 02:13:35] WARNING root fetch - processPackages [cdktf-gitlab-runner]: Timeout reached during download
+[2024-04-09 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-09 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240409/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:13:35] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.1.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.2.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - main [MainThread]: End processing [tempyenv]: success
+[2024-04-09 02:13:35] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.2.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.3.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-04-09 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-09 02:13:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.3.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.4.tar.gz]
+[2024-04-09 02:13:35] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-09 02:13:35] INFO root fetch - main [MainThread]: Store serial: [22674801]
