@@ -16699,3 +16699,72 @@
 [2024-04-09 08:32:10] INFO root fetch - processPackages [gzspidertools]: Remove: archive file [/home/abi/fetcher/tmp/gzspidertools-0.0.9.tar.gz]
 [2024-04-09 08:32:10] INFO root fetch - main [MainThread]: End processing [gzspidertools]: success
 [2024-04-09 08:32:10] INFO root fetch - main [MainThread]: Store serial: [22679025]
+[2024-04-09 08:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679025]
+[2024-04-09 08:34:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openverse-api-client
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-release-channel
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-token
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sysinformer
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-release-channel-shipment-advice-process-end-time
+[2024-04-09 08:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linkai
+[2024-04-09 08:34:19] INFO root fetch - processPackages [openverse-api-client]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-09 08:34:19] INFO root fetch - processPackages [python-sysinformer]: New version: [1.3.0] Old Version: [1.2.5]
+[2024-04-09 08:34:19] INFO root fetch - processPackages [openverse-api-client]: Downloading https://files.pythonhosted.org/packages/36/74/f38ea59063993be211f23a2ee88f19eb1a562215f19a297b4218c44a809e/openverse_api_client-0.0.1a1.tar.gz
+[2024-04-09 08:34:19] INFO root fetch - processPackages [linkai]: New version: [0.0.3.8] Old Version: [0.0.3.7]
+[2024-04-09 08:34:19] INFO root fetch - processPackages [auto-token]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-09 08:34:19] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-09 08:34:19] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [openverse-api-client]: Timeout reached during download
+[2024-04-09 08:34:19] INFO root fetch - processPackages [python-sysinformer]: Downloading https://files.pythonhosted.org/packages/87/09/8062a712848fdeaefcfdeb3bc0f78463978361c766fc0f23430e0ed3df91/python_sysinformer-1.2.5.tar.gz
+[2024-04-09 08:34:19] INFO root fetch - processPackages [linkai]: Downloading https://files.pythonhosted.org/packages/82/2a/e6f8c3a354f7708cc4219c8ef5b29182e211a0c1851620ac4d655e3f6e74/linkai-0.0.3.7-py3-none-any.whl
+[2024-04-09 08:34:19] INFO root fetch - processPackages [openverse-api-client]: Downloading https://files.pythonhosted.org/packages/5b/ae/dded00bef627c5b60085398520cfb2f6a12da91c4c96206d519f8b647597/openverse_api_client-0.0.1a2.tar.gz
+[2024-04-09 08:34:19] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Downloading https://files.pythonhosted.org/packages/a2/d3/c21b8b43204cfda81b2d365bd2f68937ce1638f32edfaa39a9a2b9705f2c/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-09 08:34:19] INFO root fetch - processPackages [auto-token]: Downloading https://files.pythonhosted.org/packages/1f/53/cb4a30f339a31ca7798ebb185bd657e4000d744e53f35f12dd5da9030d74/auto_token-0.0.5-py3-none-any.whl
+[2024-04-09 08:34:19] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [linkai]: Timeout reached during download
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [python-sysinformer]: Timeout reached during download
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [openverse-api-client]: Timeout reached during download
+[2024-04-09 08:34:19] INFO root fetch - processPackages [openverse-api-client]: executing diffoscope
+[2024-04-09 08:34:19] INFO root fetch - processPackages [openverse-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openverse_api_client-0.0.1a1.tar.gz tmp/openverse_api_client-0.0.1a2.tar.gz --markdown 20240409/o/openverse-api-client/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [auto-token]: Timeout reached during download
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Timeout reached during download
+[2024-04-09 08:34:19] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-09 08:34:19] INFO root fetch - processPackages [linkai]: Downloading https://files.pythonhosted.org/packages/6c/1e/ed46fb9bbbd3f4360aac3f9f8b2685953a6bbbab8b3e1d52c3bcc2d9a51d/linkai-0.0.3.8-py3-none-any.whl
+[2024-04-09 08:34:19] INFO root fetch - processPackages [python-sysinformer]: Downloading https://files.pythonhosted.org/packages/6b/80/e42eebeda931d2edfc670d3c6d0bc0a65d982bed36767c0daffb9669ca0d/python_sysinformer-1.3.0.tar.gz
+[2024-04-09 08:34:19] INFO root fetch - processPackages [auto-token]: Downloading https://files.pythonhosted.org/packages/fb/0f/6aebab2e7406e2a94eb548c9bac9c4f925d7a825a4eee8e92823a99534a7/auto_token-0.0.6-py3-none-any.whl
+[2024-04-09 08:34:19] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Downloading https://files.pythonhosted.org/packages/dd/ee/25cabd05203ab00f08e3d01a03613c5d6a93d34df6fc4c89e35eaa29ef9b/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-09 08:34:20] WARNING root fetch - processPackages [linkai]: Timeout reached during download
+[2024-04-09 08:34:20] WARNING root fetch - processPackages [python-sysinformer]: Timeout reached during download
+[2024-04-09 08:34:20] INFO root fetch - processPackages [linkai]: executing diffoscope
+[2024-04-09 08:34:20] INFO root fetch - processPackages [linkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkai-0.0.3.7-py3-none-any.whl.zip tmp/linkai-0.0.3.8-py3-none-any.whl.zip --markdown 20240409/l/linkai/0.0.3.7-0.0.3.8/diff.md --exclude *.pyd
+[2024-04-09 08:34:20] INFO root fetch - processPackages [python-sysinformer]: executing diffoscope
+[2024-04-09 08:34:20] INFO root fetch - processPackages [python-sysinformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sysinformer-1.2.5.tar.gz tmp/python_sysinformer-1.3.0.tar.gz --markdown 20240409/p/python-sysinformer/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2024-04-09 08:34:20] WARNING root fetch - processPackages [auto-token]: Timeout reached during download
+[2024-04-09 08:34:20] INFO root fetch - processPackages [auto-token]: executing diffoscope
+[2024-04-09 08:34:20] INFO root fetch - processPackages [auto-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_token-0.0.5-py3-none-any.whl.zip tmp/auto_token-0.0.6-py3-none-any.whl.zip --markdown 20240409/a/auto-token/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-04-09 08:34:20] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Timeout reached during download
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: executing diffoscope
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-stock-release-channel-shipment-advice-process-end-time/16.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-09 08:34:20] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/diff.md --exclude *.pyd
+[2024-04-09 08:34:20] INFO root fetch - processPackages [openverse-api-client]: Remove: archive file [/home/abi/fetcher/tmp/openverse_api_client-0.0.1a1.tar.gz]
+[2024-04-09 08:34:20] INFO root fetch - processPackages [openverse-api-client]: Remove: archive file [/home/abi/fetcher/tmp/openverse_api_client-0.0.1a2.tar.gz]
+[2024-04-09 08:34:20] INFO root fetch - main [MainThread]: End processing [openverse-api-client]: success
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_shipment_advice_process_end_time-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-shipment-advice-process-end-time]: success
+[2024-04-09 08:34:20] INFO root fetch - processPackages [linkai]: Remove: archive file [/home/abi/fetcher/tmp/linkai-0.0.3.7-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - processPackages [linkai]: Remove: archive file [/home/abi/fetcher/tmp/linkai-0.0.3.8-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - main [MainThread]: End processing [linkai]: success
+[2024-04-09 08:34:20] INFO root fetch - processPackages [python-sysinformer]: Remove: archive file [/home/abi/fetcher/tmp/python_sysinformer-1.2.5.tar.gz]
+[2024-04-09 08:34:20] INFO root fetch - processPackages [python-sysinformer]: Remove: archive file [/home/abi/fetcher/tmp/python_sysinformer-1.3.0.tar.gz]
+[2024-04-09 08:34:20] INFO root fetch - main [MainThread]: End processing [python-sysinformer]: success
+[2024-04-09 08:34:20] INFO root fetch - processPackages [auto-token]: Remove: archive file [/home/abi/fetcher/tmp/auto_token-0.0.5-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - processPackages [auto-token]: Remove: archive file [/home/abi/fetcher/tmp/auto_token-0.0.6-py3-none-any.whl.zip]
+[2024-04-09 08:34:20] INFO root fetch - main [MainThread]: End processing [auto-token]: success
+[2024-04-09 08:34:21] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-09 08:34:21] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-09 08:34:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-04-09 08:34:21] INFO root fetch - main [MainThread]: Store serial: [22679042]
