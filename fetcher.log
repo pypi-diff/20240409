@@ -22046,3 +22046,121 @@
 [2024-04-09 11:32:06] INFO root fetch - processPackages [allopy]: Remove: archive file [/home/abi/fetcher/tmp/allopy-0.1.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-09 11:32:06] INFO root fetch - main [MainThread]: End processing [allopy]: success
 [2024-04-09 11:32:06] INFO root fetch - main [MainThread]: Store serial: [22681053]
+[2024-04-09 11:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681053]
+[2024-04-09 11:34:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Implicit
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-Firmware-updater
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: three_d_converter
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pracscode2
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tailng
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygeodist
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-db-queue
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sumo-experiments
+[2024-04-09 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinaai-api-schemas
+[2024-04-09 11:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkatlas
+[2024-04-09 11:34:15] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [DLMS-Firmware-updater]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [three_d_converter]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [django-db-queue]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [pracscode2]: Skipping, unable to determine old version
+[2024-04-09 11:34:15] INFO root fetch - processPackages [pracscode2]: Start processing: TPTBox
+[2024-04-09 11:34:15] INFO root fetch - main [MainThread]: End processing [pracscode2] error
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [pygeodist]: Skipping, unable to determine old version
+[2024-04-09 11:34:15] INFO root fetch - processPackages [pygeodist]: Start processing: pgscatalog-utils
+[2024-04-09 11:34:15] INFO root fetch - main [MainThread]: End processing [pygeodist] error
+[2024-04-09 11:34:15] INFO root fetch - processPackages [sumo-experiments]: New version: [3.3] Old Version: [3.2.1]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [tailng]: New version: [2024.4.0] Old Version: [2023.12.1]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.4rc1] Old Version: [2.8.3rc1]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/74/10/e4cda742531ee85aa5d4051a31bcda3e90df8bfc2986f9e49c05780b2cb4/DLMS_Firmware_updater-0.1.1.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [three_d_converter]: Downloading https://files.pythonhosted.org/packages/c0/0a/68cbf995838023d3bfd446e9ebf528527cdfa5f7593fa9a688ea9cb4fbad/three_d_converter-0.1.2.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [TPTBox]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-09 11:34:15] INFO root fetch - processPackages [sumo-experiments]: Downloading https://files.pythonhosted.org/packages/cf/b9/6ec068f9b05a30d89e54e1a94e0592f6b3abbddcbf765dc86f8f7fbb5e53/sumo_experiments-3.2.1-py3-none-any.whl
+[2024-04-09 11:34:15] INFO root fetch - processPackages [pgscatalog-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [three_d_converter]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [django-db-queue]: Downloading https://files.pythonhosted.org/packages/7b/e7/b3b5b427eed6195865d853476d4c9f67459558f0c8accb089004411a70da/django-db-queue-3.0.0.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [tailng]: Downloading https://files.pythonhosted.org/packages/ef/88/ac2c1c3cef2ef9e9aeaa8552d452af6e871af1fbbd07cbd70195e5ce55cc/tailng-2023.12.1.tar.gz
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [jinaai-api-schemas]: Timeout reached during download
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/00/6d/53710b3d58569d3fbe2e757a36317199ba933c3eb0ad28dc7fe5bdb0ade4/Geode_Implicit-2.8.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-09 11:34:15] INFO root fetch - processPackages [three_d_converter]: Downloading https://files.pythonhosted.org/packages/3f/ee/aa08ac58f3a1cdc5acbf90ed51055fcdc6dad0e2ae973b159e812b6651ac/three_d_converter-0.1.3.tar.gz
+[2024-04-09 11:34:15] INFO root fetch - processPackages [TPTBox]: Downloading https://files.pythonhosted.org/packages/bb/c5/eb84dc40981b89e5988813b04e565cc80ea51599007cdb4d80baffed8f3c/tptbox-0.0.9-py3-none-any.whl
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [sumo-experiments]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [tailng]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [django-db-queue]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [pgscatalog-utils]: Downloading https://files.pythonhosted.org/packages/23/79/6994569e20e4ef9b32e24d84de1e622f294bac7e2dbbd3990bcdf928ffbb/pgscatalog_utils-1.0.0.tar.gz
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [three_d_converter]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [three_d_converter]: executing diffoscope
+[2024-04-09 11:34:15] INFO root fetch - processPackages [three_d_converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/three_d_converter-0.1.2.tar.gz tmp/three_d_converter-0.1.3.tar.gz --markdown 20240409/t/three_d_converter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [jinaai-api-schemas]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-04-09 11:34:15] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240409/j/jinaai-api-schemas/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [sumo-experiments]: Downloading https://files.pythonhosted.org/packages/ed/e3/5113a71cae150b30ad074783f687c61a681f36ac045d2a3c5b308d7a7ecd/sumo_experiments-3.3.tar.gz
+[2024-04-09 11:34:15] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:34:15] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 11:34:15] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240409/c/checkatlas/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] INFO root fetch - processPackages [django-db-queue]: Downloading https://files.pythonhosted.org/packages/87/53/e41ae8d44f88873066e19f4841e7a4818cfd43c69e11823c54310f0a5bbf/django-db-queue-3.1.0.tar.gz
+[2024-04-09 11:34:16] INFO root fetch - processPackages [tailng]: Downloading https://files.pythonhosted.org/packages/9f/ef/a09d9e77ce3a97de5ad61e04d5baa1124480ba3d4fcbdd1efd32501f2bf4/tailng-2024.4.0.tar.gz
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [pgscatalog-utils]: Timeout reached during download
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [sumo-experiments]: Skipping package: exceeds size limit 52469824>=10485760
+[2024-04-09 11:34:16] INFO root fetch - processPackages [sumo-experiments]: Start processing: handyfuncs
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [sumo-experiments] error
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [TPTBox]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/12/46/cf0e175c73e4e837c7208db4958e03cccdf27d4d78271fba8e2eba4dcb1e/DLMS_Firmware_updater-0.1.2.tar.gz
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [tailng]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [tailng]: executing diffoscope
+[2024-04-09 11:34:16] INFO root fetch - processPackages [tailng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailng-2023.12.1.tar.gz tmp/tailng-2024.4.0.tar.gz --markdown 20240409/t/tailng/2023.12.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [django-db-queue]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [django-db-queue]: executing diffoscope
+[2024-04-09 11:34:16] INFO root fetch - processPackages [django-db-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-db-queue-3.0.0.tar.gz tmp/django-db-queue-3.1.0.tar.gz --markdown 20240409/d/django-db-queue/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] INFO root fetch - processPackages [pgscatalog-utils]: Downloading https://files.pythonhosted.org/packages/94/ad/7142885022dc34886cc841ad8171aba95a18a73705b3903489a11fc39d04/pgscatalog_utils-1.0.1.tar.gz
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [handyfuncs]: Skipping, unable to determine old version
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [handyfuncs] error
+[2024-04-09 11:34:16] INFO root fetch - processPackages [TPTBox]: Downloading https://files.pythonhosted.org/packages/7f/ac/54fc2e45a7c011c358202638f7b0e0417e42cd80043fe39e0d27d16daec2/tptbox-0.1.0-py3-none-any.whl
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [pgscatalog-utils]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [pgscatalog-utils]: executing diffoscope
+[2024-04-09 11:34:16] INFO root fetch - processPackages [pgscatalog-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgscatalog_utils-1.0.0.tar.gz tmp/pgscatalog_utils-1.0.1.tar.gz --markdown 20240409/p/pgscatalog-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [DLMS-Firmware-updater]: executing diffoscope
+[2024-04-09 11:34:16] INFO root fetch - processPackages [DLMS-Firmware-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_Firmware_updater-0.1.1.tar.gz tmp/DLMS_Firmware_updater-0.1.2.tar.gz --markdown 20240409/D/DLMS-Firmware-updater/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-04-09 11:34:16] WARNING root fetch - processPackages [TPTBox]: Timeout reached during download
+[2024-04-09 11:34:16] INFO root fetch - processPackages [TPTBox]: executing diffoscope
+[2024-04-09 11:34:16] INFO root fetch - processPackages [TPTBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tptbox-0.0.9-py3-none-any.whl.zip tmp/tptbox-0.1.0-py3-none-any.whl.zip --markdown 20240409/T/TPTBox/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 11:34:16] INFO root fetch - processPackages [three_d_converter]: Remove: archive file [/home/abi/fetcher/tmp/three_d_converter-0.1.2.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - processPackages [three_d_converter]: Remove: archive file [/home/abi/fetcher/tmp/three_d_converter-0.1.3.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [three_d_converter]: success
+[2024-04-09 11:34:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 11:34:16] INFO root fetch - processPackages [django-db-queue]: Remove: archive file [/home/abi/fetcher/tmp/django-db-queue-3.0.0.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - processPackages [django-db-queue]: Remove: archive file [/home/abi/fetcher/tmp/django-db-queue-3.1.0.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [django-db-queue]: success
+[2024-04-09 11:34:16] INFO root fetch - processPackages [tailng]: Remove: archive file [/home/abi/fetcher/tmp/tailng-2023.12.1.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - processPackages [tailng]: Remove: archive file [/home/abi/fetcher/tmp/tailng-2024.4.0.tar.gz]
+[2024-04-09 11:34:16] INFO root fetch - main [MainThread]: End processing [tailng]: success
+[2024-04-09 11:34:17] INFO root fetch - processPackages [pgscatalog-utils]: Remove: archive file [/home/abi/fetcher/tmp/pgscatalog_utils-1.0.0.tar.gz]
+[2024-04-09 11:34:17] INFO root fetch - processPackages [pgscatalog-utils]: Remove: archive file [/home/abi/fetcher/tmp/pgscatalog_utils-1.0.1.tar.gz]
+[2024-04-09 11:34:17] INFO root fetch - main [MainThread]: End processing [pgscatalog-utils]: success
+[2024-04-09 11:34:17] WARNING root fetch - processPackages [Geode-Implicit]: Timeout reached during download
+[2024-04-09 11:34:17] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/37/e7/bd3c254174c7484734d8a53ff117e589ba85485ef25c89ce57070ce72911/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-09 11:34:17] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.0.9-py3-none-any.whl.zip]
+[2024-04-09 11:34:17] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.1.0-py3-none-any.whl.zip]
+[2024-04-09 11:34:17] INFO root fetch - main [MainThread]: End processing [TPTBox]: success
+[2024-04-09 11:34:18] WARNING root fetch - processPackages [Geode-Implicit]: Timeout reached during download
+[2024-04-09 11:34:18] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-04-09 11:34:18] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240409/G/Geode-Implicit/2.8.3rc1-2.8.4rc1/diff.md --exclude *.pyd
+[2024-04-09 11:34:18] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.1.1.tar.gz]
+[2024-04-09 11:34:18] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.1.2.tar.gz]
+[2024-04-09 11:34:18] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
+[2024-04-09 11:35:04] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 11:35:04] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 11:35:04] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-04-09 11:35:04] INFO root fetch - main [MainThread]: Store serial: [22681171]
