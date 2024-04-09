@@ -16654,3 +16654,48 @@
 [2024-04-09 08:29:59] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.2.tar.gz]
 [2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
 [2024-04-09 08:29:59] INFO root fetch - main [MainThread]: Store serial: [22679006]
+[2024-04-09 08:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679006]
+[2024-04-09 08:32:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EasyPage
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newswacafi
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-website-require-login
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshay-lang
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gzspidertools
+[2024-04-09 08:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-website
+[2024-04-09 08:32:08] INFO root fetch - processPackages [odoo-addon-website-require-login]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2024-04-09 08:32:08] WARNING root fetch - processPackages [newswacafi]: Skipping, unable to determine old version
+[2024-04-09 08:32:08] INFO root fetch - main [MainThread]: End processing [newswacafi] error
+[2024-04-09 08:32:08] INFO root fetch - processPackages [odoo-addon-website-require-login]: Downloading https://files.pythonhosted.org/packages/7a/ee/4c70a004d531933cceefabd2793f26af074c0b9147e54f5993367318fe98/odoo_addon_website_require_login-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-09 08:32:08] WARNING root fetch - processPackages [EasyPage]: Skipping, unable to determine old version
+[2024-04-09 08:32:08] INFO root fetch - main [MainThread]: End processing [EasyPage] error
+[2024-04-09 08:32:08] INFO root fetch - processPackages [odoo-addons-oca-website]: New version: [16.0.20231114.0] Old Version: [16.0.20231030.0]
+[2024-04-09 08:32:08] INFO root fetch - processPackages [gzspidertools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [odoo-addon-website-require-login]: Timeout reached during download
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [akshay-lang]: Skipping, unable to determine old version
+[2024-04-09 08:32:09] INFO root fetch - main [MainThread]: End processing [akshay-lang] error
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/9b/73/4c04b46d0deb91f3fdfc766b9d6502c401ab817331b47f98a8884089220b/odoo_addons_oca_website-16.0.20231030.0-py3-none-any.whl
+[2024-04-09 08:32:09] INFO root fetch - processPackages [gzspidertools]: Downloading https://files.pythonhosted.org/packages/c9/c6/7c55e7e31a8d7816f94b463418a0f32bf3db997cd331bdc3fef504b95912/gzspidertools-0.0.8.tar.gz
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addon-website-require-login]: Downloading https://files.pythonhosted.org/packages/97/a6/38d65c2baaae9a773535b7f29c43be733af03e09e23bd2b1f97f1dc2c1d3/odoo_addon_website_require_login-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [odoo-addon-website-require-login]: Timeout reached during download
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addon-website-require-login]: executing diffoscope
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addon-website-require-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_require_login-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_website_require_login-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-website-require-login/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [odoo-addons-oca-website]: Timeout reached during download
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [gzspidertools]: Timeout reached during download
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/4c/a8/148e3bed3d059f1c06fa1b3dc25b3e6c5180bf1816a9cde34c578478b11e/odoo_addons_oca_website-16.0.20231114.0-py3-none-any.whl
+[2024-04-09 08:32:09] INFO root fetch - processPackages [gzspidertools]: Downloading https://files.pythonhosted.org/packages/6d/d5/2c91c311fe5816dfb2b208c3a171253257a5f07d35135e0f6f420a2b087b/gzspidertools-0.0.9.tar.gz
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [odoo-addons-oca-website]: Timeout reached during download
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addons-oca-website]: executing diffoscope
+[2024-04-09 08:32:09] INFO root fetch - processPackages [odoo-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_website-16.0.20231030.0-py3-none-any.whl.zip tmp/odoo_addons_oca_website-16.0.20231114.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addons-oca-website/16.0.20231030.0-16.0.20231114.0/diff.md --exclude *.pyd
+[2024-04-09 08:32:09] WARNING root fetch - processPackages [gzspidertools]: Timeout reached during download
+[2024-04-09 08:32:09] INFO root fetch - processPackages [gzspidertools]: executing diffoscope
+[2024-04-09 08:32:09] INFO root fetch - processPackages [gzspidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gzspidertools-0.0.8.tar.gz tmp/gzspidertools-0.0.9.tar.gz --markdown 20240409/g/gzspidertools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:32:10] INFO root fetch - processPackages [odoo-addon-website-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_require_login-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-09 08:32:10] INFO root fetch - processPackages [odoo-addon-website-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_require_login-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-09 08:32:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-require-login]: success
+[2024-04-09 08:32:10] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20231030.0-py3-none-any.whl.zip]
+[2024-04-09 08:32:10] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20231114.0-py3-none-any.whl.zip]
+[2024-04-09 08:32:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-website]: success
+[2024-04-09 08:32:10] INFO root fetch - processPackages [gzspidertools]: Remove: archive file [/home/abi/fetcher/tmp/gzspidertools-0.0.8.tar.gz]
+[2024-04-09 08:32:10] INFO root fetch - processPackages [gzspidertools]: Remove: archive file [/home/abi/fetcher/tmp/gzspidertools-0.0.9.tar.gz]
+[2024-04-09 08:32:10] INFO root fetch - main [MainThread]: End processing [gzspidertools]: success
+[2024-04-09 08:32:10] INFO root fetch - main [MainThread]: Store serial: [22679025]
