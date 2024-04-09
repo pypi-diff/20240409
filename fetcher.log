@@ -20003,3 +20003,64 @@
 [2024-04-09 10:35:40] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a3.tar.gz]
 [2024-04-09 10:35:40] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-04-09 10:35:40] INFO root fetch - main [MainThread]: Store serial: [22680343]
+[2024-04-09 10:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680343]
+[2024-04-09 10:37:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phdu
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agent-bdi
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lowmq-python-client
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testsolar-testtool-sdk
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ywh2bt
+[2024-04-09 10:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ATL-Tools
+[2024-04-09 10:37:51] INFO root fetch - processPackages [phdu]: New version: [2.3.5] Old Version: [2.3.4]
+[2024-04-09 10:37:51] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 10:37:51] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/67/38/43dd0c0ffe7acf20fff2065d6742b92e95eb23199bdb945258a980608f09/phdu-2.3.4.tar.gz
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [lowmq-python-client]: Skipping, unable to determine old version
+[2024-04-09 10:37:51] INFO root fetch - main [MainThread]: End processing [lowmq-python-client] error
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ywh2bt]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-09 10:37:51] INFO root fetch - processPackages [agent-bdi]: New version: [2.4.0] Old Version: [2.3.6]
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ATL-Tools]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-09 10:37:51] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/a7/b8/4e292bf2f704dc09866c75f1262aa4418d6d75b7664a00dd5209f5986f5f/testsolar-testtool-sdk-0.0.1.tar.gz
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:37:51] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/84/69/8f19c67983aa3325f62f9bee20adf85fbaeb4f7dd1358c51be46ecaab520/phdu-2.3.5.tar.gz
+[2024-04-09 10:37:51] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/64/04/e53cd3228ef653fa93953604dafc4827efdf0841819bdd531e7f86bb4a3c/agent-bdi-2.3.6.tar.gz
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ywh2bt]: Downloading https://files.pythonhosted.org/packages/f5/e9/e9515b6034a5a5a3dd87310501fa95956d17724481470c1f51ad18a8da1d/ywh2bt-2.8.1.tar.gz
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/42/3c/c441087e7b3afb88b2f83561482c0e916d1bd73a66be22c6562687e44e44/ATL_Tools-1.0.6.tar.gz
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [testsolar-testtool-sdk]: Timeout reached during download
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-09 10:37:51] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-09 10:37:51] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.4.tar.gz tmp/phdu-2.3.5.tar.gz --markdown 20240409/p/phdu/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [ATL-Tools]: Timeout reached during download
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [agent-bdi]: Timeout reached during download
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [ywh2bt]: Timeout reached during download
+[2024-04-09 10:37:51] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/fa/2a/d332ae0d98142e0634e0540b2c07075d4ad999ad80bf2e49cea417ac9859/testsolar-testtool-sdk-0.0.2.tar.gz
+[2024-04-09 10:37:51] WARNING root fetch - processPackages [testsolar-testtool-sdk]: Timeout reached during download
+[2024-04-09 10:37:51] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-09 10:37:51] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.0.1.tar.gz tmp/testsolar-testtool-sdk-0.0.2.tar.gz --markdown 20240409/t/testsolar-testtool-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 10:37:51] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/e6/9f/3026d807f5168919c84b34fc5406d314bfd83f23ba4c1701a0660ff21d9d/agent-bdi-2.4.0.tar.gz
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/a2/a6/f8c0c8c07ab053d8fc3225448dae42105894c2f30ecfa889651d7e3b3910/ATL_Tools-1.0.7.tar.gz
+[2024-04-09 10:37:51] INFO root fetch - processPackages [ywh2bt]: Downloading https://files.pythonhosted.org/packages/ca/a3/ae538e3b758383b51e93d2b5d3e3599d9254fa9425b1122ce36637fb8f34/ywh2bt-2.8.2.tar.gz
+[2024-04-09 10:37:52] WARNING root fetch - processPackages [agent-bdi]: Timeout reached during download
+[2024-04-09 10:37:52] INFO root fetch - processPackages [agent-bdi]: executing diffoscope
+[2024-04-09 10:37:52] INFO root fetch - processPackages [agent-bdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent-bdi-2.3.6.tar.gz tmp/agent-bdi-2.4.0.tar.gz --markdown 20240409/a/agent-bdi/2.3.6-2.4.0/diff.md --exclude *.pyd
+[2024-04-09 10:37:52] WARNING root fetch - processPackages [ATL-Tools]: Timeout reached during download
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATL_Tools-1.0.6.tar.gz tmp/ATL_Tools-1.0.7.tar.gz --markdown 20240409/A/ATL-Tools/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-09 10:37:52] WARNING root fetch - processPackages [ywh2bt]: Timeout reached during download
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ywh2bt]: executing diffoscope
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ywh2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywh2bt-2.8.1.tar.gz tmp/ywh2bt-2.8.2.tar.gz --markdown 20240409/y/ywh2bt/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2024-04-09 10:37:52] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.4.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.5.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-09 10:37:52] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.0.1.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.0.2.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/ATL_Tools-1.0.6.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/ATL_Tools-1.0.7.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-04-09 10:37:52] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-2.3.6.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-2.4.0.tar.gz]
+[2024-04-09 10:37:52] INFO root fetch - main [MainThread]: End processing [agent-bdi]: success
+[2024-04-09 10:37:53] INFO root fetch - processPackages [ywh2bt]: Remove: archive file [/home/abi/fetcher/tmp/ywh2bt-2.8.1.tar.gz]
+[2024-04-09 10:37:53] INFO root fetch - processPackages [ywh2bt]: Remove: archive file [/home/abi/fetcher/tmp/ywh2bt-2.8.2.tar.gz]
+[2024-04-09 10:37:53] INFO root fetch - main [MainThread]: End processing [ywh2bt]: success
+[2024-04-09 10:37:53] INFO root fetch - main [MainThread]: Store serial: [22680374]
