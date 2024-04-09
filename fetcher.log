@@ -18521,3 +18521,66 @@
 [2024-04-09 09:42:41] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.2.3.tar.gz]
 [2024-04-09 09:42:41] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
 [2024-04-09 09:42:41] INFO root fetch - main [MainThread]: Store serial: [22679799]
+[2024-04-09 09:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679799]
+[2024-04-09 09:44:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rclip
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: better-proxy
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datashader
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cefeste
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylearningstandards
+[2024-04-09 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-codenerix-pos
+[2024-04-09 09:44:50] INFO root fetch - processPackages [datashader]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [rclip]: New version: [1.7.9] Old Version: [1.7.7]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [better-proxy]: New version: [1.2.0b1] Old Version: [1.1.5]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [pylearningstandards]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [cefeste]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [django-codenerix-pos]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-09 09:44:50] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/24/af/a29ae057243ee7e1a3f6b8483b06d69cc8fae41e148847d170fbd1bd2645/rclip-1.7.7.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/e3/23/df2ba203e2685c0795ec4eaf601f5f3bc7f186a16cfe2f3b63dcde56a1e6/datashader-0.8.0.tar.gz
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [better-proxy]: Downloading https://files.pythonhosted.org/packages/2e/a8/d1d32476b971b3c2d6c96427855a319723525c3e60b73ab55148721cb289/better_proxy-1.1.5.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [pylearningstandards]: Downloading https://files.pythonhosted.org/packages/88/dc/9b921aecde981e8e70550281610654177b27fff8da74c13b568af233fa79/pylearningstandards-0.2.1.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [django-codenerix-pos]: Downloading https://files.pythonhosted.org/packages/34/3b/53aba6a701a5ee8cadd6f999cf59cea825a78d1ded3ee62b7a8761ef6af4/django-codenerix-pos-4.0.3.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/5e/1e/840cb141b51b0386c352851467d2e48748458e0fbafdabb5742ae1e0cec3/cefeste-1.2.0.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/46/d3/5796d299c24445776e4e4b4536d3829cf786742585aed463dddd92e9c17e/rclip-1.7.9.tar.gz
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 30172251>=10485760
+[2024-04-09 09:44:51] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [pylearningstandards]: Timeout reached during download
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [rclip]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-04-09 09:44:51] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.7.7.tar.gz tmp/rclip-1.7.9.tar.gz --markdown 20240409/r/rclip/1.7.7-1.7.9/diff.md --exclude *.pyd
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [better-proxy]: Timeout reached during download
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [django-codenerix-pos]: Timeout reached during download
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [cefeste]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [pylearningstandards]: Downloading https://files.pythonhosted.org/packages/c4/e5/ebc4afba8f11739eb0961bf0673ac00184cd71d5d22490cd66e608db3abd/pylearningstandards-0.2.2.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [better-proxy]: Downloading https://files.pythonhosted.org/packages/77/c8/da9b1d182477f1e15d2ac24a2cc78c74a220861cb3df5fff15510feae7f0/better_proxy-1.2.0b1.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [django-codenerix-pos]: Downloading https://files.pythonhosted.org/packages/13/89/9328143888def9823fd6e878396f9578503e7b4dfcfb7dcb6300a45d71d0/django-codenerix-pos-4.0.4.tar.gz
+[2024-04-09 09:44:51] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/43/1e/7e2699bb35b289c41f51890466e399efc9a236c732201d9afe7be506103f/cefeste-1.2.1.tar.gz
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [pylearningstandards]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [pylearningstandards]: executing diffoscope
+[2024-04-09 09:44:51] INFO root fetch - processPackages [pylearningstandards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylearningstandards-0.2.1.tar.gz tmp/pylearningstandards-0.2.2.tar.gz --markdown 20240409/p/pylearningstandards/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [better-proxy]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [better-proxy]: executing diffoscope
+[2024-04-09 09:44:51] INFO root fetch - processPackages [better-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_proxy-1.1.5.tar.gz tmp/better_proxy-1.2.0b1.tar.gz --markdown 20240409/b/better-proxy/1.1.5-1.2.0b1/diff.md --exclude *.pyd
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [django-codenerix-pos]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [django-codenerix-pos]: executing diffoscope
+[2024-04-09 09:44:51] INFO root fetch - processPackages [django-codenerix-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-pos-4.0.3.tar.gz tmp/django-codenerix-pos-4.0.4.tar.gz --markdown 20240409/d/django-codenerix-pos/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2024-04-09 09:44:51] WARNING root fetch - processPackages [cefeste]: Timeout reached during download
+[2024-04-09 09:44:51] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2024-04-09 09:44:51] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.2.0.tar.gz tmp/cefeste-1.2.1.tar.gz --markdown 20240409/c/cefeste/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-09 09:44:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.7.7.tar.gz]
+[2024-04-09 09:44:51] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.7.9.tar.gz]
+[2024-04-09 09:44:51] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-04-09 09:44:52] INFO root fetch - processPackages [pylearningstandards]: Remove: archive file [/home/abi/fetcher/tmp/pylearningstandards-0.2.1.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - processPackages [pylearningstandards]: Remove: archive file [/home/abi/fetcher/tmp/pylearningstandards-0.2.2.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - main [MainThread]: End processing [pylearningstandards]: success
+[2024-04-09 09:44:52] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.0.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.1.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2024-04-09 09:44:52] INFO root fetch - processPackages [better-proxy]: Remove: archive file [/home/abi/fetcher/tmp/better_proxy-1.1.5.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - processPackages [better-proxy]: Remove: archive file [/home/abi/fetcher/tmp/better_proxy-1.2.0b1.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - main [MainThread]: End processing [better-proxy]: success
+[2024-04-09 09:44:52] INFO root fetch - processPackages [django-codenerix-pos]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-pos-4.0.3.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - processPackages [django-codenerix-pos]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-pos-4.0.4.tar.gz]
+[2024-04-09 09:44:52] INFO root fetch - main [MainThread]: End processing [django-codenerix-pos]: success
+[2024-04-09 09:44:52] INFO root fetch - main [MainThread]: Store serial: [22679818]
