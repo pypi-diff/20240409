@@ -9500,3 +9500,28 @@
 [2024-04-09 04:21:14] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.93.tar.gz]
 [2024-04-09 04:21:14] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-04-09 04:21:14] INFO root fetch - main [MainThread]: Store serial: [22676729]
+[2024-04-09 04:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676729]
+[2024-04-09 04:23:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 04:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal
+[2024-04-09 04:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-04-09 04:23:23] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 04:23:23] INFO root fetch - processPackages [internal]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-09 04:23:23] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-09 04:23:23] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/55/c1/764fe70db0f4d18f1a4553aa7d89d402dd21118e44033200f2d804b663f4/internal-0.1.95.tar.gz
+[2024-04-09 04:23:23] WARNING root fetch - processPackages [wah]: Timeout reached during download
+[2024-04-09 04:23:23] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-09 04:23:23] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-09 04:23:23] WARNING root fetch - processPackages [wah]: Timeout reached during download
+[2024-04-09 04:23:23] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-09 04:23:23] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240409/w/wah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 04:23:23] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/5c/51/393023bbc25ef5a28d5891cfb344f95c3cb4a83ca33041387b762176565e/internal-0.1.96.tar.gz
+[2024-04-09 04:23:23] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-09 04:23:23] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-09 04:23:23] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.95.tar.gz tmp/internal-0.1.96.tar.gz --markdown 20240409/i/internal/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2024-04-09 04:23:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-09 04:23:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-09 04:23:24] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-09 04:23:24] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.95.tar.gz]
+[2024-04-09 04:23:24] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.96.tar.gz]
+[2024-04-09 04:23:24] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-09 04:23:24] INFO root fetch - main [MainThread]: Store serial: [22676747]
