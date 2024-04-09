@@ -9428,3 +9428,50 @@
 [2024-04-09 04:16:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
 [2024-04-09 04:16:50] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-04-09 04:16:50] INFO root fetch - main [MainThread]: Store serial: [22676704]
+[2024-04-09 04:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676704]
+[2024-04-09 04:19:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 04:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-04-09 04:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-umeng-apm20220214-py2
+[2024-04-09 04:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-umeng-apm20220214
+[2024-04-09 04:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dmk-packages
+[2024-04-09 04:19:00] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-09 04:19:01] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240408] Old Version: [1.2.20240407]
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 04:19:01] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/df/62/46acb53fbdd108fbe975d1ee222263e67eda88e9d9e262af1b86c54c94b4/dmk_packages-0.5.0.tar.gz
+[2024-04-09 04:19:01] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ab/b9/d6b9cc2dc519f4c40a0f5b7353a12f927379a59f69337f7f81cc0c0c1b8e/iam_actions-1.2.20240407.tar.gz
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [dmk-packages]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/2f/ae/cbe14a04a6eb07571e1bf41e19b05b70a14ab4631d5bd0d7fbc417330401/alibabacloud_umeng-apm20220214-1.1.0.tar.gz
+[2024-04-09 04:19:01] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/81/f5/9606258a0d2f870b4242c7ffe59f62c4ea49ac324565b42341a1c6d106b3/dmk_packages-0.6.0.tar.gz
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/0a/61/b860caf5c7b7d6c2eda7435d29a89ba30d7465fbe68a27677255e1406a62/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [alibabacloud-umeng-apm20220214]: Timeout reached during download
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [dmk-packages]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-09 04:19:01] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.5.0.tar.gz tmp/dmk_packages-0.6.0.tar.gz --markdown 20240409/d/dmk-packages/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/57/19/7fdcca4685afe2279ad7bc12a91e7f9711f7afa680b55372be93bd58e4ae/alibabacloud_umeng-apm20220214-1.1.1.tar.gz
+[2024-04-09 04:19:01] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/dd/d0/989045d16ecb2f750a32f5245c3a28c14c682a2bf9f624c243c9c2d4eca0/iam_actions-1.2.20240408.tar.gz
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/e5/39/cd9854e1762e712fccfba0b767d20ddb3957fd614a373fa6e56fecd36ab1/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [alibabacloud-umeng-apm20220214]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: executing diffoscope
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214-1.1.0.tar.gz tmp/alibabacloud_umeng-apm20220214-1.1.1.tar.gz --markdown 20240409/a/alibabacloud-umeng-apm20220214/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-09 04:19:01] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240407.tar.gz tmp/iam_actions-1.2.20240408.tar.gz --markdown 20240409/i/iam-actions/1.2.20240407-1.2.20240408/diff.md --exclude *.pyd
+[2024-04-09 04:19:01] WARNING root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Timeout reached during download
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: executing diffoscope
+[2024-04-09 04:19:01] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz tmp/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz --markdown 20240409/a/alibabacloud-umeng-apm20220214-py2/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 04:19:02] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.5.0.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.0.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-09 04:19:02] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.0.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.1.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214]: success
+[2024-04-09 04:19:02] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz]
+[2024-04-09 04:19:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214-py2]: success
+[2024-04-09 04:19:03] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240407.tar.gz]
+[2024-04-09 04:19:03] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240408.tar.gz]
+[2024-04-09 04:19:03] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-09 04:19:03] INFO root fetch - main [MainThread]: Store serial: [22676717]
