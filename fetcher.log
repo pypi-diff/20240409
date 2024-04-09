@@ -13148,3 +13148,28 @@
 [2024-04-09 05:44:52] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
 [2024-04-09 05:44:52] INFO root fetch - main [MainThread]: End processing [cxapit]: success
 [2024-04-09 05:44:52] INFO root fetch - main [MainThread]: Store serial: [22677795]
+[2024-04-09 05:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677795]
+[2024-04-09 05:47:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 05:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tbaas
+[2024-04-09 05:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yolink-api
+[2024-04-09 05:47:01] INFO root fetch - processPackages [yolink-api]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-09 05:47:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:47:01] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/49/f9/0c68dd1da5568085fde8ecfdb5a6d2298336a1fbd1d0a07bfdf65d3e27c9/yolink-api-0.4.2.tar.gz
+[2024-04-09 05:47:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/84/6d/e2c0391bb815c4991165bf94d0a453e516db13f59b899dca72bfab8537b8/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz
+[2024-04-09 05:47:01] WARNING root fetch - processPackages [yolink-api]: Timeout reached during download
+[2024-04-09 05:47:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Timeout reached during download
+[2024-04-09 05:47:02] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/75/6a/f30c17a0bfd80533d8c9b3dcabc1de1477632155fdca188b9903111d32e6/yolink-api-0.4.3.tar.gz
+[2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/80/a2/7707e6bca876dec3dc7fa1659d518217bb9047b654ee4f7a82aa81c23e3d/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz
+[2024-04-09 05:47:02] WARNING root fetch - processPackages [yolink-api]: Timeout reached during download
+[2024-04-09 05:47:02] INFO root fetch - processPackages [yolink-api]: executing diffoscope
+[2024-04-09 05:47:02] INFO root fetch - processPackages [yolink-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolink-api-0.4.2.tar.gz tmp/yolink-api-0.4.3.tar.gz --markdown 20240409/y/yolink-api/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-09 05:47:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Timeout reached during download
+[2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: executing diffoscope
+[2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tbaas/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:47:02] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.4.2.tar.gz]
+[2024-04-09 05:47:02] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.4.3.tar.gz]
+[2024-04-09 05:47:02] INFO root fetch - main [MainThread]: End processing [yolink-api]: success
+[2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz]
+[2024-04-09 05:47:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz]
+[2024-04-09 05:47:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
+[2024-04-09 05:47:02] INFO root fetch - main [MainThread]: Store serial: [22677801]
