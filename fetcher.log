@@ -13101,3 +13101,50 @@
 [2024-04-09 05:42:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
 [2024-04-09 05:42:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
 [2024-04-09 05:42:42] INFO root fetch - main [MainThread]: Store serial: [22677782]
+[2024-04-09 05:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677782]
+[2024-04-09 05:44:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tav
+[2024-04-09 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangorestframework-ext
+[2024-04-09 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MultiGATE
+[2024-04-09 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cxapit
+[2024-04-09 05:44:51] INFO root fetch - processPackages [cxapit]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-09 05:44:51] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 05:44:51] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2024-04-09 05:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:44:51] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/36/45/ce60c7f6770f76660f5930aff18d10cbdee11389be31a627eaba73b43ec2/cxapit-1.0.7.tar.gz
+[2024-04-09 05:44:51] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2024-04-09 05:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/9b/34/de50dfc88ceeb07111350b897df1a05300d50556c5113a6983134045a76f/tencentcloud-sdk-python-tav-3.0.998.tar.gz
+[2024-04-09 05:44:51] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-tav]: Timeout reached during download
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [djangorestframework-ext]: Timeout reached during download
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/a8/05/e40eae77c8e9818894b67981ee6c9847b1a6fe1dd5ed93f0f292de0aaae7/tencentcloud-sdk-python-tav-3.0.999.tar.gz
+[2024-04-09 05:44:51] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-09 05:44:51] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/20/4c/6b22d9812f15243cb7946fb4baccba7279fef354e1e3455d1c55f58cecff/MultiGATE-0.0.9.tar.gz
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-tav]: Timeout reached during download
+[2024-04-09 05:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: executing diffoscope
+[2024-04-09 05:44:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:44:51] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 05:44:51] WARNING root fetch - processPackages [djangorestframework-ext]: Timeout reached during download
+[2024-04-09 05:44:51] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2024-04-09 05:44:51] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20240409/d/djangorestframework-ext/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-09 05:44:52] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:44:52] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 05:44:52] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.7.tar.gz tmp/cxapit-1.0.8.tar.gz --markdown 20240409/c/cxapit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-09 05:44:52] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-09 05:44:52] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-09 05:44:52] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.8.tar.gz tmp/MultiGATE-0.0.9.tar.gz --markdown 20240409/M/MultiGATE/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 05:44:52] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.8.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.9.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2024-04-09 05:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
+[2024-04-09 05:44:52] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.9.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-09 05:44:52] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.7.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 05:44:52] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 05:44:52] INFO root fetch - main [MainThread]: Store serial: [22677795]
