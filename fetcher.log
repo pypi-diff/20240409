@@ -3740,3 +3740,33 @@
 [2024-04-09 02:45:37] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404090044.tar.gz]
 [2024-04-09 02:45:37] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-09 02:45:37] INFO root fetch - main [MainThread]: Store serial: [22675057]
+[2024-04-09 02:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675057]
+[2024-04-09 02:47:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nm-magic-wand-nightly
+[2024-04-09 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: path
+[2024-04-09 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2024-04-09 02:47:46] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.0.20240409] Old Version: [0.2.0.20240405]
+[2024-04-09 02:47:46] INFO root fetch - processPackages [path]: New version: [16.9.0] Old Version: [16.8.0]
+[2024-04-09 02:47:46] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-09 02:47:46] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/75/8b/2add7d5e1c1ba1a96562a97731209b203de0e84d788e566262a2df473712/path-16.8.0.tar.gz
+[2024-04-09 02:47:46] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/89/5f/88c8402d4af544f36fecb2ed4f37ad86c017c3d071533dd3c46cb9e8fc1f/nm_magic_wand_nightly-0.2.0.20240405-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-09 02:47:46] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-09 02:47:46] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76946632>=10485760
+[2024-04-09 02:47:46] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-09 02:47:46] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-09 02:47:46] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/8d/50/2a1a3287715c87d135dd1dcbd9f7bca4200302cfcc8c28ced1a8035d7894/path-16.9.0.tar.gz
+[2024-04-09 02:47:46] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-09 02:47:46] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-09 02:47:46] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-09 02:47:46] INFO root fetch - processPackages [path]: executing diffoscope
+[2024-04-09 02:47:46] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.8.0.tar.gz tmp/path-16.9.0.tar.gz --markdown 20240409/p/path/16.8.0-16.9.0/diff.md --exclude *.pyd
+[2024-04-09 02:47:46] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-09 02:47:46] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-09 02:47:46] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240409/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-09 02:47:47] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.8.0.tar.gz]
+[2024-04-09 02:47:47] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
+[2024-04-09 02:47:47] INFO root fetch - main [MainThread]: End processing [path]: success
+[2024-04-09 02:48:06] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-09 02:48:06] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-09 02:48:06] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-09 02:48:06] INFO root fetch - main [MainThread]: Store serial: [22675068]
