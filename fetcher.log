@@ -24648,3 +24648,86 @@
 [2024-04-09 12:52:34] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cdk-0.17.5.tar.gz]
 [2024-04-09 12:52:34] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
 [2024-04-09 12:52:34] INFO root fetch - main [MainThread]: Store serial: [22682115]
+[2024-04-09 12:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22682115]
+[2024-04-09 12:54:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinybird-cdk
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-sembump
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixcompliance
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anedya-dev-sdk
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-search-engine-image-thumbnail
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubble-exchange
+[2024-04-09 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2024-04-09 12:54:43] INFO root fetch - processPackages [fixcompliance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.5] Old Version: [0.17.4rc3]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [poetry-plugin-sembump]: Skipping, unable to determine old version
+[2024-04-09 12:54:43] INFO root fetch - main [MainThread]: End processing [poetry-plugin-sembump] error
+[2024-04-09 12:54:43] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.2]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [anedya-dev-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/ac/e5/c1be8b7a260881f77598db52bd076e839d881e1206af1bb167a7e792ff23/tinybird-cdk-0.17.4rc3.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [hubble-exchange]: New version: [0.9.0rc9] Old Version: [0.9.0rc8]
+[2024-04-09 12:54:43] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/e6/4f/8899206983f90166966050c01550e385aac14ddec4de61d458a985035010/fixcompliance-0.4.8.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [tinybird-cdk]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/a5/77/9b1809f7c76f541d7686a93233ed4ca5fe5164446704767f82a536cf5096/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl
+[2024-04-09 12:54:43] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/ac/aa/3c45d8be17fd84091e4762d8c2d6b66ef9ed720d1910d4709134db00d88e/anedya-dev-sdk-0.0.9.tar.gz
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [fixcompliance]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/ec/89/602d4318220e32de7327223f209a593b29ea3f5d6ad5f10c32a6d796ac0b/hubble_exchange-0.9.0rc8.tar.gz
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/1b/f0/503c09599a0328bf9c6a83cc90fb2441687e01dd6f14c30883ab3c72ec35/tinybird-cdk-0.17.5.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/33/62/f94698a09a30da8eed9a022b2851a5a4ef94f90c36ba0c7617d0389e4b4f/fixcompliance-0.4.9.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [hubble-exchange]: Timeout reached during download
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [anedya-dev-sdk]: Timeout reached during download
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Timeout reached during download
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [tinybird-cdk]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-04-09 12:54:43] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cdk-0.17.4rc3.tar.gz tmp/tinybird-cdk-0.17.5.tar.gz --markdown 20240409/t/tinybird-cdk/0.17.4rc3-0.17.5/diff.md --exclude *.pyd
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [fixcompliance]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [fixcompliance]: executing diffoscope
+[2024-04-09 12:54:43] INFO root fetch - processPackages [fixcompliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixcompliance-0.4.8.tar.gz tmp/fixcompliance-0.4.9.tar.gz --markdown 20240409/f/fixcompliance/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240409/s/stigg-api-client-v2/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-09 12:54:43] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-09 12:54:43] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240409/s/stigg-api-client/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-09 12:54:43] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/9b/7f/2ee6e11f25ee216192ab43f3f5f91dd9e1f749c7c48a61fdbfe06df096e5/hubble_exchange-0.9.0rc9.tar.gz
+[2024-04-09 12:54:43] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/67/1b/34a0a84ea518f4b1395c56b5351e284a104babb3548379198fa6de7fc1a3/anedya-dev-sdk-0.1.0.tar.gz
+[2024-04-09 12:54:44] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/fb/e1/ce9bf2f73aae98a365a8ac9bf8f7522b0ca22c1e6472f480c743059a8b2a/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl
+[2024-04-09 12:54:44] WARNING root fetch - processPackages [anedya-dev-sdk]: Timeout reached during download
+[2024-04-09 12:54:44] INFO root fetch - processPackages [anedya-dev-sdk]: executing diffoscope
+[2024-04-09 12:54:44] INFO root fetch - processPackages [anedya-dev-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anedya-dev-sdk-0.0.9.tar.gz tmp/anedya-dev-sdk-0.1.0.tar.gz --markdown 20240409/a/anedya-dev-sdk/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-09 12:54:44] WARNING root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Timeout reached during download
+[2024-04-09 12:54:44] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: executing diffoscope
+[2024-04-09 12:54:44] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-search-engine-image-thumbnail/16.0.1.0.3.2-16.0.1.0.4/diff.md --exclude *.pyd
+[2024-04-09 12:54:44] WARNING root fetch - processPackages [hubble-exchange]: Timeout reached during download
+[2024-04-09 12:54:44] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2024-04-09 12:54:44] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.9.0rc8.tar.gz tmp/hubble_exchange-0.9.0rc9.tar.gz --markdown 20240409/h/hubble-exchange/0.9.0rc8-0.9.0rc9/diff.md --exclude *.pyd
+[2024-04-09 12:54:44] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cdk-0.17.4rc3.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cdk-0.17.5.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-04-09 12:54:44] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.8.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.9.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - main [MainThread]: End processing [fixcompliance]: success
+[2024-04-09 12:54:44] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-09 12:54:44] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-04-09 12:54:44] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-09 12:54:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-search-engine-image-thumbnail]: success
+[2024-04-09 12:54:44] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya-dev-sdk-0.0.9.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya-dev-sdk-0.1.0.tar.gz]
+[2024-04-09 12:54:44] INFO root fetch - main [MainThread]: End processing [anedya-dev-sdk]: success
+[2024-04-09 12:54:45] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-09 12:54:45] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-09 12:54:45] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-09 12:54:45] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.9.0rc8.tar.gz]
+[2024-04-09 12:54:45] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.9.0rc9.tar.gz]
+[2024-04-09 12:54:45] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2024-04-09 12:54:45] INFO root fetch - main [MainThread]: Store serial: [22682144]
