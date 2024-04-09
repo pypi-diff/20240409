@@ -16538,3 +16538,61 @@
 [2024-04-09 08:25:35] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-09 08:25:35] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-09 08:25:35] INFO root fetch - main [MainThread]: Store serial: [22678978]
+[2024-04-09 08:27:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678978]
+[2024-04-09 08:27:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-09 08:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ithaca-py
+[2024-04-09 08:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstract-sdk
+[2024-04-09 08:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciveo
+[2024-04-09 08:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-rtd
+[2024-04-09 08:27:46] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/dc/56/08b69bd5faa1a1c15a36f24d08381a0f37dd79c64e3d499654acc3bbc816/ithaca_py-0.1.8.tar.gz
+[2024-04-09 08:27:46] INFO root fetch - processPackages [mkdocs-rtd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/db/ba/01295c60fa30cd12e048d3207de780f84bc0eff905317333e64405f62c29/sciveo-0.0.8.tar.gz
+[2024-04-09 08:27:46] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.18.1]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [sciveo]: Timeout reached during download
+[2024-04-09 08:27:46] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/86/46/35f7c39c336e3016573f935ac65be19ca5e429c3851b9025dbf2a7950d5f/ithaca_py-0.1.9-py3-none-any.whl
+[2024-04-09 08:27:46] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/15/95/febcdc3848504415925b885f0ee038e2cb9f5091913406aec8682426899f/unstract_sdk-0.18.1.tar.gz
+[2024-04-09 08:27:46] INFO root fetch - processPackages [mkdocs-rtd]: Downloading https://files.pythonhosted.org/packages/2b/e2/6a417995bfedb9897b475699e84f2ac39883afe39d5b4b4d9420e180a845/mkdocs_rtd-0.0.8.tar.gz
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/84/82/dfb01beb7f1c4bd11a45d2652190e3375150c612b40a03f6a45a65cca627/sciveo-0.0.9.tar.gz
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-09 08:27:46] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-09 08:27:46] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.8.tar.gz tmp/ithaca_py-0.1.9-py3-none-any.whl.zip --markdown 20240409/i/ithaca-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [unstract-sdk]: Timeout reached during download
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [sciveo]: Timeout reached during download
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: executing diffoscope
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciveo-0.0.8.tar.gz tmp/sciveo-0.0.9.tar.gz --markdown 20240409/s/sciveo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:27:46] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-09 08:27:46] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 08:27:46] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-09 08:27:46] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240409/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-09 08:27:46] WARNING root fetch - processPackages [unstract-sdk]: Timeout reached during download
+[2024-04-09 08:27:46] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-09 08:27:46] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.18.1.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240409/u/unstract-sdk/0.18.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.8.tar.gz]
+[2024-04-09 08:27:46] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.9.tar.gz]
+[2024-04-09 08:27:47] INFO root fetch - main [MainThread]: End processing [sciveo]: success
+[2024-04-09 08:27:47] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.8.tar.gz]
+[2024-04-09 08:27:47] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.9-py3-none-any.whl.zip]
+[2024-04-09 08:27:47] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-09 08:27:47] WARNING root fetch - processPackages [mkdocs-rtd]: Timeout reached during download
+[2024-04-09 08:27:47] INFO root fetch - processPackages [mkdocs-rtd]: Downloading https://files.pythonhosted.org/packages/96/9d/c9b69917daefaa83457c1375afef39105029d13d5211622d94a8781a0d90/mkdocs_rtd-0.0.9.tar.gz
+[2024-04-09 08:27:47] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.18.1.tar.gz]
+[2024-04-09 08:27:47] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-09 08:27:47] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-09 08:27:47] WARNING root fetch - processPackages [mkdocs-rtd]: Timeout reached during download
+[2024-04-09 08:27:47] INFO root fetch - processPackages [mkdocs-rtd]: executing diffoscope
+[2024-04-09 08:27:47] INFO root fetch - processPackages [mkdocs-rtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_rtd-0.0.8.tar.gz tmp/mkdocs_rtd-0.0.9.tar.gz --markdown 20240409/m/mkdocs-rtd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 08:27:48] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-09 08:27:48] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-09 08:27:48] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-09 08:27:48] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.8.tar.gz]
+[2024-04-09 08:27:48] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.9.tar.gz]
+[2024-04-09 08:27:48] INFO root fetch - main [MainThread]: End processing [mkdocs-rtd]: success
+[2024-04-09 08:27:48] INFO root fetch - main [MainThread]: Store serial: [22678992]
