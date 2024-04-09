@@ -14024,3 +14024,94 @@
 [2024-04-09 06:17:48] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
 [2024-04-09 06:17:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
 [2024-04-09 06:17:48] INFO root fetch - main [MainThread]: Store serial: [22678128]
+[2024-04-09 06:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678128]
+[2024-04-09 06:19:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awil-ft232h
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendp
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-wss
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-yinsuda
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-youmall
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-yunjing
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-yunsou
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meta-edc
+[2024-04-09 06:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swarmauri
+[2024-04-09 06:19:58] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 06:19:58] WARNING root fetch - processPackages [vloc]: Skipping, unable to determine old version
+[2024-04-09 06:19:58] INFO root fetch - main [MainThread]: End processing [vloc] error
+[2024-04-09 06:19:58] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240407001]
+[2024-04-09 06:19:58] WARNING root fetch - processPackages [awil-ft232h]: Skipping, unable to determine old version
+[2024-04-09 06:19:58] INFO root fetch - main [MainThread]: End processing [awil-ft232h] error
+[2024-04-09 06:19:58] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:19:58] INFO root fetch - processPackages [meta-edc]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-09 06:19:58] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-09 06:19:58] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/d7/ba/5f0a39a215817b629d9910c96a30d73d9aaaa903ad4982c95ba028a0529a/opendp-0.9.2a20240407001-py3-none-any.whl
+[2024-04-09 06:19:58] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:19:58] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:19:58] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:19:58] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 06:19:58] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36120135>=10485760
+[2024-04-09 06:19:58] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/4f/de/33842c42daf52d30db38c8ac813bb1b4fecd7cf5780af20608a839b1b851/meta-edc-0.3.8.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/2f/7f/44147c9505a75d803b2902a25b7b3c74f58d1aec20704da523bc1886b639/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/23/0d/e49e26691e3fc4d209348e9647bc7ce9241e7d8684f3e6f411c34f1fd172/tencentcloud-sdk-python-wss-3.0.998.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/41/80/6c47aecff1245b820e2f29a01c3c685fb0812df647a635fcdd55a3bc2f14/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/8b/48/0f4022469d2e60d80c205090d7b15165159c59eed860f408c566ee8506b7/tencentcloud-sdk-python-youmall-3.0.998.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/89/a5/016cae1211e3dc3326af596af243f289a366479bd9151e34047323b8d94c/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240409/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Timeout reached during download
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-wss]: Timeout reached during download
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-youmall]: Timeout reached during download
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Timeout reached during download
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Timeout reached during download
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [meta-edc]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/b8/c8/6fe85d8790fee52752e90173dac65409e5d451475ad0b0f566896631592c/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/49/24/ef2c1184e7b7231338d8342906162d8b869599a1541bcd1fb3a9e3c25fc4/tencentcloud-sdk-python-wss-3.0.999.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/5d/ec/fa0d9f1ac64f6da07ddfb6836ac624c21cd6ffdbc126f04c9ee27d806016/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/f6/74/59f8c2be1c7240a151a0718bde96586efaff4e1846d7c4d623394da89276/tencentcloud-sdk-python-youmall-3.0.999.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/3b/40/7637adbeba05a2842919344c6e7298e99c3ac3711db7277fcb9ec5213152/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz
+[2024-04-09 06:19:59] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/0a/e6/da2b849f3bde16fe20f11085b6235279ee98609df064ddb32affc59f6f87/meta-edc-0.3.9.tar.gz
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-yinsuda/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-yunsou/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-youmall]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-youmall/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [meta-edc]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [meta-edc]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [meta-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-edc-0.3.8.tar.gz tmp/meta-edc-0.3.9.tar.gz --markdown 20240409/m/meta-edc/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-wss]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-wss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:19:59] WARNING root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Timeout reached during download
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: executing diffoscope
+[2024-04-09 06:19:59] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-yunjing/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wss]: success
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
+[2024-04-09 06:20:00] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-09 06:20:00] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-09 06:20:02] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.3.8.tar.gz]
+[2024-04-09 06:20:02] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.3.9.tar.gz]
+[2024-04-09 06:20:02] INFO root fetch - main [MainThread]: End processing [meta-edc]: success
+[2024-04-09 06:20:02] INFO root fetch - main [MainThread]: Store serial: [22678159]
