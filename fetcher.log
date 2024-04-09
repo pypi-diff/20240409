@@ -14589,3 +14589,59 @@
 [2024-04-09 06:50:33] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.2.tar.gz]
 [2024-04-09 06:50:33] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
 [2024-04-09 06:50:33] INFO root fetch - main [MainThread]: Store serial: [22678350]
+[2024-04-09 06:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678350]
+[2024-04-09 06:52:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-margin-security
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-margin-delivered-security
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xspike
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psp-liquids-daq-parser
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: continuiti
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2024-04-09 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jemma
+[2024-04-09 06:52:42] WARNING root fetch - processPackages [psp-liquids-daq-parser]: Skipping, unable to determine old version
+[2024-04-09 06:52:42] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser] error
+[2024-04-09 06:52:42] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-09 06:52:42] INFO root fetch - processPackages [xspike]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-09 06:52:42] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: New version: [16.0.3.1.0.2] Old Version: [16.0.3.1.0.1]
+[2024-04-09 06:52:42] WARNING root fetch - processPackages [continuiti]: Skipping, unable to determine old version
+[2024-04-09 06:52:42] INFO root fetch - main [MainThread]: End processing [continuiti] error
+[2024-04-09 06:52:42] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-09 06:52:42] WARNING root fetch - processPackages [jemma]: Skipping, unable to determine old version
+[2024-04-09 06:52:42] INFO root fetch - main [MainThread]: End processing [jemma] error
+[2024-04-09 06:52:43] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-09 06:52:43] INFO root fetch - processPackages [xspike]: Downloading https://files.pythonhosted.org/packages/f2/57/53bab552a844bac74d90c61d6e9dfd1a8092fe12d9c88b04dbb006c1eb0a/xspike-0.2.98.tar.gz
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [xspike]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Downloading https://files.pythonhosted.org/packages/bc/7d/00da7c0b707d7d7ba9faeaec3ee8a1777b8c2e30a2a41197641de6f34f6a/odoo_addon_sale_margin_security-16.0.3.1.0.1-py3-none-any.whl
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Downloading https://files.pythonhosted.org/packages/ef/fb/e2cd446d6f96f968ff82726658140fc791bf873c78480b199ef5f141c634/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [odoo-addon-sale-margin-security]: Timeout reached during download
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [xspike]: Downloading https://files.pythonhosted.org/packages/1b/f5/87df717740befeddd1a84fe7c395e33e9e775fc1095714bd203833bf9bbd/xspike-0.2.99.tar.gz
+[2024-04-09 06:52:43] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Downloading https://files.pythonhosted.org/packages/4c/da/9d7ce6b2af9f7a5aa241eb314cc25d9bda34dc062ea78e13b8743037434e/odoo_addon_sale_margin_security-16.0.3.1.0.2-py3-none-any.whl
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [xspike]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [xspike]: executing diffoscope
+[2024-04-09 06:52:43] INFO root fetch - processPackages [xspike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspike-0.2.98.tar.gz tmp/xspike-0.2.99.tar.gz --markdown 20240409/x/xspike/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Downloading https://files.pythonhosted.org/packages/e8/82/588cd50eb841cb702ef3bab0195efea9f95b78de78fe49be2125953a0b70/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [odoo-addon-sale-margin-security]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: executing diffoscope
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_margin_security-16.0.3.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_margin_security-16.0.3.1.0.2-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-sale-margin-security/16.0.3.1.0.1-16.0.3.1.0.2/diff.md --exclude *.pyd
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: executing diffoscope
+[2024-04-09 06:52:43] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240409/o/odoo-addon-sale-margin-delivered-security/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2024-04-09 06:52:43] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-09 06:52:43] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-09 06:52:43] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240409/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-09 06:52:44] INFO root fetch - processPackages [xspike]: Remove: archive file [/home/abi/fetcher/tmp/xspike-0.2.98.tar.gz]
+[2024-04-09 06:52:44] INFO root fetch - processPackages [xspike]: Remove: archive file [/home/abi/fetcher/tmp/xspike-0.2.99.tar.gz]
+[2024-04-09 06:52:44] INFO root fetch - main [MainThread]: End processing [xspike]: success
+[2024-04-09 06:52:44] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-09 06:52:44] INFO root fetch - processPackages [odoo-addon-sale-margin-delivered-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_delivered_security-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-09 06:52:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-margin-delivered-security]: success
+[2024-04-09 06:52:44] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_security-16.0.3.1.0.1-py3-none-any.whl.zip]
+[2024-04-09 06:52:44] INFO root fetch - processPackages [odoo-addon-sale-margin-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_margin_security-16.0.3.1.0.2-py3-none-any.whl.zip]
+[2024-04-09 06:52:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-margin-security]: success
+[2024-04-09 06:52:45] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-09 06:52:45] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-09 06:52:45] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-09 06:52:45] INFO root fetch - main [MainThread]: Store serial: [22678372]
