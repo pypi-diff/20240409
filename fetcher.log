@@ -21288,3 +21288,115 @@
 [2024-04-09 11:10:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-04-09 11:10:04] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-04-09 11:10:04] INFO root fetch - main [MainThread]: Store serial: [22680777]
+[2024-04-09 11:12:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680777]
+[2024-04-09 11:12:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-tools
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-scheduler-sdk
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nilearn
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjet-common
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memium
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sindapi
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cotton
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: logs-py
+[2024-04-09 11:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkatlas
+[2024-04-09 11:12:13] INFO root fetch - processPackages [memium]: New version: [0.7.0] Old Version: [0.15.0]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [logs-py]: New version: [2.8.1] Old Version: [2.8]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-09 11:12:13] WARNING root fetch - processPackages [sindapi]: Skipping, unable to determine old version
+[2024-04-09 11:12:13] INFO root fetch - processPackages [sindapi]: Start processing: dataTransformationsBertas
+[2024-04-09 11:12:13] INFO root fetch - main [MainThread]: End processing [sindapi] error
+[2024-04-09 11:12:13] INFO root fetch - processPackages [django-cotton]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [pinjet-common]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/65/04/9d2dd8828f75f22a04a463eaaa6470244aae19c6fcbb16e71624b01f3bb4/memium-0.15.0.tar.gz
+[2024-04-09 11:12:13] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.1.post6] Old Version: [7.1.1]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/8c/8b/6b228fc21b1d563e5932ab4c9367f6c46a1c9db7dbaa2390aca8cbbf771f/lusid_scheduler_sdk-2.0.8.tar.gz
+[2024-04-09 11:12:13] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/05/23/cd2438442cb620d8dfe9e78ca865d7da53c1c2ca9536a3f611f5785279ae/logs_py-2.8-py3-none-any.whl
+[2024-04-09 11:12:13] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-09 11:12:13] INFO root fetch - processPackages [dataTransformationsBertas]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-09 11:12:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-09 11:12:13] WARNING root fetch - processPackages [lusid-scheduler-sdk]: Timeout reached during download
+[2024-04-09 11:12:13] INFO root fetch - processPackages [nilearn]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-09 11:12:13] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:12:13] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 11:12:13] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [django-cotton]: Downloading https://files.pythonhosted.org/packages/d3/76/d167d8067090c42aaab5176823670627a5f0776099c72a39235a4db380b1/django_cotton-0.0.8.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/6f/e2/8a889ae6266dc44ac5319195a143cc7b02a03e09bebe04f93391e28820a8/pinjet-common-1.0.0.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/c5/34/a7ef5003bad49bf348892e29a9ee5224dbfff313c383456eb5f48a510497/dsp_tools-7.1.1.tar.gz
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/61/62/b2d102364a99692c2b330edc98b8215430a51370b9e7d1b13ef5ee74b69b/lusid_scheduler_sdk-2.0.9.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/1e/d3/cd9118c162e268b8e912c6f30f385bca56fe61775dfb307c08bd2e0c4d21/datatransformationsbertas-0.6.0.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [memium]: Downloading https://files.pythonhosted.org/packages/8a/a3/a3f5e0b58a853724e800a65c85c0df00b7d5138ea7cbb3db40d329c5f3d3/memium-0.7.0.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/05/6b/60b16eb6bad999ff1e339872ad10abbdefa010261ab288090d44fed66a6a/logs_py-2.8.1-py3-none-any.whl
+[2024-04-09 11:12:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [django-cotton]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [nilearn]: Downloading https://files.pythonhosted.org/packages/b3/9e/abb6a5cf4038f93eb346a206306f5aa873aa1f9bda6908829cfd8e121022/nilearn-0.9.1.tar.gz
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [lusid-scheduler-sdk]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.0.8.tar.gz tmp/lusid_scheduler_sdk-2.0.9.tar.gz --markdown 20240409/l/lusid-scheduler-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [pinjet-common]: Timeout reached during download
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [memium]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [memium]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [memium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memium-0.15.0.tar.gz tmp/memium-0.7.0.tar.gz --markdown 20240409/m/memium/0.15.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [checkatlas]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240409/c/checkatlas/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [logs-py]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [logs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_py-2.8-py3-none-any.whl.zip tmp/logs_py-2.8.1-py3-none-any.whl.zip --markdown 20240409/l/logs-py/2.8-2.8.1/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [dsp-tools]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [django-cotton]: Downloading https://files.pythonhosted.org/packages/7f/40/bf91ba502e2d7778bf576210cf4acdf78e23b00921e4b97431c207246710/django_cotton-0.0.9.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/cc/9b/0982e7fc98865f4f5ceaaba3597e3700ee5f2581ca8181d03e1098a3b2c7/pinjet-common-1.0.1.tar.gz
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dataTransformationsBertas]: Downloading https://files.pythonhosted.org/packages/a9/24/01971a20e83cec62113fba838ad7e31c4ea9730b625ed8d8d056f2fd3a9f/datatransformationsbertas-0.7.0.tar.gz
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240409/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/95/82/b42d958e47607642b99469df2af5805dca76ad67895c433a099f8e1a4913/dsp_tools-7.1.1.post6.tar.gz
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [dataTransformationsBertas]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dataTransformationsBertas]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dataTransformationsBertas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransformationsbertas-0.6.0.tar.gz tmp/datatransformationsbertas-0.7.0.tar.gz --markdown 20240409/d/dataTransformationsBertas/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [nilearn]: Timeout reached during download
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [pinjet-common]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [pinjet-common]: executing diffoscope
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [django-cotton]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [pinjet-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjet-common-1.0.0.tar.gz tmp/pinjet-common-1.0.1.tar.gz --markdown 20240409/p/pinjet-common/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] INFO root fetch - processPackages [django-cotton]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [django-cotton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cotton-0.0.8.tar.gz tmp/django_cotton-0.0.9.tar.gz --markdown 20240409/d/django-cotton/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 11:12:14] WARNING root fetch - processPackages [dsp-tools]: Timeout reached during download
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-04-09 11:12:14] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.1.tar.gz tmp/dsp_tools-7.1.1.post6.tar.gz --markdown 20240409/d/dsp-tools/7.1.1-7.1.1.post6/diff.md --exclude *.pyd
+[2024-04-09 11:12:15] INFO root fetch - processPackages [nilearn]: Downloading https://files.pythonhosted.org/packages/87/be/9cbde3ff018c7e35200f779c6315ee74d455db5f3cbad36100967d7744a9/nilearn-0.9.2.tar.gz
+[2024-04-09 11:12:15] WARNING root fetch - processPackages [nilearn]: Skipping package: exceeds size limit 13069741>=10485760
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [nilearn] error
+[2024-04-09 11:12:15] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.8.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.9.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.15.0.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [memium]: Remove: archive file [/home/abi/fetcher/tmp/memium-0.7.0.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [memium]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-1.0.0.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-1.0.1.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [pinjet-common]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [django-cotton]: Remove: archive file [/home/abi/fetcher/tmp/django_cotton-0.0.8.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [django-cotton]: Remove: archive file [/home/abi/fetcher/tmp/django_cotton-0.0.9.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [django-cotton]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.6.0.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [dataTransformationsBertas]: Remove: archive file [/home/abi/fetcher/tmp/datatransformationsbertas-0.7.0.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8-py3-none-any.whl.zip]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8.1-py3-none-any.whl.zip]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [logs-py]: success
+[2024-04-09 11:12:15] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.1.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.1.post6.tar.gz]
+[2024-04-09 11:12:15] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-04-09 11:12:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-09 11:12:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-09 11:12:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-09 11:12:16] INFO root fetch - main [MainThread]: Store serial: [22680837]
