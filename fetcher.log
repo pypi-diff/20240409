@@ -22893,3 +22893,67 @@
 [2024-04-09 11:50:44] INFO root fetch - processPackages [gradio-cofoldinginput]: Remove: archive file [/home/abi/fetcher/tmp/gradio_cofoldinginput-0.0.3.tar.gz]
 [2024-04-09 11:50:44] INFO root fetch - main [MainThread]: End processing [gradio-cofoldinginput]: success
 [2024-04-09 11:50:44] INFO root fetch - main [MainThread]: Store serial: [22681473]
+[2024-04-09 11:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681473]
+[2024-04-09 11:52:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aivox
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dekpkglock
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fewerai
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecoda-minka
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tira
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drfexts
+[2024-04-09 11:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rag-doc-search
+[2024-04-09 11:52:54] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-09 11:52:54] WARNING root fetch - processPackages [aivox]: Skipping, unable to determine old version
+[2024-04-09 11:52:54] INFO root fetch - main [MainThread]: End processing [aivox] error
+[2024-04-09 11:52:54] INFO root fetch - processPackages [mecoda-minka]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-09 11:52:54] WARNING root fetch - processPackages [fewerai]: Skipping, unable to determine old version
+[2024-04-09 11:52:54] INFO root fetch - main [MainThread]: End processing [fewerai] error
+[2024-04-09 11:52:54] INFO root fetch - processPackages [dekpkglock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 11:52:54] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-09 11:52:54] INFO root fetch - processPackages [rag-doc-search]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 11:52:54] INFO root fetch - processPackages [drfexts]: New version: [3.8.0] Old Version: [3.7.2]
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/27/0a/80080a00c00db8665c7dd89d08340a5bc54a3d70fe7028aa577d10397f36/dekpkglock-0.1.8.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [mecoda-minka]: Downloading https://files.pythonhosted.org/packages/d4/6b/013a943d5e2be2d2c85aacd6db55d0a2c5ece9c0f502a72573e7fc764cef/mecoda-minka-1.5.1.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/f1/0b/c424d6f59ff38da39866627c5ff3e496cc0dac81f6ed948530ab42808089/rag_doc_search-0.1.2.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/b8/f7/5e1277a4d528b05ce80ffde7a2cb2aae1f141fce254f690a374bbbd90289/drfexts-3.7.2.tar.gz
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [rag-doc-search]: Timeout reached during download
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [tira]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-09 11:52:55] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240409/t/tira/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [drfexts]: Timeout reached during download
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [dekpkglock]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/00/01/78c87b9f75fd9900e9558c96557a8aa61090de5db976bccf22f6b213f7f5/rag_doc_search-0.1.3.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/31/2a/6f9fdf4ee5dd93e290f144c731f2c919cea9a287bf619f08e2b5fdeb403e/drfexts-3.8.0.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/74/70/645ce47ecaa5ea19570413b51ec19bf943d102227dfa8e15e754aa4eb442/dekpkglock-0.1.9.tar.gz
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [mecoda-minka]: Timeout reached during download
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [rag-doc-search]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [rag-doc-search]: executing diffoscope
+[2024-04-09 11:52:55] INFO root fetch - processPackages [rag-doc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_doc_search-0.1.2.tar.gz tmp/rag_doc_search-0.1.3.tar.gz --markdown 20240409/r/rag-doc-search/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [dekpkglock]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [dekpkglock]: executing diffoscope
+[2024-04-09 11:52:55] INFO root fetch - processPackages [dekpkglock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekpkglock-0.1.8.tar.gz tmp/dekpkglock-0.1.9.tar.gz --markdown 20240409/d/dekpkglock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 11:52:55] WARNING root fetch - processPackages [drfexts]: Timeout reached during download
+[2024-04-09 11:52:55] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2024-04-09 11:52:55] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-3.7.2.tar.gz tmp/drfexts-3.8.0.tar.gz --markdown 20240409/d/drfexts/3.7.2-3.8.0/diff.md --exclude *.pyd
+[2024-04-09 11:52:55] INFO root fetch - processPackages [mecoda-minka]: Downloading https://files.pythonhosted.org/packages/ad/fa/272abdb797dbaef7a3da4a1c27c7af136a860ad007122376b8837b2b8bc3/mecoda-minka-1.5.2.tar.gz
+[2024-04-09 11:52:55] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-09 11:52:55] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-09 11:52:55] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-09 11:52:56] WARNING root fetch - processPackages [mecoda-minka]: Timeout reached during download
+[2024-04-09 11:52:56] INFO root fetch - processPackages [mecoda-minka]: executing diffoscope
+[2024-04-09 11:52:56] INFO root fetch - processPackages [mecoda-minka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecoda-minka-1.5.1.tar.gz tmp/mecoda-minka-1.5.2.tar.gz --markdown 20240409/m/mecoda-minka/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2024-04-09 11:52:56] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.2.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.3.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - main [MainThread]: End processing [rag-doc-search]: success
+[2024-04-09 11:52:56] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.8.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.9.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - main [MainThread]: End processing [dekpkglock]: success
+[2024-04-09 11:52:56] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.7.2.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.0.tar.gz]
+[2024-04-09 11:52:56] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2024-04-09 11:52:57] INFO root fetch - processPackages [mecoda-minka]: Remove: archive file [/home/abi/fetcher/tmp/mecoda-minka-1.5.1.tar.gz]
+[2024-04-09 11:52:57] INFO root fetch - processPackages [mecoda-minka]: Remove: archive file [/home/abi/fetcher/tmp/mecoda-minka-1.5.2.tar.gz]
+[2024-04-09 11:52:57] INFO root fetch - main [MainThread]: End processing [mecoda-minka]: success
+[2024-04-09 11:52:57] INFO root fetch - main [MainThread]: Store serial: [22681500]
