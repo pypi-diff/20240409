@@ -13229,3 +13229,39 @@
 [2024-04-09 05:51:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz]
 [2024-04-09 05:51:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbp]: success
 [2024-04-09 05:51:23] INFO root fetch - main [MainThread]: Store serial: [22677825]
+[2024-04-09 05:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677825]
+[2024-04-09 05:53:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 05:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-helpdesk
+[2024-04-09 05:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cxapit
+[2024-04-09 05:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2024-04-09 05:53:31] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 05:53:31] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 05:53:31] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: New version: [16.0.20240408.0] Old Version: [16.0.20231012.0]
+[2024-04-09 05:53:31] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:53:31] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:53:31] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/61/0f/1d2731c5288838296d2c7764467abfc9b80464cd28027d3a629cc819cc56/odoo_addons_oca_helpdesk-16.0.20231012.0-py3-none-any.whl
+[2024-04-09 05:53:31] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/50/e2/802b374ee03e75e3b25b519e9e7571d6d9e93b3555264033c8b9793cf51d/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz
+[2024-04-09 05:53:32] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Timeout reached during download
+[2024-04-09 05:53:32] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 05:53:32] WARNING root fetch - processPackages [odoo-addons-oca-helpdesk]: Timeout reached during download
+[2024-04-09 05:53:32] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 05:53:32] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 05:53:32] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/0c/90/657b8ab58c2086e77f45308e2a174018e0ea4c6fe5a36ba98d4d72caeb9f/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz
+[2024-04-09 05:53:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Downloading https://files.pythonhosted.org/packages/90/c7/f9574a174af523517450f79451f890457b97a024e220960298b165eaa62b/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl
+[2024-04-09 05:53:32] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Timeout reached during download
+[2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2024-04-09 05:53:32] WARNING root fetch - processPackages [odoo-addons-oca-helpdesk]: Timeout reached during download
+[2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-tcaplusdb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:53:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: executing diffoscope
+[2024-04-09 05:53:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_helpdesk-16.0.20231012.0-py3-none-any.whl.zip tmp/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl.zip --markdown 20240409/o/odoo-addons-oca-helpdesk/16.0.20231012.0-16.0.20240408.0/diff.md --exclude *.pyd
+[2024-04-09 05:53:32] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 05:53:32] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 05:53:32] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 05:53:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_helpdesk-16.0.20231012.0-py3-none-any.whl.zip]
+[2024-04-09 05:53:32] INFO root fetch - processPackages [odoo-addons-oca-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_helpdesk-16.0.20240408.0-py3-none-any.whl.zip]
+[2024-04-09 05:53:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-helpdesk]: success
+[2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz]
+[2024-04-09 05:53:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
+[2024-04-09 05:53:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2024-04-09 05:53:32] INFO root fetch - main [MainThread]: Store serial: [22677833]
