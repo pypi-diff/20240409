@@ -16596,3 +16596,61 @@
 [2024-04-09 08:27:48] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.9.tar.gz]
 [2024-04-09 08:27:48] INFO root fetch - main [MainThread]: End processing [mkdocs-rtd]: success
 [2024-04-09 08:27:48] INFO root fetch - main [MainThread]: Store serial: [22678992]
+[2024-04-09 08:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678992]
+[2024-04-09 08:29:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbsite
+[2024-04-09 08:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-tracker
+[2024-04-09 08:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bakabakabaka
+[2024-04-09 08:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plants-vs-zombies
+[2024-04-09 08:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rrcgeoviz
+[2024-04-09 08:29:57] INFO root fetch - processPackages [plants-vs-zombies]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 08:29:57] INFO root fetch - processPackages [bakabakabaka]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-09 08:29:58] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/7d/7c/5ac39a16cbcb71f63de841ff7f8b392a81f5e3f03eac4f897623dd59d1d9/bakabakabaka-0.7.7.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [rrcgeoviz]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 08:29:58] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.3] Old Version: [1.2.0.2]
+[2024-04-09 08:29:58] INFO root fetch - processPackages [nbsite]: New version: [0.8.5rc1] Old Version: [0.8.5a5]
+[2024-04-09 08:29:58] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/cc/38/7811b601eac9c2c06e8a7d86f91e53eef551051e0eb2f164de2109ce120a/plants-vs-zombies-0.0.1.tar.gz
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [bakabakabaka]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/ff/a4/f2da9dbece6392940a1d8f055582a33ab372d465d0d982fe7b43d1fa3b90/gaea_tracker-1.2.0.2-py3-none-any.whl
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/b6/dc/fb0851776a0cbfa2f858c89365626b31c8a5ddf10ff7ad49a058b37f808d/bakabakabaka-0.8.0.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [rrcgeoviz]: Downloading https://files.pythonhosted.org/packages/58/69/d166950ae639b7d5d6d1101aa5f11e9701dbbf92661c503d828f6aa8af0b/rrcgeoviz-0.1.2.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/84/6a/808fe7d1a1749ce2b18e0e0f2f5888c595f151755cc9050dbb172e354d5a/nbsite-0.8.5a5.tar.gz
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [gaea-tracker]: Timeout reached during download
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [bakabakabaka]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [bakabakabaka]: executing diffoscope
+[2024-04-09 08:29:58] INFO root fetch - processPackages [bakabakabaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakabakabaka-0.7.7.tar.gz tmp/bakabakabaka-0.8.0.tar.gz --markdown 20240409/b/bakabakabaka/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [rrcgeoviz]: Timeout reached during download
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [nbsite]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/6c/a7/3b5d2b9b501ad74857dcd09f5ec1f538b53694568a2b755adb10f909e717/plants-vs-zombies-0.0.2.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [rrcgeoviz]: Downloading https://files.pythonhosted.org/packages/a4/8a/cc34003775577299293dba9d9e6290b7e6e347d08661a0ae3b0243e886ac/rrcgeoviz-0.1.3.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/7e/0c/d08415ba885d66ac5744e8e3e163a75c9940daf48cae303abeaf6ea6e3e5/nbsite-0.8.5rc1.tar.gz
+[2024-04-09 08:29:58] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/86/f9/7bc1b7f131e50cb03e6788598a83e0f6685df24d715f060a2efa5a8cf51a/gaea_tracker-1.2.0.3-py3-none-any.whl
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [nbsite]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2024-04-09 08:29:58] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.5a5.tar.gz tmp/nbsite-0.8.5rc1.tar.gz --markdown 20240409/n/nbsite/0.8.5a5-0.8.5rc1/diff.md --exclude *.pyd
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [rrcgeoviz]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [rrcgeoviz]: executing diffoscope
+[2024-04-09 08:29:58] INFO root fetch - processPackages [rrcgeoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrcgeoviz-0.1.2.tar.gz tmp/rrcgeoviz-0.1.3.tar.gz --markdown 20240409/r/rrcgeoviz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [gaea-tracker]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-09 08:29:58] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.2.0.2-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip --markdown 20240409/g/gaea-tracker/1.2.0.2-1.2.0.3/diff.md --exclude *.pyd
+[2024-04-09 08:29:58] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 08:29:58] INFO root fetch - processPackages [plants-vs-zombies]: executing diffoscope
+[2024-04-09 08:29:58] INFO root fetch - processPackages [plants-vs-zombies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plants-vs-zombies-0.0.1.tar.gz tmp/plants-vs-zombies-0.0.2.tar.gz --markdown 20240409/p/plants-vs-zombies/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 08:29:59] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.7.7.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.8.0.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [bakabakabaka]: success
+[2024-04-09 08:29:59] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.5a5.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.5rc1.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2024-04-09 08:29:59] INFO root fetch - processPackages [rrcgeoviz]: Remove: archive file [/home/abi/fetcher/tmp/rrcgeoviz-0.1.2.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - processPackages [rrcgeoviz]: Remove: archive file [/home/abi/fetcher/tmp/rrcgeoviz-0.1.3.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [rrcgeoviz]: success
+[2024-04-09 08:29:59] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.2-py3-none-any.whl.zip]
+[2024-04-09 08:29:59] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip]
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-09 08:29:59] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.1.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.2.tar.gz]
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
+[2024-04-09 08:29:59] INFO root fetch - main [MainThread]: Store serial: [22679006]
