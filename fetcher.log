@@ -20639,3 +20639,94 @@
 [2024-04-09 10:55:50] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b9.tar.gz]
 [2024-04-09 10:55:50] INFO root fetch - main [MainThread]: End processing [algoliasearch]: success
 [2024-04-09 10:55:50] INFO root fetch - main [MainThread]: Store serial: [22680593]
+[2024-04-09 10:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680593]
+[2024-04-09 10:58:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotsos
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patchwork-cli
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TB2J
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: izihawa-pdftools
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: droughty
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etcd-client-py
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fitrequest
+[2024-04-09 10:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keelson
+[2024-04-09 10:58:00] INFO root fetch - processPackages [fitrequest]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-09 10:58:00] INFO root fetch - processPackages [izihawa-pdftools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 10:58:00] INFO root fetch - processPackages [etcd-client-py]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-09 10:58:00] INFO root fetch - processPackages [fitrequest]: Downloading https://files.pythonhosted.org/packages/f8/b8/000627f0a5819dcbbed3dafec917f3251ffd38aea22c10cfe868fc2f7f8e/fitrequest-0.6.0.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 10:58:01] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-09 10:58:01] INFO root fetch - processPackages [droughty]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-09 10:58:01] INFO root fetch - processPackages [TB2J]: New version: [0.8.2.8] Old Version: [0.8.2.7]
+[2024-04-09 10:58:01] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-09 10:58:01] INFO root fetch - processPackages [izihawa-pdftools]: Downloading https://files.pythonhosted.org/packages/35/21/b722ac42f745b7e3c94cecd5137c0ffa53687a3c849d495a8d1a98c69703/izihawa_pdftools-1.0.8.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/4f/83/66e3fc7a6ffae30c6f64ce7aba611498f02d9b71562e807459f617b6d81b/patchwork_cli-0.0.3.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [droughty]: Downloading https://files.pythonhosted.org/packages/1a/ba/9e400fa57c2d8cc24480e00b7b6351f44437f06dfd5189233a2404465bcf/droughty-0.9.7.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [etcd-client-py]: Downloading https://files.pythonhosted.org/packages/e0/12/2b96fc4d929741940de32a8b114f0412d56b4456485f1ed5516d649e900d/etcd_client_py-0.2.4.tar.gz
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [fitrequest]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [TB2J]: Downloading https://files.pythonhosted.org/packages/76/61/fc9b69af16275b768dc4ddce44ad6d8e3058e71eeadc3f5d170306886505/TB2J-0.8.2.7.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [patchwork-cli]: Timeout reached during download
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [izihawa-pdftools]: Timeout reached during download
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [TB2J]: Timeout reached during download
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [etcd-client-py]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [fitrequest]: Downloading https://files.pythonhosted.org/packages/b1/40/cfd14d4447342a7d8ce828e9fea2d4dcea90917eec6845ce2ae68064920d/fitrequest-0.7.0.tar.gz
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [hotsos]: Timeout reached during download
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [droughty]: Timeout reached during download
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/a3/41/75b6f76b76bcbbdb4eac2173a161a73522f6b8a7f4c2c2ea991dcc6299cb/patchwork_cli-0.0.4.tar.gz
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [fitrequest]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [fitrequest]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [fitrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitrequest-0.6.0.tar.gz tmp/fitrequest-0.7.0.tar.gz --markdown 20240409/f/fitrequest/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] INFO root fetch - processPackages [izihawa-pdftools]: Downloading https://files.pythonhosted.org/packages/74/98/c962cee7ef94825c54fb0a73f293877eec0c0321ae15f780bcf9546ace04/izihawa_pdftools-1.0.9.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [etcd-client-py]: Downloading https://files.pythonhosted.org/packages/35/38/975c561fc973b053a8a4bed9fe9ba9def82fae14cd8e79a68088886a21e3/etcd_client_py-0.3.0.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [TB2J]: Downloading https://files.pythonhosted.org/packages/fb/18/c6e949439b7f24c52d139812b4c3480c30303cf37ae9e95f4e2ae3df857c/TB2J-0.8.2.8.tar.gz
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [patchwork-cli]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.3.tar.gz tmp/patchwork_cli-0.0.4.tar.gz --markdown 20240409/p/patchwork-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [droughty]: Downloading https://files.pythonhosted.org/packages/c9/6b/ede5086535fc32dec4d430a438275220ccd34ec4dd3253c1b09660c32e10/droughty-0.9.8.tar.gz
+[2024-04-09 10:58:01] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [etcd-client-py]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [etcd-client-py]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [etcd-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etcd_client_py-0.2.4.tar.gz tmp/etcd_client_py-0.3.0.tar.gz --markdown 20240409/e/etcd-client-py/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [TB2J]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [TB2J]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [TB2J]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TB2J-0.8.2.7.tar.gz tmp/TB2J-0.8.2.8.tar.gz --markdown 20240409/T/TB2J/0.8.2.7-0.8.2.8/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [izihawa-pdftools]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [izihawa-pdftools]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [izihawa-pdftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_pdftools-1.0.8.tar.gz tmp/izihawa_pdftools-1.0.9.tar.gz --markdown 20240409/i/izihawa-pdftools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [hotsos]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240409/h/hotsos/1.17.0.post8-1.17.0.post9/diff.md --exclude *.pyd
+[2024-04-09 10:58:01] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-09 10:58:01] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-09 10:58:01] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240409/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-09 10:58:02] WARNING root fetch - processPackages [droughty]: Timeout reached during download
+[2024-04-09 10:58:02] INFO root fetch - processPackages [droughty]: executing diffoscope
+[2024-04-09 10:58:02] INFO root fetch - processPackages [droughty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droughty-0.9.7.tar.gz tmp/droughty-0.9.8.tar.gz --markdown 20240409/d/droughty/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-09 10:58:02] INFO root fetch - processPackages [fitrequest]: Remove: archive file [/home/abi/fetcher/tmp/fitrequest-0.6.0.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [fitrequest]: Remove: archive file [/home/abi/fetcher/tmp/fitrequest-0.7.0.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [fitrequest]: success
+[2024-04-09 10:58:02] INFO root fetch - processPackages [izihawa-pdftools]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_pdftools-1.0.8.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [izihawa-pdftools]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_pdftools-1.0.9.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [izihawa-pdftools]: success
+[2024-04-09 10:58:02] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-09 10:58:02] INFO root fetch - processPackages [etcd-client-py]: Remove: archive file [/home/abi/fetcher/tmp/etcd_client_py-0.2.4.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [etcd-client-py]: Remove: archive file [/home/abi/fetcher/tmp/etcd_client_py-0.3.0.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [etcd-client-py]: success
+[2024-04-09 10:58:02] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.3.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.4.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-04-09 10:58:02] INFO root fetch - processPackages [TB2J]: Remove: archive file [/home/abi/fetcher/tmp/TB2J-0.8.2.7.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - processPackages [TB2J]: Remove: archive file [/home/abi/fetcher/tmp/TB2J-0.8.2.8.tar.gz]
+[2024-04-09 10:58:02] INFO root fetch - main [MainThread]: End processing [TB2J]: success
+[2024-04-09 10:58:03] INFO root fetch - processPackages [droughty]: Remove: archive file [/home/abi/fetcher/tmp/droughty-0.9.7.tar.gz]
+[2024-04-09 10:58:03] INFO root fetch - processPackages [droughty]: Remove: archive file [/home/abi/fetcher/tmp/droughty-0.9.8.tar.gz]
+[2024-04-09 10:58:03] INFO root fetch - main [MainThread]: End processing [droughty]: success
+[2024-04-09 10:58:03] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-09 10:58:03] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-09 10:58:03] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-09 10:58:03] INFO root fetch - main [MainThread]: Store serial: [22680629]
