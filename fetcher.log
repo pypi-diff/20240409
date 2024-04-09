@@ -9876,3 +9876,99 @@
 [2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2024-04-09 04:48:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-validation-queued]: success
 [2024-04-09 04:48:53] INFO root fetch - main [MainThread]: Store serial: [22676875]
+[2024-04-09 04:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676875]
+[2024-04-09 04:51:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kivymd2_widgets
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-aa
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runes-client
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-aai
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-acp
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liulianmao
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sourcery-nightly
+[2024-04-09 04:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-advisor
+[2024-04-09 04:51:02] INFO root fetch - processPackages [kivymd2_widgets]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [runes-client]: New version: [0.8.2] Old Version: [0.7.8]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [liulianmao]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/64/9b/cafb1e8bbf3f513628efd435d89fdcf1fe80a0bd888b32c50acffdd5b277/tencentcloud-sdk-python-aai-3.0.998.tar.gz
+[2024-04-09 04:51:02] INFO root fetch - processPackages [kivymd2_widgets]: Downloading https://files.pythonhosted.org/packages/6c/db/266b98645ba4c5f64623a6b899213821be00e9cb35a192830b898c758ad9/kivymd2_widgets-0.0.1.tar.gz
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/99/fd/89c30befef9f12ad92625fd8181dc608e8da914c10981b6de726e95411d1/tencentcloud-sdk-python-advisor-3.0.998.tar.gz
+[2024-04-09 04:51:02] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-09 04:51:02] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/d9/da/d6c3e80c69119d355325a9658fcf1603a84db706d3ea862cee488eecd718/tencentcloud-sdk-python-acp-3.0.998.tar.gz
+[2024-04-09 04:51:02] WARNING root fetch - processPackages [kivymd2_widgets]: Timeout reached during download
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/58/9d/88177c81b6f79f3f2b5781650482a1c99b35abe1fc1ed23206334c05555c/runes-client-0.7.8.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [liulianmao]: Downloading https://files.pythonhosted.org/packages/ec/12/9922d22d7d8722d5f42250392db8772bdc0231be15a773a27403dc5c409a/liulianmao-1.1.0.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/c3/af/0edc99ca0ec65ae386d0bbdffe9147c9d3d488acec8ed620c99082453f8f/tencentcloud-sdk-python-aai-3.0.999.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [runes-client]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [kivymd2_widgets]: Downloading https://files.pythonhosted.org/packages/c7/f0/ca2566f5d363e5dec94484adc1c147d05e5447c6619d6967b061ed4664bb/kivymd2_widgets-0.0.2.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [liulianmao]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/bf/47/f0af650651378b58199eb8911b24039f4e9ab6aac0574141aeb1f7de1b73/tencentcloud-sdk-python-acp-3.0.999.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/71/fa/79e79aea4e2b7227439b7553c3d43a4ba081ba3c2c74ca7a6f0557769c00/tencentcloud-sdk-python-advisor-3.0.999.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [kivymd2_widgets]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-04-09 04:51:03] INFO root fetch - processPackages [kivymd2_widgets]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [kivymd2_widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd2_widgets-0.0.1.tar.gz tmp/kivymd2_widgets-0.0.2.tar.gz --markdown 20240409/k/kivymd2_widgets/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-aai/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-09 04:51:03] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/1e/99/ef42f8a8c900baac86d17287dfec24f72b66507fbf0b5e6027baca58db6f/runes-client-0.8.2.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-advisor/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] INFO root fetch - processPackages [liulianmao]: Downloading https://files.pythonhosted.org/packages/1f/35/7a8d8c1071a7fe2022881e8b52635a861dde7ed1b56dc6a39707c83ab513/liulianmao-1.2.0.tar.gz
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-acp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [liulianmao]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [liulianmao]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [liulianmao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liulianmao-1.1.0.tar.gz tmp/liulianmao-1.2.0.tar.gz --markdown 20240409/l/liulianmao/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [runes-client]: Timeout reached during download
+[2024-04-09 04:51:03] INFO root fetch - processPackages [runes-client]: executing diffoscope
+[2024-04-09 04:51:03] INFO root fetch - processPackages [runes-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-client-0.7.8.tar.gz tmp/runes-client-0.8.2.tar.gz --markdown 20240409/r/runes-client/0.7.8-0.8.2/diff.md --exclude *.pyd
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-09 04:51:03] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-advisor]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [kivymd2_widgets]: Remove: archive file [/home/abi/fetcher/tmp/kivymd2_widgets-0.0.1.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [kivymd2_widgets]: Remove: archive file [/home/abi/fetcher/tmp/kivymd2_widgets-0.0.2.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [kivymd2_widgets]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [liulianmao]: Remove: archive file [/home/abi/fetcher/tmp/liulianmao-1.1.0.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [liulianmao]: Remove: archive file [/home/abi/fetcher/tmp/liulianmao-1.2.0.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [liulianmao]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2024-04-09 04:51:04] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.7.8.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.8.2.tar.gz]
+[2024-04-09 04:51:04] INFO root fetch - main [MainThread]: End processing [runes-client]: success
+[2024-04-09 04:51:04] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-09 04:51:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 04:51:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-09 04:51:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-09 04:51:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-09 04:51:15] INFO root fetch - main [MainThread]: Store serial: [22676905]
