@@ -12530,3 +12530,56 @@
 [2024-04-09 05:29:33] INFO root fetch - processPackages [pcl-python]: Remove: archive file [/home/abi/fetcher/tmp/pcl_python-0.0.2-cp312-cp312-manylinux2014_x86_64.whl.zip]
 [2024-04-09 05:29:33] INFO root fetch - main [MainThread]: End processing [pcl-python]: success
 [2024-04-09 05:29:33] INFO root fetch - main [MainThread]: Store serial: [22677613]
+[2024-04-09 05:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22677613]
+[2024-04-09 05:31:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openprotein-python
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-postgres
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: norfairwhl
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangorestframework-ext
+[2024-04-09 05:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-parse-time
+[2024-04-09 05:31:42] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [norfairwhl]: Skipping, unable to determine old version
+[2024-04-09 05:31:42] INFO root fetch - main [MainThread]: End processing [norfairwhl] error
+[2024-04-09 05:31:42] INFO root fetch - processPackages [openprotein-python]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-09 05:31:42] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.2.dev0] Old Version: [0.9.1.dev0]
+[2024-04-09 05:31:42] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2024-04-09 05:31:42] ERROR root fetch - processPackages [fast-parse-time]: Unable to get metadata: No such project 'fast-parse-time'
+[2024-04-09 05:31:42] INFO root fetch - main [MainThread]: End processing [fast-parse-time] error
+[2024-04-09 05:31:42] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: Downloading https://files.pythonhosted.org/packages/03/11/e5ecf2af68dd1751aa5732cd4eda297bb2d3b245200d78e293f0bacce9f0/tencentcloud-sdk-python-postgres-3.0.998.tar.gz
+[2024-04-09 05:31:42] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/3f/01/0c1fd0e1ec5eece717fc75e011d7a576aeeb2707fecd4b49a7950719169a/openprotein_python-0.3.2.tar.gz
+[2024-04-09 05:31:42] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2024-04-09 05:31:42] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b6/6b/5e378df208b954e0bb2f79368dfa7a478538ef65cc2c9a28861a92e5b40e/keras-nlp-0.9.1.dev0.tar.gz
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-postgres]: Timeout reached during download
+[2024-04-09 05:31:42] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: Downloading https://files.pythonhosted.org/packages/be/63/496592dd09fd2b7357d69284e4467c88f15fa449a6698d86b5c62efd6c59/tencentcloud-sdk-python-postgres-3.0.999.tar.gz
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [keras-nlp]: Timeout reached during download
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [djangorestframework-ext]: Timeout reached during download
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [openprotein-python]: Timeout reached during download
+[2024-04-09 05:31:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-postgres]: Timeout reached during download
+[2024-04-09 05:31:42] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: executing diffoscope
+[2024-04-09 05:31:42] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-postgres-3.0.998.tar.gz tmp/tencentcloud-sdk-python-postgres-3.0.999.tar.gz --markdown 20240409/t/tencentcloud-sdk-python-postgres/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-09 05:31:42] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/d6/25/907cf23fe9ea8ec9d9ae64c01d4b918c535d1c786a347116779c21aeef0d/keras-nlp-0.9.2.dev0.tar.gz
+[2024-04-09 05:31:42] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/bb/27/6ff190aac71e975a78ac341e97df07ed2c37c9a8739c92b3bd27626e32be/openprotein_python-0.4.0.tar.gz
+[2024-04-09 05:31:43] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2024-04-09 05:31:43] WARNING root fetch - processPackages [keras-nlp]: Timeout reached during download
+[2024-04-09 05:31:43] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-04-09 05:31:43] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.1.dev0.tar.gz tmp/keras-nlp-0.9.2.dev0.tar.gz --markdown 20240409/k/keras-nlp/0.9.1.dev0-0.9.2.dev0/diff.md --exclude *.pyd
+[2024-04-09 05:31:43] WARNING root fetch - processPackages [openprotein-python]: Timeout reached during download
+[2024-04-09 05:31:43] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2024-04-09 05:31:43] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.3.2.tar.gz tmp/openprotein_python-0.4.0.tar.gz --markdown 20240409/o/openprotein-python/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2024-04-09 05:31:43] WARNING root fetch - processPackages [djangorestframework-ext]: Timeout reached during download
+[2024-04-09 05:31:43] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2024-04-09 05:31:43] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20240409/d/djangorestframework-ext/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-09 05:31:43] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-postgres-3.0.998.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - processPackages [tencentcloud-sdk-python-postgres]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-postgres-3.0.999.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-postgres]: success
+[2024-04-09 05:31:43] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.8.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.9.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2024-04-09 05:31:43] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.3.2.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.4.0.tar.gz]
+[2024-04-09 05:31:43] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2024-04-09 05:31:44] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.1.dev0.tar.gz]
+[2024-04-09 05:31:44] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.2.dev0.tar.gz]
+[2024-04-09 05:31:44] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-04-09 05:31:44] INFO root fetch - main [MainThread]: Store serial: [22677637]
