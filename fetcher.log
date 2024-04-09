@@ -3928,3 +3928,17 @@
 [2024-04-09 02:58:59] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
 [2024-04-09 02:58:59] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
 [2024-04-09 02:58:59] INFO root fetch - main [MainThread]: Store serial: [22675124]
+[2024-04-09 03:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22675124]
+[2024-04-09 03:01:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-09 03:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docsig
+[2024-04-09 03:01:07] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-04-09 03:01:08] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-04-09 03:01:08] WARNING root fetch - processPackages [docsig]: Timeout reached during download
+[2024-04-09 03:01:08] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-04-09 03:01:08] WARNING root fetch - processPackages [docsig]: Timeout reached during download
+[2024-04-09 03:01:08] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-04-09 03:01:08] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240409/d/docsig/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 03:01:09] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-04-09 03:01:09] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-04-09 03:01:09] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-04-09 03:01:09] INFO root fetch - main [MainThread]: Store serial: [22675129]
