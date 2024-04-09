@@ -18278,3 +18278,50 @@
 [2024-04-09 09:33:24] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
 [2024-04-09 09:33:24] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
 [2024-04-09 09:33:24] INFO root fetch - main [MainThread]: Store serial: [22679670]
+[2024-04-09 09:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679670]
+[2024-04-09 09:35:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxapit
+[2024-04-09 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-09 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywayne
+[2024-04-09 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2024-04-09 09:35:33] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.6.4] Old Version: [1.0.0.6.3]
+[2024-04-09 09:35:33] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 09:35:33] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-09 09:35:33] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.1.dev20240408221134] Old Version: [0.3.1.dev20240408125117]
+[2024-04-09 09:35:33] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/5f/19/18be7a8b9f75dcd66ba0b831be932716ad268a35308584d5865b2bcba730/pywayne-1.0.0.6.3.tar.gz
+[2024-04-09 09:35:33] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-09 09:35:33] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-09 09:35:34] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/25/88/1e05253e01c82d468c5dc34a38b48f5a2a4e67ad0a2f2bf3337f54b75e7b/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-09 09:35:34] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/e2/f7/24d1ce30a581c9b995a8a643ca7a4c884c19f72cd8057d2100e205873803/pywayne-1.0.0.6.4.tar.gz
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/9c/83/f1fed1a155b80c3e23a4e0b98405093d224f2b15e79baa60de2106e3c897/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [pywayne]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-04-09 09:35:34] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.6.3.tar.gz tmp/pywayne-1.0.0.6.4.tar.gz --markdown 20240409/p/pywayne/1.0.0.6.3-1.0.0.6.4/diff.md --exclude *.pyd
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240409/c/cxapit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-09 09:35:34] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz tmp/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz --markdown 20240409/k/konfuzio-sdk/0.3.1.dev20240408125117-0.3.1.dev20240408221134/diff.md --exclude *.pyd
+[2024-04-09 09:35:34] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-09 09:35:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240409/c/cg/59.9.0-59.9.1/diff.md --exclude *.pyd
+[2024-04-09 09:35:34] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.3.tar.gz]
+[2024-04-09 09:35:34] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.6.4.tar.gz]
+[2024-04-09 09:35:34] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-04-09 09:35:35] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-09 09:35:35] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-09 09:35:35] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-09 09:35:35] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.1.dev20240408125117.tar.gz]
+[2024-04-09 09:35:35] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.1.dev20240408221134.tar.gz]
+[2024-04-09 09:35:35] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-09 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-09 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-09 09:35:38] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-09 09:35:38] INFO root fetch - main [MainThread]: Store serial: [22679679]
