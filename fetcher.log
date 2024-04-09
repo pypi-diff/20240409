@@ -20592,3 +20592,50 @@
 [2024-04-09 10:53:37] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.6.1.tar.gz]
 [2024-04-09 10:53:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-send-anything-anywhere]: success
 [2024-04-09 10:53:37] INFO root fetch - main [MainThread]: Store serial: [22680562]
+[2024-04-09 10:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680562]
+[2024-04-09 10:55:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anesthetic
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-connect
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyecif
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyLoraRFM9x
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: algoliasearch
+[2024-04-09 10:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mutuple
+[2024-04-09 10:55:47] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.60] Old Version: [9.1.58]
+[2024-04-09 10:55:47] INFO root fetch - processPackages [anesthetic]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-04-09 10:55:48] INFO root fetch - processPackages [algoliasearch]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [pyecif]: Skipping, unable to determine old version
+[2024-04-09 10:55:48] INFO root fetch - main [MainThread]: End processing [pyecif] error
+[2024-04-09 10:55:48] INFO root fetch - processPackages [pyLoraRFM9x]: New version: [1.0.1] Old Version: [0.9.2]
+[2024-04-09 10:55:48] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/82/0e/6d482e0e020c78800302dcf5375005a65ef629fac72fcedb3c25a77715cb/databricks-connect-9.1.58.tar.gz
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [mutuple]: Skipping, unable to determine old version
+[2024-04-09 10:55:48] INFO root fetch - main [MainThread]: End processing [mutuple] error
+[2024-04-09 10:55:48] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/78/8a/a6d6fefd572d1a67586e0f1035624dd915e7f8d0df1b296d9a839fecf912/anesthetic-2.8.3.tar.gz
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257311450>=10485760
+[2024-04-09 10:55:48] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [anesthetic]: Timeout reached during download
+[2024-04-09 10:55:48] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/15/e4/acb11240caf975841287f51e976db818e9b845127dccb7a4c23331090c31/algoliasearch-4.0.0b8.tar.gz
+[2024-04-09 10:55:48] INFO root fetch - processPackages [pyLoraRFM9x]: Downloading https://files.pythonhosted.org/packages/b3/d6/55ff58e099077d058d0d678d886a9b73b7bf9fa89179b5221092ec074e27/pyLoraRFM9x-0.9.2.tar.gz
+[2024-04-09 10:55:48] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/72/cf/ee80c9bd24ca83c4d862d0f65235ee797af79bdd38903739ff9ec99846ea/anesthetic-2.8.4.tar.gz
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [anesthetic]: Timeout reached during download
+[2024-04-09 10:55:48] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2024-04-09 10:55:48] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.8.3.tar.gz tmp/anesthetic-2.8.4.tar.gz --markdown 20240409/a/anesthetic/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [pyLoraRFM9x]: Timeout reached during download
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [algoliasearch]: Timeout reached during download
+[2024-04-09 10:55:48] INFO root fetch - processPackages [pyLoraRFM9x]: Downloading https://files.pythonhosted.org/packages/81/47/d1d998fbb19a3213c01dd8f5815ca2cfa366d06007bae38333f7ff2c9d5c/pyLoraRFM9x-1.0.1.tar.gz
+[2024-04-09 10:55:48] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/d4/fd/967d2278c632583a01a0e3fb53e37cc25f26d11ca91ae056a26d7b6146e4/algoliasearch-4.0.0b9.tar.gz
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [pyLoraRFM9x]: Timeout reached during download
+[2024-04-09 10:55:48] INFO root fetch - processPackages [pyLoraRFM9x]: executing diffoscope
+[2024-04-09 10:55:48] INFO root fetch - processPackages [pyLoraRFM9x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLoraRFM9x-0.9.2.tar.gz tmp/pyLoraRFM9x-1.0.1.tar.gz --markdown 20240409/p/pyLoraRFM9x/0.9.2-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 10:55:48] WARNING root fetch - processPackages [algoliasearch]: Timeout reached during download
+[2024-04-09 10:55:48] INFO root fetch - processPackages [algoliasearch]: executing diffoscope
+[2024-04-09 10:55:48] INFO root fetch - processPackages [algoliasearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoliasearch-4.0.0b8.tar.gz tmp/algoliasearch-4.0.0b9.tar.gz --markdown 20240409/a/algoliasearch/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2024-04-09 10:55:49] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.8.3.tar.gz]
+[2024-04-09 10:55:49] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.8.4.tar.gz]
+[2024-04-09 10:55:49] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2024-04-09 10:55:49] INFO root fetch - processPackages [pyLoraRFM9x]: Remove: archive file [/home/abi/fetcher/tmp/pyLoraRFM9x-0.9.2.tar.gz]
+[2024-04-09 10:55:49] INFO root fetch - processPackages [pyLoraRFM9x]: Remove: archive file [/home/abi/fetcher/tmp/pyLoraRFM9x-1.0.1.tar.gz]
+[2024-04-09 10:55:49] INFO root fetch - main [MainThread]: End processing [pyLoraRFM9x]: success
+[2024-04-09 10:55:50] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b8.tar.gz]
+[2024-04-09 10:55:50] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b9.tar.gz]
+[2024-04-09 10:55:50] INFO root fetch - main [MainThread]: End processing [algoliasearch]: success
+[2024-04-09 10:55:50] INFO root fetch - main [MainThread]: Store serial: [22680593]
