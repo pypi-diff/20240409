@@ -9042,3 +9042,50 @@
 [2024-04-09 03:54:17] INFO root fetch - processPackages [littletable]: Remove: archive file [/home/abi/fetcher/tmp/littletable-2.2.5.tar.gz]
 [2024-04-09 03:54:17] INFO root fetch - main [MainThread]: End processing [littletable]: success
 [2024-04-09 03:54:17] INFO root fetch - main [MainThread]: Store serial: [22676580]
+[2024-04-09 03:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676580]
+[2024-04-09 03:56:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 03:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyctibius
+[2024-04-09 03:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextconsole
+[2024-04-09 03:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-speech
+[2024-04-09 03:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lqbox
+[2024-04-09 03:56:27] INFO root fetch - processPackages [nextconsole]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 03:56:27] INFO root fetch - processPackages [neon-speech]: New version: [4.3.1a3] Old Version: [4.3.1a2]
+[2024-04-09 03:56:27] INFO root fetch - processPackages [nyctibius]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-09 03:56:27] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f9/1e/81ec7eaae008ce193eef5af1c1d2cd31959ba55c82df227627bbe5cf89fc/nextconsole-0.0.7-py3-none-any.whl
+[2024-04-09 03:56:27] INFO root fetch - processPackages [lqbox]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-09 03:56:27] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/41/17/70de392ff758665e02fe87f8c6d3ac80adf2fa15688d0282a3ad6869d4cf/neon_speech-4.3.1a2.tar.gz
+[2024-04-09 03:56:27] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 03:56:27] WARNING root fetch - processPackages [neon-speech]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/fa/94/6b4735512d68318da3611429eacfcd11efcf7b314246e9deff09e522cbfb/nextconsole-0.0.8-py3-none-any.whl
+[2024-04-09 03:56:28] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/46/ba/12aeecfaed74aeda8ca8ee1f9cc876b5de12f7e663998a8b521fccb4dcc2/neon_speech-4.3.1a3.tar.gz
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/81/d6/292476bd37ee3e0ec6676f93ff4d04ed95b3cb17c9255310f5f85ba02efe/nyctibius-0.0.7.tar.gz
+[2024-04-09 03:56:28] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/ec/a8/5419abb5d9fa4467df355e0093c93a73a7e21ee8d4e95419c281c814cd8f/lqbox-2.2.0.tar.gz
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.7-py3-none-any.whl.zip tmp/nextconsole-0.0.8-py3-none-any.whl.zip --markdown 20240409/n/nextconsole/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [neon-speech]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2024-04-09 03:56:28] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-4.3.1a2.tar.gz tmp/neon_speech-4.3.1a3.tar.gz --markdown 20240409/n/neon-speech/4.3.1a2-4.3.1a3/diff.md --exclude *.pyd
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [nyctibius]: Timeout reached during download
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [lqbox]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/db/5c/8a79abbeee72a42e3ebc19d89b5c212c05a75fd32792e0220a4456117cfc/nyctibius-0.0.8.tar.gz
+[2024-04-09 03:56:28] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/5c/3e/e45867efbb0121091d4617f66072a16fb4b25dd03a049231e4c67d2db76c/lqbox-2.3.0.tar.gz
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [nyctibius]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nyctibius]: executing diffoscope
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nyctibius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyctibius-0.0.7.tar.gz tmp/nyctibius-0.0.8.tar.gz --markdown 20240409/n/nyctibius/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.7-py3-none-any.whl.zip]
+[2024-04-09 03:56:28] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.8-py3-none-any.whl.zip]
+[2024-04-09 03:56:28] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-09 03:56:28] WARNING root fetch - processPackages [lqbox]: Timeout reached during download
+[2024-04-09 03:56:28] INFO root fetch - processPackages [lqbox]: executing diffoscope
+[2024-04-09 03:56:28] INFO root fetch - processPackages [lqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqbox-2.2.0.tar.gz tmp/lqbox-2.3.0.tar.gz --markdown 20240409/l/lqbox/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-09 03:56:28] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.3.1a2.tar.gz]
+[2024-04-09 03:56:28] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.3.1a3.tar.gz]
+[2024-04-09 03:56:28] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2024-04-09 03:56:29] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.2.0.tar.gz]
+[2024-04-09 03:56:29] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.3.0.tar.gz]
+[2024-04-09 03:56:29] INFO root fetch - main [MainThread]: End processing [lqbox]: success
+[2024-04-09 03:56:29] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.7.tar.gz]
+[2024-04-09 03:56:29] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.8.tar.gz]
+[2024-04-09 03:56:29] INFO root fetch - main [MainThread]: End processing [nyctibius]: success
+[2024-04-09 03:56:29] INFO root fetch - main [MainThread]: Store serial: [22676590]
