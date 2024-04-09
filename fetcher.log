@@ -19635,3 +19635,50 @@
 [2024-04-09 10:22:10] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.1.tar.gz]
 [2024-04-09 10:22:10] INFO root fetch - main [MainThread]: End processing [litestar]: success
 [2024-04-09 10:22:10] INFO root fetch - main [MainThread]: Store serial: [22680190]
+[2024-04-09 10:24:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22680190]
+[2024-04-09 10:24:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-09 10:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riotwatcher
+[2024-04-09 10:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akeneo-connector
+[2024-04-09 10:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfuture
+[2024-04-09 10:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunholo
+[2024-04-09 10:24:19] INFO root fetch - processPackages [akeneo-connector]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-09 10:24:19] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-09 10:24:19] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-09 10:24:19] INFO root fetch - processPackages [pyfuture]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:24:20] INFO root fetch - processPackages [riotwatcher]: New version: [3.3.0] Old Version: [3.2.5]
+[2024-04-09 10:24:20] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/80/70/0ef266eb37f1edbe741ea6e064cb59ab83e055540eb4ac1ae8558ec8be10/akeneo_connector-0.1.0.tar.gz
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [pyfuture]: Downloading https://files.pythonhosted.org/packages/46/ae/ab18a26a2cbc07f2b6b188e15c1109a7c542649e38e27592def1d6e3f5db/pyfuture-0.0.8.tar.gz
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [riotwatcher]: Downloading https://files.pythonhosted.org/packages/d8/f9/7e7f2f56fd27af66158ee62eb85d330e4fe5b67f98457d44a94fcabd8022/riotwatcher-3.2.5.tar.gz
+[2024-04-09 10:24:20] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-09 10:24:20] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240409/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [riotwatcher]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/27/52/a5ce101b874638abbce319f95f3e765e9e7510554d20f20d2bcf872c1553/akeneo_connector-0.1.2.tar.gz
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [pyfuture]: Timeout reached during download
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [akeneo-connector]: executing diffoscope
+[2024-04-09 10:24:20] INFO root fetch - processPackages [akeneo-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo_connector-0.1.0.tar.gz tmp/akeneo_connector-0.1.2.tar.gz --markdown 20240409/a/akeneo-connector/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-09 10:24:20] INFO root fetch - processPackages [riotwatcher]: Downloading https://files.pythonhosted.org/packages/46/87/7823759c95ed93f329199f0739b63efd7fc5bfd336c504287f24faecc7ea/riotwatcher-3.3.0.tar.gz
+[2024-04-09 10:24:20] INFO root fetch - processPackages [pyfuture]: Downloading https://files.pythonhosted.org/packages/a2/1d/67e71a34a6ab3a0f901162b1cbfae3b8221d31099941dccbdd1265f78f08/pyfuture-0.0.9.tar.gz
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [riotwatcher]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [riotwatcher]: executing diffoscope
+[2024-04-09 10:24:20] INFO root fetch - processPackages [riotwatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotwatcher-3.2.5.tar.gz tmp/riotwatcher-3.3.0.tar.gz --markdown 20240409/r/riotwatcher/3.2.5-3.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:24:20] WARNING root fetch - processPackages [pyfuture]: Timeout reached during download
+[2024-04-09 10:24:20] INFO root fetch - processPackages [pyfuture]: executing diffoscope
+[2024-04-09 10:24:20] INFO root fetch - processPackages [pyfuture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfuture-0.0.8.tar.gz tmp/pyfuture-0.0.9.tar.gz --markdown 20240409/p/pyfuture/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:24:21] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.0.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.2.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - main [MainThread]: End processing [akeneo-connector]: success
+[2024-04-09 10:24:21] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-09 10:24:21] INFO root fetch - processPackages [pyfuture]: Remove: archive file [/home/abi/fetcher/tmp/pyfuture-0.0.8.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - processPackages [pyfuture]: Remove: archive file [/home/abi/fetcher/tmp/pyfuture-0.0.9.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - main [MainThread]: End processing [pyfuture]: success
+[2024-04-09 10:24:21] INFO root fetch - processPackages [riotwatcher]: Remove: archive file [/home/abi/fetcher/tmp/riotwatcher-3.2.5.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - processPackages [riotwatcher]: Remove: archive file [/home/abi/fetcher/tmp/riotwatcher-3.3.0.tar.gz]
+[2024-04-09 10:24:21] INFO root fetch - main [MainThread]: End processing [riotwatcher]: success
+[2024-04-09 10:24:21] INFO root fetch - main [MainThread]: Store serial: [22680211]
