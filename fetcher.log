@@ -9840,3 +9840,39 @@
 [2024-04-09 04:46:40] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.6-cp39-cp39-win_amd64.whl.zip]
 [2024-04-09 04:46:40] INFO root fetch - main [MainThread]: End processing [degirum]: success
 [2024-04-09 04:46:40] INFO root fetch - main [MainThread]: Store serial: [22676869]
+[2024-04-09 04:48:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22676869]
+[2024-04-09 04:48:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-09 04:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-invoice-validation-queued
+[2024-04-09 04:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-04-09 04:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-09 04:48:52] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-09 04:48:52] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 04:48:52] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2024-04-09 04:48:52] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-09 04:48:52] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-09 04:48:52] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 04:48:52] WARNING root fetch - processPackages [c2cciutils]: Timeout reached during download
+[2024-04-09 04:48:52] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Downloading https://files.pythonhosted.org/packages/86/71/c37a417f3326d045bff417b680d0b75996e3b9ac3a3ba39468a14b018fd4/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-04-09 04:48:52] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-09 04:48:52] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-09 04:48:52] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 04:48:52] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-09 04:48:52] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240409/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 04:48:52] WARNING root fetch - processPackages [c2cciutils]: Timeout reached during download
+[2024-04-09 04:48:52] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-09 04:48:52] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240409/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-09 04:48:52] WARNING root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Timeout reached during download
+[2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Downloading https://files.pythonhosted.org/packages/d9/cd/1326172019b014050f31aef3d8ca2205a2eb95d2b708a1770ac7703e06b5/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-09 04:48:53] WARNING root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Timeout reached during download
+[2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: executing diffoscope
+[2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240409/o/odoo14-addon-account-invoice-validation-queued/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2024-04-09 04:48:53] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-09 04:48:53] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-09 04:48:53] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-09 04:48:53] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-09 04:48:53] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-09 04:48:53] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-04-09 04:48:53] INFO root fetch - processPackages [odoo14-addon-account-invoice-validation-queued]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_validation_queued-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-09 04:48:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-validation-queued]: success
+[2024-04-09 04:48:53] INFO root fetch - main [MainThread]: Store serial: [22676875]
