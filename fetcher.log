@@ -23564,3 +23564,94 @@
 [2024-04-09 12:17:16] INFO root fetch - processPackages [fafbseg]: Remove: archive file [/home/abi/fetcher/tmp/fafbseg-3.0.6.tar.gz]
 [2024-04-09 12:17:16] INFO root fetch - main [MainThread]: End processing [fafbseg]: success
 [2024-04-09 12:17:16] INFO root fetch - main [MainThread]: Store serial: [22681716]
+[2024-04-09 12:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681716]
+[2024-04-09 12:19:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akeneo-connector
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamdl
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyindrav2h
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rke
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hltv-async-api
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mitosis
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moval
+[2024-04-09 12:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akeyless
+[2024-04-09 12:19:26] INFO root fetch - processPackages [akeneo-connector]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [gamdl]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [pyindrav2h]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [hltv-async-api]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [pulumi-rke]: New version: [3.4.0a1712653573] Old Version: [3.4.0a1712470927]
+[2024-04-09 12:19:26] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/ad/a4/d46c72c9fd4ae20458c78ce40d59f71b7984a7e04df85b43c02baa2bd285/akeneo_connector-0.1.4.tar.gz
+[2024-04-09 12:19:26] INFO root fetch - processPackages [mitosis]: New version: [0.5.0a1] Old Version: [0.4.0rc2]
+[2024-04-09 12:19:27] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/a6/59/25aa42ed1894708a1c48c3a0f8d4a5a59600e5f86207d98ee10b361b218f/gamdl-2.1.2.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pyindrav2h]: Downloading https://files.pythonhosted.org/packages/bd/fe/7f18ddbb73eb32bab99290386a8ee1e34134173be7a1c4ff9d69e1b6f662/pyindrav2h-0.0.4.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/f2/a9/13431a37dddc2a1c4e96fadb9eafcd6358d964da30eb2739f0cfb37c729c/hltv_async_api-0.4.1.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/c7/fb/b31b8c033eace87c233c1f9a5a002d78d606cc1561c92c62b9272304f7a2/pulumi_rke-3.4.0a1712470927.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeyless]: New version: [3.6.3] Old Version: [3.6.2]
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [pyindrav2h]: Timeout reached during download
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/ea/51/ada8e3fc88fc3db47db9a0ef0c1bcd9e3d30d213477bc32f00caf7466c20/mitosis-0.4.0rc2.tar.gz
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [pulumi-rke]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/d8/ce/b8e32cd57f95f4fc18fccff2b95ee0f995be18c516535958a210dff98c19/hltv_async_api-0.4.2.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/79/04/64910a0f4772e316d9d5ac9520b81adac2b6362e5cc29a02b317cae097b7/akeyless-3.6.2.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f1/97/890f3c6898b600a0038a480a0f0c2869e4fe87cf5c9fc38cc2e971532ef1/pulumi_rke-3.4.0a1712653573.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/06/d0/a9e8a744281c2b9937240b9132b7668f448cb3f5a393916f243705141e4c/akeneo_connector-0.1.5.tar.gz
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [mitosis]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pyindrav2h]: Downloading https://files.pythonhosted.org/packages/04/a1/14231854296d17016e373b5bba39a8a22a46c088f79fc2101228ab3a9fc9/pyindrav2h-0.0.5.tar.gz
+[2024-04-09 12:19:27] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/43/58/cddbb95d41533c49f7a98390d9c973a55733d70de358ac681c208216d155/gamdl-2.1.3.tar.gz
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [moval]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240409/m/moval/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.4.1.tar.gz tmp/hltv_async_api-0.4.2.tar.gz --markdown 20240409/h/hltv-async-api/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [pulumi-rke]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.4.0a1712470927.tar.gz tmp/pulumi_rke-3.4.0a1712653573.tar.gz --markdown 20240409/p/pulumi-rke/3.4.0a1712470927-3.4.0a1712653573/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [akeneo-connector]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeneo-connector]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeneo-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo_connector-0.1.4.tar.gz tmp/akeneo_connector-0.1.5.tar.gz --markdown 20240409/a/akeneo-connector/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [pyindrav2h]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pyindrav2h]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [pyindrav2h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyindrav2h-0.0.4.tar.gz tmp/pyindrav2h-0.0.5.tar.gz --markdown 20240409/p/pyindrav2h/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [gamdl]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.2.tar.gz tmp/gamdl-2.1.3.tar.gz --markdown 20240409/g/gamdl/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/c2/b6/7b554a489cb6efd79690a02f6d55ca2f7cd1b9f66195c5ff07a0ac538e4e/mitosis-0.5.0a1.tar.gz
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [akeyless]: Timeout reached during download
+[2024-04-09 12:19:27] WARNING root fetch - processPackages [mitosis]: Timeout reached during download
+[2024-04-09 12:19:27] INFO root fetch - processPackages [mitosis]: executing diffoscope
+[2024-04-09 12:19:27] INFO root fetch - processPackages [mitosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosis-0.4.0rc2.tar.gz tmp/mitosis-0.5.0a1.tar.gz --markdown 20240409/m/mitosis/0.4.0rc2-0.5.0a1/diff.md --exclude *.pyd
+[2024-04-09 12:19:27] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/5c/ec/8440676bdef6645cd04c5913a3e31b4a8311a6a9a9cfa156f730c60035f8/akeyless-3.6.3.tar.gz
+[2024-04-09 12:19:28] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.4.1.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.4.2.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.2.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.3.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [pyindrav2h]: Remove: archive file [/home/abi/fetcher/tmp/pyindrav2h-0.0.4.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [pyindrav2h]: Remove: archive file [/home/abi/fetcher/tmp/pyindrav2h-0.0.5.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [pyindrav2h]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.4.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.5.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [akeneo-connector]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712470927.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712653573.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-09 12:19:28] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.4.0rc2.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0a1.tar.gz]
+[2024-04-09 12:19:28] INFO root fetch - main [MainThread]: End processing [mitosis]: success
+[2024-04-09 12:19:28] WARNING root fetch - processPackages [akeyless]: Timeout reached during download
+[2024-04-09 12:19:28] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2024-04-09 12:19:28] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.6.2.tar.gz tmp/akeyless-3.6.3.tar.gz --markdown 20240409/a/akeyless/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2024-04-09 12:19:38] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.6.2.tar.gz]
+[2024-04-09 12:19:38] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.6.3.tar.gz]
+[2024-04-09 12:19:38] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2024-04-09 12:19:38] INFO root fetch - main [MainThread]: Store serial: [22681739]
