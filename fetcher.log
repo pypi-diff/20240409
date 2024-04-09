@@ -17125,3 +17125,53 @@
 [2024-04-09 08:52:50] INFO root fetch - processPackages [mipx]: Remove: archive file [/home/abi/fetcher/tmp/mipx-0.2.9.tar.gz]
 [2024-04-09 08:52:50] INFO root fetch - main [MainThread]: End processing [mipx]: success
 [2024-04-09 08:52:50] INFO root fetch - main [MainThread]: Store serial: [22679263]
+[2024-04-09 08:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679263]
+[2024-04-09 08:54:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-09 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabryc
+[2024-04-09 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satip
+[2024-04-09 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-09 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plants-vs-zombies
+[2024-04-09 08:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jarpcdantic
+[2024-04-09 08:54:59] INFO root fetch - processPackages [jarpcdantic]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 08:54:59] INFO root fetch - processPackages [plants-vs-zombies]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-09 08:54:59] INFO root fetch - processPackages [telegram-collector]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-09 08:54:59] WARNING root fetch - processPackages [fabryc]: Skipping, unable to determine old version
+[2024-04-09 08:54:59] INFO root fetch - main [MainThread]: End processing [fabryc] error
+[2024-04-09 08:54:59] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-09 08:54:59] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/6c/a7/3b5d2b9b501ad74857dcd09f5ec1f538b53694568a2b755adb10f909e717/plants-vs-zombies-0.0.2.tar.gz
+[2024-04-09 08:54:59] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/f7/e4/ab957b1fda1c51f32d7d92a0a6f76f22a74f649157517403a63752972440/telegram_collector-0.1.3.tar.gz
+[2024-04-09 08:54:59] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/13/88/c2c254d16058f92f02d47175119d99c981ba0a14eefade6ed951c9864bd1/jarpcdantic-0.0.4.tar.gz
+[2024-04-09 08:54:59] WARNING root fetch - processPackages [telegram-collector]: Timeout reached during download
+[2024-04-09 08:54:59] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 08:54:59] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-04-09 08:55:00] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/2b/c9/3b73606b6952851fcf1ecce30cd56680deb573b52d2934912d049dc00e26/telegram_collector-0.1.4.tar.gz
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [satip]: Timeout reached during download
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [telegram-collector]: Timeout reached during download
+[2024-04-09 08:55:00] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-09 08:55:00] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.1.3.tar.gz tmp/telegram_collector-0.1.4.tar.gz --markdown 20240409/t/telegram-collector/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-09 08:55:00] INFO root fetch - processPackages [jarpcdantic]: Downloading https://files.pythonhosted.org/packages/ca/ba/1bead02524d77078eda7b4614f5fa80009c80e74ce12513dd68af412da10/jarpcdantic-0.0.5.tar.gz
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [jarpcdantic]: Timeout reached during download
+[2024-04-09 08:55:00] INFO root fetch - processPackages [jarpcdantic]: executing diffoscope
+[2024-04-09 08:55:00] INFO root fetch - processPackages [jarpcdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarpcdantic-0.0.4.tar.gz tmp/jarpcdantic-0.0.5.tar.gz --markdown 20240409/j/jarpcdantic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 08:55:00] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-04-09 08:55:00] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/11/c0/a103d575c30fd82341280fdd31a67a84afac65ddc5e6a7b876b57654c01e/plants-vs-zombies-0.0.3.tar.gz
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [satip]: Timeout reached during download
+[2024-04-09 08:55:00] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-04-09 08:55:00] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240409/s/satip/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-09 08:55:00] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.1.3.tar.gz]
+[2024-04-09 08:55:00] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.1.4.tar.gz]
+[2024-04-09 08:55:00] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-09 08:55:00] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.4.tar.gz]
+[2024-04-09 08:55:00] INFO root fetch - processPackages [jarpcdantic]: Remove: archive file [/home/abi/fetcher/tmp/jarpcdantic-0.0.5.tar.gz]
+[2024-04-09 08:55:00] INFO root fetch - main [MainThread]: End processing [jarpcdantic]: success
+[2024-04-09 08:55:00] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 08:55:00] INFO root fetch - processPackages [plants-vs-zombies]: executing diffoscope
+[2024-04-09 08:55:00] INFO root fetch - processPackages [plants-vs-zombies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plants-vs-zombies-0.0.2.tar.gz tmp/plants-vs-zombies-0.0.3.tar.gz --markdown 20240409/p/plants-vs-zombies/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-09 08:55:01] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2024-04-09 08:55:01] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2024-04-09 08:55:01] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-04-09 08:55:03] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.2.tar.gz]
+[2024-04-09 08:55:03] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.3.tar.gz]
+[2024-04-09 08:55:03] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
+[2024-04-09 08:55:03] INFO root fetch - main [MainThread]: Store serial: [22679280]
