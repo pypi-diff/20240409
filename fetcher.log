@@ -15833,3 +15833,94 @@
 [2024-04-09 07:56:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408212734.tar.gz]
 [2024-04-09 07:56:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-09 07:56:40] INFO root fetch - main [MainThread]: Store serial: [22678775]
+[2024-04-09 07:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678775]
+[2024-04-09 07:58:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commits2pdf
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-keycloak
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuneapi
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyworxcloud
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stock-open-api
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-deployer
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refvars
+[2024-04-09 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qctrl-release-noter
+[2024-04-09 07:58:49] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1712636548] Old Version: [5.4.0a1712578930]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [commits2pdf]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [tuneapi]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [refvars]: New version: [0.2] Old Version: [0.1]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [snowflake-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [stock-open-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-09 07:58:49] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/67/d8/89e5ceeddc8bb625d09277d740281f7e173ee06e8c8cd650e315165d78bb/pulumi_keycloak-5.4.0a1712578930.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/9c/f5/2f1ba033f7decb8bed9ba709ef2789dfc61e9c0b3a761a75a6bb1ab8a783/commits2pdf-1.1.5.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2024-04-09 07:58:49] WARNING root fetch - processPackages [commits2pdf]: Timeout reached during download
+[2024-04-09 07:58:49] WARNING root fetch - processPackages [qctrl-release-noter]: Timeout reached during download
+[2024-04-09 07:58:49] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/db/17/70256322129eadbbc5c09895d4c3568546ade01f846d3216c59f6ec07ebc/tuneapi-0.2.6.tar.gz
+[2024-04-09 07:58:49] WARNING root fetch - processPackages [pyworxcloud]: Timeout reached during download
+[2024-04-09 07:58:49] WARNING root fetch - processPackages [pulumi-keycloak]: Timeout reached during download
+[2024-04-09 07:58:49] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/ec/66/a478253d3925219006059039f6a05008acc7e90698dd55616d2390e07497/stock-open-api-1.0.5.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/f7/69/e9a606174e448a7c296190acb89fcaff92da90360a668c2c9be3fd07ceca/refvars-0.1.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [snowflake-deployer]: Downloading https://files.pythonhosted.org/packages/23/aa/378082c0e8815c463894e380752fdd338aa6d978166e32e45ecd5e285610/snowflake-deployer-0.1.8.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2024-04-09 07:58:49] WARNING root fetch - processPackages [tuneapi]: Timeout reached during download
+[2024-04-09 07:58:49] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/f4/b7/efa394d38d58f1ae32ec5528f2ab90e9460768cca23446b86bd6480b37eb/commits2pdf-1.1.6.tar.gz
+[2024-04-09 07:58:49] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/8a/78/413b0acfdf2ad98a1f8f9cc14d613ebee90b587ed2a7142466f3a60ad3c5/pulumi_keycloak-5.4.0a1712636548.tar.gz
+[2024-04-09 07:58:50] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [stock-open-api]: Timeout reached during download
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [snowflake-deployer]: Timeout reached during download
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [qctrl-release-noter]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20240409/q/qctrl-release-noter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [commits2pdf]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [commits2pdf]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [commits2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commits2pdf-1.1.5.tar.gz tmp/commits2pdf-1.1.6.tar.gz --markdown 20240409/c/commits2pdf/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/42/bd/9aa764a059ea4b8c6aba277405661ee5480458500a7122c887511b4c579c/tuneapi-0.2.7.tar.gz
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [pulumi-keycloak]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1712578930.tar.gz tmp/pulumi_keycloak-5.4.0a1712636548.tar.gz --markdown 20240409/p/pulumi-keycloak/5.4.0a1712578930-5.4.0a1712636548/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [pyworxcloud]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240409/p/pyworxcloud/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/87/9c/4905f10c116186f06df9db4600f52d52ad31e0574a816769ba6f4d7634a1/stock-open-api-1.0.6.tar.gz
+[2024-04-09 07:58:50] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/fa/66/4240208e4208a3dfbf37697ab686fa4bf65397acec8a3792c3506f3d91ef/refvars-0.2.tar.gz
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [tuneapi]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.2.6.tar.gz tmp/tuneapi-0.2.7.tar.gz --markdown 20240409/t/tuneapi/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] INFO root fetch - processPackages [snowflake-deployer]: Downloading https://files.pythonhosted.org/packages/2b/51/6e1f55ca599dc7c349f8e1996c5da0b6bd56f68adfe282da0dadf2dd82df/snowflake-deployer-0.1.9.tar.gz
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [stock-open-api]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-1.0.5.tar.gz tmp/stock-open-api-1.0.6.tar.gz --markdown 20240409/s/stock-open-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [snowflake-deployer]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [snowflake-deployer]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [snowflake-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-deployer-0.1.8.tar.gz tmp/snowflake-deployer-0.1.9.tar.gz --markdown 20240409/s/snowflake-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 07:58:50] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-04-09 07:58:50] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.1.tar.gz tmp/refvars-0.2.tar.gz --markdown 20240409/r/refvars/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-09 07:58:50] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.8.0.tar.gz]
+[2024-04-09 07:58:50] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
+[2024-04-09 07:58:50] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2024-04-09 07:58:50] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.5.tar.gz]
+[2024-04-09 07:58:50] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.6.tar.gz]
+[2024-04-09 07:58:50] INFO root fetch - main [MainThread]: End processing [commits2pdf]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.2.6.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.2.7.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-1.0.5.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-1.0.6.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712578930.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712636548.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.1.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.2.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-04-09 07:58:51] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.8.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.9.tar.gz]
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: End processing [snowflake-deployer]: success
+[2024-04-09 07:58:51] INFO root fetch - main [MainThread]: Store serial: [22678798]
