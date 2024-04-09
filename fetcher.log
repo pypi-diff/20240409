@@ -21900,3 +21900,69 @@
 [2024-04-09 11:27:40] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-09 11:27:40] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-09 11:27:40] INFO root fetch - main [MainThread]: Store serial: [22681005]
+[2024-04-09 11:29:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22681005]
+[2024-04-09 11:29:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcx
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-venafi
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sindapi
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdprepview
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webscout
+[2024-04-09 11:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radix-engine-toolkit
+[2024-04-09 11:29:49] WARNING root fetch - processPackages [sindapi]: Skipping, unable to determine old version
+[2024-04-09 11:29:49] INFO root fetch - main [MainThread]: End processing [sindapi] error
+[2024-04-09 11:29:49] INFO root fetch - processPackages [dcx]: New version: [0.79.0] Old Version: [0.78.0]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [tdprepview]: New version: [1.4.0] Old Version: [1.3.2]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [webscout]: New version: [1.2.8] Old Version: [1.2.6]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [radix-engine-toolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [dcx]: Downloading https://files.pythonhosted.org/packages/13/84/a7e8078eb3fe4d5336691eebb579349f2c835c645e199917ef89577cafc5/dcx-0.78.0.tar.gz
+[2024-04-09 11:29:49] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.8.0a1712653977] Old Version: [1.8.0a1712403151]
+[2024-04-09 11:29:49] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [dcx]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [radix-engine-toolkit]: Downloading https://files.pythonhosted.org/packages/55/8e/18e8b5a768409c155ddbd0fada44cbe0164425dbe08336fb06e4124ae351/radix_engine_toolkit-1.0.8-py3-none-any.whl
+[2024-04-09 11:29:50] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/59/67/6599bedf0fe1fce2924989c3990234f15373b1a9ea01a45322f0e8095f5d/pulumi_venafi-1.8.0a1712403151.tar.gz
+[2024-04-09 11:29:50] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/99/12/cf81039e3e0037425d44a9a4b18758dac5b42f3dcdb4de4bdbe360bec771/webscout-1.2.6.tar.gz
+[2024-04-09 11:29:50] INFO root fetch - processPackages [tdprepview]: Downloading https://files.pythonhosted.org/packages/73/17/2739eca586fe50e4fdece81a8b06b0db5bc6557754a47f20df1b15d2dec0/tdprepview-1.3.2.tar.gz
+[2024-04-09 11:29:50] INFO root fetch - processPackages [dcx]: Downloading https://files.pythonhosted.org/packages/e5/73/fa1a65cefecb22800d6e2a0628a7717b76fe70c0ac878f1949d888d88cc6/dcx-0.79.0.tar.gz
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [tbp-nightly]: Timeout reached during download
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [dcx]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [dcx]: executing diffoscope
+[2024-04-09 11:29:50] INFO root fetch - processPackages [dcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcx-0.78.0.tar.gz tmp/dcx-0.79.0.tar.gz --markdown 20240409/d/dcx/0.78.0-0.79.0/diff.md --exclude *.pyd
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [webscout]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [tdprepview]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/b1/a6/69c619f4e5e9c342d04807bb7ea6546d490919a756c42fdf69ad17a588c8/pulumi_venafi-1.8.0a1712653977.tar.gz
+[2024-04-09 11:29:50] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/ba/71/28645066e266b3ddf983c04191991ce3c7a8bb5c9be5078626d61cae1a09/webscout-1.2.8.tar.gz
+[2024-04-09 11:29:50] INFO root fetch - processPackages [tdprepview]: Downloading https://files.pythonhosted.org/packages/63/db/3a0edf4d775ee3a2457bc0948bc99dfd444749b6b43ac3e53b4392df8f1c/tdprepview-1.4.0.tar.gz
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-09 11:29:50] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.8.0a1712403151.tar.gz tmp/pulumi_venafi-1.8.0a1712653977.tar.gz --markdown 20240409/p/pulumi-venafi/1.8.0a1712403151-1.8.0a1712653977/diff.md --exclude *.pyd
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [webscout]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-04-09 11:29:50] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.2.6.tar.gz tmp/webscout-1.2.8.tar.gz --markdown 20240409/w/webscout/1.2.6-1.2.8/diff.md --exclude *.pyd
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [radix-engine-toolkit]: Skipping package: exceeds size limit 27829199>=10485760
+[2024-04-09 11:29:50] INFO root fetch - main [MainThread]: End processing [radix-engine-toolkit] error
+[2024-04-09 11:29:50] WARNING root fetch - processPackages [tdprepview]: Timeout reached during download
+[2024-04-09 11:29:50] INFO root fetch - processPackages [tdprepview]: executing diffoscope
+[2024-04-09 11:29:50] INFO root fetch - processPackages [tdprepview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdprepview-1.3.2.tar.gz tmp/tdprepview-1.4.0.tar.gz --markdown 20240409/t/tdprepview/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2024-04-09 11:29:51] INFO root fetch - processPackages [dcx]: Remove: archive file [/home/abi/fetcher/tmp/dcx-0.78.0.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - processPackages [dcx]: Remove: archive file [/home/abi/fetcher/tmp/dcx-0.79.0.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - main [MainThread]: End processing [dcx]: success
+[2024-04-09 11:29:51] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712403151.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712653977.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-09 11:29:51] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.2.6.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.2.8.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-04-09 11:29:51] INFO root fetch - processPackages [tdprepview]: Remove: archive file [/home/abi/fetcher/tmp/tdprepview-1.3.2.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - processPackages [tdprepview]: Remove: archive file [/home/abi/fetcher/tmp/tdprepview-1.4.0.tar.gz]
+[2024-04-09 11:29:51] INFO root fetch - main [MainThread]: End processing [tdprepview]: success
+[2024-04-09 11:29:51] WARNING root fetch - processPackages [tbp-nightly]: Timeout reached during download
+[2024-04-09 11:29:51] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-09 11:29:51] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240409/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2024-04-09 11:29:53] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-09 11:29:53] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-09 11:29:53] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-09 11:29:53] INFO root fetch - main [MainThread]: Store serial: [22681026]
