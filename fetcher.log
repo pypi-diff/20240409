@@ -17639,3 +17639,119 @@
 [2024-04-09 09:10:42] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.9.tar.gz]
 [2024-04-09 09:10:42] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
 [2024-04-09 09:10:42] INFO root fetch - main [MainThread]: Store serial: [22679451]
+[2024-04-09 09:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679451]
+[2024-04-09 09:12:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbirthday
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esp-matter-mfg-tool
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nxsconfigserver-db
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ns-asphalt9
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: power-grid-model
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karbonn
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refvars
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FPC
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: httpfloat
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: line-web
+[2024-04-09 09:12:52] INFO root fetch - processPackages [refvars]: New version: [0.3] Old Version: [0.2]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [line-web]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [unbirthday]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/fa/66/4240208e4208a3dfbf37697ab686fa4bf65397acec8a3792c3506f3d91ef/refvars-0.2.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [nxsconfigserver-db]: New version: [1.10.5] Old Version: [1.10.4]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [karbonn]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [esp-matter-mfg-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [httpfloat]: Skipping, unable to determine old version
+[2024-04-09 09:12:52] INFO root fetch - processPackages [httpfloat]: Start processing: plants-vs-zombies
+[2024-04-09 09:12:52] INFO root fetch - main [MainThread]: End processing [httpfloat] error
+[2024-04-09 09:12:52] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/05/cc/a85b7e63ac0cf453ed8c4f0586ca235d1e131da0d1893d0e8404c6d9c0f1/line-web-0.0.3.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ns-asphalt9]: New version: [3.2.0] Old Version: [3.1.7]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-09 09:12:52] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/ca/e9/e86e02305f0a8db887d9c90ddcb1b870af71229180b1a0ee355a5171eff6/unbirthday-1.0.tar.gz
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:12:52] INFO root fetch - processPackages [plants-vs-zombies]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:12:52] INFO root fetch - processPackages [nxsconfigserver-db]: Downloading https://files.pythonhosted.org/packages/13/84/621acad8b87a1171d071484f66d6e3909ba21584a47dc13046ca996aa117/nxsconfigserver-db-1.10.4.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [esp-matter-mfg-tool]: Downloading https://files.pythonhosted.org/packages/2c/7b/c8b6c3560527728690737e9265d779137c17d31fadcd900d0de2844ddf04/esp-matter-mfg-tool-1.0.0.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [karbonn]: Downloading https://files.pythonhosted.org/packages/7e/32/0548c6b313efaa1dfc44df0f6528f6c58092b30ac273510ae8e6b46bc55a/karbonn-0.0.1a1.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/70/20/f22e04dfeb9d590695c7ad5717bb26a6ac77e63ff03a453bca0040e326e1/ns_asphalt9-3.1.7.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/f9/16/13d610e3f05fa106ac270f4ce13746390e06078a02c105ba92d067801a5b/unbirthday-1.0.1-py3-none-any.whl
+[2024-04-09 09:12:52] INFO root fetch - processPackages [line-web]: Downloading https://files.pythonhosted.org/packages/4c/39/39a4a08720aa03a8e482db03b438172d9169936a240a8c78ce1be299604e/line-web-0.0.4.tar.gz
+[2024-04-09 09:12:52] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/49/93/e4e460865bb8933ef3d58974ee13fbd8dc40d56103ae4367b4db293a3345/refvars-0.3-py3-none-any.whl
+[2024-04-09 09:12:52] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/77/64/ea582628082fea6186e8a3262c1e0e1cd8412543edf0655d9101f145f123/plants-vs-zombies-0.0.4.tar.gz
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [unbirthday]: Timeout reached during download
+[2024-04-09 09:12:52] INFO root fetch - processPackages [unbirthday]: executing diffoscope
+[2024-04-09 09:12:52] INFO root fetch - processPackages [unbirthday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbirthday-1.0.tar.gz tmp/unbirthday-1.0.1-py3-none-any.whl.zip --markdown 20240409/u/unbirthday/1.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [nxsconfigserver-db]: Timeout reached during download
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [line-web]: Timeout reached during download
+[2024-04-09 09:12:52] INFO root fetch - processPackages [line-web]: executing diffoscope
+[2024-04-09 09:12:52] INFO root fetch - processPackages [line-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-web-0.0.3.tar.gz tmp/line-web-0.0.4.tar.gz --markdown 20240409/l/line-web/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [refvars]: Timeout reached during download
+[2024-04-09 09:12:52] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-04-09 09:12:52] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.2.tar.gz tmp/refvars-0.3-py3-none-any.whl.zip --markdown 20240409/r/refvars/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-09 09:12:52] WARNING root fetch - processPackages [esp-matter-mfg-tool]: Timeout reached during download
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [karbonn]: Timeout reached during download
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [FPC]: Timeout reached during download
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [ns-asphalt9]: Timeout reached during download
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [power-grid-model]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [nxsconfigserver-db]: Downloading https://files.pythonhosted.org/packages/24/af/41ef0a8879b461d991a0990ac975021642417e3f69fe4ccbd27975a3f0b8/nxsconfigserver-db-1.10.5.tar.gz
+[2024-04-09 09:12:53] INFO root fetch - processPackages [esp-matter-mfg-tool]: Downloading https://files.pythonhosted.org/packages/a6/80/1288d837a4f79d438d79d012897f99a0e0daee429a96849a6d07c641980e/esp-matter-mfg-tool-1.0.1.tar.gz
+[2024-04-09 09:12:53] INFO root fetch - processPackages [karbonn]: Downloading https://files.pythonhosted.org/packages/b1/00/c127e19c70109afa4644f36b966520c4f27da667983cb027bcab99d50b35/karbonn-0.0.1a2.tar.gz
+[2024-04-09 09:12:53] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2024-04-09 09:12:53] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/13/8b/5958b1eb1182b4bb20b22254e4f234bba79678ca3b7ebb94c78532b62a46/ns_asphalt9-3.2.0.tar.gz
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [nxsconfigserver-db]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [nxsconfigserver-db]: executing diffoscope
+[2024-04-09 09:12:53] INFO root fetch - processPackages [nxsconfigserver-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxsconfigserver-db-1.10.4.tar.gz tmp/nxsconfigserver-db-1.10.5.tar.gz --markdown 20240409/n/nxsconfigserver-db/1.10.4-1.10.5/diff.md --exclude *.pyd
+[2024-04-09 09:12:53] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [esp-matter-mfg-tool]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [esp-matter-mfg-tool]: executing diffoscope
+[2024-04-09 09:12:53] INFO root fetch - processPackages [esp-matter-mfg-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-matter-mfg-tool-1.0.0.tar.gz tmp/esp-matter-mfg-tool-1.0.1.tar.gz --markdown 20240409/e/esp-matter-mfg-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [karbonn]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [karbonn]: executing diffoscope
+[2024-04-09 09:12:53] INFO root fetch - processPackages [karbonn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karbonn-0.0.1a1.tar.gz tmp/karbonn-0.0.1a2.tar.gz --markdown 20240409/k/karbonn/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [ns-asphalt9]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2024-04-09 09:12:53] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-3.1.7.tar.gz tmp/ns_asphalt9-3.2.0.tar.gz --markdown 20240409/n/ns-asphalt9/3.1.7-3.2.0/diff.md --exclude *.pyd
+[2024-04-09 09:12:53] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.tar.gz]
+[2024-04-09 09:12:53] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.1-py3-none-any.whl.zip]
+[2024-04-09 09:12:53] INFO root fetch - main [MainThread]: End processing [unbirthday]: success
+[2024-04-09 09:12:53] INFO root fetch - processPackages [plants-vs-zombies]: Downloading https://files.pythonhosted.org/packages/2c/31/9e2272bea85ef159bd3037756cb03d0f2717613e621e0666237da2b8a9b2/plants_vs_zombies-0.0.5-py3-none-any.whl
+[2024-04-09 09:12:53] WARNING root fetch - processPackages [power-grid-model]: Timeout reached during download
+[2024-04-09 09:12:53] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-09 09:12:53] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240409/p/power-grid-model/1.7.8a1374103622511-1.7.9/diff.md --exclude *.pyd
+[2024-04-09 09:12:53] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.3.tar.gz]
+[2024-04-09 09:12:53] INFO root fetch - processPackages [line-web]: Remove: archive file [/home/abi/fetcher/tmp/line-web-0.0.4.tar.gz]
+[2024-04-09 09:12:53] INFO root fetch - main [MainThread]: End processing [line-web]: success
+[2024-04-09 09:12:53] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.2.tar.gz]
+[2024-04-09 09:12:53] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.3-py3-none-any.whl.zip]
+[2024-04-09 09:12:53] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-04-09 09:12:54] INFO root fetch - processPackages [nxsconfigserver-db]: Remove: archive file [/home/abi/fetcher/tmp/nxsconfigserver-db-1.10.4.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - processPackages [nxsconfigserver-db]: Remove: archive file [/home/abi/fetcher/tmp/nxsconfigserver-db-1.10.5.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - main [MainThread]: End processing [nxsconfigserver-db]: success
+[2024-04-09 09:12:54] INFO root fetch - processPackages [esp-matter-mfg-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-matter-mfg-tool-1.0.0.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - processPackages [esp-matter-mfg-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-matter-mfg-tool-1.0.1.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - main [MainThread]: End processing [esp-matter-mfg-tool]: success
+[2024-04-09 09:12:54] WARNING root fetch - processPackages [FPC]: Timeout reached during download
+[2024-04-09 09:12:54] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2024-04-09 09:12:54] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20240409/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-09 09:12:54] INFO root fetch - processPackages [karbonn]: Remove: archive file [/home/abi/fetcher/tmp/karbonn-0.0.1a1.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - processPackages [karbonn]: Remove: archive file [/home/abi/fetcher/tmp/karbonn-0.0.1a2.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - main [MainThread]: End processing [karbonn]: success
+[2024-04-09 09:12:54] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.1.7.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.2.0.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2024-04-09 09:12:54] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2024-04-09 09:12:54] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2024-04-09 09:12:55] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-09 09:12:55] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-09 09:12:55] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-09 09:12:55] WARNING root fetch - processPackages [plants-vs-zombies]: Timeout reached during download
+[2024-04-09 09:12:55] INFO root fetch - processPackages [plants-vs-zombies]: executing diffoscope
+[2024-04-09 09:12:55] INFO root fetch - processPackages [plants-vs-zombies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plants-vs-zombies-0.0.4.tar.gz tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip --markdown 20240409/p/plants-vs-zombies/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-09 09:12:56] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants-vs-zombies-0.0.4.tar.gz]
+[2024-04-09 09:12:56] INFO root fetch - processPackages [plants-vs-zombies]: Remove: archive file [/home/abi/fetcher/tmp/plants_vs_zombies-0.0.5-py3-none-any.whl.zip]
+[2024-04-09 09:12:56] INFO root fetch - main [MainThread]: End processing [plants-vs-zombies]: success
+[2024-04-09 09:12:56] INFO root fetch - main [MainThread]: Store serial: [22679487]
