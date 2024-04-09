@@ -14293,3 +14293,20 @@
 [2024-04-09 06:30:55] INFO root fetch - processPackages [slidge]: Remove: archive file [/home/abi/fetcher/tmp/slidge-0.1.0rc1.tar.gz]
 [2024-04-09 06:30:55] INFO root fetch - main [MainThread]: End processing [slidge]: success
 [2024-04-09 06:30:55] INFO root fetch - main [MainThread]: Store serial: [22678220]
+[2024-04-09 06:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22678220]
+[2024-04-09 06:33:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-09 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytiqs
+[2024-04-09 06:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advcalc
+[2024-04-09 06:33:04] INFO root fetch - processPackages [advcalc]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-09 06:33:04] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/d5/fd/9da6359bd2ea1758d6ac7abdffaf4446bc37e8c39761099eb60de508a646/advcalc-0.1.7.tar.gz
+[2024-04-09 06:33:04] WARNING root fetch - processPackages [pytiqs]: Skipping, unable to determine old version
+[2024-04-09 06:33:04] INFO root fetch - main [MainThread]: End processing [pytiqs] error
+[2024-04-09 06:33:04] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-09 06:33:04] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/80/cd/5884aaa36ba518c9784c7a58b3e565036d098c9aae7c00b408ab595593d3/advcalc-0.1.8.tar.gz
+[2024-04-09 06:33:04] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-09 06:33:04] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-09 06:33:04] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.1.7.tar.gz tmp/advcalc-0.1.8.tar.gz --markdown 20240409/a/advcalc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-09 06:33:05] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.7.tar.gz]
+[2024-04-09 06:33:05] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.8.tar.gz]
+[2024-04-09 06:33:05] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-09 06:33:05] INFO root fetch - main [MainThread]: Store serial: [22678228]
