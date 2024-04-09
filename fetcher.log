@@ -19066,3 +19066,88 @@
 [2024-04-09 10:02:25] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.3.0.tar.gz]
 [2024-04-09 10:02:25] INFO root fetch - main [MainThread]: End processing [shimoku]: success
 [2024-04-09 10:02:25] INFO root fetch - main [MainThread]: Store serial: [22679978]
+[2024-04-09 10:04:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22679978]
+[2024-04-09 10:04:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shimoku
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shimoku-browser
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssh-ca-cli
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagedata-format-biff
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaartmaker
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langfun
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: piwiPre
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: item-matching
+[2024-04-09 10:04:34] INFO root fetch - processPackages [shimoku]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [shimoku-browser]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [imagedata-format-biff]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240408] Old Version: [0.0.2.dev20240407]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [kaartmaker]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 10:04:34] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/49/89/6f119c37f3af034dd585396f27eefb46b390f7fa46eab42a70e1361965eb/shimoku-2.3.0.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/5d/ac/86eb73ad6c3f586b299d6d0526359184daf3285019a8d73ee0c53bf49a0d/ssh_ca_cli-0.8.0.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [imagedata-format-biff]: Downloading https://files.pythonhosted.org/packages/68/fb/e2377ba3641591bf531d6ba3b02acf524ce1150e6e25f0f78f185d8ab679/imagedata_format_biff-0.0.6.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/4b/cf/44676842a93bfa119a2ce77644d1db468a13433b89ee48cb603b2de398cf/shimoku-browser-2.2.3.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-09 10:04:34] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/4a/7d/84b5af4be1acf1bcc72457e4b177b1ee0794c39d4df8cca9dd93688a76eb/langfun-0.0.2.dev20240407.tar.gz
+[2024-04-09 10:04:34] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [kaartmaker]: Downloading https://files.pythonhosted.org/packages/93/4e/31e8cfb3b6f5f9417ddd8fdeced2dcdba6037a82483f4dde36636773e732/kaartmaker-0.1.2.tar.gz
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [shimoku-browser]: Timeout reached during download
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [imagedata-format-biff]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/ce/13/7c87b51de6af9b7db6cfa09019a1ea03840b43fbfd18b611f3a71860e0e2/ssh_ca_cli-0.9.0.tar.gz
+[2024-04-09 10:04:35] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-09 10:04:35] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/1c/5b/60bdb8fcf7dac160ed6b8aac81050df63fc824cc3d884352ed2d16802a68/shimoku-browser-2.3.0.tar.gz
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/1e/8a/d854ff2cdcdc74c1f54f309989b947d3531b6724e79d9fd4f8cd2a039fcd/shimoku-2.3.1.tar.gz
+[2024-04-09 10:04:35] INFO root fetch - processPackages [imagedata-format-biff]: Downloading https://files.pythonhosted.org/packages/6b/48/590c17971b99e857f9de37a692e86f0fc1fafe4f43ed5b48684d2d56d9a8/imagedata_format_biff-0.0.8.tar.gz
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.8.0.tar.gz tmp/ssh_ca_cli-0.9.0.tar.gz --markdown 20240409/s/ssh-ca-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240409/p/piwiPre/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/f8/0c/e5b7c97bb7071d6e7f9125eecd5efa42e630e1c1a82d8231fc4415d8ca53/langfun-0.0.2.dev20240408.tar.gz
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [kaartmaker]: Skipping package: exceeds size limit 15838258>=10485760
+[2024-04-09 10:04:35] INFO root fetch - main [MainThread]: End processing [kaartmaker] error
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240409/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [shimoku-browser]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku-browser]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-browser-2.2.3.tar.gz tmp/shimoku-browser-2.3.0.tar.gz --markdown 20240409/s/shimoku-browser/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [shimoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-2.3.0.tar.gz tmp/shimoku-2.3.1.tar.gz --markdown 20240409/s/shimoku/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240407.tar.gz tmp/langfun-0.0.2.dev20240408.tar.gz --markdown 20240409/l/langfun/0.0.2.dev20240407-0.0.2.dev20240408/diff.md --exclude *.pyd
+[2024-04-09 10:04:35] WARNING root fetch - processPackages [imagedata-format-biff]: Timeout reached during download
+[2024-04-09 10:04:35] INFO root fetch - processPackages [imagedata-format-biff]: executing diffoscope
+[2024-04-09 10:04:35] INFO root fetch - processPackages [imagedata-format-biff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagedata_format_biff-0.0.6.tar.gz tmp/imagedata_format_biff-0.0.8.tar.gz --markdown 20240409/i/imagedata-format-biff/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2024-04-09 10:04:36] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.8.0.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.9.0.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [imagedata-format-biff]: Remove: archive file [/home/abi/fetcher/tmp/imagedata_format_biff-0.0.6.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [imagedata-format-biff]: Remove: archive file [/home/abi/fetcher/tmp/imagedata_format_biff-0.0.8.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [imagedata-format-biff]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240407.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240408.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.3.0.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.3.1.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [shimoku]: success
+[2024-04-09 10:04:36] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.2.3.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.3.0.tar.gz]
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: End processing [shimoku-browser]: success
+[2024-04-09 10:04:36] INFO root fetch - main [MainThread]: Store serial: [22680002]
