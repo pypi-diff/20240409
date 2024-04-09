@@ -3164,3 +3164,88 @@
 [2024-04-09 02:22:19] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
 [2024-04-09 02:22:19] INFO root fetch - main [MainThread]: End processing [semgrep]: success
 [2024-04-09 02:22:19] INFO root fetch - main [MainThread]: Store serial: [22674872]
+[2024-04-09 02:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674872]
+[2024-04-09 02:24:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sf-hamilton
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-tweet-queue
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hebill
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: floggit
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: attotree
+[2024-04-09 02:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-certbot-dns-route53
+[2024-04-09 02:24:28] INFO root fetch - processPackages [attotree]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.420] Old Version: [2.1.419]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [floggit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/f6/1b/35c73a17a1d6edbeff3153f400f418506f5c606a1031edbd89bbe3da67f4/cdk-cr-constructs-2.1.419.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [attotree]: Downloading https://files.pythonhosted.org/packages/e2/7e/d84cc48a020aaa4c99e03e12326e286a36a1b780d34dc50e42aa11e4c72d/attotree-0.1.2.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [hebill]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [floggit]: Downloading https://files.pythonhosted.org/packages/65/65/0975363734e4f3e5c92a979a7258d5ceb372a8c85436caf5e56e2f874297/floggit-0.0.8.tar.gz
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15081404>=10485760
+[2024-04-09 02:24:28] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-09 02:24:28] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.98] Old Version: [2.4.97]
+[2024-04-09 02:24:28] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [attotree]: Timeout reached during download
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [floggit]: Timeout reached during download
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:24:28] INFO root fetch - processPackages [attotree]: Downloading https://files.pythonhosted.org/packages/ed/5d/19527df81895e474b859878b22e59a3581d9d46cb3c0f236aeb5eb0473b5/attotree-0.1.3.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [floggit]: Downloading https://files.pythonhosted.org/packages/ef/14/6628c5399cbc7c4dc6dabc26eb9c8da6e20a9ae6a3903cbc0ac1df16b926/floggit-0.0.9.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/74/10/53bd8945121fd644d8aa5f803a5972c68bef8f5b74b2bc0c75fd2c255d73/hebill-1.1.0.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/e2/d5/e4dd629f1bda71e18ea4a18d3ad49b8369d944f01f535776a491e1173719/cdk-certbot-dns-route53-2.4.97.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-04-09 02:24:28] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [attotree]: Timeout reached during download
+[2024-04-09 02:24:28] INFO root fetch - processPackages [attotree]: executing diffoscope
+[2024-04-09 02:24:28] INFO root fetch - processPackages [attotree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attotree-0.1.2.tar.gz tmp/attotree-0.1.3.tar.gz --markdown 20240409/a/attotree/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [floggit]: Timeout reached during download
+[2024-04-09 02:24:28] INFO root fetch - processPackages [floggit]: executing diffoscope
+[2024-04-09 02:24:28] INFO root fetch - processPackages [floggit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floggit-0.0.8.tar.gz tmp/floggit-0.0.9.tar.gz --markdown 20240409/f/floggit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:24:28] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-09 02:24:28] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240409/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [sf-hamilton]: Timeout reached during download
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-09 02:24:28] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-09 02:24:28] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/4a/38/5664bb5743002661e0b6187d20304de4677da94fdb1a348b4129f551c091/hebill-1.1.1.tar.gz
+[2024-04-09 02:24:29] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-09 02:24:29] WARNING root fetch - processPackages [hebill]: Timeout reached during download
+[2024-04-09 02:24:29] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-09 02:24:29] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.0.tar.gz tmp/hebill-1.1.1.tar.gz --markdown 20240409/h/hebill/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-09 02:24:29] WARNING root fetch - processPackages [sf-hamilton]: Timeout reached during download
+[2024-04-09 02:24:29] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-04-09 02:24:29] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240409/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2024-04-09 02:24:29] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.97.tar.gz tmp/cdk-certbot-dns-route53-2.4.98.tar.gz --markdown 20240409/c/cdk-certbot-dns-route53/2.4.97-2.4.98/diff.md --exclude *.pyd
+[2024-04-09 02:24:29] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240409/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:24:29] INFO root fetch - processPackages [attotree]: Remove: archive file [/home/abi/fetcher/tmp/attotree-0.1.2.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [attotree]: Remove: archive file [/home/abi/fetcher/tmp/attotree-0.1.3.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [attotree]: success
+[2024-04-09 02:24:29] INFO root fetch - processPackages [floggit]: Remove: archive file [/home/abi/fetcher/tmp/floggit-0.0.8.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [floggit]: Remove: archive file [/home/abi/fetcher/tmp/floggit-0.0.9.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [floggit]: success
+[2024-04-09 02:24:29] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.97.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-09 02:24:29] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.0.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.1.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-09 02:24:29] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-09 02:24:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-04-09 02:24:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-04-09 02:24:30] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-04-09 02:24:30] INFO root fetch - main [MainThread]: Store serial: [22674898]
