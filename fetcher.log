@@ -3249,3 +3249,108 @@
 [2024-04-09 02:24:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
 [2024-04-09 02:24:30] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2024-04-09 02:24:30] INFO root fetch - main [MainThread]: Store serial: [22674898]
+[2024-04-09 02:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22674898]
+[2024-04-09 02:26:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defog
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syllogistic
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Explicit
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhostprep
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-serverless-clamscan
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NMODL-nightly
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: galileo-protect
+[2024-04-09 02:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autopipeline
+[2024-04-09 02:26:39] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [syllogistic]: Skipping, unable to determine old version
+[2024-04-09 02:26:39] INFO root fetch - main [MainThread]: End processing [syllogistic] error
+[2024-04-09 02:26:39] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.0rc1] Old Version: [4.6.0rc1]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [galileo-protect]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/9f/e0/1098ea9758ecc7f61913371bf474a90c05b19a0fc6dba09ca30d9bbb0dd5/Geode_Explicit-4.6.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-09 02:26:39] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [defog]: Timeout reached during download
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [pyhostprep]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/17/58/1e2a0e1e59feea9214fa7c8aac1419ac097a4d1fb4cabcb22666e0f3554a/galileo_protect-0.2.0.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [galileo-protect]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Timeout reached during download
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [Geode-Explicit]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240409/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [pyhostprep]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-04-09 02:26:39] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240409/p/pyhostprep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [defog]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [defog]: executing diffoscope
+[2024-04-09 02:26:39] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20240409/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-09 02:26:39] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/15/99/f9aa666635300ca6fda7834df829b7fc63d2de5ca7226abe985483971732/Geode_Explicit-4.7.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-09 02:26:39] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240409/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 02:26:39] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/a7/6a/2059f20dbf61f340a18b1440fc3e5a03693a1d93753c2173390cd3632035/galileo_protect-0.3.0.tar.gz
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-09 02:26:39] WARNING root fetch - processPackages [galileo-protect]: Timeout reached during download
+[2024-04-09 02:26:39] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-04-09 02:26:39] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.2.0.tar.gz tmp/galileo_protect-0.3.0.tar.gz --markdown 20240409/g/galileo-protect/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-09 02:26:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-09 02:26:40] WARNING root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Timeout reached during download
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240409/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-09 02:26:40] WARNING root fetch - processPackages [Geode-Explicit]: Timeout reached during download
+[2024-04-09 02:26:40] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-09 02:26:40] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.6.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.7.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240409/G/Geode-Explicit/4.6.0rc1-4.7.0rc1/diff.md --exclude *.pyd
+[2024-04-09 02:26:40] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240409/c/cdk-serverless-clamscan/2.6.98-2.6.99/diff.md --exclude *.pyd
+[2024-04-09 02:26:40] WARNING root fetch - processPackages [NMODL-nightly]: Timeout reached during download
+[2024-04-09 02:26:40] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.2.0.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.3.0.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-09 02:26:40] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-09 02:26:40] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-09 02:26:41] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-09 02:26:41] WARNING root fetch - processPackages [NMODL-nightly]: Timeout reached during download
+[2024-04-09 02:26:41] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-09 02:26:41] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240409:/home/abi/fetcher/20240409:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240409/N/NMODL-nightly/0.6.93-0.6.98/diff.md --exclude *.pyd
+[2024-04-09 02:27:04] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.6.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 02:27:04] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-09 02:27:04] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-09 02:28:31] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 02:28:31] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-09 02:28:31] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-09 02:28:31] INFO root fetch - main [MainThread]: Store serial: [22674937]
